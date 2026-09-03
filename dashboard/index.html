@@ -3,185 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Agent OS — @garvit.irl</title>
+  <title>Content Agent Dashboard — @garvit.irl</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="glow-bg"></div>
-
-  <header class="navbar">
-    <div class="brand">
-      <div class="logo-icon">🤖</div>
-      <div class="brand-text">
-        <h1>Content Agent Operating System</h1>
-        <p class="subtitle">Multi-Agent Intelligence Suite for Instagram Growth</p>
-      </div>
-    </div>
-    <div class="header-meta">
-      <span class="live-badge"><span class="pulse-dot"></span> LIVE SYSTEM</span>
-      <span class="meta-tag" id="data-ts">Updating...</span>
-      <span class="account-tag">@garvit.irl</span>
-    </div>
-  </header>
-
-  <main class="container">
-
-    <!-- Stats Bar -->
-    <section id="stats-bar" class="stats-bar"></section>
-
-    <!-- 5 AI Agents Grid -->
-    <div class="section-header">
-      <h2 class="section-title">✨ Active AI Agent Squad (5 Agents)</h2>
-      <span class="status-indicator">All Systems Operational</span>
-    </div>
-    <section class="agents-grid">
-
-      <!-- Ideator -->
-      <div class="agent-card">
-        <div class="agent-head">
-          <div class="agent-name-group">
-            <span class="agent-icon">💡</span>
-            <div>
-              <div class="agent-name">Ideator Agent</div>
-              <div class="agent-role">Scouts viral topics &amp; competitor hooks</div>
-            </div>
-          </div>
-          <span class="agent-status-badge">LIVE AI</span>
-        </div>
-        <div class="agent-output" id="preview-ideator">Loading...</div>
-        <button class="view-btn" data-agent="ideator" data-title="Ideator Agent — Content Ideas">View Full Output →</button>
-        <div class="agent-footer"><span>Status: Synchronized</span><span>Auto-reporting to Telegram</span></div>
-      </div>
-
-      <!-- Hook & Script -->
-      <div class="agent-card">
-        <div class="agent-head">
-          <div class="agent-name-group">
-            <span class="agent-icon">✍️</span>
-            <div>
-              <div class="agent-name">Hook &amp; Script Agent</div>
-              <div class="agent-role">Drafts viral video scripts &amp; captions</div>
-            </div>
-          </div>
-          <span class="agent-status-badge">LIVE AI</span>
-        </div>
-        <div class="agent-output" id="preview-hook_script">Loading...</div>
-        <button class="view-btn" data-agent="hook_script" data-title="Hook &amp; Script Agent — Full Scripts">View Full Output →</button>
-        <div class="agent-footer"><span>Status: Synchronized</span><span>Auto-reporting to Telegram</span></div>
-      </div>
-
-      <!-- Planner -->
-      <div class="agent-card">
-        <div class="agent-head">
-          <div class="agent-name-group">
-            <span class="agent-icon">📅</span>
-            <div>
-              <div class="agent-name">Planner Agent</div>
-              <div class="agent-role">Schedules daily calendar &amp; posting times</div>
-            </div>
-          </div>
-          <span class="agent-status-badge">LIVE AI</span>
-        </div>
-        <div class="agent-output" id="preview-planner">Loading...</div>
-        <button class="view-btn" data-agent="planner" data-title="Planner Agent — 7-Day Calendar">View Full Output →</button>
-        <div class="agent-footer"><span>Status: Synchronized</span><span>Auto-reporting to Telegram</span></div>
-      </div>
-
-      <!-- Analyst -->
-      <div class="agent-card">
-        <div class="agent-head">
-          <div class="agent-name-group">
-            <span class="agent-icon">📊</span>
-            <div>
-              <div class="agent-name">Analyst Agent</div>
-              <div class="agent-role">Calculates ROI, engagement &amp; niche metrics</div>
-            </div>
-          </div>
-          <span class="agent-status-badge">LIVE AI</span>
-        </div>
-        <div class="agent-output" id="preview-analyst">Loading...</div>
-        <button class="view-btn" data-agent="analyst" data-title="Analyst Agent — Performance Analysis">View Full Output →</button>
-        <div class="agent-footer"><span>Status: Synchronized</span><span>Auto-reporting to Telegram</span></div>
-      </div>
-
-      <!-- DM Manager -->
-      <div class="agent-card">
-        <div class="agent-head">
-          <div class="agent-name-group">
-            <span class="agent-icon">💬</span>
-            <div>
-              <div class="agent-name">DM Manager Agent</div>
-              <div class="agent-role">Automates lead magnets &amp; comment triggers</div>
-            </div>
-          </div>
-          <span class="agent-status-badge">LIVE AI</span>
-        </div>
-        <div class="agent-output" id="preview-dm_manager">Loading...</div>
-        <button class="view-btn" data-agent="dm_manager" data-title="DM Manager Agent — Reply Drafts">View Full Output →</button>
-        <div class="agent-footer"><span>Status: Synchronized</span><span>Auto-reporting to Telegram</span></div>
-      </div>
-
-    </section>
-
-    <!-- 7-Day Calendar -->
-    <div class="section-header">
-      <h2 class="section-title">📅 7-Day Strategy &amp; Calendar Planner</h2>
-      <span class="status-indicator">Optimized for 7:00 PM IST</span>
-    </div>
-    <section id="calendar-strip" class="calendar-strip"></section>
-
-    <!-- Competitor Table -->
-    <div class="section-header">
-      <h2 class="section-title">🏆 Niche Competitor Benchmarks</h2>
-      <span class="status-indicator">8 Competitors Tracked</span>
-    </div>
-    <section class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Account</th>
-            <th>Followers</th>
-            <th>Avg Likes / Post</th>
-            <th>Avg Comments</th>
-            <th>Top Post Likes</th>
-          </tr>
-        </thead>
-        <tbody id="competitor-tbody">
-          <tr><td colspan="5" style="text-align:center;opacity:.6;">Loading competitor data...</td></tr>
-        </tbody>
-      </table>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Content Agent Dashboard &bull; Powered by Antigravity Multi-Agent Engine &bull; Reporting to Telegram</p>
-  </footer>
-
-  <!-- Full-Output Modal -->
-  <div id="agent-modal" style="display:none; position:fixed; inset:0;
-       background:rgba(0,0,0,0.88); z-index:9999;
-       align-items:center; justify-content:center; padding:20px;">
-    <div style="background:#1a1a2e; border:1px solid #7c3aed; border-radius:16px;
-                width:100%; max-width:820px; max-height:88vh;
-                display:flex; flex-direction:column; overflow:hidden;
-                box-shadow:0 0 60px rgba(124,58,237,0.35);">
-      <div style="display:flex; justify-content:space-between; align-items:center;
-                  padding:18px 24px; border-bottom:1px solid #2d2d4e; flex-shrink:0;">
-        <h2 id="modal-title" style="color:#a78bfa; margin:0; font-size:1.05rem; font-weight:700;"></h2>
-        <button id="modal-close"
-                style="background:none; border:1px solid #7c3aed; color:#a78bfa;
-                       border-radius:8px; padding:6px 16px; cursor:pointer; font-size:0.88rem;">✕ Close</button>
-      </div>
-      <div id="modal-body"
-           style="padding:24px 28px; overflow-y:auto; color:#e2e8f0;
-                  line-height:1.8; font-size:0.93rem; word-break:break-word; flex:1;"></div>
-    </div>
+<header>
+  <h1>⚡ Content Agent Operating System</h1>
+  <div class="header-meta">
+    <span class="live-badge">LIVE SYSTEM</span>
+    <span id="data-ts">Loading…</span>
+    <span style="color:var(--neon)">@garvit.irl</span>
   </div>
-
-  <script src="app.js"></script>
+</header>
+<div class="container">
+  <div id="stats-bar" class="stats-bar"></div>
+  <div class="section-title">✨ Active AI Agent Squad (5 Agents)</div>
+  <div id="agents-grid" class="agents-grid"></div>
+  <div class="section-title">📅 7-Day Strategy & Calendar Planner</div>
+  <div id="calendar-strip" class="calendar-strip"></div>
+  <div class="section-title">📊 Analyst — Competitor Benchmarks</div>
+  <div id="comp-table" class="table-wrap"></div>
+</div>
+<footer>Content Agent Dashboard · Built for @garvit.irl · Powered by Apify + Gemini AI</footer>
+<div id="modal-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:999;align-items:center;justify-content:center">
+  <div id="modal-box" style="background:#1a1030;border:1px solid #7c3aed;border-radius:12px;padding:2rem;max-width:680px;width:90%;max-height:80vh;overflow-y:auto">
+    <div id="modal-title" style="font-size:1.2rem;font-weight:700;color:#a78bfa;margin-bottom:1rem"></div>
+    <div id="modal-body" style="font-size:0.9rem;line-height:1.7;color:#e2d9f3"></div>
+    <button id="modal-close" style="margin-top:1.5rem;background:#7c3aed;color:#fff;border:none;border-radius:8px;padding:0.5rem 1.5rem;cursor:pointer;font-size:0.9rem">Close</button>
+  </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
