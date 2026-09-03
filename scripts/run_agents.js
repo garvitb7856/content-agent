@@ -267,37 +267,29 @@ ${compSummary}
 
 ${LINK_INSTRUCTION}
 
-YOUR TASK — Write a structured 7-day content calendar starting from today (${dayNames[0]}).
+CRITICAL FORMAT RULES — READ BEFORE WRITING:
+- Output ONLY the 7 day blocks below. No introduction. No analysis. No "Part 1/2/3". No tables. No summary at the end.
+- DO NOT use a markdown table or spreadsheet format. Use only the block format below.
+- The schedule starts from TOMORROW: ${dayNames[1]} (not Monday, not today — literally ${dayNames[1]}).
+- The 7 days in order are: ${dayNames.slice(1).join(', ')} plus one more day after that.
+- All times must be in 24-hour IST format like "18:30 IST".
 
-First write this section:
----
-## WEEKLY STRATEGY
-[2-3 sentences: the single biggest focus this week to grow fastest, based on competitor data. Reference a specific competitor post link as proof.]
-
-## WHAT NOT TO DO THIS WEEK
-1. [mistake to avoid with reason]
-2. [mistake to avoid with reason]
-3. [mistake to avoid with reason]
----
-
-Then for EACH of the 7 days, use EXACTLY this block format with no variations:
+For EACH of the 7 days, output EXACTLY this block. No extra text between blocks.
 
 ---
-## DAY [N] — [DAY NAME AND DATE]
+## DAY [N] — [EXACT DAY NAME AND DATE from the list above, e.g. "Friday 04 Sep"]
 
-**Post Time:** [HH:MM IST] — [one sentence reason why this time]
+**Post Time:** [HH:MM IST] — [one sentence why this time works]
 **Format:** [Reel / Carousel / Story]
-**Topic:** [specific topic]
-**Title (on screen):** [exact text to put on screen]
-**Hook:** [first sentence/line of the video or carousel]
-**Goal:** [Reach / Engagement / Saves / Followers]
-**Trigger Word:** "[word people comment to get a DM]"
-**Inspired by:** [markdown link to a competitor post that proved this works]
+**Topic:** [specific topic in 5-10 words]
+**Title (on screen):** [exact text to show on screen, under 8 words]
+**Hook:** [first sentence said on camera — must start with action or shock, not "Here is"]
+**Goal:** [Reach / Engagement / Saves / Followers — pick ONE]
+**Trigger Word:** "[single word viewers comment to get a DM]"
+**Inspired by:** [markdown link to a competitor post that proved this format works]
 ---
 
-The 7 days are: ${dayNames.join(', ')}
-
-Write all 7 day blocks completely using this exact format. Do not skip any field.
+Start immediately with DAY 1. No preamble. No analysis. Just 7 blocks.
 `, "Planner");
 
   console.log("\nRunning Agent 4: Analyst...");

@@ -154,63 +154,88 @@ function esc(s){return(""+s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(
 /* ── Markdown → HTML with clickable links ── */
 function md(s){
   if(!s)return"";
-  var o=s;
-  // Escape HTML first (but we'll re-insert links after)
-  // Process markdown links FIRST before escaping so URLs survive
-  // Replace [text](url) with placeholder, escape, then restore as <a>
+  // Normalize line endings (Windows CRLF → LF)
+  var o=s.replace(/\r\n/g,"\n").replace(/\r/g,"\n");
+  // Extract markdown links before escaping
   var links=[];
   o=o.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g,function(_,txt,url){
     var i=links.length;
     var isInsta=url.indexOf("instagram.com")>-1;
-    links.push('<a href="'+url+'" target="_blank" rel="noopener">'+(isInsta?'📸 ':'')+esc(txt)+'</a>');
+    links.push('<a href="'+url+'" target="_blank" rel="noopener">'+(isInsta?"📸 ":"")+esc(txt)+"</a>");
     return"\x00LINK"+i+"\x00";
   });
-  // Also auto-link bare Instagram URLs
   o=o.replace(/(https?:\/\/www\.instagram\.com\/p\/[A-Za-z0-9_-]+\/?)/g,function(_,url){
     var i=links.length;
     links.push('<a href="'+url+'" target="_blank" rel="noopener">📸 View on Instagram</a>');
     return"\x00LINK"+i+"\x00";
   });
-  // Escape the rest
+  // Escape HTML
   o=esc(o);
-  // Now process markdown
+  // Headings
   o=o
-    .replace(/^#{4}\s+(.+)$/gm,"<h4>$1</h4>")
-    .replace(/^#{3}\s+(.+)$/gm,"<h3>$1</h3>")
-    .replace(/^#{2}\s+(.+)$/gm,"<h2>$1</h2>")
-    .replace(/^#{1}\s+(.+)$/gm,"<h1>$1</h1>")
+    .replace(/^####\s+(.+)$/gm,"<h4>$1</h4>")
+    .replace(/^###\s+(.+)$/gm,"<h3>$1</h3>")
+    .replace(/^##\s+DAY\s+(\d+)\s+[—–-]+\s*(.+)$/gm,'<div class="day-block"><h2>📅 Day $1 — $2</h2>')
+    .replace(/^##\s+(.+)$/gm,"<h2>$1</h2>")
+    .replace(/^#\s+(.+)$/gm,"<h1>$1</h1>");
+  // Close day-block divs before next day-block or end
+  o=o.replace(/(<div class="day-block">)([\s\S]*?)(?=<div class="day-block">|$)/g,function(_,open,content){
+    return open+content+"</div>";
+  });
+  // Bold/italic/code
+  o=o
     .replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>")
     .replace(/\*([^*\n]+?)\*/g,"<em>$1</em>")
     .replace(/`([^`]+)`/g,"<code>$1</code>")
     .replace(/^&gt;\s+(.+)$/gm,"<blockquote>$1</blockquote>")
-    .replace(/^---+$/gm,"<hr>")
-    .replace(/^\|(.+)\|$/gm,function(_,row){
-      var cells=row.split("|").map(function(c){return c.trim();});
-      return"<tr>"+cells.map(function(c){return c.match(/^[-: ]+$/)?"":"<td>"+c+"</td>";}).join("")+"</tr>";
-    });
-  // Wrap table rows
-  o=o.replace(/(<tr>.*?<\/tr>\s*){2,}/gs,function(block){
-    // First row becomes thead
-    var rows=block.match(/<tr>.*?<\/tr>/gs)||[];
-    if(!rows.length)return block;
-    return"<table><thead>"+rows[0].replace(/<td>/g,"<th>").replace(/<\/td>/g,"</th>")+"</thead><tbody>"+rows.slice(1).join("")+"</tbody></table>";
-  });
+    .replace(/^---+$/gm,"<hr>");
+  // Tables — handle separator rows properly
+  var lines=o.split("\n");
+  var out=[],inTable=false,thead=true,tableRows=[];
+  for(var li=0;li<lines.length;li++){
+    var ln=lines[li];
+    // Check if this line is a table row
+    if(/^\|.+\|$/.test(ln.trim())){
+      // Check if it's a separator row (only contains -, :, |, spaces)
+      if(/^\|[\s|:\-]+\|$/.test(ln.trim())){
+        // This is alignment row — skip it, mark that next rows are tbody
+        thead=false;
+        if(!inTable){inTable=true;tableRows=[];}
+        continue;
+      }
+      if(!inTable){inTable=true;thead=true;tableRows=[];}
+      var cells=ln.trim().replace(/^\||\|$/g,"").split("|").map(function(c){return c.trim();});
+      if(thead){
+        tableRows.push("<thead><tr>"+cells.map(function(c){return"<th>"+c+"</th>";}).join("")+"</tr></thead><tbody>");
+        thead=false;
+      } else {
+        tableRows.push("<tr>"+cells.map(function(c){return"<td>"+c+"</td>";}).join("")+"</tr>");
+      }
+    } else {
+      if(inTable){
+        out.push("<table>"+tableRows.join("")+"</tbody></table>");
+        inTable=false;thead=true;tableRows=[];
+      }
+      out.push(ln);
+    }
+  }
+  if(inTable){out.push("<table>"+tableRows.join("")+"</tbody></table>");}
+  o=out.join("\n");
   // Lists
   o=o.replace(/^\s*[-*]\s+(.+)$/gm,"<li>$1</li>");
   o=o.replace(/^\d+\.\s+(.+)$/gm,"<li data-ol>$1</li>");
   o=o.replace(/(<li(?! data-ol)[^>]*>[\s\S]+?<\/li>\n?)+/g,"<ul>$&</ul>");
   o=o.replace(/(<li data-ol[\s\S]+?<\/li>\n?)+/g,"<ol>$&</ol>");
   o=o.replace(/ data-ol/g,"");
-  // Paragraphs and line breaks
+  // Paragraphs
   o=o.replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>");
   o="<p>"+o+"</p>";
-  // Clean up empty paragraphs and double-wrapped block elements
-  o=o.replace(/<p>(<h[1-4]>)/g,"$1").replace(/(<\/h[1-4]>)<\/p>/g,"$1");
-  o=o.replace(/<p>(<ul>)/g,"$1").replace(/(<\/ul>)<\/p>/g,"$1");
-  o=o.replace(/<p>(<ol>)/g,"$1").replace(/(<\/ol>)<\/p>/g,"$1");
-  o=o.replace(/<p>(<table>)/g,"$1").replace(/(<\/table>)<\/p>/g,"$1");
+  // Clean up double-wrapped blocks
+  ["h1","h2","h3","h4","ul","ol","table","hr","blockquote"].forEach(function(t){
+    o=o.replace(new RegExp("<p>(<"+t+">)","g"),"$1").replace(new RegExp("(</"+t+">)<\\/p>","g"),"$1");
+  });
   o=o.replace(/<p>(<hr>)<\/p>/g,"$1");
-  o=o.replace(/<p>(<blockquote>)/g,"$1").replace(/(<\/blockquote>)<\/p>/g,"$1");
+  o=o.replace(/<p>(<div)/g,"$1").replace(/(<\/div>)<\/p>/g,"$1");
   o=o.replace(/<p><\/p>/g,"").replace(/<p>\s*<br>\s*<\/p>/g,"");
   // Restore links
   o=o.replace(/\x00LINK(\d+)\x00/g,function(_,i){return links[parseInt(i)];});
