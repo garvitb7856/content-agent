@@ -45,7 +45,7 @@ function renderStatsBar(){
 }
 function renderAgents(){
   document.getElementById("agents-grid").innerHTML=AGENTS.map(function(a){
-    var raw=(AI&&AI.agents&&AI.agents[a.key])?AI.agents[a.key]:null;
+    var raw=(AI&&AI.agents&&AI.agents[a.key])?AI.agents[a.key]:(AI&&AI[a.key])?AI[a.key]:null;
     var hasAI=!!raw,full=hasAI?pre(raw):"No AI output yet. Run run_agents.py on your PC.";
     FULL[a.key]=full;
     var lines=full.split("<br>"),preview=lines.slice(0,4).join("<br>")+(lines.length>4?"...":"");
