@@ -3,37 +3,303 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Content Agent Dashboard - @garvit.irl</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"/>
-<link rel="stylesheet" href="style.css"/>
+<title>Content Agent Dashboard — @garvit.irl</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#07090f;color:#f1f5f9;font-family:'Inter',sans-serif;min-height:100vh}
+header{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;background:rgba(7,9,15,.96);border-bottom:1px solid rgba(255,255,255,.07);position:sticky;top:0;z-index:100;flex-wrap:wrap;gap:.5rem}
+.logo{font-size:1.1rem;font-weight:800;background:linear-gradient(135deg,#fff 30%,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hdr-right{display:flex;align-items:center;gap:.6rem;font-size:.75rem;flex-wrap:wrap}
+.badge{padding:.25rem .65rem;border-radius:20px;font-weight:700;font-size:.68rem;letter-spacing:.05em}
+.badge-live{background:rgba(16,185,129,.15);color:#10b981;border:1px solid rgba(16,185,129,.25)}
+.hdr-ts{color:#475569}
+.hdr-handle{color:#a78bfa;font-weight:700}
+main{max-width:1300px;margin:2rem auto;padding:0 1.25rem;display:flex;flex-direction:column;gap:2rem}
+.sec-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#475569;margin-bottom:.75rem}
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.875rem}
+.scard{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1.1rem 1rem;transition:transform .2s}
+.scard:hover{transform:translateY(-2px)}
+.sl{font-size:.67rem;text-transform:uppercase;letter-spacing:.08em;color:#475569;margin-bottom:.3rem}
+.sv{font-size:1.5rem;font-weight:800}
+.ss{font-size:.68rem;color:#64748b;margin-top:.15rem}
+/* Agents */
+.agents{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.acard{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1.1rem;display:flex;flex-direction:column;gap:.7rem;border-left:3px solid}
+.ahead{display:flex;align-items:flex-start;gap:.7rem}
+.aico{width:2.2rem;height:2.2rem;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.ainfo{flex:1;min-width:0}
+.aname{font-size:.88rem;font-weight:700;color:#f1f5f9}
+.arole{font-size:.68rem;color:#64748b;margin-top:.1rem}
+.abadge{font-size:.6rem;font-weight:700;padding:.18rem .45rem;border-radius:6px;flex-shrink:0;margin-top:.1rem}
+.ab-live{background:rgba(16,185,129,.12);color:#10b981;border:1px solid rgba(16,185,129,.2)}
+.ab-idle{background:rgba(100,116,139,.08);color:#64748b;border:1px solid rgba(100,116,139,.12)}
+.aout{background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.04);border-radius:8px;padding:.75rem;font-size:.78rem;color:#94a3b8;line-height:1.7;height:100px;overflow:hidden;position:relative}
+.aout::after{content:'';position:absolute;bottom:0;left:0;right:0;height:32px;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.vbtn{display:block;width:100%;padding:.48rem;background:linear-gradient(90deg,#7c3aed,#db2777);color:#fff;border:none;border-radius:7px;cursor:pointer;font-size:.78rem;font-weight:700;letter-spacing:.02em;transition:opacity .15s}
+.vbtn:hover{opacity:.82}
+.ats{font-size:.65rem;color:#334155}
+/* Calendar */
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:.625rem}
+.cday{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:.75rem .4rem;text-align:center;display:flex;flex-direction:column;align-items:center;gap:.25rem}
+.cday.now{border-color:#6366f1;background:rgba(99,102,241,.08)}
+.cdl{font-size:.6rem;font-weight:700;text-transform:uppercase;color:#475569;letter-spacing:.06em}
+.cdn{font-size:1rem;font-weight:800;color:#f1f5f9}
+.ctag{font-size:.6rem;font-weight:700;padding:.15rem .35rem;border-radius:4px}
+.ct-reel{background:rgba(168,85,247,.15);color:#a855f7}
+.ct-car{background:rgba(56,189,248,.15);color:#38bdf8}
+.ct-rest{color:#334155;font-size:.6rem}
+/* Table */
+.tbl-wrap{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+thead{background:rgba(0,0,0,.4)}
+th{padding:.7rem .9rem;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#475569;border-bottom:1px solid rgba(255,255,255,.05);text-align:left;white-space:nowrap}
+td{padding:.7rem .9rem;border-bottom:1px solid rgba(255,255,255,.025);color:#94a3b8}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.015)}
+.you td{color:#f1f5f9;font-weight:700}
+.bar-w{display:flex;align-items:center;gap:.4rem}
+.bar-bg{flex:1;height:4px;background:rgba(255,255,255,.05);border-radius:2px;overflow:hidden;min-width:30px}
+.bar-f{height:100%;background:linear-gradient(90deg,#6366f1,#a855f7);border-radius:2px}
+/* Modal */
+#mo{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:9999;align-items:flex-start;justify-content:center;padding:2rem 1rem;overflow-y:auto}
+#mo.show{display:flex}
+#mb{background:#0f1220;border:1.5px solid rgba(124,58,237,.5);border-radius:14px;padding:2rem;width:100%;max-width:720px;margin:auto;position:relative}
+#mt{font-size:1rem;font-weight:800;color:#a78bfa;margin-bottom:1.25rem;padding-right:2rem}
+#mc{font-size:.85rem;line-height:1.9;color:#cbd5e1}
+#mc strong{color:#f1f5f9}
+#mc h1,#mc h2,#mc h3{color:#a78bfa;font-size:.9rem;margin:1rem 0 .4rem;font-weight:700}
+#mc h4{color:#94a3b8;font-size:.82rem;margin:.75rem 0 .3rem;font-weight:600}
+#mc p{margin:.3rem 0}
+#mc ul,#mc ol{margin:.3rem 0 .3rem 1.25rem}
+#mc li{margin:.15rem 0}
+#mc table{width:100%;border-collapse:collapse;font-size:.8rem;margin:.75rem 0}
+#mc th{background:rgba(99,102,241,.12);color:#a78bfa;padding:.4rem .6rem;border:1px solid rgba(255,255,255,.06);font-size:.72rem}
+#mc td{padding:.4rem .6rem;border:1px solid rgba(255,255,255,.04);color:#94a3b8}
+#mc blockquote{border-left:3px solid #7c3aed;padding-left:.75rem;color:#a78bfa;font-style:italic;margin:.5rem 0}
+#mc code{background:rgba(99,102,241,.1);color:#c4b5fd;padding:.1rem .3rem;border-radius:3px;font-size:.8rem}
+.mclose{position:absolute;top:1rem;right:1rem;background:rgba(255,255,255,.07);color:#94a3b8;border:none;border-radius:6px;width:1.8rem;height:1.8rem;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center}
+.mclose:hover{background:rgba(255,255,255,.12);color:#fff}
+footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;border-top:1px solid rgba(255,255,255,.03)}
+</style>
 </head>
 <body>
 <header>
-  <h1>Content Agent Operating System</h1>
-  <div class="header-meta">
-    <span class="live-badge">LIVE SYSTEM</span>
-    <span id="data-ts">Loading...</span>
-    <span style="color:var(--neon)">@garvit.irl</span>
+  <div class="logo">⚡ Content Agent OS</div>
+  <div class="hdr-right">
+    <span class="badge badge-live">LIVE</span>
+    <span class="hdr-ts" id="hts">Loading...</span>
+    <span class="hdr-handle">@garvit.irl</span>
   </div>
 </header>
-<div class="container">
-  <div id="stats-bar" class="stats-bar"></div>
-  <div class="section-title">Active AI Agent Squad (5 Agents)</div>
-  <div id="agents-grid" class="agents-grid"></div>
-  <div class="section-title">7-Day Strategy and Calendar Planner</div>
-  <div id="calendar-strip" class="calendar-strip"></div>
-  <div class="section-title">Analyst - Competitor Benchmarks</div>
-  <div id="comp-table" class="table-wrap"></div>
-</div>
-<footer>Content Agent Dashboard - @garvit.irl - Powered by Apify + Gemini AI</footer>
-<div id="modal-overlay">
-  <div id="modal-box">
-    <div id="modal-title"></div>
-    <div id="modal-body"></div>
-    <button onclick="closeModal()">Close</button>
+<main>
+  <div>
+    <div class="sec-label">Your Stats</div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div>
+    <div class="sec-label">AI Agent Squad</div>
+    <div class="agents" id="agents"></div>
+  </div>
+  <div>
+    <div class="sec-label">7-Day Content Planner</div>
+    <div class="cal" id="cal"></div>
+  </div>
+  <div>
+    <div class="sec-label">Competitor Benchmark</div>
+    <div class="tbl-wrap" id="tbl"></div>
+  </div>
+</main>
+<footer>Content Agent Dashboard · @garvit.irl · Powered by Apify + Gemini AI</footer>
+<div id="mo">
+  <div id="mb">
+    <button class="mclose" id="mcloseBtn">✕</button>
+    <div id="mt"></div>
+    <div id="mc"></div>
   </div>
 </div>
-<script src="app.js"></script>
+<script>
+(function(){
+var AGENTS=[
+  {key:"ideator",     icon:"💡",color:"#f59e0b",name:"Ideator Agent",      role:"Viral topics & competitor hooks"},
+  {key:"hook_script", icon:"🎣",color:"#ec4899",name:"Hook & Script Agent",role:"Full Reel scripts & captions"},
+  {key:"planner",     icon:"📅",color:"#06b6d4",name:"Planner Agent",       role:"7-day calendar & posting times"},
+  {key:"analyst",     icon:"📊",color:"#10b981",name:"Analyst Agent",       role:"Competitor benchmarks & growth gaps"},
+  {key:"dm_manager",  icon:"💬",color:"#7c3aed",name:"DM Manager Agent",    role:"Lead magnets & DM templates"}
+];
+var D=null,AI=null,FULL={};
+
+/* ── Modal ── */
+var mo=document.getElementById("mo");
+document.getElementById("mcloseBtn").onclick=closeM;
+mo.addEventListener("click",function(e){if(e.target===mo)closeM();});
+function openM(key){
+  var a=AGENTS.filter(function(x){return x.key===key;})[0];
+  if(!a)return;
+  document.getElementById("mt").textContent=a.name+" — Full Output";
+  document.getElementById("mc").innerHTML=FULL[key]||"<em style='color:#475569'>No output yet. Run run_agents.py on your PC.</em>";
+  mo.classList.add("show");
+  mo.scrollTop=0;
+}
+function closeM(){mo.classList.remove("show");}
+window.openM=openM;
+
+/* ── Helpers ── */
+function fmt(n){n=parseInt(n,10);if(isNaN(n))return"–";return n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(1)+"k":""+n;}
+function av(a){if(!a||!a.length)return 0;return Math.round(a.reduce(function(s,v){return s+(v||0);},0)/a.length);}
+function esc(s){return(""+s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function md2html(s){
+  if(!s)return"";
+  return esc(s)
+    .replace(/^#{4}\s+(.+)$/gm,"<h4>$1</h4>")
+    .replace(/^#{3}\s+(.+)$/gm,"<h3>$1</h3>")
+    .replace(/^#{2}\s+(.+)$/gm,"<h2>$1</h2>")
+    .replace(/^#{1}\s+(.+)$/gm,"<h1>$1</h1>")
+    .replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>")
+    .replace(/\*(.+?)\*/g,"<em>$1</em>")
+    .replace(/`(.+?)`/g,"<code>$1</code>")
+    .replace(/^&gt;\s+(.+)$/gm,"<blockquote>$1</blockquote>")
+    .replace(/^\s*[-*]\s+(.+)$/gm,"<li>$1</li>")
+    .replace(/(<li>[\s\S]+?<\/li>)/g,"<ul>$1</ul>")
+    .replace(/^\d+\.\s+(.+)$/gm,"<li>$1</li>")
+    .replace(/---/g,"<hr style='border:none;border-top:1px solid rgba(255,255,255,.06);margin:.75rem 0'>")
+    .replace(/\n\n/g,"</p><p>")
+    .replace(/\n/g,"<br>");
+}
+
+/* ── Render Stats ── */
+function renderStats(){
+  var acc=(D&&D.your_account)||{};
+  var posts=Array.isArray(acc.posts)?acc.posts:[];
+  var comps=(D&&D.competitors)||{};
+  var cp=[];Object.keys(comps).forEach(function(k){var p=comps[k].posts;if(Array.isArray(p))cp=cp.concat(p);});
+  var aiTs=(AI&&AI._ts)?new Date(AI._ts).toLocaleTimeString("en-IN"):null;
+  var topL=posts.length?Math.max.apply(null,posts.map(function(p){return p.likes||0;})):0;
+  var myAL=av(posts.map(function(p){return p.likes||0;}));
+  var cpAL=av(cp.map(function(p){return p.likes||0;}));
+  var items=[
+    {l:"Your Followers", v:fmt(acc.followers||5845),   s:"@garvit.irl",            c:"#a78bfa"},
+    {l:"Your Avg Likes",  v:fmt(myAL||0),              s:"Comp avg: "+fmt(cpAL),   c:"#10b981"},
+    {l:"Posts Analysed", v:posts.length||"–",           s:"last 20",                c:"#38bdf8"},
+    {l:"Competitors",    v:Object.keys(comps).length||"–",s:"tracked",             c:"#f59e0b"},
+    {l:"Best Post",      v:topL?fmt(topL):"–",          s:"likes",                  c:"#ec4899"},
+    {l:"AI Agents",      v:aiTs?"LIVE":"SAMPLE",        s:aiTs?"Updated "+aiTs:"Run run_agents.py", c:aiTs?"#10b981":"#64748b"}
+  ];
+  document.getElementById("stats").innerHTML=items.map(function(i){
+    return'<div class="scard"><div class="sl">'+i.l+'</div><div class="sv" style="color:'+i.c+'">'+i.v+'</div><div class="ss">'+i.s+'</div></div>';
+  }).join("");
+}
+
+/* ── Render Agents ── */
+function renderAgents(){
+  var aiTs=(AI&&AI._ts)?new Date(AI._ts).toLocaleTimeString("en-IN"):null;
+  document.getElementById("agents").innerHTML=AGENTS.map(function(a){
+    var raw=AI?AI[a.key]||null:null;
+    var has=!!raw;
+    var html=has?md2html(raw):"<em style='color:#475569'>No output yet. Run run_agents.py on your PC first.</em>";
+    FULL[a.key]=html;
+    var preview=raw?(raw.substring(0,300)+"…"):"No output yet.";
+    return'<div class="acard" style="border-left-color:'+a.color+'">'
+      +'<div class="ahead">'
+      +'<div class="aico" style="background:'+a.color+'18;color:'+a.color+'">'+a.icon+'</div>'
+      +'<div class="ainfo"><div class="aname">'+a.name+'</div><div class="arole">'+a.role+'</div></div>'
+      +'<span class="abadge '+(has?"ab-live":"ab-idle")+'">'+(has?"⚡ LIVE":"IDLE")+'</span>'
+      +'</div>'
+      +'<div class="aout">'+esc(preview)+'</div>'
+      +'<button class="vbtn" onclick="openM(\''+a.key+'\')">📄 View Full Output →</button>'
+      +'<div class="ats">'+(aiTs?"Last AI run: "+aiTs:"No AI data — run run_agents.py")+'</div>'
+      +'</div>';
+  }).join("");
+}
+
+/* ── Render Calendar ── */
+function renderCal(){
+  var days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var scheme=[
+    {l:"Reel",c:"ct-reel"},{l:"Carousel",c:"ct-car"},{l:"Reel",c:"ct-reel"},
+    {l:"Carousel",c:"ct-car"},{l:"Reel",c:"ct-reel"},{l:"Carousel",c:"ct-car"},
+    {l:"Rest",c:"ct-rest"}
+  ];
+  var today=new Date();
+  var sow=new Date(today);sow.setDate(today.getDate()-today.getDay());
+  var html="";
+  for(var i=0;i<7;i++){
+    var d=new Date(sow);d.setDate(sow.getDate()+i);
+    var isT=d.toDateString()===today.toDateString();
+    var s=scheme[i];
+    html+='<div class="cday'+(isT?" now":"")+'"><div class="cdl">'+days[i]+'</div><div class="cdn">'+d.getDate()+'</div>';
+    html+=s.l==="Rest"?'<div class="ct-rest">Rest</div>':'<div class="ctag '+s.c+'">'+s.l+'</div>';
+    html+='</div>';
+  }
+  document.getElementById("cal").innerHTML=html;
+}
+
+/* ── Render Table ── */
+function renderTable(){
+  var acc=(D&&D.your_account)||{};
+  var comps=(D&&D.competitors)||{};
+  var myP=Array.isArray(acc.posts)?acc.posts:[];
+  var myAv=av(myP.map(function(p){return p.likes||0;}));
+  var rows=[{h:"garvit.irl",f:acc.followers||5845,a:myAv,p:myP.length,you:true}];
+  Object.keys(comps).forEach(function(k){
+    var c=comps[k];var cp=Array.isArray(c.posts)?c.posts:[];
+    rows.push({h:k,f:c.followers||0,a:Math.round((c.stats&&c.stats.avg_likes)||av(cp.map(function(p){return p.likes||0;}))),p:cp.length,you:false});
+  });
+  rows.sort(function(a,b){return b.a-a.a;});
+  var mx=Math.max.apply(null,rows.map(function(r){return r.a;}).concat([1]));
+  var html='<table><thead><tr><th>Account</th><th>Followers</th><th>Avg Likes</th><th>Posts</th></tr></thead><tbody>';
+  rows.forEach(function(r){
+    html+='<tr'+(r.you?' class="you"':'')+'>'
+      +'<td>@'+esc(r.h)+(r.you?' ★':'')+'</td>'
+      +'<td>'+fmt(r.f)+'</td>'
+      +'<td><div class="bar-w">'+fmt(r.a)+'<div class="bar-bg"><div class="bar-f" style="width:'+Math.round(r.a/mx*100)+'%"></div></div></div></td>'
+      +'<td>'+r.p+'</td></tr>';
+  });
+  document.getElementById("tbl").innerHTML=html+'</tbody></table>';
+}
+
+/* ── Header timestamp ── */
+function renderHdr(){
+  var ts=(D&&D.fetched_at)?new Date(D.fetched_at).toLocaleString("en-IN"):new Date().toLocaleString("en-IN");
+  var live=(D&&D.sample_data===false)?" · LIVE":" · SAMPLE";
+  document.getElementById("hts").textContent=ts+live;
+}
+
+/* ── Render all ── */
+function renderAll(){
+  try{renderStats();}catch(e){console.error(e);}
+  try{renderAgents();}catch(e){console.error(e);}
+  try{renderCal();}catch(e){console.error(e);}
+  try{renderTable();}catch(e){console.error(e);}
+  try{renderHdr();}catch(e){console.error(e);}
+}
+
+/* ── Load data ── */
+function load(){
+  var p1=fetch("data/data.json").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+  var p2=fetch("data/agents_output.json").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+  Promise.all([p1,p2]).then(function(res){
+    D=res[0];
+    var raw=res[1];
+    if(raw){
+      AI=raw;
+      AI._ts=raw.generated_at||raw._generated_at||raw.timestamp||null;
+    } else {
+      AI=null;
+    }
+    renderAll();
+  }).catch(function(err){
+    console.error("load failed:",err);
+    renderAll();
+  });
+}
+
+/* ── Boot ── */
+renderCal();
+load();
+setInterval(load,60000);
+})();
+</script>
 </body>
 </html>

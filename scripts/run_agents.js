@@ -23,61 +23,76 @@ function loadData() {
 async function gemini(prompt, label = "") {
   process.stdout.write(`Calling Gemini for ${label}... `);
 
-  const models = ["gemini-1.5-flash", "gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest"];
-  let lastError = null;
+  const model = "gemini-3.5-flash";
+  const postData = JSON.stringify({
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: { temperature: 0.8, maxOutputTokens: 8192 }
+  });
 
-  for (const model of models) {
-    const postData = JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.7, maxOutputTokens: 2048 }
-    });
+  const options = {
+    hostname: 'generativelanguage.googleapis.com',
+    port: 443,
+    path: `/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`,
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Content-Length': Buffer.byteLength(postData)
+    }
+  };
 
-    const options = {
-      hostname: 'generativelanguage.googleapis.com',
-      port: 443,
-      path: `/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`,
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Content-Length': Buffer.byteLength(postData)
-      }
-    };
-
-    for (let attempt = 1; attempt <= 3; attempt++) {
-      try {
-        const responseText = await new Promise((resolve, reject) => {
-          const req = https.request(options, (res) => {
-            let data = '';
-            res.on('data', (chunk) => data += chunk);
-            res.on('end', () => {
-              if (res.statusCode >= 200 && res.statusCode < 300) {
-                resolve(data);
-              } else {
-                reject(new Error(`HTTP ${res.statusCode}: ${data}`));
-              }
-            });
-          });
-          req.on('error', (e) => reject(e));
-          req.write(postData);
-          req.end();
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      const { statusCode, body } = await new Promise((resolve, reject) => {
+        const req = https.request(options, (res) => {
+          let data = '';
+          res.on('data', (chunk) => data += chunk);
+          res.on('end', () => resolve({ statusCode: res.statusCode, body: data }));
         });
+        req.on('error', (e) => reject(e));
+        req.write(postData);
+        req.end();
+      });
 
-        const parsed = JSON.parse(responseText);
+      if (statusCode >= 200 && statusCode < 300) {
+        const parsed = JSON.parse(body);
         const text = parsed.candidates[0].content.parts[0].text.trim();
         if (text && text.length > 50) {
-          console.log(`done (${model}).`);
-          await new Promise(r => setTimeout(r, 1500));
+          console.log(`done (${text.length} chars, attempt ${attempt}).`);
           return text;
         }
-      } catch (err) {
-        lastError = err;
-        await new Promise(r => setTimeout(r, 2000 * attempt));
+      }
+
+      // Handle 429 rate limit — parse retryDelay from response
+      if (statusCode === 429) {
+        let waitSec = 15; // default
+        try {
+          const err = JSON.parse(body);
+          const retryInfo = (err.error?.details || []).find(d => d['@type']?.includes('RetryInfo'));
+          if (retryInfo?.retryDelay) {
+            const parsed = parseInt(retryInfo.retryDelay);
+            if (parsed > 0) waitSec = parsed + 3; // add buffer
+          }
+        } catch(e) {}
+        waitSec = Math.max(waitSec, 15);
+        process.stdout.write(`rate limited, waiting ${waitSec}s (attempt ${attempt}/5)... `);
+        await new Promise(r => setTimeout(r, waitSec * 1000));
+        continue;
+      }
+
+      throw new Error(`HTTP ${statusCode}: ${body.substring(0, 200)}`);
+    } catch (err) {
+      if (attempt < 5) {
+        const wait = Math.min(10 * attempt, 60);
+        process.stdout.write(`error, retrying in ${wait}s... `);
+        await new Promise(r => setTimeout(r, wait * 1000));
+      } else {
+        console.log(`failed after 5 attempts.`);
+        return `[Agent Error: ${err.message}]`;
       }
     }
   }
-
-  console.log(`failed (${lastError?.message})`);
-  return `[Agent Error: ${lastError?.message}]`;
+  console.log(`failed.`);
+  return `[Agent Error: all attempts exhausted]`;
 }
 
 function buildSummaries(data) {
@@ -270,7 +285,7 @@ Label each template clearly.
     analyst,
     dm_manager,
     agents: { ideator, hook_script, planner, analyst, dm_manager },
-    _generated_at: new Date().toISOString()
+    generated_at: new Date().toISOString()
   };
 
   fs.mkdirSync(path.dirname(OUT_PATH1), { recursive: true });

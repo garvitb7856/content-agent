@@ -1,8 +1,8 @@
-import os, json, re
+import os, json
 import google.generativeai as genai
 from datetime import datetime
 
-# Load env
+# Load .env
 if os.path.exists('.env'):
     for line in open('.env'):
         line = line.strip()
@@ -11,7 +11,12 @@ if os.path.exists('.env'):
             os.environ[k.strip()] = v.strip()
 
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
-model = genai.GenerativeModel('gemini-1.5-flash')
+
+gen_cfg = genai.types.GenerationConfig(
+    max_output_tokens=8192,
+    temperature=0.8
+)
+model = genai.GenerativeModel('gemini-3.5-flash', generation_config=gen_cfg)
 
 def ask(prompt):
     try:
@@ -32,8 +37,8 @@ me = data.get('your_account', {})
 my_handle = me.get('username', 'garvit.irl')
 my_followers = me.get('followers', 5845)
 stats = me.get('stats', {})
-my_avg_likes = stats.get('avg_likes') or me.get('avg_likes', 334)
-my_avg_comments = stats.get('avg_comments') or me.get('avg_comments', 12)
+my_avg_likes = stats.get('avg_likes') or me.get('avg_likes', 50)
+my_avg_comments = stats.get('avg_comments') or me.get('avg_comments', 10)
 my_posts = me.get('posts') or me.get('recent_posts', [])
 
 competitors_raw = data.get('competitors', [])
@@ -42,7 +47,6 @@ if isinstance(competitors_raw, dict):
 else:
     competitors = competitors_raw
 
-# Build competitor summary
 comp_summary = ""
 for c in competitors:
     c_handle = c.get('username') or c.get('handle', 'unknown')
@@ -50,23 +54,18 @@ for c in competitors:
     c_stats = c.get('stats', {})
     c_likes = c_stats.get('avg_likes') or c.get('avg_likes', 0)
     c_comments = c_stats.get('avg_comments') or c.get('avg_comments', 0)
-
-    posts_text = ""
     c_posts = c.get('posts') or c.get('recent_posts', [])
+    posts_text = ""
     for p in c_posts[:3]:
-        cap = p.get('caption', '')[:150].replace('\n', ' ')
+        cap = p.get('caption', '')[:200].replace('\n', ' ')
         likes = p.get('likes') or p.get('likesCount', 0)
         if cap:
             posts_text += f"    - [{likes} likes] {cap}\n"
-    comp_summary += f"""
-@{c_handle}: {c_followers} followers | avg {c_likes} likes | avg {c_comments} comments
-  Top recent posts:
-{posts_text}"""
+    comp_summary += f"\n@{c_handle}: {c_followers} followers | avg {c_likes} likes | avg {c_comments} comments\n  Top posts:\n{posts_text}"
 
-# Build my posts summary
 my_posts_text = ""
 for p in my_posts[:5]:
-    cap = p.get('caption', '')[:150].replace('\n', ' ')
+    cap = p.get('caption', '')[:200].replace('\n', ' ')
     likes = p.get('likes', 0)
     comments = p.get('comments', 0)
     my_posts_text += f"  - [{likes} likes, {comments} comments] {cap}\n"
@@ -82,43 +81,56 @@ CREATOR PROFILE:
 - Avg comments/post: {my_avg_comments}
 - Niche: AI tools, automation, productivity for Indian creators
 
-MY RECENT POSTS:
+MY RECENT 5 POSTS:
 {my_posts_text}
 
 COMPETITOR DATA (what is working RIGHT NOW):
 {comp_summary}
 
-YOUR TASK:
-1. Identify the TOP 3 content patterns/hooks that are getting the most engagement across competitors this week
-2. Explain WHY each pattern works psychologically
-3. Generate 5 specific, ready-to-use content ideas for @{my_handle} based on these patterns
-4. For each idea, write: the exact video title, why it will work for Garvit's audience, and the content angle
+YOUR TASK — Give a COMPLETE, DETAILED response with these 4 sections:
 
-Be extremely specific. Use real competitor post data. Give ideas that are unique to Garvit's voice — AI tools + automation + Indian creator perspective.
-Format clearly with headers and numbered lists.
+SECTION 1: TOP 3 CONTENT PATTERNS
+List the top 3 content patterns/hooks driving the most engagement across competitors. For each: name the pattern, give 2 real examples from competitor data, and explain the psychological reason it works.
+
+SECTION 2: WHY THESE WORK FOR GARVIT
+Explain specifically why each pattern fits @{my_handle}'s audience and niche.
+
+SECTION 3: 5 READY-TO-USE CONTENT IDEAS
+For each idea provide:
+- Exact video title (the text on screen)
+- Hook (first 3 seconds, word for word)
+- Why it will work for Garvit's audience
+- Content angle and structure
+
+SECTION 4: QUICK WIN
+One content idea Garvit can film TODAY with zero prep that will outperform his recent posts.
+
+Be extremely specific. Use real competitor post data above. Write in full — do not truncate or summarise. Complete all 4 sections fully.
 """)
 
 print("Running Agent 2: Hook & Script...")
 hook_script_output = ask(f"""
-You are a viral short-form video scriptwriter specialising in Indian tech/AI creators on Instagram Reels.
+You are a viral short-form video scriptwriter for Indian tech/AI creators on Instagram Reels.
 
-CREATOR: @{my_handle} — Indian creator in AI tools & automation niche, {my_followers} followers
-AUDIENCE: Indian creators, students, and professionals interested in AI and productivity
+CREATOR: @{my_handle} — Indian creator, AI tools & automation niche, {my_followers} followers
+AUDIENCE: Indian creators, students, professionals interested in AI and productivity
 
-BEST PERFORMING COMPETITOR CONTENT THIS WEEK:
+BEST PERFORMING COMPETITOR CONTENT:
 {comp_summary}
 
-YOUR TASK:
-Write 3 complete, ready-to-film Instagram Reel scripts for @{my_handle}.
+YOUR TASK — Write 3 COMPLETE, ready-to-film Instagram Reel scripts. Do not truncate. Write each script in full.
 
-For each script provide:
-1. HOOK (exact words for first 3 seconds — must stop the scroll)
-2. FULL SCRIPT (word-for-word, conversational, 45-60 seconds when spoken)
-3. CAPTION (with call to action)
-4. HASHTAGS (15 relevant hashtags)
-5. B-ROLL suggestions (what to show on screen)
+For EACH of the 3 scripts provide ALL of these:
 
-Make the scripts sound like Garvit is speaking naturally — not corporate, not robotic. Indian creator energy. Reference real AI tools. Be specific, not vague.
+--- SCRIPT [N] ---
+TITLE: [video title]
+HOOK: [exact words for first 3 seconds — must stop the scroll]
+FULL SCRIPT: [complete word-for-word script, 45-60 seconds when spoken at normal pace. Include stage directions in brackets. Write every single word.]
+CAPTION: [full caption with call to action]
+HASHTAGS: [15 relevant hashtags]
+B-ROLL: [bullet list of what to show on screen]
+
+Make the scripts sound natural — not corporate, not robotic. Indian creator energy. Reference real AI tools. Be specific. Write all 3 scripts completely.
 """)
 
 print("Running Agent 3: Planner...")
@@ -126,53 +138,60 @@ planner_output = ask(f"""
 You are a data-driven Instagram content strategist.
 
 CREATOR: @{my_handle} | {my_followers} followers | Niche: AI tools & automation
+CURRENT PERFORMANCE: Avg likes: {my_avg_likes} | Avg comments: {my_avg_comments}
 
 COMPETITOR POSTING ANALYSIS:
 {comp_summary}
 
-CURRENT PERFORMANCE:
-- My avg likes: {my_avg_likes}
-- My avg comments: {my_avg_comments}
+YOUR TASK — Write a COMPLETE 7-day content calendar. Do not truncate. Cover all 7 days in full.
 
-YOUR TASK:
-1. Analyse when competitors post and when they get peak engagement
-2. Create a specific 7-day content calendar for @{my_handle} for the coming week
-3. For each day provide:
-   - Best posting time (IST) with reason
-   - Content format (Reel/Carousel/Story)
-   - Specific topic/title
-   - Content goal (reach/engagement/saves/followers)
-4. Give a weekly strategy note — what is the ONE thing Garvit should focus on this week to grow fastest
+Start with: WEEKLY STRATEGY NOTE — what is the single biggest thing Garvit should focus on this week.
 
-Be specific with times. Base posting times on when competitor content peaks. Format as a clear day-by-day table then add strategy notes.
+Then for EACH day (Day 1 Monday through Day 7 Sunday) provide ALL of:
+- Best posting time in IST with specific reason why
+- Content format: Reel / Carousel / Story
+- Specific topic and exact title
+- Hook (first line of the video or carousel)
+- Content goal: reach / engagement / saves / followers
+- Comment trigger word (what word people comment to get a DM)
+
+Then end with: WHAT NOT TO DO THIS WEEK — 3 mistakes to avoid based on the competitor data.
+
+Write all 7 days completely. Be specific with times. Base times on when competitor content peaks.
 """)
 
 print("Running Agent 4: Analyst...")
+eng_rate = round((my_avg_likes + my_avg_comments) / my_followers * 100, 2) if my_followers else 0
 analyst_output = ask(f"""
-You are an Instagram growth analyst specialising in the Indian tech/AI creator niche.
+You are an Instagram growth analyst for the Indian tech/AI creator niche.
 
 GARVIT'S STATS (@{my_handle}):
 - Followers: {my_followers}
 - Avg likes per post: {my_avg_likes}
 - Avg comments per post: {my_avg_comments}
-- Engagement rate: {round((my_avg_likes + my_avg_comments) / my_followers * 100, 2) if my_followers else 0}%
+- Engagement rate: {eng_rate}%
 
-COMPETITOR BENCHMARKS:
+COMPETITOR DATA:
 {comp_summary}
 
-YOUR TASK — Write a detailed competitor analysis report:
+YOUR TASK — Write a COMPLETE competitor analysis report. Do not truncate. Cover all 5 sections fully.
 
-1. RANKING: Rank @{my_handle} vs all 8 competitors on: followers, engagement rate, avg likes, avg comments
+SECTION 1 — FULL RANKING TABLE
+Rank all 9 creators (Garvit + 8 competitors) in a table with columns: Rank | Handle | Followers | Avg Likes | Avg Comments | Engagement Rate. Show every creator, no omissions.
 
-2. WHERE GARVIT IS WINNING: List specific metrics where @{my_handle} outperforms competitors. Be honest — even small wins count.
+SECTION 2 — WHERE GARVIT IS WINNING
+List every metric where @{my_handle} outperforms at least one competitor. Include exact numbers. Be honest — even small wins count.
 
-3. WHERE GARVIT IS FALLING BEHIND: List specific gaps with exact numbers comparing Garvit to the nearest competitor above him.
+SECTION 3 — WHERE GARVIT IS FALLING BEHIND
+List every significant gap with exact numbers comparing Garvit to the creator just above him. Be direct.
 
-4. GROWTH OPPORTUNITY: What is the single biggest lever Garvit can pull RIGHT NOW to close the gap? Give a specific, actionable recommendation with expected outcome.
+SECTION 4 — BIGGEST GROWTH LEVER RIGHT NOW
+The single most impactful action Garvit can take RIGHT NOW to close the gap. Give specific expected outcome (e.g. "+200 followers in 2 weeks if X is done").
 
-5. WEEKLY PRIORITY ACTION: One concrete thing to do this week based on the data.
+SECTION 5 — THIS WEEK'S PRIORITY ACTION
+One concrete task for this week with a step-by-step execution plan.
 
-Be direct, honest, and data-driven. No fluff.
+Write all 5 sections completely. Include actual numbers from the data above.
 """)
 
 print("Running Agent 5: DM Manager...")
@@ -180,27 +199,29 @@ dm_output = ask(f"""
 You are a DM strategy expert for Instagram creators in the AI/tech niche.
 
 CREATOR: @{my_handle} | Indian AI & automation creator | {my_followers} followers
-NICHE: AI tools, automation, productivity, content creation with AI
+EMAIL: garvitb.business@gmail.com
 
-YOUR TASK:
-Write 8 ready-to-send DM reply templates for the most common situations @{my_handle} will face:
+YOUR TASK — Write 8 COMPLETE DM reply templates. Write each one fully, do not summarise.
 
-1. New follower who says "bro great content keep it up"
-2. Someone asking "which AI tools do you use?"
-3. Someone asking "how do I start with AI/automation?"
+For each template provide:
+- SITUATION: [describe the situation]
+- GOAL: [what this reply achieves]
+- THE DM: [the exact message to send, in quotes, ready to copy-paste]
+- FOLLOW-UP: [what to do if they reply]
+
+Write templates for these 8 situations:
+1. New follower says "bro great content keep it up"
+2. Someone asks "which AI tools do you use?"
+3. Someone asks "how do I start with AI/automation?"
 4. Collab request from another creator
-5. Someone asking "can you make a video on [topic]?"
+5. Someone asks "can you make a video on [topic]?"
 6. Brand/sponsor reaching out for paid partnership
-7. Someone who says "your content helped me a lot, thank you"
-8. Someone asking "are you available for 1-on-1 consulting?"
+7. Someone says "your content helped me a lot, thank you"
+8. Someone asks "are you available for 1-on-1 consulting?"
 
-For each:
-- Write the exact DM reply (conversational, warm, sounds like a real person not a bot)
-- Keep it under 3 sentences — short replies get read
-- Include a soft CTA where appropriate (follow, save, watch a video)
-- Sound like Garvit — Indian creator, AI-focused, friendly but professional
+Rules: Under 3 sentences per DM. Conversational and warm — sounds like a real person, not a bot. Soft CTA where appropriate. Sound like Garvit — Indian creator, AI-focused, friendly but professional.
 
-Label each template clearly.
+Write all 8 templates completely with the SITUATION, GOAL, THE DM, and FOLLOW-UP for each.
 """)
 
 output = {
@@ -209,14 +230,11 @@ output = {
     "planner": planner_output,
     "analyst": analyst_output,
     "dm_manager": dm_output,
-    "_generated_at": datetime.now().isoformat()
+    "generated_at": datetime.now().isoformat()
 }
 
 os.makedirs("dashboard/data", exist_ok=True)
 with open("dashboard/data/agents_output.json", "w", encoding="utf-8") as f:
-    json.dump(output, f, indent=2, ensure_ascii=False)
-
-with open("dashboard/agents_output.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
 
 print("\n✅ All 5 agents complete!")
@@ -225,3 +243,4 @@ print(f"Hook & Script: {len(hook_script_output)} chars")
 print(f"Planner: {len(planner_output)} chars")
 print(f"Analyst: {len(analyst_output)} chars")
 print(f"DM Manager: {len(dm_output)} chars")
+print("Saved to dashboard/data/agents_output.json")
