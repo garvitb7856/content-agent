@@ -5,33 +5,31 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const DATA_PATH = path.join(__dirname, '../dashboard/data/data.json');
-const OUT_PATH = path.join(__dirname, '../dashboard/data/agents_output.json');
+const OUT_PATH1 = path.join(__dirname, '../dashboard/data/agents_output.json');
+const OUT_PATH2 = path.join(__dirname, '../dashboard/agents_output.json');
 
 function checkEnv() {
   if (!GEMINI_KEY || GEMINI_KEY.includes('your_')) {
     console.error("❌ ERROR: GEMINI_API_KEY not set in .env file.");
     process.exit(1);
   }
-  if (!fs.existsSync(DATA_PATH)) {
-    console.error("❌ ERROR: dashboard/data/data.json not found.");
-    process.exit(1);
-  }
 }
 
 function loadData() {
-  return JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
+  const p = fs.existsSync(DATA_PATH) ? DATA_PATH : path.join(__dirname, '../dashboard/data.json');
+  return JSON.parse(fs.readFileSync(p, 'utf8'));
 }
 
 async function gemini(prompt, label = "") {
-  process.stdout.write(`  Calling Gemini for ${label}... `);
+  process.stdout.write(`Calling Gemini for ${label}... `);
 
-  const models = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest"];
+  const models = ["gemini-1.5-flash", "gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest"];
   let lastError = null;
 
   for (const model of models) {
     const postData = JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.8, maxOutputTokens: 600 }
+      generationConfig: { temperature: 0.7, maxOutputTokens: 2048 }
     });
 
     const options = {
@@ -45,155 +43,83 @@ async function gemini(prompt, label = "") {
       }
     };
 
-    try {
-      const responseText = await new Promise((resolve, reject) => {
-        const req = https.request(options, (res) => {
-          let data = '';
-          res.on('data', (chunk) => data += chunk);
-          res.on('end', () => {
-            if (res.statusCode >= 200 && res.statusCode < 300) {
-              resolve(data);
-            } else {
-              reject(new Error(`HTTP ${res.statusCode}: ${data}`));
-            }
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const responseText = await new Promise((resolve, reject) => {
+          const req = https.request(options, (res) => {
+            let data = '';
+            res.on('data', (chunk) => data += chunk);
+            res.on('end', () => {
+              if (res.statusCode >= 200 && res.statusCode < 300) {
+                resolve(data);
+              } else {
+                reject(new Error(`HTTP ${res.statusCode}: ${data}`));
+              }
+            });
           });
+          req.on('error', (e) => reject(e));
+          req.write(postData);
+          req.end();
         });
-        req.on('error', (e) => reject(e));
-        req.write(postData);
-        req.end();
-      });
 
-      const parsed = JSON.parse(responseText);
-      const text = parsed.candidates[0].content.parts[0].text.trim();
-      console.log("done.");
-      await new Promise(r => setTimeout(r, 2000));
-      return text;
-    } catch (err) {
-      lastError = err;
+        const parsed = JSON.parse(responseText);
+        const text = parsed.candidates[0].content.parts[0].text.trim();
+        if (text && text.length > 50) {
+          console.log(`done (${model}).`);
+          await new Promise(r => setTimeout(r, 1500));
+          return text;
+        }
+      } catch (err) {
+        lastError = err;
+        await new Promise(r => setTimeout(r, 2000 * attempt));
+      }
     }
   }
 
-  console.log(`failed: ${lastError?.message}`);
+  console.log(`failed (${lastError?.message})`);
   return `[Agent Error: ${lastError?.message}]`;
 }
 
-function fmt(n) {
-  try {
-    const num = parseInt(n);
-    return num >= 1000 ? `${(num / 1000).toFixed(1)}k` : num.toString();
-  } catch (e) {
-    return n.toString();
-  }
-}
+function buildSummaries(data) {
+  const me = data.your_account || {};
+  const myHandle = me.username || 'garvit.irl';
+  const myFollowers = me.followers || 5845;
+  const myAvgLikes = me.stats?.avg_likes || me.avg_likes || 334;
+  const myAvgComments = me.stats?.avg_comments || me.avg_comments || 12;
+  const myPosts = me.posts || me.recent_posts || [];
 
-function avg(lst) {
-  if (!lst || lst.length === 0) return 0;
-  return Math.round(lst.reduce((a, b) => a + b, 0) / lst.length);
-}
+  const rawComps = data.competitors || {};
+  const competitors = Array.isArray(rawComps) 
+    ? rawComps 
+    : Object.entries(rawComps).map(([k, v]) => ({ username: k, ...v }));
 
-async function runIdeator(data) {
-  const mine = data.your_account || {};
-  const comps = data.competitors || {};
-  const posts = mine.posts || [];
-  const myAvg = avg(posts.map(p => p.likes));
+  let compSummary = "";
+  competitors.forEach(c => {
+    const handle = c.username || c.handle || 'unknown';
+    const followers = c.followers || 0;
+    const avgLikes = c.stats?.avg_likes || c.avg_likes || 0;
+    const avgComments = c.stats?.avg_comments || c.avg_comments || 0;
+    const posts = c.posts || c.recent_posts || [];
 
-  let allCompPosts = [];
-  Object.values(comps).forEach(c => {
-    if (c.posts) allCompPosts = allCompPosts.concat(c.posts);
+    let postsText = "";
+    posts.slice(0, 3).forEach(p => {
+      const cap = (p.caption || '').slice(0, 150).replace(/\n/g, ' ');
+      const likes = p.likes || p.likesCount || 0;
+      if (cap) postsText += `    - [${likes} likes] ${cap}\n`;
+    });
+
+    compSummary += `\n@${handle}: ${followers} followers | avg ${avgLikes} likes | avg ${avgComments} comments\n  Top recent posts:\n${postsText}`;
   });
 
-  const topPosts = allCompPosts.sort((a, b) => b.likes - a.likes).slice(0, 5);
-  const compSummary = topPosts.map(p => `- @${p.username} (${fmt(p.likes)} likes): "${(p.caption || '').slice(0, 120)}"`).join('\n');
-  const myCaptions = posts.slice(0, 5).map(p => `- "${(p.caption || '').slice(0, 100)}"`).join('\n');
-
-  const prompt = `You are an expert Instagram content strategist.
-CREATOR: @garvit.irl — AI/content creator, ~18k followers, avg ${fmt(myAvg)} likes/post.
-Their recent posts:
-${myCaptions}
-Top competitor posts this week (by likes):
-${compSummary}
-Generate 5 original, specific content IDEAS for @garvit.irl.
-Each idea: adapted to their voice, clear angle, format (Reel/Carousel/Image).
-Format: IDEA [N]: [Title] / Format: [type] / Angle: [one sentence]`;
-
-  return await gemini(prompt, "Ideator");
-}
-
-async function runHookScript(data, ideatorOutput) {
-  const prompt = `You are a viral Instagram hook and script writer.
-CREATOR: @garvit.irl — AI/productivity content, Gen Z Indian audience.
-Based on these ideas:
-${(ideatorOutput || '').slice(0, 800)}
-Write:
-1. THREE punchy opening hooks (first Reel line, under 10 words each, create curiosity).
-2. A SHORT script outline for the best hook (8-12 sentences): Hook, Problem, Insight, Proof, CTA.
-Format: HOOK 1:, HOOK 2:, HOOK 3:, then SCRIPT OUTLINE:`;
-
-  return await gemini(prompt, "Hook & Script");
-}
-
-async function runPlanner(data) {
-  const mine = data.your_account || {};
-  const posts = mine.posts || [];
-  const dayLikes = {};
-
-  posts.forEach(p => {
-    try {
-      const dt = new Date(p.timestamp);
-      const dayName = dt.toLocaleDateString('en-US', { weekday: 'long' });
-      if (!dayLikes[dayName]) dayLikes[dayName] = [];
-      dayLikes[dayName].push(p.likes);
-    } catch (e) {}
+  let myPostsText = "";
+  myPosts.slice(0, 5).forEach(p => {
+    const cap = (p.caption || '').slice(0, 150).replace(/\n/g, ' ');
+    const likes = p.likes || 0;
+    const comments = p.comments || 0;
+    myPostsText += `  - [${likes} likes, ${comments} comments] ${cap}\n`;
   });
 
-  const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-  const daySummary = days.map(d => `- ${d}: ${fmt(avg(dayLikes[d] || []))} avg likes (${(dayLikes[d] || []).length} posts)`).join('\n');
-
-  const prompt = `You are a content calendar strategist for Instagram creators.
-CREATOR: @garvit.irl — posts AI/productivity/creator content, Indian audience.
-Their engagement by day of week:
-${daySummary}
-Create a specific 7-day content calendar for next week.
-For each day: Post type (Reel/Carousel/Image/Story/Rest), Best time IST, Topic focus, Why.
-Be specific and data-driven. Format as a clean day-by-day plan.`;
-
-  return await gemini(prompt, "Planner");
-}
-
-async function runAnalyst(data) {
-  const mine = data.your_account || {};
-  const comps = data.competitors || {};
-  const posts = mine.posts || [];
-
-  const myAvgLikes = avg(posts.map(p => p.likes));
-  const myAvgComments = avg(posts.map(p => p.comments));
-  const videoLikes = avg(posts.filter(p => p.type === "Video").map(p => p.likes));
-  const imageLikes = avg(posts.filter(p => p.type === "Image").map(p => p.likes));
-  const sidecarLikes = avg(posts.filter(p => p.type === "Sidecar").map(p => p.likes));
-
-  const compStats = Object.keys(comps).map(h => {
-    const c = comps[h];
-    return `@${h}: ${fmt(c.stats?.avg_likes || 0)} avg likes, ${(c.followers || 0).toLocaleString()} followers`;
-  }).join('\n');
-
-  const prompt = `You are a data-driven Instagram growth analyst.
-@garvit.irl stats: avg ${fmt(myAvgLikes)} likes, ${fmt(myAvgComments)} comments, ${posts.length} posts.
-Format performance: Video=${fmt(videoLikes)}, Image=${fmt(imageLikes)}, Carousel=${fmt(sidecarLikes)}.
-Competitors (ranked):
-${compStats}
-Write: 1. PERFORMANCE GRADE (A-F + why). 2. TOP INSIGHT. 3. FORMAT VERDICT. 4. 3 SPECIFIC ACTIONS. 5. BENCHMARK GAP.
-Be direct, honest, specific. No fluff.`;
-
-  return await gemini(prompt, "Analyst");
-}
-
-async function runDmManager(data) {
-  const prompt = `You are a DM manager for @garvit.irl, Indian AI/content creator, 18k followers.
-Write 5 ready-to-use DM templates for: 1) Growth questions 2) Collab/brand enquiry 3) Mentorship requests 4) Spam deflection 5) Fan appreciation.
-Each: warm but boundaried, real person tone, under 3 sentences, include [PLACEHOLDER] where needed.
-Format: DM TYPE [N]: [name] / TEMPLATE: [response]`;
-
-  return await gemini(prompt, "DM Manager");
+  return { myHandle, myFollowers, myAvgLikes, myAvgComments, myPostsText, compSummary };
 }
 
 async function main() {
@@ -202,38 +128,161 @@ async function main() {
   console.log("==================================================");
   checkEnv();
   const data = loadData();
-  const results = {};
+  const { myHandle, myFollowers, myAvgLikes, myAvgComments, myPostsText, compSummary } = buildSummaries(data);
 
-  console.log("\n[1/5] Ideator");
-  results.ideator = await runIdeator(data);
+  console.log("\nRunning Agent 1: Ideator...");
+  const ideator = await gemini(`
+You are a viral content strategist for Instagram creators in the Indian AI/tech/automation niche.
 
-  console.log("\n[2/5] Hook & Script");
-  results.hook_script = await runHookScript(data, results.ideator);
+CREATOR PROFILE:
+- Handle: @${myHandle}
+- Followers: ${myFollowers}
+- Avg likes/post: ${myAvgLikes}
+- Avg comments/post: ${myAvgComments}
+- Niche: AI tools, automation, productivity for Indian creators
 
-  console.log("\n[3/5] Planner");
-  try {
-    results.planner = await runPlanner(data);
-  } catch (e) {
-    results.planner = `Planner needs more post history. Error: ${e.message}`;
-  }
+MY RECENT POSTS:
+${myPostsText}
 
-  console.log("\n[4/5] Analyst");
-  results.analyst = await runAnalyst(data);
+COMPETITOR DATA (what is working RIGHT NOW):
+${compSummary}
 
-  console.log("\n[5/5] DM Manager");
-  results.dm_manager = await runDmManager(data);
+YOUR TASK:
+1. Identify the TOP 3 content patterns/hooks that are getting the most engagement across competitors this week
+2. Explain WHY each pattern works psychologically
+3. Generate 5 specific, ready-to-use content ideas for @${myHandle} based on these patterns
+4. For each idea, write: the exact video title, why it will work for Garvit's audience, and the content angle
+
+Be extremely specific. Use real competitor post data. Give ideas that are unique to Garvit's voice — AI tools + automation + Indian creator perspective.
+Format clearly with headers and numbered lists.
+`, "Ideator");
+
+  console.log("\nRunning Agent 2: Hook & Script...");
+  const hook_script = await gemini(`
+You are a viral short-form video scriptwriter specialising in Indian tech/AI creators on Instagram Reels.
+
+CREATOR: @${myHandle} — Indian creator in AI tools & automation niche, ${myFollowers} followers
+AUDIENCE: Indian creators, students, and professionals interested in AI and productivity
+
+BEST PERFORMING COMPETITOR CONTENT THIS WEEK:
+${compSummary}
+
+YOUR TASK:
+Write 3 complete, ready-to-film Instagram Reel scripts for @${myHandle}.
+
+For each script provide:
+1. HOOK (exact words for first 3 seconds — must stop the scroll)
+2. FULL SCRIPT (word-for-word, conversational, 45-60 seconds when spoken)
+3. CAPTION (with call to action)
+4. HASHTAGS (15 relevant hashtags)
+5. B-ROLL suggestions (what to show on screen)
+
+Make the scripts sound like Garvit is speaking naturally — not corporate, not robotic. Indian creator energy. Reference real AI tools. Be specific, not vague.
+`, "Hook & Script");
+
+  console.log("\nRunning Agent 3: Planner...");
+  const planner = await gemini(`
+You are a data-driven Instagram content strategist.
+
+CREATOR: @${myHandle} | ${myFollowers} followers | Niche: AI tools & automation
+
+COMPETITOR POSTING ANALYSIS:
+${compSummary}
+
+CURRENT PERFORMANCE:
+- My avg likes: ${myAvgLikes}
+- My avg comments: ${myAvgComments}
+
+YOUR TASK:
+1. Analyse when competitors post and when they get peak engagement
+2. Create a specific 7-day content calendar for @${myHandle} for the coming week
+3. For each day provide:
+   - Best posting time (IST) with reason
+   - Content format (Reel/Carousel/Story)
+   - Specific topic/title
+   - Content goal (reach/engagement/saves/followers)
+4. Give a weekly strategy note — what is the ONE thing Garvit should focus on this week to grow fastest
+
+Be specific with times. Base posting times on when competitor content peaks. Format as a clear day-by-day table then add strategy notes.
+`, "Planner");
+
+  console.log("\nRunning Agent 4: Analyst...");
+  const er = myFollowers ? ((myAvgLikes + myAvgComments) / myFollowers * 100).toFixed(2) : 0;
+  const analyst = await gemini(`
+You are an Instagram growth analyst specialising in the Indian tech/AI creator niche.
+
+GARVIT'S STATS (@${myHandle}):
+- Followers: ${myFollowers}
+- Avg likes per post: ${myAvgLikes}
+- Avg comments per post: ${myAvgComments}
+- Engagement rate: ${er}%
+
+COMPETITOR BENCHMARKS:
+${compSummary}
+
+YOUR TASK — Write a detailed competitor analysis report:
+
+1. RANKING: Rank @${myHandle} vs all 8 competitors on: followers, engagement rate, avg likes, avg comments
+
+2. WHERE GARVIT IS WINNING: List specific metrics where @${myHandle} outperforms competitors. Be honest — even small wins count.
+
+3. WHERE GARVIT IS FALLING BEHIND: List specific gaps with exact numbers comparing Garvit to the nearest competitor above him.
+
+4. GROWTH OPPORTUNITY: What is the single biggest lever Garvit can pull RIGHT NOW to close the gap? Give a specific, actionable recommendation with expected outcome.
+
+5. WEEKLY PRIORITY ACTION: One concrete thing to do this week based on the data.
+
+Be direct, honest, and data-driven. No fluff.
+`, "Analyst");
+
+  console.log("\nRunning Agent 5: DM Manager...");
+  const dm_manager = await gemini(`
+You are a DM strategy expert for Instagram creators in the AI/tech niche.
+
+CREATOR: @${myHandle} | Indian AI & automation creator | ${myFollowers} followers
+NICHE: AI tools, automation, productivity, content creation with AI
+
+YOUR TASK:
+Write 8 ready-to-send DM reply templates for the most common situations @${myHandle} will face:
+
+1. New follower who says "bro great content keep it up"
+2. Someone asking "which AI tools do you use?"
+3. Someone asking "how do I start with AI/automation?"
+4. Collab request from another creator
+5. Someone asking "can you make a video on [topic]?"
+6. Brand/sponsor reaching out for paid partnership
+7. Someone who says "your content helped me a lot, thank you"
+8. Someone asking "are you available for 1-on-1 consulting?"
+
+For each:
+- Write the exact DM reply (conversational, warm, sounds like a real person not a bot)
+- Keep it under 3 sentences — short replies get read
+- Include a soft CTA where appropriate (follow, save, watch a video)
+- Sound like Garvit — Indian creator, AI-focused, friendly but professional
+
+Label each template clearly.
+`, "DM Manager");
 
   const output = {
-    generated_at: new Date().toISOString(),
-    agents: results
+    ideator,
+    hook_script,
+    planner,
+    analyst,
+    dm_manager,
+    agents: { ideator, hook_script, planner, analyst, dm_manager },
+    _generated_at: new Date().toISOString()
   };
 
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2));
+  fs.mkdirSync(path.dirname(OUT_PATH1), { recursive: true });
+  fs.writeFileSync(OUT_PATH1, JSON.stringify(output, null, 2), 'utf8');
+  fs.writeFileSync(OUT_PATH2, JSON.stringify(output, null, 2), 'utf8');
 
-  console.log(`\n🎉 All 5 AI agents complete! Output saved to:`);
-  console.log(`   ${OUT_PATH}`);
-  console.log("Refresh dashboard/index.html to see live AI agent analysis.");
+  console.log("\n✅ All 5 agents complete!");
+  console.log(`Ideator: ${ideator.length} chars`);
+  console.log(`Hook & Script: ${hook_script.length} chars`);
+  console.log(`Planner: ${planner.length} chars`);
+  console.log(`Analyst: ${analyst.length} chars`);
+  console.log(`DM Manager: ${dm_manager.length} chars`);
 }
 
 main();

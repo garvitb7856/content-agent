@@ -1,163 +1,227 @@
-"""
-run_agents.py — runs all 5 AI agents using Gemini API.
-Reads dashboard/data/data.json, writes to dashboard/data/agents_output.json.
-Run: python scripts\run_agents.py
-"""
-import os, json, requests, time, sys
-from pathlib import Path
+import os, json, re
+import google.generativeai as genai
 from datetime import datetime
-from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).parent.parent / ".env")
+# Load env
+if os.path.exists('.env'):
+    for line in open('.env'):
+        line = line.strip()
+        if '=' in line and not line.startswith('#'):
+            k, v = line.split('=', 1)
+            os.environ[k.strip()] = v.strip()
 
-GEMINI_KEY = os.getenv("GEMINI_API_KEY")
-DATA_PATH  = Path(__file__).parent.parent / "dashboard" / "data" / "data.json"
-OUT_PATH   = Path(__file__).parent.parent / "dashboard" / "data" / "agents_output.json"
+genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+model = genai.GenerativeModel('gemini-1.5-flash')
 
-def check_env():
-    if not GEMINI_KEY or "your_" in GEMINI_KEY:
-        raise SystemExit("ERROR: GEMINI_API_KEY not set in .env")
-    if not DATA_PATH.exists():
-        raise SystemExit("ERROR: data.json not found.")
+def ask(prompt):
+    try:
+        r = model.generate_content(prompt)
+        return r.text.strip()
+    except Exception as e:
+        return f"Error: {e}"
 
-def load_data():
-    return json.loads(DATA_PATH.read_text())
+# Load data
+data_path = 'dashboard/data/data.json'
+if not os.path.exists(data_path):
+    data_path = 'dashboard/data.json'
 
-def gemini(prompt, label=""):
-    print(f"  Calling Gemini for {label}...", end="", flush=True)
-    models = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest"]
-    last_err = None
-    for model in models:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_KEY}"
-        try:
-            resp = requests.post(url, json={
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0.8, "maxOutputTokens": 600}
-            }, timeout=30)
-            if resp.status_code == 200:
-                text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-                print(" done.")
-                time.sleep(2)
-                return text
-            else:
-                last_err = resp.text
-        except Exception as e:
-            last_err = str(e)
-    print(f" failed: {last_err}")
-    return f"[Error calling Gemini: {last_err}]"
+with open(data_path, 'r', encoding='utf-8') as f:
+    data = json.load(f)
 
-def fmt(n):
-    try: n=int(n); return f"{n/1000:.1f}k" if n>=1000 else str(n)
-    except: return str(n)
+me = data.get('your_account', {})
+my_handle = me.get('username', 'garvit.irl')
+my_followers = me.get('followers', 5845)
+stats = me.get('stats', {})
+my_avg_likes = stats.get('avg_likes') or me.get('avg_likes', 334)
+my_avg_comments = stats.get('avg_comments') or me.get('avg_comments', 12)
+my_posts = me.get('posts') or me.get('recent_posts', [])
 
-def avg(lst): return round(sum(lst)/len(lst)) if lst else 0
+competitors_raw = data.get('competitors', [])
+if isinstance(competitors_raw, dict):
+    competitors = [{'username': k, **v} for k, v in competitors_raw.items()]
+else:
+    competitors = competitors_raw
 
-def run_ideator(data):
-    mine = data.get("your_account",{})
-    comps = data.get("competitors",{})
-    posts = mine.get("posts",[])
-    my_avg = avg([p["likes"] for p in posts])
-    top_posts = sorted(
-        [p for d in comps.values() for p in d.get("posts",[])],
-        key=lambda p: p["likes"], reverse=True
-    )[:5]
-    comp_summary = "\n".join([f"- @{p['username']} ({fmt(p['likes'])} likes): \"{p.get('caption','')[:120]}\"" for p in top_posts])
-    my_captions  = "\n".join([f"- \"{p.get('caption','')[:100]}\"" for p in posts[:5]])
-    prompt = f"""You are an expert Instagram content strategist.
-CREATOR: @garvit.irl — AI/content creator, ~18k followers, avg {fmt(my_avg)} likes/post.
-Their recent posts:
-{my_captions}
-Top competitor posts this week (by likes):
+# Build competitor summary
+comp_summary = ""
+for c in competitors:
+    c_handle = c.get('username') or c.get('handle', 'unknown')
+    c_followers = c.get('followers', 0)
+    c_stats = c.get('stats', {})
+    c_likes = c_stats.get('avg_likes') or c.get('avg_likes', 0)
+    c_comments = c_stats.get('avg_comments') or c.get('avg_comments', 0)
+
+    posts_text = ""
+    c_posts = c.get('posts') or c.get('recent_posts', [])
+    for p in c_posts[:3]:
+        cap = p.get('caption', '')[:150].replace('\n', ' ')
+        likes = p.get('likes') or p.get('likesCount', 0)
+        if cap:
+            posts_text += f"    - [{likes} likes] {cap}\n"
+    comp_summary += f"""
+@{c_handle}: {c_followers} followers | avg {c_likes} likes | avg {c_comments} comments
+  Top recent posts:
+{posts_text}"""
+
+# Build my posts summary
+my_posts_text = ""
+for p in my_posts[:5]:
+    cap = p.get('caption', '')[:150].replace('\n', ' ')
+    likes = p.get('likes', 0)
+    comments = p.get('comments', 0)
+    my_posts_text += f"  - [{likes} likes, {comments} comments] {cap}\n"
+
+print("Running Agent 1: Ideator...")
+ideator_output = ask(f"""
+You are a viral content strategist for Instagram creators in the Indian AI/tech/automation niche.
+
+CREATOR PROFILE:
+- Handle: @{my_handle}
+- Followers: {my_followers}
+- Avg likes/post: {my_avg_likes}
+- Avg comments/post: {my_avg_comments}
+- Niche: AI tools, automation, productivity for Indian creators
+
+MY RECENT POSTS:
+{my_posts_text}
+
+COMPETITOR DATA (what is working RIGHT NOW):
 {comp_summary}
-Generate 5 original, specific content IDEAS for @garvit.irl.
-Each idea: adapted to their voice, clear angle, format (Reel/Carousel/Image).
-Format: IDEA [N]: [Title] / Format: [type] / Angle: [one sentence]"""
-    return gemini(prompt, "Ideator")
 
-def run_hook_script(data, ideator_output):
-    prompt = f"""You are a viral Instagram hook and script writer.
-CREATOR: @garvit.irl — AI/productivity content, Gen Z Indian audience.
-Based on these ideas:
-{ideator_output[:800]}
-Write:
-1. THREE punchy opening hooks (first Reel line, under 10 words each, create curiosity).
-2. A SHORT script outline for the best hook (8-12 sentences): Hook, Problem, Insight, Proof, CTA.
-Format: HOOK 1:, HOOK 2:, HOOK 3:, then SCRIPT OUTLINE:"""
-    return gemini(prompt, "Hook & Script")
+YOUR TASK:
+1. Identify the TOP 3 content patterns/hooks that are getting the most engagement across competitors this week
+2. Explain WHY each pattern works psychologically
+3. Generate 5 specific, ready-to-use content ideas for @{my_handle} based on these patterns
+4. For each idea, write: the exact video title, why it will work for Garvit's audience, and the content angle
 
-def run_planner(data):
-    mine = data.get("your_account",{})
-    posts = mine.get("posts",[])
-    from collections import defaultdict
-    day_likes = defaultdict(list)
-    for p in posts:
-        try:
-            d = datetime.fromisoformat(p["timestamp"].replace("Z",""))
-            day_likes[d.strftime("%A")].append(p["likes"])
-        except: pass
-    day_summary = "\n".join([
-        f"- {day}: {fmt(avg(day_likes.get(day,[])))} avg likes ({len(day_likes.get(day,[]))} posts)"
-        for day in ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-    ])
-    prompt = f"""You are a content calendar strategist for Instagram creators.
-CREATOR: @garvit.irl — posts AI/productivity/creator content, Indian audience.
-Their engagement by day of week:
-{day_summary}
-Create a specific 7-day content calendar for next week.
-For each day: Post type (Reel/Carousel/Image/Story/Rest), Best time IST, Topic focus, Why.
-Be specific and data-driven. Format as a clean day-by-day plan."""
-    return gemini(prompt, "Planner")
+Be extremely specific. Use real competitor post data. Give ideas that are unique to Garvit's voice — AI tools + automation + Indian creator perspective.
+Format clearly with headers and numbered lists.
+""")
 
-def run_analyst(data):
-    mine  = data.get("your_account",{})
-    comps = data.get("competitors",{})
-    posts = mine.get("posts",[])
-    my_avg_likes    = avg([p["likes"] for p in posts])
-    my_avg_comments = avg([p["comments"] for p in posts])
-    video_likes   = avg([p["likes"] for p in posts if p.get("type")=="Video"])
-    image_likes   = avg([p["likes"] for p in posts if p.get("type")=="Image"])
-    sidecar_likes = avg([p["likes"] for p in posts if p.get("type")=="Sidecar"])
-    comp_stats = "\n".join([
-        f"@{h}: {fmt(round(d.get('stats',{}).get('avg_likes',0)))} avg likes, {d.get('followers',0):,} followers"
-        for h,d in sorted(comps.items(), key=lambda x: -(x[1].get("stats",{}).get("avg_likes",0)))
-    ])
-    prompt = f"""You are a data-driven Instagram growth analyst.
-@garvit.irl stats: avg {fmt(my_avg_likes)} likes, {fmt(my_avg_comments)} comments, {len(posts)} posts.
-Format performance: Video={fmt(video_likes)}, Image={fmt(image_likes)}, Carousel={fmt(sidecar_likes)}.
-Competitors (ranked): {comp_stats}
-Write: 1. PERFORMANCE GRADE (A-F + why). 2. TOP INSIGHT. 3. FORMAT VERDICT. 4. 3 SPECIFIC ACTIONS. 5. BENCHMARK GAP.
-Be direct, honest, specific. No fluff."""
-    return gemini(prompt, "Analyst")
+print("Running Agent 2: Hook & Script...")
+hook_script_output = ask(f"""
+You are a viral short-form video scriptwriter specialising in Indian tech/AI creators on Instagram Reels.
 
-def run_dm_manager(data):
-    prompt = """You are a DM manager for @garvit.irl, Indian AI/content creator, 18k followers.
-Write 5 ready-to-use DM templates for: 1) Growth questions 2) Collab/brand enquiry 3) Mentorship requests 4) Spam deflection 5) Fan appreciation.
-Each: warm but boundaried, real person tone, under 3 sentences, include [PLACEHOLDER] where needed.
-Format: DM TYPE [N]: [name] / TEMPLATE: [response]"""
-    return gemini(prompt, "DM Manager")
+CREATOR: @{my_handle} — Indian creator in AI tools & automation niche, {my_followers} followers
+AUDIENCE: Indian creators, students, and professionals interested in AI and productivity
 
-def main():
-    print("="*50)
-    print("Content Agent — Running All 5 AI Agents (Gemini)")
-    print("="*50)
-    check_env()
-    data = load_data()
-    results = {}
-    print("\n[1/5] Ideator")
-    results["ideator"] = run_ideator(data)
-    print("\n[2/5] Hook & Script")
-    results["hook_script"] = run_hook_script(data, results["ideator"])
-    print("\n[3/5] Planner")
-    try: results["planner"] = run_planner(data)
-    except Exception as e: results["planner"] = f"Planner needs more post history. Error: {e}"
-    print("\n[4/5] Analyst")
-    results["analyst"] = run_analyst(data)
-    print("\n[5/5] DM Manager")
-    results["dm_manager"] = run_dm_manager(data)
-    output = {"generated_at": datetime.now().isoformat(), "agents": results}
-    OUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    print(f"\nAll agents done. Saved to {OUT_PATH}")
-    print("Refresh dashboard/index.html to see AI output.")
+BEST PERFORMING COMPETITOR CONTENT THIS WEEK:
+{comp_summary}
 
-if __name__ == "__main__":
-    main()
+YOUR TASK:
+Write 3 complete, ready-to-film Instagram Reel scripts for @{my_handle}.
+
+For each script provide:
+1. HOOK (exact words for first 3 seconds — must stop the scroll)
+2. FULL SCRIPT (word-for-word, conversational, 45-60 seconds when spoken)
+3. CAPTION (with call to action)
+4. HASHTAGS (15 relevant hashtags)
+5. B-ROLL suggestions (what to show on screen)
+
+Make the scripts sound like Garvit is speaking naturally — not corporate, not robotic. Indian creator energy. Reference real AI tools. Be specific, not vague.
+""")
+
+print("Running Agent 3: Planner...")
+planner_output = ask(f"""
+You are a data-driven Instagram content strategist.
+
+CREATOR: @{my_handle} | {my_followers} followers | Niche: AI tools & automation
+
+COMPETITOR POSTING ANALYSIS:
+{comp_summary}
+
+CURRENT PERFORMANCE:
+- My avg likes: {my_avg_likes}
+- My avg comments: {my_avg_comments}
+
+YOUR TASK:
+1. Analyse when competitors post and when they get peak engagement
+2. Create a specific 7-day content calendar for @{my_handle} for the coming week
+3. For each day provide:
+   - Best posting time (IST) with reason
+   - Content format (Reel/Carousel/Story)
+   - Specific topic/title
+   - Content goal (reach/engagement/saves/followers)
+4. Give a weekly strategy note — what is the ONE thing Garvit should focus on this week to grow fastest
+
+Be specific with times. Base posting times on when competitor content peaks. Format as a clear day-by-day table then add strategy notes.
+""")
+
+print("Running Agent 4: Analyst...")
+analyst_output = ask(f"""
+You are an Instagram growth analyst specialising in the Indian tech/AI creator niche.
+
+GARVIT'S STATS (@{my_handle}):
+- Followers: {my_followers}
+- Avg likes per post: {my_avg_likes}
+- Avg comments per post: {my_avg_comments}
+- Engagement rate: {round((my_avg_likes + my_avg_comments) / my_followers * 100, 2) if my_followers else 0}%
+
+COMPETITOR BENCHMARKS:
+{comp_summary}
+
+YOUR TASK — Write a detailed competitor analysis report:
+
+1. RANKING: Rank @{my_handle} vs all 8 competitors on: followers, engagement rate, avg likes, avg comments
+
+2. WHERE GARVIT IS WINNING: List specific metrics where @{my_handle} outperforms competitors. Be honest — even small wins count.
+
+3. WHERE GARVIT IS FALLING BEHIND: List specific gaps with exact numbers comparing Garvit to the nearest competitor above him.
+
+4. GROWTH OPPORTUNITY: What is the single biggest lever Garvit can pull RIGHT NOW to close the gap? Give a specific, actionable recommendation with expected outcome.
+
+5. WEEKLY PRIORITY ACTION: One concrete thing to do this week based on the data.
+
+Be direct, honest, and data-driven. No fluff.
+""")
+
+print("Running Agent 5: DM Manager...")
+dm_output = ask(f"""
+You are a DM strategy expert for Instagram creators in the AI/tech niche.
+
+CREATOR: @{my_handle} | Indian AI & automation creator | {my_followers} followers
+NICHE: AI tools, automation, productivity, content creation with AI
+
+YOUR TASK:
+Write 8 ready-to-send DM reply templates for the most common situations @{my_handle} will face:
+
+1. New follower who says "bro great content keep it up"
+2. Someone asking "which AI tools do you use?"
+3. Someone asking "how do I start with AI/automation?"
+4. Collab request from another creator
+5. Someone asking "can you make a video on [topic]?"
+6. Brand/sponsor reaching out for paid partnership
+7. Someone who says "your content helped me a lot, thank you"
+8. Someone asking "are you available for 1-on-1 consulting?"
+
+For each:
+- Write the exact DM reply (conversational, warm, sounds like a real person not a bot)
+- Keep it under 3 sentences — short replies get read
+- Include a soft CTA where appropriate (follow, save, watch a video)
+- Sound like Garvit — Indian creator, AI-focused, friendly but professional
+
+Label each template clearly.
+""")
+
+output = {
+    "ideator": ideator_output,
+    "hook_script": hook_script_output,
+    "planner": planner_output,
+    "analyst": analyst_output,
+    "dm_manager": dm_output,
+    "_generated_at": datetime.now().isoformat()
+}
+
+os.makedirs("dashboard/data", exist_ok=True)
+with open("dashboard/data/agents_output.json", "w", encoding="utf-8") as f:
+    json.dump(output, f, indent=2, ensure_ascii=False)
+
+with open("dashboard/agents_output.json", "w", encoding="utf-8") as f:
+    json.dump(output, f, indent=2, ensure_ascii=False)
+
+print("\n✅ All 5 agents complete!")
+print(f"Ideator: {len(ideator_output)} chars")
+print(f"Hook & Script: {len(hook_script_output)} chars")
+print(f"Planner: {len(planner_output)} chars")
+print(f"Analyst: {len(analyst_output)} chars")
+print(f"DM Manager: {len(dm_output)} chars")
