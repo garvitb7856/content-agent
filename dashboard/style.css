@@ -418,3 +418,43 @@ footer {
   border-top: 1px solid var(--card-border);
   margin-top: 3rem;
 }
+
+/* ── View Full Output button ──────────────────────────── */
+.view-btn {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  border: none;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  letter-spacing: 0.02em;
+  margin-top: 12px;
+  transition: opacity 0.2s, transform 0.1s;
+  text-align: center;
+}
+.view-btn:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+.view-btn:active {
+  transform: translateY(0);
+}
+
+/* ── Agent output preview text ────────────────────────── */
+.agent-output {
+  color: var(--text-muted);
+  font-size: 0.855rem;
+  min-height: 60px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
