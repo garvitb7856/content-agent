@@ -33,7 +33,8 @@ function renderStatsBar(){
   var posts=mine.posts||[];
   var comps=(DATA&&DATA.competitors)||{};
   var allCP=[];Object.values(comps).forEach(function(c){if(c.posts)allCP=allCP.concat(c.posts);});
-  var aiTs=(AI&&AI.generated_at)?new Date(AI.generated_at).toLocaleTimeString():null;
+  var rawTs=(AI&&(AI.generated_at||AI._generated_at))||null;
+  var aiTs=rawTs?new Date(rawTs).toLocaleTimeString():null;
   var topL=posts.length?Math.max.apply(null,posts.map(function(p){return p.likes;})):0;
   var items=[
     {label:"Your Followers",value:fmt(mine.followers||5845),sub:"@garvit.irl"},
@@ -53,7 +54,8 @@ function renderAgents(){
     FULL[a.key]=full;
     var lines=full.split("<br>");
     var preview=lines.slice(0,4).join("<br>")+(lines.length>4?"...":"");
-    var ts=(AI&&AI.generated_at)?"AI: "+new Date(AI.generated_at).toLocaleTimeString():(AI&&AI._generated_at)?"AI: "+new Date(AI._generated_at).toLocaleTimeString():"Static";
+    var rawTs=(AI&&(AI.generated_at||AI._generated_at))||null;
+    var ts=rawTs?"AI: "+new Date(rawTs).toLocaleTimeString():"Static";
     return'<div class="agent-card" style="border-color:'+a.color+'44">'
       +'<div class="agent-header"><div class="agent-icon" style="background:'+a.color+'22;color:'+a.color+'">'+a.icon+'</div>'
       +'<div><div class="agent-name">'+a.name+'</div><div class="agent-role">'+a.role+'</div></div>'
