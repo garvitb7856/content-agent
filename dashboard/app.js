@@ -17,17 +17,38 @@ const modalEl    = document.getElementById('agent-modal');
 const modalTitle = document.getElementById('modal-title');
 const modalBody  = document.getElementById('modal-body');
 
-function openModal(title, rawText) {
+function openModal(title, text) {
   modalTitle.textContent = title;
-  // Render **bold** and newlines to HTML (text was never stored as HTML, so safe)
-  modalBody.innerHTML = rawText
+  // Full markdown-to-HTML conversion
+  const html = text
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    // Headers
+    .replace(/^#### (.*?)$/gm, '<h4 style="color:#a78bfa;margin:14px 0 4px;">$1</h4>')
+    .replace(/^### (.*?)$/gm,  '<h3 style="color:#c4b5fd;margin:16px 0 6px;">$1</h3>')
+    .replace(/^## (.*?)$/gm,   '<h2 style="color:#e9d5ff;margin:18px 0 8px;">$1</h2>')
+    // Bold
+    .replace(/\*\*(.*?)\*\*/g, '<strong style="color:#f1f5f9;">$1</strong>')
+    // Italic
+    .replace(/\*(.*?)\*/g, '<em style="color:#cbd5e1;">$1</em>')
+    // Horizontal rule
+    .replace(/^---+$/gm, '<hr style="border-color:#2d2d4e;margin:12px 0;">')
+    // Bullet points
+    .replace(/^\*   (.*?)$/gm, '<li style="margin:4px 0 4px 16px;">$1</li>')
+    .replace(/^\* (.*?)$/gm,   '<li style="margin:4px 0 4px 16px;">$1</li>')
+    .replace(/^- (.*?)$/gm,    '<li style="margin:4px 0 4px 16px;">$1</li>')
+    // Numbered lists
+    .replace(/^\d+\. (.*?)$/gm,'<li style="margin:4px 0 4px 16px;">$1</li>')
+    // Blockquote
+    .replace(/^&gt; (.*?)$/gm, '<blockquote style="border-left:3px solid #7c3aed;padding-left:12px;color:#94a3b8;margin:8px 0;">$1</blockquote>')
+    // Line breaks
     .replace(/\n/g, '<br>');
+  modalBody.innerHTML = html;
   modalEl.style.display = 'flex';
   document.body.style.overflow = 'hidden';
+  // Scroll to top every time modal opens
+  modalBody.scrollTop = 0;
 }
 
 function closeModal() {
