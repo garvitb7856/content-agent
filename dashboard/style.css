@@ -550,4 +550,13 @@ footer {
 .you-row td { color: #a78bfa !important; font-weight: 600 !important; }
 .you-badge { background: #7c3aed; color: #fff; font-size: 0.7rem; padding: 2px 7px; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
 
+#modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9999;align-items:center;justify-content:center}
+#modal-overlay.open{display:flex}
+#modal-box{background:#1a1030;border:2px solid #7c3aed;border-radius:12px;padding:2rem;max-width:700px;width:92%;max-height:80vh;overflow-y:auto}
+#modal-title{font-size:1.2rem;font-weight:700;color:#a78bfa;margin-bottom:1rem}
+#modal-body{font-size:.9rem;line-height:1.8;color:#e2d9f3}
+#modal-box button{margin-top:1.5rem;background:#7c3aed;color:#fff;border:none;border-radius:8px;padding:.6rem 1.8rem;cursor:pointer;font-size:.9rem}
+.view-btn{display:block;width:100%;margin:.75rem 0 .5rem;background:linear-gradient(90deg,#7c3aed,#ec4899);color:#fff;border:none;border-radius:8px;padding:.6rem 1rem;cursor:pointer;font-size:.85rem;font-weight:600}
+
+
 

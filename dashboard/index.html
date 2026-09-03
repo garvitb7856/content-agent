@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Agent Dashboard — @garvit.irl</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Content Agent Dashboard - @garvit.irl</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"/>
+<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 <header>
-  <h1>⚡ Content Agent Operating System</h1>
+  <h1>Content Agent Operating System</h1>
   <div class="header-meta">
     <span class="live-badge">LIVE SYSTEM</span>
-    <span id="data-ts">Loading…</span>
+    <span id="data-ts">Loading...</span>
     <span style="color:var(--neon)">@garvit.irl</span>
   </div>
 </header>
 <div class="container">
   <div id="stats-bar" class="stats-bar"></div>
-  <div class="section-title">✨ Active AI Agent Squad (5 Agents)</div>
+  <div class="section-title">Active AI Agent Squad (5 Agents)</div>
   <div id="agents-grid" class="agents-grid"></div>
-  <div class="section-title">📅 7-Day Strategy & Calendar Planner</div>
+  <div class="section-title">7-Day Strategy and Calendar Planner</div>
   <div id="calendar-strip" class="calendar-strip"></div>
-  <div class="section-title">📊 Analyst — Competitor Benchmarks</div>
+  <div class="section-title">Analyst - Competitor Benchmarks</div>
   <div id="comp-table" class="table-wrap"></div>
 </div>
-<footer>Content Agent Dashboard · Built for @garvit.irl · Powered by Apify + Gemini AI</footer>
-<div id="modal-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:999;align-items:center;justify-content:center">
-  <div id="modal-box" style="background:#1a1030;border:1px solid #7c3aed;border-radius:12px;padding:2rem;max-width:680px;width:90%;max-height:80vh;overflow-y:auto">
-    <div id="modal-title" style="font-size:1.2rem;font-weight:700;color:#a78bfa;margin-bottom:1rem"></div>
-    <div id="modal-body" style="font-size:0.9rem;line-height:1.7;color:#e2d9f3"></div>
-    <button id="modal-close" style="margin-top:1.5rem;background:#7c3aed;color:#fff;border:none;border-radius:8px;padding:0.5rem 1.5rem;cursor:pointer;font-size:0.9rem">Close</button>
+<footer>Content Agent Dashboard - @garvit.irl - Powered by Apify + Gemini AI</footer>
+<div id="modal-overlay">
+  <div id="modal-box">
+    <div id="modal-title"></div>
+    <div id="modal-body"></div>
+    <button onclick="closeModal()">Close</button>
   </div>
 </div>
 <script src="app.js"></script>
