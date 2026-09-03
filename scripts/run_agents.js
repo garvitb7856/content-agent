@@ -62,15 +62,14 @@ async function gemini(prompt, label = "") {
         }
       }
 
-      // Handle 429 rate limit — parse retryDelay from response
       if (statusCode === 429) {
-        let waitSec = 15; // default
+        let waitSec = 15;
         try {
           const err = JSON.parse(body);
           const retryInfo = (err.error?.details || []).find(d => d['@type']?.includes('RetryInfo'));
           if (retryInfo?.retryDelay) {
             const parsed = parseInt(retryInfo.retryDelay);
-            if (parsed > 0) waitSec = parsed + 3; // add buffer
+            if (parsed > 0) waitSec = parsed + 3;
           }
         } catch(e) {}
         waitSec = Math.max(waitSec, 15);
@@ -104,10 +103,11 @@ function buildSummaries(data) {
   const myPosts = me.posts || me.recent_posts || [];
 
   const rawComps = data.competitors || {};
-  const competitors = Array.isArray(rawComps) 
-    ? rawComps 
+  const competitors = Array.isArray(rawComps)
+    ? rawComps
     : Object.entries(rawComps).map(([k, v]) => ({ username: k, ...v }));
 
+  // Build competitor summary WITH post URLs
   let compSummary = "";
   competitors.forEach(c => {
     const handle = c.username || c.handle || 'unknown';
@@ -117,25 +117,42 @@ function buildSummaries(data) {
     const posts = c.posts || c.recent_posts || [];
 
     let postsText = "";
-    posts.slice(0, 3).forEach(p => {
-      const cap = (p.caption || '').slice(0, 150).replace(/\n/g, ' ');
+    posts.slice(0, 5).forEach(p => {
+      const cap = (p.caption || '').slice(0, 180).replace(/\n/g, ' ');
       const likes = p.likes || p.likesCount || 0;
-      if (cap) postsText += `    - [${likes} likes] ${cap}\n`;
+      const url = p.url || '';
+      if (cap) {
+        if (url) {
+          postsText += `    - [${likes} likes] [${cap.slice(0,80)}...](${url})\n`;
+        } else {
+          postsText += `    - [${likes} likes] ${cap.slice(0,80)}...\n`;
+        }
+      }
     });
 
-    compSummary += `\n@${handle}: ${followers} followers | avg ${avgLikes} likes | avg ${avgComments} comments\n  Top recent posts:\n${postsText}`;
+    compSummary += `\n@${handle}: ${followers} followers | avg ${avgLikes} likes | avg ${avgComments} comments\n  Top posts (with links):\n${postsText}`;
   });
 
+  // Build my posts summary WITH URLs
   let myPostsText = "";
   myPosts.slice(0, 5).forEach(p => {
-    const cap = (p.caption || '').slice(0, 150).replace(/\n/g, ' ');
+    const cap = (p.caption || '').slice(0, 180).replace(/\n/g, ' ');
     const likes = p.likes || 0;
     const comments = p.comments || 0;
-    myPostsText += `  - [${likes} likes, ${comments} comments] ${cap}\n`;
+    const url = p.url || '';
+    if (url) {
+      myPostsText += `  - [${likes} likes, ${comments} comments] [${cap.slice(0,80)}...](${url})\n`;
+    } else {
+      myPostsText += `  - [${likes} likes, ${comments} comments] ${cap.slice(0,80)}...\n`;
+    }
   });
 
   return { myHandle, myFollowers, myAvgLikes, myAvgComments, myPostsText, compSummary };
 }
+
+const LINK_INSTRUCTION = `
+IMPORTANT — LINKING RULE: Whenever you reference a specific competitor post or my post, format it as a markdown link using the URL provided in the data above. Example: [post title or description](https://www.instagram.com/p/XXXXX/). This allows the reader to click and watch the actual video. Always include the link when you reference a specific post.
+`;
 
 async function main() {
   console.log("==================================================");
@@ -144,6 +161,15 @@ async function main() {
   checkEnv();
   const data = loadData();
   const { myHandle, myFollowers, myAvgLikes, myAvgComments, myPostsText, compSummary } = buildSummaries(data);
+
+  // Build day names for planner
+  const dayNames = [];
+  const today = new Date();
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(today);
+    d.setDate(today.getDate() + i);
+    dayNames.push(d.toLocaleDateString('en-GB', { weekday: 'long', day: '2-digit', month: 'short' }));
+  }
 
   console.log("\nRunning Agent 1: Ideator...");
   const ideator = await gemini(`
@@ -156,43 +182,77 @@ CREATOR PROFILE:
 - Avg comments/post: ${myAvgComments}
 - Niche: AI tools, automation, productivity for Indian creators
 
-MY RECENT POSTS:
+MY RECENT 5 POSTS (with links):
 ${myPostsText}
 
-COMPETITOR DATA (what is working RIGHT NOW):
+COMPETITOR DATA — posts with Instagram links:
 ${compSummary}
 
-YOUR TASK:
-1. Identify the TOP 3 content patterns/hooks that are getting the most engagement across competitors this week
-2. Explain WHY each pattern works psychologically
-3. Generate 5 specific, ready-to-use content ideas for @${myHandle} based on these patterns
-4. For each idea, write: the exact video title, why it will work for Garvit's audience, and the content angle
+${LINK_INSTRUCTION}
 
-Be extremely specific. Use real competitor post data. Give ideas that are unique to Garvit's voice — AI tools + automation + Indian creator perspective.
-Format clearly with headers and numbered lists.
+YOUR TASK — Write a COMPLETE response with all 4 sections. Do not truncate.
+
+### SECTION 1: TOP 3 CONTENT PATTERNS
+For each pattern:
+- Name the pattern
+- 2 real competitor examples WITH clickable markdown links to the actual posts
+- The psychological reason it works
+
+### SECTION 2: WHY THESE WORK FOR GARVIT'S AUDIENCE
+Explain specifically why each pattern fits @${myHandle}.
+
+### SECTION 3: 5 READY-TO-USE CONTENT IDEAS
+For each idea:
+- **Title:** exact video title
+- **Hook:** first 3 seconds, word for word
+- **Why it works:** for Garvit's audience specifically
+- **Structure:** what goes in the video
+- **CTA:** what viewers comment or do
+
+### SECTION 4: QUICK WIN TODAY
+One idea Garvit can film TODAY with zero prep that will outperform his recent posts. Reference a specific competitor post link as inspiration.
+
+Write all 4 sections completely.
 `, "Ideator");
 
   console.log("\nRunning Agent 2: Hook & Script...");
   const hook_script = await gemini(`
-You are a viral short-form video scriptwriter specialising in Indian tech/AI creators on Instagram Reels.
+You are a viral short-form video scriptwriter for Indian tech/AI creators on Instagram Reels.
 
-CREATOR: @${myHandle} — Indian creator in AI tools & automation niche, ${myFollowers} followers
-AUDIENCE: Indian creators, students, and professionals interested in AI and productivity
+CREATOR: @${myHandle} — ${myFollowers} followers | AI tools & automation niche
+AUDIENCE: Indian creators, students, professionals interested in AI and productivity
 
-BEST PERFORMING COMPETITOR CONTENT THIS WEEK:
+COMPETITOR CONTENT (with links to actual posts):
 ${compSummary}
 
-YOUR TASK:
-Write 3 complete, ready-to-film Instagram Reel scripts for @${myHandle}.
+${LINK_INSTRUCTION}
 
-For each script provide:
-1. HOOK (exact words for first 3 seconds — must stop the scroll)
-2. FULL SCRIPT (word-for-word, conversational, 45-60 seconds when spoken)
-3. CAPTION (with call to action)
-4. HASHTAGS (15 relevant hashtags)
-5. B-ROLL suggestions (what to show on screen)
+YOUR TASK — Write 3 COMPLETE, ready-to-film Reel scripts. Do not truncate. Write every word of every script.
 
-Make the scripts sound like Garvit is speaking naturally — not corporate, not robotic. Indian creator energy. Reference real AI tools. Be specific, not vague.
+For each script, use EXACTLY this format:
+
+---
+### SCRIPT [N]: [TITLE]
+
+**INSPIRATION:** [Link to the competitor post that inspired this — markdown link]
+
+**HOOK (first 3 seconds):**
+[exact words to say on camera]
+
+**FULL SCRIPT:**
+[complete word-for-word script with stage directions in brackets. 45-60 seconds spoken. Every single word.]
+
+**CAPTION:**
+[full caption with CTA]
+
+**HASHTAGS:**
+[15 hashtags]
+
+**B-ROLL (what to show on screen):**
+- [bullet list]
+---
+
+Write all 3 scripts completely using this format.
 `, "Hook & Script");
 
   console.log("\nRunning Agent 3: Planner...");
@@ -200,82 +260,128 @@ Make the scripts sound like Garvit is speaking naturally — not corporate, not 
 You are a data-driven Instagram content strategist.
 
 CREATOR: @${myHandle} | ${myFollowers} followers | Niche: AI tools & automation
+CURRENT PERFORMANCE: Avg likes: ${myAvgLikes} | Avg comments: ${myAvgComments}
 
-COMPETITOR POSTING ANALYSIS:
+COMPETITOR DATA (with links to actual posts):
 ${compSummary}
 
-CURRENT PERFORMANCE:
-- My avg likes: ${myAvgLikes}
-- My avg comments: ${myAvgComments}
+${LINK_INSTRUCTION}
 
-YOUR TASK:
-1. Analyse when competitors post and when they get peak engagement
-2. Create a specific 7-day content calendar for @${myHandle} for the coming week
-3. For each day provide:
-   - Best posting time (IST) with reason
-   - Content format (Reel/Carousel/Story)
-   - Specific topic/title
-   - Content goal (reach/engagement/saves/followers)
-4. Give a weekly strategy note — what is the ONE thing Garvit should focus on this week to grow fastest
+YOUR TASK — Write a structured 7-day content calendar starting from today (${dayNames[0]}).
 
-Be specific with times. Base posting times on when competitor content peaks. Format as a clear day-by-day table then add strategy notes.
+First write this section:
+---
+## WEEKLY STRATEGY
+[2-3 sentences: the single biggest focus this week to grow fastest, based on competitor data. Reference a specific competitor post link as proof.]
+
+## WHAT NOT TO DO THIS WEEK
+1. [mistake to avoid with reason]
+2. [mistake to avoid with reason]
+3. [mistake to avoid with reason]
+---
+
+Then for EACH of the 7 days, use EXACTLY this block format with no variations:
+
+---
+## DAY [N] — [DAY NAME AND DATE]
+
+**Post Time:** [HH:MM IST] — [one sentence reason why this time]
+**Format:** [Reel / Carousel / Story]
+**Topic:** [specific topic]
+**Title (on screen):** [exact text to put on screen]
+**Hook:** [first sentence/line of the video or carousel]
+**Goal:** [Reach / Engagement / Saves / Followers]
+**Trigger Word:** "[word people comment to get a DM]"
+**Inspired by:** [markdown link to a competitor post that proved this works]
+---
+
+The 7 days are: ${dayNames.join(', ')}
+
+Write all 7 day blocks completely using this exact format. Do not skip any field.
 `, "Planner");
 
   console.log("\nRunning Agent 4: Analyst...");
   const er = myFollowers ? ((myAvgLikes + myAvgComments) / myFollowers * 100).toFixed(2) : 0;
   const analyst = await gemini(`
-You are an Instagram growth analyst specialising in the Indian tech/AI creator niche.
+You are an Instagram growth analyst for the Indian tech/AI creator niche.
 
 GARVIT'S STATS (@${myHandle}):
 - Followers: ${myFollowers}
-- Avg likes per post: ${myAvgLikes}
-- Avg comments per post: ${myAvgComments}
+- Avg likes: ${myAvgLikes}
+- Avg comments: ${myAvgComments}
 - Engagement rate: ${er}%
 
-COMPETITOR BENCHMARKS:
+COMPETITOR DATA (with links to actual posts):
 ${compSummary}
 
-YOUR TASK — Write a detailed competitor analysis report:
+${LINK_INSTRUCTION}
 
-1. RANKING: Rank @${myHandle} vs all 8 competitors on: followers, engagement rate, avg likes, avg comments
+YOUR TASK — Write a COMPLETE analysis report. Do not truncate. Write all 5 sections.
 
-2. WHERE GARVIT IS WINNING: List specific metrics where @${myHandle} outperforms competitors. Be honest — even small wins count.
+### SECTION 1: FULL RANKING TABLE
+| Rank | Handle | Followers | Avg Likes | Avg Comments | Eng Rate |
+|------|--------|-----------|-----------|--------------|----------|
+[fill every row — all 9 creators including Garvit. Calculate engagement rate as (avg_likes + avg_comments) / followers * 100]
 
-3. WHERE GARVIT IS FALLING BEHIND: List specific gaps with exact numbers comparing Garvit to the nearest competitor above him.
+### SECTION 2: WHERE GARVIT IS WINNING
+List every metric where @${myHandle} outperforms at least one competitor. Include exact numbers. Reference specific post links as evidence where relevant.
 
-4. GROWTH OPPORTUNITY: What is the single biggest lever Garvit can pull RIGHT NOW to close the gap? Give a specific, actionable recommendation with expected outcome.
+### SECTION 3: WHERE GARVIT IS FALLING BEHIND
+For each gap: exact numbers, which creator is just above Garvit, and the specific post link proving what works for them.
 
-5. WEEKLY PRIORITY ACTION: One concrete thing to do this week based on the data.
+### SECTION 4: BIGGEST GROWTH LEVER RIGHT NOW
+The single most impactful action with:
+- What to do (specific, not vague)
+- Why (link to the competitor post proving it works)
+- Expected outcome (e.g. "+300 followers in 2 weeks")
 
-Be direct, honest, and data-driven. No fluff.
+### SECTION 5: THIS WEEK'S PRIORITY ACTION
+Step-by-step execution plan for one concrete task this week.
+
+Write all 5 sections completely with real numbers.
 `, "Analyst");
 
   console.log("\nRunning Agent 5: DM Manager...");
   const dm_manager = await gemini(`
 You are a DM strategy expert for Instagram creators in the AI/tech niche.
 
-CREATOR: @${myHandle} | Indian AI & automation creator | ${myFollowers} followers
-NICHE: AI tools, automation, productivity, content creation with AI
+CREATOR: @${myHandle} | ${myFollowers} followers | AI & automation niche
+EMAIL: garvitb.business@gmail.com
 
-YOUR TASK:
-Write 8 ready-to-send DM reply templates for the most common situations @${myHandle} will face:
+CONTEXT — My recent posts people may reference in DMs (with links):
+${myPostsText}
 
-1. New follower who says "bro great content keep it up"
-2. Someone asking "which AI tools do you use?"
-3. Someone asking "how do I start with AI/automation?"
+${LINK_INSTRUCTION}
+
+YOUR TASK — Write 8 COMPLETE DM reply templates. Write each fully.
+
+For EACH template use EXACTLY this format:
+
+---
+### TEMPLATE [N]: [SITUATION TITLE]
+
+**Situation:** [describe when to use this]
+**Goal:** [what this reply achieves]
+
+**The DM (copy-paste ready):**
+> [exact message in quotes — under 3 sentences, warm, natural, sounds like Garvit]
+
+**If they reply:** [what to do next]
+---
+
+The 8 situations:
+1. New follower says "bro great content keep it up"
+2. Someone asks "which AI tools do you use?"
+3. Someone asks "how do I start with AI/automation?"
 4. Collab request from another creator
-5. Someone asking "can you make a video on [topic]?"
+5. Someone asks "can you make a video on [topic]?"
 6. Brand/sponsor reaching out for paid partnership
-7. Someone who says "your content helped me a lot, thank you"
-8. Someone asking "are you available for 1-on-1 consulting?"
+7. Someone says "your content helped me a lot, thank you"
+8. Someone asks "are you available for 1-on-1 consulting?"
 
-For each:
-- Write the exact DM reply (conversational, warm, sounds like a real person not a bot)
-- Keep it under 3 sentences — short replies get read
-- Include a soft CTA where appropriate (follow, save, watch a video)
-- Sound like Garvit — Indian creator, AI-focused, friendly but professional
+Rules: Under 3 sentences. Conversational, warm, not robotic. Soft CTA where appropriate. Where relevant, link to a specific post from my recent posts list above using markdown.
 
-Label each template clearly.
+Write all 8 templates completely.
 `, "DM Manager");
 
   const output = {
@@ -284,7 +390,6 @@ Label each template clearly.
     planner,
     analyst,
     dm_manager,
-    agents: { ideator, hook_script, planner, analyst, dm_manager },
     generated_at: new Date().toISOString()
   };
 
@@ -293,11 +398,11 @@ Label each template clearly.
   fs.writeFileSync(OUT_PATH2, JSON.stringify(output, null, 2), 'utf8');
 
   console.log("\n✅ All 5 agents complete!");
-  console.log(`Ideator: ${ideator.length} chars`);
+  console.log(`Ideator:       ${ideator.length} chars`);
   console.log(`Hook & Script: ${hook_script.length} chars`);
-  console.log(`Planner: ${planner.length} chars`);
-  console.log(`Analyst: ${analyst.length} chars`);
-  console.log(`DM Manager: ${dm_manager.length} chars`);
+  console.log(`Planner:       ${planner.length} chars`);
+  console.log(`Analyst:       ${analyst.length} chars`);
+  console.log(`DM Manager:    ${dm_manager.length} chars`);
 }
 
 main();
