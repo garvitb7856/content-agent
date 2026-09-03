@@ -11,9 +11,9 @@ function openModal(key){
   if(!a)return;
   document.getElementById("modal-title").textContent=a.name;
   document.getElementById("modal-body").innerHTML=FULL[key]||"No output yet.";
-  document.getElementById("modal-overlay").classList.add("open");
+  document.getElementById("modal-overlay").style.display="flex";
 }
-function closeModal(){document.getElementById("modal-overlay").classList.remove("open");}
+function closeModal(){document.getElementById("modal-overlay").style.display="none";}
 document.getElementById("modal-overlay").onclick=function(e){if(e.target===this)closeModal();};
 function fmt(n){try{n=parseInt(n);return n>=1000?(n/1000).toFixed(1)+"k":String(n);}catch(e){return "-";}}
 function avg(arr){return arr.length?Math.round(arr.reduce(function(a,b){return a+b;},0)/arr.length):0;}
