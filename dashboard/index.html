@@ -57,6 +57,34 @@
     <p>Content Agent Dashboard &bull; Powered by Antigravity Multi-Agent Engine &bull; Reporting to Telegram</p>
   </footer>
 
+
+  <!-- ── Full-Output Modal ───────────────────────────────────────────── -->
+  <div id="agent-modal"
+       style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.88);
+              z-index:9999; align-items:center; justify-content:center; padding:20px;">
+    <div style="background:#1a1a2e; border:1px solid #7c3aed; border-radius:16px;
+                width:100%; max-width:820px; max-height:88vh;
+                display:flex; flex-direction:column; overflow:hidden;
+                box-shadow:0 0 60px rgba(124,58,237,0.35);">
+      <!-- Header -->
+      <div style="display:flex; justify-content:space-between; align-items:center;
+                  padding:18px 24px; border-bottom:1px solid #2d2d4e; flex-shrink:0;">
+        <h2 id="modal-title"
+            style="color:#a78bfa; margin:0; font-size:1.05rem; font-weight:700; font-family:inherit;"></h2>
+        <button onclick="closeModal()"
+                style="background:none; border:1px solid #7c3aed; color:#a78bfa; border-radius:8px;
+                       padding:6px 16px; cursor:pointer; font-size:0.88rem; font-family:inherit;
+                       transition:background .2s;"
+                onmouseover="this.style.background='rgba(124,58,237,0.2)'"
+                onmouseout="this.style.background='none'">✕ Close</button>
+      </div>
+      <!-- Scrollable body -->
+      <div id="modal-body"
+           style="padding:24px 28px; overflow-y:auto; color:#e2e8f0;
+                  line-height:1.85; font-size:0.94rem; font-family:inherit;"></div>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
