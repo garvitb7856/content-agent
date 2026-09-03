@@ -287,22 +287,74 @@ function renderAgents(){
 
 /* ── Render Calendar ── */
 function renderCal(){
-  var days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-  var scheme=[
-    {l:"Reel",c:"ct-r"},{l:"Carousel",c:"ct-c"},{l:"Reel",c:"ct-r"},
-    {l:"Carousel",c:"ct-c"},{l:"Reel",c:"ct-r"},{l:"Carousel",c:"ct-c"},
-    {l:"Rest",c:"ct-x"}
-  ];
-  var today=new Date(),sow=new Date(today);
-  sow.setDate(today.getDate()-today.getDay());
+  var dayLabels=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var today=new Date();
   var html="";
+
+  // Parse planner output to extract day data
+  var plannerDays=[];
+  if(AI && AI.planner){
+    var text=AI.planner;
+    // Match each DAY block: ## DAY N — DayName Date
+    var dayBlocks=text.split(/(?=##\s*DAY\s+\d+)/i);
+    dayBlocks.forEach(function(block){
+      if(!block.match(/##\s*DAY\s+\d+/i))return;
+      var obj={};
+      // Format line
+      var fmtMatch=block.match(/\*\*Format:\*\*\s*([^\n]+)/i);
+      if(fmtMatch) obj.format=fmtMatch[1].trim();
+      // Topic line
+      var topicMatch=block.match(/\*\*Topic:\*\*\s*([^\n]+)/i);
+      if(topicMatch) obj.topic=topicMatch[1].trim();
+      // Post time
+      var timeMatch=block.match(/\*\*Post Time:\*\*\s*([^\n—–-]+)/i);
+      if(timeMatch) obj.time=timeMatch[1].trim().replace(/\s*IST/,'')+'IST';
+      // Trigger word
+      var trigMatch=block.match(/\*\*Trigger Word:\*\*\s*["\u201c]?([A-Z]+)["\u201d]?/i);
+      if(trigMatch) obj.trigger=trigMatch[1].trim();
+      plannerDays.push(obj);
+    });
+  }
+
   for(var i=0;i<7;i++){
-    var d=new Date(sow);d.setDate(sow.getDate()+i);
-    var isT=d.toDateString()===today.toDateString();
-    var s=scheme[i];
-    html+='<div class="cd'+(isT?" now":"")+'"><div class="cdl">'+days[i]+'</div><div class="cdn">'+d.getDate()+'</div>';
-    html+=s.l==="Rest"?'<div class="ct-x">Rest</div>':'<div class="ctag '+s.c+'">'+s.l+'</div>';
-    html+='</div>';
+    var d=new Date(today);
+    d.setDate(today.getDate()+i);
+    var isT=i===0;
+    var dayLabel=dayLabels[d.getDay()];
+    var dateNum=d.getDate();
+    var pd=plannerDays[i]||null;
+    var fmt=pd?pd.format:"Reel";
+    var topic=pd?pd.topic:"";
+    var time=pd?pd.time:"";
+    var trigger=pd?pd.trigger:"";
+
+    // Determine format tags to show
+    var isCarousel=fmt&&fmt.toLowerCase().indexOf("carousel")>-1;
+    var isReel=fmt&&fmt.toLowerCase().indexOf("reel")>-1;
+    var isStory=fmt&&fmt.toLowerCase().indexOf("story")>-1;
+
+    var formatTags="";
+    if(isCarousel){
+      // Show BOTH options — Reel or Carousel
+      formatTags='<div class="ctag ct-r" title="Option A">Reel</div>'
+                +'<div style="font-size:.52rem;color:#334155;margin:1px 0">or</div>'
+                +'<div class="ctag ct-c" title="Option B">Carousel</div>';
+    } else if(isReel){
+      formatTags='<div class="ctag ct-r">Reel</div>';
+    } else if(isStory){
+      formatTags='<div class="ctag" style="background:rgba(245,158,11,.15);color:#f59e0b">Story</div>';
+    } else {
+      formatTags='<div class="ctag ct-r">Reel</div>';
+    }
+
+    html+='<div class="cd'+(isT?" now":"")+'">'
+      +'<div class="cdl">'+dayLabel+'</div>'
+      +'<div class="cdn">'+dateNum+'</div>'
+      +formatTags
+      +(time?'<div style="font-size:.55rem;color:#6366f1;margin-top:2px">'+esc(time.split("—")[0].trim())+'</div>':"")
+      +(trigger?'<div style="font-size:.52rem;color:#475569;margin-top:1px">💬 '+esc(trigger)+'</div>':"")
+      +(topic?'<div style="font-size:.55rem;color:#94a3b8;margin-top:3px;line-height:1.3;text-align:center;padding:0 2px">'+esc(topic.substring(0,40))+'</div>':"")
+      +'</div>';
   }
   document.getElementById("cal").innerHTML=html;
 }
@@ -356,7 +408,6 @@ function load(){
   }).catch(function(err){console.error("load:",err);renderAll();});
 }
 
-renderCal();
 load();
 setInterval(load,60000);
 })();
