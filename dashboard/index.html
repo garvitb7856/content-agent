@@ -3,36 +3,186 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Content Agent Dashboard - @garvit.irl</title>
+<title>Content Agent Dashboard — @garvit.irl</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"/>
-<link rel="stylesheet" href="style.css"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#090d16;color:#f1f5f9;font-family:'Inter',sans-serif;min-height:100vh}
+header{display:flex;justify-content:space-between;align-items:center;padding:1.2rem 2rem;background:rgba(9,13,22,.9);border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:10}
+header h1{font-size:1.2rem;font-weight:700;background:linear-gradient(135deg,#fff,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header-meta{display:flex;align-items:center;gap:.75rem;font-size:.8rem}
+.live-badge{background:rgba(16,185,129,.15);color:#10b981;border:1px solid rgba(16,185,129,.3);padding:.3rem .75rem;border-radius:20px;font-weight:700;font-size:.75rem}
+.container{max-width:1320px;margin:2rem auto;padding:0 1.5rem;display:flex;flex-direction:column;gap:2rem}
+.section-title{font-size:1.1rem;font-weight:700;color:#fff;padding:.5rem 0}
+.stats-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
+.stat-card{background:rgba(18,26,44,.75);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:1.25rem;transition:transform .2s}
+.stat-card:hover{transform:translateY(-2px)}
+.stat-label{font-size:.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem}
+.stat-value{font-size:1.6rem;font-weight:800;color:#fff}
+.stat-sub{font-size:.75rem;color:#10b981;margin-top:.2rem}
+.agents-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem}
+.agent-card{background:rgba(18,26,44,.75);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:1.25rem;display:flex;flex-direction:column;gap:.75rem}
+.agent-header{display:flex;align-items:center;gap:.75rem}
+.agent-icon{font-size:1.4rem;width:2.5rem;height:2.5rem;display:flex;align-items:center;justify-content:center;border-radius:10px;flex-shrink:0}
+.agent-name{font-size:.95rem;font-weight:700}
+.agent-role{font-size:.75rem;color:#94a3b8}
+.agent-status{margin-left:auto;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:10px}
+.status-active{background:rgba(16,185,129,.15);color:#10b981}
+.status-idle{background:rgba(148,163,184,.1);color:#94a3b8}
+.agent-output{background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.05);border-radius:8px;padding:.85rem;font-size:.82rem;color:#cbd5e1;line-height:1.6;min-height:70px}
+.view-btn{display:block;width:100%;background:linear-gradient(90deg,#7c3aed,#ec4899);color:#fff;border:none;border-radius:8px;padding:.55rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.view-btn:hover{opacity:.85}
+.agent-meta{font-size:.7rem;color:#64748b}
+.calendar-strip{display:grid;grid-template-columns:repeat(7,1fr);gap:.75rem}
+.cal-day{background:rgba(18,26,44,.75);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:.85rem;text-align:center;display:flex;flex-direction:column;gap:.35rem;align-items:center}
+.cal-day.today{border-color:#6366f1;background:rgba(99,102,241,.12)}
+.day-label{font-size:.7rem;font-weight:700;text-transform:uppercase;color:#94a3b8}
+.day-num{font-size:1.1rem;font-weight:700;color:#fff}
+.cal-post-type{font-size:.7rem;font-weight:700;padding:.2rem .45rem;border-radius:6px}
+.type-reel{background:rgba(168,85,247,.15);color:#a855f7}
+.type-image{background:rgba(56,189,248,.15);color:#38bdf8}
+.table-wrap{background:rgba(18,26,44,.75);border:1px solid rgba(255,255,255,.08);border-radius:14px;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{background:rgba(0,0,0,.3);padding:.85rem 1.1rem;font-weight:600;color:#94a3b8;border-bottom:1px solid rgba(255,255,255,.06);text-align:left}
+td{padding:.85rem 1.1rem;border-bottom:1px solid rgba(255,255,255,.03)}
+tr:hover{background:rgba(255,255,255,.02)}
+.you-row{background:rgba(99,102,241,.08)!important;font-weight:600}
+.bar-cell{display:flex;align-items:center;gap:.5rem}
+.bar{flex:1;height:6px;background:rgba(255,255,255,.07);border-radius:3px;overflow:hidden}
+.bar-fill{height:100%;background:linear-gradient(90deg,#6366f1,#a855f7);border-radius:3px}
+footer{text-align:center;padding:2rem;color:#475569;font-size:.8rem;border-top:1px solid rgba(255,255,255,.05);margin-top:2rem}
+#modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9999;align-items:center;justify-content:center}
+#modal-box{background:#1a1030;border:2px solid #7c3aed;border-radius:14px;padding:2rem;max-width:700px;width:92%;max-height:82vh;overflow-y:auto}
+#modal-title{font-size:1.1rem;font-weight:700;color:#a78bfa;margin-bottom:1rem}
+#modal-body{font-size:.88rem;line-height:1.8;color:#e2d9f3}
+#modal-close{margin-top:1.5rem;background:#7c3aed;color:#fff;border:none;border-radius:8px;padding:.55rem 1.75rem;cursor:pointer;font-size:.88rem;font-weight:600}
+#modal-close:hover{background:#6d28d9}
+</style>
 </head>
 <body>
 <header>
-  <h1>Content Agent Operating System</h1>
+  <h1>⚡ Content Agent Operating System</h1>
   <div class="header-meta">
     <span class="live-badge">LIVE SYSTEM</span>
     <span id="data-ts">Loading...</span>
-    <span style="color:var(--neon)">@garvit.irl</span>
+    <span style="color:#a78bfa">@garvit.irl</span>
   </div>
 </header>
 <div class="container">
   <div id="stats-bar" class="stats-bar"></div>
-  <div class="section-title">Active AI Agent Squad (5 Agents)</div>
+  <div class="section-title">✨ Active AI Agent Squad (5 Agents)</div>
   <div id="agents-grid" class="agents-grid"></div>
-  <div class="section-title">7-Day Calendar Planner</div>
+  <div class="section-title">📅 7-Day Calendar Planner</div>
   <div id="calendar-strip" class="calendar-strip"></div>
-  <div class="section-title">Analyst - Competitor Benchmarks</div>
+  <div class="section-title">📊 Analyst — Competitor Benchmarks</div>
   <div id="comp-table" class="table-wrap"></div>
 </div>
-<footer>Content Agent Dashboard - @garvit.irl - Powered by Apify + Gemini AI</footer>
-<div id="modal-overlay" style="display:none">
+<footer>Content Agent Dashboard · @garvit.irl · Powered by Apify + Gemini AI</footer>
+<div id="modal-overlay">
   <div id="modal-box">
     <div id="modal-title"></div>
     <div id="modal-body"></div>
-    <button onclick="closeModal()">Close</button>
+    <button id="modal-close">Close ✕</button>
   </div>
 </div>
-<script src="app.js"></script>
+<script>
+var DATA=null,AI=null,FULL={};
+var AGENTS=[
+  {key:"ideator",icon:"💡",color:"#f59e0b",name:"Ideator Agent",role:"Scouts viral topics & competitor hooks"},
+  {key:"hook_script",icon:"🎣",color:"#ec4899",name:"Hook & Script Agent",role:"Drafts viral video scripts & captions"},
+  {key:"planner",icon:"📅",color:"#06b6d4",name:"Planner Agent",role:"Schedules daily calendar & posting times"},
+  {key:"analyst",icon:"📊",color:"#10b981",name:"Analyst Agent",role:"Calculates ROI & engagement metrics"},
+  {key:"dm_manager",icon:"💬",color:"#7c3aed",name:"DM Manager Agent",role:"Automates lead magnets & comment triggers"}
+];
+var overlay=document.getElementById("modal-overlay");
+document.getElementById("modal-close").onclick=function(){overlay.style.display="none";};
+overlay.onclick=function(e){if(e.target===this)this.style.display="none";};
+function openModal(key){
+  var a=AGENTS.find(function(x){return x.key===key;});
+  if(!a)return;
+  document.getElementById("modal-title").textContent=a.name;
+  document.getElementById("modal-body").innerHTML=FULL[key]||"No output yet. Run run_agents.py on your PC.";
+  overlay.style.display="flex";
+}
+function fmt(n){try{n=parseInt(n);return n>=1000?(n/1000).toFixed(1)+"k":String(n);}catch(e){return "-";}}
+function avg(arr){return arr.length?Math.round(arr.reduce(function(a,b){return a+b;},0)/arr.length):0;}
+function pre(s){if(!s)return "-";return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\n/g,"<br>").replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");}
+async function loadData(){
+  try{
+    var r=await Promise.all([
+      fetch("data/data.json").then(function(x){return x.ok?x.json():null;}).catch(function(){return null;}),
+      fetch("data/agents_output.json").then(function(x){return x.ok?x.json():null;}).catch(function(){return null;})
+    ]);
+    DATA=r[0];
+    var raw=r[1];
+    AI=raw?(raw.agents||raw):null;
+    if(raw&&raw.generated_at)AI._ts=raw.generated_at;
+  }catch(e){console.warn(e);}
+  render();
+}
+function renderStatsBar(){
+  var mine=(DATA&&DATA.your_account)||{},posts=mine.posts||[];
+  var comps=(DATA&&DATA.competitors)||{};
+  var allCP=[];Object.values(comps).forEach(function(c){if(c.posts)allCP=allCP.concat(c.posts);});
+  var aiTs=(AI&&AI._ts)?new Date(AI._ts).toLocaleTimeString():null;
+  var topL=posts.length?Math.max.apply(null,posts.map(function(p){return p.likes;})):0;
+  var items=[
+    {label:"Your Followers",value:fmt(mine.followers||5845),sub:"@garvit.irl"},
+    {label:"Avg Likes",value:fmt(avg(posts.map(function(p){return p.likes;}))),sub:"Comp avg: "+fmt(avg(allCP.map(function(p){return p.likes;})))},
+    {label:"Posts Analysed",value:posts.length||0,sub:"last 20"},
+    {label:"Competitors",value:Object.keys(comps).length,sub:"tracked"},
+    {label:"Top Post",value:topL?fmt(topL):"-",sub:"your best"},
+    {label:"AI Agents",value:aiTs?"LIVE":"SAMPLE",sub:aiTs?"Updated "+aiTs:"Run run_agents.py"}
+  ];
+  document.getElementById("stats-bar").innerHTML=items.map(function(i){
+    return'<div class="stat-card"><div class="stat-label">'+i.label+'</div><div class="stat-value">'+i.value+'</div><div class="stat-sub">'+i.sub+'</div></div>';
+  }).join("");
+}
+function renderAgents(){
+  document.getElementById("agents-grid").innerHTML=AGENTS.map(function(a){
+    var raw=(AI&&AI[a.key])?AI[a.key]:null;
+    var hasAI=!!raw,full=hasAI?pre(raw):"No AI output yet. Run run_agents.py on your PC.";
+    FULL[a.key]=full;
+    var lines=full.split("<br>"),preview=lines.slice(0,4).join("<br>")+(lines.length>4?"...":"");
+    var ts=(AI&&AI._ts)?"AI: "+new Date(AI._ts).toLocaleTimeString():"Static";
+    return'<div class="agent-card" style="border-left:3px solid '+a.color+'">'
+      +'<div class="agent-header"><div class="agent-icon" style="background:'+a.color+'22;color:'+a.color+'">'+a.icon+'</div>'
+      +'<div><div class="agent-name">'+a.name+'</div><div class="agent-role">'+a.role+'</div></div>'
+      +'<span class="agent-status '+(hasAI?"status-active":"status-idle")+'">'+(hasAI?"LIVE AI":"IDLE")+'</span></div>'
+      +'<div class="agent-output">'+preview+'</div>'
+      +'<button class="view-btn" onclick="openModal(\''+a.key+'\')">View Full Output →</button>'
+      +'<div class="agent-meta">'+ts+'</div>'
+      +'</div>';
+  }).join("");
+}
+function renderCompetitorTable(){
+  var mine=(DATA&&DATA.your_account)||{},comps=(DATA&&DATA.competitors)||{};
+  var myAvg=avg((mine.posts||[]).map(function(p){return p.likes;}));
+  var rows=[{h:"garvit.irl",followers:mine.followers||5845,avg:myAvg,posts:(mine.posts||[]).length,isYou:true}];
+  Object.entries(comps).forEach(function(e){rows.push({h:e[0],followers:e[1].followers||0,avg:Math.round((e[1].stats&&e[1].stats.avg_likes)||0),posts:(e[1].posts||[]).length,isYou:false});});
+  rows.sort(function(a,b){return b.avg-a.avg;});
+  var mx=Math.max.apply(null,rows.map(function(r){return r.avg;}).concat([1]));
+  document.getElementById("comp-table").innerHTML='<table><thead><tr><th>Account</th><th>Followers</th><th>Avg Likes</th><th>Posts</th></tr></thead><tbody>'
+    +rows.map(function(r){return'<tr'+(r.isYou?' class="you-row"':'')+'><td>@'+r.h+(r.isYou?' ★':'')+'</td><td>'+fmt(r.followers)+'</td>'
+      +'<td><div class="bar-cell">'+fmt(r.avg)+'<div class="bar"><div class="bar-fill" style="width:'+Math.round((r.avg/mx)*100)+'%"></div></div></div></td>'
+      +'<td>'+r.posts+'</td></tr>';}).join('')+'</tbody></table>';
+}
+function renderCalendar(){
+  var today=new Date(),days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var types=[{l:"Reel",c:"type-reel"},{l:"Carousel",c:"type-image"},{l:"Reel",c:"type-reel"},{l:"Story",c:"type-image"},{l:"Reel",c:"type-reel"},{l:"Carousel",c:"type-image"},{l:"Rest",c:""}];
+  var s="";
+  for(var i=0;i<7;i++){
+    var d=new Date(today);d.setDate(today.getDate()-today.getDay()+i);var t=types[i];
+    s+='<div class="cal-day'+(d.toDateString()===today.toDateString()?" today":"")+'"><div class="day-label">'+days[i]+'</div><div class="day-num">'+d.getDate()+'</div>'+(t.l!=="Rest"?'<span class="cal-post-type '+t.c+'">'+t.l+'</span>':'<span style="color:#475569;font-size:.7rem">Rest</span>')+'</div>';
+  }
+  document.getElementById("calendar-strip").innerHTML=s;
+}
+function renderTimestamp(){
+  var ts=(DATA&&DATA.fetched_at)?new Date(DATA.fetched_at).toLocaleString():new Date().toLocaleString();
+  document.getElementById("data-ts").textContent="Data: "+ts+((DATA&&DATA.sample_data)?" (SAMPLE)":" (LIVE)");
+}
+function render(){renderStatsBar();renderAgents();renderCompetitorTable();renderCalendar();renderTimestamp();}
+loadData();setInterval(loadData,60000);
+</script>
 </body>
 </html>
