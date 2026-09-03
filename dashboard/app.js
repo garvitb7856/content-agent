@@ -1,11 +1,41 @@
 let DATA = null;
 let AI = null;
 
+const AGENTS = [
+  { id:'ideator', icon:'💡', color:'#f59e0b', name:'Ideator Agent', role:'Scouts viral topics & competitor hooks', key:'ideator', tags:['trend-scan','competitor-intel','idea-gen'] },
+  { id:'hook', icon:'🎣', color:'#ec4899', name:'Hook & Script Agent', role:'Drafts viral video scripts & captions', key:'hook_script', tags:['hook-writing','scripting','copywriting'] },
+  { id:'planner', icon:'📅', color:'#06b6d4', name:'Planner Agent', role:'Schedules daily calendar & posting times', key:'planner', tags:['scheduling','calendar','posting-times'] },
+  { id:'analyst', icon:'📊', color:'#10b981', name:'Analyst Agent', role:'Calculates ROI, engagement & niche metrics', key:'analyst', tags:['performance','benchmarking','insights'] },
+  { id:'dm', icon:'💬', color:'#7c3aed', name:'DM Manager Agent', role:'Automates lead magnets & comment triggers', key:'dm_manager', tags:['dm-drafting','community','automation'] },
+];
+
+function openModalByKey(key) {
+  const agent = AGENTS.find(a => a.key === key);
+  if (!agent) return;
+
+  const rawText = AI?.agents?.[key] || AI?.[key];
+  const hasAI = !!rawText;
+  const text = hasAI ? rawText : 'No AI output yet. Run run_agents.py on your PC.';
+
+  document.getElementById('modal-title').textContent = agent.name;
+
+  const formatted = text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
+
+  document.getElementById('modal-body').innerHTML = formatted;
+  document.getElementById('modal-overlay').style.display = 'flex';
+}
+
 function openModal(title, content) {
   document.getElementById('modal-title').textContent = title;
   document.getElementById('modal-body').innerHTML = content;
   document.getElementById('modal-overlay').style.display = 'flex';
 }
+
 document.getElementById('modal-close').onclick = function() {
   document.getElementById('modal-overlay').style.display = 'none';
 };
@@ -16,8 +46,8 @@ document.getElementById('modal-overlay').onclick = function(e) {
 async function loadData() {
   try {
     const [d, a] = await Promise.all([
-      fetch('data/data.json').then(r => r.ok ? r.json() : null),
-      fetch('data/agents_output.json').then(r => r.ok ? r.json() : null),
+      fetch('data/data.json?t=' + Date.now()).then(r => r.ok ? r.json() : null),
+      fetch('data/agents_output.json?t=' + Date.now()).then(r => r.ok ? r.json() : null),
     ]);
     DATA = d;
     AI = a;
@@ -27,7 +57,7 @@ async function loadData() {
 
 const fmt = n => { try { n=parseInt(n); return n>=1000?(n/1000).toFixed(1)+'k':String(n); } catch{return '—';} };
 const avg = arr => arr.length ? Math.round(arr.reduce((a,b)=>a+b,0)/arr.length) : 0;
-const pre = s => s ? s.replace(/\n/g,'<br>').replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>') : '—';
+const pre = s => s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>').replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>') : '—';
 
 function renderStatsBar() {
   const mine = DATA?.your_account;
@@ -35,7 +65,7 @@ function renderStatsBar() {
   const comps = DATA?.competitors || {};
   const allCP = Object.values(comps).flatMap(c => c.posts || []);
   const compAvg = avg(allCP.map(p => p.likes));
-  const aiTs = AI?.generated_at ? new Date(AI.generated_at).toLocaleTimeString() : null;
+  const aiTs = AI?.generated_at || AI?._generated_at ? new Date(AI.generated_at || AI._generated_at).toLocaleTimeString() : null;
   const items = [
     { label:'Your Followers', value: fmt(mine?.followers||5845), sub:'@garvit.irl' },
     { label:'Avg Likes / Post', value: fmt(avg(posts.map(p=>p.likes))), sub:'Comp avg: '+fmt(compAvg) },
@@ -47,20 +77,12 @@ function renderStatsBar() {
   document.getElementById('stats-bar').innerHTML = items.map(i=>'<div class="stat-card"><div class="stat-label">'+i.label+'</div><div class="stat-value">'+i.value+'</div><div class="stat-sub">'+i.sub+'</div></div>').join('');
 }
 
-const AGENTS = [
-  { id:'ideator', icon:'💡', color:'#f59e0b', name:'Ideator Agent', role:'Scouts viral topics & competitor hooks', key:'ideator', tags:['trend-scan','competitor-intel','idea-gen'] },
-  { id:'hook', icon:'🎣', color:'#ec4899', name:'Hook & Script Agent', role:'Drafts viral video scripts & captions', key:'hook_script', tags:['hook-writing','scripting','copywriting'] },
-  { id:'planner', icon:'📅', color:'#06b6d4', name:'Planner Agent', role:'Schedules daily calendar & posting times', key:'planner', tags:['scheduling','calendar','posting-times'] },
-  { id:'analyst', icon:'📊', color:'#10b981', name:'Analyst Agent', role:'Calculates ROI, engagement & niche metrics', key:'analyst', tags:['performance','benchmarking','insights'] },
-  { id:'dm', icon:'💬', color:'#7c3aed', name:'DM Manager Agent', role:'Automates lead magnets & comment triggers', key:'dm_manager', tags:['dm-drafting','community','automation'] },
-];
-
 function renderAgents() {
   document.getElementById('agents-grid').innerHTML = AGENTS.map(a => {
-    const hasAI = !!(AI?.agents?.[a.key]);
-    const output = hasAI ? pre(AI.agents[a.key]) : 'No AI output yet. Run run_agents.py on your PC.';
+    const rawOutput = AI?.agents?.[a.key] || AI?.[a.key];
+    const hasAI = !!rawOutput;
+    const output = hasAI ? pre(rawOutput) : 'No AI output yet. Run run_agents.py on your PC.';
     const preview = output.split('<br>').slice(0,3).join('<br>');
-    const safeOutput = output.replace(/\\/g,'\\\\').replace(/`/g,"'").replace(/"/g,'&quot;');
     return '<div class="agent-card" style="border-color:'+a.color+'44">'
       +'<div class="agent-header">'
       +'<div class="agent-icon" style="background:'+a.color+'22;color:'+a.color+'">'+a.icon+'</div>'
@@ -69,9 +91,9 @@ function renderAgents() {
       +'</div>'
       +'<div class="agent-body">'
       +'<div class="agent-output">'+preview+'</div>'
-      +'<button class="view-btn" onclick="openModal(\''+a.name+'\',\''+safeOutput+'\')">View Full Output →</button>'
+      +'<button class="view-btn" onclick="openModalByKey(\''+a.key+'\')">View Full Output →</button>'
       +'<div class="agent-meta"><span>'+a.tags.map(t=>'<span class="tag">'+t+'</span>').join('')+'</span>'
-      +'<span style="font-size:0.7rem;color:var(--muted)">'+(AI?.generated_at?'AI: '+new Date(AI.generated_at).toLocaleTimeString():'Static')+'</span></div>'
+      +'<span style="font-size:0.7rem;color:var(--muted)">'+(AI?.generated_at || AI?._generated_at ? 'AI: '+new Date(AI.generated_at || AI._generated_at).toLocaleTimeString():'Static')+'</span></div>'
       +'</div></div>';
   }).join('');
 }
