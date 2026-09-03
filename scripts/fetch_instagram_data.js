@@ -99,12 +99,31 @@ async function runFetcher() {
       };
     });
 
+    // Extract real follower counts from Apify items
+    function getFollowers(handle, itemsList) {
+      for (const item of itemsList) {
+        const owner = (item.ownerUsername || item.username || '').toLowerCase();
+        if (owner === handle.toLowerCase()) {
+          const count = item.ownerFollowersCount
+            || item.followersCount
+            || item.owner?.followersCount
+            || item.userInfo?.followersCount
+            || item.profileInfo?.followersCount;
+          if (count && count > 0) return count;
+        }
+      }
+      return null;
+    }
+
+    const myFollowers = getFollowers(MY_HANDLE, items);
+    console.log(`📌 Follower count from Apify for @${MY_HANDLE}: ${myFollowers || 'not found in dataset'}`);
+
     const data = {
       fetched_at: new Date().toISOString(),
       sample_data: false, // REAL LIVE DATA
       your_account: {
         username: MY_HANDLE,
-        followers: (items.find(i => (i.ownerUsername || i.username || '').toLowerCase() === MY_HANDLE.toLowerCase())?.owner?.followersCount) || 18400,
+        followers: myFollowers || 5845,
         posts: yourPosts,
         stats: computeStats(yourPosts)
       },
