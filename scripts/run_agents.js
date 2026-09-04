@@ -111,7 +111,8 @@ function buildSummaries(data) {
       const cap = (p.caption || '').slice(0, 180).replace(/\n/g, ' ');
       const likes = p.likes || p.likesCount || 0;
       const comments = p.comments || p.commentCount || 0;
-      const url = p.url || '';
+      const url = p.url
+        || (p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : '');
       if (cap) {
         postsText += `    - URL: ${url}\n    - Likes: ${likes}\n    - Comments: ${comments}\n    - Caption: ${cap}\n\n`;
       }
@@ -126,7 +127,8 @@ function buildSummaries(data) {
     const cap = (p.caption || '').slice(0, 180).replace(/\n/g, ' ');
     const likes = p.likes || 0;
     const comments = p.comments || 0;
-    const url = p.url || '';
+    const url = p.url
+      || (p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : '');
     if (cap) {
       myPostsText += `  - URL: ${url}\n  - Likes: ${likes}\n  - Comments: ${comments}\n  - Caption: ${cap}\n\n`;
     }
@@ -136,8 +138,7 @@ function buildSummaries(data) {
 }
 
 const LINK_INSTRUCTION = `
-IMPORTANT — LINKING RULE: Whenever you reference a specific competitor post or my post, format it as a markdown link using the URL provided in the data above. Example: [post title or description](https://www.instagram.com/p/XXXXX/). This allows the reader to click and watch the actual video. Always include the link when you reference a specific post.
-When referencing a specific post or reel in your output, always use the exact URL provided in the data above. Never invent or guess a URL.
+IMPORTANT: Whenever you reference or recommend a specific post or reel from the data, you MUST include its full Instagram URL in this format: https://www.instagram.com/p/SHORTCODE/ — place it in parentheses immediately after mentioning the post, like this: (https://www.instagram.com/p/ABC123/). Never reference a post without its URL. Only use URLs that are explicitly listed in the data above — never invent or guess a URL.
 `;
 
 async function main() {
@@ -159,6 +160,8 @@ async function main() {
 
   console.log("\nRunning Agent 1: Ideator...");
   const ideator = await gemini(`
+IMPORTANT: Whenever you reference or recommend a specific post or reel from the data, you MUST include its full Instagram URL in this format: https://www.instagram.com/p/SHORTCODE/ — place it in parentheses immediately after mentioning the post, like this: (https://www.instagram.com/p/ABC123/). Never reference a post without its URL. Only use URLs explicitly listed in the data — never invent or guess a URL.
+
 You are a viral content strategist for Instagram creators in the Indian AI/tech/automation niche.
 
 CREATOR PROFILE:
@@ -203,6 +206,8 @@ Write all 4 sections completely.
 
   console.log("\nRunning Agent 2: Hook & Script...");
   const hook_script = await gemini(`
+IMPORTANT: Whenever you reference or recommend a specific post or reel from the data, you MUST include its full Instagram URL in this format: https://www.instagram.com/p/SHORTCODE/ — place it in parentheses immediately after mentioning the post, like this: (https://www.instagram.com/p/ABC123/). Never reference a post without its URL. Only use URLs explicitly listed in the data — never invent or guess a URL.
+
 You are a viral short-form video scriptwriter for Indian tech/AI creators on Instagram Reels.
 
 CREATOR: @${myHandle} — ${myFollowers} followers | AI tools & automation niche
@@ -243,6 +248,8 @@ Write all 3 scripts completely using this format.
 
   console.log("\nRunning Agent 3: Planner...");
   const planner = await gemini(`
+IMPORTANT: Whenever you reference or recommend a specific post or reel from the data, you MUST include its full Instagram URL in this format: https://www.instagram.com/p/SHORTCODE/ — place it in parentheses immediately after mentioning the post, like this: (https://www.instagram.com/p/ABC123/). Never reference a post without its URL. Only use URLs explicitly listed in the data — never invent or guess a URL.
+
 You are a data-driven Instagram content strategist.
 
 CREATOR: @${myHandle} | ${myFollowers} followers | Niche: AI tools & automation
@@ -281,6 +288,10 @@ Start immediately with DAY 1. No preamble. No analysis. Just 7 blocks.
   console.log("\nRunning Agent 4: Analyst...");
   const er = myFollowers ? ((myAvgLikes + myAvgComments) / myFollowers * 100).toFixed(2) : 0;
   const analyst = await gemini(`
+IMPORTANT: Whenever you reference or recommend a specific post or reel from the data, you MUST include its full Instagram URL in this format: https://www.instagram.com/p/SHORTCODE/ — place it in parentheses immediately after mentioning the post, like this: (https://www.instagram.com/p/ABC123/). Never reference a post without its URL. Only use URLs explicitly listed in the data — never invent or guess a URL.
+
+IMPORTANT DATA NOTE: @garvit.irl has one viral outlier post with 26,357 comments that skews averages. Use these pre-calculated correct values for @garvit.irl in ALL tables and analysis: Followers: 5,894 | Avg Likes: 336 | Avg Comments: 20 | Engagement Rate: 1.30%. Do not recalculate these — use them as given.
+
 You are an Instagram growth analyst for the Indian tech/AI creator niche.
 
 GARVIT'S STATS (@${myHandle}):
@@ -321,6 +332,8 @@ Write all 5 sections completely with real numbers.
 
   console.log("\nRunning Agent 5: DM Manager...");
   const dm_manager = await gemini(`
+IMPORTANT: Whenever you reference or recommend a specific post or reel from the data, you MUST include its full Instagram URL in this format: https://www.instagram.com/p/SHORTCODE/ — place it in parentheses immediately after mentioning the post, like this: (https://www.instagram.com/p/ABC123/). Never reference a post without its URL. Only use URLs explicitly listed in the data — never invent or guess a URL.
+
 You are a DM strategy expert for Instagram creators in the AI/tech niche.
 
 CREATOR: @${myHandle} | ${myFollowers} followers | AI & automation niche
