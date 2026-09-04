@@ -406,13 +406,8 @@ function loadHistory(dateStr){
   document.getElementById("history-label").textContent="Viewing history: " + dateStr;
   document.getElementById("btn-back-today").style.display="inline-block";
 
-  var p1 = fetch("second_brain/history/" + dateStr + ".json")
-    .then(function(r){ return r.ok ? r.json() : fetch("../second_brain/history/" + dateStr + ".json").then(function(r2){ return r2.ok ? r2.json() : null; }); })
-    .catch(function(){ return null; });
-  
-  var p2 = fetch("second_brain/history/plan_" + dateStr + ".json")
-    .then(function(r){ return r.ok ? r.json() : fetch("../second_brain/history/plan_" + dateStr + ".json").then(function(r2){ return r2.ok ? r2.json() : null; }); })
-    .catch(function(){ return null; });
+  var p1 = fetch("second_brain/history/" + dateStr + ".json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
+  var p2 = fetch("second_brain/history/plan_" + dateStr + ".json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
 
   Promise.all([p1, p2]).then(function(res){
     if (res[0]) { AI = res[0]; AI._ts = res[0].generated_at || null; } else AI = null;
@@ -431,9 +426,7 @@ function loadToday(){
 
   var p1 = fetch("data/data.json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
   var p2 = fetch("data/agents_output.json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
-  var p3 = fetch("second_brain/active_plan.json")
-    .then(function(r){ return r.ok ? r.json() : fetch("../second_brain/active_plan.json").then(function(r2){ return r2.ok ? r2.json() : null; }); })
-    .catch(function(){ return null; });
+  var p3 = fetch("second_brain/active_plan.json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
 
   Promise.all([p1, p2, p3]).then(function(res){
     D = res[0];
