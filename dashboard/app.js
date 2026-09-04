@@ -3,8 +3,7 @@ var AGENTS=[
   {key:"ideator",icon:"💡",color:"#f59e0b",name:"Ideator Agent",role:"Scouts viral topics and competitor hooks"},
   {key:"hook_script",icon:"🎣",color:"#ec4899",name:"Hook and Script Agent",role:"Drafts viral video scripts and captions"},
   {key:"planner",icon:"📅",color:"#06b6d4",name:"Planner Agent",role:"Schedules daily calendar and posting times"},
-  {key:"analyst",icon:"📊",color:"#10b981",name:"Analyst Agent",role:"Calculates ROI and engagement metrics"},
-  {key:"dm_manager",icon:"💬",color:"#7c3aed",name:"DM Manager Agent",role:"Automates lead magnets and comment triggers"}
+  {key:"analyst",icon:"📊",color:"#10b981",name:"Analyst Agent",role:"Calculates ROI and engagement metrics"}
 ];
 function openModal(key){
   var a=AGENTS.find(function(x){return x.key===key;});

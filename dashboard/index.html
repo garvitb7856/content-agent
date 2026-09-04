@@ -100,11 +100,19 @@ footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;b
 <header>
   <div class="logo">⚡ Content Agent OS</div>
   <div class="hdr-r">
-    <span class="badge">LIVE</span>
+    <div id="hist-controls" style="display:flex;align-items:center;gap:.5rem;">
+      <label for="hist-datepicker" style="font-size:.7rem;color:#94a3b8;font-weight:600;">Snapshot Date:</label>
+      <input type="date" id="hist-datepicker" style="background:#0f172a;color:#f1f5f9;border:1px solid rgba(255,255,255,.15);padding:.2rem .4rem;border-radius:6px;font-size:.72rem;cursor:pointer;">
+      <button id="btn-back-today" style="display:none;background:linear-gradient(90deg,#6366f1,#a855f7);color:#fff;border:none;padding:.25rem .6rem;border-radius:6px;font-size:.7rem;font-weight:700;cursor:pointer;">↩ Back to Today</button>
+    </div>
+    <span class="badge" id="live-badge">LIVE</span>
     <span class="hdr-ts" id="hts">Loading...</span>
     <span class="hdr-h">@garvit.irl</span>
   </div>
 </header>
+<div id="history-banner" style="display:none;background:rgba(99,102,241,.15);border-bottom:1px solid rgba(99,102,241,.3);padding:.5rem 2rem;text-align:center;font-size:.8rem;font-weight:700;color:#c4b5fd;">
+  📜 <span id="history-label">Viewing history: </span>
+</div>
 <main>
   <div><div class="sec">Your Stats</div><div class="stats" id="stats"></div></div>
   <div><div class="sec">AI Agent Squad</div><div class="agents" id="agents"></div></div>
@@ -125,10 +133,9 @@ var AGENTS=[
   {key:"ideator",    icon:"💡",color:"#f59e0b",name:"Ideator Agent",      role:"Viral topics & competitor hooks"},
   {key:"hook_script",icon:"🎣",color:"#ec4899",name:"Hook & Script Agent",role:"Full Reel scripts & captions"},
   {key:"planner",    icon:"📅",color:"#06b6d4",name:"Planner Agent",       role:"7-day calendar & posting times"},
-  {key:"analyst",    icon:"📊",color:"#10b981",name:"Analyst Agent",       role:"Competitor benchmarks & growth gaps"},
-  {key:"dm_manager", icon:"💬",color:"#7c3aed",name:"DM Manager Agent",    role:"Lead magnets & DM templates"}
+  {key:"analyst",    icon:"📊",color:"#10b981",name:"Analyst Agent",       role:"Competitor benchmarks & growth gaps"}
 ];
-var D=null,AI=null,FULL={};
+var D=null,AI=null,ACTIVE_PLAN=null,FULL={};
 
 /* ── Modal ── */
 var mo=document.getElementById("mo");
@@ -139,7 +146,7 @@ function openM(key){
   var a=AGENTS.filter(function(x){return x.key===key;})[0];
   if(!a)return;
   document.getElementById("mt").textContent=a.name+" — Full Output";
-  document.getElementById("mc").innerHTML=FULL[key]||"<em style='color:#475569'>No output yet. Run run_agents.py on your PC.</em>";
+  document.getElementById("mc").innerHTML=FULL[key]||"<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
   mo.classList.add("show");
   mo.scrollTop=0;
 }
@@ -154,9 +161,7 @@ function esc(s){return(""+s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(
 /* ── Markdown → HTML with clickable links ── */
 function md(s){
   if(!s)return"";
-  // Normalize line endings (Windows CRLF → LF)
   var o=s.replace(/\r\n/g,"\n").replace(/\r/g,"\n");
-  // Extract markdown links before escaping
   var links=[];
   o=o.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g,function(_,txt,url){
     var i=links.length;
@@ -169,36 +174,28 @@ function md(s){
     links.push('<a href="'+url+'" target="_blank" rel="noopener">📸 View on Instagram</a>');
     return"\x00LINK"+i+"\x00";
   });
-  // Escape HTML
   o=esc(o);
-  // Headings
   o=o
     .replace(/^####\s+(.+)$/gm,"<h4>$1</h4>")
     .replace(/^###\s+(.+)$/gm,"<h3>$1</h3>")
     .replace(/^##\s+DAY\s+(\d+)\s+[—–-]+\s*(.+)$/gm,'<div class="day-block"><h2>📅 Day $1 — $2</h2>')
-    .replace(/^##\s+(.+)$/gm,"<h2>$1</h2>")
+    .replace(/^##\s+(.+)$/gm,"2</h2>")
     .replace(/^#\s+(.+)$/gm,"<h1>$1</h1>");
-  // Close day-block divs before next day-block or end
   o=o.replace(/(<div class="day-block">)([\s\S]*?)(?=<div class="day-block">|$)/g,function(_,open,content){
     return open+content+"</div>";
   });
-  // Bold/italic/code
   o=o
     .replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>")
     .replace(/\*([^*\n]+?)\*/g,"<em>$1</em>")
     .replace(/`([^`]+)`/g,"<code>$1</code>")
     .replace(/^&gt;\s+(.+)$/gm,"<blockquote>$1</blockquote>")
     .replace(/^---+$/gm,"<hr>");
-  // Tables — handle separator rows properly
   var lines=o.split("\n");
   var out=[],inTable=false,thead=true,tableRows=[];
   for(var li=0;li<lines.length;li++){
     var ln=lines[li];
-    // Check if this line is a table row
     if(/^\|.+\|$/.test(ln.trim())){
-      // Check if it's a separator row (only contains -, :, |, spaces)
       if(/^\|[\s|:\-]+\|$/.test(ln.trim())){
-        // This is alignment row — skip it, mark that next rows are tbody
         thead=false;
         if(!inTable){inTable=true;tableRows=[];}
         continue;
@@ -221,23 +218,19 @@ function md(s){
   }
   if(inTable){out.push("<table>"+tableRows.join("")+"</tbody></table>");}
   o=out.join("\n");
-  // Lists
   o=o.replace(/^\s*[-*]\s+(.+)$/gm,"<li>$1</li>");
   o=o.replace(/^\d+\.\s+(.+)$/gm,"<li data-ol>$1</li>");
   o=o.replace(/(<li(?! data-ol)[^>]*>[\s\S]+?<\/li>\n?)+/g,"<ul>$&</ul>");
   o=o.replace(/(<li data-ol[\s\S]+?<\/li>\n?)+/g,"<ol>$&</ol>");
   o=o.replace(/ data-ol/g,"");
-  // Paragraphs
   o=o.replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>");
   o="<p>"+o+"</p>";
-  // Clean up double-wrapped blocks
   ["h1","h2","h3","h4","ul","ol","table","hr","blockquote"].forEach(function(t){
     o=o.replace(new RegExp("<p>(<"+t+">)","g"),"$1").replace(new RegExp("(</"+t+">)<\\/p>","g"),"$1");
   });
   o=o.replace(/<p>(<hr>)<\/p>/g,"$1");
   o=o.replace(/<p>(<div)/g,"$1").replace(/(<\/div>)<\/p>/g,"$1");
   o=o.replace(/<p><\/p>/g,"").replace(/<p>\s*<br>\s*<\/p>/g,"");
-  // Restore links
   o=o.replace(/\x00LINK(\d+)\x00/g,function(_,i){return links[parseInt(i)];});
   return o;
 }
@@ -258,7 +251,7 @@ function renderStats(){
     {l:"Posts Analysed", v:posts.length||"–",s:"last 20",c:"#38bdf8"},
     {l:"Competitors",    v:Object.keys(comps).length||"–",s:"tracked",c:"#f59e0b"},
     {l:"Best Post",      v:topL?fmt(topL):"–",s:"likes",c:"#ec4899"},
-    {l:"AI Agents",      v:aiTs?"LIVE":"SAMPLE",s:aiTs?"Updated "+aiTs:"Run run_agents.py",c:aiTs?"#10b981":"#64748b"}
+    {l:"AI Agents",      v:aiTs?"LIVE":"SAMPLE",s:aiTs?"Updated "+aiTs:"Run run_agents.js",c:aiTs?"#10b981":"#64748b"}
   ];
   document.getElementById("stats").innerHTML=items.map(function(i){
     return'<div class="sc"><div class="sl">'+i.l+'</div><div class="sv" style="color:'+i.c+'">'+i.v+'</div><div class="ss">'+i.s+'</div></div>';
@@ -271,9 +264,8 @@ function renderAgents(){
   document.getElementById("agents").innerHTML=AGENTS.map(function(a){
     var raw=AI?AI[a.key]||null:null;
     var has=!!raw;
-    FULL[a.key]=has?md(raw):"<em style='color:#475569'>No output yet. Run run_agents.py on your PC first.</em>";
-    // Plain text preview (strip markdown)
-    var preview=raw?raw.replace(/[#*`_>\[\]]/g,"").replace(/\n+/g," ").substring(0,220)+"…":"No output yet — run run_agents.py";
+    FULL[a.key]=has?md(raw):"<em style='color:#475569'>No output yet. Run run_agents.js on your PC first.</em>";
+    var preview=raw?raw.replace(/[#*`_>\[\]]/g,"").replace(/\n+/g," ").substring(0,220)+"…":"No output yet — run run_agents.js";
     return'<div class="ac" style="border-left-color:'+a.color+'">'
       +'<div class="ah"><div class="ai" style="background:'+a.color+'18;color:'+a.color+'">'+a.icon+'</div>'
       +'<div style="flex:1;min-width:0"><div class="an">'+a.name+'</div><div class="ar">'+a.role+'</div></div>'
@@ -287,76 +279,86 @@ function renderAgents(){
 
 /* ── Render Calendar ── */
 function renderCal(){
-  var dayLabels=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-  var today=new Date();
   var html="";
-
-  // Parse planner output to extract day data
-  var plannerDays=[];
-  if(AI && AI.planner){
-    var text=AI.planner;
-    // Match each DAY block: ## DAY N — DayName Date
-    var dayBlocks=text.split(/(?=##\s*DAY\s+\d+)/i);
+  var days = [];
+  
+  if (ACTIVE_PLAN && Array.isArray(ACTIVE_PLAN.days) && ACTIVE_PLAN.days.length > 0) {
+    days = ACTIVE_PLAN.days;
+  } else if (AI && AI.planner) {
+    var text = AI.planner;
+    var dayBlocks = text.split(/(?=##?\s*DAY\s+\d+)/i);
+    var dayIdx = 0;
+    var startDate = new Date();
     dayBlocks.forEach(function(block){
-      if(!block.match(/##\s*DAY\s+\d+/i))return;
-      var obj={};
-      // Format line
-      var fmtMatch=block.match(/\*\*Format:\*\*\s*([^\n]+)/i);
-      if(fmtMatch) obj.format=fmtMatch[1].trim();
-      // Topic line
-      var topicMatch=block.match(/\*\*Topic:\*\*\s*([^\n]+)/i);
-      if(topicMatch) obj.topic=topicMatch[1].trim();
-      // Post time
-      var timeMatch=block.match(/\*\*Post Time:\*\*\s*([^\n—–-]+)/i);
-      if(timeMatch) obj.time=timeMatch[1].trim().replace(/\s*IST/,'')+'IST';
-      // Trigger word
-      var trigMatch=block.match(/\*\*Trigger Word:\*\*\s*["\u201c]?([A-Z]+)["\u201d]?/i);
-      if(trigMatch) obj.trigger=trigMatch[1].trim();
-      plannerDays.push(obj);
+      if(!block.match(/##?\s*DAY\s+\d+/i)) return;
+      dayIdx++;
+      var d = new Date(startDate);
+      d.setDate(startDate.getDate() + (dayIdx - 1));
+      var topicMatch = block.match(/\*\*Topic:\*\*\s*([^\n]+)/i);
+      var fmtMatch = block.match(/\*\*Format:\*\*\s*([^\n]+)/i);
+      var timeMatch = block.match(/\*\*Post Time:\*\*\s*([^\n]+)/i);
+      var hookMatch = block.match(/\*\*Hook:\*\*\s*([^\n]+)/i);
+      days.push({
+        day: dayIdx,
+        date: d.toISOString().split('T')[0],
+        topic: topicMatch ? topicMatch[1].trim() : "",
+        format: fmtMatch ? (fmtMatch[1].toLowerCase().includes("carousel") ? "Carousel" : "Reel") : "Reel",
+        post_time: timeMatch ? timeMatch[1].trim() : "",
+        hook: hookMatch ? hookMatch[1].trim() : "",
+        status: "pending"
+      });
     });
   }
 
-  for(var i=0;i<7;i++){
-    var d=new Date(today);
-    d.setDate(today.getDate()+i);
-    var isT=i===0;
-    var dayLabel=dayLabels[d.getDay()];
-    var dateNum=d.getDate();
-    var pd=plannerDays[i]||null;
-    var fmt=pd?pd.format:"Reel";
-    var topic=pd?pd.topic:"";
-    var time=pd?pd.time:"";
-    var trigger=pd?pd.trigger:"";
-
-    // Determine format tags to show
-    var isCarousel=fmt&&fmt.toLowerCase().indexOf("carousel")>-1;
-    var isReel=fmt&&fmt.toLowerCase().indexOf("reel")>-1;
-    var isStory=fmt&&fmt.toLowerCase().indexOf("story")>-1;
-
-    var formatTags="";
-    if(isCarousel){
-      // Show BOTH options — Reel or Carousel
-      formatTags='<div class="ctag ct-r" title="Option A">Reel</div>'
-                +'<div style="font-size:.52rem;color:#334155;margin:1px 0">or</div>'
-                +'<div class="ctag ct-c" title="Option B">Carousel</div>';
-    } else if(isReel){
-      formatTags='<div class="ctag ct-r">Reel</div>';
-    } else if(isStory){
-      formatTags='<div class="ctag" style="background:rgba(245,158,11,.15);color:#f59e0b">Story</div>';
-    } else {
-      formatTags='<div class="ctag ct-r">Reel</div>';
+  if (days.length === 0) {
+    var today = new Date();
+    for (var i = 0; i < 7; i++) {
+      var d = new Date(today);
+      d.setDate(today.getDate() + i);
+      days.push({
+        day: i + 1,
+        date: d.toISOString().split('T')[0],
+        topic: "Content Topic",
+        format: "Reel",
+        post_time: "6:00 PM IST",
+        hook: "",
+        status: "pending"
+      });
     }
-
-    html+='<div class="cd'+(isT?" now":"")+'">'
-      +'<div class="cdl">'+dayLabel+'</div>'
-      +'<div class="cdn">'+dateNum+'</div>'
-      +formatTags
-      +(time?'<div style="font-size:.55rem;color:#6366f1;margin-top:2px">'+esc(time.split("—")[0].trim())+'</div>':"")
-      +(trigger?'<div style="font-size:.52rem;color:#475569;margin-top:1px">💬 '+esc(trigger)+'</div>':"")
-      +(topic?'<div style="font-size:.55rem;color:#94a3b8;margin-top:3px;line-height:1.3;text-align:center;padding:0 2px">'+esc(topic.substring(0,40))+'</div>':"")
-      +'</div>';
   }
-  document.getElementById("cal").innerHTML=html;
+
+  var dayLabels = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var todayStr = new Date().toISOString().split('T')[0];
+
+  days.slice(0, 7).forEach(function(item) {
+    var dateObj = new Date(item.date + "T00:00:00");
+    var dayLabel = !isNaN(dateObj.getTime()) ? dayLabels[dateObj.getDay()] : "Day " + item.day;
+    var dateDisplay = !isNaN(dateObj.getTime()) ? dateObj.getDate() + " " + dateObj.toLocaleString('en', {month:'short'}) : item.date;
+    var isToday = item.date === todayStr;
+    var isPosted = item.status === "posted";
+
+    var fmt = item.format || "Reel";
+    var isCarousel = fmt.toLowerCase().indexOf("carousel") > -1;
+    var formatTag = isCarousel
+      ? '<div class="ctag ct-c">Carousel</div>'
+      : '<div class="ctag ct-r">Reel</div>';
+
+    var statusBadge = isPosted
+      ? '<div style="font-size:.6rem;font-weight:800;background:rgba(16,185,129,.2);color:#10b981;border:1px solid rgba(16,185,129,.4);border-radius:4px;padding:.1rem .3rem;margin-top:2px;">✅ Posted</div>'
+      : '';
+
+    html += '<div class="cd' + (isToday ? " now" : "") + '" style="' + (isPosted ? "border-color:#10b981;background:rgba(16,185,129,.05);" : "") + '">'
+      + '<div class="cdl">' + dayLabel + '</div>'
+      + '<div class="cdn">' + dateDisplay + '</div>'
+      + formatTag
+      + statusBadge
+      + (item.post_time ? '<div style="font-size:.55rem;color:#6366f1;margin-top:2px">' + esc(item.post_time) + '</div>' : '')
+      + (item.topic ? '<div style="font-size:.55rem;color:#94a3b8;margin-top:3px;line-height:1.3;text-align:center;padding:0 2px" title="' + esc(item.topic) + '">' + esc(item.topic.substring(0, 40)) + (item.topic.length > 40 ? '…' : '') + '</div>' : '')
+      + (item.hook ? '<div style="font-size:.52rem;color:#475569;margin-top:2px;font-style:italic;text-align:center;" title="' + esc(item.hook) + '">🎣 ' + esc(item.hook.substring(0, 30)) + '</div>' : '')
+      + '</div>';
+  });
+
+  document.getElementById("cal").innerHTML = html;
 }
 
 /* ── Render Table ── */
@@ -395,21 +397,69 @@ function renderAll(){
   try{renderHdr();}catch(e){console.error(e);}
 }
 
-/* ── Load ── */
-function load(){
-  var p1=fetch("data/data.json").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
-  var p2=fetch("data/agents_output.json").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
-  Promise.all([p1,p2]).then(function(res){
-    D=res[0];
-    var raw=res[1];
-    if(raw){AI=raw;AI._ts=raw.generated_at||raw._generated_at||raw.timestamp||null;}
-    else AI=null;
+/* ── Load Today vs History ── */
+function loadHistory(dateStr){
+  document.getElementById("live-badge").textContent="HISTORICAL";
+  document.getElementById("live-badge").style.background="rgba(245,158,11,.15)";
+  document.getElementById("live-badge").style.color="#f59e0b";
+  document.getElementById("history-banner").style.display="block";
+  document.getElementById("history-label").textContent="Viewing history: " + dateStr;
+  document.getElementById("btn-back-today").style.display="inline-block";
+
+  var p1 = fetch("second_brain/history/" + dateStr + ".json")
+    .then(function(r){ return r.ok ? r.json() : fetch("../second_brain/history/" + dateStr + ".json").then(function(r2){ return r2.ok ? r2.json() : null; }); })
+    .catch(function(){ return null; });
+  
+  var p2 = fetch("second_brain/history/plan_" + dateStr + ".json")
+    .then(function(r){ return r.ok ? r.json() : fetch("../second_brain/history/plan_" + dateStr + ".json").then(function(r2){ return r2.ok ? r2.json() : null; }); })
+    .catch(function(){ return null; });
+
+  Promise.all([p1, p2]).then(function(res){
+    if (res[0]) { AI = res[0]; AI._ts = res[0].generated_at || null; } else AI = null;
+    if (res[1]) { ACTIVE_PLAN = res[1]; } else ACTIVE_PLAN = null;
     renderAll();
-  }).catch(function(err){console.error("load:",err);renderAll();});
+  }).catch(function(err){ console.error("loadHistory error:", err); renderAll(); });
 }
 
-load();
-setInterval(load,60000);
+function loadToday(){
+  document.getElementById("live-badge").textContent="LIVE";
+  document.getElementById("live-badge").style.background="rgba(16,185,129,.15)";
+  document.getElementById("live-badge").style.color="#10b981";
+  document.getElementById("history-banner").style.display="none";
+  document.getElementById("btn-back-today").style.display="none";
+  document.getElementById("hist-datepicker").value = new Date().toISOString().split('T')[0];
+
+  var p1 = fetch("data/data.json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
+  var p2 = fetch("data/agents_output.json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
+  var p3 = fetch("second_brain/active_plan.json")
+    .then(function(r){ return r.ok ? r.json() : fetch("../second_brain/active_plan.json").then(function(r2){ return r2.ok ? r2.json() : null; }); })
+    .catch(function(){ return null; });
+
+  Promise.all([p1, p2, p3]).then(function(res){
+    D = res[0];
+    if (res[1]) { AI = res[1]; AI._ts = res[1].generated_at || null; } else AI = null;
+    ACTIVE_PLAN = res[2];
+    renderAll();
+  }).catch(function(err){ console.error("loadToday error:", err); renderAll(); });
+}
+
+document.getElementById("hist-datepicker").onchange = function(e){
+  var val = e.target.value;
+  if (!val) return;
+  var todayStr = new Date().toISOString().split('T')[0];
+  if (val === todayStr) {
+    loadToday();
+  } else {
+    loadHistory(val);
+  }
+};
+
+document.getElementById("btn-back-today").onclick = function(){
+  loadToday();
+};
+
+loadToday();
+setInterval(loadToday, 60000);
 })();
 </script>
 </body>

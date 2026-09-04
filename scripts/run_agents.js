@@ -23,7 +23,7 @@ function loadData() {
 async function gemini(prompt, label = "") {
   process.stdout.write(`Calling Gemini for ${label}... `);
 
-  const candidateModels = ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-3.1-pro-preview", "gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.1-flash-lite"];
+  const candidateModels = ["gemini-3.7-flash", "gemini-3.8-flash", "gemini-3.1-flash-lite", "gemini-3.1-pro-preview"];
 
   for (const model of candidateModels) {
     const postData = JSON.stringify({
@@ -327,60 +327,13 @@ The single most impactful action with:
 ### SECTION 5: THIS WEEK'S PRIORITY ACTION
 Step-by-step execution plan for one concrete task this week.
 
-Write all 5 sections completely with real numbers.
 `, "Analyst");
-
-  console.log("\nRunning Agent 5: DM Manager...");
-  const dm_manager = await gemini(`
-IMPORTANT: Whenever you reference or recommend a specific post or reel from the data, you MUST include its full Instagram URL in this format: https://www.instagram.com/p/SHORTCODE/ — place it in parentheses immediately after mentioning the post, like this: (https://www.instagram.com/p/ABC123/). Never reference a post without its URL. Only use URLs explicitly listed in the data — never invent or guess a URL.
-
-You are a DM strategy expert for Instagram creators in the AI/tech niche.
-
-CREATOR: @${myHandle} | ${myFollowers} followers | AI & automation niche
-EMAIL: garvitb.business@gmail.com
-
-CONTEXT — My recent posts people may reference in DMs (with links):
-${myPostsText}
-
-${LINK_INSTRUCTION}
-
-YOUR TASK — Write 8 COMPLETE DM reply templates. Write each fully.
-
-For EACH template use EXACTLY this format:
-
----
-### TEMPLATE [N]: [SITUATION TITLE]
-
-**Situation:** [describe when to use this]
-**Goal:** [what this reply achieves]
-
-**The DM (copy-paste ready):**
-> [exact message in quotes — under 3 sentences, warm, natural, sounds like Garvit]
-
-**If they reply:** [what to do next]
----
-
-The 8 situations:
-1. New follower says "bro great content keep it up"
-2. Someone asks "which AI tools do you use?"
-3. Someone asks "how do I start with AI/automation?"
-4. Collab request from another creator
-5. Someone asks "can you make a video on [topic]?"
-6. Brand/sponsor reaching out for paid partnership
-7. Someone says "your content helped me a lot, thank you"
-8. Someone asks "are you available for 1-on-1 consulting?"
-
-Rules: Under 3 sentences. Conversational, warm, not robotic. Soft CTA where appropriate. Where relevant, link to a specific post from my recent posts list above using markdown.
-
-Write all 8 templates completely.
-`, "DM Manager");
 
   const output = {
     ideator,
     hook_script,
     planner,
     analyst,
-    dm_manager,
     generated_at: new Date().toISOString()
   };
 
@@ -388,12 +341,11 @@ Write all 8 templates completely.
   fs.writeFileSync(OUT_PATH1, JSON.stringify(output, null, 2), 'utf8');
   fs.writeFileSync(OUT_PATH2, JSON.stringify(output, null, 2), 'utf8');
 
-  console.log("\n✅ All 5 agents complete!");
+  console.log("\n✅ All 4 agents complete!");
   console.log(`Ideator:       ${ideator.length} chars`);
   console.log(`Hook & Script: ${hook_script.length} chars`);
   console.log(`Planner:       ${planner.length} chars`);
   console.log(`Analyst:       ${analyst.length} chars`);
-  console.log(`DM Manager:    ${dm_manager.length} chars`);
 }
 
 main();

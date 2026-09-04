@@ -126,13 +126,12 @@ const compLines = Object.keys(compsRaw)
 console.log(`🤝 Competitors loaded: ${compLines.length}`);
 
 // ── AI AGENTS ─────────────────────────────────────────────────────────────────
-const agentKeys = ['ideator', 'hook_script', 'planner', 'analyst', 'dm_manager'];
+const agentKeys = ['ideator', 'hook_script', 'planner', 'analyst'];
 const agentLabels = {
   ideator:     '💡 Ideator',
   hook_script: '🎣 Hook &amp; Script',
   planner:     '📅 Planner',
-  analyst:     '📊 Analyst',
-  dm_manager:  '💬 DM Manager'
+  analyst:     '📊 Analyst'
 };
 
 const agentLines = agentKeys.map(key => {

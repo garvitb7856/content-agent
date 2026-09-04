@@ -56,12 +56,10 @@ for c in competitors:
     for p in c_posts[:5]:
         cap = p.get('caption', '')[:180].replace('\n', ' ')
         likes = p.get('likes') or p.get('likesCount', 0)
+        comments = p.get('comments') or p.get('commentCount', 0)
         url = p.get('url', '')
         if cap:
-            if url:
-                posts_text += f"    - [{likes} likes] [{cap[:80]}...]({url})\n"
-            else:
-                posts_text += f"    - [{likes} likes] {cap[:80]}...\n"
+            posts_text += f"    - URL: {url}\n    - Likes: {likes}\n    - Comments: {comments}\n    - Caption: {cap}\n\n"
     comp_summary += f"\n@{c_handle}: {c_followers} followers | avg {c_likes} likes | avg {c_comments} comments\n  Top posts (with links):\n{posts_text}"
 
 # Build my posts summary WITH URLs
@@ -71,13 +69,12 @@ for p in my_posts[:5]:
     likes = p.get('likes', 0)
     comments = p.get('comments', 0)
     url = p.get('url', '')
-    if url:
-        my_posts_text += f"  - [{likes} likes, {comments} comments] [{cap[:80]}...]({url})\n"
-    else:
-        my_posts_text += f"  - [{likes} likes, {comments} comments] {cap[:80]}...\n"
+    if cap:
+        my_posts_text += f"  - URL: {url}\n  - Likes: {likes}\n  - Comments: {comments}\n  - Caption: {cap}\n\n"
 
 LINK_INSTRUCTION = """
 IMPORTANT — LINKING RULE: Whenever you reference a specific competitor post or my post, format it as a markdown link using the URL provided in the data above. Example: [post title or description](https://www.instagram.com/p/XXXXX/). This allows the reader to click and watch the actual video. Always include the link when you reference a specific post.
+When referencing a specific post or reel in your output, always use the exact URL provided in the data above. Never invent or guess a URL.
 """
 
 print("Running Agent 1: Ideator...")
@@ -230,7 +227,7 @@ YOUR TASK — Write a COMPLETE analysis report. Do not truncate. Write all 5 sec
 ### SECTION 1: FULL RANKING TABLE
 | Rank | Handle | Followers | Avg Likes | Avg Comments | Eng Rate |
 |------|--------|-----------|-----------|--------------|----------|
-[fill every row — all 9 creators including Garvit. Calculate engagement rate as (avg_likes + avg_comments) / followers * 100]
+[fill every row — all 10 creators including Garvit. Calculate engagement rate as (avg_likes + avg_comments) / followers * 100]
 
 ### SECTION 2: WHERE GARVIT IS WINNING
 List every metric where @{my_handle} outperforms at least one competitor. Include exact numbers. Reference specific post links as evidence where relevant.
