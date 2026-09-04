@@ -1,165 +1,222 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
-require('dotenv').config({ path: path.join(__dirname, '../.env') });
+
+// ── Load .env ────────────────────────────────────────────────────────────────
+const envPath = path.join(__dirname, '..', '.env');
+if (fs.existsSync(envPath)) {
+  fs.readFileSync(envPath, 'utf8').split('\n').forEach(line => {
+    line = line.trim();
+    if (line && line.includes('=') && !line.startsWith('#')) {
+      const [k, ...v] = line.split('=');
+      process.env[k.trim()] = v.join('=').trim();
+    }
+  });
+}
 
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-const DATA_PATH = path.join(__dirname, '../dashboard/data/data.json');
+const CHAT_ID   = process.env.TELEGRAM_CHAT_ID;
 
-function checkEnv() {
-  const missing = [];
-  if (!BOT_TOKEN || BOT_TOKEN.includes("your_")) missing.push("TELEGRAM_BOT_TOKEN");
-  if (!CHAT_ID || CHAT_ID.includes("your_")) missing.push("TELEGRAM_CHAT_ID");
-  if (missing.length > 0) {
-    console.error(`ERROR: Missing or placeholder variables in .env: ${missing.join(', ')}`);
-    console.error(`Please update TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env first.`);
-    process.exit(1);
-  }
+if (!BOT_TOKEN || !CHAT_ID) {
+  console.error('❌ Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID in .env');
+  process.exit(1);
 }
 
-function loadData() {
-  if (!fs.existsSync(DATA_PATH)) return null;
-  return JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
+// ── Load data.json ────────────────────────────────────────────────────────────
+let data = {};
+try {
+  const dp = path.join(__dirname, '..', 'dashboard', 'data', 'data.json');
+  data = JSON.parse(fs.readFileSync(dp, 'utf8'));
+  console.log('✅ Loaded data.json');
+} catch(e) {
+  console.log('⚠️  No data.json found:', e.message);
 }
 
-function fmt(n) {
-  try {
-    const num = parseInt(n);
-    return num >= 1000 ? `${(num / 1000).toFixed(1)}k` : num.toString();
-  } catch (e) {
-    return n.toString();
-  }
+// ── Load agents_output.json ───────────────────────────────────────────────────
+let ai = {};
+try {
+  const ap = path.join(__dirname, '..', 'dashboard', 'data', 'agents_output.json');
+  ai = JSON.parse(fs.readFileSync(ap, 'utf8'));
+  console.log('✅ Loaded agents_output.json');
+} catch(e) {
+  console.log('⚠️  No agents_output.json found:', e.message);
 }
 
-function avg(lst) {
-  if (!lst || lst.length === 0) return 0;
-  return Math.round(lst.reduce((a, b) => a + b, 0) / lst.length);
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function esc(str) {
+  return String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
 }
 
-function buildReport(data) {
-  const now = new Date();
-  const dateStr = now.toLocaleDateString('en-US', { weekday: 'long', day: '2-digit', month: 'short', year: 'numeric' });
-  const timeStr = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
+// Clean markdown, collapse whitespace, truncate to max chars
+function preview(text, max = 300) {
+  if (!text || typeof text !== 'string') return 'No output yet';
+  // Detect error strings and hide them
+  if (text.startsWith('[Agent Error')) return 'No output yet';
+  const clean = text
+    .replace(/\*\*?/g, '')
+    .replace(/_+/g, '')
+    .replace(/#+\s*/g, '')
+    .replace(/`+/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[<>&]/g, '')
+    .replace(/\n+/g, ' ')
+    .trim();
+  if (!clean) return 'No output yet';
+  return clean.length > max ? clean.substring(0, max) + '…' : clean;
+}
 
-  const mine = data?.your_account || {};
-  const posts = mine.posts || [];
-  const myAvg = avg(posts.map(p => p.likes));
-  const maxLikes = posts.length ? Math.max(...posts.map(p => p.likes)) : '-';
+// Format date as "4 September 2026, 9:09 AM"
+function formatDate(date) {
+  const day   = date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day:   'numeric' });
+  const month = date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', month: 'long'    });
+  const year  = date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', year:  'numeric' });
+  const time  = date.toLocaleString('en-US', { timeZone: 'Asia/Kolkata', hour:  'numeric', minute: '2-digit', hour12: true });
+  return `${day} ${month} ${year}, ${time}`;
+}
 
-  const comps = data?.competitors || {};
-  const compArray = Object.keys(comps).map(h => ({
-    handle: h,
-    avgLikes: comps[h].stats?.avg_likes || 0
-  })).sort((a, b) => b.avgLikes - a.avgLikes);
+// ── STATS — your account only ─────────────────────────────────────────────────
+const acc       = data.your_account || {};
+const followers = acc.followers || 0;
+const myPosts   = Array.isArray(acc.posts) ? acc.posts : [];
 
-  const compLines = compArray.slice(0, 3).map(c => `  • @${c.handle}: ${fmt(Math.round(c.avgLikes))} avg likes`);
+function getMedian(arr) {
+  if (!arr.length) return 0;
+  const sorted = [...arr].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 !== 0
+    ? sorted[mid]
+    : (sorted[mid - 1] + sorted[mid]) / 2;
+}
 
-  let allCompPosts = [];
-  Object.values(comps).forEach(c => {
-    if (c.posts) allCompPosts = allCompPosts.concat(c.posts);
+const likesList    = myPosts.map(p => p.likes || 0);
+const commentsList = myPosts.map(p => p.comments || 0);
+
+const medianLikes    = getMedian(likesList);
+const medianComments = getMedian(commentsList);
+
+const avgLikes    = myPosts.length
+  ? Math.round(myPosts.reduce((s, p) => s + (p.likes    || 0), 0) / myPosts.length)
+  : 0;
+const avgComments = Math.round(medianComments);
+const engRate = followers
+  ? (((medianLikes + medianComments) / followers) * 100).toFixed(2)
+  : '0.00';
+
+const topPost = myPosts.length
+  ? [...myPosts].sort((a, b) => (b.likes || 0) - (a.likes || 0))[0]
+  : null;
+const topCaption = topPost
+  ? esc((topPost.caption || '').replace(/\n/g, ' ').substring(0, 60))
+  : '';
+
+console.log(`📊 Stats — followers: ${followers}, avgLikes: ${avgLikes}, avgComments: ${avgComments}, engRate: ${engRate}%`);
+
+// ── COMPETITORS — dynamic from data.json ─────────────────────────────────────
+const compsRaw = data.competitors || {};
+const compLines = Object.keys(compsRaw)
+  .filter(k => k !== 'garvit.irl')
+  .map(k => {
+    const c = compsRaw[k];
+    return `@${esc(k)}: ${(c.followers || 0).toLocaleString()} followers`;
   });
 
-  const topPost = allCompPosts.length ? allCompPosts.reduce((max, p) => (p.likes > max.likes ? p : max), allCompPosts[0]) : null;
+console.log(`🤝 Competitors loaded: ${compLines.length}`);
 
-  const dayTypes = ["Reel", "Carousel", "Reel", "Story", "Reel", "Carousel", "REST DAY"];
-  const todayType = dayTypes[now.getDay()];
-  const isLive = !data?.sample_data;
-  const sampleNote = isLive ? "🟢 LIVE DATA (Apify Scrape)" : "⚠️ SAMPLE DATA";
+// ── AI AGENTS ─────────────────────────────────────────────────────────────────
+const agentKeys = ['ideator', 'hook_script', 'planner', 'analyst', 'dm_manager'];
+const agentLabels = {
+  ideator:     '💡 Ideator',
+  hook_script: '🎣 Hook &amp; Script',
+  planner:     '📅 Planner',
+  analyst:     '📊 Analyst',
+  dm_manager:  '💬 DM Manager'
+};
 
-  let aiSection = "";
-  const aiPath = path.join(__dirname, '../dashboard/data/agents_output.json');
-  if (fs.existsSync(aiPath)) {
-    try {
-      const aiData = JSON.parse(fs.readFileSync(aiPath, 'utf8'))?.agents || {};
-      const ideatorSnippet = aiData.ideator ? aiData.ideator.slice(0, 180) + '...' : '';
-      const hookSnippet = aiData.hook_script ? aiData.hook_script.slice(0, 180) + '...' : '';
-      const analystSnippet = aiData.analyst ? aiData.analyst.slice(0, 180) + '...' : '';
+const agentLines = agentKeys.map(key => {
+  const out = preview(ai[key]);
+  return `<b>${agentLabels[key]}:</b>\n${esc(out)}`;
+});
 
-      aiSection = `\n🤖 GEMINI AI AGENTS BRIEF:
-💡 IDEATOR:
-${ideatorSnippet}
+// ── Build message ─────────────────────────────────────────────────────────────
+const now = formatDate(new Date());
 
-✍️ HOOK & SCRIPT:
-${hookSnippet}
+const parts = [
+  '🤖 <b>Content Agent Daily Report</b>',
+  `📅 ${esc(now)}`,
+  '',
+  '━━━━━━━━━━━━━━━━━━━━',
+  '📊 <b>YOUR STATS — @garvit.irl</b>',
+  '━━━━━━━━━━━━━━━━━━━━',
+  `👥 Followers: <b>${followers.toLocaleString()}</b>`,
+  `❤️ Avg Likes: <b>${avgLikes}</b>`,
+  `💬 Avg Comments: <b>${avgComments}</b>`,
+  `📈 Engagement Rate: <b>${engRate}%</b>`,
+  topPost
+    ? `🏆 Best Post: <b>${(topPost.likes || 0).toLocaleString()} likes</b> — ${topCaption}…`
+    : '',
+  '',
+  '━━━━━━━━━━━━━━━━━━━━',
+  '🤝 <b>COMPETITORS</b>',
+  '━━━━━━━━━━━━━━━━━━━━',
+  compLines.join('\n'),
+  '',
+  '━━━━━━━━━━━━━━━━━━━━',
+  '🤖 <b>AI AGENT INSIGHTS</b>',
+  '━━━━━━━━━━━━━━━━━━━━',
+  '',
+  agentLines.join('\n\n'),
+  '',
+  '━━━━━━━━━━━━━━━━━━━━',
+  '🌐 Dashboard: https://garvitb7856.github.io/content-agent/dashboard/'
+];
 
-📊 ANALYST VERDICT:
-${analystSnippet}\n`;
-    } catch (e) {}
-  }
+const msg = parts.filter(l => l !== null && l !== undefined).join('\n').trim();
 
-  return `🤖 CONTENT AGENT DAILY BRIEFING
-📅 ${dateStr} - ${timeStr} IST
-STATUS: ${sampleNote}
+console.log(`📨 Message length: ${msg.length} chars`);
 
-📊 YOUR STATS (@garvit.irl)
-• Avg likes/post: ${fmt(myAvg)}
-• Posts tracked: ${posts.length}
-• Top post: ${fmt(maxLikes)} likes
-
-🏆 TOP 3 COMPETITORS
-${compLines.join('\n')}
-
-🔥 TOP COMPETITOR POST
-${topPost ? `@${topPost.username}: ${fmt(topPost.likes)} likes\n"${(topPost.caption || '').slice(0, 100)}..."` : 'No data'}
-
-📌 TODAY'S STRATEGY
-Post a ${todayType} at 7:00 PM IST
-${aiSection}
-🖥️ Live Dashboard: open dashboard/index.html`;
-}
-
+// ── Send via Telegram ─────────────────────────────────────────────────────────
 function sendMessage(text) {
   return new Promise((resolve, reject) => {
-    const postData = JSON.stringify({
+    const body = JSON.stringify({
       chat_id: CHAT_ID,
-      text: text
+      text: text,
+      parse_mode: 'HTML',
+      disable_web_page_preview: true
     });
-
     const options = {
       hostname: 'api.telegram.org',
-      port: 443,
-      path: `/bot${BOT_TOKEN}/sendMessage`,
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Content-Length': Buffer.byteLength(postData)
+      path:     `/bot${BOT_TOKEN}/sendMessage`,
+      method:   'POST',
+      headers:  {
+        'Content-Type':   'application/json',
+        'Content-Length': Buffer.byteLength(body)
       }
     };
-
-    const req = https.request(options, (res) => {
-      let data = '';
-      res.on('data', (chunk) => data += chunk);
+    const req = https.request(options, res => {
+      let d = '';
+      res.on('data', chunk => d += chunk);
       res.on('end', () => {
-        try {
-          resolve(JSON.parse(data));
-        } catch (err) {
-          reject(err);
+        let parsed;
+        try { parsed = JSON.parse(d); } catch(e) { return reject(new Error('Invalid JSON from Telegram')); }
+        if (parsed.ok) {
+          console.log('✅ Telegram message sent successfully!');
+          resolve(parsed);
+        } else {
+          console.error('❌ Telegram API error:', parsed.description);
+          reject(new Error(parsed.description));
         }
       });
     });
-
-    req.on('error', (e) => reject(e));
-    req.write(postData);
+    req.on('error', reject);
+    req.write(body);
     req.end();
   });
 }
 
-async function run() {
-  checkEnv();
-  const data = loadData();
-  const report = buildReport(data);
-  console.log("📨 Sending briefing to Telegram...");
-  try {
-    const result = await sendMessage(report);
-    if (result && result.ok) {
-      console.log(`✅ SUCCESS — Message sent! Telegram Message ID: ${result.result.message_id}`);
-    } else {
-      console.error("❌ Telegram API returned failure:", result);
-    }
-  } catch (error) {
-    console.error("❌ Error sending Telegram message:", error.message);
-  }
-}
-
-run();
+sendMessage(msg).catch(err => {
+  console.error('❌ Failed to send:', err.message || err);
+  process.exit(1);
+});

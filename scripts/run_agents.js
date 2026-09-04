@@ -23,75 +23,65 @@ function loadData() {
 async function gemini(prompt, label = "") {
   process.stdout.write(`Calling Gemini for ${label}... `);
 
-  const model = "gemini-3.5-flash";
-  const postData = JSON.stringify({
-    contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { temperature: 0.8, maxOutputTokens: 8192 }
-  });
+  const candidateModels = ["gemini-3.1-flash-lite", "gemini-flash-latest", "gemini-pro-latest", "gemini-3.6-flash"];
 
-  const options = {
-    hostname: 'generativelanguage.googleapis.com',
-    port: 443,
-    path: `/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`,
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Content-Length': Buffer.byteLength(postData)
-    }
-  };
+  for (const model of candidateModels) {
+    const postData = JSON.stringify({
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.8, maxOutputTokens: 8192 }
+    });
 
-  for (let attempt = 1; attempt <= 5; attempt++) {
-    try {
-      const { statusCode, body } = await new Promise((resolve, reject) => {
-        const req = https.request(options, (res) => {
-          let data = '';
-          res.on('data', (chunk) => data += chunk);
-          res.on('end', () => resolve({ statusCode: res.statusCode, body: data }));
+    const options = {
+      hostname: 'generativelanguage.googleapis.com',
+      port: 443,
+      path: `/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`,
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(postData)
+      }
+    };
+
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const { statusCode, body } = await new Promise((resolve, reject) => {
+          const req = https.request(options, (res) => {
+            let data = '';
+            res.on('data', (chunk) => data += chunk);
+            res.on('end', () => resolve({ statusCode: res.statusCode, body: data }));
+          });
+          req.on('error', (e) => reject(e));
+          req.write(postData);
+          req.end();
         });
-        req.on('error', (e) => reject(e));
-        req.write(postData);
-        req.end();
-      });
 
-      if (statusCode >= 200 && statusCode < 300) {
-        const parsed = JSON.parse(body);
-        const text = parsed.candidates[0].content.parts[0].text.trim();
-        if (text && text.length > 50) {
-          console.log(`done (${text.length} chars, attempt ${attempt}).`);
-          return text;
-        }
-      }
-
-      if (statusCode === 429) {
-        let waitSec = 15;
-        try {
-          const err = JSON.parse(body);
-          const retryInfo = (err.error?.details || []).find(d => d['@type']?.includes('RetryInfo'));
-          if (retryInfo?.retryDelay) {
-            const parsed = parseInt(retryInfo.retryDelay);
-            if (parsed > 0) waitSec = parsed + 3;
+        if (statusCode >= 200 && statusCode < 300) {
+          const parsed = JSON.parse(body);
+          const text = parsed.candidates[0]?.content?.parts[0]?.text?.trim();
+          if (text && text.length > 50) {
+            console.log(`done using ${model} (${text.length} chars).`);
+            return text;
           }
-        } catch(e) {}
-        waitSec = Math.max(waitSec, 15);
-        process.stdout.write(`rate limited, waiting ${waitSec}s (attempt ${attempt}/5)... `);
-        await new Promise(r => setTimeout(r, waitSec * 1000));
-        continue;
-      }
+        }
 
-      throw new Error(`HTTP ${statusCode}: ${body.substring(0, 200)}`);
-    } catch (err) {
-      if (attempt < 5) {
-        const wait = Math.min(10 * attempt, 60);
-        process.stdout.write(`error, retrying in ${wait}s... `);
-        await new Promise(r => setTimeout(r, wait * 1000));
-      } else {
-        console.log(`failed after 5 attempts.`);
-        return `[Agent Error: ${err.message}]`;
+        if (statusCode === 503 || statusCode === 429) {
+          process.stdout.write(`[${model} ${statusCode}, trying fallback]... `);
+          break; // move to next candidate model immediately
+        }
+
+        throw new Error(`HTTP ${statusCode}: ${body.substring(0, 150)}`);
+      } catch (err) {
+        if (attempt < 3) {
+          await new Promise(r => setTimeout(r, 2000));
+        } else {
+          process.stdout.write(`[${model} failed: ${err.message}]... `);
+        }
       }
     }
   }
-  console.log(`failed.`);
-  return `[Agent Error: all attempts exhausted]`;
+
+  console.log(`failed across all fallback models.`);
+  return `[Agent Error: all model fallbacks exhausted]`;
 }
 
 function buildSummaries(data) {
@@ -120,13 +110,10 @@ function buildSummaries(data) {
     posts.slice(0, 5).forEach(p => {
       const cap = (p.caption || '').slice(0, 180).replace(/\n/g, ' ');
       const likes = p.likes || p.likesCount || 0;
+      const comments = p.comments || p.commentCount || 0;
       const url = p.url || '';
       if (cap) {
-        if (url) {
-          postsText += `    - [${likes} likes] [${cap.slice(0,80)}...](${url})\n`;
-        } else {
-          postsText += `    - [${likes} likes] ${cap.slice(0,80)}...\n`;
-        }
+        postsText += `    - URL: ${url}\n    - Likes: ${likes}\n    - Comments: ${comments}\n    - Caption: ${cap}\n\n`;
       }
     });
 
@@ -140,10 +127,8 @@ function buildSummaries(data) {
     const likes = p.likes || 0;
     const comments = p.comments || 0;
     const url = p.url || '';
-    if (url) {
-      myPostsText += `  - [${likes} likes, ${comments} comments] [${cap.slice(0,80)}...](${url})\n`;
-    } else {
-      myPostsText += `  - [${likes} likes, ${comments} comments] ${cap.slice(0,80)}...\n`;
+    if (cap) {
+      myPostsText += `  - URL: ${url}\n  - Likes: ${likes}\n  - Comments: ${comments}\n  - Caption: ${cap}\n\n`;
     }
   });
 
@@ -152,6 +137,7 @@ function buildSummaries(data) {
 
 const LINK_INSTRUCTION = `
 IMPORTANT — LINKING RULE: Whenever you reference a specific competitor post or my post, format it as a markdown link using the URL provided in the data above. Example: [post title or description](https://www.instagram.com/p/XXXXX/). This allows the reader to click and watch the actual video. Always include the link when you reference a specific post.
+When referencing a specific post or reel in your output, always use the exact URL provided in the data above. Never invent or guess a URL.
 `;
 
 async function main() {
@@ -313,7 +299,7 @@ YOUR TASK — Write a COMPLETE analysis report. Do not truncate. Write all 5 sec
 ### SECTION 1: FULL RANKING TABLE
 | Rank | Handle | Followers | Avg Likes | Avg Comments | Eng Rate |
 |------|--------|-----------|-----------|--------------|----------|
-[fill every row — all 9 creators including Garvit. Calculate engagement rate as (avg_likes + avg_comments) / followers * 100]
+[fill every row — all 10 creators including Garvit. Calculate engagement rate as (avg_likes + avg_comments) / followers * 100]
 
 ### SECTION 2: WHERE GARVIT IS WINNING
 List every metric where @${myHandle} outperforms at least one competitor. Include exact numbers. Reference specific post links as evidence where relevant.
