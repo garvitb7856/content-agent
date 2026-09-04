@@ -93,6 +93,12 @@ tr:hover td{background:rgba(255,255,255,.015)}
 #mc tbody tr:hover td{background:rgba(255,255,255,.02)}
 .mclose{position:absolute;top:1rem;right:1rem;background:rgba(255,255,255,.06);color:#94a3b8;border:none;border-radius:6px;width:1.9rem;height:1.9rem;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .mclose:hover{background:rgba(255,255,255,.12);color:#fff}
+.ideas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;}
+.idea-card{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1.1rem;border-left:3px solid #a855f7;}
+.idea-score{font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:5px;flex-shrink:0;margin-left:.5rem;}
+.idea-title{font-size:.88rem;font-weight:700;color:#f1f5f9;}
+.idea-reason{font-size:.72rem;color:#64748b;line-height:1.5;margin:.4rem 0;}
+.idea-cta{font-size:.68rem;color:#a78bfa;font-style:italic;}
 footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;border-top:1px solid rgba(255,255,255,.03)}
 </style>
 </head>
@@ -116,6 +122,7 @@ footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;b
 <main>
   <div><div class="sec">Your Stats</div><div class="stats" id="stats"></div></div>
   <div><div class="sec">AI Agent Squad</div><div class="agents" id="agents"></div></div>
+  <div><div class="sec">💡 Top 5 Ideas — Reply on Telegram to Pick</div><div class="ideas-grid" id="ideas5"></div></div>
   <div><div class="sec">7-Day Content Planner</div><div class="cal" id="cal"></div></div>
   <div><div class="sec">Competitor Benchmark</div><div class="tw" id="tbl"></div></div>
 </main>
@@ -130,12 +137,32 @@ footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;b
 <script>
 (function(){
 var AGENTS=[
-  {key:"ideator",    icon:"💡",color:"#f59e0b",name:"Ideator Agent",      role:"Viral topics & competitor hooks"},
-  {key:"hook_script",icon:"🎣",color:"#ec4899",name:"Hook & Script Agent",role:"Full Reel scripts & captions"},
-  {key:"planner",    icon:"📅",color:"#06b6d4",name:"Planner Agent",       role:"7-day calendar & posting times"},
-  {key:"analyst",    icon:"📊",color:"#10b981",name:"Analyst Agent",       role:"Competitor benchmarks & growth gaps"}
+  {key:"ideator", icon:"💡",color:"#f59e0b",name:"Ideator Agent",    role:"50 ideas from real internet trends"},
+  {key:"scout",   icon:"🔍",color:"#a855f7",name:"Scout Agent",      role:"Scores & filters to your top 5"},
+  {key:"planner", icon:"📅",color:"#06b6d4",name:"Planner Agent",    role:"7-day calendar & posting times"},
+  {key:"analyst", icon:"📊",color:"#10b981",name:"Analyst Agent",    role:"Competitor benchmarks & growth gaps"}
 ];
 var D=null,AI=null,ACTIVE_PLAN=null,FULL={};
+
+function renderIdeas(ideas){
+  var el=document.getElementById('ideas5');
+  if(!el)return;
+  if(!ideas||!ideas.length){el.innerHTML='<p style="color:#475569;font-size:.8rem;padding:.5rem;">No ideas yet — run the daily agents to generate your top 5.</p>';return;}
+  var sc={'HIGH':'#10b981','MEDIUM':'#f59e0b','LOW':'#ef4444'};
+  var sb={'HIGH':'rgba(16,185,129,.12)','MEDIUM':'rgba(245,158,11,.12)','LOW':'rgba(239,68,68,.12)'};
+  var em=['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
+  el.innerHTML=ideas.map(function(idea,i){
+    var s=idea.score||'MEDIUM';
+    return '<div class="idea-card" style="border-left-color:'+sc[s]+';">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;margin-bottom:.35rem;">'+
+        '<span class="idea-title">'+em[i]+' '+esc(idea.title||'')+'</span>'+
+        '<span class="idea-score" style="background:'+sb[s]+';color:'+sc[s]+';">'+s+'</span>'+
+      '</div>'+
+      '<div class="idea-reason">'+esc(idea.reasoning||'')+'</div>'+
+      '<div class="idea-cta">Reply <strong>'+(i+1)+'</strong> on Telegram → get full script</div>'+
+    '</div>';
+  }).join('');
+}
 
 /* ── Modal ── */
 function getMo(){ return document.getElementById("mo"); }
@@ -413,6 +440,7 @@ function renderHdr(){
 function renderAll(){
   try{renderStats();}catch(e){console.error(e);}
   try{renderAgents();}catch(e){console.error(e);}
+  try{if(AI&&AI.pending_ideas){renderIdeas(AI.pending_ideas);}else{renderIdeas([]);}}catch(e){console.error(e);}
   try{renderCal();}catch(e){console.error(e);}
   try{renderTable();}catch(e){console.error(e);}
   try{renderHdr();}catch(e){console.error(e);}

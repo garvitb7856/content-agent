@@ -1,0 +1,47 @@
+[
+  {
+    "rank": 1,
+    "title": "GPT-6 Astra is here: The end of manual coding?",
+    "hook": "OpenAI just dropped GPT-6 Astra, and your coding workflow is about to break.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Backed by the dominant #1 HackerNews trend with over 1,766 points and 1,546 comments. Tech breakdown breakdowns of major model releases consistently surpass 500+ likes on developer social media.",
+    "niche": "AI"
+  },
+  {
+    "rank": 2,
+    "title": "Cerebras is running AI at 1500 tokens/s",
+    "hook": "Stop waiting for ChatGPT to type. Cerebras is running models at 1500 tokens per second.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Driven by the high-traction Cerebras/Qwen 27B benchmark with 550 HN points and 179 comments. Raw performance comparisons and speed demos consistently deliver 1k+ engagement in the AI tooling space.",
+    "niche": "AI"
+  },
+  {
+    "rank": 3,
+    "title": "Why every AI model went down yesterday",
+    "hook": "Did you notice your AI tools died yesterday? Here’s what actually happened.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Captures the massive multi-model outage discussion featuring 535 comments on HackerNews. Real-time post-mortems of industry-wide tech failures generate massive organic reach and shares.",
+    "niche": "AI"
+  },
+  {
+    "rank": 4,
+    "title": "The human who beat the AI: Shin vs KataGo",
+    "hook": "An AI just got beaten by a human at Go. Here is the move that won it.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Directly supported by the viral 301-point HackerNews story of Shin defeating KataGo. Narrative-driven human-versus-machine content reliably captures 500+ likes due to broad mainstream fascination.",
+    "niche": "AI"
+  },
+  {
+    "rank": 5,
+    "title": "Are coding agents actually working?",
+    "hook": "We analyzed 17,000 coding agent runs to see which tool is actually the best.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Validated by the 17k benchmark run study trending with 212 points and 98 comments. High-level data-backed teardowns of popular tools like Claude, Codex, and Cursor routinely drive massive engagement among developers.",
+    "niche": "AI"
+  }
+]

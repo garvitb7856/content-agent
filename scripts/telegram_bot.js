@@ -126,17 +126,25 @@ const compLines = Object.keys(compsRaw)
 console.log(`🤝 Competitors loaded: ${compLines.length}`);
 
 // ── AI AGENTS ─────────────────────────────────────────────────────────────────
-const agentKeys = ['ideator', 'hook_script', 'planner', 'analyst'];
+const agentKeys = ['ideator', 'scout', 'planner', 'analyst'];
 const agentLabels = {
-  ideator:     '💡 Ideator',
-  hook_script: '🎣 Hook &amp; Script',
-  planner:     '📅 Planner',
-  analyst:     '📊 Analyst'
+  ideator: '💡 Ideator',
+  scout:   '🔍 Scout',
+  planner: '📅 Planner',
+  analyst: '📊 Analyst'
 };
 
 const agentLines = agentKeys.map(key => {
-  const out = preview(ai[key]);
-  return `<b>${agentLabels[key]}:</b>\n${esc(out)}`;
+  let out;
+  if (key === 'scout') {
+    try {
+      const pending = ai.pending_ideas||[];
+      out = pending.length ? pending.length+' ideas scored. Top: "'+pending[0].title+'" ('+pending[0].score+')' : 'Scoring pending';
+    } catch(e) { out = preview(ai[key]); }
+  } else {
+    out = preview(ai[key]);
+  }
+  return '<b>'+agentLabels[key]+':</b>\n'+esc(out);
 });
 
 // ── Build message ─────────────────────────────────────────────────────────────
@@ -169,6 +177,27 @@ const parts = [
   agentLines.join('\n\n'),
   '',
   '━━━━━━━━━━━━━━━━━━━━',
+  '💡 <b>TODAY\'S TOP 5 IDEAS — Reply with a number to get your script!</b>',
+  '━━━━━━━━━━━━━━━━━━━━',
+  ...(() => {
+    try {
+      const pendingPath = path.join(__dirname, '..', 'second_brain', 'pending_ideas.json');
+      if (!fs.existsSync(pendingPath)) return ['No ideas yet. Run daily report first.'];
+      const pending = JSON.parse(fs.readFileSync(pendingPath, 'utf8'));
+      if (!pending.length) return ['No ideas scored yet.'];
+      const emojis = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
+      const badge = s => s==='HIGH'?'🟢 HIGH':s==='MEDIUM'?'🟡 MEDIUM':'🔴 LOW';
+      const lines = [];
+      pending.forEach((idea, i) => {
+        lines.push(emojis[i]+' ['+badge(idea.score)+'] <b>'+esc(idea.title||'')+'</b>');
+        if (idea.reasoning) lines.push('   <i>'+esc((idea.reasoning||'').substring(0,100))+'</i>');
+        lines.push('');
+      });
+      lines.push('<i>Reply with just the number (1–5) to generate a full script.</i>');
+      return lines;
+    } catch(e) { return ['Could not load ideas.']; }
+  })(),
+  '',
   '🌐 Dashboard: https://garvitb7856.github.io/content-agent/dashboard/'
 ];
 

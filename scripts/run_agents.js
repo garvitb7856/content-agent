@@ -7,345 +7,253 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const DATA_PATH = path.join(__dirname, '../dashboard/data/data.json');
 const OUT_PATH1 = path.join(__dirname, '../dashboard/data/agents_output.json');
 const OUT_PATH2 = path.join(__dirname, '../dashboard/agents_output.json');
+const TRENDS_PATH = path.join(__dirname, '../second_brain/trends.json');
+const PENDING_PATH = path.join(__dirname, '../second_brain/pending_ideas.json');
+const HISTORY_PATH = path.join(__dirname, '../second_brain/ideas_history.json');
+const PLAN_PATH = path.join(__dirname, '../second_brain/active_plan.json');
 
 function checkEnv() {
-  if (!GEMINI_KEY || GEMINI_KEY.includes('your_')) {
-    console.error("❌ ERROR: GEMINI_API_KEY not set in .env file.");
-    process.exit(1);
-  }
+  if (!GEMINI_KEY || GEMINI_KEY.includes('your_')) { console.error('❌ GEMINI_API_KEY not set'); process.exit(1); }
 }
-
 function loadData() {
-  const p = fs.existsSync(DATA_PATH) ? DATA_PATH : path.join(__dirname, '../dashboard/data.json');
-  return JSON.parse(fs.readFileSync(p, 'utf8'));
+  const p = fs.existsSync(DATA_PATH) ? DATA_PATH : path.join(__dirname,'../dashboard/data.json');
+  return JSON.parse(fs.readFileSync(p,'utf8'));
+}
+function loadTrends() {
+  if (!fs.existsSync(TRENDS_PATH)) return { trends:[] };
+  try { return JSON.parse(fs.readFileSync(TRENDS_PATH,'utf8')); } catch(e) { return {trends:[]}; }
+}
+function loadHistory() {
+  if (!fs.existsSync(HISTORY_PATH)) return { generated_topics:[], posted_topics:[] };
+  try { return JSON.parse(fs.readFileSync(HISTORY_PATH,'utf8')); } catch(e) { return {generated_topics:[],posted_topics:[]}; }
 }
 
-async function gemini(prompt, label = "") {
-  process.stdout.write(`Calling Gemini for ${label}... `);
-
-  const candidateModels = ["gemini-3.7-flash", "gemini-3.8-flash", "gemini-3.1-flash-lite", "gemini-3.1-pro-preview"];
-
-  for (const model of candidateModels) {
-    const postData = JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.8, maxOutputTokens: 8192 }
-    });
-
-    const options = {
-      hostname: 'generativelanguage.googleapis.com',
-      port: 443,
-      path: `/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`,
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Content-Length': Buffer.byteLength(postData)
-      }
-    };
-
-    for (let attempt = 1; attempt <= 3; attempt++) {
+async function gemini(prompt, label, temperature) {
+  temperature = temperature || 0.7;
+  process.stdout.write('Calling Gemini for '+label+'... ');
+  const models = ['gemini-3.7-flash','gemini-3.8-flash','gemini-3.1-flash-lite','gemini-3.1-pro-preview'];
+  for (const model of models) {
+    const postData = JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{temperature, maxOutputTokens:8192} });
+    const options = { hostname:'generativelanguage.googleapis.com', port:443, path:'/v1beta/models/'+model+':generateContent?key='+GEMINI_KEY, method:'POST', headers:{'Content-Type':'application/json','Content-Length':Buffer.byteLength(postData)} };
+    for (let attempt=1; attempt<=3; attempt++) {
       try {
-        const { statusCode, body } = await new Promise((resolve, reject) => {
-          const req = https.request(options, (res) => {
-            let data = '';
-            res.on('data', (chunk) => data += chunk);
-            res.on('end', () => resolve({ statusCode: res.statusCode, body: data }));
-          });
-          req.on('error', (e) => reject(e));
-          req.write(postData);
-          req.end();
+        const {statusCode, body} = await new Promise((resolve, reject) => {
+          const req = https.request(options, (res) => { let d=''; res.on('data',c=>d+=c); res.on('end',()=>resolve({statusCode:res.statusCode,body:d})); });
+          req.on('error', reject); req.write(postData); req.end();
         });
-
-        if (statusCode >= 200 && statusCode < 300) {
-          const parsed = JSON.parse(body);
-          const text = parsed.candidates[0]?.content?.parts[0]?.text?.trim();
-          if (text && text.length > 50) {
-            console.log(`done using ${model} (${text.length} chars).`);
-            return text;
-          }
+        if (statusCode>=200 && statusCode<300) {
+          const text = JSON.parse(body).candidates[0]?.content?.parts[0]?.text?.trim();
+          if (text && text.length>20) { console.log('done ('+model+', '+text.length+' chars)'); return text; }
         }
-
-        if (statusCode === 503 || statusCode === 429) {
-          process.stdout.write(`[${model} ${statusCode}, trying fallback]... `);
-          break; // move to next candidate model immediately
-        }
-
-        throw new Error(`HTTP ${statusCode}: ${body.substring(0, 150)}`);
-      } catch (err) {
-        if (attempt < 3) {
-          await new Promise(r => setTimeout(r, 2000));
-        } else {
-          process.stdout.write(`[${model} failed: ${err.message}]... `);
-        }
+        if (statusCode===503||statusCode===429) { process.stdout.write('['+model+' '+statusCode+', fallback]... '); break; }
+        throw new Error('HTTP '+statusCode);
+      } catch(err) {
+        if (attempt<3) await new Promise(r=>setTimeout(r,2000));
+        else process.stdout.write('['+model+' failed]... ');
       }
     }
   }
+  console.log('all models failed.'); return '[Agent Error: all model fallbacks exhausted]';
+}
 
-  console.log(`failed across all fallback models.`);
-  return `[Agent Error: all model fallbacks exhausted]`;
+function parseJSONArray(raw, label) {
+  try { const m=raw.match(/\[[\s\S]*\]/); if(m) return JSON.parse(m[0]); } catch(e) {}
+  console.log('⚠️ '+label+': JSON parse failed'); return [];
 }
 
 function buildSummaries(data) {
   const me = data.your_account || {};
-  const myHandle = me.username || 'garvit.irl';
-  const myFollowers = me.followers || 5845;
-  const myAvgLikes = me.stats?.avg_likes || me.avg_likes || 334;
-  const myAvgComments = me.stats?.avg_comments || me.avg_comments || 12;
-  const myPosts = me.posts || me.recent_posts || [];
-
-  const rawComps = data.competitors || {};
-  const competitors = Array.isArray(rawComps)
-    ? rawComps
-    : Object.entries(rawComps).map(([k, v]) => ({ username: k, ...v }));
-
-  // Build competitor summary WITH post URLs
-  let compSummary = "";
+  const myHandle = me.username||'garvit.irl';
+  const myFollowers = me.followers||5845;
+  const myAvgLikes = me.stats?.avg_likes||me.avg_likes||334;
+  const myAvgComments = me.stats?.avg_comments||me.avg_comments||12;
+  const myPosts = me.posts||me.recent_posts||[];
+  const rawComps = data.competitors||{};
+  const competitors = Array.isArray(rawComps)?rawComps:Object.entries(rawComps).map(([k,v])=>({username:k,...v}));
+  let compSummary='';
   competitors.forEach(c => {
-    const handle = c.username || c.handle || 'unknown';
-    const followers = c.followers || 0;
-    const avgLikes = c.stats?.avg_likes || c.avg_likes || 0;
-    const avgComments = c.stats?.avg_comments || c.avg_comments || 0;
-    const posts = c.posts || c.recent_posts || [];
-
-    let postsText = "";
-    posts.slice(0, 5).forEach(p => {
-      const cap = (p.caption || '').slice(0, 180).replace(/\n/g, ' ');
-      const likes = p.likes || p.likesCount || 0;
-      const comments = p.comments || p.commentCount || 0;
-      const url = p.url
-        || (p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : '');
-      if (cap) {
-        postsText += `    - URL: ${url}\n    - Likes: ${likes}\n    - Comments: ${comments}\n    - Caption: ${cap}\n\n`;
-      }
+    const handle=c.username||'unknown', followers=c.followers||0, avgLikes=c.stats?.avg_likes||c.avg_likes||0;
+    const posts=(c.posts||c.recent_posts||[]).slice(0,3);
+    let postsText='';
+    posts.forEach(p => {
+      const cap=(p.caption||'').slice(0,100).replace(/\n/g,' ');
+      const url=p.url||(p.shortCode?'https://www.instagram.com/p/'+p.shortCode+'/':'');
+      if(cap) postsText+='    - '+url+' | '+(p.likes||0)+' likes | '+cap+'\n';
     });
-
-    compSummary += `\n@${handle}: ${followers} followers | avg ${avgLikes} likes | avg ${avgComments} comments\n  Top posts (with links):\n${postsText}`;
+    compSummary+='\n@'+handle+': '+followers+' followers | avg '+avgLikes+' likes\n'+postsText;
   });
-
-  // Build my posts summary WITH URLs
-  let myPostsText = "";
-  myPosts.slice(0, 5).forEach(p => {
-    const cap = (p.caption || '').slice(0, 180).replace(/\n/g, ' ');
-    const likes = p.likes || 0;
-    const comments = p.comments || 0;
-    const url = p.url
-      || (p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : '');
-    if (cap) {
-      myPostsText += `  - URL: ${url}\n  - Likes: ${likes}\n  - Comments: ${comments}\n  - Caption: ${cap}\n\n`;
-    }
+  let myPostsText='';
+  myPosts.slice(0,5).forEach(p => {
+    const cap=(p.caption||'').slice(0,100).replace(/\n/g,' ');
+    const url=p.url||(p.shortCode?'https://www.instagram.com/p/'+p.shortCode+'/':'');
+    if(cap) myPostsText+='  - '+url+' | '+(p.likes||0)+' likes | '+cap+'\n';
   });
-
-  return { myHandle, myFollowers, myAvgLikes, myAvgComments, myPostsText, compSummary };
+  return {myHandle,myFollowers,myAvgLikes,myAvgComments,myPostsText,compSummary};
 }
 
-const LINK_INSTRUCTION = `
-IMPORTANT: Whenever you reference or recommend a specific post or reel, you MUST include its full Instagram URL in parentheses immediately after mentioning it, like this: (https://www.instagram.com/p/SHORTCODE/). Never mention a post without its URL.
-`;
+function buildTrendSummary(trendsData) {
+  if (!trendsData.trends||!trendsData.trends.length) return 'No trend data available.';
+  return trendsData.trends.slice(0,60).map(t=>'['+t.source+'] '+t.title+' (score:'+t.score+', comments:'+t.comments+')').join('\n');
+}
 
 async function main() {
-  console.log("==================================================");
-  console.log("Content Agent — Running All 5 AI Agents (Gemini API)");
-  console.log("==================================================");
+  console.log('==================================================');
+  console.log('Content Agent — Ideator + Scout + Analyst + Planner');
+  console.log('==================================================');
   checkEnv();
   const data = loadData();
-  const { myHandle, myFollowers, myAvgLikes, myAvgComments, myPostsText, compSummary } = buildSummaries(data);
+  const trendsData = loadTrends();
+  const history = loadHistory();
+  const {myHandle,myFollowers,myAvgLikes,myAvgComments,myPostsText,compSummary} = buildSummaries(data);
+  const trendSummary = buildTrendSummary(trendsData);
+  const historyTitles = (history.generated_topics||[]).slice(-60).map(t=>t.title);
+  const postedTitles = (history.posted_topics||[]).map(t=>t.title);
+  const engRate = myFollowers ? (((myAvgLikes+myAvgComments)/myFollowers)*100).toFixed(2) : '0.00';
 
-  // Build day names for planner
-  const dayNames = [];
-  const today = new Date();
-  for (let i = 0; i < 7; i++) {
-    const d = new Date(today);
-    d.setDate(today.getDate() + i);
-    dayNames.push(d.toLocaleDateString('en-GB', { weekday: 'long', day: '2-digit', month: 'short' }));
-  }
+  const dayNames=[];
+  const today=new Date();
+  for(let i=0;i<7;i++){const d=new Date(today);d.setDate(today.getDate()+i);dayNames.push(d.toLocaleDateString('en-GB',{weekday:'long',day:'2-digit',month:'short'}));}
 
-  console.log("\nRunning Agent 1: Ideator...");
-  const ideator = await gemini(`
-IMPORTANT: Whenever you reference or recommend a specific post or reel, you MUST include its full Instagram URL in parentheses immediately after mentioning it, like this: (https://www.instagram.com/p/SHORTCODE/). Never mention a post without its URL.
+  // ── AGENT 1: IDEATOR — 50 ideas ──────────────────────────────────────────
+  console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
+  const ideatorRaw = await gemini(`
+You are a viral content strategist for @${myHandle} (${myFollowers} followers, Indian AI/automation/entrepreneurship creator).
 
-You are a viral content strategist for Instagram creators in the Indian AI/tech/automation niche.
+WHAT IS TRENDING RIGHT NOW ON THE INTERNET (real data, last 24h):
+${trendSummary}
 
-CREATOR PROFILE:
-- Handle: @${myHandle}
-- Followers: ${myFollowers}
-- Avg likes/post: ${myAvgLikes}
-- Avg comments/post: ${myAvgComments}
-- Niche: AI tools, automation, productivity for Indian creators
+WHAT COMPETITORS ARE POSTING ON INSTAGRAM:
+${compSummary}
 
-MY RECENT 5 POSTS (with links):
+MY RECENT POSTS (do NOT repeat similar topics):
 ${myPostsText}
 
-COMPETITOR DATA — posts with Instagram links:
-${compSummary}
+YOUR TASK: Generate exactly 50 content ideas for Instagram. Each must be specific, not generic. Rooted in actual trends above.
 
-${LINK_INSTRUCTION}
+OUTPUT ONLY a valid JSON array of exactly 50 objects. No markdown. No explanation. No code fences. Start with [ and end with ].
+Format for each:
+{"title":"specific video title","hook":"first 3 seconds word for word","format":"Reel or Carousel","why":"one sentence citing which trend source and which competitor had success with this"}
 
-YOUR TASK — Write a COMPLETE response with all 4 sections. Do not truncate.
+Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.
+`, 'Ideator', 0.8);
 
-### SECTION 1: TOP 3 CONTENT PATTERNS
-For each pattern:
-- Name the pattern
-- 2 real competitor examples WITH clickable markdown links to the actual posts
-- The psychological reason it works
+  const ideas50 = parseJSONArray(ideatorRaw, 'Ideator');
+  console.log('  → Parsed '+ideas50.length+' ideas');
 
-### SECTION 2: WHY THESE WORK FOR GARVIT'S AUDIENCE
-Explain specifically why each pattern fits @${myHandle}.
+  // ── AGENT 2: SCOUT — filter to top 5 ─────────────────────────────────────
+  console.log('\nAgent 2: Scout (scoring 50 → top 5)...');
+  const scoutRaw = await gemini(`
+You are the Scout Agent. Score these content ideas ruthlessly and objectively. Your job is to protect the creator from wasting time on weak content.
 
-### SECTION 3: 5 READY-TO-USE CONTENT IDEAS
-For each idea:
-- **Title:** exact video title
-- **Hook:** first 3 seconds, word for word
-- **Why it works:** for Garvit's audience specifically
-- **Structure:** what goes in the video
-- **CTA:** what viewers comment or do
+SCORING RULES — be strict:
+- HIGH: trending NOW (cited in trend data above) + creator has NOT done this topic before + strong competitor proof (500+ likes)
+- MEDIUM: trending but creator touched similar topic, OR competitor results were average (200-500 likes)
+- LOW: topic saturated, creator already posted this, OR no trend signal to back it up
 
-### SECTION 4: QUICK WIN TODAY
-One idea Garvit can film TODAY with zero prep that will outperform his recent posts. Reference a specific competitor post link as inspiration.
+50 IDEAS TO EVALUATE:
+${JSON.stringify(ideas50)}
 
-Write all 4 sections completely.
-`, "Ideator");
+TOPICS ALREADY GENERATED IN LAST 30 DAYS (penalize similar ones):
+${JSON.stringify(historyTitles.slice(-30))}
 
-  console.log("\nRunning Agent 2: Hook & Script...");
-  const hook_script = await gemini(`
-IMPORTANT: Whenever you reference or recommend a specific post or reel, you MUST include its full Instagram URL in parentheses immediately after mentioning it, like this: (https://www.instagram.com/p/SHORTCODE/). Never mention a post without its URL.
+TOPICS CREATOR ALREADY POSTED (mark LOW if similar):
+${JSON.stringify(postedTitles)}
 
-You are a viral short-form video scriptwriter for Indian tech/AI creators on Instagram Reels.
+TREND DATA CONTEXT (same data Ideator used):
+${trendSummary.substring(0,1500)}
 
-CREATOR: @${myHandle} — ${myFollowers} followers | AI tools & automation niche
-AUDIENCE: Indian creators, students, professionals interested in AI and productivity
+OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. No markdown. No explanation. Start with [ end with ].
+[{"rank":1,"title":"...","hook":"...","format":"Reel or Carousel","score":"HIGH or MEDIUM or LOW","reasoning":"2 sentences: what trend signal backs this, what competitor evidence exists, why you ranked it here","niche":"AI or Entrepreneurship or Self-growth"}]
+`, 'Scout', 0.3);
 
-COMPETITOR CONTENT (with links to actual posts):
-${compSummary}
+  const top5 = parseJSONArray(scoutRaw, 'Scout');
+  console.log('  → Scout selected '+top5.length+' ideas');
 
-${LINK_INSTRUCTION}
+  // Save pending_ideas.json
+  fs.mkdirSync(path.dirname(PENDING_PATH), {recursive:true});
+  fs.writeFileSync(PENDING_PATH, JSON.stringify(top5, null, 2));
+  console.log('  ✅ Saved pending_ideas.json');
 
-YOUR TASK — Write 3 COMPLETE, ready-to-film Reel scripts. Do not truncate. Write every word of every script.
+  // Update ideas_history.json
+  const todayStr = new Date().toISOString().split('T')[0];
+  history.generated_topics = history.generated_topics||[];
+  ideas50.forEach(idea => history.generated_topics.push({date:todayStr,title:idea.title||''}));
+  if (history.generated_topics.length>500) history.generated_topics = history.generated_topics.slice(-500);
+  fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2));
+  console.log('  ✅ Updated ideas_history.json');
 
-For each script, use EXACTLY this format:
-
----
-### SCRIPT [N]: [TITLE]
-
-**INSPIRATION:** [Link to the competitor post that inspired this — markdown link]
-
-**HOOK (first 3 seconds):**
-[exact words to say on camera]
-
-**FULL SCRIPT:**
-[complete word-for-word script with stage directions in brackets. 45-60 seconds spoken. Every single word.]
-
-**CAPTION:**
-[full caption with CTA]
-
-**HASHTAGS:**
-[15 hashtags]
-
-**B-ROLL (what to show on screen):**
-- [bullet list]
----
-
-Write all 3 scripts completely using this format.
-`, "Hook & Script");
-
-  console.log("\nRunning Agent 3: Planner...");
-  const planner = await gemini(`
-IMPORTANT: Whenever you reference or recommend a specific post or reel, you MUST include its full Instagram URL in parentheses immediately after mentioning it, like this: (https://www.instagram.com/p/SHORTCODE/). Never mention a post without its URL.
-
-You are a data-driven Instagram content strategist.
-
-CREATOR: @${myHandle} | ${myFollowers} followers | Niche: AI tools & automation
-CURRENT PERFORMANCE: Avg likes: ${myAvgLikes} | Avg comments: ${myAvgComments}
-
-COMPETITOR DATA (with links to actual posts):
-${compSummary}
-
-${LINK_INSTRUCTION}
-
-CRITICAL FORMAT RULES — READ BEFORE WRITING:
-- Output ONLY the 7 day blocks below. No introduction. No analysis. No "Part 1/2/3". No tables. No summary at the end.
-- DO NOT use a markdown table or spreadsheet format. Use only the block format below.
-- The schedule starts from TOMORROW: ${dayNames[1]} (not Monday, not today — literally ${dayNames[1]}).
-- The 7 days in order are: ${dayNames.slice(1).join(', ')} plus one more day after that.
-- All times must be in 24-hour IST format like "18:30 IST".
-
-For EACH of the 7 days, output EXACTLY this block. No extra text between blocks.
-
----
-## DAY [N] — [EXACT DAY NAME AND DATE from the list above, e.g. "Friday 04 Sep"]
-
-**Post Time:** [HH:MM IST] — [one sentence why this time works]
-**Format:** [Reel / Carousel / Story]
-**Topic:** [specific topic in 5-10 words]
-**Title (on screen):** [exact text to show on screen, under 8 words]
-**Hook:** [first sentence said on camera — must start with action or shock, not "Here is"]
-**Goal:** [Reach / Engagement / Saves / Followers — pick ONE]
-**Trigger Word:** "[single word viewers comment to get a DM]"
-**Inspired by:** [markdown link to a competitor post that proved this format works]
----
-
-Start immediately with DAY 1. No preamble. No analysis. Just 7 blocks.
-`, "Planner");
-
-  console.log("\nRunning Agent 4: Analyst...");
-  const er = myFollowers ? ((myAvgLikes + myAvgComments) / myFollowers * 100).toFixed(2) : 0;
+  // ── AGENT 3: ANALYST ─────────────────────────────────────────────────────
+  console.log('\nAgent 3: Analyst...');
   const analyst = await gemini(`
-IMPORTANT: Whenever you reference or recommend a specific post or reel, you MUST include its full Instagram URL in parentheses immediately after mentioning it, like this: (https://www.instagram.com/p/SHORTCODE/). Never mention a post without its URL.
-
-IMPORTANT DATA NOTE: @garvit.irl has one viral outlier post with 26,357 comments that skews averages. Use these pre-calculated correct values for @garvit.irl in ALL tables and analysis: Followers: 5,894 | Avg Likes: 336 | Avg Comments: 20 | Engagement Rate: 1.30%. Do not recalculate these — use them as given.
-
-You are an Instagram growth analyst for the Indian tech/AI creator niche.
-
-GARVIT'S STATS (@${myHandle}):
+IMPORTANT: Use these EXACT pre-computed stats for @${myHandle}:
 - Followers: ${myFollowers}
-- Avg likes: ${myAvgLikes}
-- Avg comments: ${myAvgComments}
-- Engagement rate: ${er}%
+- Avg Likes: ${myAvgLikes}
+- Avg Comments: ${myAvgComments} (median)
+- Engagement Rate: ${engRate}%
 
-COMPETITOR DATA (with links to actual posts):
+You are a data analyst for Instagram creator @${myHandle}.
+
+COMPETITOR DATA:
 ${compSummary}
 
-${LINK_INSTRUCTION}
+Write a complete analysis:
+## COMPETITOR RANKING TABLE
+Rank competitors by engagement rate. Columns: Handle | Followers | Avg Likes | Eng Rate | Top Content Type
 
-YOUR TASK — Write a COMPLETE analysis report. Do not truncate. Write all 5 sections.
+## GROWTH GAPS
+3 specific opportunities where competitors outperform @${myHandle}.
 
-### SECTION 1: FULL RANKING TABLE
-| Rank | Handle | Followers | Avg Likes | Avg Comments | Eng Rate |
-|------|--------|-----------|-----------|--------------|----------|
-[fill every row — all 10 creators including Garvit. Calculate engagement rate as (avg_likes + avg_comments) / followers * 100]
+## RECOMMENDED ACTIONS
+3 concrete data-driven actions for the next 7 days.
+`, 'Analyst', 0.5);
 
-### SECTION 2: WHERE GARVIT IS WINNING
-List every metric where @${myHandle} outperforms at least one competitor. Include exact numbers. Reference specific post links as evidence where relevant.
+  // ── AGENT 4: PLANNER ─────────────────────────────────────────────────────
+  console.log('\nAgent 4: Planner...');
+  let planner, planLocked=false;
+  if (fs.existsSync(PLAN_PATH)) {
+    try {
+      const plan=JSON.parse(fs.readFileSync(PLAN_PATH,'utf8'));
+      const daysSince=(Date.now()-new Date(plan.created_at))/(1000*60*60*24);
+      if (daysSince<7) { planner=plan.content; planLocked=true; console.log('  → Using locked plan ('+Math.round(daysSince)+'d old)'); }
+    } catch(e) {}
+  }
+  if (!planLocked) {
+    planner = await gemini(`
+You are a content planner for @${myHandle} (AI/automation/entrepreneurship, Indian audience, 6:30-8PM IST peak hours).
 
-### SECTION 3: WHERE GARVIT IS FALLING BEHIND
-For each gap: exact numbers, which creator is just above Garvit, and the specific post link proving what works for them.
+Create a 7-day content calendar:
+${dayNames.map((d,i)=>'Day '+(i+1)+': '+d).join('\n')}
 
-### SECTION 4: BIGGEST GROWTH LEVER RIGHT NOW
-The single most impactful action with:
-- What to do (specific, not vague)
-- Why (link to the competitor post proving it works)
-- Expected outcome (e.g. "+300 followers in 2 weeks")
+For EACH day write exactly:
+## DAY [n] — [Day Name]
+**Format:** Reel or Carousel
+**Topic:** specific topic
+**Post Time:** exact IST time
+**Hook:** opening line
+**Trigger Word:** comment trigger (e.g. LINK, TOOL, FREE, SYSTEM)
 
-### SECTION 5: THIS WEEK'S PRIORITY ACTION
-Step-by-step execution plan for one concrete task this week.
+Mix formats daily. Vary trigger words. Make every topic specific enough to film.
+`, 'Planner', 0.7);
+    fs.mkdirSync(path.dirname(PLAN_PATH),{recursive:true});
+    fs.writeFileSync(PLAN_PATH, JSON.stringify({created_at:new Date().toISOString(),content:planner},null,2));
+  }
 
-`, "Analyst");
-
+  // ── SAVE OUTPUT ───────────────────────────────────────────────────────────
   const output = {
-    ideator,
-    hook_script,
-    planner,
+    generated_at: new Date().toISOString(),
+    ideator: ideatorRaw,
+    scout: scoutRaw,
+    pending_ideas: top5,
     analyst,
-    generated_at: new Date().toISOString()
+    planner,
+    hook_script: null,
+    selected_idea: null
   };
-
-  fs.mkdirSync(path.dirname(OUT_PATH1), { recursive: true });
-  fs.writeFileSync(OUT_PATH1, JSON.stringify(output, null, 2), 'utf8');
-  fs.writeFileSync(OUT_PATH2, JSON.stringify(output, null, 2), 'utf8');
-
-  console.log("\n✅ All 4 agents complete!");
-  console.log(`Ideator:       ${ideator.length} chars`);
-  console.log(`Hook & Script: ${hook_script.length} chars`);
-  console.log(`Planner:       ${planner.length} chars`);
-  console.log(`Analyst:       ${analyst.length} chars`);
+  [OUT_PATH1, OUT_PATH2].forEach(p => {
+    fs.mkdirSync(path.dirname(p),{recursive:true});
+    fs.writeFileSync(p, JSON.stringify(output,null,2));
+  });
+  console.log('\n✅ Done. '+top5.length+' ideas ready in pending_ideas.json');
+  console.log('📱 Reply 1-5 on Telegram to generate a script for your chosen idea.');
 }
-
-main();
+main().catch(e => { console.error('❌ Fatal:', e); process.exit(1); });
