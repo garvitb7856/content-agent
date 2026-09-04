@@ -171,7 +171,7 @@ function esc(s){return(""+s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(
 /* ── Linkify bare URLs ── */
 function linkify(text){
   if(!text)return text;
-  return text.replace(/(https?:\/\/[^\s<"'\)]+)/g,function(url, offset, string){
+  return text.replace(/(https?:\/\/[^\s<"'\)]+)/g,function(url, _cap, offset, string){
     var prefix=string.substring(Math.max(0, offset-6), offset);
     if(/href=["']?$/i.test(prefix))return url;
     var isInsta=url.indexOf("instagram.com")>-1;
