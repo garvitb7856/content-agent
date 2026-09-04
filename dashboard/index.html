@@ -146,7 +146,9 @@ function openM(key){
   var a=AGENTS.filter(function(x){return x.key===key;})[0];
   if(!a)return;
   document.getElementById("mt").textContent=a.name+" — Full Output";
-  document.getElementById("mc").innerHTML=linkify(md(FULL[key]||''));
+  var raw=FULL[key];
+  var rendered=raw ? linkify(md(raw)) : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
+  document.getElementById("mc").innerHTML=rendered;
   mo.classList.add("show");
   mo.scrollTop=0;
 }
