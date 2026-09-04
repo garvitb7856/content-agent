@@ -146,11 +146,7 @@ function openM(key){
   var a=AGENTS.filter(function(x){return x.key===key;})[0];
   if(!a)return;
   document.getElementById("mt").textContent=a.name+" — Full Output";
-  var raw=FULL[key]||"";
-  var rendered=raw
-    ? linkify(md(raw))
-    : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
-  document.getElementById("mc").innerHTML=rendered;
+  document.getElementById("mc").innerHTML=linkify(md(FULL[key]||''));
   mo.classList.add("show");
   mo.scrollTop=0;
 }
@@ -165,8 +161,9 @@ function esc(s){return(""+s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(
 /* ── Linkify bare URLs ── */
 function linkify(text){
   if(!text)return text;
-  // Convert bare URLs not already inside an href attribute
-  return text.replace(/(?<!href=["'])(https?:\/\/[^\s<"'\)]+)/g,function(_,url){
+  return text.replace(/(https?:\/\/[^\s<"'\)]+)/g,function(url, offset, string){
+    var prefix=string.substring(Math.max(0, offset-6), offset);
+    if(/href=["']?$/i.test(prefix))return url;
     var isInsta=url.indexOf("instagram.com")>-1;
     return '<a href="'+url+'" target="_blank" rel="noopener" style="color:#a78bfa;word-break:break-all;">'+(isInsta?"📸 ":"")+url+'</a>';
   });
@@ -193,7 +190,7 @@ function md(s){
     .replace(/^####\s+(.+)$/gm,"<h4>$1</h4>")
     .replace(/^###\s+(.+)$/gm,"<h3>$1</h3>")
     .replace(/^##\s+DAY\s+(\d+)\s+[—–-]+\s*(.+)$/gm,'<div class="day-block"><h2>📅 Day $1 — $2</h2>')
-    .replace(/^##\s+(.+)$/gm,"2</h2>")
+    .replace(/^##\s+(.+)$/gm,"<h2>$1</h2>")
     .replace(/^#\s+(.+)$/gm,"<h1>$1</h1>");
   o=o.replace(/(<div class="day-block">)([\s\S]*?)(?=<div class="day-block">|$)/g,function(_,open,content){
     return open+content+"</div>";
@@ -278,7 +275,7 @@ function renderAgents(){
   document.getElementById("agents").innerHTML=AGENTS.map(function(a){
     var raw=AI?AI[a.key]||null:null;
     var has=!!raw;
-    FULL[a.key]=has?md(raw):"<em style='color:#475569'>No output yet. Run run_agents.js on your PC first.</em>";
+    FULL[a.key]=raw||"";
     var preview=raw?raw.replace(/[#*`_>\[\]]/g,"").replace(/\n+/g," ").substring(0,220)+"…":"No output yet — run run_agents.js";
     return'<div class="ac" style="border-left-color:'+a.color+'">'
       +'<div class="ah"><div class="ai" style="background:'+a.color+'18;color:'+a.color+'">'+a.icon+'</div>'
