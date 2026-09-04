@@ -144,6 +144,34 @@ var AGENTS=[
 ];
 var D=null,AI=null,ACTIVE_PLAN=null,FULL={};
 
+function renderJSONIdeas(raw, label){
+  var ideas=[];
+  try{
+    if(typeof raw==='string'){var m=raw.match(/\[[\s\S]*\]/);if(m)ideas=JSON.parse(m[0]);}
+    else if(Array.isArray(raw))ideas=raw;
+  }catch(e){
+    return "<pre style='white-space:pre-wrap;color:#94a3b8;font-size:.78rem;'>"+esc(typeof raw==='string'?raw:JSON.stringify(raw,null,2))+"</pre>";
+  }
+  if(!ideas.length)return "<em style='color:#475569'>No ideas generated yet.</em>";
+  var sc={'HIGH':'#10b981','MEDIUM':'#f59e0b','LOW':'#ef4444','undefined':'#6366f1'};
+  var sb={'HIGH':'rgba(16,185,129,.1)','MEDIUM':'rgba(245,158,11,.1)','LOW':'rgba(239,68,68,.1)','undefined':'rgba(99,102,241,.1)'};
+  var em=['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
+  return '<p style="color:#64748b;font-size:.72rem;margin-bottom:1rem;">'+label+'</p>'+
+    ideas.map(function(idea,i){
+      var s=idea.score||'undefined';
+      var color=sc[s]||'#6366f1';
+      var bg=sb[s]||'rgba(99,102,241,.1)';
+      var badge=idea.score?'<span style="background:'+bg+';color:'+color+';font-size:.62rem;font-weight:700;padding:.15rem .4rem;border-radius:4px;margin-left:.4rem;">'+idea.score+'</span>':'';
+      return '<div style="background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.06);border-left:3px solid '+color+';border-radius:8px;padding:.85rem;margin-bottom:.6rem;">'+
+        '<div style="font-size:.84rem;font-weight:700;color:#f1f5f9;margin-bottom:.3rem;">'+(em[i]||((i+1)+'.'))+' '+esc(idea.title||'(no title)')+badge+'</div>'+
+        (idea.hook?'<div style="font-size:.75rem;color:#a78bfa;margin-bottom:.3rem;">🎣 '+esc(idea.hook)+'</div>':'')+
+        (idea.format?'<div style="font-size:.68rem;color:#64748b;">📐 '+esc(idea.format)+'</div>':'')+
+        (idea.reasoning?'<div style="font-size:.72rem;color:#64748b;margin-top:.25rem;line-height:1.5;">'+esc(idea.reasoning)+'</div>':'')+
+        (idea.why?'<div style="font-size:.72rem;color:#64748b;margin-top:.25rem;line-height:1.5;">'+esc(idea.why)+'</div>':'')+
+      '</div>';
+    }).join('');
+}
+
 function renderIdeas(ideas){
   var el=document.getElementById('ideas5');
   if(!el)return;
@@ -176,7 +204,14 @@ function openM(key){
   var raw=FULL[key];
   var rendered;
   try{
-    rendered=raw ? linkify(md(raw)) : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
+    if(key==='ideator'){
+      rendered=renderJSONIdeas(raw,'All 50 ideas generated from today\'s internet trends. Reply on Telegram (1–5) to pick from your Top 5.');
+    } else if(key==='scout'){
+      var scoutData=AI&&AI.pending_ideas?AI.pending_ideas:raw;
+      rendered=renderJSONIdeas(scoutData,'Scout Agent scored all 50 ideas. These are your Top 5 — ranked by originality, trend strength, and competitor proof.');
+    } else {
+      rendered=raw ? linkify(md(raw)) : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
+    }
   }catch(e){
     rendered="<pre style='white-space:pre-wrap;color:#94a3b8;font-size:.78rem;'>"+(raw||"No output yet.")+"</pre><p style='color:#ef4444;font-size:.7rem;margin-top:.5rem;'>Render error: "+String(e)+"</p>";
   }
@@ -459,7 +494,12 @@ function loadHistory(dateStr){
   var p2 = fetch("second_brain/history/plan_" + dateStr + ".json").then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
 
   Promise.all([p1, p2]).then(function(res){
-    if (res[0]) { AI = res[0]; AI._ts = res[0].generated_at || null; } else AI = null;
+    if (res[0]) {
+      AI = res[0];
+      AI._ts = res[0].generated_at || null;
+      if(AI&&AI.pending_ideas&&AI.pending_ideas.length)renderIdeas(AI.pending_ideas);
+      if(AI){FULL.ideator=AI.ideator||null;FULL.scout=AI.scout||null;FULL.planner=AI.planner||null;FULL.analyst=AI.analyst||null;FULL.hook_script=AI.hook_script||null;}
+    } else AI = null;
     if (res[1]) { ACTIVE_PLAN = res[1]; } else ACTIVE_PLAN = null;
     renderAll();
   }).catch(function(err){ console.error("loadHistory error:", err); renderAll(); });
@@ -479,7 +519,12 @@ function loadToday(){
 
   Promise.all([p1, p2, p3]).then(function(res){
     D = res[0];
-    if (res[1]) { AI = res[1]; AI._ts = res[1].generated_at || null; } else AI = null;
+    if (res[1]) {
+      AI = res[1];
+      AI._ts = res[1].generated_at || null;
+      if(AI&&AI.pending_ideas&&AI.pending_ideas.length)renderIdeas(AI.pending_ideas);
+      if(AI){FULL.ideator=AI.ideator||null;FULL.scout=AI.scout||null;FULL.planner=AI.planner||null;FULL.analyst=AI.analyst||null;FULL.hook_script=AI.hook_script||null;}
+    } else AI = null;
     ACTIVE_PLAN = res[2];
     renderAll();
   }).catch(function(err){ console.error("loadToday error:", err); renderAll(); });
