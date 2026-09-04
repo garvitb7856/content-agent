@@ -138,9 +138,9 @@ var AGENTS=[
 var D=null,AI=null,ACTIVE_PLAN=null,FULL={};
 
 /* ── Modal ── */
-var mo=document.getElementById("mo");
+function getMo(){ return document.getElementById("mo"); }
 document.getElementById("mcloseBtn").onclick=closeM;
-mo.addEventListener("click",function(e){if(e.target===mo)closeM();});
+window.addEventListener("click",function(e){if(e.target===getMo())closeM();});
 document.addEventListener("keydown",function(e){if(e.key==="Escape")closeM();});
 function openM(key){
   var a=AGENTS.filter(function(x){return x.key===key;})[0];
@@ -149,10 +149,13 @@ function openM(key){
   var raw=FULL[key];
   var rendered=raw ? linkify(md(raw)) : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
   document.getElementById("mc").innerHTML=rendered;
-  mo.classList.add("show");
-  mo.scrollTop=0;
+  var m=getMo();
+  if(m){
+    m.classList.add("show");
+    m.scrollTop=0;
+  }
 }
-function closeM(){mo.classList.remove("show");}
+function closeM(){var m=getMo();if(m)m.classList.remove("show");}
 window.openM=openM;
 
 /* ── Helpers ── */
