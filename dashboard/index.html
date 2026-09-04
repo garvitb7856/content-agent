@@ -146,7 +146,11 @@ function openM(key){
   var a=AGENTS.filter(function(x){return x.key===key;})[0];
   if(!a)return;
   document.getElementById("mt").textContent=a.name+" — Full Output";
-  document.getElementById("mc").innerHTML=FULL[key]||"<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
+  var raw=FULL[key]||"";
+  var rendered=raw
+    ? linkify(md(raw))
+    : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
+  document.getElementById("mc").innerHTML=rendered;
   mo.classList.add("show");
   mo.scrollTop=0;
 }
@@ -157,6 +161,16 @@ window.openM=openM;
 function fmt(n){n=parseInt(n,10);if(isNaN(n))return"–";return n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(1)+"k":""+n;}
 function av(a){if(!a||!a.length)return 0;return Math.round(a.reduce(function(s,v){return s+(v||0);},0)/a.length);}
 function esc(s){return(""+s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+
+/* ── Linkify bare URLs ── */
+function linkify(text){
+  if(!text)return text;
+  // Convert bare URLs not already inside an href attribute
+  return text.replace(/(?<!href=["'])(https?:\/\/[^\s<"'\)]+)/g,function(_,url){
+    var isInsta=url.indexOf("instagram.com")>-1;
+    return '<a href="'+url+'" target="_blank" rel="noopener" style="color:#a78bfa;word-break:break-all;">'+(isInsta?"📸 ":"")+url+'</a>';
+  });
+}
 
 /* ── Markdown → HTML with clickable links ── */
 function md(s){
