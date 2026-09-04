@@ -39,6 +39,23 @@ async function gemini(prompt) {
   return '[Script generation failed]';
 }
 
+function cleanForTelegram(text) {
+  return text
+    .replace(/#{1,4}\s+/g, '')
+    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+    .replace(/\*([^*\n]+?)\*/g, '<i>$1</i>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/^[-*]\s+/gm, '• ')
+    .replace(/^(\d+)\.\s+/gm, '$1. ')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, (m, offset, str) => {
+      const after = str.substring(offset);
+      if (/^<\/?(?:b|i|code|pre|a)[\s>]/.test(after)) return m;
+      return '&lt;';
+    })
+    .trim();
+}
+
 function sendTelegram(text) {
   return new Promise((resolve) => {
     const body=JSON.stringify({chat_id:CHAT_ID,text:text,parse_mode:'HTML',disable_web_page_preview:true});
@@ -109,7 +126,7 @@ Two trigger word options with the exact script (e.g. "Comment LINK and I'll DM y
   // Send full script via Telegram
   const scoreColor={'HIGH':'🟢','MEDIUM':'🟡','LOW':'🔴'};
   const badge=(scoreColor[idea.score]||'🔵')+' '+idea.score;
-  const preview=script.substring(0,3800)+(script.length>3800?'\n\n<i>...view full script on dashboard</i>':'');
+  const preview=cleanForTelegram(script).substring(0,3800)+(script.length>3800?'\n\n<i>...view full script on dashboard</i>':'');
   const msg='🎬 <b>Script Ready!</b>\n\n'+'💡 <b>'+idea.title+'</b>\n'+'🏅 Score: '+badge+'\n\n'+preview+'\n\n🌐 <a href="https://garvitb7856.github.io/content-agent/dashboard/">View on Dashboard</a>';
   await sendTelegram(msg);
   console.log('✅ Script sent via Telegram!');
