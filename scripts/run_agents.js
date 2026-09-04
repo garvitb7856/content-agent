@@ -23,7 +23,7 @@ function loadData() {
 async function gemini(prompt, label = "") {
   process.stdout.write(`Calling Gemini for ${label}... `);
 
-  const candidateModels = ["gemini-3.1-flash-lite", "gemini-3.7-flash", "gemini-3.8-flash", "gemini-flash-latest", "gemini-pro-latest"];
+  const candidateModels = ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-3.1-pro-preview", "gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.1-flash-lite"];
 
   for (const model of candidateModels) {
     const postData = JSON.stringify({
