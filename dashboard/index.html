@@ -147,15 +147,20 @@ function openM(key){
   if(!a)return;
   document.getElementById("mt").textContent=a.name+" — Full Output";
   var raw=FULL[key];
-  var rendered=raw ? linkify(md(raw)) : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
+  var rendered;
+  try{
+    rendered=raw ? linkify(md(raw)) : "<em style='color:#475569'>No output yet. Run run_agents.js on your PC.</em>";
+  }catch(e){
+    rendered="<pre style='white-space:pre-wrap;color:#94a3b8;font-size:.78rem;'>"+(raw||"No output yet.")+"</pre><p style='color:#ef4444;font-size:.7rem;margin-top:.5rem;'>Render error: "+String(e)+"</p>";
+  }
   document.getElementById("mc").innerHTML=rendered;
   var m=getMo();
   if(m){
-    m.classList.add("show");
+    m.style.display="block";
     m.scrollTop=0;
   }
 }
-function closeM(){var m=getMo();if(m)m.classList.remove("show");}
+function closeM(){var m=getMo();if(m)m.style.display="none";}
 window.openM=openM;
 
 /* ── Helpers ── */
