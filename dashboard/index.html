@@ -410,8 +410,18 @@ function renderCal(){
     }
   }
 
+  var todayObj = new Date();
+  days.forEach(function(item, i) {
+    var d = new Date(todayObj.getFullYear(), todayObj.getMonth(), todayObj.getDate() + i);
+    var yyyy = d.getFullYear();
+    var mm = String(d.getMonth() + 1).padStart(2, '0');
+    var dd = String(d.getDate()).padStart(2, '0');
+    item.date = yyyy + '-' + mm + '-' + dd;
+    item.day = i + 1;
+  });
+
   var dayLabels = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-  var todayStr = new Date().toISOString().split('T')[0];
+  var todayStr = todayObj.getFullYear() + '-' + String(todayObj.getMonth() + 1).padStart(2, '0') + '-' + String(todayObj.getDate()).padStart(2, '0');
 
   days.slice(0, 7).forEach(function(item) {
     var dateObj = new Date(item.date + "T00:00:00");

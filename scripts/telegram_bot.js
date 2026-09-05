@@ -102,7 +102,7 @@ const avgLikes    = myPosts.length
   : 0;
 const avgComments = Math.round(medianComments);
 const engRate = followers
-  ? (((medianLikes + medianComments) / followers) * 100).toFixed(2)
+  ? (((avgLikes + avgComments) / followers) * 100).toFixed(2)
   : '0.00';
 
 const topPost = myPosts.length
@@ -136,11 +136,37 @@ const agentLabels = {
 
 const agentLines = agentKeys.map(key => {
   let out;
-  if (key === 'scout') {
+  if (key === 'ideator') {
+    try {
+      let ideas = [];
+      const raw = ai.ideator;
+      if (typeof raw === 'string') {
+        const m = raw.match(/\[[\s\S]*\]/);
+        if (m) ideas = JSON.parse(m[0]);
+      } else if (Array.isArray(raw)) {
+        ideas = raw;
+      }
+      if (ideas && ideas.length && ideas[0]) {
+        const t1 = ideas[0].title || '';
+        const h1 = ideas[0].hook ? ' (Hook: "' + ideas[0].hook + '")' : '';
+        out = `${ideas.length} ideas generated. Idea #1: "${t1}"${h1}`;
+      } else {
+        out = preview(ai[key], 200);
+      }
+    } catch(e) {
+      out = preview(ai[key], 200);
+    }
+  } else if (key === 'scout') {
     try {
       const pending = ai.pending_ideas||[];
       out = pending.length ? pending.length+' ideas scored. Top: "'+pending[0].title+'" ('+pending[0].score+')' : 'Scoring pending';
     } catch(e) { out = preview(ai[key]); }
+  } else if (key === 'analyst') {
+    try {
+      out = `Eng Rate: ${engRate}% (Avg Likes: ${avgLikes}, Median Comments: ${avgComments}). ` + preview(ai.analyst, 180);
+    } catch(e) {
+      out = preview(ai[key]);
+    }
   } else {
     out = preview(ai[key]);
   }
