@@ -371,12 +371,12 @@ function renderCal(){
     var text = AI.planner;
     var dayBlocks = text.split(/(?=##?\s*DAY\s+\d+)/i);
     var dayIdx = 0;
-    var startDate = new Date();
+    const start = new Date();
     dayBlocks.forEach(function(block){
       if(!block.match(/##?\s*DAY\s+\d+/i)) return;
       dayIdx++;
-      var d = new Date(startDate);
-      d.setDate(startDate.getDate() + (dayIdx - 1));
+      var d = new Date(start);
+      d.setDate(start.getDate() + (dayIdx - 1));
       var topicMatch = block.match(/\*\*Topic:\*\*\s*([^\n]+)/i);
       var fmtMatch = block.match(/\*\*Format:\*\*\s*([^\n]+)/i);
       var timeMatch = block.match(/\*\*Post Time:\*\*\s*([^\n]+)/i);
@@ -394,10 +394,10 @@ function renderCal(){
   }
 
   if (days.length === 0) {
-    var today = new Date();
+    const start = new Date();
     for (var i = 0; i < 7; i++) {
-      var d = new Date(today);
-      d.setDate(today.getDate() + i);
+      var d = new Date(start);
+      d.setDate(start.getDate() + i);
       days.push({
         day: i + 1,
         date: d.toISOString().split('T')[0],
@@ -410,9 +410,9 @@ function renderCal(){
     }
   }
 
-  var todayObj = new Date();
+  const start = new Date();
   days.forEach(function(item, i) {
-    var d = new Date(todayObj.getFullYear(), todayObj.getMonth(), todayObj.getDate() + i);
+    var d = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
     var yyyy = d.getFullYear();
     var mm = String(d.getMonth() + 1).padStart(2, '0');
     var dd = String(d.getDate()).padStart(2, '0');
@@ -421,7 +421,7 @@ function renderCal(){
   });
 
   var dayLabels = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-  var todayStr = todayObj.getFullYear() + '-' + String(todayObj.getMonth() + 1).padStart(2, '0') + '-' + String(todayObj.getDate()).padStart(2, '0');
+  var todayStr = start.getFullYear() + '-' + String(start.getMonth() + 1).padStart(2, '0') + '-' + String(start.getDate()).padStart(2, '0');
 
   days.slice(0, 7).forEach(function(item) {
     var dateObj = new Date(item.date + "T00:00:00");

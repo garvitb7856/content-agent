@@ -1,47 +1,47 @@
 [
   {
     "rank": 1,
-    "title": "GPT-6 Astra is here: The end of manual coding?",
-    "hook": "OpenAI just dropped GPT-6 Astra, and your coding workflow is about to break.",
+    "title": "GPT-6 Astra is here (and it’s scary)",
+    "hook": "OpenAI just dropped GPT-6 Astra. Here is why the benchmark scores are terrifying.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Backed by the dominant #1 HackerNews trend with over 1,766 points and 1,546 comments. Tech breakdown breakdowns of major model releases consistently surpass 500+ likes on developer social media.",
+    "reasoning": "Backed by the massive 1,766-point top HackerNews trend, this breaking model launch guarantees viral discovery. It has not been generated previously and model release breakdowns consistently command 1,000+ likes on competitor channels.",
     "niche": "AI"
   },
   {
     "rank": 2,
-    "title": "Cerebras is running AI at 1500 tokens/s",
-    "hook": "Stop waiting for ChatGPT to type. Cerebras is running models at 1500 tokens per second.",
+    "title": "AI benchmarks are lying to you",
+    "hook": "GPT-6 Astra is impressive, but are we hitting a wall?",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Driven by the high-traction Cerebras/Qwen 27B benchmark with 550 HN points and 179 comments. Raw performance comparisons and speed demos consistently deliver 1k+ engagement in the AI tooling space.",
+    "reasoning": "Capitalizes on the 208-point ARC-AGI-3 benchmark trend by providing a high-retention contrarian angle to the GPT-6 hype cycle. The topic is completely fresh for the creator and controversy hooks drive above-average engagement.",
     "niche": "AI"
   },
   {
     "rank": 3,
-    "title": "Why every AI model went down yesterday",
-    "hook": "Did you notice your AI tools died yesterday? Here’s what actually happened.",
+    "title": "17,000 runs later: Which agent tool wins?",
+    "hook": "We analyzed 17,000 runs to see which tool AI actually prefers.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Captures the massive multi-model outage discussion featuring 535 comments on HackerNews. Real-time post-mortems of industry-wide tech failures generate massive organic reach and shares.",
+    "reasoning": "Directly anchored to the 212-point HackerNews empirical study on Claude, Codex, and Cursor tool usage. Proprietary data and quantitative case studies reliably yield 500+ saves and shares without duplicating prior content.",
     "niche": "AI"
   },
   {
     "rank": 4,
-    "title": "The human who beat the AI: Shin vs KataGo",
-    "hook": "An AI just got beaten by a human at Go. Here is the move that won it.",
+    "title": "Stop building agents until you read this",
+    "hook": "Stop building AI agents for a second. The industry just realized a massive flaw.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Directly supported by the viral 301-point HackerNews story of Shin defeating KataGo. Narrative-driven human-versus-machine content reliably captures 500+ likes due to broad mainstream fascination.",
+    "reasoning": "Leverages the trending architectural discussion on agents and Xanadu to challenge prevailing builder assumptions. Negative curiosity hooks targeting technical founders consistently deliver top-tier watch time.",
     "niche": "AI"
   },
   {
     "rank": 5,
-    "title": "Are coding agents actually working?",
-    "hook": "We analyzed 17,000 coding agent runs to see which tool is actually the best.",
-    "format": "Reel",
+    "title": "How to build a SaaS for niche collectors",
+    "hook": "From porcelain insulators to AI tools—here is how to find a boring business idea.",
+    "format": "Carousel",
     "score": "HIGH",
-    "reasoning": "Validated by the 17k benchmark run study trending with 212 points and 98 comments. High-level data-backed teardowns of popular tools like Claude, Codex, and Cursor routinely drive massive engagement among developers.",
-    "niche": "AI"
+    "reasoning": "Rides the viral organic interest behind the ultra-niche collector communities highlighted on HackerNews. Boring business breakdowns perform exceptionally well with entrepreneurial audiences seeking untapped market opportunities.",
+    "niche": "Entrepreneurship"
   }
 ]

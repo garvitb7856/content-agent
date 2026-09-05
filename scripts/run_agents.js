@@ -218,8 +218,11 @@ Rank competitors by engagement rate. Columns: Handle | Followers | Avg Likes | E
     } catch(e) {}
   }
   if (!planLocked) {
+    const todayFormatted = new Date().toLocaleDateString('en-IN', {weekday:'long', day:'numeric', month:'short'});
     planner = await gemini(`
 You are a content planner for @${myHandle} (AI/automation/entrepreneurship, Indian audience, 6:30-8PM IST peak hours).
+
+Start your 7-day plan from TODAY which is ${todayFormatted}. Label DAY 1 as today's actual day name. Do not start from Sunday or any fixed day.
 
 Create a 7-day content calendar:
 ${dayNames.map((d,i)=>'Day '+(i+1)+': '+d).join('\n')}
