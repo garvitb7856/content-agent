@@ -1,25 +1,25 @@
 {
-  "fetched_at": "2026-09-05T07:07:19.230Z",
+  "fetched_at": "2026-09-05T07:17:51.910Z",
   "total": 11,
   "trends": [
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra",
       "score": 2167,
-      "comments": 1987,
+      "comments": 1988,
       "url": "https://openai.com/index/gpt-6-astra/"
     },
     {
       "source": "HackerNews",
       "title": "Discovery of a new OpenAI agent message board",
-      "score": 1633,
-      "comments": 1281,
+      "score": 1640,
+      "comments": 1284,
       "url": "https://collusion.wiki/"
     },
     {
       "source": "HackerNews",
       "title": "Corporate America is getting hooked on open-source AI",
-      "score": 287,
+      "score": 288,
       "comments": 263,
       "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
     },
@@ -33,7 +33,7 @@
     {
       "source": "HackerNews",
       "title": "Can AI design circuit boards yet?",
-      "score": 232,
+      "score": 234,
       "comments": 142,
       "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
     },
@@ -41,21 +41,21 @@
       "source": "HackerNews",
       "title": "GPT-6 Astra on OpenRouter",
       "score": 194,
-      "comments": 106,
+      "comments": 108,
       "url": "https://openrouter.ai/openai/gpt-6-astra"
     },
     {
       "source": "HackerNews",
       "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "score": 97,
-      "comments": 47,
+      "score": 100,
+      "comments": 48,
       "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
     },
     {
       "source": "HackerNews",
       "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
       "score": 115,
-      "comments": 30,
+      "comments": 31,
       "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
     },
     {
@@ -69,14 +69,14 @@
       "source": "HackerNews",
       "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
       "score": 15,
-      "comments": 10,
+      "comments": 13,
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
     },
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "score": 17,
-      "comments": 4,
+      "score": 18,
+      "comments": 5,
       "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation"
     }
   ],
@@ -85,20 +85,20 @@
       "source": "HackerNews",
       "title": "GPT-6 Astra",
       "score": 2167,
-      "comments": 1987,
+      "comments": 1988,
       "url": "https://openai.com/index/gpt-6-astra/"
     },
     {
       "source": "HackerNews",
       "title": "Discovery of a new OpenAI agent message board",
-      "score": 1633,
-      "comments": 1281,
+      "score": 1640,
+      "comments": 1284,
       "url": "https://collusion.wiki/"
     },
     {
       "source": "HackerNews",
       "title": "Corporate America is getting hooked on open-source AI",
-      "score": 287,
+      "score": 288,
       "comments": 263,
       "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
     },
@@ -112,7 +112,7 @@
     {
       "source": "HackerNews",
       "title": "Can AI design circuit boards yet?",
-      "score": 232,
+      "score": 234,
       "comments": 142,
       "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
     },
@@ -120,21 +120,21 @@
       "source": "HackerNews",
       "title": "GPT-6 Astra on OpenRouter",
       "score": 194,
-      "comments": 106,
+      "comments": 108,
       "url": "https://openrouter.ai/openai/gpt-6-astra"
     },
     {
       "source": "HackerNews",
       "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "score": 97,
-      "comments": 47,
+      "score": 100,
+      "comments": 48,
       "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
     },
     {
       "source": "HackerNews",
       "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
       "score": 115,
-      "comments": 30,
+      "comments": 31,
       "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
     },
     {
@@ -148,49 +148,39 @@
       "source": "HackerNews",
       "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
       "score": 15,
-      "comments": 10,
+      "comments": 13,
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
     },
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "score": 17,
-      "comments": 4,
+      "score": 18,
+      "comments": 5,
       "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation"
     }
   ],
   "reddit": [],
-  "google": [
-    {
-      "title": "toronto flooding today",
-      "traffic": "200+",
-      "source": "Google Trends India"
-    },
-    {
-      "title": "giorgia meloni",
-      "traffic": "200+",
-      "source": "Google Trends India"
-    },
-    {
-      "title": "महंगाई भत्ता",
-      "traffic": "5000+",
-      "source": "Google Trends India"
-    },
-    {
-      "title": "एनएमएमएस",
-      "traffic": "200+",
-      "source": "Google Trends India"
-    },
-    {
-      "title": "arjun rampal",
-      "traffic": "500+",
-      "source": "Google Trends India"
-    }
-  ],
+  "google": [],
   "youtube": [
     {
-      "title": "Spherical Videos",
-      "source": "YouTube Trending IN"
+      "title": "Top 12 Free AI Tools That Make My Life Easier (2026)",
+      "source": "YouTube Search"
+    },
+    {
+      "title": "Draw Things: Free Local AI Image Generation",
+      "source": "YouTube Search"
+    },
+    {
+      "title": "Replit Free Mode: Build Websites With AI",
+      "source": "YouTube Search"
+    },
+    {
+      "title": "OpenRouter: Access Multiple AI Models",
+      "source": "YouTube Search"
+    },
+    {
+      "title": "Hey Clicky: AI Desktop Agent",
+      "source": "YouTube Search"
     }
   ]
 }

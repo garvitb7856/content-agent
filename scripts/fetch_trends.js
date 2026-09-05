@@ -59,110 +59,52 @@ async function fetchGoogleTrends() {
     const result = await googleTrends.dailyTrends({ geo: 'IN' });
     const data = JSON.parse(result);
     const trends = data.default.trendingSearchesDays[0].trendingSearches;
-    const res = trends
-      .filter(t => {
-        const title = t.title.query.toLowerCase();
-        return title.includes('ai') || title.includes('chatgpt') || 
-               title.includes('gemini') || title.includes('tech') || 
-               title.includes('openai') || title.includes('claude') ||
-               title.includes('coding') || title.includes('startup');
-      })
-      .slice(0, 5)
-      .map(t => ({
-        title: t.title.query,
-        traffic: t.formattedTraffic,
-        source: 'Google Trends India'
-      }));
-    if (res.length) return res;
-    throw new Error('empty or unfiltered');
+    const keywords = ['ai','chatgpt','gemini','openai','claude','gpt','llm',
+                      'coding','developer','tech','software','startup','automation',
+                      'machine learning','neural','robot'];
+    const filtered = trends.filter(t => {
+      const title = (t.title?.query || '').toLowerCase();
+      return keywords.some(k => title.includes(k));
+    });
+    // If no tech trends found in India today, return empty gracefully
+    return filtered.slice(0, 5).map(t => ({
+      title: t.title.query,
+      traffic: t.formattedTraffic || 'trending',
+      source: 'Google Trends India'
+    }));
   } catch(e) {
-    try {
-      const https = require('https');
-      const url = 'https://trends.google.com/trending/rss?geo=IN';
-      const xml = await new Promise((resolve, reject) => {
-        https.get(url, res => {
-          let data = '';
-          res.on('data', chunk => data += chunk);
-          res.on('end', () => resolve(data));
-          res.on('error', reject);
-        });
-      });
-      const items = [...xml.matchAll(/<item>[\s\S]*?<title>(.*?)<\/title>[\s\S]*?<ht:approx_traffic>(.*?)<\/ht:approx_traffic>[\s\S]*?<\/item>/g)];
-      const parsed = items.map(m => ({ title: m[1], traffic: m[2], source: 'Google Trends India' }));
-      const techFiltered = parsed.filter(t => {
-        const title = t.title.toLowerCase();
-        return title.includes('ai') || title.includes('chatgpt') || 
-               title.includes('gemini') || title.includes('tech') || 
-               title.includes('openai') || title.includes('claude') ||
-               title.includes('coding') || title.includes('startup') ||
-               title.includes('google') || title.includes('apple') || title.includes('nvidia');
-      });
-      return (techFiltered.length ? techFiltered : parsed).slice(0, 5);
-    } catch(err) {
-      console.log('Google Trends fetch failed:', e.message);
-      return [];
-    }
+    console.log('Google Trends fetch failed:', e.message);
+    return [];
   }
 }
 
-// YOUTUBE TRENDING (no API key needed — uses RSS feed)
+// YOUTUBE TRENDING (no API key needed — uses RSS feed / YouTube Search)
 async function fetchYouTubeTrending() {
   try {
     const https = require('https');
-    // Fetch YouTube trending RSS for Science & Tech category in India
-    const url = 'https://www.youtube.com/feeds/videos.xml?chart=mostpopular&regionCode=IN&categoryId=28&max-results=10';
-    const xml = await new Promise((resolve, reject) => {
-      const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' } }, res => {
-        let data = '';
-        res.on('data', chunk => data += chunk);
-        res.on('end', () => resolve(data));
-      });
-      req.on('error', reject);
-      req.setTimeout(5000, () => { req.destroy(); resolve(''); });
-    });
-    const titles = [...xml.matchAll(/<title>(.*?)<\/title>/g)]
-      .map(m => m[1])
-      .filter(t => t !== 'YouTube' && t.length > 5 && !t.includes('Error 400'))
-      .slice(0, 5);
-
-    if (titles.length) {
-      return titles.map(title => ({ title, source: 'YouTube Trending IN' }));
-    }
-
-    // Fallback: YouTube trending page
-    const html = await new Promise((resolve) => {
+    // Search YouTube for recent AI videos instead of broken RSS
+    const query = encodeURIComponent('AI tools 2026 India');
+    const html = await new Promise((resolve, reject) => {
       const options = {
         hostname: 'www.youtube.com',
-        path: '/feed/trending',
-        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 'Accept-Language': 'en-US,en;q=0.9' }
+        path: `/results?search_query=${query}&sp=CAISAhAB`,
+        headers: { 'User-Agent': 'Mozilla/5.0' }
       };
-      const req = https.get(options, res => {
+      https.get(options, res => {
         let data = '';
         res.on('data', chunk => data += chunk);
         res.on('end', () => resolve(data));
+        res.on('error', reject);
       });
-      req.on('error', () => resolve(''));
-      req.setTimeout(5000, () => { req.destroy(); resolve(''); });
     });
-    const matches = [...html.matchAll(/"title":\{"runs":\[\{"text":"([^"]+)"\}/g)]
+    // Extract video titles from YouTube search results
+    const matches = [...html.matchAll(/"title":\{"runs":\[\{"text":"([^"]{10,80})"\}/g)]
       .map(m => m[1])
-      .filter(t => t.length > 5 && 
-        !t.toLowerCase().includes('trending') && 
-        !t.toLowerCase().includes('youtube') && 
-        !t.toLowerCase().includes('keyboard') && 
-        !t.toLowerCase().includes('search') && 
-        !t.toLowerCase().includes('playback') && 
-        !t.toLowerCase().includes('general') && 
-        !t.toLowerCase().includes('caption') && 
-        !t.toLowerCase().includes('subtitles') && 
-        !t.toLowerCase().includes('report') &&
-        !t.toLowerCase().includes('history') &&
-        !t.toLowerCase().includes('library')
-      )
+      .filter(t => !t.includes('\\u'))
       .slice(0, 5);
-    return matches.map(title => ({ title, source: 'YouTube Trending IN' }));
+    return matches.map(title => ({ title, source: 'YouTube Search' }));
   } catch(e) {
-    console.log('YouTube trending fetch failed:', e.message);
+    console.log('YouTube fetch failed:', e.message);
     return [];
   }
 }
