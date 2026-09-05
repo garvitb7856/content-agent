@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-05T06:49:25.635Z",
+  "fetched_at": "2026-09-05T06:50:28.613Z",
   "total": 11,
   "trends": [
     {
@@ -12,7 +12,7 @@
     {
       "source": "HackerNews",
       "title": "Discovery of a new OpenAI agent message board",
-      "score": 1620,
+      "score": 1621,
       "comments": 1276,
       "url": "https://collusion.wiki/"
     },
@@ -47,7 +47,7 @@
     {
       "source": "HackerNews",
       "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "score": 89,
+      "score": 91,
       "comments": 46,
       "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
     },
