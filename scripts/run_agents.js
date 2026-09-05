@@ -123,9 +123,21 @@ async function main() {
   const topHooks = hookBank.sort((a,b)=>(b.likes||0)-(a.likes||0)).slice(0,5).map(h=>h.hook).filter(Boolean).join('\n') || 'No top hooks logged yet.';
   const bestFormats = (patterns.bestFormats && patterns.bestFormats.length) ? patterns.bestFormats.join(', ') : 'Reels';
 
-  const dayNames=[];
-  const today=new Date();
-  for(let i=0;i<7;i++){const d=new Date(today);d.setDate(today.getDate()+i);dayNames.push(d.toLocaleDateString('en-GB',{weekday:'long',day:'2-digit',month:'short'}));}
+  const igTrendsPath = path.join(__dirname, '../second_brain/instagram_trends.json');
+  const igTrends = fs.existsSync(igTrendsPath) ? JSON.parse(fs.readFileSync(igTrendsPath, 'utf8')) : {};
+  const hotPost = igTrends.hotRightNow?.[0];
+  const topFormat = igTrends.risingFormat?.[0]?.format || 'Reel';
+  const trendTopics = igTrends.trendingTopics?.map(t=>t.topic).join(', ') || '';
+  const bestTimes = igTrends.bestPostingWindow?.join(', ') || '';
+  const igContext = `
+INSTAGRAM TREND SIGNALS (RIGHT NOW in your niche):
+- Hottest post last 24hrs: ${hotPost ? `@${hotPost.username} got ${hotPost.likes} likes — "${hotPost.caption}" (${hotPost.url})` : 'No recent data'}
+- Best performing format this week: ${topFormat}
+- Trending topics across top creators: ${trendTopics}
+- Best posting times: ${bestTimes}
+- Top hook patterns from competitors:
+${igTrends.topHookPatterns?.map(h=>`  "${h.hook}" — @${h.username} (${h.likes} likes)`).join('\n') || 'None'}
+`;
 
   // ── AGENT 1: IDEATOR — 50 ideas ──────────────────────────────────────────
   console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
@@ -135,6 +147,8 @@ You are a viral content strategist for @${myHandle} (${myFollowers} followers, I
 These hooks have performed best for @${myHandle} in the past:
 ${topHooks}
 Use similar patterns.
+
+${igContext}
 
 WHAT IS TRENDING RIGHT NOW ON THE INTERNET (real data, last 24h):
 ${trendSummary}${googleSection}${youtubeSection}
