@@ -49,7 +49,12 @@ async function runFetcher() {
         "thevarunmayya"
       ],
       "postsPerProfile": 20,
-      "proxy": { "useApifyProxy": true }
+      "proxy": { "useApifyProxy": true },
+      "extendOutputFunction": "",
+      "scrapePostsUntilDate": "",
+      "includeTaggedPosts": false,
+      "expandOwners": false,
+      "includeCaption": true
     };
 
     console.log(`\n📸 Fetching posts for all ${input.usernames.length} accounts...`);
@@ -81,7 +86,7 @@ async function runFetcher() {
       const postObj = {
         id:       item.id || shortCode,
         username: username,
-        caption:  (typeof item.caption === 'string' ? item.caption : '').slice(0, 300),
+        caption:  (typeof item.caption === 'string' ? item.caption : (item.caption?.text || item.captionText || item.text || '')).slice(0, 300),
         likes:    item.like_count || item.likeCount || 0,
         comments: item.comment_count || item.commentCount || 0,
         type:     'Post',
