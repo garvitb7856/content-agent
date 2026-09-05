@@ -5,64 +5,64 @@
     {
       "day": 1,
       "date": "2026-09-05",
-      "topic": "How to automate lead qualification using Zapier & ChatGPT",
+      "topic": "Automating weekend emails so you don't touch your laptop.",
       "format": "Reel",
-      "post_time": "7:15 PM",
-      "hook": "\"Stop manually reading every lead form—here is how I qualify my clients while I sleep.\"",
+      "post_time": "7:15 PM IST",
+      "hook": "\"Stop working on your weekends. Here is how I automate my entire client communication while I'm at the movies.\"",
       "status": "pending"
     },
     {
       "day": 2,
       "date": "2026-09-06",
-      "topic": "5 AI side hustles you can start this weekend (No coding required)",
+      "topic": "5 AI tools every Indian solopreneur needs to start using by Monday morning.",
       "format": "Carousel",
-      "post_time": "6:45 PM",
-      "hook": "\"Stop scrolling, start building. Here are 5 AI-powered side hustles for the Indian market.\"",
+      "post_time": "6:45 PM IST",
+      "hook": "\"If you aren't using these 5 AI tools, you are leaving money on the table this week.\"",
       "status": "pending"
     },
     {
       "day": 3,
       "date": "2026-09-07",
-      "topic": "My \"Sunday Reset\" tech stack for peak productivity on Monday",
+      "topic": "How to use ChatGPT to write professional cold emails that actually get replies.",
       "format": "Reel",
-      "post_time": "7:30 PM",
-      "hook": "\"Most people dread Monday. I use these 3 AI tools to automate my week before it even starts.\"",
+      "post_time": "7:30 PM IST",
+      "hook": "\"Stop sending 'I hope this email finds you well.' Use this specific ChatGPT prompt to get a 50% higher response rate.\"",
       "status": "pending"
     },
     {
       "day": 4,
       "date": "2026-09-08",
-      "topic": "Breakdown of an AI-powered content workflow (Idea to Post in 30 mins)",
+      "topic": "Breakdown of a 100k/month automation agency business model.",
       "format": "Carousel",
-      "post_time": "7:00 PM",
-      "hook": "\"I spent 4 hours on content creation until I built this AI system. Now it takes me 30 minutes.\"",
+      "post_time": "7:00 PM IST",
+      "hook": "\"Most people think starting an AI agency is hard. Here is the exact business model I’d use to hit 1 Lakh/month from my bedroom.\"",
       "status": "pending"
     },
     {
       "day": 5,
       "date": "2026-09-09",
-      "topic": "Live demo: Cloning your voice for multilingual content (Hindi/English)",
+      "topic": "Why your current productivity routine is failing (and how AI fixes it).",
       "format": "Reel",
-      "post_time": "6:30 PM",
-      "hook": "\"I just cloned my voice to record videos in 3 languages without speaking a word of them.\"",
+      "post_time": "7:45 PM IST",
+      "hook": "\"You’re not lazy, you’re just managing your tasks like it’s 2010. Let’s fix your workflow.\"",
       "status": "pending"
     },
     {
       "day": 6,
       "date": "2026-09-10",
-      "topic": "The \"AI-Resistant\" skills you need to learn in 2024",
+      "topic": "3 AI-powered side hustles that require zero coding skills.",
       "format": "Carousel",
-      "post_time": "7:00 PM",
-      "hook": "\"AI won't replace you, but a human using AI will. Here are the 4 skills that will keep you relevant.\"",
+      "post_time": "6:30 PM IST",
+      "hook": "\"Don't know how to code? Good. You don't need to. Here are 3 AI side hustles you can start tonight.\"",
       "status": "pending"
     },
     {
       "day": 7,
       "date": "2026-09-11",
-      "topic": "How to use Claude 3.5 Sonnet to rewrite your boring emails into high-converting copy",
+      "topic": "My \"Friday Audit\" – How I use AI to review my week’s progress in 5 minutes.",
       "format": "Reel",
-      "post_time": "7:45 PM",
-      "hook": "\"Stop sending emails that get ignored. Use this specific Claude prompt to boost your response rate.\"",
+      "post_time": "8:00 PM IST",
+      "hook": "\"Stop doing manual weekly reviews. I use this AI hack to summarize my entire week’s work in under 5 minutes.\"",
       "status": "pending"
     }
   ]

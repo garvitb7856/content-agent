@@ -1,47 +1,47 @@
 [
   {
     "rank": 1,
-    "title": "GPT-6 Astra Just Leaked: What OpenAI Isn't Telling You",
-    "hook": "OpenAI just dropped GPT-6 Astra, and the benchmarks are breaking the internet.",
+    "title": "How Spotify's Portal Tool Cuts Claude Token Bills by 90%",
+    "hook": "Nobody should pay full price for Claude Code, because Spotify just open-sourced a tool that cuts your token bill by 90%.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Capitalizes on the #1 HackerNews trend with massive viral velocity (2,167 score, 1,987 comments). The creator has not covered GPT-6 leaks, and @thevarunmayya's breakdown format consistently clears 1,000+ likes on breaking model drops.",
+    "reasoning": "Directly leverages a high-interest technical trend from Hacker News with a proven 'cost-saving' hook formula. It is highly actionable and hasn't been covered in your recent content cycle.",
     "niche": "AI"
   },
   {
     "rank": 2,
-    "title": "OpenAI's Secret Agent Message Board Discovered",
-    "hook": "Engineers just discovered a hidden message board where OpenAI agents talk to each other.",
+    "title": "Access GPT-6 Astra on OpenRouter Right Now",
+    "hook": "I wish I knew this earlier, because GPT-6 Astra just went live on OpenRouter and you can test it without any waitlist.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Backed by the viral 1,620-score HackerNews discovery of autonomous multi-agent coordination. The angle is completely fresh for the creator and leverages @nick_saraev's proven high-retention investigative hook structure.",
+    "reasoning": "Capitalizes on the #1 trending topic on Hacker News with massive search intent. The 'I wish I knew this earlier' hook is a proven performer for your audience.",
     "niche": "AI"
   },
   {
     "rank": 3,
-    "title": "Why Corporate America Is Abandoning Closed AI for Open Source",
-    "hook": "Fortune 500 companies are secretly ditching OpenAI for local open-source models.",
-    "format": "Reel",
+    "title": "OpenAI's Leaked Autonomous Agent Message Board Breakdown",
+    "hook": "OpenAI accidentally leaked their internal agent message board, and what these AI agents are discussing in private will shock you.",
+    "format": "Carousel",
     "score": "HIGH",
-    "reasoning": "Driven by a strong 286-score HackerNews corporate adoption trend that shifts away from basic consumer LLM talk into enterprise strategy. Competitor case studies by @thevarunmayya show 800+ likes on B2B AI migration topics.",
-    "niche": "Entrepreneurship"
-  },
-  {
-    "rank": 4,
-    "title": "Can AI Design Hardware PCBs Now? We Tested It",
-    "hook": "Software is already automated. But can AI design a physical circuit board?",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Pulls directly from the 231-score HackerNews circuit board debate, targeting an untapped hardware automation niche. Hands-on visual teardowns modeled on @favourite.engineer achieve strong save rates and above-average engagement.",
+    "reasoning": "Taps into a massive 1600+ point HN trend that provides high-value 'insider' information. Carousels are perfect for breaking down complex leaked data for high retention.",
     "niche": "AI"
   },
   {
+    "rank": 4,
+    "title": "Stop Paying SaaS: How Corporate America is Moving to Open-Source AI",
+    "hook": "Stop buying expensive enterprise AI tools, because Fortune 500 companies are secretly ditching OpenAI for this free setup.",
+    "format": "Reel",
+    "score": "MEDIUM",
+    "reasoning": "Strong trend signal from HN, but the 'SaaS is dead' narrative is becoming slightly saturated. It remains a high-value topic for your audience's transition to open-source workflows.",
+    "niche": "Entrepreneurship"
+  },
+  {
     "rank": 5,
-    "title": "How Spotify Cut Claude Code Token Bills by 90%",
-    "hook": "Spotify just open-sourced a tool that slashes your Claude API bill by 90%.",
-    "format": "Carousel",
-    "score": "HIGH",
-    "reasoning": "Directly references the HackerNews Portal by Spotify release (89 score) solving a major developer pain point around Claude token costs. Step-by-step utility carousels in the style of @dhaval_kataria consistently generate 500+ saves and shares.",
+    "title": "AI Hardware Agent: Designing Circuit Boards with Zero Engineering",
+    "hook": "You can design custom hardware circuit boards in under 60 seconds using this brand-new free AI agent.",
+    "format": "Reel",
+    "score": "MEDIUM",
+    "reasoning": "Validates a specific HN trend, but the niche is narrower than software-only topics. It ranks lower because it requires a specific technical interest, though it offers high novelty.",
     "niche": "AI"
   }
 ]
