@@ -91,22 +91,24 @@ function getMedian(arr) {
     : (sorted[mid - 1] + sorted[mid]) / 2;
 }
 
-const likesList    = myPosts.map(p => p.likes || 0);
-const commentsList = myPosts.map(p => p.comments || 0);
+const likesList    = myPosts.map(p => p.likesCount || p.likes || 0);
+const commentsList = myPosts.map(p => p.commentsCount || p.comments || 0);
 
-const medianLikes    = getMedian(likesList);
-const medianComments = getMedian(commentsList);
+const median = arr => { if(!arr.length) return 0; const s = [...arr].sort((a,b)=>a-b); return s[Math.floor(s.length/2)]; };
+
+const medianLikes    = median(likesList);
+const medianComments = median(commentsList);
 
 const avgLikes    = myPosts.length
-  ? Math.round(myPosts.reduce((s, p) => s + (p.likes    || 0), 0) / myPosts.length)
+  ? Math.round(myPosts.reduce((s, p) => s + (p.likesCount || p.likes || 0), 0) / myPosts.length)
   : 0;
 const avgComments = Math.round(medianComments);
 const engRate = followers
-  ? (((avgLikes + avgComments) / followers) * 100).toFixed(2)
+  ? (((medianLikes + medianComments) / followers) * 100).toFixed(2)
   : '0.00';
 
 const topPost = myPosts.length
-  ? [...myPosts].sort((a, b) => (b.likes || 0) - (a.likes || 0))[0]
+  ? [...myPosts].sort((a, b) => (b.likesCount || b.likes || 0) - (a.likesCount || a.likes || 0))[0]
   : null;
 const topCaption = topPost
   ? esc((topPost.caption || '').replace(/\n/g, ' ').substring(0, 60))
@@ -147,9 +149,7 @@ const agentLines = agentKeys.map(key => {
         ideas = raw;
       }
       if (ideas && ideas.length && ideas[0]) {
-        const t1 = ideas[0].title || '';
-        const h1 = ideas[0].hook ? ' (Hook: "' + ideas[0].hook + '")' : '';
-        out = `${ideas.length} ideas generated. Idea #1: "${t1}"${h1}`;
+        out = `Title: ${ideas[0].title || ''}\nHook: ${ideas[0].hook || ''}`;
       } else {
         out = preview(ai[key], 200);
       }
@@ -163,7 +163,7 @@ const agentLines = agentKeys.map(key => {
     } catch(e) { out = preview(ai[key]); }
   } else if (key === 'analyst') {
     try {
-      out = `Eng Rate: ${engRate}% (Avg Likes: ${avgLikes}, Median Comments: ${avgComments}). ` + preview(ai.analyst, 180);
+      out = `Engagement Rate: ${engRate}%\n` + preview(ai.analyst, 200);
     } catch(e) {
       out = preview(ai[key]);
     }

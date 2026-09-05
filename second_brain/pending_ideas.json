@@ -1,47 +1,47 @@
 [
   {
     "rank": 1,
-    "title": "GPT-6 Astra is here (and it’s scary)",
-    "hook": "OpenAI just dropped GPT-6 Astra. Here is why the benchmark scores are terrifying.",
+    "title": "The 1500 tokens/s speed record",
+    "hook": "Stop waiting for your AI to think. Speed just got a 10x upgrade.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Backed by the massive 1,766-point top HackerNews trend, this breaking model launch guarantees viral discovery. It has not been generated previously and model release breakdowns consistently command 1,000+ likes on competitor channels.",
+    "reasoning": "Capitalizes on the high-performing Cerebras/Qwen news (550 HN points). This is a fresh technical breakthrough that hasn't been covered by the creator yet.",
     "niche": "AI"
   },
   {
     "rank": 2,
-    "title": "AI benchmarks are lying to you",
-    "hook": "GPT-6 Astra is impressive, but are we hitting a wall?",
+    "title": "Grep is still king of coding",
+    "hook": "Why are AI agents failing at your code? You’re using the wrong tools.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Capitalizes on the 208-point ARC-AGI-3 benchmark trend by providing a high-retention contrarian angle to the GPT-6 hype cycle. The topic is completely fresh for the creator and controversy hooks drive above-average engagement.",
+    "reasoning": "Directly addresses the 'Grep vs LSP' HN trend which is highly relevant to the creator's developer audience. It offers a contrarian technical take that drives high engagement.",
     "niche": "AI"
   },
   {
     "rank": 3,
-    "title": "17,000 runs later: Which agent tool wins?",
-    "hook": "We analyzed 17,000 runs to see which tool AI actually prefers.",
+    "title": "The 1993 game engine revival",
+    "hook": "I turned 1993 Assembly code into a modern game with AI.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Directly anchored to the 212-point HackerNews empirical study on Claude, Codex, and Cursor tool usage. Proprietary data and quantitative case studies reliably yield 500+ saves and shares without duplicating prior content.",
-    "niche": "AI"
+    "reasoning": "Leverages the Amiga/Godot porting trend (290 HN points) which serves as a perfect 'build-in-public' showcase. It is distinct from the creator's recent AI-heavy content.",
+    "niche": "Entrepreneurship"
   },
   {
     "rank": 4,
-    "title": "Stop building agents until you read this",
-    "hook": "Stop building AI agents for a second. The industry just realized a massive flaw.",
+    "title": "GPT-6 Astra vs. Human Intelligence",
+    "hook": "GPT-6 Astra just dropped and it’s actually scary.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Leverages the trending architectural discussion on agents and Xanadu to challenge prevailing builder assumptions. Negative curiosity hooks targeting technical founders consistently deliver top-tier watch time.",
+    "score": "MEDIUM",
+    "reasoning": "While the trend is massive (1766 HN points), the creator has already covered 'Building a personal Astra'. This needs a unique angle to avoid being redundant.",
     "niche": "AI"
   },
   {
     "rank": 5,
-    "title": "How to build a SaaS for niche collectors",
-    "hook": "From porcelain insulators to AI tools—here is how to find a boring business idea.",
-    "format": "Carousel",
-    "score": "HIGH",
-    "reasoning": "Rides the viral organic interest behind the ultra-niche collector communities highlighted on HackerNews. Boring business breakdowns perform exceptionally well with entrepreneurial audiences seeking untapped market opportunities.",
-    "niche": "Entrepreneurship"
+    "title": "Why every AI went down yesterday",
+    "hook": "Did you notice? OpenAI, Claude, and Grok all died at once.",
+    "format": "Reel",
+    "score": "MEDIUM",
+    "reasoning": "Strong trend signal (535 comments), but the creator has already posted 'The truth about AI uptime'. This is ranked lower to avoid repeating the same narrative.",
+    "niche": "AI"
   }
 ]

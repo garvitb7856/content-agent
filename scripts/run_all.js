@@ -19,7 +19,7 @@ function run(label, command) {
     const data = JSON.parse(fs.readFileSync('dashboard/data/data.json', 'utf8'));
     const fetchedAt = new Date(data.fetched_at);
     const hoursSince = (Date.now() - fetchedAt) / (1000 * 60 * 60);
-    if (hoursSince < 20) {
+    if (hoursSince < 6) {
       console.log(`\n⏭ Skipping Apify fetch — data already fresh (fetched ${Math.round(hoursSince)}h ago)`);
     } else {
       run('1. Fetch Apify Data', 'node scripts/fetch_data.js');
