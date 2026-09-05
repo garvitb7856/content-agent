@@ -154,10 +154,25 @@ INSTAGRAM TREND SIGNALS (RIGHT NOW in your niche):
 ${igTrends.topHookPatterns?.map(h=>`  "${h.hook}" — @${h.username} (${h.likes} likes)`).join('\n') || 'None'}
 `;
 
+  const archivePath = path.join(__dirname, '../second_brain/performance_archive.json');
+  const archive = fs.existsSync(archivePath) ? JSON.parse(fs.readFileSync(archivePath, 'utf8')) : [];
+  const topPerformers = Array.isArray(archive)
+    ? [...archive].sort((a,b) => (b.finalLikes||0) - (a.finalLikes||0)).slice(0, 3)
+    : [];
+  
+  const performanceContext = topPerformers.length > 0 ? `
+YOUR BEST PERFORMING POSTS (learn from these):
+${topPerformers.map(p => `- "${p.hookText}" → ${p.finalLikes} likes, ${p.finalComments} comments (${p.engagementRate}% eng) ${p.url}`).join('\n')}
+Best formats for your account: ${patterns.bestFormats?.join(' > ') || 'not enough data yet'}
+Best topics for your audience: ${patterns.bestTopics?.join(', ') || 'not enough data yet'}
+` : '';
+
   // ── AGENT 1: IDEATOR — 50 ideas ──────────────────────────────────────────
   console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
   const ideatorRaw = await gemini(`
 You are a viral content strategist for @${myHandle} (${myFollowers} followers, Indian AI/automation/entrepreneurship creator).
+
+${performanceContext}
 
 These hooks have performed best for @${myHandle} in the past:
 ${topHooks}

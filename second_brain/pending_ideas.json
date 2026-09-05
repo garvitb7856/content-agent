@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "rank": 1,
+    "title": "GPT-6 Astra is finally here",
+    "hook": "Stop everything, GPT-6 Astra just dropped and it changes everything.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Backed by the massive #1 HackerNews trend on GPT-6 Astra with over 2,100 points and 1,900 comments. The creator has not covered this breaking model release yet, providing an immediate first-mover viral advantage over competitors.",
+    "niche": "AI"
+  },
+  {
+    "rank": 2,
+    "title": "OpenRouter vs Paid Subs",
+    "hook": "Why are you still paying for ChatGPT Plus when you can use OpenRouter?",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Directly supported by current HackerNews trend data covering GPT-6 Astra access on OpenRouter. The 'free vs paid' comparison framework has proven competitor engagement well over 500 likes without prior duplicate coverage on this account.",
+    "niche": "AI"
+  },
+  {
+    "rank": 3,
+    "title": "The truth about open-source AI",
+    "hook": "Corporate America is obsessed with open-source AI, and here is why you should be too.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Taps directly into the trending HackerNews discussion on Corporate America adopting open-source AI with 280+ upvotes. It offers an unexplored high-authority angle that out-positions standard consumer AI advice.",
+    "niche": "Entrepreneurship"
+  },
+  {
+    "rank": 4,
+    "title": "How to save 90% on Claude tokens",
+    "hook": "My token usage dropped by 90% after I installed this simple tool.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Directly references the trending Spotify Portal token-saving tool highlighted on HackerNews. Actionable cost-reduction content drives high save and share rates among tech builders while remaining completely unique from past posts.",
+    "niche": "AI"
+  },
+  {
+    "rank": 5,
+    "title": "AI for circuit board design",
+    "hook": "Can AI actually design circuit boards yet? Let's test it.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Backed by the active HackerNews debate evaluating AI capabilities in hardware and circuit board design. This novel hardware-AI testing angle sets the creator apart from saturated software-only content.",
+    "niche": "AI"
+  }
+]
