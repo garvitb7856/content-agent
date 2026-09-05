@@ -31,10 +31,11 @@ function run(label, command) {
   run('2. Fetch Internet Trends', 'node scripts/fetch_trends.js');
   run('3. Detect Posted',         'node scripts/detect_posted.js');
   run('4. Run AI Agents',         'node scripts/run_agents.js');
-  run('5. Plan Manager',          'node scripts/plan_manager.js');
-  run('6. Save History',          'node scripts/save_history.js');
-  run('7. Push to GitHub',        'git add -A && git commit -m "daily auto-update" --allow-empty && git push');
-  run('8. Send Telegram',         'node scripts/telegram_bot.js');
+  run('5. Update Second Brain',   'node scripts/update_second_brain.js');
+  run('6. Plan Manager',          'node scripts/plan_manager.js');
+  run('7. Save History',          'node scripts/save_history.js');
+  run('8. Push to GitHub',        'git add -A && git commit -m "daily auto-update" --allow-empty && git push');
+  run('9. Send Telegram',         'node scripts/telegram_bot.js');
 
   console.log('\n🎉 All done! Dashboard updated and Telegram sent.');
 })();

@@ -75,8 +75,14 @@ async function main() {
   const data=JSON.parse(fs.readFileSync(DATA_PATH,'utf8'));
   const myFollowers=(data.your_account||{}).followers||5845;
 
+  const patternsPath = path.join(ROOT, 'second_brain/patterns.json');
+  const patterns = fs.existsSync(patternsPath) ? JSON.parse(fs.readFileSync(patternsPath, 'utf8')) : { bestFormats: [] };
+  const bestFormats = (patterns.bestFormats && patterns.bestFormats.length) ? patterns.bestFormats.join(', ') : 'Reels';
+
   const script = await gemini(`
 You are a viral Instagram Reel scriptwriter for @garvit.irl (${myFollowers} followers, AI/automation/entrepreneurship, Indian audience).
+
+Best performing formats for this account: ${bestFormats}
 
 SELECTED IDEA:
 Title: ${idea.title}

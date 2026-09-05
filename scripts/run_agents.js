@@ -110,6 +110,11 @@ async function main() {
   const postedTitles = (history.posted_topics||[]).map(t=>t.title);
   const engRate = myFollowers ? (((myAvgLikes+myAvgComments)/myFollowers)*100).toFixed(2) : '0.00';
 
+  const hookBank = fs.existsSync(path.join(__dirname, '../second_brain/hook_bank.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/hook_bank.json'), 'utf8')) : [];
+  const patterns = fs.existsSync(path.join(__dirname, '../second_brain/patterns.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/patterns.json'), 'utf8')) : { bestFormats: [] };
+  const topHooks = hookBank.sort((a,b)=>(b.likes||0)-(a.likes||0)).slice(0,5).map(h=>h.hook).filter(Boolean).join('\n') || 'No top hooks logged yet.';
+  const bestFormats = (patterns.bestFormats && patterns.bestFormats.length) ? patterns.bestFormats.join(', ') : 'Reels';
+
   const dayNames=[];
   const today=new Date();
   for(let i=0;i<7;i++){const d=new Date(today);d.setDate(today.getDate()+i);dayNames.push(d.toLocaleDateString('en-GB',{weekday:'long',day:'2-digit',month:'short'}));}
@@ -118,6 +123,10 @@ async function main() {
   console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
   const ideatorRaw = await gemini(`
 You are a viral content strategist for @${myHandle} (${myFollowers} followers, Indian AI/automation/entrepreneurship creator).
+
+These hooks have performed best for @${myHandle} in the past:
+${topHooks}
+Use similar patterns.
 
 WHAT IS TRENDING RIGHT NOW ON THE INTERNET (real data, last 24h):
 ${trendSummary}
