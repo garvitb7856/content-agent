@@ -1,47 +1,47 @@
 [
   {
     "rank": 1,
-    "title": "How Spotify's Portal Tool Cuts Claude Token Bills by 90%",
-    "hook": "Nobody should pay full price for Claude Code, because Spotify just open-sourced a tool that cuts your token bill by 90%.",
+    "title": "GPT-6 Astra is officially here",
+    "hook": "Stop using GPT-4, GPT-6 Astra just dropped and it changes everything.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Directly leverages a high-interest technical trend from Hacker News with a proven 'cost-saving' hook formula. It is highly actionable and hasn't been covered in your recent content cycle.",
+    "reasoning": "Capitalizes on the massive 2167-point HackerNews trend. It is a fresh, high-urgency topic that hasn't been covered by the creator yet.",
     "niche": "AI"
   },
   {
     "rank": 2,
-    "title": "Access GPT-6 Astra on OpenRouter Right Now",
-    "hook": "I wish I knew this earlier, because GPT-6 Astra just went live on OpenRouter and you can test it without any waitlist.",
+    "title": "OpenAI’s secret message board",
+    "hook": "OpenAI just leaked their own internal roadmap on this secret message board.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Capitalizes on the #1 trending topic on Hacker News with massive search intent. The 'I wish I knew this earlier' hook is a proven performer for your audience.",
+    "reasoning": "Directly leverages the 1633-point HackerNews discovery trend. This 'insider leak' angle is a proven high-engagement hook for tech audiences.",
     "niche": "AI"
   },
   {
     "rank": 3,
-    "title": "OpenAI's Leaked Autonomous Agent Message Board Breakdown",
-    "hook": "OpenAI accidentally leaked their internal agent message board, and what these AI agents are discussing in private will shock you.",
-    "format": "Carousel",
+    "title": "The AI tool that cut my costs by 90%",
+    "hook": "I cut my AI token usage by 90% using this one simple trick.",
+    "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Taps into a massive 1600+ point HN trend that provides high-value 'insider' information. Carousels are perfect for breaking down complex leaked data for high retention.",
+    "reasoning": "References the specific 'Portal by Spotify' trend currently gaining traction. High utility for the creator's audience who are already focused on AI automation costs.",
     "niche": "AI"
   },
   {
     "rank": 4,
-    "title": "Stop Paying SaaS: How Corporate America is Moving to Open-Source AI",
-    "hook": "Stop buying expensive enterprise AI tools, because Fortune 500 companies are secretly ditching OpenAI for this free setup.",
+    "title": "Why corporate America is scared of AI",
+    "hook": "Corporate America is ditching big AI companies for open-source, here is why.",
     "format": "Reel",
     "score": "MEDIUM",
-    "reasoning": "Strong trend signal from HN, but the 'SaaS is dead' narrative is becoming slightly saturated. It remains a high-value topic for your audience's transition to open-source workflows.",
+    "reasoning": "Strong trend signal from HackerNews, but requires a nuanced take to avoid being generic. It builds on the creator's previous content regarding open-source margins.",
     "niche": "Entrepreneurship"
   },
   {
     "rank": 5,
-    "title": "AI Hardware Agent: Designing Circuit Boards with Zero Engineering",
-    "hook": "You can design custom hardware circuit boards in under 60 seconds using this brand-new free AI agent.",
+    "title": "Termy: The terminal assistant you need",
+    "hook": "Stop typing terminal commands, this new tool does it for you.",
     "format": "Reel",
     "score": "MEDIUM",
-    "reasoning": "Validates a specific HN trend, but the niche is narrower than software-only topics. It ranks lower because it requires a specific technical interest, though it offers high novelty.",
+    "reasoning": "Directly references the 'Show HN: TERMy' trend. It is a highly specific, actionable tool recommendation that fits the creator's 'AI builder' persona perfectly.",
     "niche": "AI"
   }
 ]

@@ -106,6 +106,14 @@ async function main() {
   const history = loadHistory();
   const {myHandle,myFollowers,myAvgLikes,myAvgComments,myPostsText,compSummary} = buildSummaries(data);
   const trendSummary = buildTrendSummary(trendsData);
+  const googleSection = trendsData.google?.length 
+    ? '\nGOOGLE TRENDS INDIA:\n' + trendsData.google.map(t=>`- ${t.title} (${t.traffic||'trending'})`).join('\n')
+    : '';
+  
+  const youtubeSection = trendsData.youtube?.length
+    ? '\nYOUTUBE TRENDING TECH INDIA:\n' + trendsData.youtube.map(t=>`- ${t.title}`).join('\n')
+    : '';
+
   const historyTitles = (history.generated_topics||[]).slice(-60).map(t=>t.title);
   const postedTitles = (history.posted_topics||[]).map(t=>t.title);
   const engRate = myFollowers ? (((myAvgLikes+myAvgComments)/myFollowers)*100).toFixed(2) : '0.00';
@@ -129,7 +137,7 @@ ${topHooks}
 Use similar patterns.
 
 WHAT IS TRENDING RIGHT NOW ON THE INTERNET (real data, last 24h):
-${trendSummary}
+${trendSummary}${googleSection}${youtubeSection}
 
 WHAT COMPETITORS ARE POSTING ON INSTAGRAM:
 ${compSummary}
