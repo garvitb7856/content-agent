@@ -57,8 +57,23 @@ async function gemini(prompt, label, temperature) {
 }
 
 function parseJSONArray(raw, label) {
-  try { const m=raw.match(/\[[\s\S]*\]/); if(m) return JSON.parse(m[0]); } catch(e) {}
-  console.log('⚠️ '+label+': JSON parse failed'); return [];
+  if (!raw || typeof raw !== 'string') return [];
+  try {
+    let cleaned = raw.replace(/```json/gi, '').replace(/```/g, '').trim();
+    const m = cleaned.match(/\[[\s\S]*\]/);
+    if (m) {
+      let jsonStr = m[0]
+        .replace(/,\s*([\]\}])/g, '$1');
+      return JSON.parse(jsonStr);
+    }
+  } catch(e) {
+    try {
+      const m = raw.match(/\[[\s\S]*\]/);
+      if (m) return eval('(' + m[0] + ')');
+    } catch(err) {}
+  }
+  console.log('⚠️ ' + label + ': JSON parse failed');
+  return [];
 }
 
 function buildSummaries(data) {
