@@ -1,186 +1,220 @@
 {
-  "fetched_at": "2026-09-05T07:17:51.910Z",
-  "total": 11,
+  "fetched_at": "2026-09-05T09:24:53.326Z",
+  "total": 12,
   "trends": [
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra",
-      "score": 2167,
-      "comments": 1988,
+      "score": 2172,
+      "comments": 1996,
       "url": "https://openai.com/index/gpt-6-astra/"
     },
     {
       "source": "HackerNews",
       "title": "Discovery of a new OpenAI agent message board",
-      "score": 1640,
-      "comments": 1284,
+      "score": 1700,
+      "comments": 1314,
       "url": "https://collusion.wiki/"
     },
     {
       "source": "HackerNews",
-      "title": "Corporate America is getting hooked on open-source AI",
-      "score": 288,
-      "comments": 263,
-      "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
-    },
-    {
-      "source": "HackerNews",
       "title": "“Next-token predictor” is the wrong mental model for LLMs",
-      "score": 104,
-      "comments": 235,
+      "score": 112,
+      "comments": 242,
       "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html"
     },
     {
       "source": "HackerNews",
       "title": "Can AI design circuit boards yet?",
-      "score": 234,
-      "comments": 142,
+      "score": 257,
+      "comments": 151,
       "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
     },
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra on OpenRouter",
-      "score": 194,
-      "comments": 108,
+      "score": 217,
+      "comments": 128,
       "url": "https://openrouter.ai/openai/gpt-6-astra"
     },
     {
       "source": "HackerNews",
       "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "score": 100,
-      "comments": 48,
+      "score": 129,
+      "comments": 58,
       "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
     },
     {
       "source": "HackerNews",
       "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-      "score": 115,
-      "comments": 31,
+      "score": 129,
+      "comments": 35,
       "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
     },
     {
       "source": "HackerNews",
       "title": "Government Rails Site Hit Hours After CVE Patch",
-      "score": 91,
-      "comments": 25,
+      "score": 94,
+      "comments": 29,
       "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/"
     },
     {
       "source": "HackerNews",
-      "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
-      "score": 15,
-      "comments": 13,
-      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "score": 58,
+      "comments": 37,
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems"
     },
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "score": 18,
-      "comments": 5,
+      "score": 40,
+      "comments": 22,
       "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
+      "score": 16,
+      "comments": 14,
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Claude Code skills for advanced context engineering techniques and patterns",
+      "score": 22,
+      "comments": 2,
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit"
     }
   ],
   "hackernews": [
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra",
-      "score": 2167,
-      "comments": 1988,
+      "score": 2172,
+      "comments": 1996,
       "url": "https://openai.com/index/gpt-6-astra/"
     },
     {
       "source": "HackerNews",
       "title": "Discovery of a new OpenAI agent message board",
-      "score": 1640,
-      "comments": 1284,
+      "score": 1700,
+      "comments": 1314,
       "url": "https://collusion.wiki/"
     },
     {
       "source": "HackerNews",
-      "title": "Corporate America is getting hooked on open-source AI",
-      "score": 288,
-      "comments": 263,
-      "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
-    },
-    {
-      "source": "HackerNews",
       "title": "“Next-token predictor” is the wrong mental model for LLMs",
-      "score": 104,
-      "comments": 235,
+      "score": 112,
+      "comments": 242,
       "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html"
     },
     {
       "source": "HackerNews",
       "title": "Can AI design circuit boards yet?",
-      "score": 234,
-      "comments": 142,
+      "score": 257,
+      "comments": 151,
       "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
     },
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra on OpenRouter",
-      "score": 194,
-      "comments": 108,
+      "score": 217,
+      "comments": 128,
       "url": "https://openrouter.ai/openai/gpt-6-astra"
     },
     {
       "source": "HackerNews",
       "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "score": 100,
-      "comments": 48,
+      "score": 129,
+      "comments": 58,
       "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
     },
     {
       "source": "HackerNews",
       "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-      "score": 115,
-      "comments": 31,
+      "score": 129,
+      "comments": 35,
       "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
     },
     {
       "source": "HackerNews",
       "title": "Government Rails Site Hit Hours After CVE Patch",
-      "score": 91,
-      "comments": 25,
+      "score": 94,
+      "comments": 29,
       "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/"
     },
     {
       "source": "HackerNews",
-      "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
-      "score": 15,
-      "comments": 13,
-      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "score": 58,
+      "comments": 37,
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems"
     },
     {
       "source": "HackerNews",
       "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "score": 18,
-      "comments": 5,
+      "score": 40,
+      "comments": 22,
       "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
+      "score": 16,
+      "comments": 14,
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Claude Code skills for advanced context engineering techniques and patterns",
+      "score": 22,
+      "comments": 2,
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit"
     }
   ],
   "reddit": [],
   "google": [],
   "youtube": [
     {
-      "title": "Top 12 Free AI Tools That Make My Life Easier (2026)",
-      "source": "YouTube Search"
+      "title": "AI Has Changed Completely: Here's What Matters in 2026",
+      "source": "YouTube AI Trending"
     },
     {
-      "title": "Draw Things: Free Local AI Image Generation",
-      "source": "YouTube Search"
+      "title": "Stop Switching",
+      "source": "YouTube AI Trending"
     },
     {
-      "title": "Replit Free Mode: Build Websites With AI",
-      "source": "YouTube Search"
+      "title": "AI News in 5 Mins: GPT-6 Astra",
+      "source": "YouTube AI Trending"
     },
     {
-      "title": "OpenRouter: Access Multiple AI Models",
-      "source": "YouTube Search"
+      "title": "GPT-6 Astra Revealed",
+      "source": "YouTube AI Trending"
     },
     {
-      "title": "Hey Clicky: AI Desktop Agent",
-      "source": "YouTube Search"
+      "title": "Did OpenAI actually build AGI? GPT-6 Astra first look",
+      "source": "YouTube AI Trending"
+    },
+    {
+      "title": "Introducing GPT-6 Astra: the most intelligent and aligned model in the world.",
+      "source": "YouTube AI Trending"
+    },
+    {
+      "title": "Claude AI Full Course in 2 Hours: Everything You Need to Know (2026)",
+      "source": "YouTube AI Trending"
+    },
+    {
+      "title": "Claude Course Introduction",
+      "source": "YouTube AI Trending"
+    },
+    {
+      "title": "Gemini Tutorial: How to Use the Google AI Ecosystem in 2026",
+      "source": "YouTube AI Trending"
+    },
+    {
+      "title": "The 4 Levels of the Gemini Ecosystem",
+      "source": "YouTube AI Trending"
     }
   ]
 }

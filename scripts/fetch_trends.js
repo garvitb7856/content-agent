@@ -78,31 +78,64 @@ async function fetchGoogleTrends() {
   }
 }
 
-// YOUTUBE TRENDING (no API key needed — uses RSS feed / YouTube Search)
 async function fetchYouTubeTrending() {
   try {
     const https = require('https');
-    // Search YouTube for recent AI videos instead of broken RSS
-    const query = encodeURIComponent('AI tools 2026 India');
-    const html = await new Promise((resolve, reject) => {
-      const options = {
-        hostname: 'www.youtube.com',
-        path: `/results?search_query=${query}&sp=CAISAhAB`,
-        headers: { 'User-Agent': 'Mozilla/5.0' }
-      };
-      https.get(options, res => {
-        let data = '';
-        res.on('data', chunk => data += chunk);
-        res.on('end', () => resolve(data));
-        res.on('error', reject);
+    
+    const searches = [
+      'artificial intelligence 2026',
+      'ChatGPT new update',
+      'OpenAI GPT',
+      'Claude AI Anthropic',
+      'Gemini Google AI',
+      'AI agents automation',
+      'large language model',
+      'AI startup',
+      'machine learning breakthrough',
+      'AI vs human'
+    ];
+
+    async function searchYouTube(query) {
+      const q = encodeURIComponent(query);
+      return new Promise((resolve) => {
+        const options = {
+          hostname: 'www.youtube.com',
+          path: `/results?search_query=${q}&sp=CAISAhAB`,
+          headers: { 'User-Agent': 'Mozilla/5.0' }
+        };
+        https.get(options, res => {
+          let data = '';
+          res.on('data', chunk => data += chunk);
+          res.on('end', () => {
+            const matches = [...data.matchAll(/"title":\{"runs":\[\{"text":"([^"]{10,80})"\}/g)]
+              .map(m => m[1])
+              .filter(t => !t.includes('\\u'))
+              .slice(0, 2); // top 2 per query
+            resolve(matches);
+          });
+          res.on('error', () => resolve([]));
+        });
       });
+    }
+
+    // Run all searches with 300ms delay between each to avoid rate limiting
+    const allTitles = [];
+    for (const query of searches) {
+      const results = await searchYouTube(query);
+      allTitles.push(...results);
+      await new Promise(r => setTimeout(r, 300));
+    }
+
+    // Deduplicate
+    const seen = new Set();
+    const unique = allTitles.filter(t => {
+      if (seen.has(t)) return false;
+      seen.add(t);
+      return true;
     });
-    // Extract video titles from YouTube search results
-    const matches = [...html.matchAll(/"title":\{"runs":\[\{"text":"([^"]{10,80})"\}/g)]
-      .map(m => m[1])
-      .filter(t => !t.includes('\\u'))
-      .slice(0, 5);
-    return matches.map(title => ({ title, source: 'YouTube Search' }));
+
+    return unique.slice(0, 15).map(title => ({ title, source: 'YouTube AI Trending' }));
+
   } catch(e) {
     console.log('YouTube fetch failed:', e.message);
     return [];

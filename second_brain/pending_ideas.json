@@ -1,47 +1,47 @@
 [
   {
     "rank": 1,
-    "title": "GPT-6 Astra is finally here",
-    "hook": "Stop everything, GPT-6 Astra just dropped and it changes everything.",
+    "title": "GPT-6 Astra is a cheat code for developers",
+    "hook": "Stop writing code manually, GPT-6 Astra just changed the game.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Backed by the massive #1 HackerNews trend on GPT-6 Astra with over 2,100 points and 1,900 comments. The creator has not covered this breaking model release yet, providing an immediate first-mover viral advantage over competitors.",
+    "reasoning": "Leverages the highest-scoring HackerNews trend (2167 points) and proven engagement from peer creators. It is a fresh topic that hits the core developer audience perfectly.",
     "niche": "AI"
   },
   {
     "rank": 2,
-    "title": "OpenRouter vs Paid Subs",
-    "hook": "Why are you still paying for ChatGPT Plus when you can use OpenRouter?",
+    "title": "The hidden message board for OpenAI developers",
+    "hook": "I found a secret board where OpenAI leaks their new agent features.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Directly supported by current HackerNews trend data covering GPT-6 Astra access on OpenRouter. The 'free vs paid' comparison framework has proven competitor engagement well over 500 likes without prior duplicate coverage on this account.",
+    "reasoning": "High-interest HackerNews discovery (1640 points) that offers exclusive, 'insider' value. This type of 'leak' content consistently drives high save and share rates.",
     "niche": "AI"
   },
   {
     "rank": 3,
-    "title": "The truth about open-source AI",
-    "hook": "Corporate America is obsessed with open-source AI, and here is why you should be too.",
+    "title": "How to use Spotify Portal to slash Claude token costs",
+    "hook": "You are wasting 90% of your money on Claude tokens.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Taps directly into the trending HackerNews discussion on Corporate America adopting open-source AI with 280+ upvotes. It offers an unexplored high-authority angle that out-positions standard consumer AI advice.",
-    "niche": "Entrepreneurship"
+    "reasoning": "Directly addresses a specific pain point (high costs) with a trending technical solution. It provides immediate, actionable value that is highly shareable.",
+    "niche": "AI"
   },
   {
     "rank": 4,
-    "title": "How to save 90% on Claude tokens",
-    "hook": "My token usage dropped by 90% after I installed this simple tool.",
+    "title": "Why corporate America is dumping proprietary AI",
+    "hook": "Big companies are running away from OpenAI, and here is why.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Directly references the trending Spotify Portal token-saving tool highlighted on HackerNews. Actionable cost-reduction content drives high save and share rates among tech builders while remaining completely unique from past posts.",
+    "score": "MEDIUM",
+    "reasoning": "Strong trend signal from HackerNews regarding open-source adoption. It is ranked medium because it is a broader industry analysis rather than a direct 'tool' hack, which usually performs slightly lower.",
     "niche": "AI"
   },
   {
     "rank": 5,
-    "title": "AI for circuit board design",
-    "hook": "Can AI actually design circuit boards yet? Let's test it.",
+    "title": "The truth about AI designing circuit boards",
+    "hook": "Can AI actually build hardware yet? I tested it.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Backed by the active HackerNews debate evaluating AI capabilities in hardware and circuit board design. This novel hardware-AI testing angle sets the creator apart from saturated software-only content.",
+    "score": "MEDIUM",
+    "reasoning": "Capitalizes on a unique, high-interest niche trend that differentiates the creator from standard software-only AI content. It is ranked medium due to the niche nature of hardware design.",
     "niche": "AI"
   }
 ]
