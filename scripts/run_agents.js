@@ -190,11 +190,22 @@ MY RECENT POSTS (do NOT repeat similar topics):
 ${myPostsText}
 
 YOUR TASK: Generate exactly 50 content ideas for Instagram. Each must be specific, not generic. Rooted in actual trends above.
-For each idea, if it is inspired by a specific competitor post, include the exact Instagram URL from the topHookPatterns or hotRightNow data provided. If inspired by a HackerNews/YouTube trend, leave sourceUrl as empty string.
 
-OUTPUT ONLY a valid JSON array of exactly 50 objects. No markdown. No explanation. No code fences. Start with [ and end with ].
-Format for each:
-{"title":"specific video title","hook":"first 3 seconds word for word","format":"Reel or Carousel","why":"one sentence citing which trend source and which competitor had success with this","sourceUrl":"Instagram URL of the specific post that inspired this idea, or empty string if inspired by a trend"}
+CRITICAL: Your response must be a valid JSON array only. No markdown, no explanation, no code blocks. 
+Start your response with [ and end with ].
+
+Each object in the array MUST have exactly these fields:
+{
+  "title": "catchy idea title",
+  "hook": "opening line for the reel",
+  "format": "Reel or Carousel",
+  "why": "why this will work for @garvit.irl",
+  "sourceUrl": "https://www.instagram.com/p/SHORTCODE/ (exact URL from the data provided that inspired this idea, or empty string if trend-based)"
+}
+
+For sourceUrl: scan the topHookPatterns and hotRightNow arrays in the input data. 
+When an idea copies or remixes a competitor post style, use that post's URL exactly as given in the data. 
+If no specific post inspired it, use empty string.
 
 Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.
 `, 'Ideator', 0.8);
