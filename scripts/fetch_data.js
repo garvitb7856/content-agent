@@ -64,6 +64,18 @@ async function runFetcher() {
     const { items } = await client.dataset(run.defaultDatasetId).listItems();
     console.log(`📦 Received ${items.length} raw posts.\n`);
 
+    // Log first item's keys to verify video URL field names
+    if (items.length > 0) {
+      console.log('🔍 Sample raw item keys:', Object.keys(items[0]).join(', '));
+      console.log('🔍 Sample videoUrl fields:', {
+        videoUrl: items[0].videoUrl,
+        video_url: items[0].video_url,
+        videoVersions: items[0].videoVersions?.[0]?.url,
+        video_versions: items[0].video_versions?.[0]?.url,
+        videoSrc: items[0].videoSrc
+      });
+    }
+
     // ── Sort post items by owner ──────────────────────────────────────────────
     const yourPosts = [];
     const compMap   = {};
@@ -89,8 +101,9 @@ async function runFetcher() {
         caption:  (typeof item.caption === 'string' ? item.caption : (item.caption?.text || item.captionText || item.text || '')).slice(0, 300),
         likes:    item.like_count || item.likeCount || 0,
         comments: item.comment_count || item.commentCount || 0,
-        type:     'Post',
+        type:     item.is_video || item.mediaType === 'Video' ? 'Video' : 'Post',
         url:      shortCode ? `https://www.instagram.com/p/${shortCode}/` : '',
+        videoUrl: item.videoUrl || item.video_url || item.videoVersions?.[0]?.url || item.video_versions?.[0]?.url || item.videoSrc || '',
         timestamp: item.taken_at ? new Date(item.taken_at * 1000).toISOString() : ''
       };
 

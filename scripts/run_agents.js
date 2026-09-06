@@ -12,6 +12,31 @@ const PERFORMANCE_BLOCK = agentContext.instruction_for_agents
   ? `\n\n═══════════════════════════════\nINTELLIGENCE BRIEFING — READ BEFORE WRITING:\n${agentContext.instruction_for_agents}\n═══════════════════════════════\n`
   : '';
 
+function loadRecentTranscripts(limitPerHandle = 3) {
+  const transcriptsDir = path.join(__dirname, '../second_brain/transcripts');
+  if (!fs.existsSync(transcriptsDir)) return '';
+  try {
+    const files = fs.readdirSync(transcriptsDir)
+      .filter(f => f.endsWith('.json') && f !== 'transcribed_ids.json')
+      .map(f => { try { return JSON.parse(fs.readFileSync(path.join(transcriptsDir, f), 'utf8')); } catch(e) { return null; } })
+      .filter(Boolean)
+      .filter(t => t.transcript && t.transcript !== 'NO_SPEECH')
+      .sort((a, b) => new Date(b.transcribedAt) - new Date(a.transcribedAt));
+    const byHandle = {};
+    for (const t of files) {
+      if (!byHandle[t.handle]) byHandle[t.handle] = [];
+      if (byHandle[t.handle].length < limitPerHandle) byHandle[t.handle].push(t);
+    }
+    let out = '\n\n--- REAL VIDEO TRANSCRIPTS (what creators actually said in their videos) ---\n';
+    for (const [handle, transcripts] of Object.entries(byHandle)) {
+      for (const t of transcripts) {
+        out += `\n@${handle} (${t.likes} likes):\nSpoken: "${t.transcript.substring(0, 400)}"\nPost: ${t.postUrl}\n`;
+      }
+    }
+    return out;
+  } catch (e) { return ''; }
+}
+
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const DATA_PATH = path.join(__dirname, '../dashboard/data/data.json');
 const OUT_PATH1 = path.join(__dirname, '../dashboard/data/agents_output.json');
@@ -176,6 +201,8 @@ Best formats for your account: ${patterns.bestFormats?.join(' > ') || 'not enoug
 Best topics for your audience: ${patterns.bestTopics?.join(', ') || 'not enough data yet'}
 ` : '';
 
+  const realTranscripts = loadRecentTranscripts(3);
+
   // ── AGENT 1: IDEATOR — 50 ideas ──────────────────────────────────────────
   console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
   const ideatorRaw = await gemini(`
@@ -197,6 +224,7 @@ ${compSummary}
 
 MY RECENT POSTS (do NOT repeat similar topics):
 ${myPostsText}
+${realTranscripts}
 
 YOUR TASK: Generate exactly 50 content ideas for Instagram. Each must be specific, not generic. Rooted in actual trends above.
 
@@ -243,6 +271,7 @@ ${JSON.stringify(postedTitles)}
 
 TREND DATA CONTEXT (same data Ideator used):
 ${trendSummary.substring(0,1500)}
+${realTranscripts}
 
 OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. No markdown. No explanation. Start with [ end with ].
 [{"rank":1,"title":"...","hook":"...","format":"Reel or Carousel","score":"HIGH or MEDIUM or LOW","reasoning":"2 sentences: what trend signal backs this, what competitor evidence exists, why you ranked it here","niche":"AI or Entrepreneurship or Self-growth","sourceUrl":"Instagram URL if present in evaluated idea, else empty string"}]
@@ -277,6 +306,7 @@ You are a data analyst for Instagram creator @${myHandle}.
 
 COMPETITOR DATA:
 ${compSummary}
+${realTranscripts}
 
 Write a complete analysis:
 ## COMPETITOR RANKING TABLE
@@ -308,6 +338,7 @@ Start your 7-day plan from TODAY which is ${todayFormatted}. Label DAY 1 as toda
 
 Create a 7-day content calendar:
 ${dayNames.map((d,i)=>'Day '+(i+1)+': '+d).join('\n')}
+${realTranscripts}
 
 For EACH day write exactly:
 ## DAY [n] — [Day Name]
@@ -341,4 +372,8 @@ Mix formats daily. Vary trigger words. Make every topic specific enough to film.
   console.log('\n✅ Done. '+top5.length+' ideas ready in pending_ideas.json');
   console.log('📱 Reply 1-5 on Telegram to generate a script for your chosen idea.');
 }
-main().catch(e => { console.error('❌ Fatal:', e); process.exit(1); });
+
+module.exports = { run: main };
+if (require.main === module) {
+  main().catch(e => { console.error('❌ Fatal:', e); process.exit(1); });
+}
