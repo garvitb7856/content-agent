@@ -47,6 +47,7 @@ main{max-width:1300px;margin:2rem auto;padding:0 1.25rem;display:flex;flex-direc
 .ct-r{background:rgba(168,85,247,.15);color:#a855f7}
 .ct-c{background:rgba(56,189,248,.15);color:#38bdf8}
 .ct-x{color:#334155;font-size:.58rem}
+.cal-hook{font-size:.52rem;color:#475569;margin-top:2px;font-style:italic;text-align:center;white-space:normal;overflow:visible;word-wrap:break-word}
 /* Table */
 .tw{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;overflow:auto}
 table{width:100%;border-collapse:collapse;font-size:.81rem}
@@ -446,7 +447,7 @@ function renderCal(){
       + formatTag
       + statusBadge
       + (item.post_time ? '<div style="font-size:.55rem;color:#6366f1;margin-top:2px">' + esc(item.post_time) + '</div>' : '')
-      + (item.hook ? '<div style="font-size:.52rem;color:#475569;margin-top:2px;font-style:italic;text-align:center;" title="' + esc(item.hook) + '">🎣 ' + esc(item.hook.substring(0, 30)) + '</div>' : '')
+      + (item.hook ? '<div class="cal-hook" title="' + esc(item.hook) + '">🎣 ' + esc(item.hook) + '</div>' : '')
       + '</div>';
   });
 
