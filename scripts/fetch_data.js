@@ -101,7 +101,7 @@ async function runFetcher() {
         caption:  (typeof item.caption === 'string' ? item.caption : (item.caption?.text || item.captionText || item.text || '')).slice(0, 300),
         likes:    item.like_count || item.likeCount || 0,
         comments: item.comment_count || item.commentCount || 0,
-        type:     item.is_video || item.mediaType === 'Video' ? 'Video' : 'Post',
+        type:     (item.media_type === 2 || item.media_type === '2' || !!item.video_url) ? 'Video' : 'Post',
         url:      shortCode ? `https://www.instagram.com/p/${shortCode}/` : '',
         videoUrl: item.videoUrl || item.video_url || item.videoVersions?.[0]?.url || item.video_versions?.[0]?.url || item.videoSrc || '',
         timestamp: item.taken_at ? new Date(item.taken_at * 1000).toISOString() : ''

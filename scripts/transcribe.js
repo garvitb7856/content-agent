@@ -101,13 +101,31 @@ async function transcribeWithGemini(filePath) {
   }
   if (state !== 'ACTIVE') throw new Error(`File never became ACTIVE (last state: ${state})`);
 
-  // Step 4: Transcribe
+  // Step 4: Transcribe with retry on 429/503
   console.log('  Transcribing...');
-  const res = await axios.post(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${GEMINI_TRANSCRIBE_KEY}`,
-    { contents: [{ parts: [{ file_data: { mime_type: mimeType, file_uri: fileUri } }, { text: prompt }] }], generationConfig: { maxOutputTokens: 4096, temperature: 0.1 } },
-    { timeout: 90000 }
-  );
+  let res, lastErr;
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      res = await axios.post(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${GEMINI_TRANSCRIBE_KEY}`,
+        { contents: [{ parts: [{ file_data: { mime_type: mimeType, file_uri: fileUri } }, { text: prompt }] }], generationConfig: { maxOutputTokens: 4096, temperature: 0.1 } },
+        { timeout: 90000 }
+      );
+      lastErr = null;
+      break;
+    } catch (e) {
+      lastErr = e;
+      const status = e.response?.status;
+      if (status === 429 || status === 503) {
+        const wait = attempt * 30000;
+        console.log(`  Rate limited (attempt ${attempt}/5) — waiting ${wait/1000}s before retry...`);
+        await new Promise(r => setTimeout(r, wait));
+      } else {
+        throw e;
+      }
+    }
+  }
+  if (lastErr) throw lastErr;
   const text = res.data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
   if (!text) throw new Error('Empty transcript response');
 
@@ -150,7 +168,7 @@ async function run() {
   }
 
   const newlyTranscribed = [];
-  const TEST_LIMIT = 5;
+  const TEST_LIMIT = 200; // process all new videos
   let transcribedCount = 0;
   let skipped = 0, noVideoUrl = 0;
 
@@ -204,8 +222,8 @@ async function run() {
         if (transcribedCount >= TEST_LIMIT) { console.log('\nTest limit of 5 reached.'); break; }
 
       } catch (err) {
-        console.log(`  FAILED: ${err.message} — skipping`);
-        transcribedSet.add(postId);
+        console.log(`  FAILED: ${err.message} — will retry next run`);
+        // DO NOT mark as done — video will be retried tomorrow
       } finally {
         if (fs.existsSync(tempFile)) { fs.unlinkSync(tempFile); console.log('  Temp file deleted.'); }
       }

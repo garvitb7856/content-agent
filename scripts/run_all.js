@@ -15,6 +15,7 @@ function run(label, command) {
 (async () => {
   console.log('🚀 Content Agent Daily Run — ' + new Date().toLocaleString('en-IN'));
 
+  let freshFetch = false;
   try {
     const data = JSON.parse(fs.readFileSync('dashboard/data/data.json', 'utf8'));
     const fetchedAt = new Date(data.fetched_at);
@@ -23,9 +24,16 @@ function run(label, command) {
       console.log(`\n⏭ Skipping Apify fetch — data already fresh (fetched ${Math.round(hoursSince)}h ago)`);
     } else {
       run('1. Fetch Apify Data', 'node scripts/fetch_data.js');
+      freshFetch = true;
     }
   } catch(e) {
     run('1. Fetch Apify Data', 'node scripts/fetch_data.js');
+    freshFetch = true;
+  }
+
+  // Transcription must run immediately after fetch — CDN video URLs expire within hours
+  if (freshFetch) {
+    run('1.5 Transcribe Videos', 'node scripts/transcribe.js');
   }
 
   run('2. Fetch Internet Trends', 'node scripts/fetch_trends.js');
