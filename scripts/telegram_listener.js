@@ -55,22 +55,44 @@ async function processUpdate(update) {
   const msg=update.message;
   if(!msg||String(msg.chat.id)!==String(CHAT_ID))return;
   const text=(msg.text||'').trim();
-  if(!/^[1-5]$/.test(text))return;
+  if(!/^(?:[1-9]|[1-4][0-9]|50)$/.test(text))return;
 
   const num=parseInt(text);
   console.log(new Date().toLocaleString('en-IN')+' — User selected idea #'+num);
 
   const pendingPath=path.join(ROOT,'second_brain/pending_ideas.json');
-  if(!fs.existsSync(pendingPath)){await sendMessage('⚠️ No pending ideas. Run the daily report first (node scripts/run_all.js).');return;}
+  const outPath1=path.join(ROOT,'dashboard/data/agents_output.json');
+  const outPath2=path.join(ROOT,'dashboard/agents_output.json');
 
-  let pending=[];
-  try{pending=JSON.parse(fs.readFileSync(pendingPath,'utf8'));}catch(e){await sendMessage('⚠️ Could not read pending ideas.');return;}
-  if(!pending.length){await sendMessage('⚠️ Ideas list is empty. Run the daily report first.');return;}
+  let selectedTitle = '';
+  if (num <= 5) {
+    if(!fs.existsSync(pendingPath)){await sendMessage('⚠️ No pending ideas. Run the daily report first (node scripts/run_all.js).');return;}
+    let pending=[];
+    try{pending=JSON.parse(fs.readFileSync(pendingPath,'utf8'));}catch(e){await sendMessage('⚠️ Could not read pending ideas.');return;}
+    if(!pending.length){await sendMessage('⚠️ Ideas list is empty. Run the daily report first.');return;}
+    const idea=pending[num-1];
+    if(!idea){await sendMessage('⚠️ Idea #'+num+' not found.');return;}
+    selectedTitle = idea.title;
+  } else {
+    let ideatorIdeas = [];
+    if (fs.existsSync(outPath1)) {
+      try {
+        const outData = JSON.parse(fs.readFileSync(outPath1, 'utf8'));
+        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
+      } catch(e) {}
+    }
+    if (!ideatorIdeas.length && fs.existsSync(outPath2)) {
+      try {
+        const outData = JSON.parse(fs.readFileSync(outPath2, 'utf8'));
+        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
+      } catch(e) {}
+    }
+    const idea = ideatorIdeas[num - 1];
+    if (!idea) { await sendMessage('⚠️ Idea #' + num + ' not found in today\'s full list.'); return; }
+    selectedTitle = idea.title;
+  }
 
-  const idea=pending[num-1];
-  if(!idea){await sendMessage('⚠️ Idea #'+num+' not found.');return;}
-
-  await sendMessage('⏳ Generating script for idea #'+num+':\n\n<b>'+idea.title+'</b>\n\nAbout 30 seconds...');
+  await sendMessage('⏳ Generating script for idea #'+num+':\n\n<b>'+selectedTitle+'</b>\n\nAbout 30 seconds...');
 
   try{
     execSync('node scripts/generate_script.js '+num,{cwd:ROOT,stdio:'inherit'});

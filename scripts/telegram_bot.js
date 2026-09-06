@@ -219,7 +219,7 @@ const parts = [
         if (idea.reasoning) lines.push('   <i>'+esc((idea.reasoning||'').substring(0,100))+'</i>');
         lines.push('');
       });
-      lines.push('<i>Reply with just the number (1–5) to generate a full script.</i>');
+      lines.push('💡 Reply 1-5 for top picks, or reply any number 6-50 to get a script for other ideas from today\'s full list.');
       return lines;
     } catch(e) { return ['Could not load ideas.']; }
   })(),

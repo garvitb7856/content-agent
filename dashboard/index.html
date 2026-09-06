@@ -446,7 +446,6 @@ function renderCal(){
       + formatTag
       + statusBadge
       + (item.post_time ? '<div style="font-size:.55rem;color:#6366f1;margin-top:2px">' + esc(item.post_time) + '</div>' : '')
-      + (item.topic ? '<div style="font-size:.55rem;color:#94a3b8;margin-top:3px;line-height:1.3;text-align:center;padding:0 2px" title="' + esc(item.topic) + '">' + esc(item.topic.substring(0, 40)) + (item.topic.length > 40 ? '…' : '') + '</div>' : '')
       + (item.hook ? '<div style="font-size:.52rem;color:#475569;margin-top:2px;font-style:italic;text-align:center;" title="' + esc(item.hook) + '">🎣 ' + esc(item.hook.substring(0, 30)) + '</div>' : '')
       + '</div>';
   });

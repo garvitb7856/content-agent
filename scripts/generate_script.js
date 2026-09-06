@@ -14,8 +14,8 @@ const OUT_PATH2 = path.join(ROOT,'dashboard/agents_output.json');
 const DATA_PATH = path.join(ROOT,'dashboard/data/data.json');
 
 const rawIndex = parseInt(process.argv[2]);
-if (isNaN(rawIndex)||rawIndex<1||rawIndex>5) {
-  console.error('❌ Usage: node scripts/generate_script.js <1-5>'); process.exit(1);
+if (isNaN(rawIndex) || rawIndex < 1 || rawIndex > 50) {
+  console.error('❌ Usage: node scripts/generate_script.js <1-50>'); process.exit(1);
 }
 const ideaIndex = rawIndex - 1;
 
@@ -66,11 +66,32 @@ function sendTelegram(text) {
 }
 
 async function main() {
-  const pending=JSON.parse(fs.readFileSync(PENDING_PATH,'utf8'));
-  const idea=pending[ideaIndex];
+  let idea = null;
+  if (rawIndex <= 5) {
+    const pending = JSON.parse(fs.readFileSync(PENDING_PATH, 'utf8'));
+    idea = pending[ideaIndex];
+  } else {
+    let ideatorIdeas = [];
+    if (fs.existsSync(OUT_PATH1)) {
+      try {
+        const outData = JSON.parse(fs.readFileSync(OUT_PATH1, 'utf8'));
+        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
+      } catch(e) {}
+    }
+    if (!ideatorIdeas.length && fs.existsSync(OUT_PATH2)) {
+      try {
+        const outData = JSON.parse(fs.readFileSync(OUT_PATH2, 'utf8'));
+        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
+      } catch(e) {}
+    }
+    idea = ideatorIdeas[ideaIndex];
+    if (idea && !idea.niche) idea.niche = 'AI & Growth';
+    if (idea && !idea.score) idea.score = 'MEDIUM';
+  }
+
   if (!idea) { console.error('❌ No idea at index '+ideaIndex); process.exit(1); }
 
-  console.log('🎣 Generating script for: "'+idea.title+'"');
+  console.log('🎣 Generating script for idea #'+rawIndex+': "'+idea.title+'"');
 
   const data=JSON.parse(fs.readFileSync(DATA_PATH,'utf8'));
   const myFollowers=(data.your_account||{}).followers||5845;
@@ -78,6 +99,10 @@ async function main() {
   const patternsPath = path.join(ROOT, 'second_brain/patterns.json');
   const patterns = fs.existsSync(patternsPath) ? JSON.parse(fs.readFileSync(patternsPath, 'utf8')) : { bestFormats: [] };
   const bestFormats = (patterns.bestFormats && patterns.bestFormats.length) ? patterns.bestFormats.join(', ') : 'Reels';
+
+  const sourceNote = idea.sourceUrl 
+    ? `\nThis idea was inspired by: ${idea.sourceUrl} — reference this style but make it original.`
+    : '';
 
   const script = await gemini(`
 You are a viral Instagram Reel scriptwriter for @garvit.irl (${myFollowers} followers, AI/automation/entrepreneurship, Indian audience).
@@ -88,8 +113,8 @@ SELECTED IDEA:
 Title: ${idea.title}
 Original Hook: ${idea.hook}
 Format: ${idea.format}
-Niche: ${idea.niche}
-Why it works: ${idea.reasoning}
+Niche: ${idea.niche || 'AI'}
+Why it works: ${idea.reasoning || idea.why || ''}${sourceNote}
 
 Generate a complete content package:
 
@@ -131,9 +156,13 @@ Two trigger word options with the exact script (e.g. "Comment LINK and I'll DM y
 
   // Send full script via Telegram
   const scoreColor={'HIGH':'🟢','MEDIUM':'🟡','LOW':'🔴'};
-  const badge=(scoreColor[idea.score]||'🔵')+' '+idea.score;
-  const preview=cleanForTelegram(script).substring(0,3800)+(script.length>3800?'\n\n<i>...view full script on dashboard</i>':'');
-  const msg='🎬 <b>Script Ready!</b>\n\n'+'💡 <b>'+idea.title+'</b>\n'+'🏅 Score: '+badge+'\n\n'+preview+'\n\n🌐 <a href="https://garvitb7856.github.io/content-agent/dashboard/">View on Dashboard</a>';
+  const badge=(scoreColor[idea.score]||'🔵')+' '+(idea.score || 'MEDIUM');
+  const preview=cleanForTelegram(script).substring(0,3500)+(script.length>3500?'\n\n<i>...view full script on dashboard</i>':'');
+  let msg='🎬 <b>Script Ready!</b>\n\n'+'💡 <b>'+idea.title+'</b>\n'+'🏅 Score: '+badge+'\n\n'+preview;
+  if (idea.sourceUrl) {
+    msg += '\n\n📎 Inspired by: '+idea.sourceUrl;
+  }
+  msg += '\n\n🌐 <a href="https://garvitb7856.github.io/content-agent/dashboard/">View on Dashboard</a>';
   await sendTelegram(msg);
   console.log('✅ Script sent via Telegram!');
 }

@@ -190,10 +190,11 @@ MY RECENT POSTS (do NOT repeat similar topics):
 ${myPostsText}
 
 YOUR TASK: Generate exactly 50 content ideas for Instagram. Each must be specific, not generic. Rooted in actual trends above.
+For each idea, if it is inspired by a specific competitor post, include the exact Instagram URL from the topHookPatterns or hotRightNow data provided. If inspired by a HackerNews/YouTube trend, leave sourceUrl as empty string.
 
 OUTPUT ONLY a valid JSON array of exactly 50 objects. No markdown. No explanation. No code fences. Start with [ and end with ].
 Format for each:
-{"title":"specific video title","hook":"first 3 seconds word for word","format":"Reel or Carousel","why":"one sentence citing which trend source and which competitor had success with this"}
+{"title":"specific video title","hook":"first 3 seconds word for word","format":"Reel or Carousel","why":"one sentence citing which trend source and which competitor had success with this","sourceUrl":"Instagram URL of the specific post that inspired this idea, or empty string if inspired by a trend"}
 
 Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.
 `, 'Ideator', 0.8);
@@ -224,7 +225,7 @@ TREND DATA CONTEXT (same data Ideator used):
 ${trendSummary.substring(0,1500)}
 
 OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. No markdown. No explanation. Start with [ end with ].
-[{"rank":1,"title":"...","hook":"...","format":"Reel or Carousel","score":"HIGH or MEDIUM or LOW","reasoning":"2 sentences: what trend signal backs this, what competitor evidence exists, why you ranked it here","niche":"AI or Entrepreneurship or Self-growth"}]
+[{"rank":1,"title":"...","hook":"...","format":"Reel or Carousel","score":"HIGH or MEDIUM or LOW","reasoning":"2 sentences: what trend signal backs this, what competitor evidence exists, why you ranked it here","niche":"AI or Entrepreneurship or Self-growth","sourceUrl":"Instagram URL if present in evaluated idea, else empty string"}]
 `, 'Scout', 0.3);
 
   const top5 = parseJSONArray(scoutRaw, 'Scout');
