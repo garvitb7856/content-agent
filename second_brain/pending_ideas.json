@@ -1,47 +1,47 @@
 [
   {
     "rank": 1,
-    "title": "GPT-6 Astra is a cheat code for developers",
-    "hook": "Stop writing code manually, GPT-6 Astra just changed the game.",
+    "title": "GPT-6 Astra is here and it changes everything",
+    "hook": "Nobody is talking about GPT-6 Astra, but it just changed the game for everyone.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Leverages the highest-scoring HackerNews trend (2167 points) and proven engagement from peer creators. It is a fresh topic that hits the core developer audience perfectly.",
+    "reasoning": "This directly capitalizes on the number one trending HackerNews topic with over 2,170 points and 1,900 comments. The creator has not covered this brand-new model yet, giving it massive breakout potential.",
     "niche": "AI"
   },
   {
     "rank": 2,
-    "title": "The hidden message board for OpenAI developers",
-    "hook": "I found a secret board where OpenAI leaks their new agent features.",
+    "title": "Why GPT-6 Astra beats Claude for coding",
+    "hook": "I tested GPT-6 Astra against Claude, and the results are shocking.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "High-interest HackerNews discovery (1640 points) that offers exclusive, 'insider' value. This type of 'leak' content consistently drives high save and share rates.",
+    "reasoning": "Backed by active HackerNews technical discussions comparing GPT-6 Astra against Claude Code token usage and performance. Comparative model showdowns consistently drive viral comment debate and high retention.",
     "niche": "AI"
   },
   {
     "rank": 3,
-    "title": "How to use Spotify Portal to slash Claude token costs",
-    "hook": "You are wasting 90% of your money on Claude tokens.",
+    "title": "How to automate your freelance business with AI agents",
+    "hook": "You are working too hard. I built an AI agent that does my client work for me.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Directly addresses a specific pain point (high costs) with a trending technical solution. It provides immediate, actionable value that is highly shareable.",
+    "reasoning": "Rides the massive trend around OpenAI agent systems and autonomous workflows dominating tech discourse. Backed by proven 500+ like benchmarks from creators like @favourite.engineer with a fresh freelance angle.",
     "niche": "AI"
   },
   {
     "rank": 4,
-    "title": "Why corporate America is dumping proprietary AI",
-    "hook": "Big companies are running away from OpenAI, and here is why.",
+    "title": "Claude Code vs ChatGPT: Which is better?",
+    "hook": "Everyone is arguing about Claude vs ChatGPT, but here is the real answer.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Strong trend signal from HackerNews regarding open-source adoption. It is ranked medium because it is a broader industry analysis rather than a direct 'tool' hack, which usually performs slightly lower.",
+    "score": "HIGH",
+    "reasoning": "Ties into current HackerNews trends around Claude Code context engineering patterns and token optimization. Head-to-head AI tool comparisons are validated engagement drivers across top creators like @nivedan.ai.",
     "niche": "AI"
   },
   {
     "rank": 5,
-    "title": "The truth about AI designing circuit boards",
-    "hook": "Can AI actually build hardware yet? I tested it.",
+    "title": "Turn your WhatsApp into an AI assistant",
+    "hook": "Did you know you can talk to an AI directly inside your WhatsApp?",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Capitalizes on a unique, high-interest niche trend that differentiates the creator from standard software-only AI content. It is ranked medium due to the niche nature of hardware design.",
+    "score": "HIGH",
+    "reasoning": "Aligns with surging consumer interest in accessible, everyday AI agents and terminal/chat integrations. Practical utility hooks have proven competitor proof exceeding 500+ saves via @garvit.irl.",
     "niche": "AI"
   }
 ]
