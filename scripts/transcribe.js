@@ -106,8 +106,9 @@ async function transcribeWithGemini(filePath) {
   let res, lastErr;
   for (let attempt = 1; attempt <= 5; attempt++) {
     try {
+      const apiKey = attempt <= 3 ? GEMINI_TRANSCRIBE_KEY : (process.env.GEMINI_API_KEY || GEMINI_TRANSCRIBE_KEY);
       res = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${GEMINI_TRANSCRIBE_KEY}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${apiKey}`,
         { contents: [{ parts: [{ file_data: { mime_type: mimeType, file_uri: fileUri } }, { text: prompt }] }], generationConfig: { maxOutputTokens: 4096, temperature: 0.1 } },
         { timeout: 90000 }
       );
@@ -218,6 +219,7 @@ async function run() {
 
         newlyTranscribed.push({ handle, postId, postUrl: `https://www.instagram.com/p/${shortCode}/`, transcriptPreview: transcript === 'NO_SPEECH' ? 'No speech' : transcript.substring(0, 80) });
         transcribedSet.add(postId);
+        saveJSON(TRANSCRIBED_IDS_FILE, [...transcribedSet]);
         transcribedCount++;
         if (transcribedCount >= TEST_LIMIT) { console.log('\nTest limit of 5 reached.'); break; }
 
