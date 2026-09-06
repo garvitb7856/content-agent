@@ -3,6 +3,15 @@ const path = require('path');
 const https = require('https');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
+let agentContext = { instruction_for_agents: '' };
+try {
+  agentContext = JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/agent_context.json'), 'utf8'));
+} catch(e) {}
+
+const PERFORMANCE_BLOCK = agentContext.instruction_for_agents
+  ? `\n\n═══════════════════════════════\nINTELLIGENCE BRIEFING — READ BEFORE WRITING:\n${agentContext.instruction_for_agents}\n═══════════════════════════════\n`
+  : '';
+
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const DATA_PATH = path.join(__dirname, '../dashboard/data/data.json');
 const OUT_PATH1 = path.join(__dirname, '../dashboard/data/agents_output.json');
@@ -207,7 +216,7 @@ For sourceUrl: scan the topHookPatterns and hotRightNow arrays in the input data
 When an idea copies or remixes a competitor post style, use that post's URL exactly as given in the data. 
 If no specific post inspired it, use empty string.
 
-Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.
+Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.${PERFORMANCE_BLOCK}
 `, 'Ideator', 0.8);
 
   const ideas50 = parseJSONArray(ideatorRaw, 'Ideator');
