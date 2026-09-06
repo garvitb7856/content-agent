@@ -31,6 +31,9 @@ function run(label, command) {
   run('2. Fetch Internet Trends', 'node scripts/fetch_trends.js');
   run('2.5 Analyze IG Trends',   'node scripts/instagram_trends.js');
   run('2.6 Feedback Loop',       'node scripts/feedback_loop.js');
+  run('2.7 Update Hook Bank',     'node scripts/update_hook_bank.js');
+  run('2.8 Detect New Posts',     'node scripts/detect_new_posts.js');
+  run('2.9 Compute Patterns',     'node scripts/compute_patterns.js');
   run('3. Detect Posted',         'node scripts/detect_posted.js');
   run('4. Run AI Agents',         'node scripts/run_agents.js');
   run('5. Update Second Brain',   'node scripts/update_second_brain.js');

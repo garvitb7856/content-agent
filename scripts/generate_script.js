@@ -97,8 +97,25 @@ async function main() {
   const myFollowers=(data.your_account||{}).followers||5845;
 
   const patternsPath = path.join(ROOT, 'second_brain/patterns.json');
-  const patterns = fs.existsSync(patternsPath) ? JSON.parse(fs.readFileSync(patternsPath, 'utf8')) : { bestFormats: [] };
-  const bestFormats = (patterns.bestFormats && patterns.bestFormats.length) ? patterns.bestFormats.join(', ') : 'Reels';
+  const patterns = fs.existsSync(patternsPath) ? JSON.parse(fs.readFileSync(patternsPath, 'utf8')) : {};
+  const patternInsight = patterns.summary || "Not enough data yet. Need at least 5 posts with 48h performance data.";
+
+  const hookBankPath = path.join(ROOT, 'second_brain/hook_bank.json');
+  let topHooksStr = "";
+  if (fs.existsSync(hookBankPath)) {
+    try {
+      const bankRaw = JSON.parse(fs.readFileSync(hookBankPath, 'utf8'));
+      const hooksArr = Array.isArray(bankRaw) ? bankRaw : (bankRaw.hooks || []);
+      topHooksStr = hooksArr
+        .slice()
+        .sort((a,b) => (b.likes||0) - (a.likes||0))
+        .slice(0, 3)
+        .map(h => `"${h.text}" (${h.type || 'hook'}, ${h.likes || 0} likes)`)
+        .join('\n');
+    } catch(e) {}
+  }
+
+  const bestFormats = (patterns.best_formats && patterns.best_formats.length) ? patterns.best_formats.map(f=>f.format).join(', ') : 'Reels';
 
   const sourceNote = idea.sourceUrl 
     ? `\nThis idea was inspired by: ${idea.sourceUrl} — reference this style but make it original.`
@@ -106,6 +123,14 @@ async function main() {
 
   const script = await gemini(`
 You are a viral Instagram Reel scriptwriter for @garvit.irl (${myFollowers} followers, AI/automation/entrepreneurship, Indian audience).
+
+PERFORMANCE DATA FOR @garvit.irl:
+${patternInsight}
+
+TOP PERFORMING HOOKS FROM YOUR NICHE (use these as style reference):
+${topHooksStr || "No hook data yet — use best judgment."}
+
+Write the script using the best performing hook type above if data is available.
 
 Best performing formats for this account: ${bestFormats}
 
@@ -135,6 +160,37 @@ ${idea.format==='Carousel'?
 ## CTA OPTIONS
 Two trigger word options with the exact script (e.g. "Comment LINK and I'll DM you...")
 `);
+
+  // Save to script_library.json
+  const scriptLibraryPath = path.join(ROOT, 'second_brain/script_library.json');
+  let scriptLibData = { scripts: [] };
+  if (fs.existsSync(scriptLibraryPath)) {
+    try {
+      const rawLib = JSON.parse(fs.readFileSync(scriptLibraryPath, 'utf8'));
+      if (Array.isArray(rawLib)) { scriptLibData = { scripts: rawLib }; }
+      else if (rawLib && Array.isArray(rawLib.scripts)) { scriptLibData = rawLib; }
+    } catch(e) {}
+  }
+
+  let captionExtract = "";
+  const capMatch = script.match(/## CAPTION\n([\s\S]*?)(?=\n##|$)/i);
+  if (capMatch) captionExtract = capMatch[1].trim();
+
+  const scriptEntry = {
+    id: Date.now().toString(),
+    generated_at: new Date().toISOString(),
+    idea_title: idea.title,
+    hook: idea.hook,
+    hook_type: "unknown",
+    format: idea.format,
+    full_script: script,
+    caption: captionExtract,
+    hashtags: [],
+    source_url: idea.sourceUrl || "",
+    posted: false
+  };
+  scriptLibData.scripts.push(scriptEntry);
+  fs.writeFileSync(scriptLibraryPath, JSON.stringify(scriptLibData, null, 2));
 
   // Update agents_output.json with the script
   [OUT_PATH1, OUT_PATH2].forEach(p => {

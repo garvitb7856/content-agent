@@ -1,43 +1,8 @@
 {
-  "bestFormats": [
-    "reel"
-  ],
-  "bestPostTimes": [],
-  "bestHooks": [
-    {
-      "hook": "Nobody should buy Claude subscriptions, because I have found a way to use it for",
-      "likes": 3918,
-      "url": "https://www.instagram.com/p/DbVirrOyodk/"
-    },
-    {
-      "hook": "I wish i knew this earlier because you can Google’s AI subscriptions for compele",
-      "likes": 154,
-      "url": "https://www.instagram.com/p/Dbf75DCShsU/"
-    },
-    {
-      "hook": "You can use Claude, even after you hit your credit limits. Have installed an app",
-      "likes": 103,
-      "url": "https://www.instagram.com/p/Dbx5u5xywA1/"
-    },
-    {
-      "hook": "I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and",
-      "likes": 64,
-      "url": "https://www.instagram.com/p/DcbDXDZyrSZ/"
-    },
-    {
-      "hook": "That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurshi",
-      "likes": 64,
-      "url": "https://www.instagram.com/p/DZNHJJ0S8Pd/"
-    }
-  ],
-  "avgEngByFormat": {
-    "reel": "38.86%"
-  },
-  "bestTopics": [
-    "ai",
-    "free",
-    "claude",
-    "chatgpt",
-    "tool"
-  ]
+  "updated_at": "2026-09-06T10:24:18.440Z",
+  "total_posts_analyzed": 0,
+  "best_hook_types": [],
+  "best_formats": [],
+  "top_performing_hooks": [],
+  "summary": "Not enough data yet. Need at least 5 posts with 48h performance data."
 }
