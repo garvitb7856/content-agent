@@ -363,6 +363,7 @@ function renderAgents(){
 
 /* ── Render Calendar ── */
 function renderCal(){
+  console.log("PLANNER RAW:", AI && AI.planner ? AI.planner.substring(0, 500) : "no data");
   var html="";
   var days = [];
   
@@ -381,7 +382,7 @@ function renderCal(){
       var topicMatch = block.match(/\*\*Topic:\*\*\s*([^\n]+)/i);
       var fmtMatch = block.match(/\*\*Format:\*\*\s*([^\n]+)/i);
       var timeMatch = block.match(/\*\*Post Time:\*\*\s*([^\n]+)/i);
-      var hookMatch = block.match(/\*\*Hook:\*\*\s*([^\n]+)/i);
+      var hookMatch = block.match(/\*\*Hook:\*\*\s*([\s\S]*?)(?=\n\*\*|\n[A-Z]|$)/i) || block.match(/\*\*Hook[:\s]+([\s\S]*?)(?=\n\*\*|\n[A-Z]|$)/i) || block.match(/Opening Line[:\s]+([\s\S]*?)(?=\n\*\*|\n[A-Z]|$)/i);
       days.push({
         day: dayIdx,
         date: d.toISOString().split('T')[0],
