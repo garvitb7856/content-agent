@@ -163,12 +163,14 @@ function renderJSONIdeas(raw, label){
       var color=sc[s]||'#6366f1';
       var bg=sb[s]||'rgba(99,102,241,.1)';
       var badge=idea.score?'<span style="background:'+bg+';color:'+color+';font-size:.62rem;font-weight:700;padding:.15rem .4rem;border-radius:4px;margin-left:.4rem;">'+idea.score+'</span>':'';
+      var srcLink=idea.sourceUrl ? '<a href="'+esc(idea.sourceUrl)+'" target="_blank" rel="noopener" style="font-size:.6rem;color:#818cf8;text-decoration:none;border-bottom:1px solid rgba(129,140,248,.3);margin-top:4px;display:inline-block;">🔗 View source reel ↗</a>' : '';
       return '<div style="background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.06);border-left:3px solid '+color+';border-radius:8px;padding:.85rem;margin-bottom:.6rem;">'+
         '<div style="font-size:.84rem;font-weight:700;color:#f1f5f9;margin-bottom:.3rem;">'+(em[i]||((i+1)+'.'))+' '+esc(idea.title||'(no title)')+badge+'</div>'+
         (idea.hook?'<div style="font-size:.75rem;color:#a78bfa;margin-bottom:.3rem;">🎣 '+esc(idea.hook)+'</div>':'')+
         (idea.format?'<div style="font-size:.68rem;color:#64748b;">📐 '+esc(idea.format)+'</div>':'')+
         (idea.reasoning?'<div style="font-size:.72rem;color:#64748b;margin-top:.25rem;line-height:1.5;">'+esc(idea.reasoning)+'</div>':'')+
         (idea.why?'<div style="font-size:.72rem;color:#64748b;margin-top:.25rem;line-height:1.5;">'+esc(idea.why)+'</div>':'')+
+        srcLink+
       '</div>';
     }).join('');
 }
@@ -182,13 +184,17 @@ function renderIdeas(ideas){
   var em=['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
   el.innerHTML=ideas.map(function(idea,i){
     var s=idea.score||'MEDIUM';
+    var srcLink=idea.sourceUrl ? '<a href="'+esc(idea.sourceUrl)+'" target="_blank" rel="noopener" style="font-size:.6rem;color:#818cf8;text-decoration:none;border-bottom:1px solid rgba(129,140,248,.3);margin-top:4px;display:inline-block;">🔗 View source reel ↗</a>' : '';
     return '<div class="idea-card" style="border-left-color:'+sc[s]+';">'+
       '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;margin-bottom:.35rem;">'+
         '<span class="idea-title">'+em[i]+' '+esc(idea.title||'')+'</span>'+
         '<span class="idea-score" style="background:'+sb[s]+';color:'+sc[s]+';">'+s+'</span>'+
       '</div>'+
-      '<div class="idea-reason">'+esc(idea.reasoning||'')+'</div>'+
-      '<div class="idea-cta">Reply <strong>'+(i+1)+'</strong> on Telegram → get full script</div>'+
+      (idea.hook?'<div class="idea-hook" style="font-size:.75rem;color:#a78bfa;margin-bottom:.3rem;">🎙 '+esc(idea.hook)+'</div>':'')+
+      (idea.format?'<span class="idea-format" style="font-size:.65rem;color:#64748b;">📐 '+esc(idea.format)+'</span>':'')+
+      '<div class="idea-reason">'+esc(idea.reasoning||idea.why||'')+'</div>'+
+      srcLink+
+      '<div class="idea-cta" style="margin-top:.4rem;">Reply <strong>'+(i+1)+'</strong> on Telegram → get full script</div>'+
     '</div>';
   }).join('');
 }
@@ -382,7 +388,7 @@ function renderCal(){
       var topicMatch = block.match(/\*\*Topic:\*\*\s*([^\n]+)/i);
       var fmtMatch = block.match(/\*\*Format:\*\*\s*([^\n]+)/i);
       var timeMatch = block.match(/\*\*Post Time:\*\*\s*([^\n]+)/i);
-      var hookMatch = block.match(/\*\*Hook:\*\*\s*([\s\S]*?)(?=\n\*\*|\n[A-Z]|$)/i) || block.match(/\*\*Hook[:\s]+([\s\S]*?)(?=\n\*\*|\n[A-Z]|$)/i) || block.match(/Opening Line[:\s]+([\s\S]*?)(?=\n\*\*|\n[A-Z]|$)/i);
+      var hookMatch = block.match(/\*\*Hook:\*\*\s*([^\n]+)/i) || block.match(/Hook[:\s]+([^\n]+)/i) || block.match(/Opening Line[:\s]+([^\n]+)/i);
       days.push({
         day: dayIdx,
         date: d.toISOString().split('T')[0],
