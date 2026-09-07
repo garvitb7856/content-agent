@@ -169,7 +169,7 @@ async function run() {
   }
 
   const newlyTranscribed = [];
-  const TEST_LIMIT = 200; // process all new videos
+  const TEST_LIMIT = 2; // testing only — change back to 200 when confirmed working
   let transcribedCount = 0;
   let skipped = 0, noVideoUrl = 0;
 
@@ -191,7 +191,19 @@ async function run() {
       try {
         process.stdout.write('  Downloading... ');
         await downloadVideo(videoUrl, tempFile);
-        console.log(`${(fs.statSync(tempFile).size / 1024 / 1024).toFixed(1)}MB`);
+        const fileSizeMB = fs.statSync(tempFile).size / 1024 / 1024;
+        console.log(`${fileSizeMB.toFixed(1)}MB`);
+        // Validate it's actually a video (MP4 magic bytes: 00 00 00 xx 66 74 79 70)
+        const buf = Buffer.alloc(12);
+        const fd = fs.openSync(tempFile, 'r');
+        fs.readSync(fd, buf, 0, 12, 0);
+        fs.closeSync(fd);
+        const isMp4 = buf.slice(4,8).toString('ascii') === 'ftyp';
+        if (!isMp4 || fileSizeMB < 0.5) {
+          fs.unlinkSync(tempFile);
+          console.log('  Expired/invalid URL — skipping (will retry after next fetch)');
+          continue; // don't mark as done, will retry next run
+        }
 
         const transcript = await transcribeWithGemini(tempFile);
         console.log(`  Done: "${transcript.substring(0, 60)}..."`);
