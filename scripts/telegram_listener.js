@@ -55,21 +55,26 @@ async function processUpdate(update) {
   const msg=update.message;
   if(!msg||String(msg.chat.id)!==String(CHAT_ID))return;
   const text=(msg.text||'').trim();
+
   const isNumber = /^(?:[1-9]|[1-4][0-9]|50)$/.test(text);
   const isCommand = text.startsWith('/');
   const isFreeForm = !isNumber && !isCommand && text.length >= 5;
+
   if (!isNumber && !isFreeForm) return;
 
+  const pendingPath=path.join(ROOT,'second_brain/pending_ideas.json');
+  const outPath1=path.join(ROOT,'dashboard/data/agents_output.json');
+  const outPath2=path.join(ROOT,'dashboard/agents_output.json');
+
   if (isFreeForm) {
-    // Free-form custom idea
     console.log(new Date().toLocaleString('en-IN')+' — Free-form idea: '+text);
-    await sendMessage('⏳ Generating script for your idea:\n\n<b>'+text+'</b>\n\nAbout 30 seconds...');
+    await sendMessage('⏳ Generating script for your custom idea:\n\n<b>'+text+'</b>\n\nAbout 30 seconds...');
     try {
-      const escaped = text.replace(/"/g, '\\"');
-      execSync('node scripts/generate_script.js --custom "'+escaped+'"', {cwd:ROOT, stdio:'inherit'});
+      const escaped = text.replace(/\\/g,'\\\\').replace(/"/g,'\\"');
+      execSync('node scripts/generate_script.js --custom "'+escaped+'"',{cwd:ROOT,stdio:'inherit'});
     } catch(e) {
-      console.error('❌ generate_script failed:', e.message);
-      await sendMessage('❌ Script generation failed for custom idea.');
+      console.error('❌ generate_script failed:',e.message);
+      await sendMessage('❌ Script generation failed for custom idea:\n<code>'+e.message+'</code>');
     }
     return;
   }
@@ -77,13 +82,9 @@ async function processUpdate(update) {
   const num=parseInt(text);
   console.log(new Date().toLocaleString('en-IN')+' — User selected idea #'+num);
 
-  const pendingPath=path.join(ROOT,'second_brain/pending_ideas.json');
-  const outPath1=path.join(ROOT,'dashboard/data/agents_output.json');
-  const outPath2=path.join(ROOT,'dashboard/agents_output.json');
-
   let selectedTitle = '';
   if (num <= 5) {
-    if(!fs.existsSync(pendingPath)){await sendMessage('⚠️ No pending ideas. Run the daily report first (node scripts/run_all.js).');return;}
+    if(!fs.existsSync(pendingPath)){await sendMessage('⚠️ No pending ideas. Run the daily report first.');return;}
     let pending=[];
     try{pending=JSON.parse(fs.readFileSync(pendingPath,'utf8'));}catch(e){await sendMessage('⚠️ Could not read pending ideas.');return;}
     if(!pending.length){await sendMessage('⚠️ Ideas list is empty. Run the daily report first.');return;}
@@ -105,7 +106,7 @@ async function processUpdate(update) {
       } catch(e) {}
     }
     const idea = ideatorIdeas[num - 1];
-    if (!idea) { await sendMessage('⚠️ Idea #' + num + ' not found in today\'s full list.'); return; }
+    if (!idea) { await sendMessage('⚠️ Idea #'+num+' not found in today\'s full list.'); return; }
     selectedTitle = idea.title;
   }
 
@@ -115,13 +116,13 @@ async function processUpdate(update) {
     execSync('node scripts/generate_script.js '+num,{cwd:ROOT,stdio:'inherit'});
   }catch(e){
     console.error('❌ generate_script failed:',e.message);
-    await sendMessage('❌ Script generation failed. Run manually:\n<code>node scripts/generate_script.js '+num+'</code>');
+    await sendMessage('❌ Script generation failed.\n<code>node scripts/generate_script.js '+num+'</code>');
   }
 }
 
 async function listen() {
   console.log('🎧 Telegram Listener started — '+new Date().toLocaleString('en-IN'));
-  console.log('   Polling every ~30s for replies 1-5 from chat ID '+CHAT_ID);
+  console.log('   Polling every ~30s for replies 1-50 or custom ideas from chat ID '+CHAT_ID);
   while(true){
     try{
       const updates=await getUpdates(lastUpdateId+1);

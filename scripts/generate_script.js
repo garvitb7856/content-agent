@@ -17,7 +17,7 @@ const customFlag = process.argv.indexOf('--custom');
 const customIdeaText = customFlag !== -1 ? process.argv[customFlag + 1] : null;
 const rawIndex = customIdeaText ? null : parseInt(process.argv[2]);
 if (!customIdeaText && (isNaN(rawIndex) || rawIndex < 1 || rawIndex > 50)) {
-  console.error('❌ Usage: node scripts/generate_script.js <1-50>  OR  node scripts/generate_script.js --custom "your idea"'); process.exit(1);
+  console.error('❌ Usage: node scripts/generate_script.js <1-50>  OR  --custom "your idea"'); process.exit(1);
 }
 const ideaIndex = rawIndex ? rawIndex - 1 : -1;
 
