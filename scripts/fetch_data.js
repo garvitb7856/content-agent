@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
-const API_TOKEN  = process.env.APIFY_API_TOKEN;
+const API_TOKEN  = process.env.APIFY_API_TOKEN || process.env.APIFY_TOKEN;
 
 if (!API_TOKEN || API_TOKEN.includes('your_')) {
   console.error('❌ ERROR: APIFY_API_TOKEN is missing or invalid in .env file.');
