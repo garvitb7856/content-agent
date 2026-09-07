@@ -48,6 +48,7 @@ function run(label, command) {
   run('Notify Pattern Update',      'node scripts/notify_pattern_update.js');
 
   run('3. Detect Posted',         'node scripts/detect_posted.js');
+  run('3.5 Caption Diff',         'node scripts/caption_diff.js');
   run('4. Run AI Agents',         'node scripts/run_agents.js');
   run('5. Update Second Brain',   'node scripts/update_second_brain.js');
   run('6. Plan Manager',          'node scripts/plan_manager.js');
