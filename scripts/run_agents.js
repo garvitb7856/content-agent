@@ -191,6 +191,9 @@ async function callGemini(prompt, maxTokens = 8192) {
       const text = result.response.text();
       state.useCount++;
       console.log(`✓ done (${text.length} chars, used ${state.useCount}x today)`);
+      // Track which model served this call globally
+      if (!global.modelsUsed) global.modelsUsed = [];
+      global.modelsUsed.push(modelId);
       return text;
     } catch(e) {
       lastError = e;
@@ -506,6 +509,8 @@ Mix formats daily. Vary trigger words. Make every topic specific enough to film.
     hook_script: null,
     selected_idea: null
   };
+  output.models_used = global.modelsUsed || [];
+  output.primary_model = (global.modelsUsed || [])[0] || 'unknown';
   [OUT_PATH1, OUT_PATH2].forEach(p => {
     fs.mkdirSync(path.dirname(p),{recursive:true});
     fs.writeFileSync(p, JSON.stringify(output,null,2));

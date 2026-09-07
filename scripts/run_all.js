@@ -1,14 +1,47 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
+const path = require('path');
 
-function run(label, command) {
+const STATUS_PATH = path.join(__dirname, '../second_brain/pipeline_status.json');
+
+const status = {
+  run_started: new Date().toISOString(),
+  run_finished: null,
+  overall: 'running',
+  steps: {}
+};
+
+function saveStatus() {
+  try { fs.writeFileSync(STATUS_PATH, JSON.stringify(status, null, 2)); } catch(e) {}
+}
+
+function run(label, command, options = {}) {
   console.log(`\n▶ ${label}...`);
+  const stepKey = label.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+  status.steps[stepKey] = { status: 'running', startedAt: new Date().toISOString() };
+  saveStatus();
   try {
     execSync(command, { cwd: process.cwd(), stdio: 'inherit' });
+    status.steps[stepKey].status = 'success';
+    status.steps[stepKey].finishedAt = new Date().toISOString();
+    saveStatus();
     console.log(`✅ ${label} done.`);
+    return true;
   } catch (err) {
-    console.error(`❌ ${label} failed. Stopping.`);
-    process.exit(1);
+    status.steps[stepKey].status = 'failed';
+    status.steps[stepKey].error = err.message?.substring(0, 200) || 'unknown error';
+    status.steps[stepKey].finishedAt = new Date().toISOString();
+    saveStatus();
+    if (options.critical) {
+      console.error(`❌ ${label} FAILED (critical — stopping pipeline).`);
+      status.overall = 'failed';
+      status.run_finished = new Date().toISOString();
+      saveStatus();
+      process.exit(1);
+    } else {
+      console.error(`⚠️ ${label} FAILED (non-critical — continuing).`);
+      return false;
+    }
   }
 }
 
@@ -22,40 +55,54 @@ function run(label, command) {
     const hoursSince = (Date.now() - fetchedAt) / (1000 * 60 * 60);
     if (hoursSince < 6) {
       console.log(`\n⏭ Skipping Apify fetch — data already fresh (fetched ${Math.round(hoursSince)}h ago)`);
+      status.steps['apify_fetch'] = { status: 'skipped', reason: `data ${Math.round(hoursSince)}h old` };
+      saveStatus();
     } else {
-      run('1. Fetch Apify Data', 'node scripts/fetch_data.js');
-      freshFetch = true;
+      if (run('1. Fetch Apify Data', 'node scripts/fetch_data.js', { critical: true })) {
+        freshFetch = true;
+      }
     }
   } catch(e) {
-    run('1. Fetch Apify Data', 'node scripts/fetch_data.js');
-    freshFetch = true;
+    if (run('1. Fetch Apify Data', 'node scripts/fetch_data.js', { critical: true })) {
+      freshFetch = true;
+    }
   }
 
-  // Transcription must run immediately after fetch — CDN video URLs expire within hours
   if (freshFetch) {
     run('1.5 Transcribe Videos', 'node scripts/transcribe.js');
+  } else {
+    status.steps['transcribe'] = { status: 'skipped', reason: 'no fresh fetch' };
+    saveStatus();
   }
 
-  run('2. Fetch Internet Trends', 'node scripts/fetch_trends.js');
-  run('2.5 Analyze IG Trends',   'node scripts/instagram_trends.js');
-  run('2.6 Feedback Loop',       'node scripts/feedback_loop.js');
+  // Run trend fetch and instagram trends concurrently would require child_process.spawn
+  // For now run sequentially but non-critical
+  run('2. Fetch Internet Trends',    'node scripts/fetch_trends.js');
+  run('2.5 Analyze IG Trends',       'node scripts/instagram_trends.js');
+  run('2.6 Feedback Loop',           'node scripts/feedback_loop.js');
 
-  run('Update Hook Bank',           'node scripts/update_hook_bank.js');
-  run('Update Competitor Scripts',  'node scripts/update_competitor_scripts.js');
-  run('Fetch 48h Performance',      'node scripts/fetch_my_performance.js');
-  run('Detect New Posts',           'node scripts/detect_new_posts.js');
-  run('Compute Patterns',           'node scripts/compute_patterns.js');
-  run('Notify Pattern Update',      'node scripts/notify_pattern_update.js');
+  run('Update Hook Bank',            'node scripts/update_hook_bank.js');
+  run('Update Competitor Scripts',   'node scripts/update_competitor_scripts.js');
+  run('Fetch 48h Performance',       'node scripts/fetch_my_performance.js');
+  run('Detect New Posts',            'node scripts/detect_new_posts.js');
+  run('Compute Patterns',            'node scripts/compute_patterns.js');
+  run('Notify Pattern Update',       'node scripts/notify_pattern_update.js');
 
-  run('3. Detect Posted',         'node scripts/detect_posted.js');
-  run('3.5 Caption Diff',         'node scripts/caption_diff.js');
-  run('3.8 Refresh Topic Clusters', 'node scripts/refresh_clusters.js');
-  run('4. Run AI Agents',         'node scripts/run_agents.js');
-  run('5. Update Second Brain',   'node scripts/update_second_brain.js');
-  run('6. Plan Manager',          'node scripts/plan_manager.js');
-  run('7. Save History',          'node scripts/save_history.js');
-  run('8. Push to GitHub',        'git add -A && git commit -m "daily auto-update" --allow-empty && git push');
-  run('9. Send Telegram',         'node scripts/telegram_bot.js');
+  run('3. Detect Posted',            'node scripts/detect_posted.js');
+  run('3.5 Caption Diff',            'node scripts/caption_diff.js');
+  run('3.8 Refresh Topic Clusters',  'node scripts/refresh_clusters.js');
+  run('4. Run AI Agents',            'node scripts/run_agents.js', { critical: false });
+  run('5. Update Second Brain',      'node scripts/update_second_brain.js');
+  run('6. Plan Manager',             'node scripts/plan_manager.js');
+  run('7. Save History',             'node scripts/save_history.js');
+  run('8. Push to GitHub',           'git add -A && git commit -m "daily auto-update" --allow-empty && git push');
+  run('9. Send Telegram',            'node scripts/telegram_bot.js');
 
-  console.log('\n🎉 All done! Dashboard updated and Telegram sent.');
+  // Finalize status
+  const failed = Object.values(status.steps).filter(s => s.status === 'failed').map((s, i) => Object.keys(status.steps)[i]);
+  status.overall = failed.length === 0 ? 'success' : 'partial';
+  status.run_finished = new Date().toISOString();
+  saveStatus();
+
+  console.log('\n🎉 Pipeline complete. Status: ' + status.overall.toUpperCase());
 })();

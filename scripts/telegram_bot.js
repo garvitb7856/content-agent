@@ -102,6 +102,17 @@ async function run(transcribeResult = {}) {
     ai = JSON.parse(fs.readFileSync(ap, 'utf8'));
   } catch(e) {}
 
+  let pipelineStatus = null;
+  try {
+    const sp = path.join(__dirname, '..', 'second_brain', 'pipeline_status.json');
+    pipelineStatus = JSON.parse(fs.readFileSync(sp, 'utf8'));
+  } catch(e) {}
+
+  const primaryModel = ai.primary_model || 'unknown';
+  const modelsUsed = (ai.models_used || []);
+  const uniqueModels = [...new Set(modelsUsed)];
+  const modelQuality = primaryModel.includes('lite') ? '⚠️ FALLBACK (lite model)' : '✅ Full quality';
+
   const acc       = data.your_account || {};
   const followers = acc.followers || 0;
   const myPosts   = Array.isArray(acc.posts) ? acc.posts : [];
@@ -176,12 +187,25 @@ async function run(transcribeResult = {}) {
     `❤️ Avg Likes: <b>${avgLikes}</b>`,
     `💬 Avg Comments: <b>${avgComments}</b>`,
     `📈 Engagement Rate: <b>${engRate}%</b>`,
+    `🤖 AI Model: <b>${primaryModel}</b> ${modelQuality}`,
     topPost ? `🏆 Best Post: <b>${(topPost.likes || 0).toLocaleString()} likes</b> — ${topCaption}…` : '',
     transcriptSection,
     '━━━━━━━━━━━━━━━━━━━━',
     '🤝 <b>COMPETITORS</b>',
     '━━━━━━━━━━━━━━━━━━━━',
     compLines.join('\n'),
+    ...(pipelineStatus ? [
+      '',
+      '━━━━━━━━━━━━━━━━━━━━',
+      '⚙️ <b>PIPELINE STATUS</b>',
+      '━━━━━━━━━━━━━━━━━━━━',
+      `Overall: <b>${pipelineStatus.overall?.toUpperCase() || 'UNKNOWN'}</b>`,
+      ...Object.entries(pipelineStatus.steps || {}).map(([k, v]) => {
+        const icon = v.status === 'success' ? '✅' : v.status === 'failed' ? '❌' : v.status === 'skipped' ? '⏭' : '🔄';
+        return `${icon} ${k.replace(/_/g,' ')}${v.error ? ' — ' + v.error.substring(0,60) : ''}`;
+      }),
+      '',
+    ] : []),
     '',
     '━━━━━━━━━━━━━━━━━━━━',
     '🤖 <b>AI AGENT INSIGHTS</b>',
