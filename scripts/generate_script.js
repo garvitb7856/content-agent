@@ -13,11 +13,13 @@ const OUT_PATH1 = path.join(ROOT,'dashboard/data/agents_output.json');
 const OUT_PATH2 = path.join(ROOT,'dashboard/agents_output.json');
 const DATA_PATH = path.join(ROOT,'dashboard/data/data.json');
 
-const rawIndex = parseInt(process.argv[2]);
-if (isNaN(rawIndex) || rawIndex < 1 || rawIndex > 50) {
-  console.error('❌ Usage: node scripts/generate_script.js <1-50>'); process.exit(1);
+const customFlag = process.argv.indexOf('--custom');
+const customIdeaText = customFlag !== -1 ? process.argv[customFlag + 1] : null;
+const rawIndex = customIdeaText ? null : parseInt(process.argv[2]);
+if (!customIdeaText && (isNaN(rawIndex) || rawIndex < 1 || rawIndex > 50)) {
+  console.error('❌ Usage: node scripts/generate_script.js <1-50>  OR  node scripts/generate_script.js --custom "your idea"'); process.exit(1);
 }
-const ideaIndex = rawIndex - 1;
+const ideaIndex = rawIndex ? rawIndex - 1 : -1;
 
 async function gemini(prompt) {
   const models=['gemini-3.7-flash','gemini-3.8-flash','gemini-3.1-flash-lite'];
@@ -67,7 +69,16 @@ function sendTelegram(text) {
 
 async function main() {
   let idea = null;
-  if (rawIndex <= 5) {
+  if (customIdeaText) {
+    idea = {
+      title: customIdeaText,
+      hook: customIdeaText,
+      format: 'Reel',
+      niche: 'AI & Growth',
+      reasoning: 'User-submitted custom idea via Telegram',
+      sourceUrl: ''
+    };
+  } else if (rawIndex <= 5) {
     const pending = JSON.parse(fs.readFileSync(PENDING_PATH, 'utf8'));
     idea = pending[ideaIndex];
   } else {
@@ -91,7 +102,7 @@ async function main() {
 
   if (!idea) { console.error('❌ No idea at index '+ideaIndex); process.exit(1); }
 
-  console.log('🎣 Generating script for idea #'+rawIndex+': "'+idea.title+'"');
+  console.log('🎣 Generating script for: "'+idea.title+'"');
 
   const data=JSON.parse(fs.readFileSync(DATA_PATH,'utf8'));
   const myFollowers=(data.your_account||{}).followers||5845;

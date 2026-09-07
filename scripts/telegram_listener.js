@@ -55,7 +55,24 @@ async function processUpdate(update) {
   const msg=update.message;
   if(!msg||String(msg.chat.id)!==String(CHAT_ID))return;
   const text=(msg.text||'').trim();
-  if(!/^(?:[1-9]|[1-4][0-9]|50)$/.test(text))return;
+  const isNumber = /^(?:[1-9]|[1-4][0-9]|50)$/.test(text);
+  const isCommand = text.startsWith('/');
+  const isFreeForm = !isNumber && !isCommand && text.length >= 5;
+  if (!isNumber && !isFreeForm) return;
+
+  if (isFreeForm) {
+    // Free-form custom idea
+    console.log(new Date().toLocaleString('en-IN')+' — Free-form idea: '+text);
+    await sendMessage('⏳ Generating script for your idea:\n\n<b>'+text+'</b>\n\nAbout 30 seconds...');
+    try {
+      const escaped = text.replace(/"/g, '\\"');
+      execSync('node scripts/generate_script.js --custom "'+escaped+'"', {cwd:ROOT, stdio:'inherit'});
+    } catch(e) {
+      console.error('❌ generate_script failed:', e.message);
+      await sendMessage('❌ Script generation failed for custom idea.');
+    }
+    return;
+  }
 
   const num=parseInt(text);
   console.log(new Date().toLocaleString('en-IN')+' — User selected idea #'+num);
