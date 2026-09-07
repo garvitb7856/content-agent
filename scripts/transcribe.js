@@ -149,12 +149,11 @@ async function run() {
     const h = data.your_account.username || MY_HANDLE;
     handlePosts.push({ handle: h, posts: data.your_account.posts || [] });
   }
-  // Competitors transcribed separately — own posts first
-  // if (data.competitors && typeof data.competitors === 'object' && !Array.isArray(data.competitors)) {
-  //   for (const [h, acc] of Object.entries(data.competitors)) {
-  //     handlePosts.push({ handle: h, posts: acc.posts || [] });
-  //   }
-  // }
+  if (data.competitors && typeof data.competitors === 'object' && !Array.isArray(data.competitors)) {
+    for (const [h, acc] of Object.entries(data.competitors)) {
+      handlePosts.push({ handle: h, posts: acc.posts || [] });
+    }
+  }
   if (Array.isArray(data.accounts)) {
     for (const acc of data.accounts) {
       handlePosts.push({ handle: acc.username, posts: acc.posts || [] });
