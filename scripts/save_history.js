@@ -52,6 +52,13 @@ function run() {
   ensureDirs();
   const today = getTodayStr();
 
+  // Skip if we already saved history for today
+  const existingFile = path.join(HISTORY_DIR, `${today}.json`);
+  if (fs.existsSync(existingFile)) {
+    console.log(`⏭ History for ${today} already saved — skipping to avoid overwrite.`);
+    return;
+  }
+
   // 1. Copy agents_output.json to history/YYYY-MM-DD.json
   const histAgentFile = path.join(HISTORY_DIR, `${today}.json`);
   const dashHistAgentFile = path.join(DASHBOARD_HISTORY_DIR, `${today}.json`);

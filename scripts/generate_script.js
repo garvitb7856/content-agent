@@ -225,10 +225,8 @@ Two trigger word options with the exact script (e.g. "Comment LINK and I'll DM y
   const scoreColor={'HIGH':'🟢','MEDIUM':'🟡','LOW':'🔴'};
   const badge=(scoreColor[idea.score]||'🔵')+' '+(idea.score || 'MEDIUM');
   const preview=cleanForTelegram(script).substring(0,3500)+(script.length>3500?'\n\n<i>...view full script on dashboard</i>':'');
-  let msg='🎬 <b>Script Ready!</b>\n\n'+'💡 <b>'+idea.title+'</b>\n'+'🏅 Score: '+badge+'\n\n'+preview;
-  if (idea.sourceUrl) {
-    msg += '\n\n📎 Inspired by: '+idea.sourceUrl;
-  }
+  const srcLine = idea.sourceUrl ? `\n🔗 <b>Inspired by:</b> <a href="${idea.sourceUrl}">${idea.sourceUrl}</a>\n` : '';
+  let msg='🎬 <b>Script Ready!</b>\n\n'+'💡 <b>'+idea.title+'</b>\n'+'🏅 Score: '+badge+'\n'+srcLine+'\n'+preview;
   msg += '\n\n🌐 <a href="https://garvitb7856.github.io/content-agent/dashboard/">View on Dashboard</a>';
   await sendTelegram(msg);
   console.log('✅ Script sent via Telegram!');

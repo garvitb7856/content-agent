@@ -452,9 +452,6 @@ function renderCal(){
       + '<div class="cdl">' + dayLabel + '</div>'
       + '<div class="cdn">' + dateDisplay + '</div>'
       + formatTag
-      + statusBadge
-      + (item.post_time ? '<div style="font-size:.55rem;color:#6366f1;margin-top:2px">' + esc(item.post_time) + '</div>' : '')
-      + (item.hook ? '<div class="cal-hook" title="' + esc(item.hook) + '">🎣 ' + esc(item.hook) + '</div>' : '')
       + '</div>';
   });
 

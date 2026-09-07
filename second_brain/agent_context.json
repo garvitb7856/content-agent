@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T10:42:39.861Z",
+  "updated_at": "2026-09-07T12:24:58.071Z",
   "your_performance": {
     "posts_analyzed": 31,
     "best_hook_type": "unknown",
@@ -7,87 +7,163 @@
     "by_hook_type": [
       {
         "type": "unknown",
-        "avg": 0,
+        "avg": 157.94,
+        "count": 31
+      }
+    ],
+    "by_format": [
+      {
+        "type": "reel",
+        "avg": 157.94,
         "count": 31
       }
     ],
     "top_hooks": [
       {
-        "id": "3977308532563397664",
-        "shortCode": "3977308532563397664",
-        "url": "https://www.instagram.com/p/DcyPQmlkkwg/",
-        "archivedAt": "2026-09-07T10:32:13.202Z",
-        "format": "reel",
-        "topics": [],
-        "engagementRate": null,
-        "hookText": ""
-      },
-      {
-        "id": "3979581396960344068",
-        "shortCode": "3979581396960344068",
-        "url": "https://www.instagram.com/p/Dc6UDIgkvgE/",
-        "archivedAt": "2026-09-07T10:32:13.202Z",
-        "format": "reel",
-        "topics": [],
-        "engagementRate": null,
-        "hookText": ""
-      },
-      {
-        "id": "3951216783025407844",
-        "shortCode": "3951216783025407844",
+        "id": "3951216783025407844_65880404765",
+        "shortCode": "DbVirrOyodk",
+        "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
         "url": "https://www.instagram.com/p/DbVirrOyodk/",
+        "postedAt": "2026-07-28T12:30:10.000Z",
         "archivedAt": "2026-09-07T10:32:13.202Z",
         "format": "reel",
-        "topics": [],
-        "engagementRate": null,
-        "hookText": ""
+        "topics": [
+          "claude",
+          "free"
+        ],
+        "finalLikes": 4007,
+        "finalComments": 27135,
+        "engagementRate": 510.94,
+        "hookText": "Nobody should buy Claude subscriptions, because I have found a way to use it for",
+        "diffAnalysis": {
+          "type": "original_content",
+          "similarityScore": 12,
+          "matchedIdeaFromHistory": null,
+          "summary": "Original content — no significant match to any generated script or idea.",
+          "analysedAt": "2026-09-07T12:17:17.528Z"
+        }
       },
       {
-        "id": "3887473602081805309",
-        "shortCode": "3887473602081805309",
-        "url": "https://www.instagram.com/p/DXzFKT1y1P9/",
+        "id": "3954142402868550420_65880404765",
+        "shortCode": "Dbf75DCShsU",
+        "caption": "I wish i knew this earlier because you can Google’s AI subscriptions for compeletely free. Look here, you can get Google’s Gemini Pro with all the top models. You can use Google’s Nano Banana Pro and best video generation model, Veo 3.1. You also get access to Google’s Pomelli, Google’s Gemini Noteb",
+        "url": "https://www.instagram.com/p/Dbf75DCShsU/",
+        "postedAt": "2026-08-01T13:23:01.000Z",
         "archivedAt": "2026-09-07T10:32:13.202Z",
         "format": "reel",
-        "topics": [],
-        "engagementRate": null,
-        "hookText": ""
+        "topics": [
+          "ai",
+          "gemini",
+          "free"
+        ],
+        "finalLikes": 154,
+        "finalComments": 522,
+        "engagementRate": 11.09,
+        "hookText": "I wish i knew this earlier because you can Google’s AI subscriptions for compele",
+        "diffAnalysis": {
+          "type": "original_content",
+          "similarityScore": 7,
+          "matchedIdeaFromHistory": null,
+          "summary": "Original content — no significant match to any generated script or idea.",
+          "analysedAt": "2026-09-07T12:17:17.528Z"
+        }
       },
       {
-        "id": "3912815066596754397",
-        "shortCode": "3912815066596754397",
+        "id": "3959199459221110837_65880404765",
+        "shortCode": "Dbx5u5xywA1",
+        "caption": "You can use Claude, even after you hit your credit limits. Have installed an app inside my Claude that will tell you how much credits you have used till yet and when it will be reset. Other than that, if you hit your complete credit limits, it will take you to another model and give it the complete ",
+        "url": "https://www.instagram.com/p/Dbx5u5xywA1/",
+        "postedAt": "2026-08-08T12:52:54.000Z",
+        "archivedAt": "2026-09-07T10:32:13.202Z",
+        "format": "reel",
+        "topics": [
+          "claude"
+        ],
+        "finalLikes": 103,
+        "finalComments": 211,
+        "engagementRate": 5.15,
+        "hookText": "You can use Claude, even after you hit your credit limits. Have installed an app",
+        "diffAnalysis": {
+          "type": "original_content",
+          "similarityScore": 9,
+          "matchedIdeaFromHistory": null,
+          "summary": "Original content — no significant match to any generated script or idea.",
+          "analysedAt": "2026-09-07T12:17:17.528Z"
+        }
+      },
+      {
+        "id": "3970782274798662809_65880404765",
+        "shortCode": "DcbDXDZyrSZ",
+        "caption": "I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and make your work better !\n\n#ai #chatgptprompts #aicontentcreator #aiimagegenerator #aiimages",
+        "url": "https://www.instagram.com/p/DcbDXDZyrSZ/",
+        "postedAt": "2026-08-24T12:30:36.000Z",
+        "archivedAt": "2026-09-07T10:32:13.202Z",
+        "format": "reel",
+        "topics": [
+          "ai",
+          "chatgpt",
+          "hack",
+          "prompt"
+        ],
+        "finalLikes": 64,
+        "finalComments": 44,
+        "engagementRate": 1.77,
+        "hookText": "I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and",
+        "diffAnalysis": {
+          "type": "original_content",
+          "similarityScore": 8,
+          "matchedIdeaFromHistory": null,
+          "summary": "Original content — no significant match to any generated script or idea.",
+          "analysedAt": "2026-09-07T12:17:17.528Z"
+        }
+      },
+      {
+        "id": "3912815066596754397_65880404765",
+        "shortCode": "DZNHJJ0S8Pd",
+        "caption": "That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurship #money #explore #businessmotivation",
         "url": "https://www.instagram.com/p/DZNHJJ0S8Pd/",
+        "postedAt": "2026-06-05T12:53:32.000Z",
         "archivedAt": "2026-09-07T10:32:13.202Z",
         "format": "reel",
-        "topics": [],
-        "engagementRate": null,
-        "hookText": ""
+        "topics": [
+          "free"
+        ],
+        "finalLikes": 64,
+        "finalComments": 4,
+        "engagementRate": 1.12,
+        "hookText": "That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurshi"
       }
     ]
+  },
+  "diff_learning": {
+    "posts_with_diff": 13,
+    "insights": ""
   },
   "niche_performance": {
     "total_hooks": 195,
     "total_scripts": 94,
     "viral_scripts": 37,
     "best_hook_type": "story",
+    "hook_length_insight": "Short hooks (≤8 words) outperform long hooks by 39% in your niche. Keep hooks concise.",
     "by_hook_type": [
       {
         "type": "story",
-        "avg": 7184,
+        "avg": 7183.83,
         "count": 110
       },
       {
         "type": "bold_claim",
-        "avg": 4364,
+        "avg": 4364.14,
         "count": 50
       },
       {
         "type": "question",
-        "avg": 4131,
-        "count": 12
+        "avg": 3818.23,
+        "count": 13
       },
       {
         "type": "curiosity_gap",
-        "avg": 2138,
+        "avg": 2137.5,
         "count": 4
       },
       {
@@ -96,14 +172,24 @@
         "count": 1
       },
       {
+        "type": "contrarian",
+        "avg": 838.6,
+        "count": 5
+      },
+      {
         "type": "pattern_interrupt",
         "avg": 470,
         "count": 1
       },
       {
-        "type": "unknown",
-        "avg": 290,
-        "count": 17
+        "type": "personal_story",
+        "avg": 85.33,
+        "count": 3
+      },
+      {
+        "type": "statement",
+        "avg": 52.38,
+        "count": 8
       }
     ],
     "top_hooks": [
@@ -211,5 +297,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN ALL-TIME DATA (31 posts analyzed):\nBest hook type: unknown\nBest format: reel\nYour top hooks that got real results: \"undefined\" (undefined likes) | \"undefined\" (undefined likes) | \"undefined\" (undefined likes) | \"undefined\" (undefined likes) | \"undefined\" (undefined likes)\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR ALL-TIME DATA (195 hooks, 94 scripts analyzed):\nBest hook type in niche: story\nTop niche hooks by engagement: \"I also asked Sundar what he thinks of wrapper startups 😁\" — @thevarunmayya (98256 likes) | \"Power of AI Agents 🤯\" — @favourite.engineer (70346 likes) | \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\" — @dhavalkataria_ (63602 likes) | \"Coming soon. We talk:\" — @thevarunmayya (58564 likes) | \"🤯 Claude can literally pay your rent by building websites\" — @favourite.engineer (57496 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"unknown\" style hooks. Match niche patterns but keep content original for @garvit.irl.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE — USE THESE AS STRUCTURAL REFERENCE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (31 posts analyzed):\nBest hook type: unknown\nBest format: reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\" | \"I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and\" | \"That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurshi\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (195 hooks, 94 scripts):\nBest hook type in niche: story\nHook length insight: Short hooks (≤8 words) outperform long hooks by 39% in your niche. Keep hooks concise.\nTop niche hooks: \"I also asked Sundar what he thinks of wrapper startups 😁\" (98256 likes) | \"Power of AI Agents 🤯\" (70346 likes) | \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\" (63602 likes) | \"Coming soon. We talk:\" (58564 likes) | \"🤯 Claude can literally pay your rent by building websites\" (57496 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"unknown\" style hooks. Short hooks (≤8 words) outperform long hooks by 39% in your niche. Keep hooks concise.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

@@ -204,6 +204,7 @@ async function run(transcribeResult = {}) {
         pending.forEach((idea, i) => {
           lines.push(emojis[i]+' ['+badge(idea.score)+'] <b>'+esc(idea.title||'')+'</b>');
           if (idea.reasoning) lines.push('   <i>'+esc((idea.reasoning||'').substring(0,100))+'</i>');
+          if (idea.sourceUrl) lines.push('   🔗 <a href="'+idea.sourceUrl+'">View source reel ↗</a>');
           lines.push('');
         });
         lines.push('💡 Reply 1-5 for top picks, or reply any number 6-50 to get a script for other ideas from today\'s full list.');
