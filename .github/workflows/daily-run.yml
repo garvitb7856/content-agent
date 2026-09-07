@@ -31,14 +31,19 @@ jobs:
 
       - name: Create .env file from secrets
         env:
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          MY_INSTAGRAM_HANDLE: ${{ secrets.MY_INSTAGRAM_HANDLE }}
+          COMPETITOR_HANDLES: ${{ secrets.COMPETITOR_HANDLES }}
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_TRANSCRIBE_KEY: ${{ secrets.GEMINI_TRANSCRIBE_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          echo "APIFY_TOKEN=${APIFY_TOKEN}" > .env
+          echo "MY_INSTAGRAM_HANDLE=${MY_INSTAGRAM_HANDLE}" > .env
+          echo "COMPETITOR_HANDLES=${COMPETITOR_HANDLES}" >> .env
+          echo "APIFY_API_TOKEN=${APIFY_API_TOKEN}" >> .env
+          echo "APIFY_TOKEN=${APIFY_API_TOKEN}" >> .env
           echo "GEMINI_API_KEY=${GEMINI_API_KEY}" >> .env
           echo "GEMINI_TRANSCRIBE_KEY=${GEMINI_TRANSCRIBE_KEY}" >> .env
           echo "TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}" >> .env
