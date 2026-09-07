@@ -3,9 +3,17 @@ const path = require('path');
 const https = require('https');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
+const ROOT = path.join(__dirname, '..');
+function safeRead(filePath, fallback) {
+  try { return JSON.parse(fs.readFileSync(filePath, 'utf8')); } catch(e) { return fallback; }
+}
+
+const rawTrends = safeRead(path.join(ROOT, 'second_brain/trends.json'), {});
+const trendContext = rawTrends.ideator_context || '';
+
 let agentContext = { instruction_for_agents: '' };
 try {
-  agentContext = JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/agent_context.json'), 'utf8'));
+  agentContext = JSON.parse(fs.readFileSync(path.join(ROOT, 'second_brain/agent_context.json'), 'utf8'));
 } catch(e) {}
 
 const PERFORMANCE_BLOCK = agentContext.instruction_for_agents
@@ -207,6 +215,7 @@ Best topics for your audience: ${patterns.bestTopics?.join(', ') || 'not enough 
   // ── AGENT 1: IDEATOR — 50 ideas ──────────────────────────────────────────
   console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
   const ideatorRaw = await gemini(`
+${trendContext ? `\n${trendContext}\n` : ''}
 You are a viral content strategist for @${myHandle} (${myFollowers} followers, Indian AI/automation/entrepreneurship creator).
 
 ${performanceContext}
