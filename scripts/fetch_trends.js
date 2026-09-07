@@ -10,8 +10,11 @@ const YOUTUBE_KEY = process.env.YOUTUBE_API_KEY;
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    const options = { headers: { 'User-Agent': 'Mozilla/5.0 ContentAgent/1.0' } };
+    const options = { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' } };
     https.get(url, options, res => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchUrl(res.headers.location).then(resolve).catch(reject);
+      }
       let data = '';
       res.on('data', c => data += c);
       res.on('end', () => {
@@ -24,21 +27,21 @@ function fetchUrl(url) {
 
 // ── REDDIT ──────────────────────────────────────────────────
 async function fetchReddit() {
-  const subreddits = ['artificial', 'ChatGPT', 'MachineLearning', 'india', 'startups', 'entrepreneur'];
+  const subreddits = ['artificial', 'ChatGPT', 'india', 'startups', 'MachineLearning'];
   const results = [];
   for (const sub of subreddits) {
     try {
-      const data = await fetchUrl(`https://www.reddit.com/r/${sub}/hot.json?limit=5`);
+      const data = await fetchUrl(`https://www.reddit.com/r/${sub}/hot.json?limit=10&raw_json=1`);
       if (!data?.data?.children) continue;
       for (const post of data.data.children) {
         const p = post.data;
-        if (p.score < 100) continue;
+        if (!p.title || p.stickied) continue;
         results.push({
           source: 'reddit',
           subreddit: sub,
           title: p.title,
-          score: p.score,
-          comments: p.num_comments,
+          score: p.score || 0,
+          comments: p.num_comments || 0,
           url: `https://reddit.com${p.permalink}`
         });
       }
@@ -129,17 +132,17 @@ async function fetchGoogleTrends() {
     // Also get daily trending searches in India
     let dailyTrending = [];
     try {
-      const raw = await googleTrends.dailyTrends({ geo: 'IN' });
+      const raw = await googleTrends.dailyTrends({ geo: 'IN', trendDate: new Date() });
       const parsed = JSON.parse(raw);
       const days = parsed?.default?.trendingSearchesDays || [];
       if (days.length) {
         dailyTrending = (days[0].trendingSearches || []).slice(0, 10).map(t => ({
-          query: t.title?.query || '',
-          traffic: t.formattedTraffic || '',
-          articles: (t.articles || []).slice(0,1).map(a => a.title)
-        }));
+          query: t.title?.query || t.query || '',
+          traffic: t.formattedTraffic || t.traffic || '',
+          articles: (t.articles || []).slice(0,1).map(a => a.title || '')
+        })).filter(t => t.query);
       }
-    } catch(e) { /* skip */ }
+    } catch(e) { console.log('Google daily trends skipped:', e.message); }
 
     return { keyword_trends: results.sort((a,b) => b.trend_score - a.trend_score), daily_trending: dailyTrending };
   } catch(e) {
