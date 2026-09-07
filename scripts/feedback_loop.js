@@ -21,10 +21,16 @@ function updateFeedbackLoop() {
   let raw = {};
   try { raw = JSON.parse(fs.readFileSync(dataPath, 'utf8')); } catch(e) {}
 
-  const contentLog = fs.existsSync(contentLogPath) ? JSON.parse(fs.readFileSync(contentLogPath, 'utf8')) : [];
-  const archive = fs.existsSync(archivePath) ? JSON.parse(fs.readFileSync(archivePath, 'utf8')) : [];
+  const rawLog = fs.existsSync(contentLogPath) ? JSON.parse(fs.readFileSync(contentLogPath, 'utf8')) : [];
+  const contentLog = Array.isArray(rawLog) ? rawLog : (rawLog.posts || []);
+
+  const rawArchive = fs.existsSync(archivePath) ? JSON.parse(fs.readFileSync(archivePath, 'utf8')) : [];
+  const archive = Array.isArray(rawArchive) ? rawArchive : (rawArchive.posts || []);
+
   const patterns = fs.existsSync(patternsPath) ? JSON.parse(fs.readFileSync(patternsPath, 'utf8')) : { bestFormats: [], bestHooks: [], avgEngByFormat: {}, bestTopics: [] };
-  const hookBank = fs.existsSync(hookBankPath) ? JSON.parse(fs.readFileSync(hookBankPath, 'utf8')) : [];
+
+  const rawHookBank = fs.existsSync(hookBankPath) ? JSON.parse(fs.readFileSync(hookBankPath, 'utf8')) : [];
+  const hookBank = Array.isArray(rawHookBank) ? rawHookBank : (rawHookBank.hooks || []);
 
   const myHandle = 'garvit.irl';
   let myAccount = (raw.accounts || []).find(a => (a.username || a.handle || '').toLowerCase() === myHandle);
@@ -191,10 +197,29 @@ function updateFeedbackLoop() {
 
   // Save all files
   fs.mkdirSync(path.dirname(contentLogPath), { recursive: true });
-  fs.writeFileSync(contentLogPath, JSON.stringify(contentLog, null, 2));
-  fs.writeFileSync(archivePath, JSON.stringify(archive, null, 2));
+  if (Array.isArray(rawLog)) {
+    fs.writeFileSync(contentLogPath, JSON.stringify(contentLog, null, 2));
+  } else {
+    rawLog.posts = contentLog;
+    fs.writeFileSync(contentLogPath, JSON.stringify(rawLog, null, 2));
+  }
+
+  if (Array.isArray(rawArchive)) {
+    fs.writeFileSync(archivePath, JSON.stringify(archive, null, 2));
+  } else {
+    rawArchive.posts = archive;
+    fs.writeFileSync(archivePath, JSON.stringify(rawArchive, null, 2));
+  }
+
   fs.writeFileSync(patternsPath, JSON.stringify(patterns, null, 2));
-  fs.writeFileSync(hookBankPath, JSON.stringify(hookBank, null, 2));
+
+  if (Array.isArray(rawHookBank)) {
+    fs.writeFileSync(hookBankPath, JSON.stringify(hookBank, null, 2));
+  } else {
+    rawHookBank.hooks = hookBank;
+    rawHookBank.updated_at = now.toISOString();
+    fs.writeFileSync(hookBankPath, JSON.stringify(rawHookBank, null, 2));
+  }
 
   console.log(`✅ Feedback loop updated:`);
   console.log(`   New posts logged: ${newPostsLogged}`);

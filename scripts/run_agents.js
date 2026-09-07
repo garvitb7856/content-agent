@@ -167,9 +167,10 @@ async function main() {
   const postedTitles = (history.posted_topics||[]).map(t=>t.title);
   const engRate = myFollowers ? (((myAvgLikes+myAvgComments)/myFollowers)*100).toFixed(2) : '0.00';
 
-  const hookBank = fs.existsSync(path.join(__dirname, '../second_brain/hook_bank.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/hook_bank.json'), 'utf8')) : [];
+  const rawHookBank = fs.existsSync(path.join(__dirname, '../second_brain/hook_bank.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/hook_bank.json'), 'utf8')) : [];
+  const hookBank = Array.isArray(rawHookBank) ? rawHookBank : (rawHookBank.hooks || []);
   const patterns = fs.existsSync(path.join(__dirname, '../second_brain/patterns.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/patterns.json'), 'utf8')) : { bestFormats: [] };
-  const topHooks = hookBank.sort((a,b)=>(b.likes||0)-(a.likes||0)).slice(0,5).map(h=>h.hook).filter(Boolean).join('\n') || 'No top hooks logged yet.';
+  const topHooks = hookBank.slice().sort((a,b)=>(b.likes||0)-(a.likes||0)).slice(0,5).map(h=>h.hook||h.text).filter(Boolean).join('\n') || 'No top hooks logged yet.';
   const bestFormats = (patterns.bestFormats && patterns.bestFormats.length) ? patterns.bestFormats.join(', ') : 'Reels';
 
   const igTrendsPath = path.join(__dirname, '../second_brain/instagram_trends.json');

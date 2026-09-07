@@ -1,187 +1,103 @@
 {
-  "fetched_at": "2026-09-05T09:24:53.326Z",
-  "total": 12,
+  "fetched_at": "2026-09-07T10:42:39.321Z",
+  "total": 6,
   "trends": [
     {
       "source": "HackerNews",
-      "title": "GPT-6 Astra",
-      "score": 2172,
-      "comments": 1996,
-      "url": "https://openai.com/index/gpt-6-astra/"
+      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+      "score": 654,
+      "comments": 408,
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"
     },
     {
       "source": "HackerNews",
-      "title": "Discovery of a new OpenAI agent message board",
-      "score": 1700,
-      "comments": 1314,
-      "url": "https://collusion.wiki/"
+      "title": "Research acceleration: The view inside OpenAI",
+      "score": 182,
+      "comments": 131,
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai"
     },
     {
       "source": "HackerNews",
-      "title": "“Next-token predictor” is the wrong mental model for LLMs",
-      "score": 112,
-      "comments": 242,
-      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html"
+      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+      "score": 39,
+      "comments": 9,
+      "url": "https://github.com/timgordontg/engrim"
     },
     {
       "source": "HackerNews",
-      "title": "Can AI design circuit boards yet?",
-      "score": 257,
-      "comments": 151,
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
+      "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+      "score": 27,
+      "comments": 9,
+      "url": "https://github.com/trailofbits/coop"
     },
     {
       "source": "HackerNews",
-      "title": "GPT-6 Astra on OpenRouter",
-      "score": 217,
-      "comments": 128,
-      "url": "https://openrouter.ai/openai/gpt-6-astra"
+      "title": "ripwire: ripgrep of AI context (CLI+MCP) giving coding agents a map of any repo",
+      "score": 13,
+      "comments": 8,
+      "url": "https://github.com/redhat-et/ripwire"
     },
     {
       "source": "HackerNews",
-      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "score": 129,
-      "comments": 58,
-      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-      "score": 129,
-      "comments": 35,
-      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Government Rails Site Hit Hours After CVE Patch",
-      "score": 94,
-      "comments": 29,
-      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/"
-    },
-    {
-      "source": "HackerNews",
-      "title": "AI handles incidents, engineers lose touch with their systems",
-      "score": 58,
-      "comments": 37,
-      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems"
-    },
-    {
-      "source": "HackerNews",
-      "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "score": 40,
-      "comments": 22,
-      "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
-      "score": 16,
-      "comments": 14,
-      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Claude Code skills for advanced context engineering techniques and patterns",
-      "score": 22,
-      "comments": 2,
-      "url": "https://github.com/NeoLabHQ/context-engineering-kit"
+      "title": "Speculative Decoding in vLLM on AMD GPUs",
+      "score": 12,
+      "comments": 1,
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"
     }
   ],
   "hackernews": [
     {
       "source": "HackerNews",
-      "title": "GPT-6 Astra",
-      "score": 2172,
-      "comments": 1996,
-      "url": "https://openai.com/index/gpt-6-astra/"
+      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+      "score": 654,
+      "comments": 408,
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"
     },
     {
       "source": "HackerNews",
-      "title": "Discovery of a new OpenAI agent message board",
-      "score": 1700,
-      "comments": 1314,
-      "url": "https://collusion.wiki/"
+      "title": "Research acceleration: The view inside OpenAI",
+      "score": 182,
+      "comments": 131,
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai"
     },
     {
       "source": "HackerNews",
-      "title": "“Next-token predictor” is the wrong mental model for LLMs",
-      "score": 112,
-      "comments": 242,
-      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html"
+      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+      "score": 39,
+      "comments": 9,
+      "url": "https://github.com/timgordontg/engrim"
     },
     {
       "source": "HackerNews",
-      "title": "Can AI design circuit boards yet?",
-      "score": 257,
-      "comments": 151,
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
+      "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+      "score": 27,
+      "comments": 9,
+      "url": "https://github.com/trailofbits/coop"
     },
     {
       "source": "HackerNews",
-      "title": "GPT-6 Astra on OpenRouter",
-      "score": 217,
-      "comments": 128,
-      "url": "https://openrouter.ai/openai/gpt-6-astra"
+      "title": "ripwire: ripgrep of AI context (CLI+MCP) giving coding agents a map of any repo",
+      "score": 13,
+      "comments": 8,
+      "url": "https://github.com/redhat-et/ripwire"
     },
     {
       "source": "HackerNews",
-      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "score": 129,
-      "comments": 58,
-      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-      "score": 129,
-      "comments": 35,
-      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Government Rails Site Hit Hours After CVE Patch",
-      "score": 94,
-      "comments": 29,
-      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/"
-    },
-    {
-      "source": "HackerNews",
-      "title": "AI handles incidents, engineers lose touch with their systems",
-      "score": 58,
-      "comments": 37,
-      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems"
-    },
-    {
-      "source": "HackerNews",
-      "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "score": 40,
-      "comments": 22,
-      "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
-      "score": 16,
-      "comments": 14,
-      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Claude Code skills for advanced context engineering techniques and patterns",
-      "score": 22,
-      "comments": 2,
-      "url": "https://github.com/NeoLabHQ/context-engineering-kit"
+      "title": "Speculative Decoding in vLLM on AMD GPUs",
+      "score": 12,
+      "comments": 1,
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"
     }
   ],
   "reddit": [],
   "google": [],
   "youtube": [
     {
-      "title": "AI Has Changed Completely: Here's What Matters in 2026",
+      "title": "A.I. Is Outsmarting Its Creators",
       "source": "YouTube AI Trending"
     },
     {
-      "title": "Stop Switching",
+      "title": "AI Has Changed Completely: Here's What Matters in 2026",
       "source": "YouTube AI Trending"
     },
     {
@@ -193,19 +109,19 @@
       "source": "YouTube AI Trending"
     },
     {
-      "title": "Did OpenAI actually build AGI? GPT-6 Astra first look",
-      "source": "YouTube AI Trending"
-    },
-    {
       "title": "Introducing GPT-6 Astra: the most intelligent and aligned model in the world.",
       "source": "YouTube AI Trending"
     },
     {
-      "title": "Claude AI Full Course in 2 Hours: Everything You Need to Know (2026)",
+      "title": "GPT-6 Astra FREE API Key! Use OpenAI's Most Advanced AI Model",
       "source": "YouTube AI Trending"
     },
     {
-      "title": "Claude Course Introduction",
+      "title": "Getting started with Claude.ai",
+      "source": "YouTube AI Trending"
+    },
+    {
+      "title": "Claude AI Full Course in 2 Hours: Everything You Need to Know (2026)",
       "source": "YouTube AI Trending"
     },
     {

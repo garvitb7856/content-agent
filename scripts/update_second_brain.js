@@ -39,10 +39,16 @@ function main() {
   const followers = me.followers || 5898;
   const rawPosts = Array.isArray(me.posts) ? me.posts : [];
 
-  let contentLog = loadJson(LOG_PATH, []);
-  let performanceArchive = loadJson(ARCHIVE_PATH, []);
+  let rawContentLog = loadJson(LOG_PATH, []);
+  let contentLog = Array.isArray(rawContentLog) ? rawContentLog : (rawContentLog.posts || []);
+
+  let rawPerformanceArchive = loadJson(ARCHIVE_PATH, []);
+  let performanceArchive = Array.isArray(rawPerformanceArchive) ? rawPerformanceArchive : (rawPerformanceArchive.posts || []);
+
   let patterns = loadJson(PATTERNS_PATH, { bestFormats: [], bestPostTimes: [], bestHooks: [], avgEngByFormat: {} });
-  let hookBank = loadJson(HOOK_BANK_PATH, []);
+
+  let rawHookBank = loadJson(HOOK_BANK_PATH, []);
+  let hookBank = Array.isArray(rawHookBank) ? rawHookBank : (rawHookBank.hooks || []);
 
   const existingLogIds = new Set(contentLog.map(p => p.id));
   let newPostsLogged = 0;
@@ -153,10 +159,29 @@ function main() {
   };
 
   // Save updated JSON files
-  saveJson(LOG_PATH, contentLog);
-  saveJson(ARCHIVE_PATH, performanceArchive);
+  if (Array.isArray(rawContentLog)) {
+    saveJson(LOG_PATH, contentLog);
+  } else {
+    rawContentLog.posts = contentLog;
+    saveJson(LOG_PATH, rawContentLog);
+  }
+
+  if (Array.isArray(rawPerformanceArchive)) {
+    saveJson(ARCHIVE_PATH, performanceArchive);
+  } else {
+    rawPerformanceArchive.posts = performanceArchive;
+    saveJson(ARCHIVE_PATH, rawPerformanceArchive);
+  }
+
   saveJson(PATTERNS_PATH, patterns);
-  saveJson(HOOK_BANK_PATH, hookBank);
+
+  if (Array.isArray(rawHookBank)) {
+    saveJson(HOOK_BANK_PATH, hookBank);
+  } else {
+    rawHookBank.hooks = hookBank;
+    rawHookBank.updated_at = new Date().toISOString();
+    saveJson(HOOK_BANK_PATH, rawHookBank);
+  }
 
   console.log(`Second Brain updated: ${newPostsLogged} new posts logged, ${newlyArchived} archived, ${newHooksAdded} hooks added`);
 }

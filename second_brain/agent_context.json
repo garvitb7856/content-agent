@@ -1,37 +1,94 @@
 {
-  "updated_at": "2026-09-06T10:40:06.059Z",
+  "updated_at": "2026-09-07T10:42:39.861Z",
   "your_performance": {
-    "posts_analyzed": 0,
-    "best_hook_type": null,
-    "best_format": null,
-    "by_hook_type": [],
-    "top_hooks": []
+    "posts_analyzed": 31,
+    "best_hook_type": "unknown",
+    "best_format": "reel",
+    "by_hook_type": [
+      {
+        "type": "unknown",
+        "avg": 0,
+        "count": 31
+      }
+    ],
+    "top_hooks": [
+      {
+        "id": "3977308532563397664",
+        "shortCode": "3977308532563397664",
+        "url": "https://www.instagram.com/p/DcyPQmlkkwg/",
+        "archivedAt": "2026-09-07T10:32:13.202Z",
+        "format": "reel",
+        "topics": [],
+        "engagementRate": null,
+        "hookText": ""
+      },
+      {
+        "id": "3979581396960344068",
+        "shortCode": "3979581396960344068",
+        "url": "https://www.instagram.com/p/Dc6UDIgkvgE/",
+        "archivedAt": "2026-09-07T10:32:13.202Z",
+        "format": "reel",
+        "topics": [],
+        "engagementRate": null,
+        "hookText": ""
+      },
+      {
+        "id": "3951216783025407844",
+        "shortCode": "3951216783025407844",
+        "url": "https://www.instagram.com/p/DbVirrOyodk/",
+        "archivedAt": "2026-09-07T10:32:13.202Z",
+        "format": "reel",
+        "topics": [],
+        "engagementRate": null,
+        "hookText": ""
+      },
+      {
+        "id": "3887473602081805309",
+        "shortCode": "3887473602081805309",
+        "url": "https://www.instagram.com/p/DXzFKT1y1P9/",
+        "archivedAt": "2026-09-07T10:32:13.202Z",
+        "format": "reel",
+        "topics": [],
+        "engagementRate": null,
+        "hookText": ""
+      },
+      {
+        "id": "3912815066596754397",
+        "shortCode": "3912815066596754397",
+        "url": "https://www.instagram.com/p/DZNHJJ0S8Pd/",
+        "archivedAt": "2026-09-07T10:32:13.202Z",
+        "format": "reel",
+        "topics": [],
+        "engagementRate": null,
+        "hookText": ""
+      }
+    ]
   },
   "niche_performance": {
-    "total_hooks": 152,
-    "total_scripts": 43,
-    "viral_scripts": 18,
+    "total_hooks": 195,
+    "total_scripts": 94,
+    "viral_scripts": 37,
     "best_hook_type": "story",
     "by_hook_type": [
       {
         "type": "story",
-        "avg": 5671,
-        "count": 88
+        "avg": 7184,
+        "count": 110
       },
       {
         "type": "bold_claim",
-        "avg": 4433,
-        "count": 49
+        "avg": 4364,
+        "count": 50
       },
       {
         "type": "question",
-        "avg": 3980,
-        "count": 11
+        "avg": 4131,
+        "count": 12
       },
       {
         "type": "curiosity_gap",
-        "avg": 1380,
-        "count": 2
+        "avg": 2138,
+        "count": 4
       },
       {
         "type": "relatability",
@@ -42,9 +99,25 @@
         "type": "pattern_interrupt",
         "avg": 470,
         "count": 1
+      },
+      {
+        "type": "unknown",
+        "avg": 290,
+        "count": 17
       }
     ],
     "top_hooks": [
+      {
+        "id": "3369324026474098518_7695520761",
+        "text": "I also asked Sundar what he thinks of wrapper startups 😁",
+        "type": "story",
+        "format": "Reel",
+        "account": "@thevarunmayya",
+        "postUrl": "https://www.instagram.com/p/C7CPlnDLW9W/",
+        "likes": 98256,
+        "comments": 457,
+        "added_at": "2026-09-07T10:32:59.062Z"
+      },
       {
         "id": "3932971147428001240",
         "text": "Power of AI Agents 🤯",
@@ -68,6 +141,17 @@
         "added_at": "2026-09-06T10:24:18.311Z"
       },
       {
+        "id": "3603408425232408486_7695520761",
+        "text": "Coming soon. We talk:",
+        "type": "story",
+        "format": "Reel",
+        "account": "@thevarunmayya",
+        "postUrl": "https://www.instagram.com/p/DIB4N7-oJ-m/",
+        "likes": 58564,
+        "comments": 1002,
+        "added_at": "2026-09-07T10:32:59.062Z"
+      },
+      {
         "id": "3966514697583075216",
         "text": "🤯 Claude can literally pay your rent by building websites",
         "type": "story",
@@ -77,32 +161,25 @@
         "likes": 57496,
         "comments": 42709,
         "added_at": "2026-09-06T10:24:18.311Z"
-      },
-      {
-        "id": "3975602863745529268",
-        "text": "Somewhat while we are still young...",
-        "type": "story",
-        "format": "Carousel",
-        "account": "@vaibhavsisinty",
-        "postUrl": "https://www.instagram.com/p/DcsLb2tk_W0/",
-        "likes": 34260,
-        "comments": 96,
-        "added_at": "2026-09-06T10:24:18.311Z"
-      },
-      {
-        "id": "3926764297443354755",
-        "text": "Power of Prompt 🤯",
-        "type": "story",
-        "format": "Reel",
-        "account": "@favourite.engineer",
-        "postUrl": "https://www.instagram.com/p/DZ-q1LZzCiD/",
-        "likes": 33635,
-        "comments": 114148,
-        "added_at": "2026-09-06T10:24:18.311Z"
       }
     ]
   },
   "competitor_script_blueprints": [
+    {
+      "id": "3953432369198939354_1411361583",
+      "account": "@dhavalkataria_",
+      "url": "https://www.instagram.com/p/Dbdacspojza/",
+      "topic": "Monetization",
+      "format": "Video",
+      "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:",
+      "full_caption": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one in 5 minutes.\n\n3️⃣ Sell the value.\n\nAfter a few “No’s,” one “Yes” turned into 15,000 rupees for 5 min",
+      "script_pattern": "transformation",
+      "likes": 64358,
+      "comments": 4629,
+      "engagement_rate": 135.89,
+      "verdict": "viral",
+      "scraped_at": "2026-09-07T10:32:59.156Z"
+    },
     {
       "id": "3953432369198939354",
       "account": "@dhavalkataria_",
@@ -132,22 +209,7 @@
       "engagement_rate": 95.14,
       "verdict": "viral",
       "scraped_at": "2026-09-06T10:40:06.003Z"
-    },
-    {
-      "id": "3891815806451123714",
-      "account": "@dhavalkataria_",
-      "url": "https://www.instagram.com/p/DYCgdsyxQYC/",
-      "topic": "Monetization",
-      "format": "Video",
-      "hook": "Comment “1 Lakh” & i’ll share all the side hustles and how you can make money from them",
-      "full_caption": "Comment “1 Lakh” & i’ll share all the side hustles and how you can make money from them",
-      "script_pattern": "comment_CTA",
-      "likes": 16771,
-      "comments": 28631,
-      "engagement_rate": 89.94,
-      "verdict": "viral",
-      "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN ALL-TIME DATA (0 posts analyzed):\nBest hook type: not enough data yet\nBest format: not enough data yet\nYour top hooks that got real results: No personal performance data yet.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR ALL-TIME DATA (152 hooks, 43 scripts analyzed):\nBest hook type in niche: story\nTop niche hooks by engagement: \"Power of AI Agents 🤯\" — @favourite.engineer (70346 likes) | \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\" — @dhavalkataria_ (63602 likes) | \"🤯 Claude can literally pay your rent by building websites\" — @favourite.engineer (57496 likes) | \"Somewhat while we are still young...\" — @vaibhavsisinty (34260 likes) | \"Power of Prompt 🤯\" — @favourite.engineer (33635 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"story\" style hooks. Match niche patterns but keep content original for @garvit.irl.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE — USE THESE AS STRUCTURAL REFERENCE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: comment_CTA | Eng: 89.94%\nHook: \"Comment “1 Lakh” & i’ll share all the side hustles and how you can make money from them\"\nOpening: \"Comment “1 Lakh” & i’ll share all the side hustles and how you can make money from them...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN ALL-TIME DATA (31 posts analyzed):\nBest hook type: unknown\nBest format: reel\nYour top hooks that got real results: \"undefined\" (undefined likes) | \"undefined\" (undefined likes) | \"undefined\" (undefined likes) | \"undefined\" (undefined likes) | \"undefined\" (undefined likes)\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR ALL-TIME DATA (195 hooks, 94 scripts analyzed):\nBest hook type in niche: story\nTop niche hooks by engagement: \"I also asked Sundar what he thinks of wrapper startups 😁\" — @thevarunmayya (98256 likes) | \"Power of AI Agents 🤯\" — @favourite.engineer (70346 likes) | \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\" — @dhavalkataria_ (63602 likes) | \"Coming soon. We talk:\" — @thevarunmayya (58564 likes) | \"🤯 Claude can literally pay your rent by building websites\" — @favourite.engineer (57496 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"unknown\" style hooks. Match niche patterns but keep content original for @garvit.irl.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE — USE THESE AS STRUCTURAL REFERENCE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

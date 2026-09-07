@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-09-06T10:40:06.060Z",
-  "total_posts_analyzed": 0,
-  "best_hook_types": [],
-  "best_formats": [],
-  "top_performing_hooks": [],
-  "summary": "Not enough personal data yet (0/3 posts). Using niche data from 152 competitor hooks."
+  "bestFormats": [
+    "list",
+    "story"
+  ],
+  "bestPostTimes": [],
+  "bestHooks": [
+    "OpenAI just beat Claude at almost everything 😳 Here’s what nobody told u   New",
+    "Nobody told you these Al tools have FREE twins  10 paid tools, 10 free alternati",
+    "Stop paying insane API bills for AI coding assistants. 🤯 You can run Claude Cod"
+  ],
+  "avgEngByFormat": {
+    "reel": 0.3,
+    "list": 75.51,
+    "story": 2.96,
+    "howto": 1.28
+  }
 }

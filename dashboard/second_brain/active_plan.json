@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-05",
-  "end_date": "2026-09-12",
+  "generated_on": "2026-09-07",
+  "end_date": "2026-09-14",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-05",
-      "topic": "Automating weekend emails so you don't touch your laptop.",
+      "date": "2026-09-07",
+      "topic": "Building a 24/7 WhatsApp lead qualification bot using Make.com and ChatGPT API for Indian D2C businesses.",
       "format": "Reel",
       "post_time": "7:15 PM IST",
-      "hook": "\"Stop working on your weekends. Here is how I automate my entire client communication while I'm at the movies.\"",
+      "hook": "\"Stop losing ₹10,000+ in abandoned leads every weekend—here is how to automate your WhatsApp sales for ₹0.\"",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-06",
-      "topic": "5 AI tools every Indian solopreneur needs to start using by Monday morning.",
+      "date": "2026-09-08",
+      "topic": "5 AI automation tools that replaced a ₹50,000/month operational team for an early-stage startup.",
       "format": "Carousel",
       "post_time": "6:45 PM IST",
-      "hook": "\"If you aren't using these 5 AI tools, you are leaving money on the table this week.\"",
+      "hook": "\"I cut ₹50,000 in monthly overhead costs with this exact 5-tool AI stack (slide to see the workflow).\"",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-07",
-      "topic": "How to use ChatGPT to write professional cold emails that actually get replies.",
+      "date": "2026-09-09",
+      "topic": "Automating GST invoice extraction from Gmail directly into Google Sheets and Tally.",
       "format": "Reel",
       "post_time": "7:30 PM IST",
-      "hook": "\"Stop sending 'I hope this email finds you well.' Use this specific ChatGPT prompt to get a 50% higher response rate.\"",
+      "hook": "\"If your team spends Monday mornings manually sorting GST invoices, you're wasting 15 hours a week.\"",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-08",
-      "topic": "Breakdown of a 100k/month automation agency business model.",
+      "date": "2026-09-10",
+      "topic": "Step-by-step roadmap to land your first ₹25,000 AI Automation client in India (no coding required).",
       "format": "Carousel",
       "post_time": "7:00 PM IST",
-      "hook": "\"Most people think starting an AI agency is hard. Here is the exact business model I’d use to hit 1 Lakh/month from my bedroom.\"",
+      "hook": "\"How to build and sell your first AI automation service to local Indian businesses in 14 days.\"",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-09",
-      "topic": "Why your current productivity routine is failing (and how AI fixes it).",
+      "date": "2026-09-11",
+      "topic": "Using AI voice-cloning and HeyGen to generate 30 localized video ads in Hindi & English in 10 minutes.",
       "format": "Reel",
       "post_time": "7:45 PM IST",
-      "hook": "\"You’re not lazy, you’re just managing your tasks like it’s 2010. Let’s fix your workflow.\"",
+      "hook": "\"I filmed one 30-second video, and AI turned it into 30 localized ads in fluent Hindi.\"",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-10",
-      "topic": "3 AI-powered side hustles that require zero coding skills.",
+      "date": "2026-09-12",
+      "topic": "The \"Operating System\" ChatGPT prompt collection for Indian agency owners and solopreneurs.",
       "format": "Carousel",
       "post_time": "6:30 PM IST",
-      "hook": "\"Don't know how to code? Good. You don't need to. Here are 3 AI side hustles you can start tonight.\"",
+      "hook": "\"95% of founders use ChatGPT like Google. Here are 6 system prompts that actually run my operations.\"",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-11",
-      "topic": "My \"Friday Audit\" – How I use AI to review my week’s progress in 5 minutes.",
+      "date": "2026-09-13",
+      "topic": "Scraping local verified business leads from Google Maps and sending personalized AI cold outreach.",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "\"Stop doing manual weekly reviews. I use this AI hack to summarize my entire week’s work in under 5 minutes.\"",
+      "post_time": "7:15 PM IST",
+      "hook": "\"Here is how to legally extract 500 B2B leads in your city in under 3 minutes using simple automation.\"",
       "status": "pending"
     }
   ]

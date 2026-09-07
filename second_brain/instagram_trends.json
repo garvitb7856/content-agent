@@ -1,67 +1,61 @@
 {
-  "generated_at": "2026-09-05T07:40:36.673Z",
+  "generated_at": "2026-09-07T10:42:39.395Z",
   "hotRightNow": [
     {
-      "username": "ishansharma7390",
-      "caption": "Happy Janmashtmi Everyone!✨🦚\n\nI was 17, when my parents used to take me to Iskcon Dwarka in Delhi e",
-      "likes": 11378,
-      "comments": 24,
-      "engagement": 11402,
-      "engRate": "0.90",
-      "timestamp": "2026-09-04T09:47:33.000Z",
-      "url": "https://www.instagram.com/p/Dc3GXH6H8_Y/",
-      "type": "Post"
+      "username": "vaibhavsisinty",
+      "caption": "Dyson Put A Camera Inside Toothbrushes\n\nThe CameraJet has a tiny camera in the brush head that reads",
+      "likes": 4119,
+      "comments": 54,
+      "engagement": 4173,
+      "engRate": "0.20",
+      "timestamp": "2026-09-06T12:35:21.000Z",
+      "url": "https://www.instagram.com/p/Dc8i8NvAdCS/",
+      "type": "Video"
     },
     {
       "username": "nick_saraev",
-      "caption": "Comment \"DESIGN\" to get this free Design.MD library with over 2000+Website Design Systems.\n\nIf you w",
-      "likes": 1467,
-      "comments": 3228,
-      "engagement": 4695,
-      "engRate": "0.71",
-      "timestamp": "2026-09-04T16:22:20.000Z",
-      "url": "https://www.instagram.com/p/Dc3zXkXSxpH/",
-      "type": "Post"
+      "caption": "Comment \"PLUGINS\" to get these 4 Plugins to stop getting AI slop content.\n\nIf you're tired of your A",
+      "likes": 991,
+      "comments": 1008,
+      "engagement": 1999,
+      "engRate": "0.30",
+      "timestamp": "2026-09-06T13:23:59.000Z",
+      "url": "https://www.instagram.com/p/Dc8ojRUvOrL/",
+      "type": "Video"
     },
     {
-      "username": "thevarunmayya",
-      "caption": "#IBMPartners I just came across something called @ibm SkillsBuild, and it’s one of the best ways to ",
-      "likes": 1529,
-      "comments": 53,
-      "engagement": 1582,
-      "engRate": "0.12",
-      "timestamp": "2026-09-04T14:39:25.000Z",
-      "url": "https://www.instagram.com/p/Dc3nn62BOI_/",
-      "type": "Post"
+      "username": "ishansharma7390",
+      "caption": "Learn to speak like the top 1%",
+      "likes": 929,
+      "comments": 2,
+      "engagement": 931,
+      "engRate": "0.07",
+      "timestamp": "2026-09-06T15:56:38.000Z",
+      "url": "https://www.instagram.com/p/Dc86BiaMeUn/",
+      "type": "Video"
     },
     {
       "username": "nivedan.ai",
-      "caption": "The AI race might have just entered a completely different phase. 👀🤯\n\nOpenAI’s GPT-6 Astra is repo",
-      "likes": 265,
-      "comments": 77,
-      "engagement": 342,
-      "engRate": "0.07",
-      "timestamp": "2026-09-04T14:57:27.000Z",
-      "url": "https://www.instagram.com/p/Dc3ptp-CZni/",
-      "type": "Post"
-    },
-    {
-      "username": "aryamanupmanyu",
-      "caption": "Comment “AI” & START NOW‼️\n.\n.\n#ai #aiagent #tech",
-      "likes": 3,
-      "comments": 79,
-      "engagement": 82,
-      "engRate": "0.11",
-      "timestamp": "2026-09-04T16:47:46.000Z",
-      "url": "https://www.instagram.com/p/Dc31_WGJ7LI/",
+      "caption": "GPT-6 Astra has been live for just 4 days, and people are already using it to build games, 3D worlds",
+      "likes": 188,
+      "comments": 0,
+      "engagement": 188,
+      "engRate": "0.04",
+      "timestamp": "2026-09-07T07:14:39.000Z",
+      "url": "https://www.instagram.com/p/Dc-jP9tCef_/",
       "type": "Post"
     }
   ],
   "risingFormat": [
     {
+      "format": "video",
+      "avgEng": 6350,
+      "count": 37
+    },
+    {
       "format": "post",
-      "avgEng": 5505,
-      "count": 43
+      "avgEng": 2416,
+      "count": 6
     }
   ],
   "trendingTopics": [
@@ -70,57 +64,57 @@
       "appearsIn": "10 top posts"
     },
     {
-      "topic": "gpt",
+      "topic": "claude",
       "appearsIn": "4 top posts"
     },
     {
-      "topic": "agent",
-      "appearsIn": "4 top posts"
-    },
-    {
-      "topic": "chatgpt",
+      "topic": "money",
       "appearsIn": "3 top posts"
     },
     {
-      "topic": "claude",
+      "topic": "agent",
+      "appearsIn": "3 top posts"
+    },
+    {
+      "topic": "gpt",
       "appearsIn": "3 top posts"
     }
   ],
   "bestPostingWindow": [
-    "18:00 IST (4 top posts)",
-    "19:00 IST (3 top posts)",
-    "20:00 IST (3 top posts)"
+    "20:00 IST (4 top posts)",
+    "18:00 IST (3 top posts)",
+    "19:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
-      "hook": "Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading",
-      "username": "favourite.engineer",
-      "likes": 33600,
-      "url": "https://www.instagram.com/p/DZ-q1LZzCiD/"
-    },
-    {
-      "hook": "This AI Turns Potholes Into Complaints 🚨 \n\nBengaluru potholes were destroying @",
-      "username": "vaibhavsisinty",
-      "likes": 136695,
-      "url": "https://www.instagram.com/p/DcQ6mQYgVaq/"
-    },
-    {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 56776,
+      "likes": 58691,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98250,
+      "likes": 98256,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 69948,
+      "likes": 71426,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
+    },
+    {
+      "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
+      "username": "dhavalkataria_",
+      "likes": 64358,
+      "url": "https://www.instagram.com/p/Dbdacspojza/"
+    },
+    {
+      "hook": "Coming soon. We talk: \n\n- Indian 4o Image gen usage (some numbers too)\n- Design ",
+      "username": "thevarunmayya",
+      "likes": 58564,
+      "url": "https://www.instagram.com/p/DIB4N7-oJ-m/"
     }
   ]
 }
