@@ -149,11 +149,12 @@ async function run() {
     const h = data.your_account.username || MY_HANDLE;
     handlePosts.push({ handle: h, posts: data.your_account.posts || [] });
   }
-  if (data.competitors && typeof data.competitors === 'object' && !Array.isArray(data.competitors)) {
-    for (const [h, acc] of Object.entries(data.competitors)) {
-      handlePosts.push({ handle: h, posts: acc.posts || [] });
-    }
-  }
+  // Competitors transcribed separately — own posts first
+  // if (data.competitors && typeof data.competitors === 'object' && !Array.isArray(data.competitors)) {
+  //   for (const [h, acc] of Object.entries(data.competitors)) {
+  //     handlePosts.push({ handle: h, posts: acc.posts || [] });
+  //   }
+  // }
   if (Array.isArray(data.accounts)) {
     for (const acc of data.accounts) {
       handlePosts.push({ handle: acc.username, posts: acc.posts || [] });
@@ -169,7 +170,7 @@ async function run() {
   }
 
   const newlyTranscribed = [];
-  const TEST_LIMIT = 2; // testing only — change back to 200 when confirmed working
+  const TEST_LIMIT = 200; // process all new videos
   let transcribedCount = 0;
   let skipped = 0, noVideoUrl = 0;
 
