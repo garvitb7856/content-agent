@@ -9,6 +9,12 @@ const HISTORY_PATH  = path.join(ROOT, 'second_brain/ideas_history.json');
 const GEMINI_KEY    = process.env.GEMINI_API_KEY;
 const UNCATEGORIZED_THRESHOLD = 15;
 
+function atomicWrite(filePath, data) {
+  const tmp = filePath + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, filePath);
+}
+
 function loadClusters() {
   try { return JSON.parse(fs.readFileSync(CLUSTERS_PATH, 'utf8')); } catch(e) { return []; }
 }
@@ -108,7 +114,7 @@ Only return clusters for groups of 3 or more similar titles. Skip one-offs.`;
   }
 
   const merged = [...clusters, ...newClusters];
-  fs.writeFileSync(CLUSTERS_PATH, JSON.stringify(merged, null, 2));
+  atomicWrite(CLUSTERS_PATH, merged);
   console.log(`✅ Added ${newClusters.length} new cluster(s) to topic_clusters.json:`);
   newClusters.forEach(c => console.log(`   + "${c.name}" — keywords: ${c.keywords.join(', ')}`));
 }

@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+function atomicWrite(filePath, data) {
+  const tmp = filePath + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, filePath);
+}
+
 const SECOND_BRAIN_DIR = path.join(__dirname, '../second_brain');
 const DASHBOARD_SB_DIR = path.join(__dirname, '../dashboard/second_brain');
 const HISTORY_DIR = path.join(SECOND_BRAIN_DIR, 'history');

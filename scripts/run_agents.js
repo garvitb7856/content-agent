@@ -8,6 +8,12 @@ function safeRead(filePath, fallback) {
   try { return JSON.parse(fs.readFileSync(filePath, 'utf8')); } catch(e) { return fallback; }
 }
 
+function atomicWrite(filePath, data) {
+  const tmp = filePath + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, filePath);
+}
+
 const rawTrends = safeRead(path.join(ROOT, 'second_brain/trends.json'), {});
 const trendContext = rawTrends.ideator_context || '';
 
@@ -421,7 +427,7 @@ OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. N
 
   // Save pending_ideas.json
   fs.mkdirSync(path.dirname(PENDING_PATH), {recursive:true});
-  fs.writeFileSync(PENDING_PATH, JSON.stringify(top5, null, 2));
+  atomicWrite(PENDING_PATH, top5);
   console.log('  ✅ Saved pending_ideas.json');
 
   // Update ideas_history.json
@@ -429,7 +435,7 @@ OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. N
   history.generated_topics = history.generated_topics||[];
   ideas50.forEach(idea => history.generated_topics.push({date:todayStr,title:idea.title||''}));
   if (history.generated_topics.length>500) history.generated_topics = history.generated_topics.slice(-500);
-  fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2));
+  atomicWrite(HISTORY_PATH, history);
   console.log('  ✅ Updated ideas_history.json');
 
   // ── AGENT 3: ANALYST ─────────────────────────────────────────────────────
@@ -495,7 +501,7 @@ For EACH day write exactly:
 Mix formats daily. Vary trigger words. Make every topic specific enough to film.
 `, 'Planner', 0.7);
     fs.mkdirSync(path.dirname(PLAN_PATH),{recursive:true});
-    fs.writeFileSync(PLAN_PATH, JSON.stringify({created_at:new Date().toISOString(),content:planner},null,2));
+    atomicWrite(PLAN_PATH, {created_at:new Date().toISOString(),content:planner});
   }
 
   // ── SAVE OUTPUT ───────────────────────────────────────────────────────────
@@ -513,7 +519,7 @@ Mix formats daily. Vary trigger words. Make every topic specific enough to film.
   output.primary_model = (global.modelsUsed || [])[0] || 'unknown';
   [OUT_PATH1, OUT_PATH2].forEach(p => {
     fs.mkdirSync(path.dirname(p),{recursive:true});
-    fs.writeFileSync(p, JSON.stringify(output,null,2));
+    atomicWrite(p, output);
   });
   console.log('\n✅ Done. '+top5.length+' ideas ready in pending_ideas.json');
   console.log('📱 Reply 1-5 on Telegram to generate a script for your chosen idea.');

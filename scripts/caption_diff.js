@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+function atomicWrite(filePath, data) {
+  const tmp = filePath + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, filePath);
+}
+
 const ROOT = path.join(__dirname, '..');
 const CONTENT_LOG = path.join(ROOT, 'second_brain/content_log.json');
 const SCRIPT_LIBRARY = path.join(ROOT, 'second_brain/script_library.json');
@@ -136,7 +142,7 @@ function run() {
   }
 
   // Save updated content log
-  fs.writeFileSync(CONTENT_LOG, JSON.stringify(contentLog, null, 2));
+  atomicWrite(CONTENT_LOG, contentLog);
 
   // Also update performance_archive.json with diff data for archived posts
   const archivePath = path.join(ROOT, 'second_brain/performance_archive.json');
@@ -154,7 +160,7 @@ function run() {
         }
       }
       if (archiveUpdated) {
-        fs.writeFileSync(archivePath, JSON.stringify(Array.isArray(rawArch) ? archive : { ...rawArch, posts: archive }, null, 2));
+        atomicWrite(archivePath, Array.isArray(rawArch) ? archive : { ...rawArch, posts: archive });
       }
     } catch(e) {}
   }

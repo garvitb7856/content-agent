@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+function atomicWrite(filePath, data) {
+  const tmp = filePath + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, filePath);
+}
+
 const ROOT = path.join(__dirname, '..');
 const DATA_PATH = path.join(ROOT, 'dashboard/data/data.json');
 const HOOK_BANK_PATH = path.join(ROOT, 'second_brain/hook_bank.json');
@@ -88,7 +94,7 @@ function updateHookBank() {
   }
 
   bankData.updated_at = new Date().toISOString();
-  fs.writeFileSync(HOOK_BANK_PATH, JSON.stringify(bankData, null, 2));
+  atomicWrite(HOOK_BANK_PATH, bankData);
 
   console.log(`Hook bank updated: ${newCount} new hooks added. Total: ${bankData.hooks.length} hooks.`);
 }

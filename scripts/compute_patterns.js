@@ -2,6 +2,12 @@ const fs = require('fs');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
 
+function atomicWrite(filePath, data) {
+  const tmp = filePath + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, filePath);
+}
+
 function safeRead(filePath, fallback) {
   try { return JSON.parse(fs.readFileSync(filePath, 'utf8')); } catch(e) { return fallback; }
 }
@@ -203,7 +209,7 @@ const agentContext = {
   instruction_for_agents: instruction
 };
 
-fs.writeFileSync(path.join(ROOT,'second_brain/agent_context.json'), JSON.stringify(agentContext, null, 2));
+atomicWrite(path.join(ROOT,'second_brain/agent_context.json'), agentContext);
 
 const patterns = {
   updated_at: new Date().toISOString(),
@@ -216,7 +222,7 @@ const patterns = {
   summary: `@garvit.irl (${archive.length} posts): best hook = ${yourBest||'TBD'}, best format = ${yourByFormat[0]?.type||'TBD'}. DIFF: ${diffLearning.split('\n')[0]}. NICHE (${hookBank.length} hooks): ${hookLengthInsight} Best niche hook type: ${nicheBest||'TBD'}. ${topBlueprints.length} viral blueprints active.`
 };
 
-fs.writeFileSync(path.join(ROOT,'second_brain/patterns.json'), JSON.stringify(patterns, null, 2));
+atomicWrite(path.join(ROOT,'second_brain/patterns.json'), patterns);
 
 console.log(`✅ Patterns computed.`);
 console.log(`   Your data: ${archive.length} posts | Diff insights: ${diffInsights.length} posts`);
