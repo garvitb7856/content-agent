@@ -70,32 +70,104 @@ function loadHistory() {
   try { return JSON.parse(fs.readFileSync(HISTORY_PATH,'utf8')); } catch(e) { return {generated_topics:[],posted_topics:[]}; }
 }
 
-async function gemini(prompt, label, temperature) {
-  temperature = temperature || 0.7;
-  process.stdout.write('Calling Gemini for '+label+'... ');
-  const models = ['gemini-3.7-flash','gemini-3.8-flash','gemini-3.1-flash-lite','gemini-3.1-pro-preview'];
-  for (const model of models) {
-    const postData = JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{temperature, maxOutputTokens:8192} });
-    const options = { hostname:'generativelanguage.googleapis.com', port:443, path:'/v1beta/models/'+model+':generateContent?key='+GEMINI_KEY, method:'POST', headers:{'Content-Type':'application/json','Content-Length':Buffer.byteLength(postData)} };
-    for (let attempt=1; attempt<=3; attempt++) {
-      try {
-        const {statusCode, body} = await new Promise((resolve, reject) => {
-          const req = https.request(options, (res) => { let d=''; res.on('data',c=>d+=c); res.on('end',()=>resolve({statusCode:res.statusCode,body:d})); });
-          req.on('error', reject); req.write(postData); req.end();
-        });
-        if (statusCode>=200 && statusCode<300) {
-          const text = JSON.parse(body).candidates[0]?.content?.parts[0]?.text?.trim();
-          if (text && text.length>20) { console.log('done ('+model+', '+text.length+' chars)'); return text; }
-        }
-        if (statusCode===503||statusCode===429) { process.stdout.write('['+model+' '+statusCode+', fallback]... '); break; }
-        throw new Error('HTTP '+statusCode);
-      } catch(err) {
-        if (attempt<3) await new Promise(r=>setTimeout(r,2000));
-        else process.stdout.write('['+model+' failed]... ');
+// ── SMART MODEL POOL ─────────────────────────────────────────
+// Ordered best → acceptable for content writing
+// Based on confirmed available models in Antigravity account
+const MODEL_POOL = [
+  { id: 'gemini-3.8-flash',      quality: 10, dailyLimit: 20 },
+  { id: 'gemini-3.7-flash',      quality: 9,  dailyLimit: 20 },
+  { id: 'gemini-3.6-flash',      quality: 8,  dailyLimit: 20 },
+  { id: 'gemini-3-flash',        quality: 7,  dailyLimit: 20 },
+  { id: 'gemini-2.5-flash',      quality: 6,  dailyLimit: 20 },
+  { id: 'gemini-3.5-flash-lite', quality: 4,  dailyLimit: 500 },
+  { id: 'gemini-2.5-flash-lite', quality: 3,  dailyLimit: 20 },
+  { id: 'gemini-3.1-flash-lite', quality: 2,  dailyLimit: 500 },
+];
+
+const modelState = {}; // id → { cooldownUntil, sessionFailed, useCount }
+
+function getState(id) {
+  if (!modelState[id]) modelState[id] = { cooldownUntil: 0, sessionFailed: false, useCount: 0 };
+  return modelState[id];
+}
+
+function getBestAvailableModel(excludeIds = new Set()) {
+  const now = Date.now();
+  // Pick highest quality model that is not cooling down, not session-failed, not excluded
+  const available = MODEL_POOL.filter(m =>
+    !m.sessionFailed &&
+    !getState(m.id).sessionFailed &&
+    !excludeIds.has(m.id) &&
+    now >= getState(m.id).cooldownUntil
+  );
+  if (available.length) return available[0].id; // already sorted best→worst
+
+  // All cooling — pick the one whose cooldown expires soonest
+  const notFailed = MODEL_POOL.filter(m => !getState(m.id).sessionFailed && !excludeIds.has(m.id));
+  if (!notFailed.length) return MODEL_POOL[MODEL_POOL.length - 1].id;
+  return notFailed.reduce((best, m) =>
+    getState(m.id).cooldownUntil < getState(best.id).cooldownUntil ? m : best
+  ).id;
+}
+
+function markCooling(id, code) {
+  const coolMs = code === 429 ? 65000 : 35000; // 429=rate limit 65s | 503=overload 35s
+  getState(id).cooldownUntil = Date.now() + coolMs;
+  const next = getBestAvailableModel(new Set([id]));
+  console.log(`\n  [${id} → ${code}, cooling ${coolMs/1000}s | next best: ${next}]`);
+}
+
+async function callGemini(prompt, maxTokens = 8192) {
+  const { GoogleGenerativeAI } = require('@google/generative-ai');
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+  const triedThisCall = new Set();
+  let lastError = null;
+
+  for (let attempt = 0; attempt < MODEL_POOL.length; attempt++) {
+    const modelId = getBestAvailableModel(triedThisCall);
+    triedThisCall.add(modelId);
+    const state = getState(modelId);
+
+    // If cooling, wait it out (max 10s wait, then move on)
+    const waitMs = Math.min(state.cooldownUntil - Date.now(), 10000);
+    if (waitMs > 0) {
+      process.stdout.write(`  [waiting ${Math.ceil(waitMs/1000)}s for ${modelId}]... `);
+      await new Promise(r => setTimeout(r, waitMs));
+    }
+
+    try {
+      process.stdout.write(`  Calling [${modelId}]... `);
+      const model = genAI.getGenerativeModel({
+        model: modelId,
+        generationConfig: { maxOutputTokens: maxTokens, temperature: 0.85 }
+      });
+      const result = await model.generateContent(prompt);
+      const text = result.response.text();
+      state.useCount++;
+      console.log(`✓ done (${text.length} chars, used ${state.useCount}x today)`);
+      return text;
+    } catch(e) {
+      lastError = e;
+      const msg = e.message || '';
+      const code = e.status || (msg.includes('429') ? 429 : msg.includes('503') ? 503 : msg.includes('404') ? 404 : 500);
+
+      if (code === 404 || msg.includes('not found') || msg.includes('no longer available')) {
+        state.sessionFailed = true;
+        console.log(`\n  [${modelId} not available — removed from pool this session]`);
+      } else if (code === 429 || code === 503) {
+        markCooling(modelId, code);
+        await new Promise(r => setTimeout(r, 2000));
+      } else {
+        state.sessionFailed = true;
+        console.log(`\n  [${modelId} error ${code} — skipping: ${msg.substring(0,60)}]`);
       }
     }
   }
-  console.log('all models failed.'); return '[Agent Error: all model fallbacks exhausted]';
+  throw new Error(`All models exhausted. Last: ${lastError?.message}`);
+}
+
+async function gemini(prompt, label, temperature) {
+  return callGemini(prompt);
 }
 
 function parseJSONArray(raw, label) {
