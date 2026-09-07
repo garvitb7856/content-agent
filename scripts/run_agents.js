@@ -65,6 +65,51 @@ function loadTrends() {
   if (!fs.existsSync(TRENDS_PATH)) return { trends:[] };
   try { return JSON.parse(fs.readFileSync(TRENDS_PATH,'utf8')); } catch(e) { return {trends:[]}; }
 }
+// ── DYNAMIC TOPIC CLUSTER ENGINE ────────────────────────────
+// Reads clusters from topic_clusters.json (self-expanding over time).
+// Groups all idea history into compact topic buckets so the Ideator
+// prompt never grows beyond ~20 lines regardless of history size.
+function clusterHistory(history) {
+  const clustersPath = path.join(__dirname, '../second_brain/topic_clusters.json');
+  let CLUSTERS = [];
+  try { CLUSTERS = JSON.parse(fs.readFileSync(clustersPath, 'utf8')); } catch(e) {}
+
+  const allTitles = [
+    ...(history.generated_topics || []).map(t => (t.title || t).toLowerCase()),
+    ...(history.posted_topics    || []).map(t => (t.title || t).toLowerCase()),
+  ];
+
+  if (!allTitles.length) return 'No history yet — all topics are fresh.';
+
+  const counts = {};
+  CLUSTERS.forEach(c => { counts[c.name] = 0; });
+  const uncategorized = [];
+
+  allTitles.forEach(title => {
+    let matched = false;
+    for (const cluster of CLUSTERS) {
+      if (cluster.keywords.some(kw => title.includes(kw))) {
+        counts[cluster.name]++;
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) uncategorized.push(title);
+  });
+
+  const lines = CLUSTERS
+    .filter(c => counts[c.name] > 0)
+    .sort((a, b) => counts[b.name] - counts[a.name])
+    .map(c => `- ${c.name} — ${counts[c.name]}x covered, avoid for now`);
+
+  if (uncategorized.length) {
+    lines.push(`- Uncategorized topics (${uncategorized.length} total) — avoid: ${uncategorized.slice(-8).join(' | ')}`);
+  }
+
+  return lines.length ? lines.join('\n') : 'No history yet — all topics are fresh.';
+}
+// ─────────────────────────────────────────────────────────────
+
 function loadHistory() {
   if (!fs.existsSync(HISTORY_PATH)) return { generated_topics:[], posted_topics:[] };
   try { return JSON.parse(fs.readFileSync(HISTORY_PATH,'utf8')); } catch(e) { return {generated_topics:[],posted_topics:[]}; }
@@ -253,8 +298,7 @@ async function main() {
     ? '\nYOUTUBE TRENDING TECH INDIA:\n' + trendsData.youtube.map(t=>`- ${t.title}`).join('\n')
     : '';
 
-  const historyTitles = (history.generated_topics||[]).slice(-60).map(t=>t.title);
-  const postedTitles = (history.posted_topics||[]).map(t=>t.title);
+  const historyTitles = clusterHistory(history);
   const engRate = myFollowers ? (((myAvgLikes+myAvgComments)/myFollowers)*100).toFixed(2) : '0.00';
 
   const rawHookBank = fs.existsSync(path.join(__dirname, '../second_brain/hook_bank.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/hook_bank.json'), 'utf8')) : [];
@@ -318,6 +362,9 @@ MY RECENT POSTS (do NOT repeat similar topics):
 ${myPostsText}
 ${realTranscripts}
 
+TOPICS ALREADY COVERED — DO NOT REPEAT THESE CLUSTERS:
+${historyTitles}
+
 YOUR TASK: Generate exactly 50 content ideas for Instagram. Each must be specific, not generic. Rooted in actual trends above.
 
 CRITICAL: Your response must be a valid JSON array only. No markdown, no explanation, no code blocks. 
@@ -355,11 +402,8 @@ SCORING RULES — be strict:
 50 IDEAS TO EVALUATE:
 ${JSON.stringify(ideas50)}
 
-TOPICS ALREADY GENERATED IN LAST 30 DAYS (penalize similar ones):
-${JSON.stringify(historyTitles.slice(-30))}
-
-TOPICS CREATOR ALREADY POSTED (mark LOW if similar):
-${JSON.stringify(postedTitles)}
+TOPICS ALREADY COVERED — DO NOT REPEAT THESE CLUSTERS:
+${historyTitles}
 
 TREND DATA CONTEXT (same data Ideator used):
 ${trendSummary.substring(0,1500)}
