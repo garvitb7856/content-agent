@@ -152,14 +152,23 @@ async function callGemini(prompt, maxTokens = 8192) {
       const code = e.status || (msg.includes('429') ? 429 : msg.includes('503') ? 503 : msg.includes('404') ? 404 : 500);
 
       if (code === 404 || msg.includes('not found') || msg.includes('no longer available')) {
+        // Model doesn't exist for this account — skip permanently this session
         state.sessionFailed = true;
         console.log(`\n  [${modelId} not available — removed from pool this session]`);
-      } else if (code === 429 || code === 503) {
-        markCooling(modelId, code);
+      } else if (code === 429) {
+        // Rate limit — cool 65s
+        markCooling(modelId, 429);
+        await new Promise(r => setTimeout(r, 2000));
+      } else if (code === 503) {
+        // Overloaded — cool 35s
+        markCooling(modelId, 503);
         await new Promise(r => setTimeout(r, 2000));
       } else {
-        state.sessionFailed = true;
-        console.log(`\n  [${modelId} error ${code} — skipping: ${msg.substring(0,60)}]`);
+        // Any other error (500, timeout, network) — temporary, cool 45s and retry
+        state.cooldownUntil = Date.now() + 45000;
+        const next = getBestAvailableModel(new Set([modelId]));
+        console.log(`\n  [${modelId} error ${code} — cooling 45s, trying ${next} meanwhile: ${msg.substring(0,60)}]`);
+        await new Promise(r => setTimeout(r, 2000));
       }
     }
   }
