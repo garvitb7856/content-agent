@@ -45,6 +45,34 @@ function run(label, command, options = {}) {
   }
 }
 
+async function runParallel(steps) {
+  const { spawn } = require('child_process');
+  console.log(`\n▶ Running ${steps.length} steps in parallel: ${steps.map(s=>s[0]).join(' + ')}...`);
+  const results = await Promise.all(steps.map(([label, command]) => {
+    return new Promise((resolve) => {
+      const stepKey = label.replace(/[^a-zA-Z0-9]/g,'_').toLowerCase();
+      status.steps[stepKey] = { status: 'running', startedAt: new Date().toISOString() };
+      saveStatus();
+      const [cmd, ...args] = command.split(' ');
+      const proc = spawn(cmd === 'node' ? 'node' : cmd, args, { cwd: process.cwd(), stdio: 'inherit', shell: true });
+      proc.on('close', code => {
+        if (code === 0) {
+          status.steps[stepKey].status = 'success';
+          status.steps[stepKey].finishedAt = new Date().toISOString();
+          console.log(`✅ ${label} done.`);
+        } else {
+          status.steps[stepKey].status = 'failed';
+          status.steps[stepKey].finishedAt = new Date().toISOString();
+          console.error(`⚠️ ${label} failed (exit ${code}).`);
+        }
+        saveStatus();
+        resolve(code === 0);
+      });
+    });
+  }));
+  return results.every(Boolean);
+}
+
 (async () => {
   console.log('🚀 Content Agent Daily Run — ' + new Date().toLocaleString('en-IN'));
 
@@ -75,16 +103,18 @@ function run(label, command, options = {}) {
     saveStatus();
   }
 
-  // Run trend fetch and instagram trends concurrently would require child_process.spawn
-  // For now run sequentially but non-critical
-  run('2. Fetch Internet Trends',    'node scripts/fetch_trends.js');
-  run('2.5 Analyze IG Trends',       'node scripts/instagram_trends.js');
-  run('2.6 Feedback Loop',           'node scripts/feedback_loop.js');
+  await runParallel([
+    ['2. Fetch Internet Trends',  'node scripts/fetch_trends.js'],
+    ['2.5 Analyze IG Trends',     'node scripts/instagram_trends.js'],
+    ['2.6 Feedback Loop',         'node scripts/feedback_loop.js'],
+  ]);
 
-  run('Update Hook Bank',            'node scripts/update_hook_bank.js');
-  run('Update Competitor Scripts',   'node scripts/update_competitor_scripts.js');
-  run('Fetch 48h Performance',       'node scripts/fetch_my_performance.js');
-  run('Detect New Posts',            'node scripts/detect_new_posts.js');
+  await runParallel([
+    ['Update Hook Bank',           'node scripts/update_hook_bank.js'],
+    ['Update Competitor Scripts',  'node scripts/update_competitor_scripts.js'],
+    ['Fetch 48h Performance',      'node scripts/fetch_my_performance.js'],
+    ['Detect New Posts',           'node scripts/detect_new_posts.js'],
+  ]);
   run('Compute Patterns',            'node scripts/compute_patterns.js');
   run('Notify Pattern Update',       'node scripts/notify_pattern_update.js');
 
@@ -94,6 +124,7 @@ function run(label, command, options = {}) {
   run('4. Run AI Agents',            'node scripts/run_agents.js', { critical: false });
   run('5. Update Second Brain',      'node scripts/update_second_brain.js');
   run('6. Plan Manager',             'node scripts/plan_manager.js');
+  run('6.5 Prune Second Brain',      'node scripts/prune_second_brain.js');
   run('7. Save History',             'node scripts/save_history.js');
   run('8. Push to GitHub',           'git add -A && git commit -m "daily auto-update" --allow-empty && git push');
   run('9. Send Telegram',            'node scripts/telegram_bot.js');
