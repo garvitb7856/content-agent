@@ -341,6 +341,11 @@ Rank competitors by engagement rate. Columns: Handle | Followers | Avg Likes | E
   }
   if (!planLocked) {
     const todayFormatted = new Date().toLocaleDateString('en-IN', {weekday:'long', day:'numeric', month:'short'});
+    const dayNames = Array.from({length: 7}, (_, i) => {
+      const d = new Date();
+      d.setDate(d.getDate() + i);
+      return d.toLocaleDateString('en-IN', { weekday: 'long' });
+    });
     planner = await gemini(`
 You are a content planner for @${myHandle} (AI/automation/entrepreneurship, Indian audience, 6:30-8PM IST peak hours).
 
