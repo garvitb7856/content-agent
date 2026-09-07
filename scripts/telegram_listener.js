@@ -93,17 +93,17 @@ async function processUpdate(update) {
     selectedTitle = idea.title;
   } else {
     let ideatorIdeas = [];
+    const parseIdeator = (raw) => {
+      if (Array.isArray(raw)) return raw;
+      if (raw?.ideas && Array.isArray(raw.ideas)) return raw.ideas;
+      if (typeof raw === 'string') { try { const p = JSON.parse(raw); return Array.isArray(p) ? p : (p?.ideas || []); } catch(e) {} }
+      return [];
+    };
     if (fs.existsSync(outPath1)) {
-      try {
-        const outData = JSON.parse(fs.readFileSync(outPath1, 'utf8'));
-        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
-      } catch(e) {}
+      try { const outData = JSON.parse(fs.readFileSync(outPath1, 'utf8')); ideatorIdeas = parseIdeator(outData.ideator); } catch(e) {}
     }
     if (!ideatorIdeas.length && fs.existsSync(outPath2)) {
-      try {
-        const outData = JSON.parse(fs.readFileSync(outPath2, 'utf8'));
-        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
-      } catch(e) {}
+      try { const outData = JSON.parse(fs.readFileSync(outPath2, 'utf8')); ideatorIdeas = parseIdeator(outData.ideator); } catch(e) {}
     }
     const idea = ideatorIdeas[num - 1];
     if (!idea) { await sendMessage('⚠️ Idea #'+num+' not found in today\'s full list.'); return; }

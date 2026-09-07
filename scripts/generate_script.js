@@ -83,17 +83,17 @@ async function main() {
     idea = pending[ideaIndex];
   } else {
     let ideatorIdeas = [];
+    const parseIdeator = (raw) => {
+      if (Array.isArray(raw)) return raw;
+      if (raw?.ideas && Array.isArray(raw.ideas)) return raw.ideas;
+      if (typeof raw === 'string') { try { const p = JSON.parse(raw); return Array.isArray(p) ? p : (p?.ideas || []); } catch(e) {} }
+      return [];
+    };
     if (fs.existsSync(OUT_PATH1)) {
-      try {
-        const outData = JSON.parse(fs.readFileSync(OUT_PATH1, 'utf8'));
-        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
-      } catch(e) {}
+      try { const outData = JSON.parse(fs.readFileSync(OUT_PATH1, 'utf8')); ideatorIdeas = parseIdeator(outData.ideator); } catch(e) {}
     }
     if (!ideatorIdeas.length && fs.existsSync(OUT_PATH2)) {
-      try {
-        const outData = JSON.parse(fs.readFileSync(OUT_PATH2, 'utf8'));
-        ideatorIdeas = outData.ideator?.ideas || (Array.isArray(outData.ideator) ? outData.ideator : []);
-      } catch(e) {}
+      try { const outData = JSON.parse(fs.readFileSync(OUT_PATH2, 'utf8')); ideatorIdeas = parseIdeator(outData.ideator); } catch(e) {}
     }
     idea = ideatorIdeas[ideaIndex];
     if (idea && !idea.niche) idea.niche = 'AI & Growth';
