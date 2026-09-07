@@ -1,171 +1,210 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
-const OUT_PATH = path.join(__dirname, '../second_brain/trends.json');
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
-function fetchJson(urlStr, label) {
-  return new Promise((resolve) => {
-    try {
-      const u = new URL(urlStr);
-      const options = {
-        hostname: u.hostname,
-        path: u.pathname + u.search,
-        method: 'GET',
-        headers: { 'User-Agent': 'ContentAgentResearcher/1.0', 'Accept': 'application/json' }
-      };
-      const req = https.request(options, (res) => {
-        let data = '';
-        res.on('data', chunk => data += chunk);
-        res.on('end', () => { try { resolve(JSON.parse(data)); } catch(e) { console.log('⚠️ '+label+': parse failed'); resolve(null); } });
+const ROOT = path.join(__dirname, '..');
+const OUT  = path.join(ROOT, 'second_brain/trends.json');
+
+const YOUTUBE_KEY = process.env.YOUTUBE_API_KEY;
+
+function fetchUrl(url) {
+  return new Promise((resolve, reject) => {
+    const options = { headers: { 'User-Agent': 'Mozilla/5.0 ContentAgent/1.0' } };
+    https.get(url, options, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try { resolve(JSON.parse(data)); }
+        catch(e) { resolve(null); }
       });
-      req.on('error', (e) => { console.log('⚠️ '+label+': '+e.message); resolve(null); });
-      req.setTimeout(20000, () => { req.destroy(); resolve(null); });
-      req.end();
-    } catch(e) { console.log('⚠️ '+label+': '+e.message); resolve(null); }
+    }).on('error', reject);
   });
 }
 
-async function fetchReddit(subreddit) {
-  const data = await fetchJson('https://www.reddit.com/r/'+subreddit+'/hot.json?limit=20&t=week', 'Reddit r/'+subreddit);
-  if (!data?.data?.children) return [];
-  return data.data.children.filter(p => !p.data.stickied && p.data.score > 30).map(p => ({
-    source: 'Reddit r/'+subreddit,
-    title: p.data.title,
-    score: p.data.score,
-    comments: p.data.num_comments,
-    url: 'https://reddit.com'+p.data.permalink
-  }));
+// ── REDDIT ──────────────────────────────────────────────────
+async function fetchReddit() {
+  const subreddits = ['artificial', 'ChatGPT', 'MachineLearning', 'india', 'startups', 'entrepreneur'];
+  const results = [];
+  for (const sub of subreddits) {
+    try {
+      const data = await fetchUrl(`https://www.reddit.com/r/${sub}/hot.json?limit=5`);
+      if (!data?.data?.children) continue;
+      for (const post of data.data.children) {
+        const p = post.data;
+        if (p.score < 100) continue;
+        results.push({
+          source: 'reddit',
+          subreddit: sub,
+          title: p.title,
+          score: p.score,
+          comments: p.num_comments,
+          url: `https://reddit.com${p.permalink}`
+        });
+      }
+    } catch(e) { console.log(`Reddit ${sub} failed:`, e.message); }
+  }
+  return results.sort((a,b) => b.score - a.score).slice(0, 10);
 }
 
+// ── HACKER NEWS ─────────────────────────────────────────────
 async function fetchHackerNews() {
-  const ids = await fetchJson('https://hacker-news.firebaseio.com/v0/topstories.json', 'HN list');
-  if (!Array.isArray(ids)) return [];
-  const keywords = ['ai','gpt','llm','claude','gemini','openai','automation','startup','creator','growth','entrepreneur','tool'];
-  const items = [];
-  await Promise.all(ids.slice(0,50).map(async (id) => {
-    const item = await fetchJson('https://hacker-news.firebaseio.com/v0/item/'+id+'.json', 'HN '+id);
-    if (!item?.title) return;
-    if (keywords.some(k => item.title.toLowerCase().includes(k))) {
-      items.push({ source:'HackerNews', title:item.title, score:item.score||0, comments:item.descendants||0, url:item.url||'https://news.ycombinator.com/item?id='+id });
-    }
-  }));
-  return items;
+  try {
+    const ids = await fetchUrl('https://hacker-news.firebaseio.com/v0/topstories.json');
+    if (!ids) return [];
+    const top10 = ids.slice(0, 10);
+    const stories = await Promise.all(top10.map(id =>
+      fetchUrl(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
+    ));
+    return stories.filter(Boolean).map(s => ({
+      source: 'hackernews',
+      title: s.title,
+      score: s.score,
+      comments: s.descendants || 0,
+      url: s.url || `https://news.ycombinator.com/item?id=${s.id}`
+    }));
+  } catch(e) { console.log('HN failed:', e.message); return []; }
 }
 
-// GOOGLE TRENDS
+// ── YOUTUBE TRENDING ────────────────────────────────────────
+async function fetchYouTube() {
+  if (!YOUTUBE_KEY) { console.log('No YOUTUBE_API_KEY — skipping YouTube'); return []; }
+  try {
+    // Trending in India (regionCode=IN), category filters: 28=Science&Tech, 22=People&Blogs
+    const categories = [{ id: '28', name: 'Science & Tech' }, { id: '22', name: 'People & Blogs' }, { id: '0', name: 'All' }];
+    const results = [];
+    for (const cat of categories) {
+      const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&chart=mostPopular&regionCode=IN&videoCategoryId=${cat.id}&maxResults=5&key=${YOUTUBE_KEY}`;
+      const data = await fetchUrl(url);
+      if (!data?.items) continue;
+      for (const video of data.items) {
+        const views = parseInt(video.statistics?.viewCount || 0);
+        const likes = parseInt(video.statistics?.likeCount || 0);
+        results.push({
+          source: 'youtube',
+          category: cat.name,
+          title: video.snippet.title,
+          channel: video.snippet.channelTitle,
+          views,
+          likes,
+          publishedAt: video.snippet.publishedAt,
+          url: `https://www.youtube.com/watch?v=${video.id}`,
+          tags: (video.snippet.tags || []).slice(0, 5),
+          description: (video.snippet.description || '').substring(0, 200)
+        });
+      }
+    }
+    // Deduplicate by url
+    const seen = new Set();
+    return results.filter(v => { if (seen.has(v.url)) return false; seen.add(v.url); return true; })
+                  .sort((a,b) => b.views - a.views)
+                  .slice(0, 15);
+  } catch(e) { console.log('YouTube failed:', e.message); return []; }
+}
+
+// ── GOOGLE TRENDS ────────────────────────────────────────────
 async function fetchGoogleTrends() {
   try {
     const googleTrends = require('google-trends-api');
-    const result = await googleTrends.dailyTrends({ geo: 'IN' });
-    const data = JSON.parse(result);
-    const trends = data.default.trendingSearchesDays[0].trendingSearches;
-    const keywords = ['ai','chatgpt','gemini','openai','claude','gpt','llm',
-                      'coding','developer','tech','software','startup','automation',
-                      'machine learning','neural','robot'];
-    const filtered = trends.filter(t => {
-      const title = (t.title?.query || '').toLowerCase();
-      return keywords.some(k => title.includes(k));
-    });
-    // If no tech trends found in India today, return empty gracefully
-    return filtered.slice(0, 5).map(t => ({
-      title: t.title.query,
-      traffic: t.formattedTraffic || 'trending',
-      source: 'Google Trends India'
-    }));
-  } catch(e) {
-    console.log('Google Trends fetch failed:', e.message);
-    return [];
-  }
-}
+    const keywords = ['AI tools', 'artificial intelligence', 'ChatGPT', 'automation', 'content creator'];
+    const results = [];
 
-async function fetchYouTubeTrending() {
-  try {
-    const https = require('https');
-    
-    const searches = [
-      'artificial intelligence 2026',
-      'ChatGPT new update',
-      'OpenAI GPT',
-      'Claude AI Anthropic',
-      'Gemini Google AI',
-      'AI agents automation',
-      'large language model',
-      'AI startup',
-      'machine learning breakthrough',
-      'AI vs human'
-    ];
-
-    async function searchYouTube(query) {
-      const q = encodeURIComponent(query);
-      return new Promise((resolve) => {
-        const options = {
-          hostname: 'www.youtube.com',
-          path: `/results?search_query=${q}&sp=CAISAhAB`,
-          headers: { 'User-Agent': 'Mozilla/5.0' }
-        };
-        https.get(options, res => {
-          let data = '';
-          res.on('data', chunk => data += chunk);
-          res.on('end', () => {
-            const matches = [...data.matchAll(/"title":\{"runs":\[\{"text":"([^"]{10,80})"\}/g)]
-              .map(m => m[1])
-              .filter(t => !t.includes('\\u'))
-              .slice(0, 2); // top 2 per query
-            resolve(matches);
-          });
-          res.on('error', () => resolve([]));
+    for (const kw of keywords) {
+      try {
+        const raw = await googleTrends.interestOverTime({
+          keyword: kw,
+          geo: 'IN',
+          startTime: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
         });
-      });
+        const parsed = JSON.parse(raw);
+        const timelineData = parsed?.default?.timelineData || [];
+        const recent = timelineData.slice(-3);
+        const avgValue = recent.length
+          ? Math.round(recent.reduce((a,b) => a + (b.value?.[0] || 0), 0) / recent.length)
+          : 0;
+        results.push({ keyword: kw, trend_score: avgValue, geo: 'IN' });
+      } catch(e) { /* skip individual keyword errors */ }
     }
 
-    // Run all searches with 300ms delay between each to avoid rate limiting
-    const allTitles = [];
-    for (const query of searches) {
-      const results = await searchYouTube(query);
-      allTitles.push(...results);
-      await new Promise(r => setTimeout(r, 300));
-    }
+    // Also get daily trending searches in India
+    let dailyTrending = [];
+    try {
+      const raw = await googleTrends.dailyTrends({ geo: 'IN' });
+      const parsed = JSON.parse(raw);
+      const days = parsed?.default?.trendingSearchesDays || [];
+      if (days.length) {
+        dailyTrending = (days[0].trendingSearches || []).slice(0, 10).map(t => ({
+          query: t.title?.query || '',
+          traffic: t.formattedTraffic || '',
+          articles: (t.articles || []).slice(0,1).map(a => a.title)
+        }));
+      }
+    } catch(e) { /* skip */ }
 
-    // Deduplicate
-    const seen = new Set();
-    const unique = allTitles.filter(t => {
-      if (seen.has(t)) return false;
-      seen.add(t);
-      return true;
-    });
-
-    return unique.slice(0, 15).map(title => ({ title, source: 'YouTube AI Trending' }));
-
+    return { keyword_trends: results.sort((a,b) => b.trend_score - a.trend_score), daily_trending: dailyTrending };
   } catch(e) {
-    console.log('YouTube fetch failed:', e.message);
-    return [];
+    console.log('Google Trends failed:', e.message);
+    return { keyword_trends: [], daily_trending: [] };
   }
 }
 
-async function main() {
-  console.log('🔍 Fetching trends from Reddit + HackerNews + Google Trends + YouTube...');
-  const subreddits = ['artificial','ChatGPT','entrepreneur','selfimprovement','AIToolsTech','IndiaStartups'];
-  const results = await Promise.allSettled([...subreddits.map(sr => fetchReddit(sr)), fetchHackerNews()]);
-  const allTrends = results.flatMap(r => r.status==='fulfilled' ? r.value : []).filter(Boolean);
-  allTrends.sort((a,b) => (b.score + b.comments*2) - (a.score + a.comments*2));
+// ── SUMMARISE FOR IDEATOR ─────────────────────────────────────
+function buildIdeatorContext(reddit, hn, youtube, googleTrends) {
+  const redditSummary = reddit.slice(0,5).map(r => `• [Reddit r/${r.subreddit}] "${r.title}" — ${r.score} upvotes`).join('\n');
+  const hnSummary = hn.slice(0,5).map(h => `• [HackerNews] "${h.title}" — ${h.score} pts`).join('\n');
+  const ytSummary = youtube.slice(0,5).map(v => `• [YouTube Trending IN] "${v.title}" by ${v.channel} — ${(v.views/1000).toFixed(0)}k views${v.tags.length ? ' | Tags: '+v.tags.join(', ') : ''}`).join('\n');
+  const gtKeywords = googleTrends.keyword_trends.map(k => `${k.keyword} (score: ${k.trend_score})`).join(', ');
+  const gtDaily = googleTrends.daily_trending.slice(0,5).map(t => `• "${t.query}" — ${t.traffic}`).join('\n');
 
-  const googleTrends = await fetchGoogleTrends();
-  const youtubeTrends = await fetchYouTubeTrending();
+  return `REAL-TIME TREND INTELLIGENCE (fetched ${new Date().toISOString()}):
 
-  const hackernews = allTrends.filter(t => t.source === 'HackerNews');
-  const reddit = allTrends.filter(t => t.source.startsWith('Reddit'));
+REDDIT HOT (AI/tech/India):
+${redditSummary || 'No data'}
 
-  const output = { 
-    fetched_at: new Date().toISOString(), 
-    total: allTrends.length, 
-    trends: allTrends.slice(0,80),
-    hackernews: hackernews,
-    reddit: reddit,
-    google: googleTrends,
-    youtube: youtubeTrends
-  };
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2));
-  console.log('✅ Fetched '+allTrends.length+' trend signals (plus Google & YouTube) → second_brain/trends.json');
+HACKER NEWS TOP:
+${hnSummary || 'No data'}
+
+YOUTUBE TRENDING INDIA:
+${ytSummary || 'No data'}
+
+GOOGLE TRENDS INDIA — KEYWORD INTEREST (7 days):
+${gtKeywords || 'No data'}
+
+GOOGLE DAILY TRENDING SEARCHES INDIA:
+${gtDaily || 'No data'}
+
+Use these trends to make ideas timely and relevant. If a YouTube video is trending on a topic, a reel covering the same topic from a creator's angle will ride that wave.`;
 }
-main().catch(e => { console.error('❌ fetch_trends failed:', e.message); process.exit(1); });
+
+// ── MAIN ──────────────────────────────────────────────────────
+async function main() {
+  console.log('Fetching trends...');
+
+  const [reddit, hn, youtube, googleTrends] = await Promise.all([
+    fetchReddit(),
+    fetchHackerNews(),
+    fetchYouTube(),
+    fetchGoogleTrends()
+  ]);
+
+  console.log(`Reddit: ${reddit.length} posts | HN: ${hn.length} stories | YouTube: ${youtube.length} videos`);
+  console.log(`Google Trends: ${googleTrends.keyword_trends.length} keywords | ${googleTrends.daily_trending.length} daily trending`);
+
+  const ideatorContext = buildIdeatorContext(reddit, hn, youtube, googleTrends);
+
+  const output = {
+    fetched_at: new Date().toISOString(),
+    reddit,
+    hackernews: hn,
+    youtube,
+    google_trends: googleTrends,
+    ideator_context: ideatorContext
+  };
+
+  fs.writeFileSync(OUT, JSON.stringify(output, null, 2));
+  console.log(`✅ Trends saved to second_brain/trends.json`);
+  console.log('\n--- IDEATOR CONTEXT PREVIEW ---');
+  console.log(ideatorContext.substring(0, 800) + '...');
+}
+
+main().catch(console.error);
