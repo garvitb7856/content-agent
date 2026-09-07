@@ -70,8 +70,7 @@ async function processUpdate(update) {
     console.log(new Date().toLocaleString('en-IN')+' — Free-form idea: '+text);
     await sendMessage('⏳ Generating script for your custom idea:\n\n<b>'+text+'</b>\n\nAbout 30 seconds...');
     try {
-      const escaped = text.replace(/\\/g,'\\\\').replace(/"/g,'\\"');
-      execSync('node scripts/generate_script.js --custom "'+escaped+'"',{cwd:ROOT,stdio:'inherit'});
+      execSync('node scripts/generate_script.js --custom',{cwd:ROOT,stdio:'inherit',env:{...process.env,CUSTOM_IDEA:text}});
     } catch(e) {
       console.error('❌ generate_script failed:',e.message);
       await sendMessage('❌ Script generation failed for custom idea:\n<code>'+e.message+'</code>');
