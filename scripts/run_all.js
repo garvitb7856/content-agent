@@ -126,7 +126,7 @@ async function runParallel(steps) {
   run('6. Plan Manager',             'node scripts/plan_manager.js');
   run('6.5 Prune Second Brain',      'node scripts/prune_second_brain.js');
   run('7. Save History',             'node scripts/save_history.js');
-  run('8. Push to GitHub',           'git add -A && git commit -m "daily auto-update" --allow-empty && git push');
+  run('8. Push to GitHub',           'git add -A && git commit -m "daily auto-update" --allow-empty && git pull --rebase origin main && git push');
   run('9. Send Telegram',            'node scripts/telegram_bot.js');
 
   // Finalize status
