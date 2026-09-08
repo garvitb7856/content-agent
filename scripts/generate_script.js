@@ -90,13 +90,36 @@ function cleanForTelegram(text) {
     .trim();
 }
 
-function sendTelegram(text) {
-  return new Promise((resolve) => {
-    const body=JSON.stringify({chat_id:CHAT_ID,text:text,parse_mode:'HTML',disable_web_page_preview:true});
-    const options={hostname:'api.telegram.org',path:'/bot'+BOT_TOKEN+'/sendMessage',method:'POST',headers:{'Content-Type':'application/json','Content-Length':Buffer.byteLength(body)}};
-    const req=https.request(options,(res)=>{let d='';res.on('data',c=>d+=c);res.on('end',()=>resolve());});
-    req.on('error',()=>resolve());req.write(body);req.end();
-  });
+async function sendTelegram(text) {
+  const plain = text.replace(/<[^>]+>/g, '').trim();
+  const chunks = [];
+  const lines = plain.split('\n');
+  let chunk = '';
+  for (const line of lines) {
+    if ((chunk + '\n' + line).length > 3900) {
+      if (chunk) chunks.push(chunk.trim());
+      chunk = line;
+    } else {
+      chunk += (chunk ? '\n' : '') + line;
+    }
+  }
+  if (chunk) chunks.push(chunk.trim());
+  console.log('Sending ' + chunks.length + ' chunk(s) to Telegram...');
+  for (let i = 0; i < chunks.length; i++) {
+    const body = JSON.stringify({ chat_id: CHAT_ID, text: chunks[i] });
+    await new Promise((resolve, reject) => {
+      const options = { hostname: 'api.telegram.org', path: '/bot' + BOT_TOKEN + '/sendMessage', method: 'POST', headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) } };
+      const req = https.request(options, (res) => {
+        let d = ''; res.on('data', c => d += c);
+        res.on('end', () => {
+          let parsed; try { parsed = JSON.parse(d); } catch(e) { return reject(new Error('Bad JSON: ' + d)); }
+          if (!parsed.ok) { console.error('Telegram chunk ' + (i+1) + ' FAILED: ' + parsed.description + ' (code: ' + parsed.error_code + ')'); reject(new Error(parsed.description)); }
+          else { console.log('Chunk ' + (i+1) + '/' + chunks.length + ' sent (' + chunks[i].length + ' chars)'); resolve(); }
+        });
+      });
+      req.on('error', reject); req.write(body); req.end();
+    });
+  }
 }
 
 async function main() {
@@ -256,11 +279,15 @@ Two trigger word options with the exact script (e.g. "Comment LINK and I'll DM y
   // Send full script via Telegram
   const scoreColor={'HIGH':'🟢','MEDIUM':'🟡','LOW':'🔴'};
   const badge=(scoreColor[idea.score]||'🔵')+' '+(idea.score || 'MEDIUM');
-  const preview=cleanForTelegram(script).substring(0,3500)+(script.length>3500?'\n\n<i>...view full script on dashboard</i>':'');
-  const srcLine = idea.sourceUrl ? `\n🔗 <b>Inspired by:</b> <a href="${idea.sourceUrl}">${idea.sourceUrl}</a>\n` : '';
-  let msg='🎬 <b>Script Ready!</b>\n\n'+'💡 <b>'+idea.title+'</b>\n'+'🏅 Score: '+badge+'\n'+srcLine+'\n'+preview;
-  msg += '\n\n🌐 <a href="https://garvitb7856.github.io/content-agent/dashboard/">View on Dashboard</a>';
-  await sendTelegram(msg);
-  console.log('✅ Script sent via Telegram!');
+  const srcLine = idea.sourceUrl ? '\n🔗 Inspired by: ' + idea.sourceUrl + '\n' : '';
+  const fullMsg = '🎬 Script Ready!\n\n💡 ' + idea.title + '\n🏅 Score: ' + badge + srcLine + '\n\n' + script;
+
+  try {
+    await sendTelegram(fullMsg);
+    console.log('✅ Script sent via Telegram!');
+  } catch(e) {
+    console.error('❌ Telegram delivery failed:', e.message);
+    process.exit(1);
+  }
 }
 main().catch(e=>{console.error('❌ generate_script failed:',e);process.exit(1);});
