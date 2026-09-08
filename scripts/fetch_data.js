@@ -46,7 +46,9 @@ async function runFetcher() {
         "dhavalkataria_", 
         "vaibhavsisinty", 
         "favourite.engineer",
-        "thevarunmayya"
+        "thevarunmayya",
+        "devbuildsai",
+        "zeeeljain"
       ],
       "postsPerProfile": 20,
       "proxy": { "useApifyProxy": true },
