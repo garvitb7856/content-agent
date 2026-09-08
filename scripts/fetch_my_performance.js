@@ -1,65 +1,96 @@
 const fs = require('fs');
-const https = require('https');
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
-const APIFY_TOKEN = process.env.APIFY_TOKEN;
-const LOG_PATH = 'second_brain/content_log.json';
+const DATA_FILE = path.join(__dirname, '../dashboard/data/data.json');
+const CONTENT_LOG_FILE = path.join(__dirname, '../second_brain/content_log.json');
+const PERFORMANCE_ARCHIVE_FILE = path.join(__dirname, '../second_brain/performance_archive.json');
+const MY_HANDLE = process.env.MY_INSTAGRAM_HANDLE || 'garvit.irl';
 
-async function fetchMyLatestPosts() {
-  return new Promise((resolve, reject) => {
-    const body = JSON.stringify({ username: ['garvit.irl'], resultsLimit: 20 });
-    const options = {
-      hostname: 'api.apify.com',
-      path: `/v2/acts/apify~instagram-profile-scraper/run-sync-get-dataset-items?token=${APIFY_TOKEN}&timeout=60`,
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
-    };
-    const req = https.request(options, res => {
-      let d = '';
-      res.on('data', c => d += c);
-      res.on('end', () => { try { resolve(JSON.parse(d)); } catch(e) { reject(e); } });
-    });
-    req.on('error', reject);
-    req.write(body); req.end();
-  });
+function loadJSON(file, fallback) {
+  try { if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8')); } catch(e) {}
+  return fallback;
+}
+function saveJSON(file, data) {
+  const tmp = file + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, file);
 }
 
 async function main() {
-  const log = JSON.parse(fs.readFileSync(LOG_PATH, 'utf8'));
+  const data = loadJSON(DATA_FILE, {});
+  const contentLog = loadJSON(CONTENT_LOG_FILE, { posts: [] });
+  const perfArchive = loadJSON(PERFORMANCE_ARCHIVE_FILE, { posts: [] });
+  if (!perfArchive.posts) perfArchive.posts = [];
+
+  // Get your current posts from already-fetched data.json (free - no Apify call needed)
+  let myPosts = [];
+  if (data.your_account?.posts) myPosts = data.your_account.posts;
+  else if (Array.isArray(data[MY_HANDLE])) myPosts = data[MY_HANDLE];
+  else if (data[MY_HANDLE]?.posts) myPosts = data[MY_HANDLE].posts;
+
+  if (myPosts.length === 0) {
+    console.log('No own posts found in data.json — skipping performance fetch.');
+    return;
+  }
+
   const now = Date.now();
-  const posts = log ? log.posts : undefined;
-  if (!posts || !Array.isArray(posts)) {
-    console.log('⚠️ No posts data found — skipping performance fetch.');
-    process.exit(0);
+  const logPosts = contentLog.posts || [];
+  let newUpdates = 0;
+  let newArchived = 0;
+
+  for (const logPost of logPosts) {
+    if (logPost.performance_complete) continue;
+    const detectedAt = new Date(logPost.detected_at || logPost.timestamp || 0).getTime();
+    const ageHours = (now - detectedAt) / 3600000;
+    if (ageHours < 47) continue; // Not yet 48 hours old
+
+    // Find this post in freshly fetched data
+    const fresh = myPosts.find(p =>
+      String(p.id) === String(logPost.id) ||
+      p.shortCode === logPost.shortCode ||
+      p.code === logPost.shortCode
+    );
+    if (!fresh) continue;
+
+    const likes48 = fresh.likesCount || fresh.likes_count || fresh.likes || 0;
+    const comments48 = fresh.commentsCount || fresh.comments_count || fresh.comments || 0;
+    const engagement48 = logPost.followers_at_post > 0
+      ? Math.round(((likes48 + comments48) / logPost.followers_at_post) * 10000) / 100
+      : 0;
+
+    // Update content_log
+    logPost.likes_at_48h = likes48;
+    logPost.comments_at_48h = comments48;
+    logPost.engagement_at_48h = engagement48;
+    logPost.performance_complete = true;
+    newUpdates++;
+
+    // Update or create performance_archive entry
+    const existing = perfArchive.posts.find(p =>
+      String(p.postId) === String(logPost.id) || p.shortCode === logPost.shortCode
+    );
+    const perfEntry = {
+      postId: String(logPost.id || ''),
+      shortCode: logPost.shortCode || '',
+      postUrl: logPost.url || `https://www.instagram.com/p/${logPost.shortCode}/`,
+      caption: logPost.caption || '',
+      format: logPost.type || 'Reel',
+      postedAt: logPost.timestamp || logPost.detected_at,
+      likes_at_48h: likes48,
+      comments_at_48h: comments48,
+      engagement_at_48h: engagement48,
+      followers_at_post: logPost.followers_at_post || 0,
+      scriptSimilarity: logPost.scriptSimilarity || 0,
+      diffAnalysis: logPost.diffAnalysis || null,
+      updatedAt: new Date().toISOString()
+    };
+    if (existing) Object.assign(existing, perfEntry);
+    else { perfArchive.posts.push(perfEntry); newArchived++; }
   }
-  const due = posts.filter(p => {
-    if (p.performance_complete) return false;
-    const age = (now - new Date(p.detected_at).getTime()) / 3600000;
-    return age >= 47;
-  });
-  if (due.length === 0) { console.log('No posts due for 48h check.'); return; }
-  console.log(`${due.length} post(s) due for 48h re-fetch...`);
-  let fresh;
-  try { fresh = await fetchMyLatestPosts(); } catch(e) { console.error('Apify fetch failed:', e.message); return; }
-  const freshPosts = [];
-  if (Array.isArray(fresh)) {
-    fresh.forEach(p => { if (p.latestPosts) freshPosts.push(...p.latestPosts); else if (p.id) freshPosts.push(p); });
-  }
-  let updated = 0;
-  log.posts = log.posts.map(p => {
-    const match = freshPosts.find(fp => fp.id === p.id || fp.shortCode === p.shortCode);
-    if (!match) return p;
-    const age = (now - new Date(p.detected_at).getTime()) / 3600000;
-    if (age >= 24 && p.likes_at_24h === null) p.likes_at_24h = match.likesCount || match.likes || 0;
-    if (age >= 48 && p.likes_at_48h === null) {
-      p.likes_at_48h = match.likesCount || match.likes || 0;
-      p.comments_at_48h = match.commentsCount || match.comments || 0;
-      p.performance_complete = true;
-      updated++;
-    }
-    return p;
-  });
-  fs.writeFileSync(LOG_PATH, JSON.stringify(log, null, 2));
-  console.log(`48h performance recorded for ${updated} post(s).`);
+
+  saveJSON(CONTENT_LOG_FILE, contentLog);
+  saveJSON(PERFORMANCE_ARCHIVE_FILE, perfArchive);
+  console.log(`✅ Performance feedback: ${newUpdates} post(s) updated with 48h data, ${newArchived} new archive entries.`);
 }
-main().catch(console.error);
+main().catch(e => { console.error('fetch_my_performance error:', e.message); process.exit(0); });
