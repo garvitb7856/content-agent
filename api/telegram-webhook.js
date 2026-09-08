@@ -19,12 +19,61 @@ function sendTelegram(chatId, text) {
   });
 }
 
-function triggerGitHubActions(chatId, text) {
+function getFileSHA() {
+  return new Promise((resolve) => {
+    const req = https.request({
+      hostname: 'api.github.com',
+      path: `/repos/${GITHUB_REPO}/contents/second_brain/pending_brief.json`,
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'content-agent-webhook'
+      }
+    }, (res) => {
+      let data = '';
+      res.on('data', d => data += d);
+      res.on('end', () => {
+        try { resolve(JSON.parse(data).sha || null); } catch { resolve(null); }
+      });
+    });
+    req.on('error', () => resolve(null));
+    req.end();
+  });
+}
+
+function writeGitHubFile(content, sha) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
-      ref: 'main',
-      inputs: { chat_id: String(chatId), message_text: text }
+      message: 'update: pending brief',
+      content: Buffer.from(content).toString('base64'),
+      ...(sha ? { sha } : {})
     });
+    const req = https.request({
+      hostname: 'api.github.com',
+      path: `/repos/${GITHUB_REPO}/contents/second_brain/pending_brief.json`,
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(body),
+        'User-Agent': 'content-agent-webhook'
+      }
+    }, (res) => {
+      let data = '';
+      res.on('data', d => data += d);
+      res.on('end', () => res.statusCode < 300 ? resolve(true) : reject(new Error(`GitHub file: ${res.statusCode} ${data}`)));
+    });
+    req.on('error', reject);
+    req.write(body);
+    req.end();
+  });
+}
+
+function triggerGitHubActions() {
+  return new Promise((resolve, reject) => {
+    const body = JSON.stringify({ ref: 'main' });
     const req = https.request({
       hostname: 'api.github.com',
       path: `/repos/${GITHUB_REPO}/actions/workflows/generate-script.yml/dispatches`,
@@ -41,7 +90,7 @@ function triggerGitHubActions(chatId, text) {
       else {
         let data = '';
         res.on('data', d => data += d);
-        res.on('end', () => reject(new Error(`GitHub API: ${res.statusCode} ${data}`)));
+        res.on('end', () => reject(new Error(`GitHub Actions: ${res.statusCode} ${data}`)));
       }
     });
     req.on('error', reject);
@@ -59,8 +108,14 @@ module.exports = async (req, res) => {
     const chatId = message.chat.id;
     const text = (message.text || '').trim();
     if (!text) return res.status(200).send('OK');
+
+    // Write full message + chat_id to GitHub file (no character limit)
+    const brief = JSON.stringify({ chat_id: String(chatId), brief: text, timestamp: new Date().toISOString() });
+    const sha = await getFileSHA();
+    await writeGitHubFile(brief, sha);
+
     await sendTelegram(chatId, '⏳ Generating your script... (~2 minutes)');
-    await triggerGitHubActions(chatId, text);
+    await triggerGitHubActions();
   } catch(e) {
     console.error('Webhook error:', e.message);
   }

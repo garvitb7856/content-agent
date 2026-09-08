@@ -4,6 +4,31 @@ const https = require('https');
 const { execSync } = require('child_process');
 require('dotenv').config({ path: path.join(__dirname,'../.env') });
 
+const BRIEF_FILE = path.join(__dirname, '../second_brain/pending_brief.json');
+const fromBrief = process.argv.includes('--from-brief');
+
+let arg = process.argv[2];
+let isCustom = process.argv.includes('--custom');
+
+if (fromBrief) {
+  try {
+    const brief = JSON.parse(fs.readFileSync(BRIEF_FILE, 'utf8'));
+    process.env.TELEGRAM_CHAT_ID = brief.chat_id;
+    const msg = (brief.brief || '').trim();
+    if (/^\d+$/.test(msg)) {
+      arg = msg;
+      isCustom = false;
+    } else {
+      process.env.CUSTOM_IDEA = msg;
+      arg = '--custom';
+      isCustom = true;
+    }
+  } catch(e) {
+    console.error('Could not read pending_brief.json:', e.message);
+    process.exit(1);
+  }
+}
+
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
@@ -13,9 +38,8 @@ const OUT_PATH1 = path.join(ROOT,'dashboard/data/agents_output.json');
 const OUT_PATH2 = path.join(ROOT,'dashboard/agents_output.json');
 const DATA_PATH = path.join(ROOT,'dashboard/data/data.json');
 
-const customFlag = process.argv.indexOf('--custom');
-const customIdeaText = customFlag !== -1 ? (process.env.CUSTOM_IDEA || process.argv[customFlag + 1] || null) : null;
-const rawIndex = customIdeaText ? null : parseInt(process.argv[2]);
+const customIdeaText = isCustom ? (process.env.CUSTOM_IDEA || (process.argv.indexOf('--custom') !== -1 ? process.argv[process.argv.indexOf('--custom') + 1] : null) || null) : null;
+const rawIndex = customIdeaText ? null : parseInt(arg);
 if (!customIdeaText && (isNaN(rawIndex) || rawIndex < 1 || rawIndex > 50)) {
   console.error('❌ Usage: node scripts/generate_script.js <1-50>  OR  --custom "your idea"'); process.exit(1);
 }
