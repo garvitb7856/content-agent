@@ -15,7 +15,7 @@ const PERFORMANCE_ARCHIVE_FILE = path.join(__dirname, '../second_brain/performan
 const TEMP_DIR = path.join(__dirname, '../second_brain/temp_videos');
 
 const MY_HANDLE = 'garvit.irl';
-const MODELS = ['gemini-3.7-flash'];
+const MODELS = ['gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3.1-flash-lite'];
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
@@ -106,9 +106,9 @@ async function transcribeWithGemini(filePath) {
   let res, lastErr;
   for (let attempt = 1; attempt <= 5; attempt++) {
     try {
-      const apiKey = attempt <= 3 ? GEMINI_TRANSCRIBE_KEY : (process.env.GEMINI_API_KEY || GEMINI_TRANSCRIBE_KEY);
+      const apiKey = attempt % 2 === 0 ? (process.env.GEMINI_API_KEY || GEMINI_TRANSCRIBE_KEY) : GEMINI_TRANSCRIBE_KEY;
       res = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${apiKey}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/${MODELS[Math.min(attempt-1, MODELS.length-1)]}:generateContent?key=${apiKey}`,
         { contents: [{ parts: [{ file_data: { mime_type: mimeType, file_uri: fileUri } }, { text: prompt }] }], generationConfig: { maxOutputTokens: 4096, temperature: 0.1 } },
         { timeout: 90000 }
       );
@@ -170,7 +170,7 @@ async function run() {
   }
 
   const newlyTranscribed = [];
-  const TEST_LIMIT = 25;
+  const TEST_LIMIT = 10;
   let transcribedCount = 0;
   let skipped = 0, noVideoUrl = 0;
 
@@ -234,7 +234,9 @@ async function run() {
         transcribedSet.add(postId);
         saveJSON(TRANSCRIBED_IDS_FILE, [...transcribedSet]);
         transcribedCount++;
-        if (transcribedCount >= TEST_LIMIT) { console.log('\nTest limit of 5 reached.'); break; }
+        // Add 20s delay between videos to avoid quota burst
+        await new Promise(r => setTimeout(r, 20000));
+        if (transcribedCount >= TEST_LIMIT) { console.log(`\nDaily limit of ${TEST_LIMIT} reached — remaining videos retry tomorrow.`); break; }
 
       } catch (err) {
         console.log(`  FAILED: ${err.message} — will retry next run`);
