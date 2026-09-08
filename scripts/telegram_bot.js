@@ -2,6 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
+const TRANSCRIPTION_SUMMARY_FILE = path.join(__dirname, '../second_brain/transcription_summary.json');
+const PIPELINE_STATUS_FILE = path.join(__dirname, '../second_brain/pipeline_status.json');
+
 const envPath = path.join(__dirname, '..', '.env');
 if (fs.existsSync(envPath)) {
   fs.readFileSync(envPath, 'utf8').split('\n').forEach(line => {
@@ -45,6 +48,55 @@ function formatDate(date) {
   const year  = date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', year:  'numeric' });
   const time  = date.toLocaleString('en-US', { timeZone: 'Asia/Kolkata', hour:  'numeric', minute: '2-digit', hour12: true });
   return `${day} ${month} ${year}, ${time}`;
+}
+
+function loadJSON(file, fallback) {
+  try { if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) {}
+  return fallback;
+}
+
+function getPipelineHealth() {
+  try {
+    const status = loadJSON(PIPELINE_STATUS_FILE, {});
+    const transcription = loadJSON(TRANSCRIPTION_SUMMARY_FILE, null);
+    const steps = status.steps || {};
+    const lines = [];
+
+    const icons = { success: '✅', failed: '❌', skipped: '⏭️', running: '🔄' };
+    const stepNames = {
+      fetch: 'Apify Fetch',
+      transcribe: 'Transcription',
+      trends: 'Trend Fetch',
+      caption_diff: 'Caption Diff',
+      performance: 'Performance Feedback',
+      patterns: 'Pattern Engine',
+      clusters: 'Topic Clusters',
+      agents: 'AI Agents',
+      history: 'History Save',
+      second_brain: 'Second Brain',
+      telegram: 'Telegram'
+    };
+
+    for (const [key, val] of Object.entries(steps)) {
+      const icon = icons[val.status] || '❓';
+      const label = stepNames[key] || key;
+      let line = `${icon} ${label}`;
+      if (val.status === 'failed' && val.error) line += ` — ${val.error.slice(0,60)}`;
+      if (val.status === 'skipped' && val.reason) line += ` (${val.reason})`;
+      lines.push(line);
+    }
+
+    // Add transcription detail if available
+    if (transcription && steps.transcribe?.status === 'success') {
+      lines.push(`   └ ${transcription.succeeded} transcribed, ${transcription.failed} failed, ${transcription.pending} pending`);
+    }
+
+    const failed = Object.values(steps).filter(s => s.status === 'failed').length;
+    const header = failed === 0 ? '🟢 All systems OK' : `🔴 ${failed} step(s) failed`;
+    return `\n<b>Pipeline Health</b>\n${header}\n${lines.join('\n')}`;
+  } catch(e) {
+    return '\n<b>Pipeline Health</b>\n❓ Status unavailable';
+  }
 }
 
 function sendMessage(text) {
@@ -239,7 +291,8 @@ async function run(transcribeResult = {}) {
     '🌐 Dashboard: https://garvitb7856.github.io/content-agent/dashboard/'
   ];
 
-  const msg = parts.filter(l => l !== null && l !== undefined).join('\n').trim();
+  let msg = parts.filter(l => l !== null && l !== undefined).join('\n').trim();
+  msg += '\n' + getPipelineHealth();
   await sendMessage(msg);
 }
 

@@ -13,6 +13,7 @@ const TRANSCRIBED_IDS_FILE = path.join(TRANSCRIPTS_DIR, 'transcribed_ids.json');
 const SCRIPT_LIBRARY_FILE = path.join(__dirname, '../second_brain/script_library.json');
 const PERFORMANCE_ARCHIVE_FILE = path.join(__dirname, '../second_brain/performance_archive.json');
 const TEMP_DIR = path.join(__dirname, '../second_brain/temp_videos');
+const SUMMARY_FILE = path.join(__dirname, '../second_brain/transcription_summary.json');
 
 const MY_HANDLE = 'garvit.irl';
 const MODELS = ['gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3.1-flash-lite'];
@@ -172,13 +173,17 @@ async function run() {
   const newlyTranscribed = [];
   const TEST_LIMIT = 10;
   let transcribedCount = 0;
+  let failedCount = 0;
+  let skippedCount = 0;
+  const errorLog = [];
   let skipped = 0, noVideoUrl = 0;
+  const pendingVideos = handlePosts.flatMap(h => h.posts || []);
 
   for (const { handle, posts } of handlePosts) {
     for (const post of posts) {
       const postId = String(post.id || post.shortCode || '');
       if (!postId) continue;
-      if (transcribedSet.has(postId)) { skipped++; continue; }
+      if (transcribedSet.has(postId)) { skipped++; skippedCount++; continue; }
 
       const isVideoType = (post.type === 'Video' || post.type === 'Reel' || post.isVideo);
       const videoUrl = post.videoUrl || post.video_url || post.videoSrc || post.video_src || post.videoPlaybackUrl || (isVideoType ? post.url : '');
@@ -240,6 +245,8 @@ async function run() {
 
       } catch (err) {
         console.log(`  FAILED: ${err.message} — will retry next run`);
+        failedCount++;
+        errorLog.push({ id: postId, url: videoUrl, reason: err.message });
         // DO NOT mark as done — video will be retried tomorrow
       } finally {
         if (fs.existsSync(tempFile)) { fs.unlinkSync(tempFile); console.log('  Temp file deleted.'); }
@@ -252,7 +259,21 @@ async function run() {
   try { fs.rmdirSync(TEMP_DIR); } catch (e) {}
   const byHandle = {};
   for (const item of newlyTranscribed) byHandle[item.handle] = (byHandle[item.handle] || 0) + 1;
-  console.log(`\nDone: ${newlyTranscribed.length} transcribed, ${skipped} already done, ${noVideoUrl} non-video skipped`);
+
+  const summary = {
+    date: new Date().toISOString().slice(0,10),
+    attempted: transcribedCount + failedCount,
+    succeeded: transcribedCount,
+    failed: failedCount,
+    skipped: skippedCount,
+    pending: Math.max(0, pendingVideos.length - transcribedCount - failedCount - skippedCount),
+    errors: errorLog
+  };
+  const sumTmp = SUMMARY_FILE + '.tmp';
+  fs.writeFileSync(sumTmp, JSON.stringify(summary, null, 2));
+  fs.renameSync(sumTmp, SUMMARY_FILE);
+  console.log(`\n✅ Transcription done: ${transcribedCount} succeeded, ${failedCount} failed, ${skippedCount} skipped, ${summary.pending} pending for tomorrow.`);
+
   return { transcribed: newlyTranscribed.length, skipped, noVideoUrl, byHandle, items: newlyTranscribed };
 }
 
