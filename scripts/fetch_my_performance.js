@@ -35,7 +35,7 @@ async function main() {
   }
 
   const now = Date.now();
-  const logPosts = contentLog.posts || [];
+  const logPosts = Array.isArray(contentLog) ? contentLog : (contentLog.posts || []);
   let newUpdates = 0;
   let newArchived = 0;
 
@@ -48,6 +48,7 @@ async function main() {
     // Find this post in freshly fetched data
     const fresh = myPosts.find(p =>
       String(p.id) === String(logPost.id) ||
+      String(p.id) === String(logPost.shortCode) ||
       p.shortCode === logPost.shortCode ||
       p.code === logPost.shortCode
     );
@@ -89,7 +90,8 @@ async function main() {
     else { perfArchive.posts.push(perfEntry); newArchived++; }
   }
 
-  saveJSON(CONTENT_LOG_FILE, contentLog);
+  const updatedLog = Array.isArray(contentLog) ? contentLog : (contentLog.posts || []);
+  saveJSON(CONTENT_LOG_FILE, updatedLog);
   saveJSON(PERFORMANCE_ARCHIVE_FILE, perfArchive);
   console.log(`✅ Performance feedback: ${newUpdates} post(s) updated with 48h data, ${newArchived} new archive entries.`);
 }
