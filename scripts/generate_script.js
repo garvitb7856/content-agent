@@ -249,7 +249,7 @@ Two trigger word options with the exact script (e.g. "Comment LINK and I'll DM y
 
   // Push to GitHub
   try {
-    execSync('git add -A && git commit -m "script generated: '+idea.title.replace(/"/g,"'").substring(0,50)+'" --allow-empty && git push',{cwd:ROOT,stdio:'inherit'});
+    execSync('git config user.email "garvitb.business@gmail.com" && git config user.name "Garvit" && git add -A && git commit -m "script generated: '+idea.title.replace(/"/g,"'").substring(0,50)+'" --allow-empty && git push',{cwd:ROOT,stdio:'inherit'});
     console.log('✅ Pushed to GitHub');
   } catch(e) { console.log('⚠️ Git push failed: '+e.message); }
 
