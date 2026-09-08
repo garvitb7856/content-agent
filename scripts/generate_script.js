@@ -261,6 +261,15 @@ async function main() {
     } catch(e) {}
   }
 
+  // Debug: show what intelligence was loaded
+  console.log('\n══════════ INTELLIGENCE LOADED ══════════');
+  console.log('✅ Own viral posts:', topOwnPosts ? topOwnPosts.split('\n').length + ' posts loaded' : '❌ none');
+  console.log('✅ Intelligence briefing:', intelligenceBriefing ? intelligenceBriefing.length + ' chars' : '❌ none');
+  console.log('✅ Hook bank:', topHooksStr ? topHooksStr.split('\n').length + ' hooks loaded' : '❌ none');
+  console.log('✅ Matching competitor scripts:', matchingCompetitorScripts ? matchingCompetitorScripts.split('\n\n').length + ' scripts matched' : '❌ no matches for this topic');
+  console.log('✅ Matching transcripts:', matchingTranscripts ? matchingTranscripts.split('\n\n').length + ' transcripts matched' : '❌ no matches for this topic');
+  console.log('✅ Trends:', trendsStr ? trendsStr.split('\n').length + ' trends loaded' : '❌ none');
+  console.log('═════════════════════════════════════════\n');
   const sourceNote = idea.sourceUrl
     ? `\nThis idea was inspired by: ${idea.sourceUrl} — reference this style but make it original.`
     : '';
