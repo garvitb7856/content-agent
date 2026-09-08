@@ -27,7 +27,12 @@ async function fetchMyLatestPosts() {
 async function main() {
   const log = JSON.parse(fs.readFileSync(LOG_PATH, 'utf8'));
   const now = Date.now();
-  const due = log.posts.filter(p => {
+  const posts = log ? log.posts : undefined;
+  if (!posts || !Array.isArray(posts)) {
+    console.log('⚠️ No posts data found — skipping performance fetch.');
+    process.exit(0);
+  }
+  const due = posts.filter(p => {
     if (p.performance_complete) return false;
     const age = (now - new Date(p.detected_at).getTime()) / 3600000;
     return age >= 47;
