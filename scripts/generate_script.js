@@ -32,7 +32,7 @@ if (fromBrief) {
   }
 }
 
-const GEMINI_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_KEY = process.env.GEMINI_SCRIPT_KEY || process.env.GEMINI_API_KEY;
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const ROOT = path.join(__dirname,'..');
