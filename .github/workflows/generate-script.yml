@@ -18,5 +18,9 @@ jobs:
           echo "GEMINI_TRANSCRIBE_KEY=${{ secrets.GEMINI_TRANSCRIBE_KEY }}" >> .env
           echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
           echo "MY_INSTAGRAM_HANDLE=${{ secrets.MY_INSTAGRAM_HANDLE }}" >> .env
+      - name: Extract chat ID from brief
+        run: |
+          CHAT_ID=$(node -e "const f=require('./second_brain/pending_brief.json');console.log(f.chat_id)")
+          echo "TELEGRAM_CHAT_ID=$CHAT_ID" >> .env
       - name: Generate and send script
         run: node scripts/generate_script.js --from-brief
