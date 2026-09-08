@@ -16,7 +16,7 @@ const TEMP_DIR = path.join(__dirname, '../second_brain/temp_videos');
 const SUMMARY_FILE = path.join(__dirname, '../second_brain/transcription_summary.json');
 
 const MY_HANDLE = 'garvit.irl';
-const MODELS = ['gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3.1-flash-lite'];
+const MODELS = ['gemini-3.7-flash','gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash','gemini-3.0-flash','gemini-2.5-flash','gemini-3.5-flash-lite','gemini-2.5-flash-lite','gemini-3.1-flash-lite'];
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
