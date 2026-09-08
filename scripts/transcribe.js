@@ -118,7 +118,8 @@ async function transcribeWithGemini(filePath) {
       lastErr = e;
       const status = e.response?.status;
       if (status === 429 || status === 503) {
-        const wait = attempt * 30000;
+        const retryWaits = [10000, 20000, 30000, 45000, 60000];
+        const wait = retryWaits[attempt - 1];
         console.log(`  Rate limited (attempt ${attempt}/5) — waiting ${wait/1000}s before retry...`);
         await new Promise(r => setTimeout(r, wait));
       } else {
@@ -169,7 +170,7 @@ async function run() {
   }
 
   const newlyTranscribed = [];
-  const TEST_LIMIT = 200; // process all new videos
+  const TEST_LIMIT = 30;
   let transcribedCount = 0;
   let skipped = 0, noVideoUrl = 0;
 
