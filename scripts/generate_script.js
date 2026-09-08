@@ -67,8 +67,23 @@ async function gemini(prompt) {
         const text=JSON.parse(body).candidates[0]?.content?.parts[0]?.text?.trim();
         if (text&&text.length>50) { console.log('✅ Generated ('+model+', '+text.length+' chars)'); return text; }
       }
-      console.log('⚠️ ' + model + ' returned HTTP ' + statusCode + ' — trying next model');
-      if (statusCode===503||statusCode===429||statusCode===404) continue;
+      if (statusCode===503||statusCode===429) {
+        console.log('⚠️ ' + model + ' returned HTTP ' + statusCode + ' — waiting 30s then retrying...');
+        await new Promise(r => setTimeout(r, 30000));
+        // retry same model once
+        try {
+          const retry = await new Promise((resolve,reject)=>{
+            const req2=https.request(options,(res)=>{let d='';res.on('data',c=>d+=c);res.on('end',()=>resolve({statusCode:res.statusCode,body:d}));});
+            req2.on('error',reject);req2.write(postData);req2.end();
+          });
+          if (retry.statusCode>=200&&retry.statusCode<300) {
+            const text=JSON.parse(retry.body).candidates[0]?.content?.parts[0]?.text?.trim();
+            if (text&&text.length>50) { console.log('✅ Generated ('+model+' retry, '+text.length+' chars)'); return text; }
+          }
+        } catch(e) {}
+        console.log('⚠️ ' + model + ' retry failed — trying next model...');
+        continue;
+      }
     } catch(e) { console.log('⚠️ '+model+': '+e.message); }
   }
   return '[Script generation failed]';
