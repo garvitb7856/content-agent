@@ -19,9 +19,12 @@ if (fromBrief) {
       arg = msg;
       isCustom = false;
     } else {
-      process.env.CUSTOM_IDEA = msg;
       arg = '--custom';
       isCustom = true;
+      // Write brief text to a temp file so it's read fresh, not from env
+      const fs2 = require('fs');
+      const briefTextFile = path.join(__dirname, '../second_brain/pending_brief_text.txt');
+      fs2.writeFileSync(briefTextFile, msg, 'utf8');
     }
   } catch(e) {
     console.error('Could not read pending_brief.json:', e.message);
@@ -38,7 +41,12 @@ const OUT_PATH1 = path.join(ROOT,'dashboard/data/agents_output.json');
 const OUT_PATH2 = path.join(ROOT,'dashboard/agents_output.json');
 const DATA_PATH = path.join(ROOT,'dashboard/data/data.json');
 
-const customIdeaText = isCustom ? (process.env.CUSTOM_IDEA || (process.argv.indexOf('--custom') !== -1 ? process.argv[process.argv.indexOf('--custom') + 1] : null) || null) : null;
+const briefTextFile = path.join(__dirname, '../second_brain/pending_brief_text.txt');
+let customIdea = process.env.CUSTOM_IDEA || '';
+if (!customIdea && fs.existsSync(briefTextFile)) {
+  customIdea = fs.readFileSync(briefTextFile, 'utf8').trim();
+}
+const customIdeaText = isCustom ? (customIdea || (process.argv.indexOf('--custom') !== -1 ? process.argv[process.argv.indexOf('--custom') + 1] : null) || null) : null;
 const rawIndex = customIdeaText ? null : parseInt(arg);
 if (!customIdeaText && (isNaN(rawIndex) || rawIndex < 1 || rawIndex > 50)) {
   console.error('❌ Usage: node scripts/generate_script.js <1-50>  OR  --custom "your idea"'); process.exit(1);
