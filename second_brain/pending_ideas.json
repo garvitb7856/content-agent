@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "How to Speak Like the Top 1% Tech Founders",
-    "hook": "Learn to speak like the top 1%.",
+    "title": "The 'Chicken vs Camera' stability test",
+    "hook": "Is a chicken better than a gimbal? 🐓",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Backed by strong competitor validation from @ishansharma7390 without directly repeating covered core topic clusters. Scores MEDIUM as no live trend signal was provided in the context data.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dc86BiaMeUn/"
+    "score": "HIGH",
+    "reasoning": "This leverages the viral tech-humor trend which is currently performing well and has not been touched by the creator yet. Competitor videos using this mechanical stabilizer comparison often reach millions of views due to high shareability.",
+    "niche": "AI",
+    "sourceUrl": "https://www.youtube.com/watch?v=is_a_chicken_better"
   },
   {
     "rank": 2,
-    "title": "2,000+ UI Design Systems Free via Design.MD",
-    "hook": "Never build a website design from scratch.",
-    "format": "Carousel",
-    "score": "MEDIUM",
-    "reasoning": "Supported by direct competitor proof on Instagram and offers high utility for visual builders. Sits as MEDIUM due to moderate competitor engagement and absent trend signals.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dc3zXkXSxpH/"
+    "title": "The 'Los Angeles' timelapse insight",
+    "hook": "Watching LA build over 140 years.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "This utilizes visual storytelling and historical data, which stands out against the saturated AI/productivity content. It has massive viral potential for shares and provides a fresh departure from the creator's usual topic clusters.",
+    "niche": "Self-growth",
+    "sourceUrl": ""
   },
   {
     "rank": 3,
-    "title": "Testing Raj Shamani's Offline Business Strategy",
-    "hook": "I tested Raj Shamani’s ₹50,000 business strategy.",
+    "title": "Testing the 'School Phone Ban' theory",
+    "hook": "The phone ban is actually helping students.",
     "format": "Reel",
     "score": "MEDIUM",
-    "reasoning": "Features proven proof from @dhavalkataria_ testing viral creator business strategies. Scores MEDIUM because the creator has touched general business content previously.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DVdxpJcCNde/"
+    "reasoning": "This taps into a massive global societal debate, which is a high-interest trend that deviates from the creator's overused AI/tech topics. It is ranked medium because it requires careful positioning to remain relevant to the creator's personal brand.",
+    "niche": "Self-growth",
+    "sourceUrl": ""
   },
   {
     "rank": 4,
-    "title": "Why Asking 'Too Many Questions' Is Your Superpower",
-    "hook": "Why are you asking so many questions?",
+    "title": "What 48 feels like (Eating healthy)",
+    "hook": "I am 48. Here is my diet.",
     "format": "Reel",
     "score": "MEDIUM",
-    "reasoning": "Direct competitor proof from @nivedan.ai targeting a relatable founder mindset trait. Scores MEDIUM due to moderate competitor engagement and missing explicit trend data.",
+    "reasoning": "Health and lifestyle content performs consistently well and allows the creator to show depth beyond technical tutorials. It is ranked medium as it is a pivot into a new content pillar that hasn't been established on the channel yet.",
     "niche": "Self-growth",
-    "sourceUrl": "https://www.instagram.com/p/DKwhNEFiv2F/"
+    "sourceUrl": ""
   },
   {
     "rank": 5,
-    "title": "4 Anti-Slop AI Plugins for Clean Content",
-    "hook": "Tired of generic AI slop text?",
-    "format": "Carousel",
-    "score": "LOW",
-    "reasoning": "Supported by @nick_saraev competitor proof, but falls into the heavily saturated AI tools roundup cluster. Scored LOW due to topic saturation and lack of live trend signal.",
+    "title": "Building a house with AI blueprints",
+    "hook": "I let AI design my dream home.",
+    "format": "Reel",
+    "score": "MEDIUM",
+    "reasoning": "While it touches on AI, the 'vlog/home design' angle differentiates it from the creator's repetitive software-based AI content. It offers broad consumer appeal and high visual engagement potential.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Dc8ojRUvOrL/"
+    "sourceUrl": ""
   }
 ]

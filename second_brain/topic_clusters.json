@@ -301,5 +301,76 @@
       "portfolio",
       "products"
     ]
+  },
+  {
+    "name": "AI Ethics, Philosophy, and Societal Impact",
+    "keywords": [
+      "ethics",
+      "dumber",
+      "dark side",
+      "future",
+      "agi",
+      "reflections",
+      "society"
+    ]
+  },
+  {
+    "name": "Creator Strategy and Content Operations",
+    "keywords": [
+      "consistency",
+      "viral",
+      "hook",
+      "repurposing",
+      "content",
+      "burnout",
+      "strategy"
+    ]
+  },
+  {
+    "name": "Technical AI Implementation and Engineering",
+    "keywords": [
+      "evals",
+      "architecture",
+      "synthetic",
+      "vision",
+      "compression",
+      "model",
+      "outputs"
+    ]
+  },
+  {
+    "name": "Entrepreneurial Finance and Business Scaling",
+    "keywords": [
+      "scaling",
+      "equity",
+      "cashflow",
+      "mvp",
+      "customers",
+      "negotiating",
+      "acquisitions"
+    ]
+  },
+  {
+    "name": "Subscription and Cost Management",
+    "keywords": [
+      "subscriptions",
+      "costs",
+      "paying",
+      "saving",
+      "budget",
+      "tools"
+    ]
+  },
+  {
+    "name": "Hardware and Mobile Architecture",
+    "keywords": [
+      "arm",
+      "mali",
+      "graphics",
+      "mobile",
+      "gaming",
+      "embedded",
+      "hardware"
+    ]
   }
 ]
