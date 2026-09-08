@@ -277,7 +277,11 @@
     "url": "https://www.instagram.com/p/Dc6UDIgkvgE/",
     "type": "Post",
     "loggedAt": "2026-09-07T10:32:13.202Z",
-    "archived": true
+    "archived": true,
+    "likes_at_48h": 27,
+    "comments_at_48h": 1,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3978841653607163768_65880404765",
@@ -296,7 +300,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 60,
+    "comments_at_48h": 9,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3977308532563397664_65880404765",
@@ -308,7 +316,11 @@
     "url": "https://www.instagram.com/p/DcyPQmlkkwg/",
     "type": "Post",
     "loggedAt": "2026-09-07T10:32:13.202Z",
-    "archived": true
+    "archived": true,
+    "likes_at_48h": 41,
+    "comments_at_48h": 12,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3976582731043373845_65880404765",
@@ -327,7 +339,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 34,
+    "comments_at_48h": 75,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3974937548342087370_65880404765",
@@ -346,7 +362,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 52,
+    "comments_at_48h": 67,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3970782274798662809_65880404765",
@@ -365,7 +385,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 64,
+    "comments_at_48h": 44,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3964987942178995784_65880404765",
@@ -384,7 +408,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 63,
+    "comments_at_48h": 4,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3951216783025407844_65880404765",
@@ -403,7 +431,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 4031,
+    "comments_at_48h": 27268,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3963596491960384255_65880404765",
@@ -422,7 +454,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 38,
+    "comments_at_48h": 9,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3954142402868550420_65880404765",
@@ -441,7 +477,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 154,
+    "comments_at_48h": 521,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3959199459221110837_65880404765",
@@ -460,7 +500,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 103,
+    "comments_at_48h": 211,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3957762440078942729_65880404765",
@@ -479,7 +523,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 57,
+    "comments_at_48h": 8,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3887473602081805309_65880404765",
@@ -498,7 +546,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 51,
+    "comments_at_48h": 27,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3946143846389680373_65880404765",
@@ -517,7 +569,11 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 53,
+    "comments_at_48h": 7,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3912815066596754397_65880404765",
@@ -529,7 +585,11 @@
     "url": "https://www.instagram.com/p/DZNHJJ0S8Pd/",
     "type": "Video",
     "loggedAt": "2026-09-07T10:32:13.202Z",
-    "archived": true
+    "archived": true,
+    "likes_at_48h": 64,
+    "comments_at_48h": 4,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3935999725371283912_65880404765",
@@ -548,6 +608,10 @@
       "matchedIdeaFromHistory": null,
       "summary": "Original content — no significant match to any generated script or idea.",
       "analysedAt": "2026-09-07T12:17:17.528Z"
-    }
+    },
+    "likes_at_48h": 56,
+    "comments_at_48h": 14,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   }
 ]
