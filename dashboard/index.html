@@ -101,6 +101,33 @@ tr:hover td{background:rgba(255,255,255,.015)}
 .idea-reason{font-size:.72rem;color:#64748b;line-height:1.5;margin:.4rem 0;}
 .idea-cta{font-size:.68rem;color:#a78bfa;font-style:italic;}
 footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;border-top:1px solid rgba(255,255,255,.03)}
+
+/* Growth Chart */
+.chart-wrap{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1.25rem 1.25rem 1rem;overflow:hidden}
+.chart-svg{width:100%;height:160px;display:block}
+.chart-line{fill:none;stroke:url(#chartGrad);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.chart-area{fill:url(#areaGrad);opacity:.18}
+.chart-dot{fill:#a78bfa;stroke:#07090f;stroke-width:2}
+.chart-label{font-size:9px;fill:#475569;font-family:Inter,sans-serif}
+.chart-value{font-size:9px;fill:#c4b5fd;font-family:Inter,sans-serif;font-weight:700}
+.chart-legend{display:flex;gap:1.25rem;flex-wrap:wrap;margin-top:.6rem}
+.chart-leg-item{display:flex;align-items:center;gap:.35rem;font-size:.67rem;color:#64748b}
+.chart-leg-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+/* Pipeline health badge */
+.pipe-badge{display:flex;align-items:center;gap:.3rem;font-size:.67rem;font-weight:700;padding:.2rem .5rem;border-radius:12px;cursor:default}
+.pipe-ok{background:rgba(16,185,129,.12);color:#10b981;border:1px solid rgba(16,185,129,.2)}
+.pipe-fail{background:rgba(239,68,68,.12);color:#ef4444;border:1px solid rgba(239,68,68,.2)}
+.pipe-unk{background:rgba(100,116,139,.1);color:#64748b;border:1px solid rgba(100,116,139,.15)}
+/* Mobile fixes */
+@media(max-width:640px){
+  .cal{grid-template-columns:repeat(4,1fr);gap:.4rem;overflow-x:auto}
+  .cd{min-width:0}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .agents{grid-template-columns:1fr}
+  .ideas-grid{grid-template-columns:1fr}
+  header{padding:.75rem 1rem}
+  main{padding:0 .75rem}
+}
 </style>
 </head>
 <body>
@@ -112,6 +139,7 @@ footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;b
       <input type="date" id="hist-datepicker" style="background:#0f172a;color:#f1f5f9;border:1px solid rgba(255,255,255,.15);padding:.2rem .4rem;border-radius:6px;font-size:.72rem;cursor:pointer;">
       <button id="btn-back-today" style="display:none;background:linear-gradient(90deg,#6366f1,#a855f7);color:#fff;border:none;padding:.25rem .6rem;border-radius:6px;font-size:.7rem;font-weight:700;cursor:pointer;">↩ Back to Today</button>
     </div>
+    <span id="pipe-status" class="pipe-badge pipe-unk" title="Pipeline health">⋯ Checking...</span>
     <span class="badge" id="live-badge">LIVE</span>
     <span class="hdr-ts" id="hts">Loading...</span>
     <span class="hdr-h">@garvit.irl</span>
@@ -122,6 +150,7 @@ footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;b
 </div>
 <main>
   <div><div class="sec">Your Stats</div><div class="stats" id="stats"></div></div>
+  <div><div class="sec">📈 Follower Growth (Last 14 Days)</div><div class="chart-wrap"><svg class="chart-svg" id="growth-svg" viewBox="0 0 800 160" preserveAspectRatio="none"><defs><linearGradient id="chartGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/></linearGradient><linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/></linearGradient></defs><text x="400" y="85" text-anchor="middle" fill="#334155" font-size="13" font-family="Inter,sans-serif">Loading history...</text></svg><div class="chart-legend" id="chart-legend"></div></div></div>
   <div><div class="sec">AI Agent Squad</div><div class="agents" id="agents"></div></div>
   <div><div class="sec">💡 Top 5 Ideas — Reply on Telegram to Pick</div><div class="ideas-grid" id="ideas5"></div></div>
   <div><div class="sec">7-Day Content Planner</div><div class="cal" id="cal"></div></div>
@@ -143,7 +172,203 @@ var AGENTS=[
   {key:"planner", icon:"📅",color:"#06b6d4",name:"Planner Agent",    role:"7-day calendar & posting times"},
   {key:"analyst", icon:"📊",color:"#10b981",name:"Analyst Agent",    role:"Competitor benchmarks & growth gaps"}
 ];
-var D=null,AI=null,ACTIVE_PLAN=null,FULL={};
+var D=null,AI=null,ACTIVE_PLAN=null,FULL={},HISTORY={};
+
+/* ── Pipeline Health ── */
+function renderPipelineHealth(){
+  fetch('https://raw.githubusercontent.com/garvitb7856/content-agent/main/second_brain/pipeline_status.json?_='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(ps){
+      var el=document.getElementById('pipe-status');
+      if(!el)return;
+      var ok=ps.overall==='success';
+      var fin=ps.run_finished?new Date(ps.run_finished):null;
+      var timeStr=fin?fin.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',hour12:true,timeZone:'Asia/Calcutta'}):'?';
+      var dateStr=fin?fin.toLocaleDateString('en-IN',{day:'numeric',month:'short',timeZone:'Asia/Calcutta'}):'?';
+      el.className='pipe-badge '+(ok?'pipe-ok':'pipe-fail');
+      el.title='Last run: '+dateStr+' '+timeStr+' IST — '+(ok?'All steps succeeded':'Some steps failed');
+      el.textContent=(ok?'✅':'❌')+' Last run '+timeStr;
+    })
+    .catch(function(){
+      var el=document.getElementById('pipe-status');
+      if(el){el.className='pipe-badge pipe-unk';el.textContent='⋯ No data';}
+    });
+}
+
+/* ── Extra Stat Cards ── */
+function renderExtraStats(){
+  if(!D)return;
+  var posts=D.your_account&&D.your_account.posts?D.your_account.posts:[];
+
+  // Days since last post
+  var daysSince='—';
+  if(posts.length){
+    var sorted=posts.slice().sort(function(a,b){return new Date(b.timestamp)-new Date(a.timestamp);});
+    var latest=sorted[0].timestamp;
+    if(latest){
+      var diff=Math.floor((Date.now()-new Date(latest))/(1000*60*60*24));
+      daysSince=diff===0?'Today':diff===1?'Yesterday':diff+' days ago';
+    }
+  }
+
+  // Reels vs Posts breakdown
+  var reels=posts.filter(function(p){return p.type==='Video';});
+  var staticPosts=posts.filter(function(p){return p.type!=='Video';});
+  var avgLikesReel=reels.length?Math.round(reels.reduce(function(s,p){return s+(p.likes||0);},0)/reels.length):0;
+  var avgLikesPost=staticPosts.length?Math.round(staticPosts.reduce(function(s,p){return s+(p.likes||0);},0)/staticPosts.length):0;
+  var reelPct=posts.length?Math.round(reels.length/posts.length*100):0;
+
+  // Best posting time from patterns.json or planner
+  var bestTime='6:30–8 PM IST';
+  fetch('https://raw.githubusercontent.com/garvitb7856/content-agent/main/second_brain/patterns.json?_='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(pat){
+      if(pat&&pat.bestPostTimes&&pat.bestPostTimes.length){bestTime=pat.bestPostTimes[0];}
+      appendExtraCards(daysSince,reels.length,staticPosts.length,reelPct,avgLikesReel,avgLikesPost,bestTime);
+    })
+    .catch(function(){appendExtraCards(daysSince,reels.length,staticPosts.length,reelPct,avgLikesReel,avgLikesPost,bestTime);});
+}
+
+function appendExtraCards(daysSince,reelCount,postCount,reelPct,avgLikesReel,avgLikesPost,bestTime){
+  var container=document.getElementById('stats');
+  if(!container)return;
+  var cards=[
+    {label:'Best Post Time',value:bestTime,sub:'Peak engagement window IST'},
+    {label:'Reels vs Posts',value:reelCount+'R / '+postCount+'P',sub:'Reels avg '+avgLikesReel+' likes · Posts avg '+avgLikesPost+' likes'},
+    {label:'Last Posted',value:daysSince,sub:'Keep posting consistently!'}
+  ];
+  cards.forEach(function(c){
+    var div=document.createElement('div');
+    div.className='sc';
+    div.innerHTML='<div class="sl">'+c.label+'</div><div class="sv" style="font-size:1.1rem;">'+c.value+'</div><div class="ss">'+c.sub+'</div>';
+    container.appendChild(div);
+  });
+}
+
+/* ── Growth Chart ── */
+function renderGrowthChart(){
+  var baseUrl='https://raw.githubusercontent.com/garvitb7856/content-agent/main/second_brain/history/';
+  var dates=[];
+  var today=new Date();
+  for(var i=13;i>=0;i--){
+    var d=new Date(today);d.setDate(d.getDate()-i);
+    dates.push(d.toISOString().slice(0,10));
+  }
+  var promises=dates.map(function(date){
+    return fetch(baseUrl+date+'.json?_='+Date.now())
+      .then(function(r){return r.ok?r.json():null;})
+      .catch(function(){return null;});
+  });
+  Promise.all(promises).then(function(results){
+    var pts=[];
+    results.forEach(function(r,i){
+      if(r&&r.your_account&&r.your_account.followers){
+        pts.push({date:dates[i],followers:r.your_account.followers,data:r});
+      }
+    });
+    // also add today's live data
+    if(D&&D.your_account&&D.your_account.followers){
+      var todayStr=today.toISOString().slice(0,10);
+      if(!pts.length||pts[pts.length-1].date!==todayStr){
+        pts.push({date:todayStr,followers:D.your_account.followers});
+      }
+    }
+    if(pts.length<2){
+      document.getElementById('growth-svg').innerHTML='<text x="400" y="85" text-anchor="middle" fill="#334155" font-size="13" font-family="Inter,sans-serif">Not enough history yet — builds after 2+ days of data</text>';
+      return;
+    }
+    drawChart(pts);
+  });
+}
+
+function drawChart(pts){
+  var W=800,H=140,PAD_L=60,PAD_R=20,PAD_T=15,PAD_B=30;
+  var vals=pts.map(function(p){return p.followers;});
+  var minV=Math.min.apply(null,vals),maxV=Math.max.apply(null,vals);
+  var range=maxV-minV||1;
+  function cx(i){return PAD_L+(i/(pts.length-1))*(W-PAD_L-PAD_R);}
+  function cy(v){return PAD_T+(1-(v-minV)/range)*(H-PAD_T-PAD_B);}
+  var points=pts.map(function(p,i){return cx(i)+','+cy(p.followers);}).join(' ');
+  var areaPoints=cx(0)+','+(H-PAD_B)+' '+points+' '+cx(pts.length-1)+','+(H-PAD_B);
+  var growth=vals[vals.length-1]-vals[0];
+  var growthStr=(growth>=0?'+':'')+growth.toLocaleString();
+  var svgContent='<defs><linearGradient id="chartGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/></linearGradient><linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/></linearGradient></defs>';
+  // area fill
+  svgContent+='<polygon points="'+areaPoints+'" class="chart-area"/>';
+  // line
+  svgContent+='<polyline points="'+points+'" class="chart-line"/>';
+  // dots + labels for first, last, and every 3rd
+  pts.forEach(function(p,i){
+    var show=(i===0||i===pts.length-1||i%3===0);
+    svgContent+='<circle cx="'+cx(i)+'" cy="'+cy(p.followers)+'" r="'+(show?3.5:2)+'" class="chart-dot" opacity="'+(show?1:.5)+'"/>';
+    if(show){
+      var labelDate=p.date.slice(5).replace('-','/');
+      svgContent+='<text x="'+cx(i)+'" y="'+(H-PAD_B+12)+'" text-anchor="middle" class="chart-label">'+labelDate+'</text>';
+      svgContent+='<text x="'+cx(i)+'" y="'+(cy(p.followers)-7)+'" text-anchor="middle" class="chart-value">'+p.followers.toLocaleString()+'</text>';
+    }
+  });
+  // y-axis labels
+  svgContent+='<text x="'+(PAD_L-6)+'" y="'+cy(maxV)+'" text-anchor="end" class="chart-label">'+maxV.toLocaleString()+'</text>';
+  svgContent+='<text x="'+(PAD_L-6)+'" y="'+cy(minV)+'" text-anchor="end" class="chart-label">'+minV.toLocaleString()+'</text>';
+  var svg=document.getElementById('growth-svg');
+  if(svg){svg.innerHTML=svgContent;}
+  var legend=document.getElementById('chart-legend');
+  if(legend){
+    legend.innerHTML='<div class="chart-leg-item"><div class="chart-leg-dot" style="background:#a78bfa"></div>@garvit.irl followers</div>'+
+      '<div class="chart-leg-item" style="margin-left:auto;color:'+(growth>=0?'#10b981':'#ef4444')+';font-weight:700;">'+growthStr+' in '+pts.length+' days</div>';
+  }
+}
+
+/* ── Competitor Trend ── */
+function renderCompetitorTrend(rows,maxF){
+  // Fetch yesterday's history for delta
+  var yesterday=new Date();yesterday.setDate(yesterday.getDate()-1);
+  var yDate=yesterday.toISOString().slice(0,10);
+  fetch('https://raw.githubusercontent.com/garvitb7856/content-agent/main/second_brain/history/'+yDate+'.json?_='+Date.now())
+    .then(function(r){return r.ok?r.json():null;})
+    .catch(function(){return null;})
+    .then(function(hist){
+      var prevMap={};
+      if(hist&&hist.competitors){
+        Object.entries(hist.competitors).forEach(function(e){
+          if(e[1].followers)prevMap[e[0]]=e[1].followers;
+        });
+        if(hist.your_account&&hist.your_account.followers)prevMap['garvit.irl']=hist.your_account.followers;
+      }
+      buildTable(rows,maxF,prevMap);
+    });
+}
+
+function buildTable(rows,maxF,prevMap){
+  var container=document.getElementById('tbl');
+  if(!container)return;
+  var html='<table><thead><tr>'+
+    '<th>#</th><th>Account</th><th>Followers</th><th>7d Trend</th><th>Avg Likes</th><th>Avg Comments</th><th>Posts Tracked</th><th>Follower Bar</th>'+
+    '</tr></thead><tbody>';
+  rows.forEach(function(r,i){
+    var delta=prevMap&&prevMap[r.handle]?r.followers-prevMap[r.handle]:null;
+    var deltaStr='—';
+    var deltaColor='#475569';
+    if(delta!==null&&delta!==0){
+      deltaStr=(delta>0?'+':'')+delta.toLocaleString();
+      deltaColor=delta>0?'#10b981':'#ef4444';
+    } else if(delta===0){deltaStr='→ 0';deltaColor='#475569';}
+    var pct=maxF>0?Math.round((r.followers/maxF)*100):0;
+    var isYou=r.handle==='garvit.irl';
+    html+='<tr class="'+(isYou?'you':'')+'">'+
+      '<td>'+(i+1)+'</td>'+
+      '<td>@'+r.handle+'</td>'+
+      '<td>'+(r.followers||0).toLocaleString()+'</td>'+
+      '<td style="color:'+deltaColor+';font-weight:700;">'+deltaStr+'</td>'+
+      '<td>'+(r.avgLikes||0)+'</td>'+
+      '<td>'+(r.avgComments||0)+'</td>'+
+      '<td>'+(r.postCount||0)+'</td>'+
+      '<td><div class="bw"><div class="bb"><div class="bf" style="width:'+pct+'%"></div></div><span style="font-size:.65rem;color:#475569;">'+pct+'%</span></div></td>'+
+      '</tr>';
+  });
+  html+='</tbody></table>';
+  container.innerHTML=html;
+}
 
 function renderJSONIdeas(raw, label){
   var ideas=[];
@@ -464,20 +689,17 @@ function renderTable(){
   var comps=(D&&D.competitors)||{};
   var myP=Array.isArray(acc.posts)?acc.posts:[];
   var myAv=av(myP.map(function(p){return p.likes||0;}));
-  var rows=[{h:"garvit.irl",f:acc.followers||5845,a:myAv,p:myP.length,you:true}];
+  var myAvC=av(myP.map(function(p){return p.comments||0;}));
+  var rows=[{handle:"garvit.irl",followers:acc.followers||5845,avgLikes:myAv,avgComments:myAvC,postCount:myP.length,you:true}];
   Object.keys(comps).forEach(function(k){
     var c=comps[k],cp=Array.isArray(c.posts)?c.posts:[];
-    rows.push({h:k,f:c.followers||0,a:Math.round((c.stats&&c.stats.avg_likes)||av(cp.map(function(p){return p.likes||0;}))),p:cp.length,you:false});
+    var avgL=Math.round((c.stats&&c.stats.avg_likes)||av(cp.map(function(p){return p.likes||0;})));
+    var avgC=Math.round((c.stats&&c.stats.avg_comments)||av(cp.map(function(p){return p.comments||0;})));
+    rows.push({handle:k,followers:c.followers||0,avgLikes:avgL,avgComments:avgC,postCount:cp.length,you:false});
   });
-  rows.sort(function(a,b){return b.a-a.a;});
-  var mx=Math.max.apply(null,rows.map(function(r){return r.a;}).concat([1]));
-  var html='<table><thead><tr><th>Account</th><th>Followers</th><th>Avg Likes</th><th>Posts</th></tr></thead><tbody>';
-  rows.forEach(function(r){
-    html+='<tr'+(r.you?' class="you"':'')+'><td>@'+esc(r.h)+(r.you?' ★':'')+'</td><td>'+fmt(r.f)+'</td>'
-      +'<td><div class="bw">'+fmt(r.a)+'<div class="bb"><div class="bf" style="width:'+Math.round(r.a/mx*100)+'%"></div></div></div></td>'
-      +'<td>'+r.p+'</td></tr>';
-  });
-  document.getElementById("tbl").innerHTML=html+'</tbody></table>';
+  rows.sort(function(a,b){return b.followers-a.followers;});
+  var maxF=Math.max.apply(null,rows.map(function(r){return r.followers;}).concat([1]));
+  renderCompetitorTrend(rows,maxF);
 }
 
 /* ── Header ── */
@@ -493,6 +715,9 @@ function renderAll(){
   try{renderCal();}catch(e){console.error(e);}
   try{renderTable();}catch(e){console.error(e);}
   try{renderHdr();}catch(e){console.error(e);}
+  try{renderExtraStats();}catch(e){console.error(e);}
+  try{renderGrowthChart();}catch(e){console.error(e);}
+  try{renderPipelineHealth();}catch(e){console.error(e);}
 }
 
 /* ── Load Today vs History ── */
