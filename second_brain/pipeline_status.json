@@ -1,101 +1,100 @@
 {
-  "run_started": "2026-09-08T05:55:00.324Z",
+  "run_started": "2026-09-08T06:04:07.584Z",
   "run_finished": null,
   "overall": "running",
   "steps": {
-    "1__fetch_apify_data": {
-      "status": "success",
-      "startedAt": "2026-09-08T05:55:00.446Z",
-      "finishedAt": "2026-09-08T05:56:22.697Z"
+    "apify_fetch": {
+      "status": "skipped",
+      "reason": "data 0h old"
     },
     "2__fetch_internet_trends": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:22.698Z",
-      "finishedAt": "2026-09-08T05:56:29.017Z"
+      "startedAt": "2026-09-08T06:04:07.602Z",
+      "finishedAt": "2026-09-08T06:04:09.567Z"
     },
     "2_5_analyze_ig_trends": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:22.707Z",
-      "finishedAt": "2026-09-08T05:56:22.812Z"
+      "startedAt": "2026-09-08T06:04:07.604Z",
+      "finishedAt": "2026-09-08T06:04:07.651Z"
     },
     "2_6_feedback_loop": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:22.716Z",
-      "finishedAt": "2026-09-08T05:56:22.827Z"
+      "startedAt": "2026-09-08T06:04:07.606Z",
+      "finishedAt": "2026-09-08T06:04:07.656Z"
     },
     "update_hook_bank": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:29.018Z",
-      "finishedAt": "2026-09-08T05:56:29.140Z"
+      "startedAt": "2026-09-08T06:04:09.568Z",
+      "finishedAt": "2026-09-08T06:04:09.617Z"
     },
     "update_competitor_scripts": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:29.029Z",
-      "finishedAt": "2026-09-08T05:56:29.154Z"
+      "startedAt": "2026-09-08T06:04:09.569Z",
+      "finishedAt": "2026-09-08T06:04:09.617Z"
     },
     "fetch_48h_performance": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:29.041Z",
-      "finishedAt": "2026-09-08T05:56:29.168Z"
+      "startedAt": "2026-09-08T06:04:09.570Z",
+      "finishedAt": "2026-09-08T06:04:09.623Z"
     },
     "detect_new_posts": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:29.054Z",
-      "finishedAt": "2026-09-08T05:56:29.169Z"
+      "startedAt": "2026-09-08T06:04:09.572Z",
+      "finishedAt": "2026-09-08T06:04:09.622Z"
     },
     "compute_patterns": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:29.170Z",
-      "finishedAt": "2026-09-08T05:56:29.268Z"
+      "startedAt": "2026-09-08T06:04:09.623Z",
+      "finishedAt": "2026-09-08T06:04:09.661Z"
     },
     "notify_pattern_update": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:29.268Z",
-      "finishedAt": "2026-09-08T05:56:30.111Z"
+      "startedAt": "2026-09-08T06:04:09.661Z",
+      "finishedAt": "2026-09-08T06:04:10.226Z"
     },
     "3__detect_posted": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:30.113Z",
-      "finishedAt": "2026-09-08T05:56:30.212Z"
+      "startedAt": "2026-09-08T06:04:10.227Z",
+      "finishedAt": "2026-09-08T06:04:10.271Z"
     },
     "3_5_caption_diff": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:30.213Z",
-      "finishedAt": "2026-09-08T05:56:30.318Z"
+      "startedAt": "2026-09-08T06:04:10.271Z",
+      "finishedAt": "2026-09-08T06:04:10.310Z"
     },
     "3_8_refresh_topic_clusters": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:30.318Z",
-      "finishedAt": "2026-09-08T05:56:32.574Z"
+      "startedAt": "2026-09-08T06:04:10.311Z",
+      "finishedAt": "2026-09-08T06:04:17.330Z"
     },
     "4__run_ai_agents": {
       "status": "success",
-      "startedAt": "2026-09-08T05:56:32.575Z",
-      "finishedAt": "2026-09-08T06:01:04.121Z"
+      "startedAt": "2026-09-08T06:04:17.330Z",
+      "finishedAt": "2026-09-08T06:07:02.407Z"
     },
     "5__update_second_brain": {
       "status": "success",
-      "startedAt": "2026-09-08T06:01:04.122Z",
-      "finishedAt": "2026-09-08T06:01:04.253Z"
+      "startedAt": "2026-09-08T06:07:02.407Z",
+      "finishedAt": "2026-09-08T06:07:02.441Z"
     },
     "6__plan_manager": {
       "status": "success",
-      "startedAt": "2026-09-08T06:01:04.254Z",
-      "finishedAt": "2026-09-08T06:01:04.344Z"
+      "startedAt": "2026-09-08T06:07:02.441Z",
+      "finishedAt": "2026-09-08T06:07:02.471Z"
     },
     "6_5_prune_second_brain": {
       "status": "success",
-      "startedAt": "2026-09-08T06:01:04.344Z",
-      "finishedAt": "2026-09-08T06:01:04.437Z"
+      "startedAt": "2026-09-08T06:07:02.471Z",
+      "finishedAt": "2026-09-08T06:07:02.503Z"
     },
     "7__save_history": {
       "status": "success",
-      "startedAt": "2026-09-08T06:01:04.438Z",
-      "finishedAt": "2026-09-08T06:01:04.529Z"
+      "startedAt": "2026-09-08T06:07:02.504Z",
+      "finishedAt": "2026-09-08T06:07:02.531Z"
     },
     "8__push_to_github": {
       "status": "running",
-      "startedAt": "2026-09-08T06:01:04.529Z"
+      "startedAt": "2026-09-08T06:07:02.532Z"
     }
   }
 }

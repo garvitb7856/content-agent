@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Design.MD: 2000+ UI Systems Free",
-    "hook": "Stop designing UI from scratch every time.",
+    "title": "How to Speak Like the Top 1% Tech Founders",
+    "hook": "Learn to speak like the top 1%.",
+    "format": "Reel",
+    "score": "MEDIUM",
+    "reasoning": "Backed by strong competitor validation from @ishansharma7390 without directly repeating covered core topic clusters. Scores MEDIUM as no live trend signal was provided in the context data.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dc86BiaMeUn/"
+  },
+  {
+    "rank": 2,
+    "title": "2,000+ UI Design Systems Free via Design.MD",
+    "hook": "Never build a website design from scratch.",
     "format": "Carousel",
     "score": "MEDIUM",
-    "reasoning": "Backed by high competitor engagement on Nick Saraev's resource post. The creator has not covered UI design systems yet, providing a fresh and practical resource for builders.",
+    "reasoning": "Supported by direct competitor proof on Instagram and offers high utility for visual builders. Sits as MEDIUM due to moderate competitor engagement and absent trend signals.",
     "niche": "Entrepreneurship",
     "sourceUrl": "https://www.instagram.com/p/Dc3zXkXSxpH/"
   },
   {
-    "rank": 2,
-    "title": "Filtering Out AI Slop Content",
-    "hook": "Tired of seeing generic AI slop online?",
-    "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Proven engagement on Nick Saraev's plugin breakdown post. Delivers a novel web quality utility without repeating standard tool roundups.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Dc8ojRUvOrL/"
-  },
-  {
     "rank": 3,
-    "title": "Wrapper Startups Defensibility Breakdown",
-    "hook": "Sundar Pichai was asked about wrapper startups.",
+    "title": "Testing Raj Shamani's Offline Business Strategy",
+    "hook": "I tested Raj Shamani’s ₹50,000 business strategy.",
     "format": "Reel",
     "score": "MEDIUM",
-    "reasoning": "Sourced from Varun Mayya's viral breakdown on platform risk and defensibility. Addresses strategic tech founder decisions rather than standard app tutorials.",
+    "reasoning": "Features proven proof from @dhavalkataria_ testing viral creator business strategies. Scores MEDIUM because the creator has touched general business content previously.",
     "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/C7CPlnDLW9W/"
+    "sourceUrl": "https://www.instagram.com/p/DVdxpJcCNde/"
   },
   {
     "rank": 4,
-    "title": "Steve Jobs Communication Blueprint",
-    "hook": "Steve Jobs used this exact speech framework.",
+    "title": "Why Asking 'Too Many Questions' Is Your Superpower",
+    "hook": "Why are you asking so many questions?",
     "format": "Reel",
     "score": "MEDIUM",
-    "reasoning": "Supported by strong competitor proof evaluating founder charisma and stage presentation. Teaches clear executive speech mechanics without falling into general self-growth cliches.",
+    "reasoning": "Direct competitor proof from @nivedan.ai targeting a relatable founder mindset trait. Scores MEDIUM due to moderate competitor engagement and missing explicit trend data.",
     "niche": "Self-growth",
-    "sourceUrl": "https://www.instagram.com/p/Dc_CmgjoZhq/"
+    "sourceUrl": "https://www.instagram.com/p/DKwhNEFiv2F/"
   },
   {
     "rank": 5,
-    "title": "Mammouth AI: All LLMs in One Window",
-    "hook": "Stop switching between ChatGPT, Claude, and Gemini.",
-    "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Validated by Vaibhav Sisinty's high-performing post showcasing multi-model interfaces. Provides high single-tool utility rather than saturated listicle content.",
+    "title": "4 Anti-Slop AI Plugins for Clean Content",
+    "hook": "Tired of generic AI slop text?",
+    "format": "Carousel",
+    "score": "LOW",
+    "reasoning": "Supported by @nick_saraev competitor proof, but falls into the heavily saturated AI tools roundup cluster. Scored LOW due to topic saturation and lack of live trend signal.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdA6usogrxi/"
+    "sourceUrl": "https://www.instagram.com/p/Dc8ojRUvOrL/"
   }
 ]

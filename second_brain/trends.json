@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-09-08T05:56:29.000Z",
+  "fetched_at": "2026-09-08T06:04:09.561Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
+      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+      "score": 23,
+      "comments": 4,
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+    },
+    {
+      "source": "hackernews",
       "title": "How well do agents use test/verification techniques?",
-      "score": 42,
+      "score": 45,
       "comments": 7,
       "url": "https://danluu.com/agentic-testing/"
     },
@@ -13,27 +20,20 @@
       "source": "hackernews",
       "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
       "score": 18,
-      "comments": 8,
+      "comments": 9,
       "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics"
     },
     {
       "source": "hackernews",
       "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
-      "score": 265,
-      "comments": 134,
+      "score": 266,
+      "comments": 136,
       "url": "https://lax-skyline.parcelscope.net/"
     },
     {
       "source": "hackernews",
-      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-      "score": 6,
-      "comments": 1,
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
-    },
-    {
-      "source": "hackernews",
       "title": "The VMs Powering Mobile Agents (Instinct, Claude Code)",
-      "score": 8,
+      "score": 9,
       "comments": 1,
       "url": "https://rohanadwankar.github.io/posts/platforms.html"
     },
@@ -47,14 +47,14 @@
     {
       "source": "hackernews",
       "title": "There's a new \"Google Jail\" for independent wikis",
-      "score": 21,
+      "score": 25,
       "comments": 3,
       "url": "https://weirdgloop.org/blog/google-jail"
     },
     {
       "source": "hackernews",
       "title": "Show HN: Jigsaw Haiku",
-      "score": 78,
+      "score": 79,
       "comments": 27,
       "url": "https://jigsawhaiku.com/"
     },
@@ -62,7 +62,7 @@
       "source": "hackernews",
       "title": "Caltech Mathathon – first hackathon ever devoted to research level mathematics",
       "score": 253,
-      "comments": 88,
+      "comments": 89,
       "url": "https://mathathonchallenge.com/index.html"
     }
   ],
@@ -72,8 +72,8 @@
       "category": "Science & Tech",
       "title": "The UNTOLD Story Of The School Phone Ban...😳📱",
       "channel": "Peakzmotivation",
-      "views": 58095700,
-      "likes": 948159,
+      "views": 58103453,
+      "likes": 948241,
       "publishedAt": "2026-08-24T03:40:46Z",
       "url": "https://www.youtube.com/watch?v=2X-Lc35kpB8",
       "tags": [
@@ -89,8 +89,8 @@
       "category": "Science & Tech",
       "title": "Is a Chicken Better Than a Camera Stabilizer?",
       "channel": "Curiosity Clips",
-      "views": 8656186,
-      "likes": 157290,
+      "views": 8656569,
+      "likes": 157314,
       "publishedAt": "2026-08-29T13:00:21Z",
       "url": "https://www.youtube.com/watch?v=owLASI6wOgU",
       "tags": [],
@@ -101,8 +101,8 @@
       "category": "Science & Tech",
       "title": "MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok",
       "channel": "AlanTech",
-      "views": 6214566,
-      "likes": 44302,
+      "views": 6214779,
+      "likes": 44305,
       "publishedAt": "2026-08-31T02:49:06Z",
       "url": "https://www.youtube.com/watch?v=YgIIqe227wU",
       "tags": [],
@@ -113,8 +113,8 @@
       "category": "Science & Tech",
       "title": "I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!",
       "channel": "almostinventor",
-      "views": 4538855,
-      "likes": 74708,
+      "views": 4540687,
+      "likes": 74725,
       "publishedAt": "2026-08-15T11:51:37Z",
       "url": "https://www.youtube.com/watch?v=uojt3BgFVmY",
       "tags": [],
@@ -125,8 +125,8 @@
       "category": "Science & Tech",
       "title": "FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair",
       "channel": "Digital Doctor ",
-      "views": 3367505,
-      "likes": 70270,
+      "views": 3367909,
+      "likes": 70288,
       "publishedAt": "2026-09-02T04:32:27Z",
       "url": "https://www.youtube.com/watch?v=28bpVtD7MAk",
       "tags": [],
@@ -137,7 +137,7 @@
       "category": "People & Blogs",
       "title": "vlog: building my dream house",
       "channel": "Kylie Jenner",
-      "views": 2160741,
+      "views": 2162915,
       "likes": 0,
       "publishedAt": "2026-09-06T16:21:33Z",
       "url": "https://www.youtube.com/watch?v=7APWfTucDQ4",
@@ -149,8 +149,8 @@
       "category": "Science & Tech",
       "title": "$45 #Sony Cinema Camera Sensor Cleaning! Too much? #raybanmeta #techtok #cameragear #fbmarketplace",
       "channel": "Mighty Duck Media",
-      "views": 2151119,
-      "likes": 65427,
+      "views": 2154036,
+      "likes": 65501,
       "publishedAt": "2026-09-03T08:01:53Z",
       "url": "https://www.youtube.com/watch?v=XdAb4MZ7uOU",
       "tags": [],
@@ -161,8 +161,8 @@
       "category": "Science & Tech",
       "title": "Is the iPhone fold’s durability cooked..",
       "channel": "CarterPCs",
-      "views": 1105149,
-      "likes": 55917,
+      "views": 1109125,
+      "likes": 55999,
       "publishedAt": "2026-09-07T03:36:17Z",
       "url": "https://www.youtube.com/watch?v=CaIaNfTeZAs",
       "tags": [],
@@ -173,7 +173,7 @@
       "category": "People & Blogs",
       "title": "I'm 48. Here's Exactly What I Eat In a Day",
       "channel": "Bobby Parrish",
-      "views": 266317,
+      "views": 266566,
       "likes": 5596,
       "publishedAt": "2026-09-05T14:00:28Z",
       "url": "https://www.youtube.com/watch?v=9vWk4hptvcs",
@@ -191,8 +191,8 @@
       "category": "People & Blogs",
       "title": "moving forward after years of depression ❤️",
       "channel": "Space Maker Method",
-      "views": 182705,
-      "likes": 11952,
+      "views": 182740,
+      "likes": 11960,
       "publishedAt": "2026-09-06T10:00:34Z",
       "url": "https://www.youtube.com/watch?v=bkCk4bdhPVM",
       "tags": [
@@ -213,23 +213,23 @@
       },
       {
         "keyword": "AI tools",
-        "trend_score": 85
+        "trend_score": 86
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 86
       },
       {
         "keyword": "AI for business",
         "trend_score": 85
       },
       {
-        "keyword": "AI workflow",
-        "trend_score": 84
+        "keyword": "automation tools",
+        "trend_score": 82
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 80
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 80
+        "trend_score": 81
       },
       {
         "keyword": "ChatGPT",
@@ -237,10 +237,10 @@
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 40
+        "trend_score": 39
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-08T05:56:29.000Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"How well do agents use test/verification techniques?\" — 42 pts\n• [HackerNews] \"Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics\" — 18 pts\n• [HackerNews] \"Watch Los Angeles get built, one building at a time (1880–2026)\" — 265 pts\n• [HackerNews] \"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" — 6 pts\n• [HackerNews] \"The VMs Powering Mobile Agents (Instinct, Claude Code)\" — 8 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 58096k views\n• [YouTube Global] \"Is a Chicken Better Than a Camera Stabilizer?\" by Curiosity Clips — 8656k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6215k views\n• [YouTube Global] \"I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!\" by almostinventor — 4539k views\n• [YouTube Global] \"FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair\" by Digital Doctor  — 3368k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 2161k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 92), AI tools (score: 85), AI for business (score: 85), AI workflow (score: 84), solopreneur (score: 80), automation tools (score: 80), ChatGPT (score: 79), productivity tools (score: 40)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-08T06:04:09.561Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" — 23 pts\n• [HackerNews] \"How well do agents use test/verification techniques?\" — 45 pts\n• [HackerNews] \"Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics\" — 18 pts\n• [HackerNews] \"Watch Los Angeles get built, one building at a time (1880–2026)\" — 266 pts\n• [HackerNews] \"The VMs Powering Mobile Agents (Instinct, Claude Code)\" — 9 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 58103k views\n• [YouTube Global] \"Is a Chicken Better Than a Camera Stabilizer?\" by Curiosity Clips — 8657k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6215k views\n• [YouTube Global] \"I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!\" by almostinventor — 4541k views\n• [YouTube Global] \"FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair\" by Digital Doctor  — 3368k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 2163k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 92), AI tools (score: 86), AI workflow (score: 86), AI for business (score: 85), automation tools (score: 82), solopreneur (score: 81), ChatGPT (score: 79), productivity tools (score: 39)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
