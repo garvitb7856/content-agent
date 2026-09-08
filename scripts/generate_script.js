@@ -185,10 +185,20 @@ async function main() {
   const data=JSON.parse(fs.readFileSync(DATA_PATH,'utf8'));
   const myFollowers=(data.your_account||{}).followers||5845;
 
+  // ── LOAD ALL INTELLIGENCE SOURCES ──
   const patternsPath = path.join(ROOT, 'second_brain/patterns.json');
   const patterns = fs.existsSync(patternsPath) ? JSON.parse(fs.readFileSync(patternsPath, 'utf8')) : {};
-  const patternInsight = patterns.summary || "Not enough data yet. Need at least 5 posts with 48h performance data.";
+  const patternInsight = patterns.summary || "Not enough data yet.";
+  const bestFormats = (patterns.best_formats && patterns.best_formats.length) ? patterns.best_formats.map(f=>f.format).join(', ') : 'Reels';
 
+  // Agent context (full intelligence briefing)
+  const agentCtxPath = path.join(ROOT, 'second_brain/agent_context.json');
+  const agentCtx = fs.existsSync(agentCtxPath) ? JSON.parse(fs.readFileSync(agentCtxPath, 'utf8')) : {};
+  const intelligenceBriefing = agentCtx.instruction_for_agents || '';
+  const topOwnPosts = (agentCtx.your_performance?.top_hooks || []).slice(0, 3)
+    .map(h => `- "${h.hookText}" → ${h.finalLikes} likes, ${h.finalComments} comments (${h.url})`).join('\n');
+
+  // Hook bank — top 10 by likes
   const hookBankPath = path.join(ROOT, 'second_brain/hook_bank.json');
   let topHooksStr = "";
   if (fs.existsSync(hookBankPath)) {
@@ -196,58 +206,122 @@ async function main() {
       const bankRaw = JSON.parse(fs.readFileSync(hookBankPath, 'utf8'));
       const hooksArr = Array.isArray(bankRaw) ? bankRaw : (bankRaw.hooks || []);
       topHooksStr = hooksArr
-        .slice()
-        .sort((a,b) => (b.likes||0) - (a.likes||0))
-        .slice(0, 3)
-        .map(h => `"${h.text}" (${h.type || 'hook'}, ${h.likes || 0} likes)`)
-        .join('\n');
+        .slice().sort((a,b) => (b.likes||0) - (a.likes||0)).slice(0, 10)
+        .map(h => `"${h.text}" (@${h.account||'competitor'}, ${h.likes||0} likes)`).join('\n');
     } catch(e) {}
   }
 
-  const bestFormats = (patterns.best_formats && patterns.best_formats.length) ? patterns.best_formats.map(f=>f.format).join(', ') : 'Reels';
+  // Competitor scripts — find ones matching this topic
+  const compScriptsPath = path.join(ROOT, 'second_brain/competitor_scripts.json');
+  let matchingCompetitorScripts = "";
+  if (fs.existsSync(compScriptsPath)) {
+    try {
+      const cs = JSON.parse(fs.readFileSync(compScriptsPath, 'utf8'));
+      const scripts = Array.isArray(cs) ? cs : (cs.scripts || []);
+      const ideaWords = (idea.title + ' ' + (idea.niche||'')).toLowerCase().split(/\s+/).filter(w => w.length > 3);
+      const matched = scripts.filter(s => {
+        const text = ((s.hook||'') + ' ' + (s.topic||'') + ' ' + (s.full_caption||'')).toLowerCase();
+        return ideaWords.some(w => text.includes(w));
+      }).sort((a,b) => (b.likes||0)-(a.likes||0)).slice(0, 5);
+      if (matched.length) {
+        matchingCompetitorScripts = matched.map(s =>
+          `${s.account} (${s.likes} likes) [${s.script_pattern}]\nHook: "${s.hook}"\nCaption: "${(s.full_caption||'').substring(0,200)}"\nURL: ${s.url}`
+        ).join('\n\n');
+      }
+    } catch(e) {}
+  }
 
-  const sourceNote = idea.sourceUrl 
+  // Transcripts — find ones matching this topic
+  const transcriptsDir = path.join(ROOT, 'second_brain/transcripts');
+  let matchingTranscripts = "";
+  if (fs.existsSync(transcriptsDir)) {
+    try {
+      const ideaWords = idea.title.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+      const tFiles = fs.readdirSync(transcriptsDir).filter(f => f.endsWith('.json') && f !== 'transcribed_ids.json');
+      const matched = tFiles.map(f => { try { return JSON.parse(fs.readFileSync(path.join(transcriptsDir, f), 'utf8')); } catch(e) { return null; } })
+        .filter(t => t && t.transcript && t.transcript !== 'NO_SPEECH')
+        .filter(t => ideaWords.some(w => (t.transcript||'').toLowerCase().includes(w) || (t.caption||'').toLowerCase().includes(w)))
+        .sort((a,b) => (b.likes||0)-(a.likes||0)).slice(0, 3);
+      if (matched.length) {
+        matchingTranscripts = matched.map(t =>
+          `@${t.handle} (${t.likes} likes):\nSpoken: "${t.transcript.substring(0, 500)}"\nPost: ${t.postUrl}`
+        ).join('\n\n');
+      }
+    } catch(e) {}
+  }
+
+  // Trends
+  const trendsPath = path.join(ROOT, 'second_brain/trends.json');
+  let trendsStr = "";
+  if (fs.existsSync(trendsPath)) {
+    try {
+      const tr = JSON.parse(fs.readFileSync(trendsPath, 'utf8'));
+      const items = (tr.trends || []).slice(0, 5).map(t => `- ${t.title || t.keyword || t}`).join('\n');
+      if (items) trendsStr = items;
+    } catch(e) {}
+  }
+
+  const sourceNote = idea.sourceUrl
     ? `\nThis idea was inspired by: ${idea.sourceUrl} — reference this style but make it original.`
     : '';
 
   const script = await gemini(`
-You are a viral Instagram Reel scriptwriter for @garvit.irl (${myFollowers} followers, AI/automation/entrepreneurship, Indian audience).
+You are a viral Instagram Reel scriptwriter for @garvit.irl (${myFollowers} followers, AI/automation/entrepreneurship niche, Indian audience aged 18-30).
 
-PERFORMANCE DATA FOR @garvit.irl:
+Your goal: write a script that feels native to @garvit.irl's voice — direct, energetic, slightly casual, Hinglish-friendly, always actionable.
+
+═══════════════════════════════
+GARVIT'S ACCOUNT PERFORMANCE DATA:
 ${patternInsight}
 
-TOP PERFORMING HOOKS FROM YOUR NICHE (use these as style reference):
-${topHooksStr || "No hook data yet — use best judgment."}
+TOP 3 POSTS THAT WENT VIRAL FOR @garvit.irl:
+${topOwnPosts || 'Not enough data yet.'}
 
-Write the script using the best performing hook type above if data is available.
+BEST PERFORMING FORMATS: ${bestFormats}
+═══════════════════════════════
 
-Best performing formats for this account: ${bestFormats}
+${intelligenceBriefing ? `INTELLIGENCE BRIEFING (what works for this account):\n${intelligenceBriefing}\n═══════════════════════════════\n` : ''}
+
+TOP 10 HOOKS WORKING IN THIS NICHE RIGHT NOW (by engagement):
+${topHooksStr || 'No hook data yet.'}
+
+═══════════════════════════════
+${matchingCompetitorScripts ? `COMPETITOR POSTS ON THIS EXACT TOPIC (study their angle, format, and hook — then do it better):\n${matchingCompetitorScripts}\n═══════════════════════════════\n` : ''}
+${matchingTranscripts ? `WHAT COMPETITORS ACTUALLY SAID IN THEIR VIDEOS ON THIS TOPIC:\n${matchingTranscripts}\n═══════════════════════════════\n` : ''}
+${trendsStr ? `CURRENT TRENDING TOPICS IN NICHE:\n${trendsStr}\n═══════════════════════════════\n` : ''}
 
 SELECTED IDEA:
 Title: ${idea.title}
 Original Hook: ${idea.hook}
 Format: ${idea.format}
-Niche: ${idea.niche || 'AI'}
+Niche: ${idea.niche || 'AI & Automation'}
 Why it works: ${idea.reasoning || idea.why || ''}${sourceNote}
+
+INSTRUCTIONS:
+1. Study the competitor posts above — match the topic but find a DIFFERENT angle they haven't used
+2. Use @garvit.irl's viral hook patterns (pattern interrupt, curiosity, loss aversion)
+3. Write in Garvit's voice — direct, slightly casual, can mix Hindi words naturally
+4. The CTA must use a trigger word (e.g. "Comment BUILD and I'll send you...")
+5. Include the free PDF guide CTA if the idea mentions giving something for free
 
 Generate a complete content package:
 
-## HOOK VARIATIONS
+HOOK VARIATIONS
 3 alternative hooks (first 3 seconds each):
 1. [CURIOSITY] ...
 2. [FEAR/LOSS AVERSION] ...
 3. [ASPIRATION] ...
 
-## FULL SCRIPT
+FULL SCRIPT
 ${idea.format==='Carousel'?
-'Write each slide:\n**Slide 1 (Hook):**\n**Slide 2:**\n**Slide 3:**\n**Slide 4:**\n**Slide 5:**\n**Slide 6 (CTA):**':
+'Write each slide:\nSlide 1 (Hook):\nSlide 2:\nSlide 3:\nSlide 4:\nSlide 5:\nSlide 6 (CTA):':
 'Full word-for-word script with [action notes] in brackets:\n[0-3s]: hook\n[3-10s]: problem/setup\n[10-25s]: main value\n[25-40s]: proof/example\n[38-45s]: CTA'}
 
-## CAPTION
+CAPTION
 150 words max. Opens with the hook. Ends with hashtags.
 
-## CTA OPTIONS
-Two trigger word options with the exact script (e.g. "Comment LINK and I'll DM you...")
+CTA OPTIONS
+Two trigger word options with the exact DM script.
 `);
 
   // Save to script_library.json
