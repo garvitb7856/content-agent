@@ -154,6 +154,7 @@ footer{text-align:center;padding:2rem 1rem 3rem;color:#1e293b;font-size:.72rem;b
   <div><div class="sec">AI Agent Squad</div><div class="agents" id="agents"></div></div>
   <div><div class="sec">💡 Top 5 Ideas — Reply on Telegram to Pick</div><div class="ideas-grid" id="ideas5"></div></div>
   <div><div class="sec">7-Day Content Planner</div><div class="cal" id="cal"></div></div>
+  <div><div class="sec">🎙 Transcription Status</div><div class="stats" id="transcription-stats"></div></div>
   <div><div class="sec">Competitor Benchmark</div><div class="tw" id="tbl"></div></div>
 </main>
 <footer>Content Agent Dashboard · @garvit.irl · Powered by Apify + Gemini AI</footer>
@@ -193,6 +194,27 @@ function renderPipelineHealth(){
       var el=document.getElementById('pipe-status');
       if(el){el.className='pipe-badge pipe-unk';el.textContent='⋯ No data';}
     });
+}
+
+function renderTranscriptionStats(){
+  fetch('https://raw.githubusercontent.com/garvitb7856/content-agent/main/second_brain/transcription_summary.json?_='+Date.now())
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(ts){
+      var el=document.getElementById('transcription-stats');
+      if(!el)return;
+      if(!ts){el.innerHTML='<div class="sc"><div class="sl">Transcription</div><div class="sv" style="font-size:1rem;color:#475569;">No data yet</div><div class="ss">Runs with daily pipeline</div></div>';return;}
+      var pct=ts.total_videos_in_data>0?Math.round(ts.transcribed_done/ts.total_videos_in_data*100):0;
+      var cards=[
+        {label:'Total Videos',value:ts.total_videos_in_data,sub:'Videos with download URLs in data'},
+        {label:'Transcribed',value:ts.transcribed_done,sub:pct+'% complete'},
+        {label:'Pending Queue',value:ts.pending_queue,sub:'Videos waiting to be transcribed'},
+        {label:'Stored Transcripts',value:ts.stored_transcripts,sub:'Files in second_brain/transcripts/'}
+      ];
+      el.innerHTML=cards.map(function(c){
+        return '<div class="sc"><div class="sl">'+c.label+'</div><div class="sv">'+c.value+'</div><div class="ss">'+c.sub+'</div></div>';
+      }).join('');
+    })
+    .catch(function(){});
 }
 
 /* ── Extra Stat Cards ── */
@@ -581,6 +603,8 @@ function renderAgents(){
     var has=!!raw;
     FULL[a.key]=raw||"";
     var preview=raw?raw.replace(/[#*`_>\[\]]/g,"").replace(/\n+/g," ").substring(0,220)+"…":"No output yet — run run_agents.js";
+    var modelName = (AI && AI.models_used && AI.models_used[a.key]) ? AI.models_used[a.key] : '';
+    var modelTag = modelName ? '<div style="font-size:.58rem;color:#6366f1;margin-top:.15rem;">🤖 '+modelName+'</div>' : '';
     return'<div class="ac" style="border-left-color:'+a.color+'">'
       +'<div class="ah"><div class="ai" style="background:'+a.color+'18;color:'+a.color+'">'+a.icon+'</div>'
       +'<div style="flex:1;min-width:0"><div class="an">'+a.name+'</div><div class="ar">'+a.role+'</div></div>'
@@ -588,6 +612,7 @@ function renderAgents(){
       +'<div class="ao">'+esc(preview)+'</div>'
       +'<button class="vb" onclick="openM(\''+a.key+'\')">📄 View Full Output →</button>'
       +'<div class="ats">'+(aiTs?"Last run: "+aiTs:"No AI data yet")+'</div>'
+      +modelTag
       +'</div>';
   }).join("");
 }
@@ -718,6 +743,7 @@ function renderAll(){
   try{renderExtraStats();}catch(e){console.error(e);}
   try{renderGrowthChart();}catch(e){console.error(e);}
   try{renderPipelineHealth();}catch(e){console.error(e);}
+  try{renderTranscriptionStats();}catch(e){console.error(e);}
 }
 
 /* ── Load Today vs History ── */

@@ -200,7 +200,7 @@ async function callGemini(prompt, maxTokens = 8192) {
       // Track which model served this call globally
       if (!global.modelsUsed) global.modelsUsed = [];
       global.modelsUsed.push(modelId);
-      return text;
+      return { text, modelUsed: modelId };
     } catch(e) {
       lastError = e;
       const msg = e.message || '';
@@ -349,7 +349,7 @@ Best topics for your audience: ${patterns.bestTopics?.join(', ') || 'not enough 
 
   // ── AGENT 1: IDEATOR — 50 ideas ──────────────────────────────────────────
   console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
-  const ideatorRaw = await gemini(`
+  const ideatorResult = await gemini(`
 ${trendContext ? `\n${trendContext}\n` : ''}
 You are a viral content strategist for @${myHandle} (${myFollowers} followers, Indian AI/automation/entrepreneurship creator).
 
@@ -394,13 +394,14 @@ If no specific post inspired it, use empty string.
 
 Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.${PERFORMANCE_BLOCK}
 `, 'Ideator', 0.8);
+  const ideatorRaw = ideatorResult.text;
 
   const ideas50 = parseJSONArray(ideatorRaw, 'Ideator');
   console.log('  → Parsed '+ideas50.length+' ideas');
 
   // ── AGENT 2: SCOUT — filter to top 5 ─────────────────────────────────────
   console.log('\nAgent 2: Scout (scoring 50 → top 5)...');
-  const scoutRaw = await gemini(`
+  const scoutResult = await gemini(`
 You are the Scout Agent. Score these content ideas ruthlessly and objectively. Your job is to protect the creator from wasting time on weak content.
 
 SCORING RULES — be strict:
@@ -421,6 +422,7 @@ ${realTranscripts}
 OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. No markdown. No explanation. Start with [ end with ].
 [{"rank":1,"title":"...","hook":"...","format":"Reel or Carousel","score":"HIGH or MEDIUM or LOW","reasoning":"2 sentences: what trend signal backs this, what competitor evidence exists, why you ranked it here","niche":"AI or Entrepreneurship or Self-growth","sourceUrl":"Instagram URL if present in evaluated idea, else empty string"}]
 `, 'Scout', 0.3);
+  const scoutRaw = scoutResult.text;
 
   const top5 = parseJSONArray(scoutRaw, 'Scout');
   console.log('  → Scout selected '+top5.length+' ideas');
@@ -440,7 +442,7 @@ OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. N
 
   // ── AGENT 3: ANALYST ─────────────────────────────────────────────────────
   console.log('\nAgent 3: Analyst...');
-  const analyst = await gemini(`
+  const analystResult = await gemini(`
 IMPORTANT: Use these EXACT pre-computed stats for @${myHandle}:
 - Followers: ${myFollowers}
 - Avg Likes: ${myAvgLikes}
@@ -463,10 +465,11 @@ Rank competitors by engagement rate. Columns: Handle | Followers | Avg Likes | E
 ## RECOMMENDED ACTIONS
 3 concrete data-driven actions for the next 7 days.
 `, 'Analyst', 0.5);
+  const analyst = analystResult.text;
 
   // ── AGENT 4: PLANNER ─────────────────────────────────────────────────────
   console.log('\nAgent 4: Planner...');
-  let planner, planLocked=false;
+  let planner, plannerResult = null, planLocked=false;
   if (fs.existsSync(PLAN_PATH)) {
     try {
       const plan=JSON.parse(fs.readFileSync(PLAN_PATH,'utf8'));
@@ -481,7 +484,7 @@ Rank competitors by engagement rate. Columns: Handle | Followers | Avg Likes | E
       d.setDate(d.getDate() + i);
       return d.toLocaleDateString('en-IN', { weekday: 'long' });
     });
-    planner = await gemini(`
+    plannerResult = await gemini(`
 You are a content planner for @${myHandle} (AI/automation/entrepreneurship, Indian audience, 6:30-8PM IST peak hours).
 
 Start your 7-day plan from TODAY which is ${todayFormatted}. Label DAY 1 as today's actual day name. Do not start from Sunday or any fixed day.
@@ -500,11 +503,19 @@ For EACH day write exactly:
 
 Mix formats daily. Vary trigger words. Make every topic specific enough to film.
 `, 'Planner', 0.7);
+    planner = plannerResult.text;
     fs.mkdirSync(path.dirname(PLAN_PATH),{recursive:true});
     atomicWrite(PLAN_PATH, {created_at:new Date().toISOString(),content:planner});
   }
 
   // ── SAVE OUTPUT ───────────────────────────────────────────────────────────
+  const modelsUsedMap = {
+    ideator: ideatorResult?.modelUsed || 'unknown',
+    scout: scoutResult?.modelUsed || 'unknown',
+    analyst: analystResult?.modelUsed || 'unknown'
+  };
+  if (plannerResult?.modelUsed) modelsUsedMap.planner = plannerResult.modelUsed;
+
   const output = {
     generated_at: new Date().toISOString(),
     ideator: ideatorRaw,
@@ -513,10 +524,10 @@ Mix formats daily. Vary trigger words. Make every topic specific enough to film.
     analyst,
     planner,
     hook_script: null,
-    selected_idea: null
+    selected_idea: null,
+    models_used: modelsUsedMap,
+    primary_model: ideatorResult?.modelUsed || (global.modelsUsed || [])[0] || 'unknown'
   };
-  output.models_used = global.modelsUsed || [];
-  output.primary_model = (global.modelsUsed || [])[0] || 'unknown';
   [OUT_PATH1, OUT_PATH2].forEach(p => {
     fs.mkdirSync(path.dirname(p),{recursive:true});
     atomicWrite(p, output);

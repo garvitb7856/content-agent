@@ -260,19 +260,32 @@ async function run() {
   const byHandle = {};
   for (const item of newlyTranscribed) byHandle[item.handle] = (byHandle[item.handle] || 0) + 1;
 
+  // Always write summary even if no videos processed
+  const transcriptsDir = path.join(__dirname, '../second_brain/transcripts');
+  const allTranscriptFiles = fs.existsSync(transcriptsDir)
+    ? fs.readdirSync(transcriptsDir).filter(f => f.endsWith('.json') && f !== 'transcribed_ids.json')
+    : [];
+  const transcribedIdsArr = loadJSON(TRANSCRIBED_IDS_FILE, []);
+  const allPosts = [];
+  try {
+    const dataJson = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+    const allAccounts = [dataJson.your_account, ...Object.values(dataJson.competitors || {})];
+    allAccounts.forEach(acc => (acc?.posts || []).forEach(p => { if (p.videoUrl || p.video_url) allPosts.push(p.id); }));
+  } catch(e) {}
   const summary = {
-    date: new Date().toISOString().slice(0,10),
-    attempted: transcribedCount + failedCount,
+    updated_at: new Date().toISOString(),
+    total_videos_in_data: allPosts.length,
+    transcribed_done: allTranscriptFiles.length,
+    pending_queue: Math.max(0, allPosts.length - transcribedIdsArr.length),
+    stored_transcripts: allTranscriptFiles.length,
+    transcribed_ids_count: transcribedIdsArr.length,
     succeeded: transcribedCount,
     failed: failedCount,
     skipped: skippedCount,
-    pending: Math.max(0, pendingVideos.length - transcribedCount - failedCount - skippedCount),
     errors: errorLog
   };
-  const sumTmp = SUMMARY_FILE + '.tmp';
-  fs.writeFileSync(sumTmp, JSON.stringify(summary, null, 2));
-  fs.renameSync(sumTmp, SUMMARY_FILE);
-  console.log(`\n✅ Transcription done: ${transcribedCount} succeeded, ${failedCount} failed, ${skippedCount} skipped, ${summary.pending} pending for tomorrow.`);
+  fs.writeFileSync(SUMMARY_FILE, JSON.stringify(summary, null, 2));
+  console.log('📊 Transcription summary written:', summary);
 
   return { transcribed: newlyTranscribed.length, skipped, noVideoUrl, byHandle, items: newlyTranscribed };
 }

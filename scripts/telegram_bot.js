@@ -162,8 +162,12 @@ async function run(transcribeResult = {}) {
 
   const primaryModel = ai.primary_model || 'unknown';
   const modelsUsed = (ai.models_used || []);
-  const uniqueModels = [...new Set(modelsUsed)];
+  const uniqueModels = Array.isArray(modelsUsed) ? [...new Set(modelsUsed)] : [];
   const modelQuality = primaryModel.includes('lite') ? '⚠️ FALLBACK (lite model)' : '✅ Full quality';
+  const modelsUsedMap = typeof ai.models_used === 'object' && !Array.isArray(ai.models_used) ? ai.models_used : {};
+  const modelLine = Object.keys(modelsUsedMap).length
+    ? '\n🤖 Models: ' + Object.entries(modelsUsedMap).map(([k,v]) => k+': '+v).join(' | ')
+    : '';
 
   const acc       = data.your_account || {};
   const followers = acc.followers || 0;
@@ -263,7 +267,7 @@ async function run(transcribeResult = {}) {
     '🤖 <b>AI AGENT INSIGHTS</b>',
     '━━━━━━━━━━━━━━━━━━━━',
     '',
-    agentLines.join('\n\n'),
+    agentLines.join('\n\n') + (modelLine ? '\n' + modelLine : ''),
     '',
     '━━━━━━━━━━━━━━━━━━━━',
     '💡 <b>TODAY\'S TOP 5 IDEAS — Reply with a number to get your script!</b>',
