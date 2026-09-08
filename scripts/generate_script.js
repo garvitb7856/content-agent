@@ -275,62 +275,46 @@ async function main() {
     : '';
 
   const script = await gemini(`
-You are a viral Instagram Reel scriptwriter for @garvit.irl (${myFollowers} followers, AI/automation/entrepreneurship niche, Indian audience aged 18-30).
+You are a viral Instagram Reel scriptwriter for @garvit.irl (${myFollowers} followers, AI/automation/entrepreneurship, Indian audience 18-30, Hinglish-friendly).
 
-Your goal: write a script that feels native to @garvit.irl's voice — direct, energetic, slightly casual, Hinglish-friendly, always actionable.
+WHAT WORKS FOR @garvit.irl:
+- Best format: ${bestFormats}
+- Top viral hook: ${topOwnPosts ? topOwnPosts.split('\n')[0] : 'Pattern interrupt hooks perform best'}
+${intelligenceBriefing ? '- ' + intelligenceBriefing.substring(0, 300) + '...' : ''}
 
-═══════════════════════════════
-GARVIT'S ACCOUNT PERFORMANCE DATA:
-${patternInsight}
+TOP HOOKS IN THIS NICHE:
+${topHooksStr ? topHooksStr.split('\n').slice(0,5).join('\n') : 'No data yet.'}
 
-TOP 3 POSTS THAT WENT VIRAL FOR @garvit.irl:
-${topOwnPosts || 'Not enough data yet.'}
-
-BEST PERFORMING FORMATS: ${bestFormats}
-═══════════════════════════════
-
-${intelligenceBriefing ? `INTELLIGENCE BRIEFING (what works for this account):\n${intelligenceBriefing}\n═══════════════════════════════\n` : ''}
-
-TOP 10 HOOKS WORKING IN THIS NICHE RIGHT NOW (by engagement):
-${topHooksStr || 'No hook data yet.'}
-
-═══════════════════════════════
-${matchingCompetitorScripts ? `COMPETITOR POSTS ON THIS EXACT TOPIC (study their angle, format, and hook — then do it better):\n${matchingCompetitorScripts}\n═══════════════════════════════\n` : ''}
-${matchingTranscripts ? `WHAT COMPETITORS ACTUALLY SAID IN THEIR VIDEOS ON THIS TOPIC:\n${matchingTranscripts}\n═══════════════════════════════\n` : ''}
-${trendsStr ? `CURRENT TRENDING TOPICS IN NICHE:\n${trendsStr}\n═══════════════════════════════\n` : ''}
-
-SELECTED IDEA:
+${matchingCompetitorScripts ? `COMPETITORS ALREADY COVERED THIS TOPIC — USE A DIFFERENT ANGLE:
+${matchingCompetitorScripts.split('\n\n').slice(0,2).map(s => s.split('\n').slice(0,2).join(' | ')).join('\n')}
+` : ''}${matchingTranscripts ? `COMPETITOR SPOKEN SCRIPT REFERENCE:
+${matchingTranscripts.split('\n\n')[0].substring(0, 300)}
+` : ''}${trendsStr ? `TRENDING NOW: ${trendsStr.split('\n').slice(0,3).join(', ')}
+` : ''}
+IDEA TO SCRIPT:
 Title: ${idea.title}
-Original Hook: ${idea.hook}
+Hook: ${idea.hook}
 Format: ${idea.format}
-Niche: ${idea.niche || 'AI & Automation'}
-Why it works: ${idea.reasoning || idea.why || ''}${sourceNote}
+Why it works: ${idea.reasoning || ''}${sourceNote}
 
-INSTRUCTIONS:
-1. Study the competitor posts above — match the topic but find a DIFFERENT angle they haven't used
-2. Use @garvit.irl's viral hook patterns (pattern interrupt, curiosity, loss aversion)
-3. Write in Garvit's voice — direct, slightly casual, can mix Hindi words naturally
-4. The CTA must use a trigger word (e.g. "Comment BUILD and I'll send you...")
-5. Include the free PDF guide CTA if the idea mentions giving something for free
-
-Generate a complete content package:
+Write a complete viral content package:
 
 HOOK VARIATIONS
-3 alternative hooks (first 3 seconds each):
+3 hooks (first 3 seconds):
 1. [CURIOSITY] ...
-2. [FEAR/LOSS AVERSION] ...
+2. [FEAR/LOSS] ...
 3. [ASPIRATION] ...
 
 FULL SCRIPT
 ${idea.format==='Carousel'?
-'Write each slide:\nSlide 1 (Hook):\nSlide 2:\nSlide 3:\nSlide 4:\nSlide 5:\nSlide 6 (CTA):':
-'Full word-for-word script with [action notes] in brackets:\n[0-3s]: hook\n[3-10s]: problem/setup\n[10-25s]: main value\n[25-40s]: proof/example\n[38-45s]: CTA'}
+'Slide 1 (Hook):\nSlide 2:\nSlide 3:\nSlide 4:\nSlide 5:\nSlide 6 (CTA):':
+'Word-for-word with [action notes]:\n[0-3s]: hook\n[3-10s]: problem\n[10-25s]: value\n[25-40s]: proof\n[38-45s]: CTA'}
 
 CAPTION
-150 words max. Opens with the hook. Ends with hashtags.
+150 words max, opens with hook, ends with hashtags.
 
-CTA OPTIONS
-Two trigger word options with the exact DM script.
+CTA
+Two trigger word options (e.g. "Comment BUILD and I'll DM you...")
 `);
 
   // Save to script_library.json
