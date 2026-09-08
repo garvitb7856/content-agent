@@ -1,55 +1,69 @@
 {
-  "fetched_at": "2026-09-07T14:39:53.105Z",
+  "fetched_at": "2026-09-08T05:56:29.000Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "De-Brainrot Vacations",
-      "score": 183,
-      "comments": 68,
-      "url": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/"
+      "title": "How well do agents use test/verification techniques?",
+      "score": 42,
+      "comments": 7,
+      "url": "https://danluu.com/agentic-testing/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+      "score": 18,
+      "comments": 8,
+      "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics"
+    },
+    {
+      "source": "hackernews",
+      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+      "score": 265,
+      "comments": 134,
+      "url": "https://lax-skyline.parcelscope.net/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+      "score": 6,
+      "comments": 1,
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+    },
+    {
+      "source": "hackernews",
+      "title": "The VMs Powering Mobile Agents (Instinct, Claude Code)",
+      "score": 8,
+      "comments": 1,
+      "url": "https://rohanadwankar.github.io/posts/platforms.html"
+    },
+    {
+      "source": "hackernews",
+      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+      "score": 189,
+      "comments": 40,
+      "url": "https://arxiv.org/abs/2607.24888"
+    },
+    {
+      "source": "hackernews",
+      "title": "There's a new \"Google Jail\" for independent wikis",
+      "score": 21,
+      "comments": 3,
+      "url": "https://weirdgloop.org/blog/google-jail"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Jigsaw Haiku",
+      "score": 78,
+      "comments": 27,
+      "url": "https://jigsawhaiku.com/"
     },
     {
       "source": "hackernews",
       "title": "Caltech Mathathon – first hackathon ever devoted to research level mathematics",
-      "score": 92,
-      "comments": 19,
+      "score": 253,
+      "comments": 88,
       "url": "https://mathathonchallenge.com/index.html"
-    },
-    {
-      "source": "hackernews",
-      "title": "Smartphone makers don't bother to comply with EU repairability requirements",
-      "score": 125,
-      "comments": 53,
-      "url": "https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532"
-    },
-    {
-      "source": "hackernews",
-      "title": "Speculative Decoding in vLLM on AMD GPUs",
-      "score": 63,
-      "comments": 18,
-      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"
-    },
-    {
-      "source": "hackernews",
-      "title": "The jobs apocalypse is postponed. An AI jobs boom is here",
-      "score": 31,
-      "comments": 25,
-      "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: I made a word building game supporting anagrams and one handed use",
-      "score": 22,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49550479"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
-      "score": 61,
-      "comments": 29,
-      "url": "https://github.com/timgordontg/engrim"
     }
   ],
   "youtube": [
@@ -58,8 +72,8 @@
       "category": "Science & Tech",
       "title": "The UNTOLD Story Of The School Phone Ban...😳📱",
       "channel": "Peakzmotivation",
-      "views": 56865337,
-      "likes": 934965,
+      "views": 58095700,
+      "likes": 948159,
       "publishedAt": "2026-08-24T03:40:46Z",
       "url": "https://www.youtube.com/watch?v=2X-Lc35kpB8",
       "tags": [
@@ -75,8 +89,8 @@
       "category": "Science & Tech",
       "title": "Is a Chicken Better Than a Camera Stabilizer?",
       "channel": "Curiosity Clips",
-      "views": 8512962,
-      "likes": 155217,
+      "views": 8656186,
+      "likes": 157290,
       "publishedAt": "2026-08-29T13:00:21Z",
       "url": "https://www.youtube.com/watch?v=owLASI6wOgU",
       "tags": [],
@@ -87,8 +101,8 @@
       "category": "Science & Tech",
       "title": "MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok",
       "channel": "AlanTech",
-      "views": 6162182,
-      "likes": 43993,
+      "views": 6214566,
+      "likes": 44302,
       "publishedAt": "2026-08-31T02:49:06Z",
       "url": "https://www.youtube.com/watch?v=YgIIqe227wU",
       "tags": [],
@@ -99,8 +113,8 @@
       "category": "Science & Tech",
       "title": "I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!",
       "channel": "almostinventor",
-      "views": 4315224,
-      "likes": 72027,
+      "views": 4538855,
+      "likes": 74708,
       "publishedAt": "2026-08-15T11:51:37Z",
       "url": "https://www.youtube.com/watch?v=uojt3BgFVmY",
       "tags": [],
@@ -111,8 +125,8 @@
       "category": "Science & Tech",
       "title": "FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair",
       "channel": "Digital Doctor ",
-      "views": 3191998,
-      "likes": 66525,
+      "views": 3367505,
+      "likes": 70270,
       "publishedAt": "2026-09-02T04:32:27Z",
       "url": "https://www.youtube.com/watch?v=28bpVtD7MAk",
       "tags": [],
@@ -120,22 +134,10 @@
     },
     {
       "source": "youtube",
-      "category": "Science & Tech",
-      "title": "I randomly got sent the foldable iPhone..",
-      "channel": "CarterPCs",
-      "views": 2698866,
-      "likes": 149162,
-      "publishedAt": "2026-09-03T01:35:25Z",
-      "url": "https://www.youtube.com/watch?v=z4am9d3pC44",
-      "tags": [],
-      "description": "I randomly got sent the foldable iPhone..\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
       "category": "People & Blogs",
       "title": "vlog: building my dream house",
       "channel": "Kylie Jenner",
-      "views": 1424930,
+      "views": 2160741,
       "likes": 0,
       "publishedAt": "2026-09-06T16:21:33Z",
       "url": "https://www.youtube.com/watch?v=7APWfTucDQ4",
@@ -144,11 +146,35 @@
     },
     {
       "source": "youtube",
+      "category": "Science & Tech",
+      "title": "$45 #Sony Cinema Camera Sensor Cleaning! Too much? #raybanmeta #techtok #cameragear #fbmarketplace",
+      "channel": "Mighty Duck Media",
+      "views": 2151119,
+      "likes": 65427,
+      "publishedAt": "2026-09-03T08:01:53Z",
+      "url": "https://www.youtube.com/watch?v=XdAb4MZ7uOU",
+      "tags": [],
+      "description": "$45 for Sony Cinema Camera Sensor\nCleaning!\nWould you trust yourself $16,000\ncamera?\nCleaning tools we use → link in bio!\n#Sony #raybanmeta #techtok #"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Is the iPhone fold’s durability cooked..",
+      "channel": "CarterPCs",
+      "views": 1105149,
+      "likes": 55917,
+      "publishedAt": "2026-09-07T03:36:17Z",
+      "url": "https://www.youtube.com/watch?v=CaIaNfTeZAs",
+      "tags": [],
+      "description": "Is the iPhone fold’s durability cooked..\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
       "category": "People & Blogs",
       "title": "I'm 48. Here's Exactly What I Eat In a Day",
       "channel": "Bobby Parrish",
-      "views": 234988,
-      "likes": 5161,
+      "views": 266317,
+      "likes": 5596,
       "publishedAt": "2026-09-05T14:00:28Z",
       "url": "https://www.youtube.com/watch?v=9vWk4hptvcs",
       "tags": [
@@ -163,22 +189,10 @@
     {
       "source": "youtube",
       "category": "People & Blogs",
-      "title": "A morning well spent!😌 You guys picked the cutest nails ever!! #spendthedaywithme #ditl",
-      "channel": "Sabriena Abrre",
-      "views": 178801,
-      "likes": 14535,
-      "publishedAt": "2026-09-06T00:09:30Z",
-      "url": "https://www.youtube.com/watch?v=vrQ2j2tXLAU",
-      "tags": [],
-      "description": "A morning well spent!😌 You guys picked the cutest nails ever!! #spendthedaywithme #ditl #runerrandswithme #momlife #minivlog Nodpod EADEM Starbucks"
-    },
-    {
-      "source": "youtube",
-      "category": "People & Blogs",
       "title": "moving forward after years of depression ❤️",
       "channel": "Space Maker Method",
-      "views": 154648,
-      "likes": 10928,
+      "views": 182705,
+      "likes": 11952,
       "publishedAt": "2026-09-06T10:00:34Z",
       "url": "https://www.youtube.com/watch?v=bkCk4bdhPVM",
       "tags": [
@@ -195,7 +209,7 @@
     "keyword_trends": [
       {
         "keyword": "self improvement",
-        "trend_score": 97
+        "trend_score": 92
       },
       {
         "keyword": "AI tools",
@@ -203,30 +217,30 @@
       },
       {
         "keyword": "AI for business",
-        "trend_score": 81
+        "trend_score": 85
       },
       {
         "keyword": "AI workflow",
+        "trend_score": 84
+      },
+      {
+        "keyword": "solopreneur",
         "trend_score": 80
       },
       {
         "keyword": "automation tools",
-        "trend_score": 79
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 74
+        "trend_score": 80
       },
       {
         "keyword": "ChatGPT",
-        "trend_score": 70
+        "trend_score": 79
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 35
+        "trend_score": 40
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-07T14:39:53.105Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"De-Brainrot Vacations\" — 183 pts\n• [HackerNews] \"Caltech Mathathon – first hackathon ever devoted to research level mathematics\" — 92 pts\n• [HackerNews] \"Smartphone makers don't bother to comply with EU repairability requirements\" — 125 pts\n• [HackerNews] \"Speculative Decoding in vLLM on AMD GPUs\" — 63 pts\n• [HackerNews] \"The jobs apocalypse is postponed. An AI jobs boom is here\" — 31 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 56865k views\n• [YouTube Global] \"Is a Chicken Better Than a Camera Stabilizer?\" by Curiosity Clips — 8513k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6162k views\n• [YouTube Global] \"I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!\" by almostinventor — 4315k views\n• [YouTube Global] \"FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair\" by Digital Doctor  — 3192k views\n• [YouTube Global] \"I randomly got sent the foldable iPhone..\" by CarterPCs — 2699k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 97), AI tools (score: 85), AI for business (score: 81), AI workflow (score: 80), automation tools (score: 79), solopreneur (score: 74), ChatGPT (score: 70), productivity tools (score: 35)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-08T05:56:29.000Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"How well do agents use test/verification techniques?\" — 42 pts\n• [HackerNews] \"Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics\" — 18 pts\n• [HackerNews] \"Watch Los Angeles get built, one building at a time (1880–2026)\" — 265 pts\n• [HackerNews] \"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" — 6 pts\n• [HackerNews] \"The VMs Powering Mobile Agents (Instinct, Claude Code)\" — 8 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 58096k views\n• [YouTube Global] \"Is a Chicken Better Than a Camera Stabilizer?\" by Curiosity Clips — 8656k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6215k views\n• [YouTube Global] \"I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!\" by almostinventor — 4539k views\n• [YouTube Global] \"FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair\" by Digital Doctor  — 3368k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 2161k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 92), AI tools (score: 85), AI for business (score: 85), AI workflow (score: 84), solopreneur (score: 80), automation tools (score: 80), ChatGPT (score: 79), productivity tools (score: 40)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

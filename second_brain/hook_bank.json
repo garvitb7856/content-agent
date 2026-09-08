@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T10:44:52.811Z",
+  "updated_at": "2026-09-08T06:01:04.238Z",
   "hooks": [
     {
       "id": "3970889328451453070",
@@ -2107,6 +2107,83 @@
       "likes": 26,
       "comments": 1,
       "addedAt": "2026-09-07T10:42:19.207Z"
+    },
+    {
+      "id": "3980912038009477226_26526554234",
+      "text": "apple event is in 2 days?!",
+      "type": "question",
+      "format": "Reel",
+      "account": "@ishansharma7390",
+      "postUrl": "https://www.instagram.com/p/Dc_CmgjoZhq/",
+      "likes": 631,
+      "comments": 7,
+      "added_at": "2026-09-08T05:56:29.119Z"
+    },
+    {
+      "id": "3981032110877783033_48619065725",
+      "text": "Comment “Money” & i’ll share the link with you🤭",
+      "type": "bold_claim",
+      "format": "Reel",
+      "account": "@aryamanupmanyu",
+      "postUrl": "https://www.instagram.com/p/Dc_d5zISzP5/",
+      "likes": 3,
+      "comments": 46,
+      "added_at": "2026-09-08T05:56:29.120Z"
+    },
+    {
+      "id": "3980937299782568843_59161778770",
+      "text": "A glimpse into our AI Masterclass in Jaipur. 🚀",
+      "type": "story",
+      "format": "Reel",
+      "account": "@nivedan.ai",
+      "postUrl": "https://www.instagram.com/p/Dc_IWHapIuL/",
+      "likes": 39,
+      "comments": 1,
+      "added_at": "2026-09-08T05:56:29.120Z"
+    },
+    {
+      "id": "3981440366313389154_104890898",
+      "text": "Every AI model in one window",
+      "type": "story",
+      "format": "Reel",
+      "account": "@vaibhavsisinty",
+      "postUrl": "https://www.instagram.com/p/DdA6usogrxi/",
+      "likes": 434,
+      "comments": 3,
+      "added_at": "2026-09-08T05:56:29.120Z"
+    },
+    {
+      "id": "3980977622493685963_104890898",
+      "text": "8 free AI tools that feel illegal",
+      "type": "story",
+      "format": "Reel",
+      "account": "@vaibhavsisinty",
+      "postUrl": "https://www.instagram.com/p/Dc_Rg43g-jL/",
+      "likes": 4663,
+      "comments": 54,
+      "added_at": "2026-09-08T05:56:29.120Z"
+    },
+    {
+      "id": "3980950420902061028_27437145281",
+      "text": "🤯 Graphic designers are NOT needed anymore? 👀",
+      "type": "question",
+      "format": "Reel",
+      "account": "@favourite.engineer",
+      "postUrl": "https://www.instagram.com/p/Dc_LVDaTyPk/",
+      "likes": 3,
+      "comments": 30,
+      "added_at": "2026-09-08T05:56:29.120Z"
+    },
+    {
+      "id": "3981056695693811790_7695520761",
+      "text": "i tested GPT-6 Astra for 3D animations in Blender, and to try it's potential. The outputs were good but not good enough to replace a 3D artist.",
+      "type": "story",
+      "format": "Reel",
+      "account": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/Dc_jfjhhSBO/",
+      "likes": 4611,
+      "comments": 58,
+      "added_at": "2026-09-08T05:56:29.120Z"
     }
   ]
 }

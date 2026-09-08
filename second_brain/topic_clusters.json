@@ -263,5 +263,43 @@
       "loophole",
       "slop"
     ]
+  },
+  {
+    "name": "Consumer vs Builder Mindset",
+    "keywords": [
+      "consumer",
+      "builder",
+      "building",
+      "mediocre",
+      "dreams",
+      "project",
+      "weekend",
+      "skills"
+    ]
+  },
+  {
+    "name": "Hardware and Tech Gadgets",
+    "keywords": [
+      "hardware",
+      "circuit",
+      "iphone",
+      "toothbrush",
+      "camera",
+      "repairability",
+      "tech stack"
+    ]
+  },
+  {
+    "name": "AI Wrappers and App Development",
+    "keywords": [
+      "wrapper",
+      "app",
+      "website",
+      "scrapers",
+      "apis",
+      "build",
+      "portfolio",
+      "products"
+    ]
   }
 ]

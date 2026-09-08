@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-07",
-  "end_date": "2026-09-14",
+  "generated_on": "2026-09-08",
+  "end_date": "2026-09-15",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-07",
-      "topic": "Building a 24/7 WhatsApp lead qualification bot using Make.com and ChatGPT API for Indian D2C businesses.",
+      "date": "2026-09-08",
+      "topic": "The \"Anti-Subscription\" AI Hack (Based on your Speed AI script)",
       "format": "Reel",
       "post_time": "7:15 PM IST",
-      "hook": "\"Stop losing ₹10,000+ in abandoned leads every weekend—here is how to automate your WhatsApp sales for ₹0.\"",
+      "hook": "Stop paying for AI subscriptions right now.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-08",
-      "topic": "5 AI automation tools that replaced a ₹50,000/month operational team for an early-stage startup.",
+      "date": "2026-09-09",
+      "topic": "Why you feel like a fraud (Mindset shift for creators)",
       "format": "Carousel",
       "post_time": "6:45 PM IST",
-      "hook": "\"I cut ₹50,000 in monthly overhead costs with this exact 5-tool AI stack (slide to see the workflow).\"",
+      "hook": "\"Kya kar raha hai?\" – The voice in your head that stops you from starting.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-09",
-      "topic": "Automating GST invoice extraction from Gmail directly into Google Sheets and Tally.",
+      "date": "2026-09-10",
+      "topic": "Build a \"Second Brain\" using Notion & AI",
       "format": "Reel",
       "post_time": "7:30 PM IST",
-      "hook": "\"If your team spends Monday mornings manually sorting GST invoices, you're wasting 15 hours a week.\"",
+      "hook": "I stopped relying on my memory and started using this AI system instead.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-10",
-      "topic": "Step-by-step roadmap to land your first ₹25,000 AI Automation client in India (no coding required).",
+      "date": "2026-09-11",
+      "topic": "3 AI Tools I use to automate my content workflow (Save 10+ hours/week)",
       "format": "Carousel",
       "post_time": "7:00 PM IST",
-      "hook": "\"How to build and sell your first AI automation service to local Indian businesses in 14 days.\"",
+      "hook": "My content creation process used to take 5 hours, now it takes 30 minutes.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-11",
-      "topic": "Using AI voice-cloning and HeyGen to generate 30 localized video ads in Hindi & English in 10 minutes.",
+      "date": "2026-09-12",
+      "topic": "The \"King Kohli\" Mindset (Based on your I am the best script)",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "\"I filmed one 30-second video, and AI turned it into 30 localized ads in fluent Hindi.\"",
+      "post_time": "8:00 PM IST",
+      "hook": "Why Ronaldo, Kohli, and SRK all say the same 3 words before they perform.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-12",
-      "topic": "The \"Operating System\" ChatGPT prompt collection for Indian agency owners and solopreneurs.",
+      "date": "2026-09-13",
+      "topic": "How to build a side hustle using AI while working a 9-5",
       "format": "Carousel",
       "post_time": "6:30 PM IST",
-      "hook": "\"95% of founders use ChatGPT like Google. Here are 6 system prompts that actually run my operations.\"",
+      "hook": "You don't need to quit your job to start a business in 2024.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-13",
-      "topic": "Scraping local verified business leads from Google Maps and sending personalized AI cold outreach.",
+      "date": "2026-09-14",
+      "topic": "Weekly AI News Roundup (What happened in AI this week that actually matters)",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "\"Here is how to legally extract 500 B2B leads in your city in under 3 minutes using simple automation.\"",
+      "post_time": "7:00 PM IST",
+      "hook": "Too busy to keep up with AI? Here’s the only update you need for this week.",
       "status": "pending"
     }
   ]

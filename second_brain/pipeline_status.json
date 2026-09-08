@@ -1,16 +1,101 @@
 {
-  "run_started": "2026-09-07T17:58:10.497Z",
+  "run_started": "2026-09-08T05:55:00.324Z",
   "run_finished": null,
   "overall": "running",
   "steps": {
     "1__fetch_apify_data": {
       "status": "success",
-      "startedAt": "2026-09-07T17:58:10.516Z",
-      "finishedAt": "2026-09-07T17:58:57.110Z"
+      "startedAt": "2026-09-08T05:55:00.446Z",
+      "finishedAt": "2026-09-08T05:56:22.697Z"
     },
-    "1_5_transcribe_videos": {
+    "2__fetch_internet_trends": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:22.698Z",
+      "finishedAt": "2026-09-08T05:56:29.017Z"
+    },
+    "2_5_analyze_ig_trends": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:22.707Z",
+      "finishedAt": "2026-09-08T05:56:22.812Z"
+    },
+    "2_6_feedback_loop": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:22.716Z",
+      "finishedAt": "2026-09-08T05:56:22.827Z"
+    },
+    "update_hook_bank": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:29.018Z",
+      "finishedAt": "2026-09-08T05:56:29.140Z"
+    },
+    "update_competitor_scripts": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:29.029Z",
+      "finishedAt": "2026-09-08T05:56:29.154Z"
+    },
+    "fetch_48h_performance": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:29.041Z",
+      "finishedAt": "2026-09-08T05:56:29.168Z"
+    },
+    "detect_new_posts": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:29.054Z",
+      "finishedAt": "2026-09-08T05:56:29.169Z"
+    },
+    "compute_patterns": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:29.170Z",
+      "finishedAt": "2026-09-08T05:56:29.268Z"
+    },
+    "notify_pattern_update": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:29.268Z",
+      "finishedAt": "2026-09-08T05:56:30.111Z"
+    },
+    "3__detect_posted": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:30.113Z",
+      "finishedAt": "2026-09-08T05:56:30.212Z"
+    },
+    "3_5_caption_diff": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:30.213Z",
+      "finishedAt": "2026-09-08T05:56:30.318Z"
+    },
+    "3_8_refresh_topic_clusters": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:30.318Z",
+      "finishedAt": "2026-09-08T05:56:32.574Z"
+    },
+    "4__run_ai_agents": {
+      "status": "success",
+      "startedAt": "2026-09-08T05:56:32.575Z",
+      "finishedAt": "2026-09-08T06:01:04.121Z"
+    },
+    "5__update_second_brain": {
+      "status": "success",
+      "startedAt": "2026-09-08T06:01:04.122Z",
+      "finishedAt": "2026-09-08T06:01:04.253Z"
+    },
+    "6__plan_manager": {
+      "status": "success",
+      "startedAt": "2026-09-08T06:01:04.254Z",
+      "finishedAt": "2026-09-08T06:01:04.344Z"
+    },
+    "6_5_prune_second_brain": {
+      "status": "success",
+      "startedAt": "2026-09-08T06:01:04.344Z",
+      "finishedAt": "2026-09-08T06:01:04.437Z"
+    },
+    "7__save_history": {
+      "status": "success",
+      "startedAt": "2026-09-08T06:01:04.438Z",
+      "finishedAt": "2026-09-08T06:01:04.529Z"
+    },
+    "8__push_to_github": {
       "status": "running",
-      "startedAt": "2026-09-07T17:58:57.111Z"
+      "startedAt": "2026-09-08T06:01:04.529Z"
     }
   }
 }
