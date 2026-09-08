@@ -170,7 +170,7 @@ async function run() {
   }
 
   const newlyTranscribed = [];
-  const TEST_LIMIT = 30;
+  const TEST_LIMIT = 25;
   let transcribedCount = 0;
   let skipped = 0, noVideoUrl = 0;
 
