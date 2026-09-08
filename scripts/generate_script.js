@@ -67,7 +67,8 @@ async function gemini(prompt) {
         const text=JSON.parse(body).candidates[0]?.content?.parts[0]?.text?.trim();
         if (text&&text.length>50) { console.log('✅ Generated ('+model+', '+text.length+' chars)'); return text; }
       }
-      if (statusCode===503||statusCode===429) continue;
+      console.log('⚠️ ' + model + ' returned HTTP ' + statusCode + ' — trying next model');
+      if (statusCode===503||statusCode===429||statusCode===404) continue;
     } catch(e) { console.log('⚠️ '+model+': '+e.message); }
   }
   return '[Script generation failed]';
