@@ -54,7 +54,7 @@ if (!customIdeaText && (isNaN(rawIndex) || rawIndex < 1 || rawIndex > 50)) {
 const ideaIndex = rawIndex ? rawIndex - 1 : -1;
 
 async function gemini(prompt) {
-  const models=['gemini-3.7-flash','gemini-3.8-flash','gemini-3.1-flash-lite'];
+  const models=['gemini-3.7-flash','gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash','gemini-3.0-flash','gemini-2.5-flash','gemini-3.5-flash-lite','gemini-2.5-flash-lite','gemini-3.1-flash-lite'];
   for (const model of models) {
     const postData=JSON.stringify({contents:[{parts:[{text:prompt}]}],generationConfig:{temperature:0.8,maxOutputTokens:8192}});
     const options={hostname:'generativelanguage.googleapis.com',port:443,path:'/v1beta/models/'+model+':generateContent?key='+GEMINI_KEY,method:'POST',headers:{'Content-Type':'application/json','Content-Length':Buffer.byteLength(postData)}};
