@@ -107,7 +107,14 @@ function cleanForTelegram(text) {
 }
 
 async function sendTelegram(text) {
-  const plain = text.replace(/<[^>]+>/g, '').trim();
+  const plain = text
+    .replace(/#{1,4}\s+/g, '')
+    .replace(/\*\*(.+?)\*\*/g, '$1')
+    .replace(/\*([^*\n]+?)\*/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/^[-*]\s+/gm, '• ')
+    .replace(/<[^>]+>/g, '')
+    .trim();
   const chunks = [];
   const lines = plain.split('\n');
   let chunk = '';
