@@ -1,0 +1,37 @@
+name: Generate Script on Demand
+on:
+  workflow_dispatch:
+    inputs:
+      chat_id:
+        description: 'Telegram chat ID'
+        required: true
+      message_text:
+        description: 'User message (1-50 or custom idea)'
+        required: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install
+      - name: Create .env
+        run: |
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env
+          echo "GEMINI_TRANSCRIBE_KEY=${{ secrets.GEMINI_TRANSCRIBE_KEY }}" >> .env
+          echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
+          echo "TELEGRAM_CHAT_ID=${{ inputs.chat_id }}" >> .env
+          echo "MY_INSTAGRAM_HANDLE=${{ secrets.MY_INSTAGRAM_HANDLE }}" >> .env
+      - name: Generate and send script
+        env:
+          MESSAGE_TEXT: ${{ inputs.message_text }}
+        run: |
+          if [[ "$MESSAGE_TEXT" =~ ^[0-9]+$ ]]; then
+            node scripts/generate_script.js "$MESSAGE_TEXT"
+          else
+            CUSTOM_IDEA="$MESSAGE_TEXT" node scripts/generate_script.js --custom
+          fi
