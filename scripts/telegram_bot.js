@@ -99,7 +99,7 @@ function getPipelineHealth() {
   }
 }
 
-function sendMessage(text) {
+function sendSingleMessage(text) {
   return new Promise((resolve, reject) => {
     if (!BOT_TOKEN || !CHAT_ID) {
       console.error('❌ Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID in .env');
@@ -139,6 +139,27 @@ function sendMessage(text) {
     req.write(body);
     req.end();
   });
+}
+
+async function sendMessage(text) {
+  if (text.length <= 4000) {
+    return sendSingleMessage(text);
+  }
+  const lines = text.split('\n');
+  let currentChunk = '';
+  for (const line of lines) {
+    if ((currentChunk + '\n' + line).length > 3900) {
+      if (currentChunk.trim()) {
+        await sendSingleMessage(currentChunk.trim());
+      }
+      currentChunk = line;
+    } else {
+      currentChunk += (currentChunk ? '\n' : '') + line;
+    }
+  }
+  if (currentChunk.trim()) {
+    await sendSingleMessage(currentChunk.trim());
+  }
 }
 
 async function run(transcribeResult = {}) {
@@ -282,7 +303,7 @@ async function run(transcribeResult = {}) {
         if (!pending.length) return ['No ideas scored yet.'];
         const emojis = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
         const lines = [];
-        pending.forEach((idea, i) => {
+        pending.slice(0, 5).forEach((idea, i) => {
           const r = idea.rating || idea.score || 'MEDIUM';
           const ratingEmoji = r === 'HIGH' ? '🟢' : r === 'MEDIUM' ? '🟡' : '🔴';
           lines.push(emojis[i]+' '+ratingEmoji+' <b>'+esc(idea.title||'')+'</b>');
