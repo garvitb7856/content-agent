@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Sundar Pichai on Wrapper Startup Traps",
-    "hook": "What Sundar Pichai thinks of AI wrappers.",
+    "title": "Prompt-Driven Web Scraping with ScrapeGraphAI",
+    "hook": "Stop paying for web scrapers—this open-source AI extracts structured data in 60 seconds with a simple prompt.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Backed by strong viral proof with Varun Mayya's analysis reaching 98k likes. It offers fresh strategic perspective on platform dependency vs moats for builders.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/C7CPlnDLW9W/"
+    "score": "LOW",
+    "reasoning": "There is no current trend data available to back this topic, and competitor performance shows 0 likes. It is ranked first among weak options as open-source scraping tools have high practical utility despite overlapping with covered AI tool themes.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/3975938982864010077_72269881052/"
   },
   {
     "rank": 2,
-    "title": "The Western Rebranding Strategy (Dupatta to Scarf)",
-    "hook": "Why Indian products cost 10x in Silicon Valley.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Driven by a high-performing post by Zeeel Jain dissecting economic repositioning. It delivers an unrepresented angle on branding psychology that the creator hasn't covered.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dc--JFOK0pQ/"
+    "title": "CLI-Anything: Connect Any Desktop App to AI Interfaces",
+    "hook": "How to connect your local desktop software directly to AI tools without waiting for official plugins.",
+    "format": "Carousel",
+    "score": "LOW",
+    "reasoning": "No trend data context backs this tool and competitor proof yields 0 likes. It lands in rank 2 due to developer utility, though terminal developer tools are already covered.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/3970889328451453070_72269881052/"
   },
   {
     "rank": 3,
-    "title": "The NotebookLM YouTube Demonetization Warning",
-    "hook": "NotebookLM plus YouTube equals demonetization.",
+    "title": "Automated Funnel Building with Emergent AI",
+    "hook": "I built a complete Instagram sales funnel using a free AI prompt in under 10 minutes.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Supported by @favourite.engineer's post generating 18k likes on YouTube platform monetization rules. It addresses a critical risk warning for automated content creators.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DcygDO0zJ1G/"
+    "score": "LOW",
+    "reasoning": "Trend data provides zero signals for this topic and the competitor post achieved 0 likes. It ranks third because AI business funnels overlap significantly with the 40x covered solopreneur topic cluster.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/3964987942178995784_65880404765/"
   },
   {
     "rank": 4,
-    "title": "Testing Business Ideas for ₹50,000",
-    "hook": "I tested a business idea to make ₹50,000.",
+    "title": "Instant Product Video Ads using Higgsfield AI",
+    "hook": "Turn static product photos into video ads automatically using ChatGPT and Higgsfield.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Proven viral blueprint with Dhaval Kataria's execution garnering 63k likes. It provides clear proof-of-work experimentation tailored for aspiring founders.",
+    "score": "LOW",
+    "reasoning": "No real-time trend signals support this concept and competitor proof registers at 0 likes. It is ranked lower due to heavy saturation in ChatGPT and AI tool roundups.",
     "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DVdxpJcCNde/"
+    "sourceUrl": "https://www.instagram.com/p/3978527522457650939_24040950/"
   },
   {
     "rank": 5,
-    "title": "School Phone Ban Trend vs Creator Deep Work",
-    "hook": "Schools are banning phones. Should creators too?",
+    "title": "The Winner Mindset: Ronaldo, Kohli & SRK's Core Belief Rule",
+    "hook": "Why Cristiano Ronaldo, Virat Kohli, and Shah Rukh Khan all use this exact mindset rule before every victory.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Anchored in a global 59M view YouTube trend surrounding digital phone bans and focus. It connects focus and discipline directly to young creators without repeating past routines.",
+    "score": "LOW",
+    "reasoning": "This idea lacks any trend data backing and competitor benchmark shows 0 likes. It ranks last due to extreme repetition in personal growth (20x) and Indian content (24x) covered clusters.",
     "niche": "Self-growth",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/3946143846389680373_65880404765/"
   }
 ]
