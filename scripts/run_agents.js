@@ -254,6 +254,19 @@ function parseJSONArray(raw, label) {
   return [];
 }
 
+function extractIdeatorJSON(raw) {
+  if (!raw || typeof raw !== 'string') return raw;
+  const start = raw.indexOf('[');
+  const end = raw.lastIndexOf(']');
+  if (start !== -1 && end !== -1 && end > start) {
+    const candidate = raw.slice(start, end + 1);
+    try { JSON.parse(candidate); return candidate; } catch(e) { return candidate; }
+  }
+  return raw
+    .replace(/^[\s\S]*?(?=(?:\d+\.\s|#{1,3}\s|\*\s|•\s|Idea\s+\d+|Title:|hook:))/im, '')
+    .trim();
+}
+
 function buildSummaries(data) {
   const me = data.your_account || {};
   const myHandle = me.username||'garvit.irl';
@@ -529,7 +542,7 @@ Mix formats daily. Vary trigger words. Make every topic specific enough to film.
 
   const output = {
     generated_at: new Date().toISOString(),
-    ideator: ideatorRaw,
+    ideator: extractIdeatorJSON(ideatorRaw),
     scout: scoutRaw,
     pending_ideas: top5,
     analyst,

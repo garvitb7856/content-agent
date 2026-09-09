@@ -130,8 +130,10 @@ async function runParallel(steps) {
   run('9. Send Telegram',            'node scripts/telegram_bot.js');
 
   // Finalize status
-  const failed = Object.values(status.steps).filter(s => s.status === 'failed').map((s, i) => Object.keys(status.steps)[i]);
-  status.overall = failed.length === 0 ? 'success' : 'partial';
+  const failed = Object.values(status.steps).filter(s => s.status === 'failed');
+  const nonCriticalKeys = new Set(['9__send_telegram', 'notify_pattern_update', '6_5__prune_second_brain']);
+  const criticalFailed = failed.filter((s, i) => !nonCriticalKeys.has(Object.keys(status.steps)[i]));
+  status.overall = criticalFailed.length === 0 ? 'success' : 'partial';
   status.run_finished = new Date().toISOString();
   saveStatus();
 

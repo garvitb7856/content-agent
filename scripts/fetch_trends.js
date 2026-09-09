@@ -8,11 +8,11 @@ const OUT  = path.join(ROOT, 'second_brain/trends.json');
 const YOUTUBE_KEY = process.env.YOUTUBE_API_KEY;
 
 const NICHE_KEYWORDS = [
-  'ai', 'chatgpt', 'gpt', 'llm', 'automation', 'tool', 'agent', 'artificial intelligence',
+  'ai', 'chatgpt', 'gpt', 'llm', 'automation', 'agent', 'artificial intelligence',
   'startup', 'founder', 'business', 'entrepreneur', 'solopreneur', 'saas',
   'productivity', 'workflow', 'self improvement', 'growth', 'habit', 'mindset',
-  'professional', 'career', 'money', 'content creator', 'tech', 'software',
-  'machine learning', 'deep learning', 'openai', 'gemini', 'claude', 'build',
+  'money', 'content creator', 'software',
+  'machine learning', 'deep learning', 'openai', 'gemini', 'claude',
   'passive income', 'side project', 'digital nomad', 'creator economy'
 ];
 
@@ -100,7 +100,7 @@ async function fetchHackerNews() {
       url: s.url || `https://news.ycombinator.com/item?id=${s.id}`
     }));
     const filtered = all.filter(s => isNiche(s.title));
-    const final = (filtered.length >= 3 ? filtered : all).slice(0, 10);
+    const final = filtered.slice(0, 10);
     console.log(`  HackerNews: ${all.length} raw → ${filtered.length} niche → ${final.length} top`);
     return final;
   } catch(e) { console.log('HN failed:', e.message); return []; }
