@@ -111,7 +111,7 @@ async function transcribeWithGemini(filePath) {
       res = await axios.post(
         `https://generativelanguage.googleapis.com/v1beta/models/${MODELS[Math.min(attempt-1, MODELS.length-1)]}:generateContent?key=${apiKey}`,
         { contents: [{ parts: [{ file_data: { mime_type: mimeType, file_uri: fileUri } }, { text: prompt }] }], generationConfig: { maxOutputTokens: 4096, temperature: 0.1 } },
-        { timeout: 90000 }
+        { timeout: 150000 }
       );
       lastErr = null;
       break;
@@ -119,7 +119,7 @@ async function transcribeWithGemini(filePath) {
       lastErr = e;
       const status = e.response?.status;
       if (status === 429 || status === 503) {
-        const retryWaits = [10000, 20000, 30000, 45000, 60000];
+        const retryWaits = [60000, 90000, 120000, 150000, 180000];
         const wait = retryWaits[attempt - 1];
         console.log(`  Rate limited (attempt ${attempt}/5) — waiting ${wait/1000}s before retry...`);
         await new Promise(r => setTimeout(r, wait));
