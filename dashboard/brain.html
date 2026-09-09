@@ -81,6 +81,17 @@ tr:hover td{background:rgba(255,255,255,.015)}
 .empty{color:#334155;font-size:.76rem;padding:.75rem;text-align:center;font-style:italic}
 footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-top:1px solid rgba(255,255,255,.03)}
 @media(max-width:640px){.sidebar{display:none}.main{padding:1rem}}
+/* Mobile nav */
+.mob-menu-btn{display:none;position:fixed;bottom:1.25rem;right:1.25rem;z-index:999;background:linear-gradient(135deg,#7c3aed,#a855f7);color:#fff;border:none;border-radius:50%;width:52px;height:52px;font-size:1.3rem;cursor:pointer;box-shadow:0 4px 20px rgba(124,58,237,.5)}
+.mob-nav-overlay{display:none;position:fixed;inset:0;z-index:998;background:rgba(7,9,15,.97);overflow-y:auto;padding:1.5rem 1rem}
+.mob-nav-overlay.open{display:block}
+.mob-nav-overlay .mob-close{display:block;text-align:right;font-size:.8rem;color:#a78bfa;cursor:pointer;margin-bottom:1rem;font-weight:700}
+.mob-nav-overlay .nav-item{display:flex;padding:.75rem 1rem;font-size:.9rem;border-radius:10px;margin-bottom:.3rem}
+.mob-back{display:none;margin-bottom:1rem}
+@media(max-width:640px){
+  .mob-menu-btn{display:flex;align-items:center;justify-content:center}
+  .mob-back{display:block}
+}
 </style>
 </head>
 <body>
@@ -143,6 +154,10 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
     <!-- CONTENT LOG -->
     <div id="sec-content-log" class="sec-block">
       <div class="sec-title">📋 Content Log — <span>Your Posts Tracked</span></div>
+      <div style="display:flex;gap:.5rem;margin-bottom:1rem;flex-wrap:wrap">
+        <button onclick="setLogTab('all')" id="tab-all" style="padding:.3rem .75rem;border-radius:8px;font-size:.72rem;font-weight:700;background:rgba(124,58,237,.2);color:#a78bfa;border:1px solid rgba(124,58,237,.3);cursor:pointer">All Posts</button>
+        <button onclick="setLogTab('attribution')" id="tab-attr" style="padding:.3rem .75rem;border-radius:8px;font-size:.72rem;font-weight:700;background:rgba(255,255,255,.05);color:#64748b;border:1px solid rgba(255,255,255,.07);cursor:pointer">🧬 Script Attribution</button>
+      </div>
       <div id="content-log-content"><div class="loading">Loading...</div></div>
     </div>
 
@@ -195,6 +210,29 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
     </div>
 
   </main>
+</div>
+<button class="mob-menu-btn" onclick="toggleMobNav()">☰</button>
+<div class="mob-nav-overlay" id="mob-overlay">
+  <span class="mob-close" onclick="toggleMobNav()">✕ Close</span>
+  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem">Overview</div>
+  <a class="nav-item" onclick="mobShow('overview')">📊 Overview</a>
+  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Pipeline</div>
+  <a class="nav-item" onclick="mobShow('pipeline')">⚙️ Pipeline Status</a>
+  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Content Memory</div>
+  <a class="nav-item" onclick="mobShow('hooks')">🪝 Hook Bank</a>
+  <a class="nav-item" onclick="mobShow('scripts')">📝 Competitor Scripts</a>
+  <a class="nav-item" onclick="mobShow('content-log')">📋 Content Log</a>
+  <a class="nav-item" onclick="mobShow('performance')">📈 Performance</a>
+  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Intelligence</div>
+  <a class="nav-item" onclick="mobShow('patterns')">🧬 Patterns</a>
+  <a class="nav-item" onclick="mobShow('agent-context')">🤖 Agent Context</a>
+  <a class="nav-item" onclick="mobShow('trends')">🌐 Trends</a>
+  <a class="nav-item" onclick="mobShow('clusters')">🗂 Topic Clusters</a>
+  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Content</div>
+  <a class="nav-item" onclick="mobShow('ideas')">💡 Ideas History</a>
+  <a class="nav-item" onclick="mobShow('plan')">📅 Active Plan</a>
+  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Transcription</div>
+  <a class="nav-item" onclick="mobShow('transcription')">🎙 Transcription Status</a>
 </div>
 <footer>Second Brain Inspector · @garvit.irl · All data from GitHub second_brain/</footer>
 
@@ -256,8 +294,10 @@ window.loadAll=function(){
 
 // ── Overview ─────────────────────────────────────────────────
 function renderOverview(map){
-  var hooks=map['hook_bank.json']||[];
-  var scripts=map['competitor_scripts.json']||[];
+  var hooksRaw=map['hook_bank.json']||[];
+  var hooks=Array.isArray(hooksRaw)?hooksRaw:(hooksRaw.hooks||[]);
+  var scriptsRaw=map['competitor_scripts.json']||[];
+  var scripts=Array.isArray(scriptsRaw)?scriptsRaw:(scriptsRaw.scripts||scriptsRaw.competitor_scripts||[]);
   var log=Array.isArray(map['content_log.json'])?map['content_log.json']:(map['content_log.json']?Object.values(map['content_log.json']):[]);
   var perf=Array.isArray(map['performance_archive.json'])?map['performance_archive.json']:[];
   var ideas=map['ideas_history.json']||{};
@@ -350,7 +390,8 @@ function renderPipeline(){
 }
 
 function renderHooks(){
-  fetchJSON('hook_bank.json').then(function(hooks){
+  fetchJSON('hook_bank.json').then(function(d){
+    var raw=d||[]; var hooks=Array.isArray(raw)?raw:(raw.hooks||[]);
     if(!hooks||!hooks.length){document.getElementById('hooks-content').innerHTML='<div class="empty">No hooks stored yet</div>';return;}
     var sorted=hooks.slice().sort(function(a,b){return(b.likes||0)-(a.likes||0);});
     var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+hooks.length+' hooks stored · Sorted by likes</div>';
@@ -370,7 +411,8 @@ function renderHooks(){
 }
 
 function renderScripts(){
-  fetchJSON('competitor_scripts.json').then(function(scripts){
+  fetchJSON('competitor_scripts.json').then(function(d){
+    var raw=d||[]; var scripts=Array.isArray(raw)?raw:(raw.scripts||raw.competitor_scripts||[]);
     if(!scripts||!scripts.length){document.getElementById('scripts-content').innerHTML='<div class="empty">No competitor scripts yet — transcription fills this</div>';return;}
     var sorted=scripts.slice().sort(function(a,b){return(b.likes||0)-(a.likes||0);});
     var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+scripts.length+' scripts stored</div>';
@@ -390,30 +432,71 @@ function renderScripts(){
   });
 }
 
+var logTab='all';
+window.setLogTab=function(tab){
+  logTab=tab;
+  document.getElementById('tab-all').style.background=tab==='all'?'rgba(124,58,237,.2)':'rgba(255,255,255,.05)';
+  document.getElementById('tab-all').style.color=tab==='all'?'#a78bfa':'#64748b';
+  document.getElementById('tab-attr').style.background=tab==='attribution'?'rgba(124,58,237,.2)':'rgba(255,255,255,.05)';
+  document.getElementById('tab-attr').style.color=tab==='attribution'?'#a78bfa':'#64748b';
+  fetchJSON('content_log.json').then(function(d){
+    var arr=Array.isArray(d)?d:(d?Object.values(d):[]);
+    renderLogTab(arr,tab);
+  });
+};
+function renderLogTab(arr,tab){
+  var el=document.getElementById('content-log-content');
+  if(tab==='attribution'){
+    var withDiff=arr.filter(function(p){return p.diffAnalysis;});
+    if(!withDiff.length){el.innerHTML='<div class="empty">No attribution data yet — runs after caption_diff.js processes posts</div>';return;}
+    var colorMap={agent_script_used:'#22c55e',agent_idea_own_script:'#f97316',original_content:'#6b7280'};
+    var labelMap={agent_script_used:'Used AI Script','agent_idea_own_script':'Own Script (AI Idea)','original_content':'Fully Original'};
+    var counts={agent_script_used:0,agent_idea_own_script:0,original_content:0};
+    withDiff.forEach(function(p){if(p.diffAnalysis.classification)counts[p.diffAnalysis.classification]=(counts[p.diffAnalysis.classification]||0)+1;});
+    var html='<div style="display:flex;gap:.75rem;margin-bottom:1.25rem;flex-wrap:wrap">';
+    Object.entries(counts).forEach(function(e){
+      html+='<div style="background:rgba(0,0,0,.3);border-radius:10px;padding:.6rem 1rem;border-left:3px solid '+(colorMap[e[0]]||'#6366f1')+'"><div style="font-size:1.2rem;font-weight:800;color:'+(colorMap[e[0]]||'#6366f1')+'">'+e[1]+'</div><div style="font-size:.6rem;color:#475569;text-transform:uppercase;font-weight:700">'+(labelMap[e[0]]||e[0])+'</div></div>';
+    });
+    html+='</div>';
+    withDiff.slice(0,30).forEach(function(p){
+      var da=p.diffAnalysis||{};
+      var cls=da.classification||'unknown';
+      var col=colorMap[cls]||'#6b7280';
+      var sim=da.similarity!=null?Math.round(da.similarity*100)+'%':'—';
+      html+='<div class="card"><div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem"><span style="font-size:.6rem;font-weight:700;padding:.15rem .45rem;border-radius:4px;background:'+col+'22;color:'+col+';border:1px solid '+col+'44">'+(labelMap[cls]||cls)+'</span><span style="font-size:.65rem;color:#475569">'+sim+' match</span></div><div class="card-title" style="font-size:.76rem">'+(p.caption||'').substring(0,120)+'...</div><div class="card-sub">'+(p.likes||0)+' likes · '+(p.comments||0)+' comments · '+(istTime(p.timestamp||p.added_at))+'</div>'+(da.matchedScript?'<div style="font-size:.67rem;color:#6366f1;margin-top:.3rem">Matched script: "'+esc(da.matchedScript).substring(0,80)+'"</div>':'')+'</div>';
+    });
+    el.innerHTML=html||'<div class="empty">No data</div>';
+  } else {
+    renderContentLogTable(arr);
+  }
+}
 function renderContentLog(){
   fetchJSON('content_log.json').then(function(raw){
-    var log=Array.isArray(raw)?raw:(raw?Object.values(raw):[]);
-    if(!log.length){document.getElementById('content-log-content').innerHTML='<div class="empty">No posts tracked yet</div>';return;}
-    var sorted=log.slice().sort(function(a,b){return new Date(b.timestamp||0)-new Date(a.timestamp||0);});
-    var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+log.length+' posts tracked</div>';
-    html+='<div class="tw"><table><thead><tr><th>Date</th><th>Caption</th><th>Likes</th><th>Comments</th><th>Type</th><th>Diff Analysis</th></tr></thead><tbody>';
-    sorted.forEach(function(p){
-      var diff=p.diffAnalysis||{};
-      var cls=diff.classification||'';
-      var tagCls=cls==='agent_script_used'?'tag-green':cls==='agent_idea_own_script'?'tag-amber':'tag-blue';
-      var tagLabel=cls==='agent_script_used'?'Agent Script':cls==='agent_idea_own_script'?'Agent Idea':'Original';
-      html+='<tr>'+
-        '<td style="white-space:nowrap;color:#64748b;">'+istTime(p.timestamp)+'</td>'+
-        '<td style="max-width:280px;"><a href="'+(p.url||'#')+'" target="_blank" style="color:#c4b5fd;font-size:.73rem;">'+esc((p.caption||'').substring(0,80))+(p.caption&&p.caption.length>80?'…':'')+'</a></td>'+
-        '<td style="color:#10b981;font-weight:700;">'+fmt(p.likes||0)+'</td>'+
-        '<td>'+fmt(p.comments||0)+'</td>'+
-        '<td><span class="tag tag-purple">'+esc(p.type||'—')+'</span></td>'+
-        '<td>'+(cls?'<span class="tag '+tagCls+'">'+tagLabel+'</span>'+(diff.similarity?' <span style="font-size:.6rem;color:#475569;">'+diff.similarity+'% match</span>':''):'<span style="color:#334155;font-size:.68rem;">—</span>')+'</td>'+
-      '</tr>';
-    });
-    html+='</tbody></table></div>';
-    document.getElementById('content-log-content').innerHTML=html;
+    var arr=Array.isArray(raw)?raw:(raw?Object.values(raw):[]);
+    renderLogTab(arr,logTab);
   });
+}
+function renderContentLogTable(log){
+  if(!log.length){document.getElementById('content-log-content').innerHTML='<div class="empty">No posts tracked yet</div>';return;}
+  var sorted=log.slice().sort(function(a,b){return new Date(b.timestamp||0)-new Date(a.timestamp||0);});
+  var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+log.length+' posts tracked</div>';
+  html+='<div class="tw"><table><thead><tr><th>Date</th><th>Caption</th><th>Likes</th><th>Comments</th><th>Type</th><th>Diff Analysis</th></tr></thead><tbody>';
+  sorted.forEach(function(p){
+    var diff=p.diffAnalysis||{};
+    var cls=diff.classification||'';
+    var tagCls=cls==='agent_script_used'?'tag-green':cls==='agent_idea_own_script'?'tag-amber':'tag-blue';
+    var tagLabel=cls==='agent_script_used'?'Agent Script':cls==='agent_idea_own_script'?'Agent Idea':'Original';
+    html+='<tr>'+
+      '<td style="white-space:nowrap;color:#64748b;">'+istTime(p.timestamp)+'</td>'+
+      '<td style="max-width:280px;"><a href="'+(p.url||'#')+'" target="_blank" style="color:#c4b5fd;font-size:.73rem;">'+esc((p.caption||'').substring(0,80))+(p.caption&&p.caption.length>80?'…':'')+'</a></td>'+
+      '<td style="color:#10b981;font-weight:700;">'+fmt(p.likes||0)+'</td>'+
+      '<td>'+fmt(p.comments||0)+'</td>'+
+      '<td><span class="tag tag-purple">'+esc(p.type||'—')+'</span></td>'+
+      '<td>'+(cls?'<span class="tag '+tagCls+'">'+tagLabel+'</span>'+(diff.similarity?' <span style="font-size:.6rem;color:#475569;">'+diff.similarity+'% match</span>':''):'<span style="color:#334155;font-size:.68rem;">—</span>')+'</td>'+
+    '</tr>';
+  });
+  html+='</tbody></table></div>';
+  document.getElementById('content-log-content').innerHTML=html;
 }
 
 function renderPerformance(){
@@ -597,6 +680,28 @@ function renderTranscription(){
     document.getElementById('transcription-content').innerHTML=html;
   });
 }
+
+window.toggleMobNav=function(){
+  var o=document.getElementById('mob-overlay');
+  o.classList.toggle('open');
+};
+window.mobShow=function(id){
+  document.getElementById('mob-overlay').classList.remove('open');
+  // Add back button to section if not there
+  var sec=document.getElementById('sec-'+id);
+  if(sec && !sec.querySelector('.mob-back')){
+    var btn=document.createElement('button');
+    btn.className='mob-back back-btn';
+    btn.textContent='☰ Menu';
+    btn.onclick=function(){document.getElementById('mob-overlay').classList.add('open');};
+    sec.insertBefore(btn,sec.firstChild);
+  }
+  document.querySelectorAll('.sec-block').forEach(function(el){el.classList.remove('visible');});
+  if(sec) sec.classList.add('visible');
+  currentSec=id;
+  renderSection(id);
+  window.scrollTo(0,0);
+};
 
 // ── Init ─────────────────────────────────────────────────────
 loadAll();
