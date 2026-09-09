@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Higgsfield AI: Image to Product Video",
-    "hook": "Turn photos into studio ads instantly.",
+    "title": "Sundar Pichai on Wrapper Startup Traps",
+    "hook": "What Sundar Pichai thinks of AI wrappers.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Backed by competitor transcript proof demonstrating automated photo-to-video ad generation. While AI tool demos are common, the specific e-commerce visual workflow provides immediate high-value utility.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/3978527522457650939_24040950/"
+    "score": "HIGH",
+    "reasoning": "Backed by strong viral proof with Varun Mayya's analysis reaching 98k likes. It offers fresh strategic perspective on platform dependency vs moats for builders.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/C7CPlnDLW9W/"
   },
   {
     "rank": 2,
-    "title": "Mammouth AI: Every Model in One Window",
-    "hook": "Stop paying 5 AI subscriptions every month.",
+    "title": "The Western Rebranding Strategy (Dupatta to Scarf)",
+    "hook": "Why Indian products cost 10x in Silicon Valley.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Competitor post proof validates audience pain regarding recurring subscription costs across multiple AI tools. Aggregating Claude, GPT, Grok, and Perplexity delivers a pragmatic cost-cutting hook.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdA6usogrxi/"
+    "score": "HIGH",
+    "reasoning": "Driven by a high-performing post by Zeeel Jain dissecting economic repositioning. It delivers an unrepresented angle on branding psychology that the creator hasn't covered.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dc--JFOK0pQ/"
   },
   {
     "rank": 3,
-    "title": "ChatGPT Self-Serve Ads Arrive in India",
-    "hook": "ChatGPT just launched ads in India.",
+    "title": "The NotebookLM YouTube Demonetization Warning",
+    "hook": "NotebookLM plus YouTube equals demonetization.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Backed by competitor proof highlighting regional ad format launches in India. It offers first-mover positioning for local marketers and founders without repeating generic AI news.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DdBJATQK5U-/"
+    "score": "HIGH",
+    "reasoning": "Supported by @favourite.engineer's post generating 18k likes on YouTube platform monetization rules. It addresses a critical risk warning for automated content creators.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DcygDO0zJ1G/"
   },
   {
     "rank": 4,
-    "title": "Design.MD: 2,000+ Free UI Systems",
-    "hook": "Stop paying web designers in 2026.",
-    "format": "Carousel",
-    "score": "MEDIUM",
-    "reasoning": "Supported by active competitor proof offering high-value UI assets for non-technical builders. It delivers actionable resource utility while avoiding heavily saturated coding and workflow clusters.",
+    "title": "Testing Business Ideas for ₹50,000",
+    "hook": "I tested a business idea to make ₹50,000.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Proven viral blueprint with Dhaval Kataria's execution garnering 63k likes. It provides clear proof-of-work experimentation tailored for aspiring founders.",
     "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dc3zXkXSxpH/"
+    "sourceUrl": "https://www.instagram.com/p/DVdxpJcCNde/"
   },
   {
     "rank": 5,
-    "title": "ISRO's 36,000km Space Camera Flex",
-    "hook": "India put a camera 36,000km high.",
-    "format": "Carousel",
-    "score": "MEDIUM",
-    "reasoning": "Competitor proof demonstrates strong viral national pride and tech achievement engagement. This topic completely avoids overused AI tool roundups and productivity advice.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DdB_-vEgx7P/"
+    "title": "School Phone Ban Trend vs Creator Deep Work",
+    "hook": "Schools are banning phones. Should creators too?",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Anchored in a global 59M view YouTube trend surrounding digital phone bans and focus. It connects focus and discipline directly to young creators without repeating past routines.",
+    "niche": "Self-growth",
+    "sourceUrl": ""
   }
 ]

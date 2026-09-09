@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T07:46:53.772Z",
+  "updated_at": "2026-09-09T08:21:13.617Z",
   "your_performance": {
     "posts_analyzed": 33,
     "best_hook_type": "unknown",
@@ -191,11 +191,11 @@
     "insights": ""
   },
   "niche_performance": {
-    "total_hooks": 245,
+    "total_hooks": 246,
     "total_scripts": 97,
     "viral_scripts": 37,
     "best_hook_type": "story",
-    "hook_length_insight": "Short hooks (≤8 words) outperform long hooks by 45% in your niche. Keep hooks concise.",
+    "hook_length_insight": "Short hooks (≤8 words) outperform long hooks by 46% in your niche. Keep hooks concise.",
     "by_hook_type": [
       {
         "type": "story",
@@ -239,8 +239,8 @@
       },
       {
         "type": "statement",
-        "avg": 52.38,
-        "count": 8
+        "avg": 50.22,
+        "count": 9
       }
     ],
     "top_hooks": [
@@ -348,5 +348,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (33 posts analyzed):\nBest hook type: unknown\nBest format: Video\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\" | \"I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and\" | \"That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurshi\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (245 hooks, 97 scripts):\nBest hook type in niche: story\nHook length insight: Short hooks (≤8 words) outperform long hooks by 45% in your niche. Keep hooks concise.\nTop niche hooks: \"I also asked Sundar what he thinks of wrapper startups 😁\" (98256 likes) | \"Power of AI Agents 🤯\" (70346 likes) | \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\" (63602 likes) | \"Coming soon. We talk:\" (58564 likes) | \"🤯 Claude can literally pay your rent by building websites\" (57496 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"unknown\" style hooks. Short hooks (≤8 words) outperform long hooks by 45% in your niche. Keep hooks concise.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (33 posts analyzed):\nBest hook type: unknown\nBest format: Video\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\" | \"I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and\" | \"That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurshi\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (246 hooks, 97 scripts):\nBest hook type in niche: story\nHook length insight: Short hooks (≤8 words) outperform long hooks by 46% in your niche. Keep hooks concise.\nTop niche hooks: \"I also asked Sundar what he thinks of wrapper startups 😁\" (98256 likes) | \"Power of AI Agents 🤯\" (70346 likes) | \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\" (63602 likes) | \"Coming soon. We talk:\" (58564 likes) | \"🤯 Claude can literally pay your rent by building websites\" (57496 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"unknown\" style hooks. Short hooks (≤8 words) outperform long hooks by 46% in your niche. Keep hooks concise.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }
