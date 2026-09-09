@@ -191,7 +191,7 @@ async function callGemini(prompt, maxTokens = 8192) {
       process.stdout.write(`  Calling [${modelId}]... `);
       const model = genAI.getGenerativeModel({
         model: modelId,
-        generationConfig: { maxOutputTokens: maxTokens, temperature: 0.85 }
+        generationConfig: { maxOutputTokens: maxTokens, temperature: 0.85, thinkingBudget: 0 }
       });
       const result = await model.generateContent(prompt);
       const text = result.response.text();
@@ -256,8 +256,16 @@ function parseJSONArray(raw, label) {
 
 function extractIdeatorJSON(raw) {
   if (!raw || typeof raw !== 'string') return raw;
+  // Prefer [{...}] — strips any thinking/preamble before the real JSON array
+  const objStart = raw.indexOf('[{');
+  const objEnd   = raw.lastIndexOf('}]');
+  if (objStart !== -1 && objEnd !== -1 && objEnd > objStart) {
+    const candidate = raw.slice(objStart, objEnd + 2);
+    try { JSON.parse(candidate); return candidate; } catch(e) {}
+  }
+  // Fallback: any JSON array bracket pair
   const start = raw.indexOf('[');
-  const end = raw.lastIndexOf(']');
+  const end   = raw.lastIndexOf(']');
   if (start !== -1 && end !== -1 && end > start) {
     const candidate = raw.slice(start, end + 1);
     try { JSON.parse(candidate); return candidate; } catch(e) { return candidate; }

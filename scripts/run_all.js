@@ -83,7 +83,7 @@ async function runParallel(steps) {
     const hoursSince = (Date.now() - fetchedAt) / (1000 * 60 * 60);
     if (hoursSince < 6) {
       console.log(`\n⏭ Skipping Apify fetch — data already fresh (fetched ${Math.round(hoursSince)}h ago)`);
-      status.steps['apify_fetch'] = { status: 'skipped', reason: `data ${Math.round(hoursSince)}h old` };
+      status.steps['1__fetch_apify_data'] = { status: 'skipped', reason: `data ${Math.round(hoursSince)}h old` };
       saveStatus();
     } else {
       if (run('1. Fetch Apify Data', 'node scripts/fetch_data.js', { critical: true })) {
@@ -130,9 +130,15 @@ async function runParallel(steps) {
   run('9. Send Telegram',            'node scripts/telegram_bot.js');
 
   // Finalize status
-  const failed = Object.values(status.steps).filter(s => s.status === 'failed');
-  const nonCriticalKeys = new Set(['9__send_telegram', 'notify_pattern_update', '6_5__prune_second_brain']);
-  const criticalFailed = failed.filter((s, i) => !nonCriticalKeys.has(Object.keys(status.steps)[i]));
+  const nonCriticalKeys = new Set([
+    '9__send_telegram', 'notify_pattern_update', '6_5__prune_second_brain',
+    '1_5_transcribe_videos', '1_5_transcribe_videos_', 'transcribe',
+    '3_8_refresh_topic_clusters', '2_5_analyze_ig_trends', '2_6_feedback_loop',
+    '6_5_prune_second_brain', 'prune_second_brain'
+  ]);
+  const criticalFailed = Object.entries(status.steps)
+    .filter(([k, v]) => v.status === 'failed' && !nonCriticalKeys.has(k))
+    .map(([k]) => k);
   status.overall = criticalFailed.length === 0 ? 'success' : 'partial';
   status.run_finished = new Date().toISOString();
   saveStatus();
