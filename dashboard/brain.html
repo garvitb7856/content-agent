@@ -10,37 +10,29 @@
 body{background:#07090f;color:#f1f5f9;font-family:'Inter',sans-serif;min-height:100vh;display:flex;flex-direction:column}
 header{display:flex;justify-content:space-between;align-items:center;padding:.85rem 2rem;background:rgba(7,9,15,.97);border-bottom:1px solid rgba(255,255,255,.07);position:sticky;top:0;z-index:100;flex-wrap:wrap;gap:.5rem}
 .logo{font-size:1rem;font-weight:800;background:linear-gradient(135deg,#fff 30%,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.hdr-r{display:flex;align-items:center;gap:.6rem;font-size:.75rem}
+.hdr-r{display:flex;align-items:center;gap:.6rem}
 .back-btn{padding:.3rem .75rem;background:rgba(124,58,237,.15);color:#a78bfa;border:1px solid rgba(124,58,237,.3);border-radius:8px;font-size:.72rem;font-weight:700;text-decoration:none;cursor:pointer}
-.back-btn:hover{background:rgba(124,58,237,.25)}
 .refresh-btn{padding:.3rem .75rem;background:rgba(16,185,129,.12);color:#10b981;border:1px solid rgba(16,185,129,.2);border-radius:8px;font-size:.72rem;font-weight:700;cursor:pointer}
-.refresh-btn:hover{background:rgba(16,185,129,.2)}
-.layout{display:flex;flex:1;gap:0}
-/* Sidebar */
+.layout{display:flex;flex:1}
 .sidebar{width:220px;flex-shrink:0;background:rgba(15,21,36,.6);border-right:1px solid rgba(255,255,255,.05);padding:1rem .75rem;display:flex;flex-direction:column;gap:.25rem;position:sticky;top:55px;height:calc(100vh - 55px);overflow-y:auto}
 .nav-item{padding:.5rem .75rem;border-radius:8px;font-size:.76rem;font-weight:600;color:#64748b;cursor:pointer;display:flex;align-items:center;gap:.5rem;transition:all .15s;border:1px solid transparent;text-decoration:none}
 .nav-item:hover{background:rgba(124,58,237,.1);color:#c4b5fd;border-color:rgba(124,58,237,.15)}
 .nav-item.active{background:rgba(124,58,237,.15);color:#a78bfa;border-color:rgba(124,58,237,.25)}
 .nav-sep{font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#1e293b;padding:.75rem .75rem .25rem;margin-top:.25rem}
 .nav-count{margin-left:auto;font-size:.6rem;background:rgba(255,255,255,.06);padding:.1rem .35rem;border-radius:10px;color:#475569;font-weight:700}
-/* Main */
 .main{flex:1;padding:1.5rem 1.75rem;display:flex;flex-direction:column;gap:1.75rem;overflow:auto}
-/* Overview cards */
-.overview{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem}
+.overview{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.75rem}
 .ov-card{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:.9rem;text-align:center;cursor:pointer;transition:all .2s;border-top:2px solid}
-.ov-card:hover{transform:translateY(-2px);border-color:rgba(124,58,237,.4)}
+.ov-card:hover{transform:translateY(-2px)}
 .ov-num{font-size:1.6rem;font-weight:800;line-height:1.1}
 .ov-label{font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#475569;margin-top:.25rem}
-/* Section */
 .sec-block{display:none}
 .sec-block.visible{display:block}
 .sec-title{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#475569;margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}
 .sec-title span{color:#a78bfa}
-/* Cards */
 .card{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1.1rem;margin-bottom:.75rem}
-.card-title{font-size:.78rem;font-weight:700;color:#f1f5f9;margin-bottom:.5rem}
-.card-sub{font-size:.68rem;color:#64748b;margin-bottom:.75rem}
-/* Table */
+.card-title{font-size:.78rem;font-weight:700;color:#f1f5f9;margin-bottom:.35rem}
+.card-sub{font-size:.68rem;color:#64748b}
 .tw{background:rgba(15,21,36,.9);border:1px solid rgba(255,255,255,.06);border-radius:12px;overflow:auto;margin-bottom:.75rem}
 table{width:100%;border-collapse:collapse;font-size:.78rem}
 thead{background:rgba(0,0,0,.4)}
@@ -48,49 +40,52 @@ th{padding:.55rem .85rem;font-size:.63rem;font-weight:700;text-transform:upperca
 td{padding:.55rem .85rem;border-bottom:1px solid rgba(255,255,255,.025);color:#94a3b8;vertical-align:top}
 tr:last-child td{border-bottom:none}
 tr:hover td{background:rgba(255,255,255,.015)}
-/* Tag */
 .tag{display:inline-block;font-size:.6rem;font-weight:700;padding:.15rem .4rem;border-radius:4px;margin:.1rem}
 .tag-green{background:rgba(16,185,129,.12);color:#10b981}
 .tag-purple{background:rgba(168,85,247,.12);color:#a855f7}
 .tag-blue{background:rgba(56,189,248,.12);color:#38bdf8}
 .tag-amber{background:rgba(245,158,11,.12);color:#f59e0b}
 .tag-red{background:rgba(239,68,68,.12);color:#ef4444}
-/* Pipeline steps */
+.tag-gray{background:rgba(100,116,139,.12);color:#64748b}
 .step{display:flex;align-items:center;gap:.6rem;padding:.45rem .75rem;border-radius:8px;margin-bottom:.35rem;background:rgba(0,0,0,.3);font-size:.75rem}
 .step-ok{border-left:3px solid #10b981}
 .step-fail{border-left:3px solid #ef4444}
 .step-skip{border-left:3px solid #475569}
 .step-name{flex:1;color:#cbd5e1;font-weight:600}
 .step-time{font-size:.63rem;color:#475569}
-/* Hook/script preview */
 .hook-item{padding:.65rem .75rem;background:rgba(0,0,0,.3);border-radius:8px;margin-bottom:.4rem;border-left:3px solid #6366f1}
-.hook-text{font-size:.78rem;color:#c4b5fd;font-weight:600;margin-bottom:.2rem}
+.hook-text{font-size:.78rem;color:#c4b5fd;font-weight:600;margin-bottom:.25rem}
 .hook-meta{font-size:.63rem;color:#475569;display:flex;gap:.75rem;flex-wrap:wrap}
-/* Trend item */
 .trend-item{display:flex;align-items:flex-start;gap:.6rem;padding:.55rem .75rem;background:rgba(0,0,0,.25);border-radius:8px;margin-bottom:.35rem}
 .trend-src{font-size:.58rem;font-weight:700;padding:.12rem .35rem;border-radius:4px;flex-shrink:0;margin-top:.1rem}
-.trend-title{font-size:.76rem;color:#cbd5e1;flex:1}
-/* Cluster */
 .cluster-item{display:flex;align-items:center;gap:.6rem;padding:.5rem .75rem;background:rgba(0,0,0,.25);border-radius:8px;margin-bottom:.3rem}
 .cluster-name{font-size:.76rem;color:#c4b5fd;font-weight:600;flex:1}
-.cluster-bar{flex:1;height:4px;background:rgba(255,255,255,.05);border-radius:2px;overflow:hidden;max-width:100px}
-.cluster-fill{height:100%;background:linear-gradient(90deg,#6366f1,#a855f7);border-radius:2px}
-/* JSON viewer */
+.cluster-kw{font-size:.62rem;color:#475569}
 .json-box{background:#0a0d1a;border:1px solid rgba(255,255,255,.05);border-radius:8px;padding:.85rem;font-size:.7rem;color:#94a3b8;font-family:monospace;white-space:pre-wrap;word-break:break-all;max-height:320px;overflow-y:auto;line-height:1.7}
 .loading{color:#334155;font-size:.78rem;padding:1rem;text-align:center}
 .empty{color:#334155;font-size:.76rem;padding:.75rem;text-align:center;font-style:italic}
+.tab-btn{padding:.3rem .75rem;border-radius:8px;font-size:.72rem;font-weight:700;cursor:pointer;border:1px solid;margin-right:.35rem;margin-bottom:.5rem}
+.tab-active{background:rgba(124,58,237,.2);color:#a78bfa;border-color:rgba(124,58,237,.3)}
+.tab-inactive{background:rgba(255,255,255,.04);color:#64748b;border-color:rgba(255,255,255,.07)}
+.stat-row{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1rem}
+.stat-box{background:rgba(0,0,0,.3);border-radius:10px;padding:.6rem 1rem;border-left:3px solid}
+.stat-num{font-size:1.2rem;font-weight:800}
+.stat-lbl{font-size:.6rem;color:#475569;text-transform:uppercase;font-weight:700}
+/* Mobile */
+.mob-fab{display:none;position:fixed;bottom:1.25rem;right:1.25rem;z-index:999;background:linear-gradient(135deg,#7c3aed,#a855f7);color:#fff;border:none;border-radius:50%;width:52px;height:52px;font-size:1.3rem;cursor:pointer;box-shadow:0 4px 20px rgba(124,58,237,.5);align-items:center;justify-content:center}
+.mob-overlay{display:none;position:fixed;inset:0;z-index:998;background:rgba(7,9,15,.97);overflow-y:auto;padding:1.5rem 1rem}
+.mob-overlay.open{display:block}
+.mob-close-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.25rem}
+.mob-back{display:none;margin-bottom:.85rem;padding:.4rem .9rem;background:rgba(124,58,237,.15);color:#a78bfa;border:1px solid rgba(124,58,237,.3);border-radius:8px;font-size:.75rem;font-weight:700;cursor:pointer;width:fit-content}
+.mob-overlay .nav-item{font-size:.88rem;padding:.7rem 1rem;margin-bottom:.3rem;display:flex}
+.mob-overlay .nav-sep{font-size:.65rem;margin-top:.9rem}
 footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-top:1px solid rgba(255,255,255,.03)}
-@media(max-width:640px){.sidebar{display:none}.main{padding:1rem}}
-/* Mobile nav */
-.mob-menu-btn{display:none;position:fixed;bottom:1.25rem;right:1.25rem;z-index:999;background:linear-gradient(135deg,#7c3aed,#a855f7);color:#fff;border:none;border-radius:50%;width:52px;height:52px;font-size:1.3rem;cursor:pointer;box-shadow:0 4px 20px rgba(124,58,237,.5)}
-.mob-nav-overlay{display:none;position:fixed;inset:0;z-index:998;background:rgba(7,9,15,.97);overflow-y:auto;padding:1.5rem 1rem}
-.mob-nav-overlay.open{display:block}
-.mob-nav-overlay .mob-close{display:block;text-align:right;font-size:.8rem;color:#a78bfa;cursor:pointer;margin-bottom:1rem;font-weight:700}
-.mob-nav-overlay .nav-item{display:flex;padding:.75rem 1rem;font-size:.9rem;border-radius:10px;margin-bottom:.3rem}
-.mob-back{display:none;margin-bottom:1rem}
 @media(max-width:640px){
-  .mob-menu-btn{display:flex;align-items:center;justify-content:center}
+  .sidebar{display:none}
+  .main{padding:1rem}
+  .mob-fab{display:flex}
   .mob-back{display:block}
+  header{padding:.75rem 1rem}
 }
 </style>
 </head>
@@ -98,154 +93,164 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
 <header>
   <div class="logo">🧠 Second Brain Inspector</div>
   <div class="hdr-r">
-    <span style="font-size:.68rem;color:#475569;" id="last-refresh">Loading...</span>
+    <span style="font-size:.68rem;color:#475569" id="last-refresh">Loading...</span>
     <button class="refresh-btn" onclick="loadAll()">↻ Refresh</button>
     <a class="back-btn" href="index.html">← Dashboard</a>
   </div>
 </header>
 <div class="layout">
-  <nav class="sidebar">
+  <nav class="sidebar" id="sidebar">
     <div class="nav-sep">Overview</div>
-    <a class="nav-item active" onclick="show('overview')">📊 Overview</a>
+    <a class="nav-item active" onclick="show('overview',this)">📊 Overview</a>
     <div class="nav-sep">Pipeline</div>
-    <a class="nav-item" onclick="show('pipeline')">⚙️ Pipeline Status</a>
+    <a class="nav-item" onclick="show('pipeline',this)">⚙️ Pipeline Status</a>
     <div class="nav-sep">Content Memory</div>
-    <a class="nav-item" onclick="show('hooks')">🪝 Hook Bank <span class="nav-count" id="nc-hooks">—</span></a>
-    <a class="nav-item" onclick="show('scripts')">📝 Competitor Scripts <span class="nav-count" id="nc-scripts">—</span></a>
-    <a class="nav-item" onclick="show('content-log')">📋 Content Log <span class="nav-count" id="nc-log">—</span></a>
-    <a class="nav-item" onclick="show('performance')">📈 Performance <span class="nav-count" id="nc-perf">—</span></a>
+    <a class="nav-item" onclick="show('hooks',this)">🪝 Hook Bank <span class="nav-count" id="nc-hooks">—</span></a>
+    <a class="nav-item" onclick="show('scripts',this)">📝 Competitor Scripts <span class="nav-count" id="nc-scripts">—</span></a>
+    <a class="nav-item" onclick="show('content-log',this)">📋 Content Log <span class="nav-count" id="nc-log">—</span></a>
+    <a class="nav-item" onclick="show('performance',this)">📈 Performance <span class="nav-count" id="nc-perf">—</span></a>
     <div class="nav-sep">Intelligence</div>
-    <a class="nav-item" onclick="show('patterns')">🧬 Patterns</a>
-    <a class="nav-item" onclick="show('agent-context')">🤖 Agent Context</a>
-    <a class="nav-item" onclick="show('trends')">🌐 Trends <span class="nav-count" id="nc-trends">—</span></a>
-    <a class="nav-item" onclick="show('clusters')">🗂 Topic Clusters <span class="nav-count" id="nc-clusters">—</span></a>
+    <a class="nav-item" onclick="show('patterns',this)">🧬 Patterns</a>
+    <a class="nav-item" onclick="show('agent-context',this)">🤖 Agent Context</a>
+    <a class="nav-item" onclick="show('trends',this)">🌐 Trends <span class="nav-count" id="nc-trends">—</span></a>
+    <a class="nav-item" onclick="show('clusters',this)">🗂 Topic Clusters <span class="nav-count" id="nc-clusters">—</span></a>
     <div class="nav-sep">Content</div>
-    <a class="nav-item" onclick="show('ideas')">💡 Ideas History <span class="nav-count" id="nc-ideas">—</span></a>
-    <a class="nav-item" onclick="show('plan')">📅 Active Plan</a>
+    <a class="nav-item" onclick="show('ideas',this)">💡 Ideas History <span class="nav-count" id="nc-ideas">—</span></a>
+    <a class="nav-item" onclick="show('plan',this)">📅 Active Plan</a>
     <div class="nav-sep">Transcription</div>
-    <a class="nav-item" onclick="show('transcription')">🎙 Transcription Status</a>
+    <a class="nav-item" onclick="show('transcription',this)">🎙 Transcription Status</a>
   </nav>
-  <main class="main" id="main-content">
+  <main class="main">
 
-    <!-- OVERVIEW -->
     <div id="sec-overview" class="sec-block visible">
       <div class="sec-title">📊 Second Brain — <span>Overview</span></div>
       <div class="overview" id="overview-cards"><div class="loading">Loading all data...</div></div>
     </div>
 
-    <!-- PIPELINE -->
     <div id="sec-pipeline" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">⚙️ Pipeline Status — <span>Last Run</span></div>
       <div id="pipeline-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- HOOKS -->
     <div id="sec-hooks" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">🪝 Hook Bank — <span>Top Competitor Hooks</span></div>
       <div id="hooks-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- SCRIPTS -->
     <div id="sec-scripts" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">📝 Competitor Scripts — <span>Transcribed Video Scripts</span></div>
       <div id="scripts-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- CONTENT LOG -->
     <div id="sec-content-log" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">📋 Content Log — <span>Your Posts Tracked</span></div>
-      <div style="display:flex;gap:.5rem;margin-bottom:1rem;flex-wrap:wrap">
-        <button onclick="setLogTab('all')" id="tab-all" style="padding:.3rem .75rem;border-radius:8px;font-size:.72rem;font-weight:700;background:rgba(124,58,237,.2);color:#a78bfa;border:1px solid rgba(124,58,237,.3);cursor:pointer">All Posts</button>
-        <button onclick="setLogTab('attribution')" id="tab-attr" style="padding:.3rem .75rem;border-radius:8px;font-size:.72rem;font-weight:700;background:rgba(255,255,255,.05);color:#64748b;border:1px solid rgba(255,255,255,.07);cursor:pointer">🧬 Script Attribution</button>
+      <div style="margin-bottom:.75rem">
+        <button class="tab-btn tab-active" id="tab-all" onclick="setLogTab('all')">All Posts</button>
+        <button class="tab-btn tab-inactive" id="tab-attr" onclick="setLogTab('attribution')">🧬 Script Attribution</button>
       </div>
       <div id="content-log-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- PERFORMANCE -->
     <div id="sec-performance" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">📈 Performance Archive — <span>48h Analytics</span></div>
       <div id="performance-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- PATTERNS -->
     <div id="sec-patterns" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">🧬 Patterns — <span>What Works For You</span></div>
       <div id="patterns-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- AGENT CONTEXT -->
     <div id="sec-agent-context" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">🤖 Agent Context — <span>What Gets Injected Into Every Prompt</span></div>
       <div id="agent-context-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- TRENDS -->
     <div id="sec-trends" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">🌐 Trends — <span>Today's Internet Signals</span></div>
       <div id="trends-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- CLUSTERS -->
     <div id="sec-clusters" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">🗂 Topic Clusters — <span>Self-Expanding Memory</span></div>
       <div id="clusters-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- IDEAS -->
     <div id="sec-ideas" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">💡 Ideas History — <span>All Generated Ideas</span></div>
       <div id="ideas-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- PLAN -->
     <div id="sec-plan" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">📅 Active Plan — <span>Current 7-Day Content Plan</span></div>
       <div id="plan-content"><div class="loading">Loading...</div></div>
     </div>
 
-    <!-- TRANSCRIPTION -->
     <div id="sec-transcription" class="sec-block">
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">🎙 Transcription — <span>Video Transcription Status</span></div>
       <div id="transcription-content"><div class="loading">Loading...</div></div>
     </div>
 
   </main>
 </div>
-<button class="mob-menu-btn" onclick="toggleMobNav()">☰</button>
-<div class="mob-nav-overlay" id="mob-overlay">
-  <span class="mob-close" onclick="toggleMobNav()">✕ Close</span>
-  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem">Overview</div>
+
+<!-- Mobile FAB + Overlay -->
+<button class="mob-fab" onclick="openMobNav()">☰</button>
+<div class="mob-overlay" id="mob-overlay">
+  <div class="mob-close-row">
+    <div class="logo">🧠 Second Brain</div>
+    <button onclick="closeMobNav()" style="background:rgba(124,58,237,.15);color:#a78bfa;border:1px solid rgba(124,58,237,.3);border-radius:8px;padding:.3rem .75rem;font-size:.75rem;font-weight:700;cursor:pointer">✕ Close</button>
+  </div>
+  <div class="nav-sep">Overview</div>
   <a class="nav-item" onclick="mobShow('overview')">📊 Overview</a>
-  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Pipeline</div>
+  <div class="nav-sep">Pipeline</div>
   <a class="nav-item" onclick="mobShow('pipeline')">⚙️ Pipeline Status</a>
-  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Content Memory</div>
+  <div class="nav-sep">Content Memory</div>
   <a class="nav-item" onclick="mobShow('hooks')">🪝 Hook Bank</a>
   <a class="nav-item" onclick="mobShow('scripts')">📝 Competitor Scripts</a>
   <a class="nav-item" onclick="mobShow('content-log')">📋 Content Log</a>
-  <a class="nav-item" onclick="mobShow('performance')">📈 Performance</a>
-  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Intelligence</div>
+  <a class="nav-item" onclick="mobShow('performance')">📈 Performance Archive</a>
+  <div class="nav-sep">Intelligence</div>
   <a class="nav-item" onclick="mobShow('patterns')">🧬 Patterns</a>
   <a class="nav-item" onclick="mobShow('agent-context')">🤖 Agent Context</a>
   <a class="nav-item" onclick="mobShow('trends')">🌐 Trends</a>
   <a class="nav-item" onclick="mobShow('clusters')">🗂 Topic Clusters</a>
-  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Content</div>
+  <div class="nav-sep">Content</div>
   <a class="nav-item" onclick="mobShow('ideas')">💡 Ideas History</a>
   <a class="nav-item" onclick="mobShow('plan')">📅 Active Plan</a>
-  <div style="font-size:.7rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.1em;margin:.75rem 0 .5rem">Transcription</div>
+  <div class="nav-sep">Transcription</div>
   <a class="nav-item" onclick="mobShow('transcription')">🎙 Transcription Status</a>
+  <div style="height:2rem"></div>
+  <a href="index.html" style="display:block;text-align:center;padding:.6rem;background:rgba(124,58,237,.15);color:#a78bfa;border-radius:8px;font-size:.8rem;font-weight:700;text-decoration:none">← Back to Dashboard</a>
 </div>
-<footer>Second Brain Inspector · @garvit.irl · All data from GitHub second_brain/</footer>
+
+<footer>Second Brain Inspector · @garvit.irl · Data from GitHub second_brain/</footer>
 
 <script>
 (function(){
 var BASE='https://raw.githubusercontent.com/garvitb7856/content-agent/main/second_brain/';
 var CACHE={};
+var currentSec='overview';
+var logTab='all';
 
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
-function fmt(n){return Number(n).toLocaleString();}
+function fmt(n){return Number(n||0).toLocaleString();}
+function pct(n){return Number(n||0).toFixed(1)+'%';}
 function timeAgo(iso){
   if(!iso)return'—';
-  var d=new Date(iso),now=Date.now(),diff=Math.floor((now-d)/60000);
+  var diff=Math.floor((Date.now()-new Date(iso))/60000);
   if(diff<1)return'just now';if(diff<60)return diff+'m ago';
   if(diff<1440)return Math.floor(diff/60)+'h ago';
   return Math.floor(diff/1440)+'d ago';
@@ -253,6 +258,16 @@ function timeAgo(iso){
 function istTime(iso){
   if(!iso)return'—';
   return new Date(iso).toLocaleString('en-IN',{timeZone:'Asia/Calcutta',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hour12:true});
+}
+function unwrapArray(d,key){
+  if(!d)return[];
+  if(Array.isArray(d))return d;
+  if(key&&Array.isArray(d[key]))return d[key];
+  // try common keys
+  for(var k of['hooks','scripts','items','data','entries']){
+    if(Array.isArray(d[k]))return d[k];
+  }
+  return Object.values(d).filter(Array.isArray)[0]||[];
 }
 
 function fetchJSON(file){
@@ -263,447 +278,529 @@ function fetchJSON(file){
     .catch(function(){return null;});
 }
 
-// ── Navigation ──────────────────────────────────────────────
-var currentSec='overview';
-window.show=function(id){
-  document.querySelectorAll('.sec-block').forEach(function(el){el.classList.remove('visible');});
-  document.querySelectorAll('.nav-item').forEach(function(el){el.classList.remove('active');});
-  var el=document.getElementById('sec-'+id);
-  if(el)el.classList.add('visible');
-  event.target.classList.add('active');
-  currentSec=id;
-  renderSection(id);
-};
-
-// ── Load All ────────────────────────────────────────────────
-window.loadAll=function(){
-  CACHE={};
-  document.getElementById('last-refresh').textContent='Refreshing...';
-  var files=['pipeline_status.json','hook_bank.json','competitor_scripts.json',
-    'content_log.json','performance_archive.json','patterns.json',
-    'agent_context.json','trends.json','topic_clusters.json',
-    'ideas_history.json','active_plan.json','transcription_summary.json'];
-  Promise.all(files.map(function(f){return fetchJSON(f);})).then(function(results){
-    var map={};
-    files.forEach(function(f,i){map[f]=results[i];});
-    renderOverview(map);
-    renderSection(currentSec);
-    document.getElementById('last-refresh').textContent='Updated '+new Date().toLocaleTimeString('en-IN',{timeZone:'Asia/Calcutta',hour:'2-digit',minute:'2-digit',hour12:true})+' IST';
-  });
-};
-
-// ── Overview ─────────────────────────────────────────────────
-function renderOverview(map){
-  var hooksRaw=map['hook_bank.json']||[];
-  var hooks=Array.isArray(hooksRaw)?hooksRaw:(hooksRaw.hooks||[]);
-  var scriptsRaw=map['competitor_scripts.json']||[];
-  var scripts=Array.isArray(scriptsRaw)?scriptsRaw:(scriptsRaw.scripts||scriptsRaw.competitor_scripts||[]);
-  var log=Array.isArray(map['content_log.json'])?map['content_log.json']:(map['content_log.json']?Object.values(map['content_log.json']):[]);
-  var perf=Array.isArray(map['performance_archive.json'])?map['performance_archive.json']:[];
-  var ideas=map['ideas_history.json']||{};
-  var ideaList=(ideas.generated_topics||[]);
-  var ts=map['transcription_summary.json']||{};
-  var clusters=map['topic_clusters.json']||[];
-  var pipe=map['pipeline_status.json']||{};
-
-  // Update sidebar counts
-  function nc(id,n){var el=document.getElementById(id);if(el)el.textContent=n;}
-  nc('nc-hooks',hooks.length||0);
-  nc('nc-scripts',scripts.length||0);
-  nc('nc-log',log.length||0);
-  nc('nc-perf',perf.length||0);
-  nc('nc-ideas',ideaList.length||0);
-  nc('nc-clusters',clusters.length||0);
-  var trendData=map['trends.json']||{};
-  var trendCount=(trendData.youtube||[]).length+(trendData.hackernews||[]).length+(trendData.google_keywords||[]).length;
-  nc('nc-trends',trendCount||0);
-
-  var pipeOk=pipe.overall==='success';
-  var cards=[
-    {num:hooks.length||0,label:'Hooks Stored',color:'#a855f7',sec:'hooks'},
-    {num:scripts.length||0,label:'Competitor Scripts',color:'#6366f1',sec:'scripts'},
-    {num:log.length||0,label:'Posts Tracked',color:'#10b981',sec:'content-log'},
-    {num:perf.length||0,label:'Performance Records',color:'#06b6d4',sec:'performance'},
-    {num:ideaList.length||0,label:'Ideas Generated',color:'#f59e0b',sec:'ideas'},
-    {num:clusters.length||0,label:'Topic Clusters',color:'#ec4899',sec:'clusters'},
-    {num:ts.stored_transcripts||0,label:'Transcripts Stored',color:'#8b5cf6',sec:'transcription'},
-    {num:ts.pending_queue||'—',label:'Transcription Queue',color:'#475569',sec:'transcription'},
-    {num:pipeOk?'✅':'❌',label:'Last Pipeline',color:pipeOk?'#10b981':'#ef4444',sec:'pipeline'},
-  ];
-  document.getElementById('overview-cards').innerHTML=cards.map(function(c){
-    return '<div class="ov-card" style="border-top-color:'+c.color+'" onclick="show(\''+c.sec+'\')">'+
-      '<div class="ov-num" style="color:'+c.color+'">'+c.num+'</div>'+
-      '<div class="ov-label">'+c.label+'</div>'+
-    '</div>';
-  }).join('');
-}
-
-// ── Section Renderers ────────────────────────────────────────
-function renderSection(id){
-  if(id==='overview')return;
-  if(id==='pipeline')renderPipeline();
-  else if(id==='hooks')renderHooks();
-  else if(id==='scripts')renderScripts();
-  else if(id==='content-log')renderContentLog();
-  else if(id==='performance')renderPerformance();
-  else if(id==='patterns')renderPatterns();
-  else if(id==='agent-context')renderAgentContext();
-  else if(id==='trends')renderTrends();
-  else if(id==='clusters')renderClusters();
-  else if(id==='ideas')renderIdeas();
-  else if(id==='plan')renderPlan();
-  else if(id==='transcription')renderTranscription();
-}
-
-function renderPipeline(){
-  fetchJSON('pipeline_status.json').then(function(ps){
-    if(!ps){document.getElementById('pipeline-content').innerHTML='<div class="empty">No pipeline data yet</div>';return;}
-    var ok=ps.overall==='success';
-    var html='<div class="card">'+
-      '<div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem;">'+
-        '<span style="font-size:1.4rem;">'+(ok?'✅':'❌')+'</span>'+
-        '<div><div style="font-size:.9rem;font-weight:800;color:'+(ok?'#10b981':'#ef4444')+';">'+
-          (ok?'All steps succeeded':'Pipeline had failures')+'</div>'+
-          '<div style="font-size:.67rem;color:#475569;">Started: '+istTime(ps.run_started)+' · Finished: '+istTime(ps.run_finished)+'</div>'+
-        '</div>'+
-      '</div>';
-    if(ps.steps){
-      Object.entries(ps.steps).forEach(function(e){
-        var name=e[0],step=e[1];
-        var cls=step.status==='success'?'step-ok':step.status==='skipped'?'step-skip':'step-fail';
-        var icon=step.status==='success'?'✅':step.status==='skipped'?'⏭️':'❌';
-        var dur='';
-        if(step.startedAt&&step.finishedAt){
-          dur=Math.round((new Date(step.finishedAt)-new Date(step.startedAt))/100)/10+'s';
-        }
-        html+='<div class="step '+cls+'">'+
-          '<span>'+icon+'</span>'+
-          '<span class="step-name">'+esc(name.replace(/_/g,' '))+'</span>'+
-          (step.reason?'<span class="step-time" style="color:#475569;">'+esc(step.reason)+'</span>':'')+ 
-          (dur?'<span class="step-time">'+dur+'</span>':'')+
-        '</div>';
-      });
-    }
-    html+='</div>';
-    document.getElementById('pipeline-content').innerHTML=html;
-  });
-}
-
-function renderHooks(){
-  fetchJSON('hook_bank.json').then(function(d){
-    var raw=d||[]; var hooks=Array.isArray(raw)?raw:(raw.hooks||[]);
-    if(!hooks||!hooks.length){document.getElementById('hooks-content').innerHTML='<div class="empty">No hooks stored yet</div>';return;}
-    var sorted=hooks.slice().sort(function(a,b){return(b.likes||0)-(a.likes||0);});
-    var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+hooks.length+' hooks stored · Sorted by likes</div>';
-    html+='<div class="tw"><table><thead><tr><th>#</th><th>Hook</th><th>Creator</th><th>Likes</th><th>Format</th></tr></thead><tbody>';
-    sorted.slice(0,50).forEach(function(h,i){
-      html+='<tr><td style="color:#475569;">'+(i+1)+'</td>'+
-        '<td style="color:#c4b5fd;font-weight:600;max-width:320px;">'+esc(h.hook||h.text||'')+'</td>'+
-        '<td><a href="'+(h.url||'#')+'" target="_blank" style="color:#818cf8;font-size:.7rem;">@'+esc(h.handle||'')+'</a></td>'+
-        '<td style="color:#10b981;font-weight:700;">'+fmt(h.likes||0)+'</td>'+
-        '<td><span class="tag tag-purple">'+esc(h.format||h.type||'—')+'</span></td>'+
-      '</tr>';
-    });
-    html+='</tbody></table></div>';
-    if(hooks.length>50)html+='<div class="empty">Showing top 50 of '+hooks.length+' hooks</div>';
-    document.getElementById('hooks-content').innerHTML=html;
-  });
-}
-
-function renderScripts(){
-  fetchJSON('competitor_scripts.json').then(function(d){
-    var raw=d||[]; var scripts=Array.isArray(raw)?raw:(raw.scripts||raw.competitor_scripts||[]);
-    if(!scripts||!scripts.length){document.getElementById('scripts-content').innerHTML='<div class="empty">No competitor scripts yet — transcription fills this</div>';return;}
-    var sorted=scripts.slice().sort(function(a,b){return(b.likes||0)-(a.likes||0);});
-    var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+scripts.length+' scripts stored</div>';
-    sorted.slice(0,30).forEach(function(s,i){
-      html+='<div class="hook-item">'+
-        '<div class="hook-text">'+esc((s.transcript||s.script||'').substring(0,180))+(s.transcript&&s.transcript.length>180?'…':'')+'</div>'+
-        '<div class="hook-meta">'+
-          '<span>@'+esc(s.handle||'')+'</span>'+
-          '<span style="color:#10b981;">❤️ '+fmt(s.likes||0)+'</span>'+
-          (s.url?'<a href="'+esc(s.url)+'" target="_blank" style="color:#818cf8;font-size:.6rem;">View reel ↗</a>':'')+
-          '<span>'+timeAgo(s.transcribedAt||s.date)+'</span>'+
-        '</div>'+
-      '</div>';
-    });
-    if(scripts.length>30)html+='<div class="empty">Showing top 30 of '+scripts.length+'</div>';
-    document.getElementById('scripts-content').innerHTML=html;
-  });
-}
-
-var logTab='all';
-window.setLogTab=function(tab){
-  logTab=tab;
-  document.getElementById('tab-all').style.background=tab==='all'?'rgba(124,58,237,.2)':'rgba(255,255,255,.05)';
-  document.getElementById('tab-all').style.color=tab==='all'?'#a78bfa':'#64748b';
-  document.getElementById('tab-attr').style.background=tab==='attribution'?'rgba(124,58,237,.2)':'rgba(255,255,255,.05)';
-  document.getElementById('tab-attr').style.color=tab==='attribution'?'#a78bfa':'#64748b';
-  fetchJSON('content_log.json').then(function(d){
-    var arr=Array.isArray(d)?d:(d?Object.values(d):[]);
-    renderLogTab(arr,tab);
-  });
-};
-function renderLogTab(arr,tab){
-  var el=document.getElementById('content-log-content');
-  if(tab==='attribution'){
-    var withDiff=arr.filter(function(p){return p.diffAnalysis;});
-    if(!withDiff.length){el.innerHTML='<div class="empty">No attribution data yet — runs after caption_diff.js processes posts</div>';return;}
-    var colorMap={agent_script_used:'#22c55e',agent_idea_own_script:'#f97316',original_content:'#6b7280'};
-    var labelMap={agent_script_used:'Used AI Script','agent_idea_own_script':'Own Script (AI Idea)','original_content':'Fully Original'};
-    var counts={agent_script_used:0,agent_idea_own_script:0,original_content:0};
-    withDiff.forEach(function(p){if(p.diffAnalysis.classification)counts[p.diffAnalysis.classification]=(counts[p.diffAnalysis.classification]||0)+1;});
-    var html='<div style="display:flex;gap:.75rem;margin-bottom:1.25rem;flex-wrap:wrap">';
-    Object.entries(counts).forEach(function(e){
-      html+='<div style="background:rgba(0,0,0,.3);border-radius:10px;padding:.6rem 1rem;border-left:3px solid '+(colorMap[e[0]]||'#6366f1')+'"><div style="font-size:1.2rem;font-weight:800;color:'+(colorMap[e[0]]||'#6366f1')+'">'+e[1]+'</div><div style="font-size:.6rem;color:#475569;text-transform:uppercase;font-weight:700">'+(labelMap[e[0]]||e[0])+'</div></div>';
-    });
-    html+='</div>';
-    withDiff.slice(0,30).forEach(function(p){
-      var da=p.diffAnalysis||{};
-      var cls=da.classification||'unknown';
-      var col=colorMap[cls]||'#6b7280';
-      var sim=da.similarity!=null?Math.round(da.similarity*100)+'%':'—';
-      html+='<div class="card"><div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem"><span style="font-size:.6rem;font-weight:700;padding:.15rem .45rem;border-radius:4px;background:'+col+'22;color:'+col+';border:1px solid '+col+'44">'+(labelMap[cls]||cls)+'</span><span style="font-size:.65rem;color:#475569">'+sim+' match</span></div><div class="card-title" style="font-size:.76rem">'+(p.caption||'').substring(0,120)+'...</div><div class="card-sub">'+(p.likes||0)+' likes · '+(p.comments||0)+' comments · '+(istTime(p.timestamp||p.added_at))+'</div>'+(da.matchedScript?'<div style="font-size:.67rem;color:#6366f1;margin-top:.3rem">Matched script: "'+esc(da.matchedScript).substring(0,80)+'"</div>':'')+'</div>';
-    });
-    el.innerHTML=html||'<div class="empty">No data</div>';
-  } else {
-    renderContentLogTable(arr);
-  }
-}
-function renderContentLog(){
-  fetchJSON('content_log.json').then(function(raw){
-    var arr=Array.isArray(raw)?raw:(raw?Object.values(raw):[]);
-    renderLogTab(arr,logTab);
-  });
-}
-function renderContentLogTable(log){
-  if(!log.length){document.getElementById('content-log-content').innerHTML='<div class="empty">No posts tracked yet</div>';return;}
-  var sorted=log.slice().sort(function(a,b){return new Date(b.timestamp||0)-new Date(a.timestamp||0);});
-  var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+log.length+' posts tracked</div>';
-  html+='<div class="tw"><table><thead><tr><th>Date</th><th>Caption</th><th>Likes</th><th>Comments</th><th>Type</th><th>Diff Analysis</th></tr></thead><tbody>';
-  sorted.forEach(function(p){
-    var diff=p.diffAnalysis||{};
-    var cls=diff.classification||'';
-    var tagCls=cls==='agent_script_used'?'tag-green':cls==='agent_idea_own_script'?'tag-amber':'tag-blue';
-    var tagLabel=cls==='agent_script_used'?'Agent Script':cls==='agent_idea_own_script'?'Agent Idea':'Original';
-    html+='<tr>'+
-      '<td style="white-space:nowrap;color:#64748b;">'+istTime(p.timestamp)+'</td>'+
-      '<td style="max-width:280px;"><a href="'+(p.url||'#')+'" target="_blank" style="color:#c4b5fd;font-size:.73rem;">'+esc((p.caption||'').substring(0,80))+(p.caption&&p.caption.length>80?'…':'')+'</a></td>'+
-      '<td style="color:#10b981;font-weight:700;">'+fmt(p.likes||0)+'</td>'+
-      '<td>'+fmt(p.comments||0)+'</td>'+
-      '<td><span class="tag tag-purple">'+esc(p.type||'—')+'</span></td>'+
-      '<td>'+(cls?'<span class="tag '+tagCls+'">'+tagLabel+'</span>'+(diff.similarity?' <span style="font-size:.6rem;color:#475569;">'+diff.similarity+'% match</span>':''):'<span style="color:#334155;font-size:.68rem;">—</span>')+'</td>'+
-    '</tr>';
-  });
-  html+='</tbody></table></div>';
-  document.getElementById('content-log-content').innerHTML=html;
-}
-
-function renderPerformance(){
-  fetchJSON('performance_archive.json').then(function(perf){
-    var arr=Array.isArray(perf)?perf:[];
-    if(!arr.length){document.getElementById('performance-content').innerHTML='<div class="empty">No 48h performance data yet — builds automatically after posts age 48h</div>';return;}
-    var sorted=arr.slice().sort(function(a,b){return new Date(b.recordedAt||b.timestamp||0)-new Date(a.recordedAt||a.timestamp||0);});
-    var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+arr.length+' performance records</div>';
-    html+='<div class="tw"><table><thead><tr><th>Date</th><th>Post</th><th>Likes</th><th>Comments</th><th>Eng Rate</th><th>Format</th></tr></thead><tbody>';
-    sorted.forEach(function(p){
-      var er=p.engagementRate||p.engagement_rate||0;
-      html+='<tr>'+
-        '<td style="white-space:nowrap;color:#64748b;">'+istTime(p.recordedAt||p.timestamp)+'</td>'+
-        '<td style="max-width:240px;"><a href="'+(p.url||'#')+'" target="_blank" style="color:#c4b5fd;font-size:.7rem;">'+esc((p.caption||'').substring(0,60))+'…</a></td>'+
-        '<td style="color:#10b981;font-weight:700;">'+fmt(p.likes||0)+'</td>'+
-        '<td>'+fmt(p.comments||0)+'</td>'+
-        '<td style="color:'+(er>3?'#10b981':er>1?'#f59e0b':'#ef4444')+'">'+er+'%</td>'+
-        '<td><span class="tag tag-blue">'+esc(p.type||'—')+'</span></td>'+
-      '</tr>';
-    });
-    html+='</tbody></table></div>';
-    document.getElementById('performance-content').innerHTML=html;
-  });
-}
-
-function renderPatterns(){
-  fetchJSON('patterns.json').then(function(pat){
-    if(!pat){document.getElementById('patterns-content').innerHTML='<div class="empty">No patterns yet — needs 5+ posts with 48h data</div>';return;}
-    var html='';
-    if(pat.bestFormats&&pat.bestFormats.length){
-      html+='<div class="card"><div class="card-title">Best Formats</div>';
-      pat.bestFormats.forEach(function(f){html+='<span class="tag tag-green">'+esc(f)+'</span>';});
-      html+='</div>';
-    }
-    if(pat.bestPostTimes&&pat.bestPostTimes.length){
-      html+='<div class="card"><div class="card-title">Best Posting Times</div>';
-      pat.bestPostTimes.forEach(function(t){html+='<span class="tag tag-purple">'+esc(t)+'</span>';});
-      html+='</div>';
-    }
-    if(pat.bestHooks&&pat.bestHooks.length){
-      html+='<div class="card"><div class="card-title">Best Hook Patterns</div>';
-      pat.bestHooks.slice(0,10).forEach(function(h){html+='<div class="hook-item"><div class="hook-text" style="font-size:.74rem;">'+esc(typeof h==='string'?h:h.pattern||JSON.stringify(h))+'</div></div>';});
-      html+='</div>';
-    }
-    if(pat.avgEngByFormat){
-      html+='<div class="card"><div class="card-title">Avg Engagement by Format</div><div class="tw"><table><thead><tr><th>Format</th><th>Avg Engagement Rate</th></tr></thead><tbody>';
-      Object.entries(pat.avgEngByFormat).forEach(function(e){
-        html+='<tr><td><span class="tag tag-blue">'+esc(e[0])+'</span></td><td style="color:#10b981;font-weight:700;">'+e[1]+'%</td></tr>';
-      });
-      html+='</tbody></table></div></div>';
-    }
-    if(!html)html='<div class="json-box">'+esc(JSON.stringify(pat,null,2))+'</div>';
-    document.getElementById('patterns-content').innerHTML=html;
-  });
-}
-
-function renderAgentContext(){
-  fetchJSON('agent_context.json').then(function(ctx){
-    if(!ctx){document.getElementById('agent-context-content').innerHTML='<div class="empty">No agent context yet</div>';return;}
-    var instr=ctx.instruction_for_agents||'';
-    var html='<div class="card"><div class="card-title">What gets injected into every agent prompt</div>'+
-      '<div class="card-sub">Updated: '+istTime(ctx.updated_at||ctx.generatedAt)+'</div>'+
-      '<div class="json-box">'+esc(instr||'(empty)')+'</div></div>';
-    // Show other keys
-    var otherKeys=Object.keys(ctx).filter(function(k){return k!=='instruction_for_agents'&&k!=='updated_at'&&k!=='generatedAt';});
-    if(otherKeys.length){
-      html+='<div class="card"><div class="card-title">Other Fields</div><div class="json-box">'+
-        esc(JSON.stringify(Object.fromEntries(otherKeys.map(function(k){return[k,ctx[k]];})),null,2))+
-      '</div></div>';
-    }
-    document.getElementById('agent-context-content').innerHTML=html;
-  });
-}
-
-function renderTrends(){
-  fetchJSON('trends.json').then(function(tr){
-    if(!tr){document.getElementById('trends-content').innerHTML='<div class="empty">No trends fetched yet</div>';return;}
-    var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">Fetched: '+istTime(tr.fetched_at)+'</div>';
-    if(tr.youtube&&tr.youtube.length){
-      html+='<div class="card"><div class="card-title">YouTube Trends <span style="color:#64748b;font-weight:400;font-size:.68rem;">('+tr.youtube.length+')</span></div>';
-      tr.youtube.forEach(function(v){
-        html+='<div class="trend-item"><span class="trend-src" style="background:rgba(239,68,68,.12);color:#ef4444;">YT</span>'+
-          '<div class="trend-title"><a href="'+(v.url||'#')+'" target="_blank" style="color:#c4b5fd;text-decoration:none;">'+esc(v.title||'')+'</a>'+
-          '<div style="font-size:.62rem;color:#475569;margin-top:.15rem;">'+esc(v.channel||'')+(v.views?' · '+fmt(v.views)+' views':'')+'</div></div></div>';
-      });
-      html+='</div>';
-    }
-    if(tr.hackernews&&tr.hackernews.length){
-      html+='<div class="card"><div class="card-title">HackerNews <span style="color:#64748b;font-weight:400;font-size:.68rem;">('+tr.hackernews.length+')</span></div>';
-      tr.hackernews.forEach(function(h){
-        html+='<div class="trend-item"><span class="trend-src" style="background:rgba(245,158,11,.12);color:#f59e0b;">HN</span>'+
-          '<div class="trend-title"><a href="'+(h.url||'#')+'" target="_blank" style="color:#c4b5fd;text-decoration:none;">'+esc(h.title||'')+'</a>'+
-          '<div style="font-size:.62rem;color:#475569;margin-top:.15rem;">'+(h.points?h.points+' pts':'')+(h.comments?' · '+h.comments+' comments':'')+'</div></div></div>';
-      });
-      html+='</div>';
-    }
-    if(tr.google_keywords&&tr.google_keywords.length){
-      html+='<div class="card"><div class="card-title">Google Trends Keywords</div>';
-      tr.google_keywords.forEach(function(k){
-        html+='<span class="tag tag-blue">'+esc(typeof k==='string'?k:k.keyword||JSON.stringify(k))+'</span>';
-      });
-      html+='</div>';
-    }
-    document.getElementById('trends-content').innerHTML=html;
-  });
-}
-
-function renderClusters(){
-  fetchJSON('topic_clusters.json').then(function(clusters){
-    if(!clusters||!clusters.length){document.getElementById('clusters-content').innerHTML='<div class="empty">No clusters yet</div>';return;}
-    var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+clusters.length+' topic clusters (self-expanding)</div>';
-    clusters.forEach(function(c){
-      html+='<div class="cluster-item">'+
-        '<div class="cluster-name">'+esc(c.name||'')+'</div>'+
-        '<div style="font-size:.63rem;color:#475569;flex:1;">'+esc((c.keywords||[]).slice(0,6).join(', '))+'</div>'+
-      '</div>';
-    });
-    document.getElementById('clusters-content').innerHTML=html;
-  });
-}
-
-function renderIdeas(){
-  fetchJSON('ideas_history.json').then(function(hist){
-    if(!hist){document.getElementById('ideas-content').innerHTML='<div class="empty">No ideas history yet</div>';return;}
-    var ideas=hist.generated_topics||[];
-    var posted=hist.posted_topics||[];
-    var html='<div class="card-sub" style="color:#64748b;font-size:.72rem;margin-bottom:.75rem;">'+ideas.length+' ideas generated · '+posted.length+' posted</div>';
-    if(posted.length){
-      html+='<div class="card"><div class="card-title" style="color:#10b981;">✅ Posted Ideas ('+posted.length+')</div>';
-      posted.forEach(function(p){html+='<div class="hook-item" style="border-left-color:#10b981;"><div class="hook-text">'+esc(p.title||p)+'</div></div>';});
-      html+='</div>';
-    }
-    html+='<div class="card"><div class="card-title">All Generated Ideas ('+ideas.length+')</div>';
-    ideas.slice().reverse().forEach(function(idea,i){
-      var score=idea.score||'';
-      var tagCls=score==='HIGH'?'tag-green':score==='MEDIUM'?'tag-amber':'tag-red';
-      html+='<div class="hook-item">'+
-        '<div class="hook-text">'+esc(idea.title||idea)+(score?'<span class="tag '+tagCls+'" style="margin-left:.4rem;">'+score+'</span>':'')+'</div>'+
-        (idea.hook?'<div style="font-size:.68rem;color:#a78bfa;margin-top:.1rem;">'+esc(idea.hook)+'</div>':'')+
-        '<div class="hook-meta">'+(idea.format?'<span>'+esc(idea.format)+'</span>':'')+(idea.sourceUrl?'<a href="'+esc(idea.sourceUrl)+'" target="_blank" style="color:#818cf8;">source ↗</a>':'')+'</div>'+
-      '</div>';
-    });
-    html+='</div>';
-    document.getElementById('ideas-content').innerHTML=html;
-  });
-}
-
-function renderPlan(){
-  fetchJSON('active_plan.json').then(function(plan){
-    if(!plan){document.getElementById('plan-content').innerHTML='<div class="empty">No active plan yet</div>';return;}
-    var html='<div class="card"><div class="card-title">Active Plan</div>'+
-      '<div class="card-sub">Valid: '+istTime(plan.valid_from)+' → '+istTime(plan.valid_until)+'</div>'+
-      '<div class="json-box">'+esc(JSON.stringify(plan,null,2))+'</div></div>';
-    document.getElementById('plan-content').innerHTML=html;
-  });
-}
-
-function renderTranscription(){
-  fetchJSON('transcription_summary.json').then(function(ts){
-    if(!ts){document.getElementById('transcription-content').innerHTML='<div class="empty">No transcription summary yet — runs after next pipeline</div>';return;}
-    var pct=ts.total_videos_in_data>0?Math.round(ts.transcribed_done/ts.total_videos_in_data*100):0;
-    var html='<div class="overview" style="margin-bottom:1rem;">'+
-      [
-        {num:ts.total_videos_in_data||0,label:'Total Videos',color:'#6366f1'},
-        {num:ts.transcribed_done||0,label:'Transcribed Done',color:'#10b981'},
-        {num:ts.pending_queue||0,label:'Pending Queue',color:'#f59e0b'},
-        {num:ts.stored_transcripts||0,label:'Stored Files',color:'#a855f7'},
-        {num:pct+'%',label:'Completion',color:'#06b6d4'},
-      ].map(function(c){
-        return '<div class="ov-card" style="border-top-color:'+c.color+';cursor:default;">'+
-          '<div class="ov-num" style="color:'+c.color+'">'+c.num+'</div>'+
-          '<div class="ov-label">'+c.label+'</div></div>';
-      }).join('')+
-    '</div>';
-    html+='<div class="card"><div class="card-title">Transcription Progress</div>'+
-      '<div style="background:rgba(0,0,0,.3);border-radius:6px;overflow:hidden;height:8px;margin:.5rem 0;">'+
-        '<div style="width:'+pct+'%;height:100%;background:linear-gradient(90deg,#6366f1,#a855f7);border-radius:6px;transition:width .5s;"></div>'+
-      '</div>'+
-      '<div style="font-size:.68rem;color:#475569;margin-top:.35rem;">'+pct+'% complete · Updated: '+istTime(ts.updated_at)+'</div>'+
-    '</div>';
-    document.getElementById('transcription-content').innerHTML=html;
-  });
-}
-
-window.toggleMobNav=function(){
-  var o=document.getElementById('mob-overlay');
-  o.classList.toggle('open');
-};
+// ── Mobile nav ───────────────────────────────────────────────
+window.openMobNav=function(){document.getElementById('mob-overlay').classList.add('open');};
+window.closeMobNav=function(){document.getElementById('mob-overlay').classList.remove('open');};
 window.mobShow=function(id){
-  document.getElementById('mob-overlay').classList.remove('open');
-  // Add back button to section if not there
-  var sec=document.getElementById('sec-'+id);
-  if(sec && !sec.querySelector('.mob-back')){
-    var btn=document.createElement('button');
-    btn.className='mob-back back-btn';
-    btn.textContent='☰ Menu';
-    btn.onclick=function(){document.getElementById('mob-overlay').classList.add('open');};
-    sec.insertBefore(btn,sec.firstChild);
-  }
-  document.querySelectorAll('.sec-block').forEach(function(el){el.classList.remove('visible');});
-  if(sec) sec.classList.add('visible');
-  currentSec=id;
-  renderSection(id);
+  closeMobNav();
+  show(id,null);
   window.scrollTo(0,0);
 };
 
-// ── Init ─────────────────────────────────────────────────────
+// ── Desktop nav ──────────────────────────────────────────────
+window.show=function(id,el){
+  document.querySelectorAll('.sec-block').forEach(function(s){s.classList.remove('visible');});
+  document.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+  var sec=document.getElementById('sec-'+id);
+  if(sec)sec.classList.add('visible');
+  if(el)el.classList.add('active');
+  currentSec=id;
+  renderSection(id);
+};
+
+// ── Load all ─────────────────────────────────────────────────
+var ALL_FILES=['pipeline_status.json','hook_bank.json','competitor_scripts.json',
+  'content_log.json','performance_archive.json','patterns.json',
+  'agent_context.json','trends.json','topic_clusters.json',
+  'ideas_history.json','active_plan.json','transcription_summary.json'];
+
+window.loadAll=function(){
+  CACHE={};
+  document.getElementById('last-refresh').textContent='Refreshing...';
+  Promise.all(ALL_FILES.map(fetchJSON)).then(function(results){
+    var map={};
+    ALL_FILES.forEach(function(f,i){map[f]=results[i];});
+    renderOverview(map);
+    renderSection(currentSec);
+    document.getElementById('last-refresh').textContent='Updated '+
+      new Date().toLocaleTimeString('en-IN',{timeZone:'Asia/Calcutta',hour:'2-digit',minute:'2-digit',hour12:true})+' IST';
+  });
+};
+
+// ── renderSection dispatcher ─────────────────────────────────
+function renderSection(id){
+  switch(id){
+    case'overview': break;
+    case'pipeline':  fetchJSON('pipeline_status.json').then(renderPipeline); break;
+    case'hooks':     fetchJSON('hook_bank.json').then(renderHooks); break;
+    case'scripts':   fetchJSON('competitor_scripts.json').then(renderScripts); break;
+    case'content-log': fetchJSON('content_log.json').then(function(d){renderLog(d,logTab);}); break;
+    case'performance': fetchJSON('performance_archive.json').then(renderPerformance); break;
+    case'patterns':  fetchJSON('patterns.json').then(renderPatterns); break;
+    case'agent-context': fetchJSON('agent_context.json').then(renderAgentContext); break;
+    case'trends':    fetchJSON('trends.json').then(renderTrends); break;
+    case'clusters':  fetchJSON('topic_clusters.json').then(renderClusters); break;
+    case'ideas':     fetchJSON('ideas_history.json').then(renderIdeas); break;
+    case'plan':      fetchJSON('active_plan.json').then(renderPlan); break;
+    case'transcription': fetchJSON('transcription_summary.json').then(renderTranscription); break;
+  }
+}
+
+// ── Overview ─────────────────────────────────────────────────
+function renderOverview(map){
+  var hooks=unwrapArray(map['hook_bank.json'],'hooks');
+  var scripts=unwrapArray(map['competitor_scripts.json'],'scripts');
+  var log=unwrapArray(map['content_log.json']);
+  var perf=unwrapArray(map['performance_archive.json']);
+  var ideas=map['ideas_history.json']||{};
+  var ideaList=ideas.generated_topics||[];
+  var ts=map['transcription_summary.json']||{};
+  var clusters=unwrapArray(map['topic_clusters.json']);
+  var pipe=map['pipeline_status.json']||{};
+
+  // update sidebar counts
+  document.getElementById('nc-hooks').textContent=hooks.length;
+  document.getElementById('nc-scripts').textContent=scripts.length;
+  document.getElementById('nc-log').textContent=log.length;
+  document.getElementById('nc-perf').textContent=perf.length;
+  document.getElementById('nc-trends').textContent=(unwrapArray(map['trends.json'],'trends')).length;
+  document.getElementById('nc-clusters').textContent=clusters.length;
+  document.getElementById('nc-ideas').textContent=ideaList.length;
+
+  var lastRun=pipe.last_run?istTime(pipe.last_run):'Never';
+  var transcribed=(ts.succeeded||0)+(ts.already_done||0);
+  var queue=ts.pending||0;
+
+  var cards=[
+    {num:hooks.length,     label:'Hooks Stored',         color:'#6366f1', sec:'hooks'},
+    {num:scripts.length,   label:'Competitor Scripts',   color:'#a855f7', sec:'scripts'},
+    {num:log.length,       label:'My Posts Tracked',     color:'#10b981', sec:'content-log'},
+    {num:perf.length,      label:'Performance Records',  color:'#f59e0b', sec:'performance'},
+    {num:ideaList.length,  label:'Ideas Generated',      color:'#38bdf8', sec:'ideas'},
+    {num:clusters.length,  label:'Topic Clusters',       color:'#ec4899', sec:'clusters'},
+    {num:transcribed,      label:'Transcriptions Stored',color:'#8b5cf6', sec:'transcription'},
+    {num:queue,            label:'Transcription Queue',  color:'#64748b', sec:'transcription'},
+  ];
+
+  var html=cards.map(function(c){
+    return '<div class="ov-card" style="border-top-color:'+c.color+'" onclick="show(\''+c.sec+'\',null)">'
+      +'<div class="ov-num" style="color:'+c.color+'">'+fmt(c.num)+'</div>'
+      +'<div class="ov-label">'+c.label+'</div>'
+      +'</div>';
+  }).join('');
+
+  html+='<div class="ov-card" style="border-top-color:#475569;grid-column:1/-1;text-align:left;cursor:default">'
+    +'<div style="font-size:.68rem;color:#475569;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.3rem">Last Pipeline Run</div>'
+    +'<div style="font-size:.88rem;font-weight:700;color:#94a3b8">'+lastRun+'</div>'
+    +'</div>';
+
+  document.getElementById('overview-cards').innerHTML=html;
+}
+
+// ── Pipeline ──────────────────────────────────────────────────
+function renderPipeline(d){
+  var el=document.getElementById('pipeline-content');
+  if(!d){el.innerHTML='<div class="empty">No pipeline_status.json found</div>';return;}
+  var steps=d.steps||[];
+  var html='<div class="card"><div class="card-title">Run: '+istTime(d.last_run)+'</div>'
+    +'<div class="card-sub">Duration: '+(d.duration_seconds?d.duration_seconds+'s':'—')
+    +' · Status: <span style="color:'+(d.overall_status==='success'?'#10b981':'#ef4444')+';font-weight:700">'+(d.overall_status||'unknown')+'</span></div></div>';
+
+  if(steps.length){
+    steps.forEach(function(s){
+      var ok=s.status==='success'||s.status==='skipped';
+      var cls=s.status==='success'?'step-ok':s.status==='skipped'?'step-skip':'step-fail';
+      var icon=s.status==='success'?'✅':s.status==='skipped'?'⏭️':'❌';
+      html+='<div class="step '+cls+'"><span>'+icon+'</span><span class="step-name">'+esc(s.name||s.step||'')+'</span><span class="step-time">'+(s.duration?s.duration+'s':'')+(s.note?' · '+esc(s.note):'')+'</span></div>';
+    });
+  } else {
+    html+='<div class="json-box">'+esc(JSON.stringify(d,null,2))+'</div>';
+  }
+  el.innerHTML=html;
+}
+
+// ── Hooks ─────────────────────────────────────────────────────
+function renderHooks(d){
+  var el=document.getElementById('hooks-content');
+  var hooks=unwrapArray(d,'hooks');
+  if(!hooks.length){el.innerHTML='<div class="empty">No hooks stored yet</div>';return;}
+
+  hooks=hooks.slice().sort(function(a,b){return(b.likes||0)-(a.likes||0);});
+
+  // top stats
+  var avgLikes=Math.round(hooks.reduce(function(s,h){return s+(h.likes||0);},0)/hooks.length);
+  var accounts=[...new Set(hooks.map(function(h){return h.account;}))];
+  var html='<div class="stat-row">'
+    +'<div class="stat-box" style="border-color:#6366f1"><div class="stat-num" style="color:#6366f1">'+fmt(hooks.length)+'</div><div class="stat-lbl">Total Hooks</div></div>'
+    +'<div class="stat-box" style="border-color:#a855f7"><div class="stat-num" style="color:#a855f7">'+fmt(avgLikes)+'</div><div class="stat-lbl">Avg Likes</div></div>'
+    +'<div class="stat-box" style="border-color:#38bdf8"><div class="stat-num" style="color:#38bdf8">'+accounts.length+'</div><div class="stat-lbl">Accounts</div></div>'
+    +'</div>';
+
+  hooks.slice(0,50).forEach(function(h){
+    var typeColor={'bold_claim':'#6366f1','story':'#10b981','pattern_interrupt':'#f59e0b','question':'#38bdf8'}[h.type]||'#64748b';
+    html+='<div class="hook-item">'
+      +'<div class="hook-text">'+esc(h.text||h.hook||'')+'</div>'
+      +'<div class="hook-meta">'
+      +'<span style="color:'+typeColor+';font-weight:700">'+(h.type||'unknown')+'</span>'
+      +'<span>'+esc(h.account||'')+'</span>'
+      +'<span>❤️ '+fmt(h.likes)+'</span>'
+      +'<span>💬 '+fmt(h.comments)+'</span>'
+      +(h.postUrl?'<a href="'+esc(h.postUrl)+'" target="_blank" style="color:#6366f1">View ↗</a>':'')
+      +'</div></div>';
+  });
+  el.innerHTML=html;
+}
+
+// ── Competitor Scripts ────────────────────────────────────────
+function renderScripts(d){
+  var el=document.getElementById('scripts-content');
+  var scripts=unwrapArray(d,'scripts');
+  if(!scripts.length){el.innerHTML='<div class="empty">No competitor scripts stored yet — grows as transcription completes</div>';return;}
+
+  scripts=scripts.slice().sort(function(a,b){return(b.likes||0)-(a.likes||0);});
+  var accounts=[...new Set(scripts.map(function(s){return s.account;}))];
+  var html='<div class="stat-row">'
+    +'<div class="stat-box" style="border-color:#a855f7"><div class="stat-num" style="color:#a855f7">'+fmt(scripts.length)+'</div><div class="stat-lbl">Scripts</div></div>'
+    +'<div class="stat-box" style="border-color:#38bdf8"><div class="stat-num" style="color:#38bdf8">'+accounts.length+'</div><div class="stat-lbl">Creators</div></div>'
+    +'</div>';
+
+  scripts.slice(0,40).forEach(function(s){
+    var verdictColor={high:'#10b981',medium:'#f59e0b',low:'#ef4444'}[s.verdict]||'#64748b';
+    html+='<div class="card">'
+      +'<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem">'
+      +'<span class="tag tag-purple">'+esc(s.account||'')+'</span>'
+      +(s.verdict?'<span style="font-size:.6rem;font-weight:700;padding:.15rem .4rem;border-radius:4px;background:'+verdictColor+'22;color:'+verdictColor+';border:1px solid '+verdictColor+'44">'+s.verdict.toUpperCase()+'</span>':'')
+      +'<span class="tag tag-blue">'+esc(s.topic||s.format||'')+'</span>'
+      +'</div>'
+      +'<div class="card-title" style="color:#c4b5fd;font-style:italic">"'+esc((s.hook||'').substring(0,120))+'"</div>'
+      +'<div class="card-sub" style="margin-top:.35rem">'+esc((s.full_caption||'').substring(0,200))+'...</div>'
+      +'<div class="hook-meta" style="margin-top:.5rem">'
+      +'<span>❤️ '+fmt(s.likes)+'</span><span>💬 '+fmt(s.comments)+'</span>'
+      +'<span>📊 '+pct(s.engagement_rate)+' eng</span>'
+      +(s.url?'<a href="'+esc(s.url)+'" target="_blank" style="color:#a855f7">View ↗</a>':'')
+      +'</div></div>';
+  });
+  el.innerHTML=html;
+}
+
+// ── Content Log ───────────────────────────────────────────────
+var logTab='all';
+window.setLogTab=function(tab){
+  logTab=tab;
+  document.getElementById('tab-all').className='tab-btn '+(tab==='all'?'tab-active':'tab-inactive');
+  document.getElementById('tab-attr').className='tab-btn '+(tab==='attribution'?'tab-active':'tab-inactive');
+  fetchJSON('content_log.json').then(function(d){renderLog(d,tab);});
+};
+
+function renderLog(d,tab){
+  var el=document.getElementById('content-log-content');
+  var posts=unwrapArray(d);
+  if(!posts.length){el.innerHTML='<div class="empty">No posts tracked yet</div>';return;}
+
+  if(tab==='attribution'){
+    var colorMap={agent_script_used:'#22c55e',agent_idea_own_script:'#f97316',original_content:'#6b7280'};
+    var labelMap={agent_script_used:'Used AI Script',agent_idea_own_script:'Own Script (AI Idea)',original_content:'Fully Original'};
+    var withDiff=posts.filter(function(p){return p.diffAnalysis;});
+    if(!withDiff.length){
+      el.innerHTML='<div class="empty">No attribution data yet — caption_diff.js runs after posts are detected</div>';
+      return;
+    }
+    var counts={agent_script_used:0,agent_idea_own_script:0,original_content:0};
+    withDiff.forEach(function(p){var c=p.diffAnalysis.classification;if(c&&counts[c]!==undefined)counts[c]++;});
+    var html='<div class="stat-row">';
+    Object.entries(counts).forEach(function(e){
+      var col=colorMap[e[0]]||'#64748b';
+      html+='<div class="stat-box" style="border-color:'+col+'"><div class="stat-num" style="color:'+col+'">'+e[1]+'</div><div class="stat-lbl">'+(labelMap[e[0]]||e[0])+'</div></div>';
+    });
+    html+='</div>';
+    withDiff.forEach(function(p){
+      var da=p.diffAnalysis||{};
+      var cls=da.classification||'unknown';
+      var col=colorMap[cls]||'#64748b';
+      var sim=da.similarity!=null?Math.round(da.similarity*100)+'%':'—';
+      html+='<div class="card">'
+        +'<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem">'
+        +'<span style="font-size:.6rem;font-weight:700;padding:.15rem .45rem;border-radius:4px;background:'+col+'22;color:'+col+';border:1px solid '+col+'44">'+(labelMap[cls]||cls)+'</span>'
+        +'<span style="font-size:.65rem;color:#475569">'+sim+' match</span>'
+        +'</div>'
+        +'<div class="card-title">'+esc((p.caption_first_line||'').substring(0,120))+'</div>'
+        +'<div class="card-sub">❤️ '+fmt(p.likes_at_detection)+' · '+istTime(p.detected_at)
+        +(p.url?' · <a href="'+esc(p.url)+'" target="_blank" style="color:#6366f1">View ↗</a>':'')+'</div>'
+        +(da.matchedScript?'<div style="font-size:.67rem;color:#6366f1;margin-top:.35rem">Matched: "'+esc(da.matchedScript.substring(0,80))+'"</div>':'')
+        +'</div>';
+    });
+    el.innerHTML=html;
+    return;
+  }
+
+  // All posts view
+  posts=posts.slice().sort(function(a,b){return(b.likes_at_detection||0)-(a.likes_at_detection||0);});
+  var formatCounts={};
+  posts.forEach(function(p){formatCounts[p.format]=(formatCounts[p.format]||0)+1;});
+  var html='<div class="stat-row">'
+    +'<div class="stat-box" style="border-color:#10b981"><div class="stat-num" style="color:#10b981">'+posts.length+'</div><div class="stat-lbl">Posts Tracked</div></div>';
+  Object.entries(formatCounts).forEach(function(e){
+    html+='<div class="stat-box" style="border-color:#6366f1"><div class="stat-num" style="color:#6366f1">'+e[1]+'</div><div class="stat-lbl">'+esc(e[0])+'s</div></div>';
+  });
+  html+='</div>';
+  html+='<div class="tw"><table><thead><tr><th>Post</th><th>Format</th><th>Hook Type</th><th>Likes</th><th>Comments</th><th>Detected</th><th>48h Done</th></tr></thead><tbody>';
+  posts.forEach(function(p){
+    var perf=p.performance_complete?'<span class="tag tag-green">✅ Done</span>':'<span class="tag tag-gray">Pending</span>';
+    html+='<tr>'
+      +'<td style="max-width:200px"><a href="'+esc(p.url||'')+'" target="_blank" style="color:#a78bfa;text-decoration:none">'+esc((p.caption_first_line||'').substring(0,60))+'...</a></td>'
+      +'<td><span class="tag tag-blue">'+esc(p.format||'')+'</span></td>'
+      +'<td><span class="tag tag-purple">'+esc(p.hook_type||'')+'</span></td>'
+      +'<td style="color:#f1f5f9;font-weight:700">'+fmt(p.likes_at_detection)+'</td>'
+      +'<td>'+fmt(p.comments_at_detection)+'</td>'
+      +'<td>'+istTime(p.detected_at)+'</td>'
+      +'<td>'+perf+'</td>'
+      +'</tr>';
+  });
+  html+='</tbody></table></div>';
+  el.innerHTML=html;
+}
+
+// ── Performance Archive ───────────────────────────────────────
+function renderPerformance(d){
+  var el=document.getElementById('performance-content');
+  var perf=unwrapArray(d);
+  if(!perf.length){
+    el.innerHTML='<div class="card"><div class="card-title">No 48h performance data yet</div>'
+      +'<div class="card-sub">Performance records appear 48 hours after a post is first detected. '
+      +'Each post in your content log will get a record once 48h pass. Currently tracking '
+      +'<strong style="color:#f1f5f9">0 completed</strong> — check back after your next posts age out.</div></div>';
+    return;
+  }
+  perf=perf.slice().sort(function(a,b){return(b.likes_at_48h||0)-(a.likes_at_48h||0);});
+  var html='<div class="tw"><table><thead><tr><th>Post</th><th>Likes@Detection</th><th>Likes@48h</th><th>Growth</th><th>Comments@48h</th><th>Format</th></tr></thead><tbody>';
+  perf.forEach(function(p){
+    var growth=p.likes_at_detection&&p.likes_at_48h?Math.round(((p.likes_at_48h-p.likes_at_detection)/p.likes_at_detection)*100)+'%':'—';
+    html+='<tr>'
+      +'<td style="max-width:180px"><a href="'+esc(p.url||'')+'" target="_blank" style="color:#a78bfa;text-decoration:none">'+esc((p.caption_first_line||'').substring(0,50))+'...</a></td>'
+      +'<td>'+fmt(p.likes_at_detection)+'</td>'
+      +'<td style="color:#10b981;font-weight:700">'+fmt(p.likes_at_48h)+'</td>'
+      +'<td style="color:#38bdf8">'+growth+'</td>'
+      +'<td>'+fmt(p.comments_at_48h)+'</td>'
+      +'<td><span class="tag tag-blue">'+esc(p.format||'')+'</span></td>'
+      +'</tr>';
+  });
+  html+='</tbody></table></div>';
+  el.innerHTML=html;
+}
+
+// ── Patterns ──────────────────────────────────────────────────
+function renderPatterns(d){
+  var el=document.getElementById('patterns-content');
+  if(!d){el.innerHTML='<div class="empty">No patterns data yet</div>';return;}
+
+  var html='';
+
+  // Best formats
+  if(d.bestFormats&&d.bestFormats.length){
+    html+='<div class="card"><div class="card-title">🏆 Best Performing Formats</div>';
+    d.bestFormats.forEach(function(f){html+='<span class="tag tag-green">'+esc(f)+'</span>';});
+    html+='</div>';
+  }
+
+  // Avg engagement by format
+  if(d.avgEngByFormat&&Object.keys(d.avgEngByFormat).length){
+    html+='<div class="card"><div class="card-title">📊 Avg Engagement by Format</div>';
+    html+='<div class="stat-row">';
+    var colors=['#6366f1','#a855f7','#10b981','#f59e0b','#38bdf8','#ec4899'];
+    Object.entries(d.avgEngByFormat).forEach(function(e,i){
+      var col=colors[i%colors.length];
+      html+='<div class="stat-box" style="border-color:'+col+'"><div class="stat-num" style="color:'+col+'">'+Number(e[1]).toFixed(1)+'</div><div class="stat-lbl">'+esc(e[0])+'</div></div>';
+    });
+    html+='</div></div>';
+  }
+
+  // Best hooks
+  if(d.bestHooks&&d.bestHooks.length){
+    html+='<div class="card"><div class="card-title">🪝 Your Best Performing Hooks</div>';
+    d.bestHooks.forEach(function(h,i){
+      html+='<div class="hook-item"><div class="hook-text">'+(i+1)+'. '+esc(h)+'</div></div>';
+    });
+    html+='</div>';
+  }
+
+  // Best post times
+  if(d.bestPostTimes&&d.bestPostTimes.length){
+    html+='<div class="card"><div class="card-title">⏰ Best Post Times</div>';
+    d.bestPostTimes.forEach(function(t){html+='<span class="tag tag-amber">'+esc(String(t))+'</span>';});
+    html+='</div>';
+  }
+
+  // Competitor patterns
+  if(d.competitorPatterns){
+    html+='<div class="card"><div class="card-title">🔍 Competitor Patterns</div>'
+      +'<div class="json-box">'+esc(JSON.stringify(d.competitorPatterns,null,2))+'</div></div>';
+  }
+
+  // Viral blueprints
+  if(d.viralBlueprints&&d.viralBlueprints.length){
+    html+='<div class="card"><div class="card-title">🚀 Viral Blueprints</div>';
+    d.viralBlueprints.forEach(function(b){
+      html+='<div class="hook-item" style="border-left-color:#10b981"><div class="hook-text">'+esc(JSON.stringify(b).substring(0,200))+'</div></div>';
+    });
+    html+='</div>';
+  }
+
+  if(!html)html='<div class="json-box">'+esc(JSON.stringify(d,null,2))+'</div>';
+  el.innerHTML=html;
+}
+
+// ── Agent Context ─────────────────────────────────────────────
+function renderAgentContext(d){
+  var el=document.getElementById('agent-context-content');
+  if(!d){el.innerHTML='<div class="empty">No agent_context.json found</div>';return;}
+  var text=d.instruction_for_agents||JSON.stringify(d,null,2);
+  el.innerHTML='<div class="card"><div class="card-title">What gets injected into every agent prompt</div>'
+    +'<div style="font-size:.72rem;color:#94a3b8;line-height:1.8;white-space:pre-wrap;margin-top:.5rem">'+esc(text)+'</div></div>';
+}
+
+// ── Trends ────────────────────────────────────────────────────
+function renderTrends(d){
+  var el=document.getElementById('trends-content');
+  if(!d){el.innerHTML='<div class="empty">No trends data</div>';return;}
+
+  var srcColors={YouTube:'#ef4444',HackerNews:'#f97316',Reddit:'#f59e0b',Google:'#38bdf8',GoogleDaily:'#6366f1'};
+  var html='';
+
+  // YouTube
+  if(d.youtube&&d.youtube.length){
+    html+='<div class="card"><div class="card-title">📺 YouTube Trending</div>';
+    d.youtube.forEach(function(t){
+      html+='<div class="trend-item"><span class="trend-src" style="background:rgba(239,68,68,.15);color:#ef4444">YT</span>'
+        +'<span class="trend-title">'+esc(t.title||'')+'</span>'
+        +(t.views?'<span style="font-size:.65rem;color:#475569">'+fmt(t.views)+' views</span>':'')
+        +'</div>';
+    });
+    html+='</div>';
+  }
+
+  // Google keyword trends
+  if(d.google&&d.google.length){
+    html+='<div class="card"><div class="card-title">🔍 Google Keyword Trends</div><div style="display:flex;flex-wrap:wrap;gap:.4rem">';
+    d.google.forEach(function(t){
+      html+='<span class="tag tag-blue">'+esc(t.title||t.keyword||t)+(t.traffic?' ('+t.traffic+')':'')+'</span>';
+    });
+    html+='</div></div>';
+  }
+
+  // HackerNews / Reddit / general trends
+  var generalTrends=unwrapArray(d,'trends').filter(function(t){return t.source!=='YouTube'&&t.source!=='Google';});
+  if(generalTrends.length){
+    html+='<div class="card"><div class="card-title">🌐 HackerNews / Reddit Signals</div>';
+    generalTrends.slice(0,20).forEach(function(t){
+      var col=srcColors[t.source]||'#64748b';
+      html+='<div class="trend-item">'
+        +'<span class="trend-src" style="background:'+col+'22;color:'+col+'">'+esc((t.source||'?').substring(0,2))+'</span>'
+        +'<span class="trend-title">'+esc(t.title||'')+'</span>'
+        +'<span style="font-size:.65rem;color:#475569">'+fmt(t.score||t.comments||0)+'</span>'
+        +'</div>';
+    });
+    html+='</div>';
+  }
+
+  if(!html)html='<div class="empty">No trend signals yet — runs daily at 9 AM IST</div>';
+  el.innerHTML=html;
+}
+
+// ── Topic Clusters ────────────────────────────────────────────
+function renderClusters(d){
+  var el=document.getElementById('clusters-content');
+  var clusters=unwrapArray(d);
+  if(!clusters.length){el.innerHTML='<div class="empty">No topic clusters yet</div>';return;}
+
+  var html='<div class="stat-row"><div class="stat-box" style="border-color:#ec4899"><div class="stat-num" style="color:#ec4899">'+clusters.length+'</div><div class="stat-lbl">Clusters</div></div></div>';
+  clusters.forEach(function(c){
+    var kws=Array.isArray(c.keywords)?c.keywords.slice(0,6).join(', '):'';
+    html+='<div class="cluster-item">'
+      +'<div style="flex:1"><div class="cluster-name">'+esc(c.name||'')+'</div>'
+      +'<div class="cluster-kw">'+esc(kws)+'</div></div>'
+      +'</div>';
+  });
+  el.innerHTML=html;
+}
+
+// ── Ideas History ─────────────────────────────────────────────
+function renderIdeas(d){
+  var el=document.getElementById('ideas-content');
+  if(!d){el.innerHTML='<div class="empty">No ideas history yet</div>';return;}
+
+  var generated=d.generated_topics||[];
+  var posted=d.posted_topics||[];
+  var html='<div class="stat-row">'
+    +'<div class="stat-box" style="border-color:#38bdf8"><div class="stat-num" style="color:#38bdf8">'+generated.length+'</div><div class="stat-lbl">Generated</div></div>'
+    +'<div class="stat-box" style="border-color:#10b981"><div class="stat-num" style="color:#10b981">'+posted.length+'</div><div class="stat-lbl">Posted</div></div>'
+    +'</div>';
+
+  if(posted.length){
+    html+='<div class="card"><div class="card-title" style="color:#10b981">✅ Posted Topics</div>';
+    posted.forEach(function(t){
+      var title=typeof t==='string'?t:(t.title||JSON.stringify(t));
+      html+='<div class="hook-item" style="border-left-color:#10b981"><div class="hook-text">'+esc(title)+'</div>'
+        +(t.posted_at?'<div class="hook-meta"><span>'+istTime(t.posted_at)+'</span></div>':'')
+        +'</div>';
+    });
+    html+='</div>';
+  }
+
+  if(generated.length){
+    html+='<div class="card"><div class="card-title">💡 All Generated Ideas (latest '+Math.min(generated.length,60)+')</div>';
+    generated.slice(-60).reverse().forEach(function(t){
+      var title=typeof t==='string'?t:(t.title||JSON.stringify(t));
+      html+='<div style="padding:.35rem .5rem;border-bottom:1px solid rgba(255,255,255,.03);font-size:.74rem;color:#94a3b8">'+esc(title)+'</div>';
+    });
+    html+='</div>';
+  }
+  el.innerHTML=html;
+}
+
+// ── Active Plan ───────────────────────────────────────────────
+function renderPlan(d){
+  var el=document.getElementById('plan-content');
+  if(!d){el.innerHTML='<div class="empty">No active plan yet</div>';return;}
+
+  var html='';
+  // try week array
+  var days=d.week||d.days||d.plan||[];
+  if(Array.isArray(days)&&days.length){
+    days.forEach(function(day){
+      html+='<div class="card">'
+        +'<div class="card-title">'+esc(day.day||day.date||'')+'</div>'
+        +'<div class="card-sub">'+esc(day.format||'')+(day.topic?' · '+esc(day.topic):'')+'</div>'
+        +(day.hook?'<div style="margin-top:.35rem;font-size:.74rem;color:#c4b5fd;font-style:italic">"'+esc(day.hook)+'"</div>':'')
+        +'</div>';
+    });
+  } else {
+    html='<div class="json-box">'+esc(JSON.stringify(d,null,2))+'</div>';
+  }
+  el.innerHTML=html;
+}
+
+// ── Transcription ─────────────────────────────────────────────
+function renderTranscription(d){
+  var el=document.getElementById('transcription-content');
+  if(!d){el.innerHTML='<div class="empty">No transcription summary yet — runs after Apify fetch</div>';return;}
+
+  var html='<div class="stat-row">'
+    +'<div class="stat-box" style="border-color:#10b981"><div class="stat-num" style="color:#10b981">'+(d.succeeded||0)+'</div><div class="stat-lbl">Succeeded</div></div>'
+    +'<div class="stat-box" style="border-color:#475569"><div class="stat-num" style="color:#475569">'+(d.already_done||0)+'</div><div class="stat-lbl">Already Done</div></div>'
+    +'<div class="stat-box" style="border-color:#f59e0b"><div class="stat-num" style="color:#f59e0b">'+(d.pending||0)+'</div><div class="stat-lbl">Queue</div></div>'
+    +'<div class="stat-box" style="border-color:#ef4444"><div class="stat-num" style="color:#ef4444">'+(d.failed||0)+'</div><div class="stat-lbl">Failed</div></div>'
+    +'</div>';
+
+  if(d.last_run){
+    html+='<div class="card"><div class="card-title">Last Run</div><div class="card-sub">'+istTime(d.last_run)+'</div></div>';
+  }
+  if(d.model){
+    html+='<div class="card"><div class="card-title">Model Used</div><div class="card-sub">'+esc(d.model)+'</div></div>';
+  }
+  if(d.errors&&d.errors.length){
+    html+='<div class="card"><div class="card-title" style="color:#ef4444">Recent Errors</div>';
+    d.errors.slice(0,10).forEach(function(e){
+      html+='<div style="font-size:.72rem;color:#94a3b8;padding:.3rem 0;border-bottom:1px solid rgba(255,255,255,.04)">'+esc(JSON.stringify(e).substring(0,200))+'</div>';
+    });
+    html+='</div>';
+  }
+  if(!html.includes('card')){
+    html+='<div class="json-box">'+esc(JSON.stringify(d,null,2))+'</div>';
+  }
+  el.innerHTML=html;
+}
+
+// ── Init ──────────────────────────────────────────────────────
 loadAll();
 
 })();
