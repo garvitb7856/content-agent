@@ -209,7 +209,9 @@ async function run(transcribeResult = {}) {
           if (m) ideas = JSON.parse(m[0]);
         } else if (Array.isArray(raw)) ideas = raw;
         if (ideas && ideas.length && ideas[0]) {
-          out = `Title: ${ideas[0].title || ''}\nHook: ${ideas[0].hook || ''}`;
+          const idea = ideas[0];
+          const ratingEmoji = (idea.rating || idea.score) === 'HIGH' ? '🟢' : (idea.rating || idea.score) === 'MEDIUM' ? '🟡' : '🔴';
+          out = `Title: ${ratingEmoji} ${idea.title || ''}\nHook: ${idea.hook || ''}`;
         } else out = preview(ai[key], 200);
       } catch(e) { out = preview(ai[key], 200); }
     } else if (key === 'scout') {
@@ -279,10 +281,12 @@ async function run(transcribeResult = {}) {
         const pending = JSON.parse(fs.readFileSync(pendingPath, 'utf8'));
         if (!pending.length) return ['No ideas scored yet.'];
         const emojis = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
-        const badge = s => s==='HIGH'?'🟢 HIGH':s==='MEDIUM'?'🟡 MEDIUM':'🔴 LOW';
         const lines = [];
         pending.forEach((idea, i) => {
-          lines.push(emojis[i]+' ['+badge(idea.score)+'] <b>'+esc(idea.title||'')+'</b>');
+          const r = idea.rating || idea.score || 'MEDIUM';
+          const ratingEmoji = r === 'HIGH' ? '🟢' : r === 'MEDIUM' ? '🟡' : '🔴';
+          lines.push(emojis[i]+' '+ratingEmoji+' <b>'+esc(idea.title||'')+'</b>');
+          if (idea.hook) lines.push('   🎙 Hook: '+esc(idea.hook));
           if (idea.reasoning) lines.push('   <i>'+esc((idea.reasoning||'').substring(0,100))+'</i>');
           if (idea.sourceUrl) lines.push('   🔗 <a href="'+idea.sourceUrl+'">View source reel ↗</a>');
           lines.push('');

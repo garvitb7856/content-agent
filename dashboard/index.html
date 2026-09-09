@@ -438,9 +438,13 @@ function renderIdeas(ideas){
   var sb={'HIGH':'rgba(16,185,129,.12)','MEDIUM':'rgba(245,158,11,.12)','LOW':'rgba(239,68,68,.12)'};
   var em=['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
   el.innerHTML=ideas.map(function(idea,i){
-    var s=idea.score||'MEDIUM';
+    var r = idea.rating || idea.score;
+    const ratingColor = r === 'HIGH' ? '#22c55e' : r === 'MEDIUM' ? '#f97316' : '#6b7280';
+    const ratingBadge = r ? `<span style="font-size:10px;font-weight:700;padding:2px 7px;border-radius:999px;background:${ratingColor}22;color:${ratingColor};border:1px solid ${ratingColor}44;margin-bottom:6px;display:inline-block;">${r}</span>` : '';
+    var s=r||'MEDIUM';
     var srcLink=idea.sourceUrl ? '<a href="'+esc(idea.sourceUrl)+'" target="_blank" rel="noopener" style="font-size:.6rem;color:#818cf8;text-decoration:none;border-bottom:1px solid rgba(129,140,248,.3);margin-top:4px;display:inline-block;">🔗 View source reel ↗</a>' : '';
     return '<div class="idea-card" style="border-left-color:'+sc[s]+';">'+
+      ratingBadge+
       '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;margin-bottom:.35rem;">'+
         '<span class="idea-title">'+em[i]+' '+esc(idea.title||'')+'</span>'+
         '<span class="idea-score" style="background:'+sb[s]+';color:'+sc[s]+';">'+s+'</span>'+

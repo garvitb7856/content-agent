@@ -385,8 +385,19 @@ Each object in the array MUST have exactly these fields:
   "hook": "opening line for the reel",
   "format": "Reel or Carousel",
   "why": "why this will work for @garvit.irl",
-  "sourceUrl": "https://www.instagram.com/p/SHORTCODE/ (exact URL from the data provided that inspired this idea, or empty string if trend-based)"
+  "sourceUrl": "https://www.instagram.com/p/SHORTCODE/ (exact URL from the data provided that inspired this idea, or empty string if trend-based)",
+  "rating": "HIGH"
 }
+
+For EACH idea, also assign a rating based on these criteria:
+- HIGH: strong trend signal OR proven viral format from competitors + unique angle for your niche
+- MEDIUM: solid topic, decent competitor performance, somewhat covered territory
+- LOW: generic, overdone, weak hook potential, or no trend backing
+
+Return ONLY a valid JSON array of 50 objects with NO extra text:
+[{"title":"...","hook":"...","format":"...","why":"...","sourceUrl":"...","rating":"HIGH"}]
+
+rating must be "HIGH", "MEDIUM", or "LOW" for every single idea. No other values.
 
 For sourceUrl: scan the topHookPatterns and hotRightNow arrays in the input data. 
 When an idea copies or remixes a competitor post style, use that post's URL exactly as given in the data. 
