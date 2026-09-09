@@ -1,0 +1,11 @@
+{
+  "postId": "3973747604843393124_72269881052",
+  "handle": "nick_saraev",
+  "postUrl": "https://www.instagram.com/p/3973747604843393124_72269881052/",
+  "transcript": "If you use Claude Code with multiple skills and plugins installed, your PC might have gotten hacked. A recent study found that 26% of AI skills contain security vulnerabilities, and a whopping 5% actually already have malicious code stuffed inside it. So to fix this, NVIDIA built a free tool called SkillSpector, which basically acts like an antivirus sitting between your Claude Code and the agent skills you're about to install. You just point it at any skill, repo, or zip file, and it'll scan for security risks like prompt injection, data leaks, and tool misuse. Then it'll hand you a risk score out of a 100, so you know in seconds whether it's fully safe or not. And the best part is, it's 100% free, open source, and works perfectly with both Claude Code and Codex. Want it for yourselves? Just comment \"skill\" down below, and I'll share",
+  "caption": "Comment \"SKILL\" to get Nvidia SkillSpector to protect your Claude Code from getting hacked. \n\nIf you use Claude Code with multiple skills and plugins installed, your PC might already be at risk.\n\nA recent study found that 26% of AI skills contain security vulnerabilities.\n\nAnd 5% actually have malic",
+  "timestamp": "2026-08-28T14:35:17.000Z",
+  "transcribedAt": "2026-09-09T17:25:52.583Z",
+  "likes": 0,
+  "comments": 0
+}

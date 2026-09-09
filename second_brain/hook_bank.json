@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T10:00:15.036Z",
+  "updated_at": "2026-09-09T18:03:47.160Z",
   "hooks": [
     {
       "id": "3970889328451453070",
@@ -2664,6 +2664,50 @@
       "likes": 33,
       "comments": 19,
       "addedAt": "2026-09-09T07:52:47.608Z"
+    },
+    {
+      "id": "3982511820810883695_24040950",
+      "text": "Still can’t believe ChatGPT Astra built this…",
+      "type": "story",
+      "format": "Reel",
+      "account": "@arshman",
+      "postUrl": "https://www.instagram.com/p/DdEuWaZOhJv/",
+      "likes": 32,
+      "comments": 2,
+      "added_at": "2026-09-09T18:02:58.585Z"
+    },
+    {
+      "id": "3982455148194140774_59161778770",
+      "text": "Anthropic is giving away its official Claude training program for free. 👀🤯",
+      "type": "story",
+      "format": "Reel",
+      "account": "@nivedan.ai",
+      "postUrl": "https://www.instagram.com/p/DdEhdt6CZJm/",
+      "likes": 239,
+      "comments": 476,
+      "added_at": "2026-09-09T18:02:58.585Z"
+    },
+    {
+      "id": "3982232787452785214_59161778770",
+      "text": "GPT-6 Astra vs Fable 5.1. 👀🤯",
+      "type": "story",
+      "format": "Reel",
+      "account": "@nivedan.ai",
+      "postUrl": "https://www.instagram.com/p/DdDu58VCXI-/",
+      "likes": 500,
+      "comments": 6,
+      "added_at": "2026-09-09T18:02:58.585Z"
+    },
+    {
+      "id": "3982334440000180526_104890898",
+      "text": "This is an apology to @zuck",
+      "type": "story",
+      "format": "Reel",
+      "account": "@vaibhavsisinty",
+      "postUrl": "https://www.instagram.com/p/DdEGBLpA9Eu/",
+      "likes": 4959,
+      "comments": 66,
+      "added_at": "2026-09-09T18:02:58.586Z"
     }
   ]
 }

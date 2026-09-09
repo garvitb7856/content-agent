@@ -1,76 +1,76 @@
 {
-  "fetched_at": "2026-09-09T09:56:03.330Z",
+  "fetched_at": "2026-09-09T18:02:58.542Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+      "title": "Tailwind Labs is joining Shopify",
+      "score": 579,
+      "comments": 236,
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
+    },
+    {
+      "source": "hackernews",
+      "title": "Apple Introduces AirPods 5",
       "score": 56,
-      "comments": 40,
-      "url": "https://openai.com/index/codex-quantum-computing-experiments/"
+      "comments": 51,
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"
+    },
+    {
+      "source": "hackernews",
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "score": 166,
+      "comments": 59,
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"
+    },
+    {
+      "source": "hackernews",
+      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "score": 22,
+      "comments": 2,
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3"
+    },
+    {
+      "source": "hackernews",
+      "title": "Understanding the recent DDoS attack against Read the Docs",
+      "score": 51,
+      "comments": 15,
+      "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/"
+    },
+    {
+      "source": "hackernews",
+      "title": "How I advertise malicious software on Google Ads",
+      "score": 272,
+      "comments": 170,
+      "url": "https://xlii.space/eng/malicious-software-on-google-ads/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Better AI code comment detector",
+      "score": 23,
+      "comments": 14,
+      "url": "https://entropicthoughts.com/better-ai-comment-classifier"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude, change the \"Add to Cart\" button to blue",
+      "score": 727,
+      "comments": 302,
+      "url": "https://opusfived.dev/"
     },
     {
       "source": "hackernews",
       "title": "Muse – Meta’s personal AI agent",
-      "score": 505,
-      "comments": 546,
+      "score": 607,
+      "comments": 663,
       "url": "https://ai.meta.com/muse/"
     },
     {
       "source": "hackernews",
-      "title": "Tension wood: A 'muscle' that can both bend and straighten plants",
-      "score": 119,
-      "comments": 27,
-      "url": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html"
-    },
-    {
-      "source": "hackernews",
-      "title": "How to build a printer",
-      "score": 331,
-      "comments": 66,
-      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/"
-    },
-    {
-      "source": "hackernews",
-      "title": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)",
-      "score": 51,
-      "comments": 13,
-      "url": "https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en"
-    },
-    {
-      "source": "hackernews",
-      "title": "Gambling with our lives: AI researcher quits Anthropic with warning about safety",
-      "score": 28,
-      "comments": 13,
-      "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/"
-    },
-    {
-      "source": "hackernews",
-      "title": "“Tweet” and the bird logo apparently enter the public domain",
-      "score": 89,
-      "comments": 49,
-      "url": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm"
-    },
-    {
-      "source": "hackernews",
-      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-      "score": 443,
-      "comments": 310,
-      "url": "https://github.com/ayghri/i-have-adhd"
-    },
-    {
-      "source": "hackernews",
-      "title": "Tao: Open math problems being non-renewably mined by AI",
-      "score": 367,
-      "comments": 322,
-      "url": "https://mathstodon.xyz/@tao/117237320796901560"
-    },
-    {
-      "source": "hackernews",
-      "title": "The Microeconomics of Artificial Intelligence (2025)",
-      "score": 58,
-      "comments": 31,
-      "url": "https://direct.mit.edu/books/oa-monograph/6067/The-Microeconomics-of-Artificial-Intelligence"
+      "title": "Show HN: Give your AI agent on-screen guides that show users where to click",
+      "score": 7,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49627872"
     }
   ],
   "youtube": [
@@ -79,8 +79,8 @@
       "category": "Science & Tech",
       "title": "The UNTOLD Story Of The School Phone Ban...😳📱",
       "channel": "Peakzmotivation",
-      "views": 59135172,
-      "likes": 958616,
+      "views": 59291573,
+      "likes": 960701,
       "publishedAt": "2026-08-24T03:40:46Z",
       "url": "https://www.youtube.com/watch?v=2X-Lc35kpB8",
       "tags": [
@@ -94,10 +94,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Humanoid Robot Unboxing 🤖",
+      "channel": "İncelemedeyim",
+      "views": 11276260,
+      "likes": 135213,
+      "publishedAt": "2026-08-19T18:00:14Z",
+      "url": "https://www.youtube.com/watch?v=Cc4SLUf3Fdc",
+      "tags": [],
+      "description": "AGIBOT A3"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok",
       "channel": "AlanTech",
-      "views": 6269141,
-      "likes": 44611,
+      "views": 6275146,
+      "likes": 44685,
       "publishedAt": "2026-08-31T02:49:06Z",
       "url": "https://www.youtube.com/watch?v=YgIIqe227wU",
       "tags": [],
@@ -105,10 +117,34 @@
     },
     {
       "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Morse Code WPM Slow and Fast #morsecode #hamradio",
+      "channel": "The Radio Zoomer",
+      "views": 5856645,
+      "likes": 68488,
+      "publishedAt": "2026-09-01T15:00:32Z",
+      "url": "https://www.youtube.com/watch?v=xk_l3La6zXI",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Samsung Aura ☠️ #samsung #future #fyp #viral #trollface #upcomingphones #display #shorts",
+      "channel": "Void Pixels YT",
+      "views": 3884430,
+      "likes": 32809,
+      "publishedAt": "2026-09-03T08:53:23Z",
+      "url": "https://www.youtube.com/watch?v=keFjhL8ZPMg",
+      "tags": [],
+      "description": "Samsung Aura ☠️ #samsung #future #fyp #viral #trollface #upcomingphones #display #shorts"
+    },
+    {
+      "source": "youtube",
       "category": "People & Blogs",
       "title": "vlog: building my dream house",
       "channel": "Kylie Jenner",
-      "views": 2985929,
+      "views": 3114239,
       "likes": 0,
       "publishedAt": "2026-09-06T16:21:33Z",
       "url": "https://www.youtube.com/watch?v=7APWfTucDQ4",
@@ -120,8 +156,8 @@
       "category": "Science & Tech",
       "title": "$45 #Sony Cinema Camera Sensor Cleaning! Too much? #raybanmeta #techtok #cameragear #fbmarketplace",
       "channel": "Mighty Duck Media",
-      "views": 2703802,
-      "likes": 84777,
+      "views": 2783743,
+      "likes": 88778,
       "publishedAt": "2026-09-03T08:01:53Z",
       "url": "https://www.youtube.com/watch?v=XdAb4MZ7uOU",
       "tags": [],
@@ -129,71 +165,137 @@
     },
     {
       "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Is the iPhone fold’s durability cooked..",
-      "channel": "CarterPCs",
-      "views": 1580594,
-      "likes": 70619,
-      "publishedAt": "2026-09-07T03:36:17Z",
-      "url": "https://www.youtube.com/watch?v=CaIaNfTeZAs",
+      "category": "People & Blogs",
+      "title": "Officially kicked out of the US",
+      "channel": "Vivienne Yang",
+      "views": 2345496,
+      "likes": 97389,
+      "publishedAt": "2026-09-01T12:00:18Z",
+      "url": "https://www.youtube.com/watch?v=PBFZcN6vyIg",
       "tags": [],
-      "description": "Is the iPhone fold’s durability cooked..\n\n#carterpcs #tech #gaming"
+      "description": "My F1 visa for studying acting has been rejected. \n\nWhile the rejection letter says I can re-apply, the application fee costs over 500 dollars and rej"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "How Zenith’s Space Command Remote Worked 🤔",
+      "channel": "Zack D. Films",
+      "views": 2286514,
+      "likes": 114928,
+      "publishedAt": "2026-09-08T12:30:21Z",
+      "url": "https://www.youtube.com/watch?v=Qpyd7TsH14Y",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Is speed streaming the IPhone event??",
+      "channel": "CarterPCs",
+      "views": 1977976,
+      "likes": 150816,
+      "publishedAt": "2026-09-08T06:37:24Z",
+      "url": "https://www.youtube.com/watch?v=KtkOSqxd-Os",
+      "tags": [],
+      "description": "Is speed streaming the IPhone event??\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "They fully leaked iPhone 18 colors 😭",
+      "channel": "John Casterline",
+      "views": 1892475,
+      "likes": 102568,
+      "publishedAt": "2026-09-07T23:17:29Z",
+      "url": "https://www.youtube.com/watch?v=eOBGB4lpGpQ",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "PS5 PRO IS SOLD OUT #shorts",
+      "channel": "jacobweeby",
+      "views": 1578596,
+      "likes": 94298,
+      "publishedAt": "2026-09-07T19:58:19Z",
+      "url": "https://www.youtube.com/watch?v=4ItTTWowj2k",
+      "tags": [],
+      "description": "PS5 Pro being sold out is CRAZY 😭 \n\n#ps5 #playstation #xboxseriesx #xbox #gaming #skit #fyp #funny #shorts"
     },
     {
       "source": "youtube",
       "category": "People & Blogs",
-      "title": "moving forward after years of depression ❤️",
-      "channel": "Space Maker Method",
-      "views": 202733,
-      "likes": 12693,
-      "publishedAt": "2026-09-06T10:00:34Z",
-      "url": "https://www.youtube.com/watch?v=bkCk4bdhPVM",
+      "title": "Come get some outfits for us for NYFW #vlog",
+      "channel": "Kat Clark",
+      "views": 1040478,
+      "likes": 56484,
+      "publishedAt": "2026-09-05T06:53:24Z",
+      "url": "https://www.youtube.com/watch?v=owGu8WMXoLQ",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "People & Blogs",
+      "title": "Taking over my sisters apartment",
+      "channel": "emily ha",
+      "views": 501676,
+      "likes": 14524,
+      "publishedAt": "2026-09-08T00:03:41Z",
+      "url": "https://www.youtube.com/watch?v=Gurl7LAtV84",
       "tags": [
-        "declutter",
-        "extreme declutter",
-        "decluttering",
-        "clutter",
-        "declutter and oragnize"
+        "hjevelyn",
+        "Emily ha",
+        "erica ha",
+        "ha sisters",
+        "catcakes"
       ],
-      "description": "Thank you to Wayfair for sponsoring today's video! Whether you're refreshing a room, tackling a home project, or just looking for pieces that fit your"
+      "description": "hiiii\nCOME SEE US OCT. 2ND IN NYC!!!\nhttps://www.ticketmaster.com/ha-sisters-live-new-york-new-york-10-02-2026/event/030064FCAF36287C"
+    },
+    {
+      "source": "youtube",
+      "category": "People & Blogs",
+      "title": "happy september!!!",
+      "channel": "charli d'amelio",
+      "views": 454546,
+      "likes": 11273,
+      "publishedAt": "2026-09-05T19:32:33Z",
+      "url": "https://www.youtube.com/watch?v=r1yD9L2LS0c",
+      "tags": [
+        "Charli D'Amelio",
+        "charli d'amelio",
+        "dixie d'amelio",
+        "dixie d'amelio show",
+        "dixie"
+      ],
+      "description": "hi guys!! 🤍\nwelcome back to another vlog!! this one is kind of a little bit of everything lol. i filmed an episode of feeding starving celebrities wi"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "AI tools",
+        "keyword": "self improvement",
         "trend_score": 91
       },
       {
-        "keyword": "self improvement",
-        "trend_score": 90
-      },
-      {
         "keyword": "ChatGPT",
-        "trend_score": 89
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 87
+        "trend_score": 88
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 87
+        "trend_score": 85
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 80
+        "trend_score": 84
       },
       {
         "keyword": "automation tools",
-        "trend_score": 79
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 37
+        "trend_score": 83
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-09T09:56:03.330Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"How GPT‑5.6 Sol helps run quantum computing experiments\" — 56 pts\n• [HackerNews] \"Muse – Meta’s personal AI agent\" — 505 pts\n• [HackerNews] \"Tension wood: A 'muscle' that can both bend and straighten plants\" — 119 pts\n• [HackerNews] \"How to build a printer\" — 331 pts\n• [HackerNews] \"A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)\" — 51 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 59135k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6269k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 2986k views\n• [YouTube Global] \"$45 #Sony Cinema Camera Sensor Cleaning! Too much? #raybanmeta #techtok #cameragear #fbmarketplace\" by Mighty Duck Media — 2704k views\n• [YouTube Global] \"Is the iPhone fold’s durability cooked..\" by CarterPCs — 1581k views\n• [YouTube Global] \"moving forward after years of depression ❤️\" by Space Maker Method — 203k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 91), self improvement (score: 90), ChatGPT (score: 89), AI for business (score: 87), AI workflow (score: 87), solopreneur (score: 80), automation tools (score: 79), productivity tools (score: 37)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-09T18:02:58.542Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Tailwind Labs is joining Shopify\" — 579 pts\n• [HackerNews] \"Apple Introduces AirPods 5\" — 56 pts\n• [HackerNews] \"GPT-6 Astra, looped transformers, and hidden reasoning\" — 166 pts\n• [HackerNews] \"Qwen 3.8 follows GPT-5.5 Pro reasoning prefills\" — 22 pts\n• [HackerNews] \"Understanding the recent DDoS attack against Read the Docs\" — 51 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 59292k views\n• [YouTube Global] \"Humanoid Robot Unboxing 🤖\" by İncelemedeyim — 11276k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6275k views\n• [YouTube Global] \"Morse Code WPM Slow and Fast #morsecode #hamradio\" by The Radio Zoomer — 5857k views\n• [YouTube Global] \"Samsung Aura ☠️ #samsung #future #fyp #viral #trollface #upcomingphones #display #shorts\" by Void Pixels YT — 3884k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 3114k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 91), ChatGPT (score: 88), AI workflow (score: 85), solopreneur (score: 84), automation tools (score: 83)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

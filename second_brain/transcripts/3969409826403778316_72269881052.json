@@ -1,0 +1,11 @@
+{
+  "postId": "3969409826403778316_72269881052",
+  "handle": "nick_saraev",
+  "postUrl": "https://www.instagram.com/p/3969409826403778316_72269881052/",
+  "transcript": "DeepSeek just launched a free version of Claude Code, and it's already crossed 180,000 stars on GitHub in under a week. It's called DeepSeek Harness, and unlike Claude Code, it's fully customizable. It's basically built on the idea that everything inside it is a plugin, including the model, the tools, the memory, and even the agent loop itself. So you can swap out whatever modular piece you want to build your own custom AI agent entirely from scratch, which means you can run it with any AI model locally and even call Claude Code and Codex as sub-agents from inside of it. Plus, it comes with 53 tools right out of the box, and it's completely free, as mentioned, and open source. So if you want to try it for yourself, just comment \"DEEPSEEK\" down below, and I'll send you guys the links directly.",
+  "caption": "Comment \"DEEPSEEK\" to get DeepSeek Harness and build your own custom AI agent.\n\nDeepSeek just launched their own free version of Claude Code.\n\nIt has already crossed 180k stars on GitHub in under a week.\n\nIt's called DeepSeek Harness.\n\nUnlike Claude Code, it's fully customizable.\n\nIt's built on the ",
+  "timestamp": "2026-08-22T14:59:11.000Z",
+  "transcribedAt": "2026-09-09T17:40:29.711Z",
+  "likes": 0,
+  "comments": 0
+}
