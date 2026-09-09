@@ -263,8 +263,7 @@ function unwrapArray(d,key){
   if(!d)return[];
   if(Array.isArray(d))return d;
   if(key&&Array.isArray(d[key]))return d[key];
-  // try common keys
-  for(var k of['hooks','scripts','items','data','entries']){
+  for(var k of['hooks','scripts','posts','trends','items','data','entries']){
     if(Array.isArray(d[k]))return d[k];
   }
   return Object.values(d).filter(Array.isArray)[0]||[];
@@ -396,12 +395,16 @@ function renderPipeline(d){
     +'<div class="card-sub">Duration: '+(d.duration_seconds?d.duration_seconds+'s':'—')
     +' · Status: <span style="color:'+(d.overall_status==='success'?'#10b981':'#ef4444')+';font-weight:700">'+(d.overall_status||'unknown')+'</span></div></div>';
 
-  if(steps.length){
-    steps.forEach(function(s){
+  var stepEntries=Array.isArray(steps)?steps:Object.entries(steps).map(function(e){return Object.assign({name:e[0]},e[1]);});
+  if(stepEntries.length){
+    stepEntries.forEach(function(s){
       var ok=s.status==='success'||s.status==='skipped';
       var cls=s.status==='success'?'step-ok':s.status==='skipped'?'step-skip':'step-fail';
       var icon=s.status==='success'?'✅':s.status==='skipped'?'⏭️':'❌';
-      html+='<div class="step '+cls+'"><span>'+icon+'</span><span class="step-name">'+esc(s.name||s.step||'')+'</span><span class="step-time">'+(s.duration?s.duration+'s':'')+(s.note?' · '+esc(s.note):'')+'</span></div>';
+      var label=(s.name||s.step||'').replace(/^\d+[_]+/,'').replace(/_/g,' ');
+      var dur=s.startedAt&&s.finishedAt?Math.round((new Date(s.finishedAt)-new Date(s.startedAt))/1000)+'s':'';
+      var note=(s.reason||s.error||'').substring(0,60);
+      html+='<div class="step '+cls+'"><span>'+icon+'</span><span class="step-name">'+esc(label)+'</span><span class="step-time">'+dur+(note?' · '+esc(note):'')+'</span></div>';
     });
   } else {
     html+='<div class="json-box">'+esc(JSON.stringify(d,null,2))+'</div>';

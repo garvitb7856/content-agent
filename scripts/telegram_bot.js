@@ -144,13 +144,13 @@ function sendMessage(text) {
 async function run(transcribeResult = {}) {
   let data = {};
   try {
-    const dp = path.join(__dirname, '..', 'dashboard', 'data', 'data.json');
+    const dp = path.join(__dirname, '..', 'dashboard', 'data.json');
     data = JSON.parse(fs.readFileSync(dp, 'utf8'));
   } catch(e) {}
 
   let ai = {};
   try {
-    const ap = path.join(__dirname, '..', 'dashboard', 'data', 'agents_output.json');
+    const ap = path.join(__dirname, '..', 'dashboard', 'agents_output.json');
     ai = JSON.parse(fs.readFileSync(ap, 'utf8'));
   } catch(e) {}
 
