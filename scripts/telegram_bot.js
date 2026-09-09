@@ -81,7 +81,7 @@ function getPipelineHealth() {
       const icon = icons[val.status] || '❓';
       const label = stepNames[key] || key;
       let line = `${icon} ${label}`;
-      if (val.status === 'failed' && val.error) line += ` — ${val.error.slice(0,60)}`;
+      if (val.status === 'failed' && val.error) line += ` — ${esc(val.error.slice(0,60))}`;
       if (val.status === 'skipped' && val.reason) line += ` (${val.reason})`;
       lines.push(line);
     }
@@ -281,7 +281,7 @@ async function run(transcribeResult = {}) {
       `Overall: <b>${pipelineStatus.overall?.toUpperCase() || 'UNKNOWN'}</b>`,
       ...Object.entries(pipelineStatus.steps || {}).map(([k, v]) => {
         const icon = v.status === 'success' ? '✅' : v.status === 'failed' ? '❌' : v.status === 'skipped' ? '⏭' : '🔄';
-        return `${icon} ${k.replace(/_/g,' ')}${v.error ? ' — ' + v.error.substring(0,60) : ''}`;
+        return `${icon} ${k.replace(/_/g,' ')}${v.error ? ' — ' + esc(v.error.substring(0,60)) : ''}`;
       }),
       '',
     ] : []),
@@ -328,7 +328,8 @@ async function run(transcribeResult = {}) {
 module.exports = { run };
 if (require.main === module) {
   run().catch(err => {
-    console.error('❌ Failed to send:', err.message || err);
+    console.error('❌ Telegram bot crashed with full error:');
+    console.error(err);
     process.exit(1);
   });
 }

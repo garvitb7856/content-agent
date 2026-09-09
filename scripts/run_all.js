@@ -131,15 +131,27 @@ async function runParallel(steps) {
 
   // Finalize status
   const nonCriticalKeys = new Set([
-    '9__send_telegram', 'notify_pattern_update', '6_5__prune_second_brain',
-    '1_5_transcribe_videos', '1_5_transcribe_videos_', 'transcribe',
-    '3_8_refresh_topic_clusters', '2_5_analyze_ig_trends', '2_6_feedback_loop',
-    '6_5_prune_second_brain', 'prune_second_brain'
+    '9__send_telegram',
+    'notify_pattern_update',
+    '1_5_transcribe_videos',
+    '1_5_transcribe_videos_',
+    'transcribe',
+    '3_8_refresh_topic_clusters',
+    '2_5_analyze_ig_trends',
+    '2_6_feedback_loop',
+    '6_5_prune_second_brain',
+    'prune_second_brain',
+    '6_5__prune_second_brain',
+    'apify_fetch',
+    '1__fetch_apify_data',
   ]);
   const criticalFailed = Object.entries(status.steps)
     .filter(([k, v]) => v.status === 'failed' && !nonCriticalKeys.has(k))
     .map(([k]) => k);
-  status.overall = criticalFailed.length === 0 ? 'success' : 'partial';
+  const skippedCritical = Object.entries(status.steps)
+    .filter(([k, v]) => v.status === 'skipped' && !nonCriticalKeys.has(k))
+    .map(([k]) => k);
+  status.overall = (criticalFailed.length === 0 && skippedCritical.length === 0) ? 'success' : criticalFailed.length > 0 ? 'failed' : 'partial';
   status.run_finished = new Date().toISOString();
   saveStatus();
 
