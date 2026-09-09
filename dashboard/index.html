@@ -722,12 +722,13 @@ function renderTable(){
   var comps=(D&&D.competitors)||{};
   var myP=Array.isArray(acc.posts)?acc.posts:[];
   var myAv=av(myP.map(function(p){return p.likes||0;}));
-  var myAvC=Math.round(median(myP.map(function(p){return p.comments||0;})));
+  var myComms=myP.map(function(p){return p.comments||p.commentsCount||p.comments_count||0;});
+  var myAvC=Math.round(median(myComms));
   var rows=[{handle:"garvit.irl",followers:acc.followers||5845,avgLikes:myAv,avgComments:myAvC,postCount:myP.length,you:true}];
   Object.keys(comps).forEach(function(k){
     var c=comps[k],cp=Array.isArray(c.posts)?c.posts:[];
     var avgL=Math.round((c.stats&&c.stats.avg_likes)||av(cp.map(function(p){return p.likes||0;})));
-    var comArr=cp.map(function(p){return p.comments||0;});
+    var comArr=cp.map(function(p){return p.comments||p.commentsCount||p.comments_count||0;});
     var avgC=Math.round(median(comArr));
     rows.push({handle:k,followers:c.followers||0,avgLikes:avgL,avgComments:avgC,postCount:cp.length,you:false});
   });
