@@ -352,7 +352,8 @@ function renderOverview(map){
   document.getElementById('nc-scripts').textContent=scripts.length;
   document.getElementById('nc-log').textContent=log.length;
   document.getElementById('nc-perf').textContent=perf.length;
-  document.getElementById('nc-trends').textContent=(unwrapArray(map['trends.json'],'trends')).length;
+  var td=map['trends.json']||{};
+  document.getElementById('nc-trends').textContent=((td.youtube||[]).length+(td.hackernews||[]).length+(td.reddit||[]).length);
   document.getElementById('nc-clusters').textContent=clusters.length;
   document.getElementById('nc-ideas').textContent=ideaList.length;
 
@@ -646,51 +647,101 @@ function renderPatterns(d){
 function renderAgentContext(d){
   var el=document.getElementById('agent-context-content');
   if(!d){el.innerHTML='<div class="empty">No agent_context.json found</div>';return;}
-  var text=d.instruction_for_agents||JSON.stringify(d,null,2);
-  el.innerHTML='<div class="card"><div class="card-title">What gets injected into every agent prompt</div>'
-    +'<div style="font-size:.72rem;color:#94a3b8;line-height:1.8;white-space:pre-wrap;margin-top:.5rem">'+esc(text)+'</div></div>';
+  var html='';
+
+  if(d.your_performance){
+    var p=d.your_performance;
+    html+='<div class="card"><div class="card-title">📊 Your Performance Summary</div><div class="stat-row" style="margin-top:.5rem">'
+      +'<div class="stat-box" style="border-color:#10b981"><div class="stat-num" style="color:#10b981">'+(p.posts_analyzed||0)+'</div><div class="stat-lbl">Posts Analyzed</div></div>'
+      +'<div class="stat-box" style="border-color:#6366f1"><div class="stat-num" style="color:#6366f1">'+esc(p.best_format||'—')+'</div><div class="stat-lbl">Best Format</div></div>'
+      +'<div class="stat-box" style="border-color:#a855f7"><div class="stat-num" style="color:#a855f7">'+esc(p.best_hook_type||'—')+'</div><div class="stat-lbl">Best Hook Type</div></div>'
+      +'</div>';
+    if(p.by_format&&p.by_format.length){
+      html+='<div style="margin-top:.6rem"><div style="font-size:.68rem;font-weight:700;color:#475569;text-transform:uppercase;margin-bottom:.35rem">Avg Likes by Format</div><div class="stat-row">';
+      var fc=['#6366f1','#10b981','#f59e0b','#38bdf8'];
+      p.by_format.forEach(function(f,i){
+        html+='<div class="stat-box" style="border-color:'+fc[i%fc.length]+'"><div class="stat-num" style="color:'+fc[i%fc.length]+'">'+Math.round(f.avg||0)+'</div><div class="stat-lbl">'+esc(f.type)+'</div></div>';
+      });
+      html+='</div></div>';
+    }
+    if(p.top_hooks&&p.top_hooks.length){
+      html+='<div style="margin-top:.6rem"><div style="font-size:.68rem;font-weight:700;color:#475569;text-transform:uppercase;margin-bottom:.35rem">Your Top Posts</div>';
+      p.top_hooks.slice(0,3).forEach(function(h){
+        html+='<div class="hook-item"><div class="hook-text">'+esc((h.hookText||h.caption||'').substring(0,120))+'</div>'
+          +'<div class="hook-meta"><span>❤️ '+fmt(h.finalLikes)+'</span><span>💬 '+fmt(h.finalComments)+'</span>'
+          +(h.url?'<a href="'+esc(h.url)+'" target="_blank" style="color:#6366f1">View ↗</a>':'')+'</div></div>';
+      });
+      html+='</div>';
+    }
+    html+='</div>';
+  }
+
+  // Competitor context
+  if(d.competitor_insights||d.competitors){
+    var ci=d.competitor_insights||d.competitors||{};
+    html+='<div class="card"><div class="card-title">🔍 Competitor Context Injected</div>'
+      +'<div class="json-box">'+esc(JSON.stringify(ci,null,2).substring(0,1200))+'...</div></div>';
+  }
+
+  // Full raw fallback at bottom
+  html+='<div class="card"><div class="card-title" style="color:#334155">Raw JSON (full context)</div>'
+    +'<div class="json-box">'+esc(JSON.stringify(d,null,2).substring(0,2000))+'...</div></div>';
+
+  el.innerHTML=html;
 }
 
 // ── Trends ────────────────────────────────────────────────────
 function renderTrends(d){
   var el=document.getElementById('trends-content');
   if(!d){el.innerHTML='<div class="empty">No trends data</div>';return;}
-
-  var srcColors={YouTube:'#ef4444',HackerNews:'#f97316',Reddit:'#f59e0b',Google:'#38bdf8',GoogleDaily:'#6366f1'};
   var html='';
 
   // YouTube
   if(d.youtube&&d.youtube.length){
-    html+='<div class="card"><div class="card-title">📺 YouTube Trending</div>';
+    html+='<div class="card"><div class="card-title">📺 YouTube Trending ('+d.youtube.length+')</div>';
     d.youtube.forEach(function(t){
       html+='<div class="trend-item"><span class="trend-src" style="background:rgba(239,68,68,.15);color:#ef4444">YT</span>'
-        +'<span class="trend-title">'+esc(t.title||'')+'</span>'
-        +(t.views?'<span style="font-size:.65rem;color:#475569">'+fmt(t.views)+' views</span>':'')
+        +'<div style="flex:1"><div style="font-size:.76rem;color:#c4b5fd">'+esc(t.title||'')+'</div>'
+        +'<div style="font-size:.63rem;color:#475569">'+esc(t.channel||'')+(t.views?' · '+fmt(t.views)+' views':'')+'</div></div>'
+        +(t.url?'<a href="'+esc(t.url)+'" target="_blank" style="color:#ef4444;font-size:.65rem">↗</a>':'')
         +'</div>';
     });
     html+='</div>';
   }
 
   // Google keyword trends
-  if(d.google&&d.google.length){
-    html+='<div class="card"><div class="card-title">🔍 Google Keyword Trends</div><div style="display:flex;flex-wrap:wrap;gap:.4rem">';
-    d.google.forEach(function(t){
-      html+='<span class="tag tag-blue">'+esc(t.title||t.keyword||t)+(t.traffic?' ('+t.traffic+')':'')+'</span>';
-    });
-    html+='</div></div>';
+  if(d.google){
+    var glist=Array.isArray(d.google)?d.google:(d.google.keywords||[]);
+    if(glist.length){
+      html+='<div class="card"><div class="card-title">🔍 Google Keyword Trends ('+glist.length+')</div><div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.4rem">';
+      glist.forEach(function(t){
+        var label=typeof t==='string'?t:(t.title||t.keyword||JSON.stringify(t));
+        var traffic=t.traffic||t.value||'';
+        html+='<span class="tag tag-blue">'+esc(label)+(traffic?' ('+esc(traffic)+')':'')+'</span>';
+      });
+      html+='</div></div>';
+    }
   }
 
-  // HackerNews / Reddit / general trends
-  var generalTrends=unwrapArray(d,'trends').filter(function(t){return t.source!=='YouTube'&&t.source!=='Google';});
-  if(generalTrends.length){
-    html+='<div class="card"><div class="card-title">🌐 HackerNews / Reddit Signals</div>';
-    generalTrends.slice(0,20).forEach(function(t){
-      var col=srcColors[t.source]||'#64748b';
-      html+='<div class="trend-item">'
-        +'<span class="trend-src" style="background:'+col+'22;color:'+col+'">'+esc((t.source||'?').substring(0,2))+'</span>'
-        +'<span class="trend-title">'+esc(t.title||'')+'</span>'
-        +'<span style="font-size:.65rem;color:#475569">'+fmt(t.score||t.comments||0)+'</span>'
+  // HackerNews
+  if(d.hackernews&&d.hackernews.length){
+    html+='<div class="card"><div class="card-title">🔶 HackerNews ('+d.hackernews.length+')</div>';
+    d.hackernews.forEach(function(t){
+      html+='<div class="trend-item"><span class="trend-src" style="background:rgba(249,115,22,.15);color:#f97316">HN</span>'
+        +'<div style="flex:1"><div style="font-size:.76rem;color:#c4b5fd">'+esc(t.title||'')+'</div>'
+        +'<div style="font-size:.63rem;color:#475569">▲ '+fmt(t.score||0)+' · '+fmt(t.comments||0)+' comments</div></div>'
+        +(t.url?'<a href="'+esc(t.url)+'" target="_blank" style="color:#f97316;font-size:.65rem">↗</a>':'')
         +'</div>';
+    });
+    html+='</div>';
+  }
+
+  // Reddit
+  if(d.reddit&&d.reddit.length){
+    html+='<div class="card"><div class="card-title">🟠 Reddit ('+d.reddit.length+')</div>';
+    d.reddit.forEach(function(t){
+      html+='<div class="trend-item"><span class="trend-src" style="background:rgba(255,69,0,.15);color:#ff4500">Re</span>'
+        +'<div style="font-size:.76rem;color:#c4b5fd">'+esc(t.title||'')+'</div></div>';
     });
     html+='</div>';
   }
