@@ -244,10 +244,18 @@ async function run() {
         if (transcribedCount >= TEST_LIMIT) { console.log(`\nDaily limit of ${TEST_LIMIT} reached — remaining videos retry tomorrow.`); break; }
 
       } catch (err) {
-        console.log(`  FAILED: ${err.message} — will retry next run`);
-        failedCount++;
-        errorLog.push({ id: postId, url: videoUrl, reason: err.message });
-        // DO NOT mark as done — video will be retried tomorrow
+        if (err.message && err.message.includes('ENETUNREACH')) {
+          console.log(`  FAILED: ${err.message} — Skipped permanently (IPv6 unreachable)`);
+          transcribedSet.add(postId);
+          saveJSON(TRANSCRIBED_IDS_FILE, [...transcribedSet]);
+          failedCount++;
+          errorLog.push({ id: postId, url: videoUrl, reason: err.message });
+        } else {
+          console.log(`  FAILED: ${err.message} — will retry next run`);
+          failedCount++;
+          errorLog.push({ id: postId, url: videoUrl, reason: err.message });
+          // DO NOT mark as done — video will be retried tomorrow
+        }
       } finally {
         if (fs.existsSync(tempFile)) { fs.unlinkSync(tempFile); console.log('  Temp file deleted.'); }
       }
