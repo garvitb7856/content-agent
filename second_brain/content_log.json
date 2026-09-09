@@ -265,7 +265,11 @@
     "url": "https://www.instagram.com/p/Dc87K0QEnWh/",
     "type": "Post",
     "loggedAt": "2026-09-07T10:32:13.202Z",
-    "archived": false
+    "archived": true,
+    "likes_at_48h": 11,
+    "comments_at_48h": 2,
+    "engagement_at_48h": 0,
+    "performance_complete": true
   },
   {
     "id": "3979581396960344068_65880404765",
@@ -613,5 +617,17 @@
     "comments_at_48h": 14,
     "engagement_at_48h": 0,
     "performance_complete": true
+  },
+  {
+    "id": "3981737505267041504_65880404765",
+    "shortCode": "DdB-So2SsTg",
+    "caption": "Comment me “Prompt” to get access to the prompt library and get the best output out of your claude !\n\n#claude #ai #aihacks #ai #aiimage",
+    "timestamp": "2026-09-08T15:10:28.000Z",
+    "likesCount": 33,
+    "commentsCount": 19,
+    "url": "https://www.instagram.com/p/DdB-So2SsTg/",
+    "type": "Video",
+    "loggedAt": "2026-09-09T07:46:50.985Z",
+    "archived": false
   }
 ]

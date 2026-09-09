@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "The 'Chicken vs Camera' stability test",
-    "hook": "Is a chicken better than a gimbal? 🐓",
+    "title": "Higgsfield AI: Image to Product Video",
+    "hook": "Turn photos into studio ads instantly.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "This leverages the viral tech-humor trend which is currently performing well and has not been touched by the creator yet. Competitor videos using this mechanical stabilizer comparison often reach millions of views due to high shareability.",
+    "score": "MEDIUM",
+    "reasoning": "Backed by competitor transcript proof demonstrating automated photo-to-video ad generation. While AI tool demos are common, the specific e-commerce visual workflow provides immediate high-value utility.",
     "niche": "AI",
-    "sourceUrl": "https://www.youtube.com/watch?v=is_a_chicken_better"
+    "sourceUrl": "https://www.instagram.com/p/3978527522457650939_24040950/"
   },
   {
     "rank": 2,
-    "title": "The 'Los Angeles' timelapse insight",
-    "hook": "Watching LA build over 140 years.",
+    "title": "Mammouth AI: Every Model in One Window",
+    "hook": "Stop paying 5 AI subscriptions every month.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "This utilizes visual storytelling and historical data, which stands out against the saturated AI/productivity content. It has massive viral potential for shares and provides a fresh departure from the creator's usual topic clusters.",
-    "niche": "Self-growth",
-    "sourceUrl": ""
+    "score": "MEDIUM",
+    "reasoning": "Competitor post proof validates audience pain regarding recurring subscription costs across multiple AI tools. Aggregating Claude, GPT, Grok, and Perplexity delivers a pragmatic cost-cutting hook.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DdA6usogrxi/"
   },
   {
     "rank": 3,
-    "title": "Testing the 'School Phone Ban' theory",
-    "hook": "The phone ban is actually helping students.",
+    "title": "ChatGPT Self-Serve Ads Arrive in India",
+    "hook": "ChatGPT just launched ads in India.",
     "format": "Reel",
     "score": "MEDIUM",
-    "reasoning": "This taps into a massive global societal debate, which is a high-interest trend that deviates from the creator's overused AI/tech topics. It is ranked medium because it requires careful positioning to remain relevant to the creator's personal brand.",
-    "niche": "Self-growth",
-    "sourceUrl": ""
+    "reasoning": "Backed by competitor proof highlighting regional ad format launches in India. It offers first-mover positioning for local marketers and founders without repeating generic AI news.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/DdBJATQK5U-/"
   },
   {
     "rank": 4,
-    "title": "What 48 feels like (Eating healthy)",
-    "hook": "I am 48. Here is my diet.",
-    "format": "Reel",
+    "title": "Design.MD: 2,000+ Free UI Systems",
+    "hook": "Stop paying web designers in 2026.",
+    "format": "Carousel",
     "score": "MEDIUM",
-    "reasoning": "Health and lifestyle content performs consistently well and allows the creator to show depth beyond technical tutorials. It is ranked medium as it is a pivot into a new content pillar that hasn't been established on the channel yet.",
-    "niche": "Self-growth",
-    "sourceUrl": ""
+    "reasoning": "Supported by active competitor proof offering high-value UI assets for non-technical builders. It delivers actionable resource utility while avoiding heavily saturated coding and workflow clusters.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dc3zXkXSxpH/"
   },
   {
     "rank": 5,
-    "title": "Building a house with AI blueprints",
-    "hook": "I let AI design my dream home.",
-    "format": "Reel",
+    "title": "ISRO's 36,000km Space Camera Flex",
+    "hook": "India put a camera 36,000km high.",
+    "format": "Carousel",
     "score": "MEDIUM",
-    "reasoning": "While it touches on AI, the 'vlog/home design' angle differentiates it from the creator's repetitive software-based AI content. It offers broad consumer appeal and high visual engagement potential.",
-    "niche": "AI",
-    "sourceUrl": ""
+    "reasoning": "Competitor proof demonstrates strong viral national pride and tech achievement engagement. This topic completely avoids overused AI tool roundups and productivity advice.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/DdB_-vEgx7P/"
   }
 ]

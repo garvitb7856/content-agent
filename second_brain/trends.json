@@ -1,76 +1,76 @@
 {
-  "fetched_at": "2026-09-08T06:16:12.158Z",
+  "fetched_at": "2026-09-09T07:46:53.677Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-      "score": 37,
-      "comments": 11,
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+      "title": "\"Tweet\" and the bird logo apparently enter the public domain",
+      "score": 35,
+      "comments": 4,
+      "url": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm"
     },
     {
       "source": "hackernews",
-      "title": "How well do agents use test/verification techniques?",
-      "score": 47,
-      "comments": 7,
-      "url": "https://danluu.com/agentic-testing/"
+      "title": "Muse – Meta’s personal AI agent",
+      "score": 473,
+      "comments": 508,
+      "url": "https://ai.meta.com/muse/"
     },
     {
       "source": "hackernews",
-      "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
-      "score": 18,
-      "comments": 9,
-      "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics"
+      "title": "Tension wood: A 'muscle' that can both bend and straighten plants",
+      "score": 103,
+      "comments": 17,
+      "url": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html"
     },
     {
       "source": "hackernews",
-      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
-      "score": 270,
-      "comments": 136,
-      "url": "https://lax-skyline.parcelscope.net/"
-    },
-    {
-      "source": "hackernews",
-      "title": "The VMs Powering Mobile Agents (Instinct, Claude Code)",
-      "score": 10,
-      "comments": 1,
-      "url": "https://rohanadwankar.github.io/posts/platforms.html"
-    },
-    {
-      "source": "hackernews",
-      "title": "Multi-Agents LLM Financial Trading Framework",
-      "score": 4,
+      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+      "score": 9,
       "comments": 0,
-      "url": "https://github.com/TauricResearch/TradingAgents"
+      "url": "https://openai.com/index/codex-quantum-computing-experiments/"
     },
     {
       "source": "hackernews",
-      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
-      "score": 189,
-      "comments": 40,
-      "url": "https://arxiv.org/abs/2607.24888"
+      "title": "How to build a printer",
+      "score": 297,
+      "comments": 56,
+      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/"
     },
     {
       "source": "hackernews",
-      "title": "There's a new \"Google Jail\" for independent wikis",
-      "score": 28,
-      "comments": 7,
-      "url": "https://weirdgloop.org/blog/google-jail"
+      "title": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)",
+      "score": 36,
+      "comments": 8,
+      "url": "https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Jigsaw Haiku",
-      "score": 79,
+      "title": "AI Has a Discovery Problem",
+      "score": 29,
+      "comments": 9,
+      "url": "https://mhacevedo.com/posts/the-discovery-problem"
+    },
+    {
+      "source": "hackernews",
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "score": 414,
+      "comments": 298,
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "source": "hackernews",
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "score": 333,
+      "comments": 307,
+      "url": "https://mathstodon.xyz/@tao/117237320796901560"
+    },
+    {
+      "source": "hackernews",
+      "title": "The Microeconomics of Artificial Intelligence (2025)",
+      "score": 52,
       "comments": 27,
-      "url": "https://jigsawhaiku.com/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Caltech Mathathon – first hackathon ever devoted to research level mathematics",
-      "score": 253,
-      "comments": 89,
-      "url": "https://mathathonchallenge.com/index.html"
+      "url": "https://direct.mit.edu/books/oa-monograph/6067/The-Microeconomics-of-Artificial-Intelligence"
     }
   ],
   "youtube": [
@@ -79,8 +79,8 @@
       "category": "Science & Tech",
       "title": "The UNTOLD Story Of The School Phone Ban...😳📱",
       "channel": "Peakzmotivation",
-      "views": 58110995,
-      "likes": 948360,
+      "views": 59092349,
+      "likes": 958176,
       "publishedAt": "2026-08-24T03:40:46Z",
       "url": "https://www.youtube.com/watch?v=2X-Lc35kpB8",
       "tags": [
@@ -94,48 +94,12 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Is a Chicken Better Than a Camera Stabilizer?",
-      "channel": "Curiosity Clips",
-      "views": 8658252,
-      "likes": 157334,
-      "publishedAt": "2026-08-29T13:00:21Z",
-      "url": "https://www.youtube.com/watch?v=owLASI6wOgU",
-      "tags": [],
-      "description": "🎥 Welcome to Curiosity Science!\n🚀 Discover daily, mind-blowing science explanations and learn something new every day. From fascinating facts to jaw"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok",
       "channel": "AlanTech",
-      "views": 6215015,
-      "likes": 44307,
+      "views": 6268474,
+      "likes": 44604,
       "publishedAt": "2026-08-31T02:49:06Z",
       "url": "https://www.youtube.com/watch?v=YgIIqe227wU",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!",
-      "channel": "almostinventor",
-      "views": 4542199,
-      "likes": 74756,
-      "publishedAt": "2026-08-15T11:51:37Z",
-      "url": "https://www.youtube.com/watch?v=uojt3BgFVmY",
-      "tags": [],
-      "description": "Full build video coming to the channel!\n\n#3dprinting #diyelectronics #maker #esp32 #arduino #retrogaming #interactivetechnology"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair",
-      "channel": "Digital Doctor ",
-      "views": 3370069,
-      "likes": 70319,
-      "publishedAt": "2026-09-02T04:32:27Z",
-      "url": "https://www.youtube.com/watch?v=28bpVtD7MAk",
       "tags": [],
       "description": ""
     },
@@ -144,7 +108,7 @@
       "category": "People & Blogs",
       "title": "vlog: building my dream house",
       "channel": "Kylie Jenner",
-      "views": 2171220,
+      "views": 2949438,
       "likes": 0,
       "publishedAt": "2026-09-06T16:21:33Z",
       "url": "https://www.youtube.com/watch?v=7APWfTucDQ4",
@@ -156,8 +120,8 @@
       "category": "Science & Tech",
       "title": "$45 #Sony Cinema Camera Sensor Cleaning! Too much? #raybanmeta #techtok #cameragear #fbmarketplace",
       "channel": "Mighty Duck Media",
-      "views": 2156369,
-      "likes": 65589,
+      "views": 2686164,
+      "likes": 84109,
       "publishedAt": "2026-09-03T08:01:53Z",
       "url": "https://www.youtube.com/watch?v=XdAb4MZ7uOU",
       "tags": [],
@@ -168,8 +132,8 @@
       "category": "Science & Tech",
       "title": "Is the iPhone fold’s durability cooked..",
       "channel": "CarterPCs",
-      "views": 1112570,
-      "likes": 56133,
+      "views": 1568905,
+      "likes": 70272,
       "publishedAt": "2026-09-07T03:36:17Z",
       "url": "https://www.youtube.com/watch?v=CaIaNfTeZAs",
       "tags": [],
@@ -178,28 +142,10 @@
     {
       "source": "youtube",
       "category": "People & Blogs",
-      "title": "I'm 48. Here's Exactly What I Eat In a Day",
-      "channel": "Bobby Parrish",
-      "views": 266829,
-      "likes": 5599,
-      "publishedAt": "2026-09-05T14:00:28Z",
-      "url": "https://www.youtube.com/watch?v=9vWk4hptvcs",
-      "tags": [
-        "what i eat",
-        "everything i eat in a day",
-        "48 years old",
-        "what to eat at 48",
-        "best food for 40's"
-      ],
-      "description": "Get 30% off Seed's DS-01 Daily Synbiotic w/ code BOBBY30: https://seed.com/daily-synbiotic?utm_source=ambassador&utm_medium=youtube&utm_campaign=bobby"
-    },
-    {
-      "source": "youtube",
-      "category": "People & Blogs",
       "title": "moving forward after years of depression ❤️",
       "channel": "Space Maker Method",
-      "views": 182997,
-      "likes": 11967,
+      "views": 202028,
+      "likes": 12673,
       "publishedAt": "2026-09-06T10:00:34Z",
       "url": "https://www.youtube.com/watch?v=bkCk4bdhPVM",
       "tags": [
@@ -215,39 +161,39 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "self improvement",
-        "trend_score": 94
+        "keyword": "AI tools",
+        "trend_score": 90
       },
       {
-        "keyword": "AI for business",
-        "trend_score": 87
+        "keyword": "self improvement",
+        "trend_score": 90
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 83
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 82
+        "trend_score": 89
       },
       {
         "keyword": "ChatGPT",
-        "trend_score": 80
+        "trend_score": 88
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 84
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 80
+        "trend_score": 82
       },
       {
         "keyword": "automation tools",
-        "trend_score": 79
+        "trend_score": 77
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 39
+        "trend_score": 36
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-08T06:16:12.158Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" — 37 pts\n• [HackerNews] \"How well do agents use test/verification techniques?\" — 47 pts\n• [HackerNews] \"Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics\" — 18 pts\n• [HackerNews] \"Watch Los Angeles get built, one building at a time (1880–2026)\" — 270 pts\n• [HackerNews] \"The VMs Powering Mobile Agents (Instinct, Claude Code)\" — 10 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 58111k views\n• [YouTube Global] \"Is a Chicken Better Than a Camera Stabilizer?\" by Curiosity Clips — 8658k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6215k views\n• [YouTube Global] \"I Built A Hidden Feature Into My IRL Homescreen And Nobody Noticed!\" by almostinventor — 4542k views\n• [YouTube Global] \"FIXING DYSON AIRWRAP AT REPAIR SHOP?! #smartphone #problemfix #automobile #brokenfix #smartrepair\" by Digital Doctor  — 3370k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 2171k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 94), AI for business (score: 87), AI workflow (score: 83), AI tools (score: 82), ChatGPT (score: 80), solopreneur (score: 80), automation tools (score: 79), productivity tools (score: 39)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-09T07:46:53.677Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"\"Tweet\" and the bird logo apparently enter the public domain\" — 35 pts\n• [HackerNews] \"Muse – Meta’s personal AI agent\" — 473 pts\n• [HackerNews] \"Tension wood: A 'muscle' that can both bend and straighten plants\" — 103 pts\n• [HackerNews] \"How GPT‑5.6 Sol helps run quantum computing experiments\" — 9 pts\n• [HackerNews] \"How to build a printer\" — 297 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 59092k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6268k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 2949k views\n• [YouTube Global] \"$45 #Sony Cinema Camera Sensor Cleaning! Too much? #raybanmeta #techtok #cameragear #fbmarketplace\" by Mighty Duck Media — 2686k views\n• [YouTube Global] \"Is the iPhone fold’s durability cooked..\" by CarterPCs — 1569k views\n• [YouTube Global] \"moving forward after years of depression ❤️\" by Space Maker Method — 202k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 90), self improvement (score: 90), AI workflow (score: 89), ChatGPT (score: 88), AI for business (score: 84), solopreneur (score: 82), automation tools (score: 77), productivity tools (score: 36)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

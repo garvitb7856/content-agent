@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T06:16:12.201Z",
+  "updated_at": "2026-09-09T07:46:53.726Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1410,6 +1410,51 @@
       "engagement_rate": 1.19,
       "verdict": "medium",
       "scraped_at": "2026-09-07T10:32:59.156Z"
+    },
+    {
+      "id": "3979336712345340537_104890898",
+      "account": "@vaibhavsisinty",
+      "url": "https://www.instagram.com/p/Dc5cagNA8p5/",
+      "topic": "General Tech",
+      "format": "Video",
+      "hook": "The AGI Headline Everyone Got Wrong ⬇️ ",
+      "full_caption": "The AGI Headline Everyone Got Wrong ⬇️ \n\nOpenAI launched GPT-6 Astra and the internet decided AGI is here.\nTheir president said it is not unreasonable to feel that way.\nThe contract clause that legally defined AGI no longer exists.\n\nMeanwhile the model found security holes nobody knew existed and br",
+      "script_pattern": "unknown",
+      "likes": 22317,
+      "comments": 115,
+      "engagement_rate": 1.05,
+      "verdict": "medium",
+      "scraped_at": "2026-09-09T07:46:53.725Z"
+    },
+    {
+      "id": "3975419116875482042_53307132248",
+      "account": "@zeeeljain",
+      "url": "https://www.instagram.com/p/Dcrhp_GqQO6/",
+      "topic": "General Tech",
+      "format": "Post",
+      "hook": "30 years of Laughs, Lessons and Level Up’s! 🎠",
+      "full_caption": "30 years of Laughs, Lessons and Level Up’s! 🎠",
+      "script_pattern": "unknown",
+      "likes": 1662,
+      "comments": 79,
+      "engagement_rate": 1.05,
+      "verdict": "medium",
+      "scraped_at": "2026-09-09T07:46:53.725Z"
+    },
+    {
+      "id": "3965648477962815611_53307132248",
+      "account": "@zeeeljain",
+      "url": "https://www.instagram.com/p/DcI0EehCsh7/",
+      "topic": "Claude/AI Tools",
+      "format": "Post",
+      "hook": "Comment \"CLAUDE\" and I'll send you the full guide, with an example for every command.",
+      "full_caption": "Comment \"CLAUDE\" and I'll send you the full guide, with an example for every command.\n \nMost people run Claude Code with three or four commands and never touch the rest. The rest are where the time actually goes.\n\n/clear to start clean. /rewind to undo a wrong turn. /plan before it writes, /diff bef",
+      "script_pattern": "comment_CTA + transformation",
+      "likes": 1242,
+      "comments": 458,
+      "engagement_rate": 1.02,
+      "verdict": "medium",
+      "scraped_at": "2026-09-09T07:46:53.726Z"
     }
   ]
 }
