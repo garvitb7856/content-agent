@@ -41,6 +41,7 @@ async function callGemini(prompt) {
 
 // ── LOAD INTELLIGENCE ─────────────────────────────────────────
 function loadIntelligence() {
+  const cutoff60 = Date.now() - (60 * 24 * 60 * 60 * 1000);
   const safeRead = (p, d) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch(e) { return d; } };
 
   const hookBankRaw = safeRead(path.join(ROOT, 'second_brain/hook_bank.json'), []);
@@ -60,7 +61,11 @@ function loadIntelligence() {
     transcripts = fs.readdirSync(transcriptsDir)
       .filter(f => f.endsWith('.json') && f !== 'transcribed_ids.json')
       .map(f => { try { return JSON.parse(fs.readFileSync(path.join(transcriptsDir, f), 'utf8')); } catch(e) { return null; } })
-      .filter(t => t && t.transcript && t.transcript !== 'NO_SPEECH');
+      .filter(t => t && t.transcript && t.transcript !== 'NO_SPEECH')
+      .filter(t => {
+        if (!t.transcribedAt) return true; // include if no date
+        return new Date(t.transcribedAt).getTime() >= cutoff60;
+      });
   }
 
   // Load my own data for CTA patterns
@@ -77,6 +82,10 @@ function loadIntelligence() {
     : Object.entries(rawComps).map(([k, v]) => ({ username: k, ...v }));
   const compTopPosts = competitors.flatMap(c =>
     (c.posts || c.recent_posts || [])
+      .filter(p => {
+        const ts = p.timestamp ? p.timestamp * 1000 : (p.taken_at ? p.taken_at * 1000 : 0);
+        return ts === 0 || ts >= cutoff60;
+      })
       .sort((a, b) => (b.likes || 0) - (a.likes || 0))
       .slice(0, 2)
       .map(p => ({ ...p, handle: c.username }))
@@ -89,8 +98,13 @@ function loadIntelligence() {
 function buildScriptPrompt(idea, intel) {
   const { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts } = intel;
 
-  // Top hooks sorted by likes
-  const topHooks = hookBank
+  // Top hooks sorted by likes (last 60 days)
+  const cutoff60 = Date.now() - (60 * 24 * 60 * 60 * 1000);
+  const recentHooks = hookBank.filter(h => {
+    const ts = h.timestamp ? h.timestamp * 1000 : (h.postedAt ? new Date(h.postedAt).getTime() : 0);
+    return ts === 0 || ts >= cutoff60; // fallback: include if no date field
+  });
+  const topHooks = recentHooks
     .sort((a, b) => (b.likes || 0) - (a.likes || 0))
     .slice(0, 15)
     .map(h => `  [${h.type || 'hook'}] [${h.source === 'transcript' ? 'SPOKEN' : 'caption'}] "${(h.hook || h.text || '').slice(0, 100)}" — @${h.handle || ''} (${h.likes || 0} likes)`)
@@ -136,7 +150,7 @@ INTELLIGENCE DATABASE — study all of this before writing
 TOP PERFORMING HOOKS (sorted by likes, [SPOKEN] = from actual video transcript):
 ${topHooks}
 
-VIRAL VIDEO STRUCTURES (actual spoken transcripts from top-performing reels):
+VIRAL VIDEO STRUCTURES — LAST 60 DAYS (recent top-performing reels only):
 ${viralTranscripts}
 
 CTA PATTERNS — FROM MY TOP POSTS (what endings work for @garvit.irl):
