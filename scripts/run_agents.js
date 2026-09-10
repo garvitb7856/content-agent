@@ -406,10 +406,29 @@ ${avoidTopics}`.trim(),
 
     scout: `ROLE: You are the Scout for @${myHandle}. Score 50 ideas HIGH/MEDIUM/LOW.
 
-SCORING CRITERIA:
-- HIGH: Topic is in the trending list AND has strong hook potential for Indian tech audience
-- MEDIUM: Strong hook potential OR moderate trend signal (not both required)  
-- LOW: No trend signal, weak hook, already covered, or too generic
+VIRALITY SCORING SYSTEM — ACCOUNT-SIZE RELATIVE BENCHMARKS:
+
+You must classify each competitor's post performance using their actual follower count, then rate whether the IDEA CONCEPT has viral potential for @garvit.irl (currently ~6,100 followers — a SMALL account).
+
+TIER DEFINITIONS (for competitor reference posts):
+- SMALL account (<10k followers): A post is viral if it gets 10,000–50,000 views (approx 300–2,500 likes)
+- MEDIUM account (10k–100k followers): A post is viral if it gets 100,000–500,000 views (approx 3,000–25,000 likes)
+- LARGE account (>100k followers): A post is viral if it gets 300,000–1,000,000+ views (approx 9,000–50,000+ likes)
+
+Since we only have like counts (not view counts), use this conversion:
+~3–5% of views become likes on average.
+So a MEDIUM account post with 5,000 likes = ~100,000–170,000 views = VIRAL for that tier.
+A LARGE account post with 15,000 likes = ~300,000–500,000 views = VIRAL for that tier.
+
+RATING AN IDEA — HIGH / MEDIUM / LOW:
+
+HIGH: The concept was proven viral by at least one competitor post that HIT OR EXCEEDED the viral threshold for that competitor's tier. The format, hook angle, or topic can be directly adapted for @garvit.irl. It has clear potential to reach 10,000–50,000 views for a small account. Include the reference post URL.
+
+MEDIUM: The concept showed strong above-average performance on a competitor post (e.g. 1.5–2x their avg likes) but did not clearly cross the viral threshold for their tier. Still worth testing for @garvit.irl as a growth post.
+
+LOW: The concept is untested, speculative with no data backing, or the reference post underperformed relative to that account's average. Only include LOW ideas if no better options exist.
+
+TARGET: Pick exactly 5 ideas. Prefer HIGH > MEDIUM > LOW. Never include a LOW-rated idea if there are 5 or more HIGH or MEDIUM ideas available. Always cite the exact reference post URL and its like count in your reasoning.
 
 ACCOUNT CONTEXT:
 Followers: ${myFollowers} | Avg likes: ${myAvgLikes} | Eng rate: ${engRate}%
@@ -580,14 +599,7 @@ Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). 
   const scoutResult = await gemini(`
 ${agentContexts.scout}
 
-IMPORTANT: Score each idea on a HIGH/MEDIUM/LOW scale based on topic trend strength and content format potential — NOT just competitor post likes (which may be 0 for new posts). A trending topic with strong hook potential should be rated HIGH even if the reference post is new.
-
 You are the Scout Agent. Score these content ideas ruthlessly and objectively. Your job is to protect the creator from wasting time on weak content.
-
-SCORING RULES — be strict:
-- HIGH: trending NOW (cited in trend data above) + creator has NOT done this topic before + strong competitor proof (500+ likes)
-- MEDIUM: trending but creator touched similar topic, OR competitor results were average (200-500 likes)
-- LOW: topic saturated, creator already posted this, OR no trend signal to back it up
 
 50 IDEAS TO EVALUATE:
 ${JSON.stringify(ideas50)}
