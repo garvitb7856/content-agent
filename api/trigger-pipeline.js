@@ -1,6 +1,10 @@
 const https = require('https');
 
 module.exports = async (req, res) => {
+  if (req.headers['x-cron-secret'] !== process.env.CRON_SECRET) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
   const pat = process.env.GITHUB_PAT;
   if (!pat) return res.status(500).json({ error: 'GITHUB_PAT not set' });
 
