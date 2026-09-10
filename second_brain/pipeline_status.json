@@ -1,111 +1,101 @@
 {
-  "run_started": "2026-09-10T06:25:09.354Z",
-  "run_finished": "2026-09-10T06:26:02.011Z",
-  "overall": "failed",
+  "run_started": "2026-09-10T06:39:45.350Z",
+  "run_finished": null,
+  "overall": "running",
   "steps": {
     "1__fetch_apify_data": {
       "status": "skipped",
       "reason": "data 3h old"
     },
-    "transcribe": {
-      "status": "skipped",
-      "reason": "no fresh fetch"
-    },
     "2__fetch_internet_trends": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:09.373Z",
-      "finishedAt": "2026-09-10T06:25:11.313Z"
+      "startedAt": "2026-09-10T06:39:45.369Z",
+      "finishedAt": "2026-09-10T06:39:48.134Z"
     },
     "2_5_analyze_ig_trends": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:09.376Z",
-      "finishedAt": "2026-09-10T06:25:09.420Z"
+      "startedAt": "2026-09-10T06:39:45.371Z",
+      "finishedAt": "2026-09-10T06:39:45.417Z"
     },
     "2_6_feedback_loop": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:09.377Z",
-      "finishedAt": "2026-09-10T06:25:09.413Z"
+      "startedAt": "2026-09-10T06:39:45.373Z",
+      "finishedAt": "2026-09-10T06:39:45.411Z"
     },
     "update_hook_bank": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:11.314Z",
-      "finishedAt": "2026-09-10T06:25:11.366Z"
+      "startedAt": "2026-09-10T06:39:48.135Z",
+      "finishedAt": "2026-09-10T06:39:48.185Z"
     },
     "update_competitor_scripts": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:11.315Z",
-      "finishedAt": "2026-09-10T06:25:11.366Z"
+      "startedAt": "2026-09-10T06:39:48.136Z",
+      "finishedAt": "2026-09-10T06:39:48.183Z"
     },
     "fetch_48h_performance": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:11.316Z",
-      "finishedAt": "2026-09-10T06:25:11.373Z"
+      "startedAt": "2026-09-10T06:39:48.138Z",
+      "finishedAt": "2026-09-10T06:39:48.191Z"
     },
     "detect_new_posts": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:11.318Z",
-      "finishedAt": "2026-09-10T06:25:11.359Z"
+      "startedAt": "2026-09-10T06:39:48.139Z",
+      "finishedAt": "2026-09-10T06:39:48.187Z"
     },
     "compute_patterns": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:11.374Z",
-      "finishedAt": "2026-09-10T06:25:11.411Z"
+      "startedAt": "2026-09-10T06:39:48.192Z",
+      "finishedAt": "2026-09-10T06:39:48.228Z"
     },
     "notify_pattern_update": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:11.412Z",
-      "finishedAt": "2026-09-10T06:25:12.079Z"
+      "startedAt": "2026-09-10T06:39:48.229Z",
+      "finishedAt": "2026-09-10T06:39:48.875Z"
     },
     "3__detect_posted": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:12.079Z",
-      "finishedAt": "2026-09-10T06:25:12.121Z"
+      "startedAt": "2026-09-10T06:39:48.875Z",
+      "finishedAt": "2026-09-10T06:39:48.917Z"
     },
     "3_5_caption_diff": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:12.121Z",
-      "finishedAt": "2026-09-10T06:25:12.161Z"
+      "startedAt": "2026-09-10T06:39:48.918Z",
+      "finishedAt": "2026-09-10T06:39:48.958Z"
     },
     "3_8_refresh_topic_clusters": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:12.161Z",
-      "finishedAt": "2026-09-10T06:25:40.895Z"
+      "startedAt": "2026-09-10T06:39:48.959Z",
+      "finishedAt": "2026-09-10T06:40:04.188Z"
     },
     "4__run_ai_agents": {
       "status": "failed",
-      "startedAt": "2026-09-10T06:25:40.896Z",
+      "startedAt": "2026-09-10T06:40:04.189Z",
       "error": "Command failed: node scripts/run_agents.js",
-      "finishedAt": "2026-09-10T06:25:59.627Z"
+      "finishedAt": "2026-09-10T06:40:22.864Z"
     },
     "5__update_second_brain": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:59.627Z",
-      "finishedAt": "2026-09-10T06:25:59.663Z"
+      "startedAt": "2026-09-10T06:40:22.865Z",
+      "finishedAt": "2026-09-10T06:40:22.900Z"
     },
     "6__plan_manager": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:59.663Z",
-      "finishedAt": "2026-09-10T06:25:59.693Z"
+      "startedAt": "2026-09-10T06:40:22.900Z",
+      "finishedAt": "2026-09-10T06:40:22.931Z"
     },
     "6_5_prune_second_brain": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:59.693Z",
-      "finishedAt": "2026-09-10T06:25:59.727Z"
+      "startedAt": "2026-09-10T06:40:22.931Z",
+      "finishedAt": "2026-09-10T06:40:22.963Z"
     },
     "7__save_history": {
       "status": "success",
-      "startedAt": "2026-09-10T06:25:59.727Z",
-      "finishedAt": "2026-09-10T06:25:59.757Z"
+      "startedAt": "2026-09-10T06:40:22.963Z",
+      "finishedAt": "2026-09-10T06:40:22.994Z"
     },
     "8__push_to_github": {
-      "status": "success",
-      "startedAt": "2026-09-10T06:25:59.757Z",
-      "finishedAt": "2026-09-10T06:26:01.094Z"
-    },
-    "9__send_telegram": {
-      "status": "success",
-      "startedAt": "2026-09-10T06:26:01.095Z",
-      "finishedAt": "2026-09-10T06:26:02.011Z"
+      "status": "running",
+      "startedAt": "2026-09-10T06:40:22.994Z"
     }
   }
 }
