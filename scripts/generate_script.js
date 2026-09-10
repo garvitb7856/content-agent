@@ -127,7 +127,7 @@ function buildScriptPrompt(idea, intel) {
   // Viral transcript structures (top 5 by likes)
   const viralTranscripts = transcripts
     .sort((a, b) => (b.likes || 0) - (a.likes || 0))
-    .slice(0, 5)
+    .slice(0, 10)
     .map(t => `  @${t.handle} (${t.likes || 0} likes):\n  "${t.transcript.slice(0, 300)}..."`)
     .join('\n\n');
 

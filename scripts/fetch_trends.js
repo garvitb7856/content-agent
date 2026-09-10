@@ -112,7 +112,7 @@ async function fetchYouTube() {
   try {
     const categories = [
       { id: '28', name: 'Science & Tech' },
-      { id: '22', name: 'People & Blogs' }
+      { id: '27', name: 'Education & Self-Growth' }
     ];
     const results = [];
     for (const cat of categories) {
@@ -151,7 +151,8 @@ async function fetchGoogleTrends() {
     const keywords = [
       'AI tools', 'ChatGPT', 'AI for business',
       'productivity tools', 'self improvement',
-      'AI workflow', 'solopreneur', 'automation tools'
+      'AI workflow', 'solopreneur', 'automation tools',
+      'entrepreneur'
     ];
     const results = [];
     for (const kw of keywords) {
@@ -209,7 +210,7 @@ ${redditSummary || 'No data'}
 HACKER NEWS TOP (niche-filtered):
 ${hnSummary || 'No data'}
 
-YOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):
+YOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):
 ${ytSummary || 'No data'}
 
 GOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):

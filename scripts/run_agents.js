@@ -36,7 +36,7 @@ const PERFORMANCE_BLOCK = agentContext.instruction_for_agents
   ? `\n\n═══════════════════════════════\nINTELLIGENCE BRIEFING — READ BEFORE WRITING:\n${agentContext.instruction_for_agents}\n═══════════════════════════════\n`
   : '';
 
-function loadRecentTranscripts(limitPerHandle = 3) {
+function loadRecentTranscripts(limitPerHandle = 10) {
   const transcriptsDir = path.join(__dirname, '../second_brain/transcripts');
   if (!fs.existsSync(transcriptsDir)) return '';
   try {
