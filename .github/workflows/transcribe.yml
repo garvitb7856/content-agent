@@ -1,0 +1,32 @@
+name: Transcribe Videos
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm install
+      - name: Create .env
+        run: |
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env
+          echo "GEMINI_TRANSCRIBE_KEY=${{ secrets.GEMINI_TRANSCRIBE_KEY }}" >> .env
+          echo "APIFY_API_TOKEN=${{ secrets.APIFY_API_TOKEN }}" >> .env
+          echo "MY_INSTAGRAM_HANDLE=${{ secrets.MY_INSTAGRAM_HANDLE }}" >> .env
+      - name: Run transcription
+        run: node scripts/transcribe.js
+      - name: Push transcripts
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git pull --rebase origin main
+          git add -A
+          git diff --staged --quiet || git commit -m "auto: transcription $(date +%Y-%m-%d)"
+          git push
