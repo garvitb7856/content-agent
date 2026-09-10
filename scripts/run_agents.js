@@ -106,10 +106,10 @@ function clusterHistory(history) {
   const lines = CLUSTERS
     .filter(c => counts[c.name] > 0)
     .sort((a, b) => counts[b.name] - counts[a.name])
-    .map(c => `- ${c.name} — ${counts[c.name]}x covered, avoid for now`);
+    .map(c => `- ${c.name} — ${counts[c.name]}x covered — find a FRESH ANGLE (different hook, perspective, or use-case — never repeat the same idea)`);
 
   if (uncategorized.length) {
-    lines.push(`- Uncategorized topics (${uncategorized.length} total) — avoid: ${uncategorized.slice(-8).join(' | ')}`);
+    lines.push(`- Uncategorized topics (${uncategorized.length} total) — if any of these topics reappear, approach from a completely different angle: ${uncategorized.slice(-8).join(' | ')}`);
   }
 
   return lines.length ? lines.join('\n') : 'No history yet — all topics are fresh.';
@@ -603,7 +603,12 @@ MY RECENT POSTS (do NOT repeat similar topics):
 ${myPostsText}
 ${realTranscripts}
 
-TOPICS ALREADY COVERED — DO NOT REPEAT THESE CLUSTERS:
+TOPIC FRESHNESS RULES:
+- For topics already covered (listed below): DO NOT repeat the same idea. Instead find a completely different angle, hook, or use-case for that topic. GPT-6 can be covered as "how to use it" AND "why it changes your career" — these are different angles.
+- NEVER repeat an idea that was already generated or posted.
+- New topics with NO history are preferred — go for them first.
+
+TOPICS ALREADY COVERED:
 ${historyTitles}
 
 YOUR TASK: Generate exactly 50 content ideas for Instagram. Each must be specific, not generic. Rooted in actual trends above.
@@ -646,6 +651,8 @@ Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). 
   console.log('\nAgent 2: Scout (scoring 50 → top 5)...');
   const scoutResult = await gemini(`
 ${agentContexts.scout}
+
+IMPORTANT: You will evaluate ALL ${ideas50.length} ideas below. Do NOT default to the first 5. Score every single idea objectively. Your job is to find the 5 with the highest genuine viral potential from the ENTIRE list, regardless of their position. Idea #47 can be better than Idea #1.
 
 You are the Scout Agent. Score these content ideas ruthlessly and objectively. Your job is to protect the creator from wasting time on weak content.
 

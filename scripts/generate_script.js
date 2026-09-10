@@ -144,6 +144,11 @@ YOUR TASK: Generate a complete, ready-to-film content package for this idea:
 "${idea}"
 
 ═══════════════════════════════════════════════════════
+ACCOUNT INTELLIGENCE BRIEFING — apply this to everything you write
+═══════════════════════════════════════════════════════
+${agentCtx.instruction_for_agents || 'No briefing available yet — use general best practices.'}
+
+═══════════════════════════════════════════════════════
 INTELLIGENCE DATABASE — study all of this before writing
 ═══════════════════════════════════════════════════════
 

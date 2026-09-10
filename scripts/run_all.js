@@ -105,6 +105,7 @@ async function runParallel(steps) {
 
   await runParallel([
     ['Update Hook Bank',           'node scripts/update_hook_bank.js'],
+    ['Update Caption Bank',        'node scripts/update_caption_bank.js'],
     ['Update Competitor Scripts',  'node scripts/update_competitor_scripts.js'],
     ['Fetch 48h Performance',      'node scripts/fetch_my_performance.js'],
     ['Detect New Posts',           'node scripts/detect_new_posts.js'],
