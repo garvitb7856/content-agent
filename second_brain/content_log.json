@@ -628,6 +628,13 @@
     "url": "https://www.instagram.com/p/DdB-So2SsTg/",
     "type": "Video",
     "loggedAt": "2026-09-09T07:46:50.985Z",
-    "archived": false
+    "archived": false,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 13,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-10T06:12:45.050Z"
+    }
   }
 ]

@@ -1,16 +1,105 @@
 {
-  "run_started": "2026-09-10T03:36:08.145Z",
+  "run_started": "2026-09-10T06:12:42.427Z",
   "run_finished": null,
   "overall": "running",
   "steps": {
     "1__fetch_apify_data": {
-      "status": "success",
-      "startedAt": "2026-09-10T03:36:08.157Z",
-      "finishedAt": "2026-09-10T03:36:53.916Z"
+      "status": "skipped",
+      "reason": "data 3h old"
     },
-    "1_5_transcribe_videos": {
+    "transcribe": {
+      "status": "skipped",
+      "reason": "no fresh fetch"
+    },
+    "2__fetch_internet_trends": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:42.447Z",
+      "finishedAt": "2026-09-10T06:12:44.323Z"
+    },
+    "2_5_analyze_ig_trends": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:42.449Z",
+      "finishedAt": "2026-09-10T06:12:42.498Z"
+    },
+    "2_6_feedback_loop": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:42.450Z",
+      "finishedAt": "2026-09-10T06:12:42.490Z"
+    },
+    "update_hook_bank": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:44.324Z",
+      "finishedAt": "2026-09-10T06:12:44.375Z"
+    },
+    "update_competitor_scripts": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:44.326Z",
+      "finishedAt": "2026-09-10T06:12:44.376Z"
+    },
+    "fetch_48h_performance": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:44.327Z",
+      "finishedAt": "2026-09-10T06:12:44.381Z"
+    },
+    "detect_new_posts": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:44.328Z",
+      "finishedAt": "2026-09-10T06:12:44.376Z"
+    },
+    "compute_patterns": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:44.381Z",
+      "finishedAt": "2026-09-10T06:12:44.419Z"
+    },
+    "notify_pattern_update": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:44.419Z",
+      "finishedAt": "2026-09-10T06:12:44.976Z"
+    },
+    "3__detect_posted": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:44.976Z",
+      "finishedAt": "2026-09-10T06:12:45.017Z"
+    },
+    "3_5_caption_diff": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:45.017Z",
+      "finishedAt": "2026-09-10T06:12:47.108Z"
+    },
+    "3_8_refresh_topic_clusters": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:12:47.109Z",
+      "finishedAt": "2026-09-10T06:13:43.753Z"
+    },
+    "4__run_ai_agents": {
+      "status": "failed",
+      "startedAt": "2026-09-10T06:13:43.754Z",
+      "error": "Command failed: node scripts/run_agents.js",
+      "finishedAt": "2026-09-10T06:14:02.548Z"
+    },
+    "5__update_second_brain": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:14:02.549Z",
+      "finishedAt": "2026-09-10T06:14:02.584Z"
+    },
+    "6__plan_manager": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:14:02.584Z",
+      "finishedAt": "2026-09-10T06:14:02.612Z"
+    },
+    "6_5_prune_second_brain": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:14:02.612Z",
+      "finishedAt": "2026-09-10T06:14:02.644Z"
+    },
+    "7__save_history": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:14:02.644Z",
+      "finishedAt": "2026-09-10T06:14:02.673Z"
+    },
+    "8__push_to_github": {
       "status": "running",
-      "startedAt": "2026-09-10T03:36:53.916Z"
+      "startedAt": "2026-09-10T06:14:02.673Z"
     }
   }
 }

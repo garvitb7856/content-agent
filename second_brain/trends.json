@@ -1,76 +1,76 @@
 {
-  "fetched_at": "2026-09-09T18:02:58.542Z",
+  "fetched_at": "2026-09-10T06:12:44.316Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Tailwind Labs is joining Shopify",
-      "score": 579,
-      "comments": 236,
+      "title": "Shopify acquires Tailwind",
+      "score": 976,
+      "comments": 383,
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
     },
     {
       "source": "hackernews",
-      "title": "Apple Introduces AirPods 5",
-      "score": 56,
-      "comments": 51,
+      "title": "Training a 3.8B LLM to 0.384 CORE for $998 – Hugo Vergnes",
+      "score": 39,
+      "comments": 6,
+      "url": "https://hugovergnes.github.io/little-lm-3-8b/"
+    },
+    {
+      "source": "hackernews",
+      "title": "AirPods 5",
+      "score": 428,
+      "comments": 334,
       "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"
     },
     {
       "source": "hackernews",
       "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-      "score": 166,
-      "comments": 59,
+      "score": 388,
+      "comments": 132,
       "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"
     },
     {
       "source": "hackernews",
+      "title": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
+      "score": 45,
+      "comments": 28,
+      "url": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/"
+    },
+    {
+      "source": "hackernews",
       "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "score": 22,
-      "comments": 2,
+      "score": 200,
+      "comments": 78,
       "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3"
     },
     {
       "source": "hackernews",
-      "title": "Understanding the recent DDoS attack against Read the Docs",
-      "score": 51,
-      "comments": 15,
-      "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/"
-    },
-    {
-      "source": "hackernews",
       "title": "How I advertise malicious software on Google Ads",
-      "score": 272,
-      "comments": 170,
+      "score": 384,
+      "comments": 234,
       "url": "https://xlii.space/eng/malicious-software-on-google-ads/"
     },
     {
       "source": "hackernews",
-      "title": "Better AI code comment detector",
-      "score": 23,
-      "comments": 14,
-      "url": "https://entropicthoughts.com/better-ai-comment-classifier"
+      "title": "OpenAI might have stolen another major proof",
+      "score": 70,
+      "comments": 9,
+      "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996"
     },
     {
       "source": "hackernews",
-      "title": "Claude, change the \"Add to Cart\" button to blue",
-      "score": 727,
-      "comments": 302,
-      "url": "https://opusfived.dev/"
+      "title": "OpenAI have no mathematicians capable of understanding what they put out",
+      "score": 20,
+      "comments": 2,
+      "url": "https://mastodon.social/@tristanbuckmaster/117237555794407063"
     },
     {
       "source": "hackernews",
-      "title": "Muse – Meta’s personal AI agent",
-      "score": 607,
-      "comments": 663,
-      "url": "https://ai.meta.com/muse/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Give your AI agent on-screen guides that show users where to click",
-      "score": 7,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49627872"
+      "title": "Understanding the recent DDoS attack against Read the Docs",
+      "score": 180,
+      "comments": 59,
+      "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/"
     }
   ],
   "youtube": [
@@ -79,8 +79,8 @@
       "category": "Science & Tech",
       "title": "The UNTOLD Story Of The School Phone Ban...😳📱",
       "channel": "Peakzmotivation",
-      "views": 59291573,
-      "likes": 960701,
+      "views": 59737369,
+      "likes": 964649,
       "publishedAt": "2026-08-24T03:40:46Z",
       "url": "https://www.youtube.com/watch?v=2X-Lc35kpB8",
       "tags": [
@@ -94,208 +94,70 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Humanoid Robot Unboxing 🤖",
-      "channel": "İncelemedeyim",
-      "views": 11276260,
-      "likes": 135213,
-      "publishedAt": "2026-08-19T18:00:14Z",
-      "url": "https://www.youtube.com/watch?v=Cc4SLUf3Fdc",
-      "tags": [],
-      "description": "AGIBOT A3"
+      "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
+      "channel": "Apple",
+      "views": 45790080,
+      "likes": 484386,
+      "publishedAt": "2026-09-09T18:25:05Z",
+      "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
+      "tags": [
+        "Apple",
+        "Apple Event",
+        "Apple Keynote",
+        "Apple Special Event",
+        "keynote"
+      ],
+      "description": "Watch the special Apple Event to learn about iPhone Duo and iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5. \n\niPhone Duo is "
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok",
-      "channel": "AlanTech",
-      "views": 6275146,
-      "likes": 44685,
-      "publishedAt": "2026-08-31T02:49:06Z",
-      "url": "https://www.youtube.com/watch?v=YgIIqe227wU",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Morse Code WPM Slow and Fast #morsecode #hamradio",
-      "channel": "The Radio Zoomer",
-      "views": 5856645,
-      "likes": 68488,
-      "publishedAt": "2026-09-01T15:00:32Z",
-      "url": "https://www.youtube.com/watch?v=xk_l3La6zXI",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Samsung Aura ☠️ #samsung #future #fyp #viral #trollface #upcomingphones #display #shorts",
-      "channel": "Void Pixels YT",
-      "views": 3884430,
-      "likes": 32809,
-      "publishedAt": "2026-09-03T08:53:23Z",
-      "url": "https://www.youtube.com/watch?v=keFjhL8ZPMg",
-      "tags": [],
-      "description": "Samsung Aura ☠️ #samsung #future #fyp #viral #trollface #upcomingphones #display #shorts"
-    },
-    {
-      "source": "youtube",
-      "category": "People & Blogs",
-      "title": "vlog: building my dream house",
-      "channel": "Kylie Jenner",
-      "views": 3114239,
-      "likes": 0,
-      "publishedAt": "2026-09-06T16:21:33Z",
-      "url": "https://www.youtube.com/watch?v=7APWfTucDQ4",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "$45 #Sony Cinema Camera Sensor Cleaning! Too much? #raybanmeta #techtok #cameragear #fbmarketplace",
-      "channel": "Mighty Duck Media",
-      "views": 2783743,
-      "likes": 88778,
-      "publishedAt": "2026-09-03T08:01:53Z",
-      "url": "https://www.youtube.com/watch?v=XdAb4MZ7uOU",
-      "tags": [],
-      "description": "$45 for Sony Cinema Camera Sensor\nCleaning!\nWould you trust yourself $16,000\ncamera?\nCleaning tools we use → link in bio!\n#Sony #raybanmeta #techtok #"
-    },
-    {
-      "source": "youtube",
-      "category": "People & Blogs",
-      "title": "Officially kicked out of the US",
-      "channel": "Vivienne Yang",
-      "views": 2345496,
-      "likes": 97389,
-      "publishedAt": "2026-09-01T12:00:18Z",
-      "url": "https://www.youtube.com/watch?v=PBFZcN6vyIg",
-      "tags": [],
-      "description": "My F1 visa for studying acting has been rejected. \n\nWhile the rejection letter says I can re-apply, the application fee costs over 500 dollars and rej"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "How Zenith’s Space Command Remote Worked 🤔",
-      "channel": "Zack D. Films",
-      "views": 2286514,
-      "likes": 114928,
-      "publishedAt": "2026-09-08T12:30:21Z",
-      "url": "https://www.youtube.com/watch?v=Qpyd7TsH14Y",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Is speed streaming the IPhone event??",
+      "title": "Apple Watch series 12 is letting you clip what someone just said..",
       "channel": "CarterPCs",
-      "views": 1977976,
-      "likes": 150816,
-      "publishedAt": "2026-09-08T06:37:24Z",
-      "url": "https://www.youtube.com/watch?v=KtkOSqxd-Os",
+      "views": 697153,
+      "likes": 49661,
+      "publishedAt": "2026-09-09T20:09:34Z",
+      "url": "https://www.youtube.com/watch?v=OHN3SZgDeSI",
       "tags": [],
-      "description": "Is speed streaming the IPhone event??\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "They fully leaked iPhone 18 colors 😭",
-      "channel": "John Casterline",
-      "views": 1892475,
-      "likes": 102568,
-      "publishedAt": "2026-09-07T23:17:29Z",
-      "url": "https://www.youtube.com/watch?v=eOBGB4lpGpQ",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "PS5 PRO IS SOLD OUT #shorts",
-      "channel": "jacobweeby",
-      "views": 1578596,
-      "likes": 94298,
-      "publishedAt": "2026-09-07T19:58:19Z",
-      "url": "https://www.youtube.com/watch?v=4ItTTWowj2k",
-      "tags": [],
-      "description": "PS5 Pro being sold out is CRAZY 😭 \n\n#ps5 #playstation #xboxseriesx #xbox #gaming #skit #fyp #funny #shorts"
-    },
-    {
-      "source": "youtube",
-      "category": "People & Blogs",
-      "title": "Come get some outfits for us for NYFW #vlog",
-      "channel": "Kat Clark",
-      "views": 1040478,
-      "likes": 56484,
-      "publishedAt": "2026-09-05T06:53:24Z",
-      "url": "https://www.youtube.com/watch?v=owGu8WMXoLQ",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "People & Blogs",
-      "title": "Taking over my sisters apartment",
-      "channel": "emily ha",
-      "views": 501676,
-      "likes": 14524,
-      "publishedAt": "2026-09-08T00:03:41Z",
-      "url": "https://www.youtube.com/watch?v=Gurl7LAtV84",
-      "tags": [
-        "hjevelyn",
-        "Emily ha",
-        "erica ha",
-        "ha sisters",
-        "catcakes"
-      ],
-      "description": "hiiii\nCOME SEE US OCT. 2ND IN NYC!!!\nhttps://www.ticketmaster.com/ha-sisters-live-new-york-new-york-10-02-2026/event/030064FCAF36287C"
-    },
-    {
-      "source": "youtube",
-      "category": "People & Blogs",
-      "title": "happy september!!!",
-      "channel": "charli d'amelio",
-      "views": 454546,
-      "likes": 11273,
-      "publishedAt": "2026-09-05T19:32:33Z",
-      "url": "https://www.youtube.com/watch?v=r1yD9L2LS0c",
-      "tags": [
-        "Charli D'Amelio",
-        "charli d'amelio",
-        "dixie d'amelio",
-        "dixie d'amelio show",
-        "dixie"
-      ],
-      "description": "hi guys!! 🤍\nwelcome back to another vlog!! this one is kind of a little bit of everything lol. i filmed an episode of feeding starving celebrities wi"
+      "description": "Apple Watch series 12 is letting you clip what someone just said..\n\n#carterpcs #tech #gaming"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "self improvement",
-        "trend_score": 91
-      },
-      {
         "keyword": "ChatGPT",
-        "trend_score": 88
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 85
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 84
+        "trend_score": 94
       },
       {
         "keyword": "automation tools",
+        "trend_score": 86
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 85
+      },
+      {
+        "keyword": "self improvement",
         "trend_score": 83
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 82
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 79
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 71
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 50
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-09T18:02:58.542Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Tailwind Labs is joining Shopify\" — 579 pts\n• [HackerNews] \"Apple Introduces AirPods 5\" — 56 pts\n• [HackerNews] \"GPT-6 Astra, looped transformers, and hidden reasoning\" — 166 pts\n• [HackerNews] \"Qwen 3.8 follows GPT-5.5 Pro reasoning prefills\" — 22 pts\n• [HackerNews] \"Understanding the recent DDoS attack against Read the Docs\" — 51 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 59292k views\n• [YouTube Global] \"Humanoid Robot Unboxing 🤖\" by İncelemedeyim — 11276k views\n• [YouTube Global] \"MY OLDEST iPAD EXPOSED EVERYTHING… #ipad #apple #techtok\" by AlanTech — 6275k views\n• [YouTube Global] \"Morse Code WPM Slow and Fast #morsecode #hamradio\" by The Radio Zoomer — 5857k views\n• [YouTube Global] \"Samsung Aura ☠️ #samsung #future #fyp #viral #trollface #upcomingphones #display #shorts\" by Void Pixels YT — 3884k views\n• [YouTube Global] \"vlog: building my dream house\" by Kylie Jenner — 3114k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 91), ChatGPT (score: 88), AI workflow (score: 85), solopreneur (score: 84), automation tools (score: 83)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-10T06:12:44.316Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Shopify acquires Tailwind\" — 976 pts\n• [HackerNews] \"Training a 3.8B LLM to 0.384 CORE for $998 – Hugo Vergnes\" — 39 pts\n• [HackerNews] \"AirPods 5\" — 428 pts\n• [HackerNews] \"GPT-6 Astra, looped transformers, and hidden reasoning\" — 388 pts\n• [HackerNews] \"A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming\" — 45 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 59737k views\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 45790k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 697k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 94), automation tools (score: 86), AI tools (score: 85), self improvement (score: 83), AI for business (score: 82), solopreneur (score: 79), AI workflow (score: 71), productivity tools (score: 50)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

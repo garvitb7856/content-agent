@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T18:03:47.160Z",
+  "updated_at": "2026-09-10T06:14:02.576Z",
   "hooks": [
     {
       "id": "3970889328451453070",
@@ -2708,6 +2708,28 @@
       "likes": 4959,
       "comments": 66,
       "added_at": "2026-09-09T18:02:58.586Z"
+    },
+    {
+      "id": "3982566229003855836_26526554234",
+      "text": "This is WILD!",
+      "type": "story",
+      "format": "Reel",
+      "account": "@ishansharma7390",
+      "postUrl": "https://www.instagram.com/p/DdE6uJ-Pefc/",
+      "likes": 18013,
+      "comments": 191,
+      "added_at": "2026-09-10T06:12:44.359Z"
+    },
+    {
+      "id": "3982642784772404166_7695520761",
+      "text": "Apple just launched the iPhone Duo, their first foldable!",
+      "type": "story",
+      "format": "Reel",
+      "account": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/DdFMIMFobPG/",
+      "likes": 3506,
+      "comments": 25,
+      "added_at": "2026-09-10T06:12:44.359Z"
     }
   ]
 }

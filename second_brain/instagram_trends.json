@@ -1,35 +1,46 @@
 {
-  "generated_at": "2026-09-09T18:02:56.230Z",
+  "generated_at": "2026-09-10T06:12:42.484Z",
   "hotRightNow": [
+    {
+      "username": "ishansharma7390",
+      "caption": "This is WILD!",
+      "likes": 18013,
+      "comments": 191,
+      "engagement": 18204,
+      "engRate": "1.43",
+      "timestamp": "2026-09-09T18:37:46.000Z",
+      "url": "https://www.instagram.com/p/DdE6uJ-Pefc/",
+      "type": "Video"
+    },
     {
       "username": "vaibhavsisinty",
       "caption": "This is an apology to @zuck\n\nFor a second I gave up on @meta ,I was wrong.\nThey shipped open source ",
-      "likes": 4959,
-      "comments": 66,
-      "engagement": 5025,
-      "engRate": "0.23",
+      "likes": 6487,
+      "comments": 90,
+      "engagement": 6577,
+      "engRate": "0.31",
       "timestamp": "2026-09-09T10:59:09.000Z",
       "url": "https://www.instagram.com/p/DdEGBLpA9Eu/",
       "type": "Video"
     },
     {
-      "username": "ishansharma7390",
-      "caption": "EVERYONE needs to hear THIS.🔥\n\nGo out there. Out of your comfort zone. The ship is the safest at th",
-      "likes": 1606,
-      "comments": 19,
-      "engagement": 1625,
-      "engRate": "0.13",
-      "timestamp": "2026-09-09T04:30:04.000Z",
-      "url": "https://www.instagram.com/p/DdDaA6OhzP_/",
+      "username": "thevarunmayya",
+      "caption": "Apple just launched the iPhone Duo, their first foldable!",
+      "likes": 3506,
+      "comments": 25,
+      "engagement": 3531,
+      "engRate": "0.28",
+      "timestamp": "2026-09-09T21:08:49.000Z",
+      "url": "https://www.instagram.com/p/DdFMIMFobPG/",
       "type": "Video"
     },
     {
       "username": "nivedan.ai",
       "caption": "Anthropic is giving away its official Claude training program for free. 👀🤯\n\nIf you use Claude regu",
-      "likes": 239,
-      "comments": 476,
-      "engagement": 715,
-      "engRate": "0.14",
+      "likes": 430,
+      "comments": 756,
+      "engagement": 1186,
+      "engRate": "0.23",
       "timestamp": "2026-09-09T14:55:18.000Z",
       "url": "https://www.instagram.com/p/DdEhdt6CZJm/",
       "type": "Video"
@@ -37,50 +48,39 @@
     {
       "username": "nivedan.ai",
       "caption": "GPT-6 Astra vs Fable 5.1. 👀🤯\n\nThe AI race is getting seriously competitive, and the latest benchma",
-      "likes": 500,
+      "likes": 557,
       "comments": 6,
-      "engagement": 506,
-      "engRate": "0.10",
+      "engagement": 563,
+      "engRate": "0.11",
       "timestamp": "2026-09-09T07:32:43.000Z",
       "url": "https://www.instagram.com/p/DdDu58VCXI-/",
       "type": "Post"
-    },
-    {
-      "username": "arshman",
-      "caption": "Still can’t believe ChatGPT Astra built this…\n\nI gave astra 6 a few photos of my Taycan, it went and",
-      "likes": 32,
-      "comments": 2,
-      "engagement": 34,
-      "engRate": "0.01",
-      "timestamp": "2026-09-09T16:49:08.000Z",
-      "url": "https://www.instagram.com/p/DdEuWaZOhJv/",
-      "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 4315,
-      "count": 37
+      "avgEng": 4926,
+      "count": 38
     },
     {
       "format": "post",
-      "avgEng": 2551,
+      "avgEng": 2586,
       "count": 7
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "10 top posts"
-    },
-    {
-      "topic": "claude",
-      "appearsIn": "4 top posts"
+      "appearsIn": "9 top posts"
     },
     {
       "topic": "gpt",
       "appearsIn": "4 top posts"
+    },
+    {
+      "topic": "claude",
+      "appearsIn": "3 top posts"
     },
     {
       "topic": "money",
@@ -92,39 +92,39 @@
     }
   ],
   "bestPostingWindow": [
-    "20:00 IST (4 top posts)",
     "18:00 IST (3 top posts)",
-    "19:00 IST (3 top posts)"
+    "19:00 IST (3 top posts)",
+    "20:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 61087,
+      "likes": 61335,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98281,
+      "likes": 98283,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 74243,
+      "likes": 74407,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 65154,
+      "likes": 65217,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 19167,
+      "likes": 19395,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     }
   ]

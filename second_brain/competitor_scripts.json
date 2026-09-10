@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T18:02:58.585Z",
+  "updated_at": "2026-09-10T06:12:44.363Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1455,6 +1455,21 @@
       "engagement_rate": 1.02,
       "verdict": "medium",
       "scraped_at": "2026-09-09T07:46:53.726Z"
+    },
+    {
+      "id": "3982566229003855836_26526554234",
+      "account": "@ishansharma7390",
+      "url": "https://www.instagram.com/p/DdE6uJ-Pefc/",
+      "topic": "General Tech",
+      "format": "Video",
+      "hook": "This is WILD!",
+      "full_caption": "This is WILD!",
+      "script_pattern": "unknown",
+      "likes": 18013,
+      "comments": 191,
+      "engagement_rate": 1.43,
+      "verdict": "medium",
+      "scraped_at": "2026-09-10T06:12:44.362Z"
     }
   ]
 }
