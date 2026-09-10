@@ -191,7 +191,7 @@ async function callGemini(prompt, maxTokens = 8192) {
       process.stdout.write(`  Calling [${modelId}]... `);
       const model = genAI.getGenerativeModel({
         model: modelId,
-        generationConfig: { maxOutputTokens: maxTokens, temperature: 0.85, thinkingBudget: 0 }
+        generationConfig: { maxOutputTokens: maxTokens, temperature: 0.85 }
       });
       const result = await model.generateContent(prompt);
       const text = result.response.text();
