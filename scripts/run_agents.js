@@ -324,6 +324,48 @@ function buildTrendSummary(trendsData) {
   return trendsData.trends.slice(0,60).map(t=>'['+t.source+'] '+t.title+' (score:'+t.score+', comments:'+t.comments+')').join('\n');
 }
 
+function buildCompetitor7DayContext(data) {
+  const cutoff7d = Date.now() - (7 * 24 * 60 * 60 * 1000);
+  const rawComps = data.competitors || {};
+  const competitors = Array.isArray(rawComps)
+    ? rawComps
+    : Object.entries(rawComps).map(([k, v]) => ({ username: k, ...v }));
+
+  let lines = '\n--- COMPETITOR ACTIVITY: LAST 7 DAYS ---\n';
+  let totalFound = 0;
+
+  competitors.forEach(c => {
+    const handle = c.username || 'unknown';
+    const followers = c.followers || 0;
+    const posts = (c.posts || c.recent_posts || []);
+    
+    const recent = posts.filter(p => {
+      const ts = p.timestamp ? p.timestamp * 1000 : (p.taken_at ? p.taken_at * 1000 : 0);
+      return ts >= cutoff7d;
+    });
+
+    if (recent.length === 0) return;
+    totalFound += recent.length;
+
+    lines += `\n@${handle} (${followers.toLocaleString()} followers) — posted ${recent.length}x this week:\n`;
+    recent.forEach(p => {
+      const cap = (p.caption || '').slice(0, 80).replace(/\n/g, ' ');
+      const type = p.type || p.media_type || 'unknown';
+      const fmt = type.toLowerCase().includes('video') || type.toLowerCase().includes('reel') ? 'Reel' : 
+                  type.toLowerCase().includes('carousel') || type.toLowerCase().includes('sidecar') ? 'Carousel' : 'Post';
+      const url = p.url || (p.shortCode ? 'https://www.instagram.com/p/' + p.shortCode + '/' : '');
+      lines += `  - [${fmt}] ${p.likes || 0} likes | "${cap}" | ${url}\n`;
+    });
+  });
+
+  if (totalFound === 0) {
+    return '\n--- COMPETITOR ACTIVITY: LAST 7 DAYS ---\nNo new competitor posts detected in the last 7 days (data may be from earlier this week).\n';
+  }
+
+  lines += `\nTotal competitor posts this week: ${totalFound}\n`;
+  return lines;
+}
+
 function buildAgentContexts(data, agentContext, patterns, hookBank, trendsData, history) {
   const normalizeFormat = (t) => {
     if (!t) return 'Reel';
@@ -691,6 +733,7 @@ Rank competitors by engagement rate. Columns: Handle | Followers | Avg Likes | E
       d.setDate(d.getDate() + i);
       return d.toLocaleDateString('en-IN', { weekday: 'long' });
     });
+    const comp7DayContext = buildCompetitor7DayContext(data);
     plannerResult = await gemini(`
 ${agentContexts.planner}
 
@@ -701,6 +744,17 @@ Start your 7-day plan from TODAY which is ${todayFormatted}. Label DAY 1 as toda
 Create a 7-day content calendar:
 ${dayNames.map((d,i)=>'Day '+(i+1)+': '+d).join('\n')}
 ${realTranscripts}
+
+TOP 5 IDEAS FROM SCOUT:
+${JSON.stringify(top5)}
+
+${comp7DayContext}
+
+Use the competitor 7-day activity above to inform your plan:
+- If a competitor posted a Reel on a topic and it got high likes, consider a response/angle on that topic
+- Match or counter the format mix (if competitors posted 3 Carousels this week, lean toward Reels for differentiation)
+- Identify gaps — topics competitors have NOT covered this week are your blue-ocean opportunities
+- Factor in when competitors posted (avoid same-day posting on the same topic format)
 
 For EACH day write exactly:
 ## DAY [n] — [Day Name]
