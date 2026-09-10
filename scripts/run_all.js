@@ -96,12 +96,6 @@ async function runParallel(steps) {
     }
   }
 
-  if (freshFetch) {
-    run('1.5 Transcribe Videos', 'node scripts/transcribe.js');
-  } else {
-    status.steps['transcribe'] = { status: 'skipped', reason: 'no fresh fetch' };
-    saveStatus();
-  }
 
   await runParallel([
     ['2. Fetch Internet Trends',  'node scripts/fetch_trends.js'],

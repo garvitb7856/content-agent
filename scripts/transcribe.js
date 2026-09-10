@@ -171,7 +171,9 @@ async function run() {
   }
 
   const newlyTranscribed = [];
-  const TEST_LIMIT = 10;
+  const TEST_LIMIT = 8;
+  const RUN_START = Date.now();
+  const MAX_RUNTIME_MS = 25 * 60 * 1000; // 25 minutes hard limit
   let transcribedCount = 0;
   let failedCount = 0;
   let skippedCount = 0;
@@ -180,7 +182,12 @@ async function run() {
   const pendingVideos = handlePosts.flatMap(h => h.posts || []);
 
   for (const { handle, posts } of handlePosts) {
+    if (Date.now() - RUN_START > MAX_RUNTIME_MS) break;
     for (const post of posts) {
+      if (Date.now() - RUN_START > MAX_RUNTIME_MS) {
+        console.log(`⏱️ 25-minute time limit reached — stopping transcription. Will continue next run.`);
+        break;
+      }
       const postId = String(post.id || post.shortCode || '');
       if (!postId) continue;
       if (transcribedSet.has(postId)) { skipped++; skippedCount++; continue; }
