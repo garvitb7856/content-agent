@@ -240,15 +240,22 @@ function parseJSONArray(raw, label) {
     let cleaned = raw.replace(/```json/gi, '').replace(/```/g, '').trim();
     const m = cleaned.match(/\[[\s\S]*\]/);
     if (m) {
-      let jsonStr = m[0]
-        .replace(/,\s*([\]\}])/g, '$1');
+      let jsonStr = m[0].replace(/[\u0000-\u001F\u007F-\u009F]/g, ' ').replace(/,\s*([\]\}])/g, '$1');
       return JSON.parse(jsonStr);
     }
   } catch(e) {
     try {
       const m = raw.match(/\[[\s\S]*\]/);
-      if (m) return eval('(' + m[0] + ')');
-    } catch(err) {}
+      if (m) {
+        const fixed = m[0].replace(/[\u0000-\u001F\u007F-\u009F]/g, ' ').replace(/,\s*([\]\}])/g, '$1');
+        return JSON.parse(fixed);
+      }
+    } catch(err) {
+      try {
+        const m = raw.match(/\[[\s\S]*\]/);
+        if (m) return eval('(' + m[0] + ')');
+      } catch(err2) {}
+    }
   }
   console.log('⚠️ ' + label + ': JSON parse failed');
   return [];
