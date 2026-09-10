@@ -56,14 +56,20 @@ async function main() {
 
     const likes48 = fresh.likesCount || fresh.likes_count || fresh.likes || 0;
     const comments48 = fresh.commentsCount || fresh.comments_count || fresh.comments || 0;
-    const engagement48 = logPost.followers_at_post > 0
-      ? Math.round(((likes48 + comments48) / logPost.followers_at_post) * 10000) / 100
+    
+    const garvitProfile = Array.isArray(data)
+      ? data.find(acc => acc.username === (process.env.MY_INSTAGRAM_HANDLE || 'garvit.irl'))
+      : (data.your_account || (data.find ? data.find(acc => acc.username === (process.env.MY_INSTAGRAM_HANDLE || 'garvit.irl')) : null));
+    const followers = garvitProfile ? (garvitProfile.followersCount || garvitProfile.followers || 0) : (logPost.followers_at_post || 0);
+    const engagementAt48h = followers > 0
+      ? parseFloat(((likes48 + comments48) / followers * 100).toFixed(2))
       : 0;
 
     // Update content_log
     logPost.likes_at_48h = likes48;
     logPost.comments_at_48h = comments48;
-    logPost.engagement_at_48h = engagement48;
+    logPost.engagement_at_48h = engagementAt48h;
+    logPost.followers_at_post = followers;
     logPost.performance_complete = true;
     newUpdates++;
 
@@ -80,8 +86,8 @@ async function main() {
       postedAt: logPost.timestamp || logPost.detected_at,
       likes_at_48h: likes48,
       comments_at_48h: comments48,
-      engagement_at_48h: engagement48,
-      followers_at_post: logPost.followers_at_post || 0,
+      engagement_at_48h: engagementAt48h,
+      followers_at_post: followers,
       scriptSimilarity: logPost.scriptSimilarity || 0,
       diffAnalysis: logPost.diffAnalysis || null,
       updatedAt: new Date().toISOString()

@@ -305,7 +305,7 @@ function buildSummaries(data) {
     let postsText='';
     top3.forEach(p => {
       const cap=(p.caption||'').slice(0,100).replace(/\n/g,' ');
-      const url=p.url||(p.shortCode?'https://www.instagram.com/p/'+p.shortCode+'/':'');
+      const url = p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : (p.url && !p.url.match(/\/p\/\d{10,}\//) ? p.url : '');
       if(cap) postsText+='    - '+url+' | '+(p.likes||0)+' likes | '+cap+'\n';
     });
     compSummary+='\n@'+handle+': '+followers+' followers | avg '+avgLikes+' likes\n'+postsText;
@@ -313,7 +313,7 @@ function buildSummaries(data) {
   let myPostsText='';
   myPosts.slice(0,5).forEach(p => {
     const cap=(p.caption||'').slice(0,100).replace(/\n/g,' ');
-    const url=p.url||(p.shortCode?'https://www.instagram.com/p/'+p.shortCode+'/':'');
+    const url = p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : (p.url && !p.url.match(/\/p\/\d{10,}\//) ? p.url : '');
     if(cap) myPostsText+='  - '+url+' | '+(p.likes||0)+' likes | '+cap+'\n';
   });
   return {myHandle,myFollowers,myAvgLikes,myAvgComments,myPostsText,compSummary};
@@ -353,7 +353,7 @@ function buildCompetitor7DayContext(data) {
       const type = p.type || p.media_type || 'unknown';
       const fmt = type.toLowerCase().includes('video') || type.toLowerCase().includes('reel') ? 'Reel' : 
                   type.toLowerCase().includes('carousel') || type.toLowerCase().includes('sidecar') ? 'Carousel' : 'Post';
-      const url = p.url || (p.shortCode ? 'https://www.instagram.com/p/' + p.shortCode + '/' : '');
+      const url = p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : (p.url && !p.url.match(/\/p\/\d{10,}\//) ? p.url : '');
       lines += `  - [${fmt}] ${p.likes || 0} likes | "${cap}" | ${url}\n`;
     });
   });
