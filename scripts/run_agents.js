@@ -294,9 +294,16 @@ function buildSummaries(data) {
   let compSummary='';
   competitors.forEach(c => {
     const handle=c.username||'unknown', followers=c.followers||0, avgLikes=c.stats?.avg_likes||c.avg_likes||0;
-    const posts=(c.posts||c.recent_posts||[]).slice(0,3);
+    const posts = (c.posts || c.recent_posts || []);
+    // Filter to last 60 days only
+    const cutoff60 = Date.now() - (60 * 24 * 60 * 60 * 1000);
+    const recentPosts = posts.filter(p => {
+      const ts = p.timestamp ? p.timestamp * 1000 : (p.taken_at ? p.taken_at * 1000 : 0);
+      return ts === 0 || ts >= cutoff60; // include if no date (fallback)
+    });
+    const top3 = recentPosts.slice(0, 3);
     let postsText='';
-    posts.forEach(p => {
+    top3.forEach(p => {
       const cap=(p.caption||'').slice(0,100).replace(/\n/g,' ');
       const url=p.url||(p.shortCode?'https://www.instagram.com/p/'+p.shortCode+'/':'');
       if(cap) postsText+='    - '+url+' | '+(p.likes||0)+' likes | '+cap+'\n';
@@ -351,7 +358,13 @@ function buildAgentContexts(data, agentContext, patterns, hookBank, trendsData, 
     const avgLikes = c.stats?.avg_likes || c.avg_likes || 0;
     const engR = followers ? ((avgLikes / followers) * 100).toFixed(2) : '0.00';
     const posts = (c.posts || c.recent_posts || []);
-    const topPost = posts.sort((a, b) => (b.likes || 0) - (a.likes || 0))[0];
+    // Filter to last 60 days only
+    const cutoff60 = Date.now() - (60 * 24 * 60 * 60 * 1000);
+    const recentPosts = posts.filter(p => {
+      const ts = p.timestamp ? p.timestamp * 1000 : (p.taken_at ? p.taken_at * 1000 : 0);
+      return ts === 0 || ts >= cutoff60; // include if no date (fallback)
+    });
+    const topPost = recentPosts.sort((a, b) => (b.likes || 0) - (a.likes || 0))[0];
     const topCap = topPost ? (topPost.caption || '').slice(0, 60).replace(/\n/g, ' ') : '';
     const fmt = normalizeFormat(topPost?.type || topPost?.media_type);
     return `@${handle}: ${(followers/1000).toFixed(0)}k followers | avg ${avgLikes} likes | eng ${engR}% | top content: "${topCap}" [${fmt}]`;
@@ -645,6 +658,7 @@ IMPORTANT: Use these EXACT pre-computed stats for @${myHandle}:
 You are a data analyst for Instagram creator @${myHandle}.
 
 COMPETITOR DATA:
+NOTE: All competitor posts shown are from the last 60 days only. Base your analysis on recent performance trends, not historical data.
 ${compSummary}
 ${realTranscripts}
 
