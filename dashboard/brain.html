@@ -271,10 +271,16 @@ function unwrapArray(d,key){
 
 function fetchJSON(file){
   if(CACHE[file])return Promise.resolve(CACHE[file]);
-  return fetch(BASE+file+'?_='+Date.now())
-    .then(function(r){return r.ok?r.json():null;})
+  var localPath = '../second_brain/' + file.replace(/^second_brain\//, '');
+  return fetch(localPath + '?_=' + Date.now())
+    .then(function(r){if(!r.ok) throw new Error(); return r.json();})
     .then(function(d){CACHE[file]=d;return d;})
-    .catch(function(){return null;});
+    .catch(function(){
+      return fetch(BASE + file.replace(/^second_brain\//, '') + '?_=' + Date.now())
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(d){CACHE[file]=d;return d;})
+        .catch(function(){return null;});
+    });
 }
 
 // ── Mobile nav ───────────────────────────────────────────────

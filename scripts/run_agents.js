@@ -441,6 +441,8 @@ Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). 
   // ── AGENT 2: SCOUT — filter to top 5 ─────────────────────────────────────
   console.log('\nAgent 2: Scout (scoring 50 → top 5)...');
   const scoutResult = await gemini(`
+IMPORTANT: Score each idea on a HIGH/MEDIUM/LOW scale based on topic trend strength and content format potential — NOT just competitor post likes (which may be 0 for new posts). A trending topic with strong hook potential should be rated HIGH even if the reference post is new.
+
 You are the Scout Agent. Score these content ideas ruthlessly and objectively. Your job is to protect the creator from wasting time on weak content.
 
 SCORING RULES — be strict:

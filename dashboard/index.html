@@ -431,13 +431,20 @@ function renderJSONIdeas(raw, label){
 }
 
 function renderIdeas(ideas){
+  let ideatorData = (AI && AI.ideator) ? AI.ideator : ideas;
+  if (typeof ideatorData === 'string') {
+    try { ideatorData = JSON.parse(ideatorData); } catch(e) {}
+  }
+  if (!Array.isArray(ideatorData)) ideatorData = [];
+  if (ideatorData.length === 0 && Array.isArray(ideas)) ideatorData = ideas;
+
   var el=document.getElementById('ideas5');
   if(!el)return;
-  if(!ideas||!ideas.length){el.innerHTML='<p style="color:#475569;font-size:.8rem;padding:.5rem;">No ideas yet — run the daily agents to generate your top 5.</p>';return;}
+  if(!ideatorData||!ideatorData.length){el.innerHTML='<p style="color:#475569;font-size:.8rem;padding:.5rem;">No ideas yet — run the daily agents to generate your top 5.</p>';return;}
   var sc={'HIGH':'#10b981','MEDIUM':'#f59e0b','LOW':'#ef4444'};
   var sb={'HIGH':'rgba(16,185,129,.12)','MEDIUM':'rgba(245,158,11,.12)','LOW':'rgba(239,68,68,.12)'};
   var em=['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣'];
-  el.innerHTML=ideas.map(function(idea,i){
+  el.innerHTML=ideatorData.map(function(idea,i){
     var r = idea.rating || idea.score;
     const ratingColor = r === 'HIGH' ? '#22c55e' : r === 'MEDIUM' ? '#f97316' : '#6b7280';
     const ratingBadge = r ? `<span style="font-size:10px;font-weight:700;padding:2px 7px;border-radius:999px;background:${ratingColor}22;color:${ratingColor};border:1px solid ${ratingColor}44;margin-bottom:6px;display:inline-block;">${r}</span>` : '';
