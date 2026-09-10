@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Prompt-Driven Web Scraping with ScrapeGraphAI",
-    "hook": "Stop paying for web scrapers—this open-source AI extracts structured data in 60 seconds with a simple prompt.",
+    "title": "Shopify Acquires Tailwind: What Developers Must Know",
+    "hook": "Shopify just bought Tailwind. Here is what changes.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "There is no current trend data available to back this topic, and competitor performance shows 0 likes. It is ranked first among weak options as open-source scraping tools have high practical utility despite overlapping with covered AI tool themes.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/3975938982864010077_72269881052/"
+    "score": "HIGH",
+    "reasoning": "Rides a massive global tech acquisition trending at #1 on HackerNews. Completely bypasses the saturated AI, productivity, and Indian tech blocklists to deliver highly relevant web development news.",
+    "niche": "Web Development",
+    "sourceUrl": ""
   },
   {
     "rank": 2,
-    "title": "CLI-Anything: Connect Any Desktop App to AI Interfaces",
-    "hook": "How to connect your local desktop software directly to AI tools without waiting for official plugins.",
-    "format": "Carousel",
-    "score": "LOW",
-    "reasoning": "No trend data context backs this tool and competitor proof yields 0 likes. It lands in rank 2 due to developer utility, though terminal developer tools are already covered.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/3970889328451453070_72269881052/"
+    "title": "The UNTOLD Story of the School Phone Ban",
+    "hook": "Why schools worldwide are banning smartphones right now.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Taps into a viral global trend with over 59M views on YouTube regarding mobile device regulations. Avoids all blocked AI, productivity, and personal growth clusters while retaining high curiosity and broad appeal.",
+    "niche": "Tech Culture",
+    "sourceUrl": ""
   },
   {
     "rank": 3,
-    "title": "Automated Funnel Building with Emergent AI",
-    "hook": "I built a complete Instagram sales funnel using a free AI prompt in under 10 minutes.",
+    "title": "Smart Home Privacy & Exposed Cameras Alert",
+    "hook": "Your smart home camera might be streaming live.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "Trend data provides zero signals for this topic and the competitor post achieved 0 likes. It ranks third because AI business funnels overlap significantly with the 40x covered solopreneur topic cluster.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/3964987942178995784_65880404765/"
+    "score": "HIGH",
+    "reasoning": "Leverages competitor @arshman's high-engagement privacy leak breakdown. Targets a critical cybersecurity angle rather than standard AI or hardware review categories, keeping it fresh and safe from blocklists.",
+    "niche": "Cybersecurity",
+    "sourceUrl": "https://www.instagram.com/p/3961865123365621346_24040950/"
   },
   {
     "rank": 4,
-    "title": "Instant Product Video Ads using Higgsfield AI",
-    "hook": "Turn static product photos into video ads automatically using ChatGPT and Higgsfield.",
-    "format": "Reel",
-    "score": "LOW",
-    "reasoning": "No real-time trend signals support this concept and competitor proof registers at 0 likes. It is ranked lower due to heavy saturation in ChatGPT and AI tool roundups.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/3978527522457650939_24040950/"
+    "title": "Why Shopify Bought Tailwind CSS",
+    "hook": "Shopify just killed custom CSS frameworks.",
+    "format": "Carousel",
+    "score": "MEDIUM",
+    "reasoning": "Excellent educational follow-up to the Shopify-Tailwind news acquisition. Offers high-value structural breakdown for developer-entrepreneurs without touching any blocked AI or productivity topics.",
+    "niche": "Web Development",
+    "sourceUrl": ""
   },
   {
     "rank": 5,
-    "title": "The Winner Mindset: Ronaldo, Kohli & SRK's Core Belief Rule",
-    "hook": "Why Cristiano Ronaldo, Virat Kohli, and Shah Rukh Khan all use this exact mindset rule before every victory.",
+    "title": "Why School Phone Bans Are Boosts for Young Creators",
+    "hook": "The phone ban will produce better entrepreneurs.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "This idea lacks any trend data backing and competitor benchmark shows 0 likes. It ranks last due to extreme repetition in personal growth (20x) and Indian content (24x) covered clusters.",
-    "niche": "Self-growth",
-    "sourceUrl": "https://www.instagram.com/p/3946143846389680373_65880404765/"
+    "score": "MEDIUM",
+    "reasoning": "Provides a strong contrarian angle on the school phone ban trend. Engages ambitious younger followers on tech-addiction topics without triggering the saturated personal growth or productivity filters.",
+    "niche": "Tech Culture",
+    "sourceUrl": ""
   }
 ]
