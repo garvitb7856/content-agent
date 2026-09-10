@@ -1,7 +1,9 @@
 const https = require('https');
 
 module.exports = async (req, res) => {
-  if (req.headers['x-cron-secret'] !== process.env.CRON_SECRET) {
+  const isVercelCron = req.headers['x-vercel-cron'] === '1';
+  const hasValidSecret = req.headers['x-cron-secret'] === process.env.CRON_SECRET;
+  if (!isVercelCron && !hasValidSecret) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
