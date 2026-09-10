@@ -99,18 +99,19 @@ function getPipelineHealth() {
   }
 }
 
-function sendSingleMessage(text) {
+function sendSingleMessage(text, parseMode = 'HTML') {
   return new Promise((resolve, reject) => {
     if (!BOT_TOKEN || !CHAT_ID) {
       console.error('❌ Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID in .env');
       return reject(new Error('Missing Telegram credentials'));
     }
-    const body = JSON.stringify({
+    const bodyObj = {
       chat_id: CHAT_ID,
       text: text,
-      parse_mode: 'HTML',
       disable_web_page_preview: true
-    });
+    };
+    if (parseMode) bodyObj.parse_mode = parseMode;
+    const body = JSON.stringify(bodyObj);
     const options = {
       hostname: 'api.telegram.org',
       path:     `/bot${BOT_TOKEN}/sendMessage`,
@@ -141,16 +142,16 @@ function sendSingleMessage(text) {
   });
 }
 
-async function sendMessage(text) {
+async function sendMessage(text, parseMode = 'HTML') {
   if (text.length <= 4000) {
-    return sendSingleMessage(text);
+    return sendSingleMessage(text, parseMode);
   }
   const lines = text.split('\n');
   let currentChunk = '';
   for (const line of lines) {
     if ((currentChunk + '\n' + line).length > 3900) {
       if (currentChunk.trim()) {
-        await sendSingleMessage(currentChunk.trim());
+        await sendSingleMessage(currentChunk.trim(), parseMode);
       }
       currentChunk = line;
     } else {
@@ -158,7 +159,7 @@ async function sendMessage(text) {
     }
   }
   if (currentChunk.trim()) {
-    await sendSingleMessage(currentChunk.trim());
+    await sendSingleMessage(currentChunk.trim(), parseMode);
   }
 }
 
@@ -322,7 +323,27 @@ async function run(transcribeResult = {}) {
 
   let msg = parts.filter(l => l !== null && l !== undefined).join('\n').trim();
   msg += '\n' + getPipelineHealth();
-  await sendMessage(msg);
+  try {
+    await sendMessage(msg);
+  } catch (err) {
+    console.error('⚠️ Telegram HTML send failed:', err.message, '— retrying as plain text');
+    const plain = msg
+      .replace(/<b>(.*?)<\/b>/g, '$1')
+      .replace(/<i>(.*?)<\/i>/g, '$1')
+      .replace(/<a href="[^"]*">([^<]*)<\/a>/g, '$1')
+      .replace(/<[^>]+>/g, '')
+      .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+    // send as plain text (no parse_mode)
+    await new Promise((resolve, reject) => {
+      const body = JSON.stringify({ chat_id: CHAT_ID, text: plain.substring(0, 4000), disable_web_page_preview: true });
+      const opts = { hostname: 'api.telegram.org', path: `/bot${BOT_TOKEN}/sendMessage`, method: 'POST', headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) } };
+      const req = require('https').request(opts, res => { let d=''; res.on('data', c => d+=c); res.on('end', () => { try { const p=JSON.parse(d); p.ok ? resolve(p) : reject(new Error(p.description)); } catch(e) { reject(e); } }); });
+      req.on('error', reject);
+      req.write(body);
+      req.end();
+    });
+    console.log('✅ Plain text fallback sent.');
+  }
 }
 
 module.exports = { run };
