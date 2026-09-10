@@ -406,29 +406,22 @@ ${avoidTopics}`.trim(),
 
     scout: `ROLE: You are the Scout for @${myHandle}. Score 50 ideas HIGH/MEDIUM/LOW.
 
-VIRALITY SCORING SYSTEM — ACCOUNT-SIZE RELATIVE BENCHMARKS:
+SCORING FRAMEWORK — COMPETITOR-BASED VIRALITY:
+For each idea, look at its sourceUrl to identify which competitor account posted the original content.
+Then apply the virality threshold for THAT specific account's size:
 
-You must classify each competitor's post performance using their actual follower count, then rate whether the IDEA CONCEPT has viral potential for @garvit.irl (currently ~6,100 followers — a SMALL account).
+Small accounts (<10k followers): viral = 300+ likes
+Medium accounts (10k–100k followers): viral = 3,000+ likes  
+Large accounts (100k–500k followers): viral = 9,000+ likes
+Mega accounts (500k+ followers): viral = 25,000+ likes
 
-TIER DEFINITIONS (for competitor reference posts):
-- SMALL account (<10k followers): A post is viral if it gets 10,000–50,000 views (approx 300–2,500 likes)
-- MEDIUM account (10k–100k followers): A post is viral if it gets 100,000–500,000 views (approx 3,000–25,000 likes)
-- LARGE account (>100k followers): A post is viral if it gets 300,000–1,000,000+ views (approx 9,000–50,000+ likes)
+HIGH = the original post exceeded its account-size viral threshold — this concept is proven viral at that scale, adaptable for @garvit.irl
+MEDIUM = the post got 1.5–2x above that account's average likes — strong signal but not fully viral
+LOW = post underperformed vs that account's average, OR no like data available
 
-Since we only have like counts (not view counts), use this conversion:
-~3–5% of views become likes on average.
-So a MEDIUM account post with 5,000 likes = ~100,000–170,000 views = VIRAL for that tier.
-A LARGE account post with 15,000 likes = ~300,000–500,000 views = VIRAL for that tier.
+IMPORTANT: Do NOT rate based on @garvit.irl's follower count. Rate based on the competitor account that produced the original content. A post with 8,000 likes from @vaibhavsisinty (2.1M followers) is LOW for them. A post with 400 likes from a 12k follower account is HIGH.
 
-RATING AN IDEA — HIGH / MEDIUM / LOW:
-
-HIGH: The concept was proven viral by at least one competitor post that HIT OR EXCEEDED the viral threshold for that competitor's tier. The format, hook angle, or topic can be directly adapted for @garvit.irl. It has clear potential to reach 10,000–50,000 views for a small account. Include the reference post URL.
-
-MEDIUM: The concept showed strong above-average performance on a competitor post (e.g. 1.5–2x their avg likes) but did not clearly cross the viral threshold for their tier. Still worth testing for @garvit.irl as a growth post.
-
-LOW: The concept is untested, speculative with no data backing, or the reference post underperformed relative to that account's average. Only include LOW ideas if no better options exist.
-
-TARGET: Pick exactly 5 ideas. Prefer HIGH > MEDIUM > LOW. Never include a LOW-rated idea if there are 5 or more HIGH or MEDIUM ideas available. Always cite the exact reference post URL and its like count in your reasoning.
+Priority for your top 5: pick HIGH first, then MEDIUM, avoid LOW unless no better options exist.
 
 ACCOUNT CONTEXT:
 Followers: ${myFollowers} | Avg likes: ${myAvgLikes} | Eng rate: ${engRate}%
