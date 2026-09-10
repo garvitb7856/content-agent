@@ -246,6 +246,34 @@ function main() {
     saveJson(HOOK_BANK_PATH, rawHookBank);
   }
 
+  // Save competitor captions to second brain
+  const compCaptions = [];
+  const SECOND_BRAIN = path.join(ROOT, 'second_brain');
+  const rawCompsList = Array.isArray(data.competitors)
+    ? data.competitors
+    : Object.entries(data.competitors || {}).map(([k, v]) => ({ username: k, ...v }));
+  rawCompsList.forEach(comp => {
+    (comp.posts || []).forEach(p => {
+      if (!p.caption) return;
+      compCaptions.push({
+        username: comp.username || p.username,
+        caption: p.caption,
+        likes: p.likes || 0,
+        comments: p.comments || 0,
+        type: p.type || '',
+        shortCode: p.shortCode || '',
+        url: p.url || '',
+        timestamp: p.timestamp || null
+      });
+    });
+  });
+  compCaptions.sort((a,b) => (b.likes||0) - (a.likes||0));
+  const compCaptionsPath = path.join(SECOND_BRAIN, 'competitor_captions.json');
+  const tmpCompCap = compCaptionsPath + '.tmp';
+  fs.writeFileSync(tmpCompCap, JSON.stringify({ updated_at: new Date().toISOString(), total: compCaptions.length, captions: compCaptions }, null, 2));
+  fs.renameSync(tmpCompCap, compCaptionsPath);
+  console.log(`✅ Saved ${compCaptions.length} competitor captions to second_brain`);
+
   console.log(`Second Brain updated: ${newPostsLogged} new posts logged, ${newlyArchived} archived, ${newHooksAdded} hooks added`);
 }
 

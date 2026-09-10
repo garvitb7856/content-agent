@@ -91,12 +91,26 @@ function loadIntelligence() {
       .map(p => ({ ...p, handle: c.username }))
   ).sort((a, b) => (b.likes || 0) - (a.likes || 0)).slice(0, 10);
 
-  return { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts };
+  let competitorCaptions = [];
+  try {
+    const ccPath = path.join(ROOT, 'second_brain/competitor_captions.json');
+    if (fs.existsSync(ccPath)) {
+      const cc = JSON.parse(fs.readFileSync(ccPath, 'utf8'));
+      competitorCaptions = (cc.captions || []).slice(0, 10);
+    }
+  } catch(e) {}
+
+  return { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts, competitorCaptions };
 }
 
 // ── BUILD SCRIPT PROMPT ───────────────────────────────────────
 function buildScriptPrompt(idea, intel) {
-  const { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts } = intel;
+  const { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts, competitorCaptions = [] } = intel;
+
+  const capContext = competitorCaptions.length
+    ? `\nTOP COMPETITOR CAPTIONS (study their caption structure, hooks, CTAs, emojis):\n` +
+      competitorCaptions.map(p=>`@${p.username} (${p.likes} likes):\n${p.caption.slice(0,350)}`).join('\n---\n')
+    : '';
 
   // Top hooks sorted by likes (last 60 days)
   const cutoff60 = Date.now() - (60 * 24 * 60 * 60 * 1000);
@@ -163,6 +177,7 @@ ${myCtaPatterns}
 
 CTA PATTERNS — FROM COMPETITOR VIRAL POSTS (what endings work in this niche):
 ${compCtaPatterns}
+${capContext}
 
 CURRENT TRENDS (use for relevance):
 ${trendLines}

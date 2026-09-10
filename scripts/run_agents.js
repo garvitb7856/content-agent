@@ -22,6 +22,16 @@ try {
   agentContext = JSON.parse(fs.readFileSync(path.join(ROOT, 'second_brain/agent_context.json'), 'utf8'));
 } catch(e) {}
 
+// Load competitor captions for agent context
+let competitorCaptions = [];
+try {
+  const ccPath = path.join(ROOT, 'second_brain/competitor_captions.json');
+  if (fs.existsSync(ccPath)) {
+    const cc = JSON.parse(fs.readFileSync(ccPath, 'utf8'));
+    competitorCaptions = (cc.captions || []).slice(0, 80); // top 80 by likes
+  }
+} catch(e) { console.warn('competitor_captions.json not found, skipping'); }
+
 const PERFORMANCE_BLOCK = agentContext.instruction_for_agents
   ? `\n\n═══════════════════════════════\nINTELLIGENCE BRIEFING — READ BEFORE WRITING:\n${agentContext.instruction_for_agents}\n═══════════════════════════════\n`
   : '';
@@ -443,6 +453,10 @@ function buildAgentContexts(data, agentContext, patterns, hookBank, trendsData, 
   const bestTime = patterns.bestPostTimes?.[0] || '6:00 PM - 9:00 PM IST';
   const bestFormats = (patterns.bestFormats || ['Reel']).join(', ');
 
+  const topCompCaptions = competitorCaptions.slice(0, 30).map(p =>
+    `@${p.username} (${p.likes} likes) [${p.type}]: ${p.caption.slice(0,300)}${p.caption.length>300?'...':''}`
+  ).join('\n\n');
+
   return {
     ideator: `ROLE: You are the Ideator for @${myHandle} (${myFollowers} followers, ${engRate}% eng rate).
 NICHE: AI + Automation + Tech + Entrepreneurship for Indian audience. Global trends, Indian context.
@@ -452,6 +466,9 @@ ${trendLines}
 
 TOP PERFORMING HOOKS FROM COMPETITORS (study the pattern, not the content):
 ${topHookLines}
+
+TOP COMPETITOR CAPTIONS (study structure, CTAs, hooks, emoji usage, tone):
+${topCompCaptions}
 
 YOUR BEST PERFORMING CONTENT:
 ${topPosts}

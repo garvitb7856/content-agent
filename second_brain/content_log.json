@@ -628,7 +628,7 @@
     "url": "https://www.instagram.com/p/DdB-So2SsTg/",
     "type": "Video",
     "loggedAt": "2026-09-09T07:46:50.985Z",
-    "archived": false,
+    "archived": true,
     "diffAnalysis": {
       "type": "original_content",
       "method": "embedding",

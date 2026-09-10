@@ -158,13 +158,12 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
 
     <div id="sec-captions" class="sec-block">
       <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
-      <div class="sec-title">✍️ Captions — <span>Your Full Post Captions</span></div>
-      <div style="margin-bottom:.75rem">
-        <button class="tab-btn tab-active" id="cap-tab-all" onclick="setCapTab('all')">All Posts</button>
-        <button class="tab-btn tab-inactive" id="cap-tab-viral" onclick="setCapTab('viral')">🔥 Viral (500+ likes)</button>
-        <button class="tab-btn tab-inactive" id="cap-tab-reel" onclick="setCapTab('reel')">🎬 Reels</button>
-        <button class="tab-btn tab-inactive" id="cap-tab-carousel" onclick="setCapTab('carousel')">📸 Carousels</button>
+      <div class="sec-title">✍️ Captions — <span>Full Post Captions</span></div>
+      <div style="margin-bottom:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
+        <button class="tab-btn tab-active" id="cap-tab-mine" onclick="setCapTab('mine')">👤 My Posts</button>
+        <button class="tab-btn tab-inactive" id="cap-tab-competitors" onclick="setCapTab('competitors')">🏆 Competitors</button>
       </div>
+      <div id="cap-acct-filter" style="display:none;gap:.4rem;flex-wrap:wrap;margin-bottom:.75rem"></div>
       <div id="captions-content"><div class="loading">Loading...</div></div>
     </div>
 
@@ -580,13 +579,25 @@ function renderLog(d,tab){
 }
 
 let captionsData = [];
-let capCurrentTab = 'all';
+let capCurrentTab = 'mine';
+let capSelectedAccount = 'all';
 
 function setCapTab(tab) {
   capCurrentTab = tab;
-  ['all','viral','reel','carousel'].forEach(t => {
+  capSelectedAccount = 'all';
+  ['mine','competitors'].forEach(t => {
     const btn = document.getElementById('cap-tab-'+t);
-    if(btn) btn.className = 'tab-btn ' + (t===tab?'tab-active':'tab-inactive');
+    if(btn) btn.className = 'tab-btn '+(t===tab?'tab-active':'tab-inactive');
+  });
+  const acctRow = document.getElementById('cap-acct-filter');
+  if(acctRow) acctRow.style.display = tab==='competitors' ? 'flex' : 'none';
+  renderCaptionsView();
+}
+
+function setCapAccount(acct) {
+  capSelectedAccount = acct;
+  document.querySelectorAll('.cap-acct-btn').forEach(b => {
+    b.className = 'tab-btn '+(b.dataset.acct===acct?'tab-active':'tab-inactive')+' cap-acct-btn';
   });
   renderCaptionsView();
 }
@@ -594,36 +605,54 @@ function setCapTab(tab) {
 function renderCaptionsView() {
   const el = document.getElementById('captions-content');
   if(!el) return;
-  let posts = captionsData;
-  if(capCurrentTab === 'viral') posts = posts.filter(p => (p.likes||0) >= 500);
-  if(capCurrentTab === 'reel') posts = posts.filter(p => (p.type||'').toLowerCase().includes('video') || (p.type||'').toLowerCase() === 'reel');
-  if(capCurrentTab === 'carousel') posts = posts.filter(p => (p.type||'').toLowerCase().includes('carousel') || (p.type||'').toLowerCase() === 'album');
+  let posts = captionsData.filter(p => capCurrentTab==='mine' ? p._isMe : !p._isMe);
+  if(capCurrentTab==='competitors' && capSelectedAccount!=='all') posts = posts.filter(p=>p.username===capSelectedAccount);
+  posts = posts.sort((a,b)=>(b.likes||0)-(a.likes||0));
   if(!posts.length){ el.innerHTML='<div class="empty">No posts match this filter.</div>'; return; }
   el.innerHTML = posts.map(p => {
     const cap = (p.caption||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
     const url = p.shortCode ? 'https://www.instagram.com/p/'+p.shortCode+'/' : (p.url||'#');
-    const fmt = (p.type||'').toLowerCase().includes('video')||p.type==='reel' ? '🎬 Reel' : (p.type||'').toLowerCase().includes('carousel')||p.type==='album' ? '📸 Carousel' : '🖼 Post';
-    const likes = p.likes||0;
-    const comments = p.comments||0;
-    const date = p.timestamp ? new Date(p.timestamp*1000).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'}) : '';
+    const fmt = (p.type||'').toLowerCase().includes('video')||p.type==='reel'?'🎬 Reel':(p.type||'').toLowerCase().includes('carousel')||p.type==='album'?'📸 Carousel':'🖼 Post';
+    const likes=p.likes||0, comments=p.comments||0;
+    const date=p.timestamp?new Date(p.timestamp*1000).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'}):'';
+    const borderColor=likes>=500?'#f59e0b':likes>=100?'#10b981':'#475569';
     return `<div class="card" style="margin-bottom:.85rem">
       <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem;flex-wrap:wrap">
-        <span class="tag tag-purple">${fmt}</span>
+        ${!p._isMe?`<span class="tag tag-purple">@${p.username}</span>`:''}
+        <span class="tag" style="background:#1e293b;color:#94a3b8">${fmt}</span>
         <span style="font-size:.72rem;color:#10b981;font-weight:700">❤️ ${likes.toLocaleString()}</span>
         <span style="font-size:.72rem;color:#64748b">💬 ${comments.toLocaleString()}</span>
-        ${date ? '<span style="font-size:.68rem;color:#475569">📅 '+date+'</span>' : ''}
-        <a href="${url}" target="_blank" style="margin-left:auto;font-size:.68rem;color:#a78bfa;text-decoration:none">View on Instagram ↗</a>
+        ${date?'<span style="font-size:.68rem;color:#475569">📅 '+date+'</span>':''}
+        <a href="${url}" target="_blank" style="margin-left:auto;font-size:.68rem;color:#a78bfa;text-decoration:none">View ↗</a>
       </div>
-      <div style="font-size:.78rem;color:#cbd5e1;white-space:pre-wrap;line-height:1.7;background:rgba(0,0,0,.3);padding:.75rem;border-radius:8px;border-left:3px solid ${likes>=500?'#f59e0b':likes>=100?'#10b981':'#475569'}">${cap||'<em style="color:#475569">No caption</em>'}</div>
+      <div style="font-size:.78rem;color:#cbd5e1;white-space:pre-wrap;line-height:1.7;background:rgba(0,0,0,.3);padding:.75rem;border-radius:8px;border-left:3px solid ${borderColor}">${cap||'<em style="color:#475569">No caption</em>'}</div>
     </div>`;
   }).join('');
 }
 
 function renderCaptions(data) {
-  const me = data.your_account || {};
-  const posts = (me.posts || me.recent_posts || []).sort((a,b) => (b.likes||0)-(a.likes||0));
-  captionsData = posts;
-  document.getElementById('nc-captions').textContent = posts.length;
+  const myHandle = (data.your_account||{}).username || '';
+  const myPosts = ((data.your_account||{}).posts||[]).map(p=>({...p,_isMe:true}));
+  const compPosts = [];
+  const comps = data.competitors || [];
+  const compList = Array.isArray(comps) ? comps : Object.entries(comps).map(([k,v]) => ({username:k, ...v}));
+  compList.forEach(comp => {
+    (comp.posts||[]).forEach(p => compPosts.push({...p, username: comp.username||p.username, _isMe:false}));
+  });
+  captionsData = [...myPosts, ...compPosts];
+
+  // Count badges
+  document.getElementById('nc-captions').textContent = captionsData.length;
+
+  // Build competitor account filter buttons
+  const handles = [...new Set(compPosts.map(p=>p.username))].sort();
+  const acctRow = document.getElementById('cap-acct-filter');
+  if(acctRow) {
+    acctRow.innerHTML = `<button class="tab-btn tab-active cap-acct-btn" data-acct="all" onclick="setCapAccount('all')" style="font-size:.7rem">All</button>`
+      + handles.map(h=>`<button class="tab-btn tab-inactive cap-acct-btn" data-acct="${h}" onclick="setCapAccount('${h}')" style="font-size:.7rem">@${h}</button>`).join('');
+    acctRow.style.display = 'none';
+  }
+
   renderCaptionsView();
 }
 
