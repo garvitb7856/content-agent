@@ -858,6 +858,34 @@ function renderTranscription(d){
     html+='<div class="json-box">'+esc(JSON.stringify(d,null,2))+'</div>';
   }
   el.innerHTML=html;
+
+  // Load and list transcripts
+  const BASE = 'https://raw.githubusercontent.com/garvitb7856/content-agent/main/second_brain/transcripts/';
+  fetch('https://api.github.com/repos/garvitb7856/content-agent/contents/second_brain/transcripts')
+    .then(r => r.json())
+    .then(files => {
+      const list = files.slice(0, 20); // show latest 20
+      const container = document.createElement('div');
+      container.style.marginTop = '1rem';
+      Promise.all(list.map(f =>
+        fetch(BASE + f.name).then(r => r.json()).catch(() => null)
+      )).then(transcripts => {
+        transcripts.filter(Boolean).forEach(t => {
+          const el = document.createElement('div');
+          el.className = 'card';
+          el.style.marginBottom = '.6rem';
+          const hook = (t.transcript || '').split(/[.!?]/)[0];
+          el.innerHTML = `
+            <div class="card-title">@${t.handle} — <a href="https://www.instagram.com/p/${t.postId}/" target="_blank" style="color:#a78bfa;font-size:.7rem">view post</a></div>
+            <div style="color:#c4b5fd;font-size:.75rem;margin:.35rem 0"><b>Spoken hook:</b> ${hook}</div>
+            <div class="json-box" style="max-height:140px">${t.transcript || 'No transcript'}</div>
+            <div class="card-sub" style="margin-top:.35rem">Transcribed: ${t.transcribedAt ? new Date(t.transcribedAt).toLocaleDateString() : '—'}</div>
+          `;
+          container.appendChild(el);
+        });
+        document.getElementById('transcription-content').appendChild(container);
+      });
+    });
 }
 
 // ── Init ──────────────────────────────────────────────────────

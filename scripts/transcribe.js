@@ -221,7 +221,7 @@ async function run() {
         const transcript = await transcribeWithGemini(tempFile);
         console.log(`  Done: "${transcript.substring(0, 60)}..."`);
 
-        const transcriptData = { postId, handle, postUrl: `https://www.instagram.com/p/${shortCode}/`, transcript, caption: post.caption || '', timestamp: post.timestamp || '', transcribedAt: new Date().toISOString(), likes: post.likesCount || post.likes_count || 0, comments: post.commentsCount || post.comments_count || 0 };
+        const transcriptData = { postId, handle, postUrl: post.shortCode ? `https://www.instagram.com/p/${post.shortCode}/` : (post.url || ''), transcript, caption: post.caption || '', timestamp: post.timestamp || '', transcribedAt: new Date().toISOString(), likes: post.likesCount || post.likes_count || 0, comments: post.commentsCount || post.comments_count || 0 };
         saveJSON(path.join(TRANSCRIPTS_DIR, `${postId}.json`), transcriptData);
 
         if (handle === MY_HANDLE && transcript !== 'NO_SPEECH') {

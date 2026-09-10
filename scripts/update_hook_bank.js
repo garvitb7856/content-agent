@@ -63,10 +63,18 @@ function updateHookBank() {
 
   let newCount = 0;
   for (const post of competitorPosts) {
-    const rawCaption = (post.caption || "").trim();
-    if (!rawCaption) continue;
-    const firstLine = rawCaption.split('\n')[0].trim();
-    if (!firstLine) continue;
+    // Try to use transcript's first 2 sentences as the real spoken hook
+    const transcriptPath = path.join(__dirname, '../second_brain/transcripts', `${post.id}_${post.ownerId || post.userId || ''}.json`);
+    let hookText = post.caption ? post.caption.split('\n')[0].trim() : '';
+    try {
+      const t = JSON.parse(fs.readFileSync(transcriptPath, 'utf8'));
+      if (t.transcript) {
+        const sentences = t.transcript.match(/[^.!?]+[.!?]+/g) || [];
+        if (sentences.length > 0) hookText = sentences.slice(0, 2).join(' ').trim();
+      }
+    } catch(e) { /* no transcript yet, fall back to caption */ }
+
+    if (!hookText) continue;
 
     const shortCode = post.shortCode || post.id;
     const postUrl = post.url || (shortCode ? `https://www.instagram.com/p/${shortCode}/` : "");
@@ -78,8 +86,8 @@ function updateHookBank() {
 
     const hookObj = {
       id: String(post.id || shortCode || ('hook_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5))),
-      text: firstLine,
-      type: classifyHook(firstLine),
+      text: hookText,
+      type: classifyHook(hookText),
       format: format,
       account: account,
       postUrl: postUrl,
