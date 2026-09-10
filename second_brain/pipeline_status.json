@@ -1,7 +1,7 @@
 {
   "run_started": "2026-09-10T06:54:01.832Z",
-  "run_finished": null,
-  "overall": "running",
+  "run_finished": "2026-09-10T06:57:22.977Z",
+  "overall": "success",
   "steps": {
     "1__fetch_apify_data": {
       "status": "skipped",
@@ -93,8 +93,14 @@
       "finishedAt": "2026-09-10T06:57:20.132Z"
     },
     "8__push_to_github": {
-      "status": "running",
-      "startedAt": "2026-09-10T06:57:20.132Z"
+      "status": "success",
+      "startedAt": "2026-09-10T06:57:20.132Z",
+      "finishedAt": "2026-09-10T06:57:21.923Z"
+    },
+    "9__send_telegram": {
+      "status": "success",
+      "startedAt": "2026-09-10T06:57:21.924Z",
+      "finishedAt": "2026-09-10T06:57:22.976Z"
     }
   }
 }
