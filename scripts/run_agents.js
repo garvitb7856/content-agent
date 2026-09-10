@@ -317,6 +317,140 @@ function buildTrendSummary(trendsData) {
   return trendsData.trends.slice(0,60).map(t=>'['+t.source+'] '+t.title+' (score:'+t.score+', comments:'+t.comments+')').join('\n');
 }
 
+function buildAgentContexts(data, agentContext, patterns, hookBank, trendsData, history) {
+  const normalizeFormat = (t) => {
+    if (!t) return 'Reel';
+    const l = t.toLowerCase();
+    if (l.includes('video') || l.includes('reel')) return 'Reel';
+    if (l.includes('carousel') || l.includes('sidecar')) return 'Carousel';
+    return 'Post';
+  };
+
+  const me = data.your_account || {};
+  const myHandle = me.username || 'garvit.irl';
+  const myFollowers = me.followers || 5845;
+  const myPosts = (me.posts || me.recent_posts || []).slice(0, 5);
+  const myAvgLikes = me.stats?.avg_likes || me.avg_likes || 282;
+  const myAvgComments = me.stats?.avg_comments || me.avg_comments || 14;
+  const engRate = myFollowers ? (((myAvgLikes + myAvgComments) / myFollowers) * 100).toFixed(2) : '1.14';
+
+  const topPosts = myPosts.map(p => {
+    const cap = (p.caption || '').slice(0, 80).replace(/\n/g, ' ');
+    const fmt = normalizeFormat(p.type || p.media_type);
+    return `  - ${fmt} | ${p.likes || 0} likes | "${cap}"`;
+  }).join('\n');
+
+  const rawComps = data.competitors || {};
+  const competitors = Array.isArray(rawComps)
+    ? rawComps
+    : Object.entries(rawComps).map(([k, v]) => ({ username: k, ...v }));
+
+  const compLines = competitors.map(c => {
+    const handle = c.username || 'unknown';
+    const followers = c.followers || 0;
+    const avgLikes = c.stats?.avg_likes || c.avg_likes || 0;
+    const engR = followers ? ((avgLikes / followers) * 100).toFixed(2) : '0.00';
+    const posts = (c.posts || c.recent_posts || []);
+    const topPost = posts.sort((a, b) => (b.likes || 0) - (a.likes || 0))[0];
+    const topCap = topPost ? (topPost.caption || '').slice(0, 60).replace(/\n/g, ' ') : '';
+    const fmt = normalizeFormat(topPost?.type || topPost?.media_type);
+    return `@${handle}: ${(followers/1000).toFixed(0)}k followers | avg ${avgLikes} likes | eng ${engR}% | top content: "${topCap}" [${fmt}]`;
+  }).join('\n');
+
+  const byFormat = {};
+  (me.posts || me.recent_posts || []).forEach(p => {
+    const fmt = normalizeFormat(p.type || p.media_type);
+    if (!byFormat[fmt]) byFormat[fmt] = { total: 0, count: 0 };
+    byFormat[fmt].total += (p.likes || 0);
+    byFormat[fmt].count++;
+  });
+  const formatLines = Object.entries(byFormat)
+    .map(([fmt, d]) => `${fmt}: avg ${Math.round(d.total / d.count)} likes (${d.count} posts)`)
+    .join(' | ');
+
+  const hookBankArr = Array.isArray(hookBank) ? hookBank : (hookBank.hooks || []);
+  const topHookLines = hookBankArr
+    .filter(h => h.source === 'transcript' || h.hook)
+    .sort((a, b) => (b.likes || 0) - (a.likes || 0))
+    .slice(0, 8)
+    .map(h => `  - [${h.type || 'hook'}] "${(h.hook || h.text || '').slice(0, 80)}" — @${h.handle || ''} (${h.likes || 0} likes)`)
+    .join('\n');
+
+  const trendLines = (trendsData.trends || []).slice(0, 15)
+    .map(t => `  [${t.source}] ${t.title}`)
+    .join('\n');
+
+  const avoidTopics = (history.generated_topics || [])
+    .slice(-20)
+    .map(t => (t.title || t).slice(0, 40))
+    .join(', ');
+
+  const bestTime = patterns.bestPostTimes?.[0] || '6:00 PM - 9:00 PM IST';
+  const bestFormats = (patterns.bestFormats || ['Reel']).join(', ');
+
+  return {
+    ideator: `ROLE: You are the Ideator for @${myHandle} (${myFollowers} followers, ${engRate}% eng rate).
+NICHE: AI + Automation + Tech + Entrepreneurship for Indian audience. Global trends, Indian context.
+
+TRENDING NOW (use these as inspiration):
+${trendLines}
+
+TOP PERFORMING HOOKS FROM COMPETITORS (study the pattern, not the content):
+${topHookLines}
+
+YOUR BEST PERFORMING CONTENT:
+${topPosts}
+
+AVOID — already covered recently (do NOT repeat these):
+${avoidTopics}`.trim(),
+
+    scout: `ROLE: You are the Scout for @${myHandle}. Score 50 ideas HIGH/MEDIUM/LOW.
+
+SCORING CRITERIA:
+- HIGH: Topic is in the trending list AND has strong hook potential for Indian tech audience
+- MEDIUM: Strong hook potential OR moderate trend signal (not both required)  
+- LOW: No trend signal, weak hook, already covered, or too generic
+
+ACCOUNT CONTEXT:
+Followers: ${myFollowers} | Avg likes: ${myAvgLikes} | Eng rate: ${engRate}%
+Best formats: ${bestFormats}
+
+COMPETITOR BENCHMARKS (what's actually working):
+${compLines}`.trim(),
+
+    analyst: `ROLE: You are the Analyst for @${myHandle}.
+
+YOUR PERFORMANCE:
+Followers: ${myFollowers} | Avg likes: ${myAvgLikes} | Avg comments: ${myAvgComments} | Engagement: ${engRate}%
+Format breakdown: ${formatLines}
+Best posting time: ${bestTime}
+
+COMPETITOR RANKINGS (write as plain text table):
+${compLines}
+
+STRICT RULES:
+- Plain text only. Zero LaTeX or math formulas.
+- No $, no \\frac, no \\text. Write "1.14%" not any formula.
+- No ## markdown headers.`.trim(),
+
+    planner: `ROLE: You are the 7-Day Content Planner for @${myHandle}.
+
+ACCOUNT DATA:
+Best posting times: ${bestTime}
+Best formats: ${bestFormats}
+Followers: ${myFollowers} | Eng rate: ${engRate}%
+
+RECENT POSTS (avoid repeating these topics):
+${topPosts}
+
+RULES:
+- Plan exactly 7 days starting from tomorrow
+- Alternate Reel and Carousel each day
+- One post per day only
+- Hooks must be max 10 words, punchy and spoken-friendly`.trim()
+  };
+}
+
 async function main() {
   console.log('==================================================');
   console.log('Content Agent — Ideator + Scout + Analyst + Planner');
@@ -326,6 +460,12 @@ async function main() {
   const trendsData = loadTrends();
   const history = loadHistory();
   const {myHandle,myFollowers,myAvgLikes,myAvgComments,myPostsText,compSummary} = buildSummaries(data);
+  const rawHookBank = fs.existsSync(path.join(__dirname, '../second_brain/hook_bank.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/hook_bank.json'), 'utf8')) : [];
+  const hookBank = Array.isArray(rawHookBank) ? rawHookBank : (rawHookBank.hooks || []);
+  const patterns = fs.existsSync(path.join(__dirname, '../second_brain/patterns.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/patterns.json'), 'utf8')) : { bestFormats: [] };
+
+  const agentContexts = buildAgentContexts(data, agentContext, patterns, hookBank, trendsData, history);
+
   const trendSummary = buildTrendSummary(trendsData);
   const googleSection = trendsData.google?.length 
     ? '\nGOOGLE TRENDS INDIA:\n' + trendsData.google.map(t=>`- ${t.title} (${t.traffic||'trending'})`).join('\n')
@@ -338,9 +478,6 @@ async function main() {
   const historyTitles = clusterHistory(history);
   const engRate = myFollowers ? (((myAvgLikes+myAvgComments)/myFollowers)*100).toFixed(2) : '0.00';
 
-  const rawHookBank = fs.existsSync(path.join(__dirname, '../second_brain/hook_bank.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/hook_bank.json'), 'utf8')) : [];
-  const hookBank = Array.isArray(rawHookBank) ? rawHookBank : (rawHookBank.hooks || []);
-  const patterns = fs.existsSync(path.join(__dirname, '../second_brain/patterns.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, '../second_brain/patterns.json'), 'utf8')) : { bestFormats: [] };
   const topHooks = hookBank.slice().sort((a,b)=>(b.likes||0)-(a.likes||0)).slice(0,5).map(h=>h.hook||h.text).filter(Boolean).join('\n') || 'No top hooks logged yet.';
   const bestFormats = (patterns.bestFormats && patterns.bestFormats.length) ? patterns.bestFormats.join(', ') : 'Reels';
 
@@ -378,10 +515,10 @@ Best topics for your audience: ${patterns.bestTopics?.join(', ') || 'not enough 
   // ── AGENT 1: IDEATOR — 50 ideas ──────────────────────────────────────────
   console.log('\nAgent 1: Ideator (50 ideas from real trends)...');
   const ideatorResult = await gemini(`
+${agentContexts.ideator}
+
 ${trendContext ? `\n${trendContext}\n` : ''}
 You are a viral content strategist for @${myHandle} (${myFollowers} followers, Indian AI/automation/entrepreneurship creator).
-
-${performanceContext}
 
 These hooks have performed best for @${myHandle} in the past:
 ${topHooks}
@@ -431,7 +568,7 @@ For sourceUrl: scan the topHookPatterns and hotRightNow arrays in the input data
 When an idea copies or remixes a competitor post style, use that post's URL exactly as given in the data. 
 If no specific post inspired it, use empty string.
 
-Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.${PERFORMANCE_BLOCK}
+Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). Every title must be specific enough to film tomorrow.
 `, 'Ideator', 0.8);
   const ideatorRaw = ideatorResult.text;
 
@@ -441,6 +578,8 @@ Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). 
   // ── AGENT 2: SCOUT — filter to top 5 ─────────────────────────────────────
   console.log('\nAgent 2: Scout (scoring 50 → top 5)...');
   const scoutResult = await gemini(`
+${agentContexts.scout}
+
 IMPORTANT: Score each idea on a HIGH/MEDIUM/LOW scale based on topic trend strength and content format potential — NOT just competitor post likes (which may be 0 for new posts). A trending topic with strong hook potential should be rated HIGH even if the reference post is new.
 
 You are the Scout Agent. Score these content ideas ruthlessly and objectively. Your job is to protect the creator from wasting time on weak content.
@@ -484,6 +623,8 @@ OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. N
   // ── AGENT 3: ANALYST ─────────────────────────────────────────────────────
   console.log('\nAgent 3: Analyst...');
   const analystResult = await gemini(`
+${agentContexts.analyst}
+
 CRITICAL FORMATTING RULES — FOLLOW EXACTLY:
 - Never use LaTeX or math notation. No $\\frac{}, \\text{}, or any formula syntax.
 - Write all numbers as plain text. Example: write "Engagement Rate: 1.14%" not any formula.
@@ -532,6 +673,8 @@ Rank competitors by engagement rate. Columns: Handle | Followers | Avg Likes | E
       return d.toLocaleDateString('en-IN', { weekday: 'long' });
     });
     plannerResult = await gemini(`
+${agentContexts.planner}
+
 You are a content planner for @${myHandle} (AI/automation/entrepreneurship, Indian audience, 6:30-8PM IST peak hours).
 
 Start your 7-day plan from TODAY which is ${todayFormatted}. Label DAY 1 as today's actual day name. Do not start from Sunday or any fixed day.
