@@ -482,6 +482,12 @@ OUTPUT ONLY a valid JSON array of exactly 5 objects. Your top 5 ranked 1 to 5. N
   // ── AGENT 3: ANALYST ─────────────────────────────────────────────────────
   console.log('\nAgent 3: Analyst...');
   const analystResult = await gemini(`
+CRITICAL FORMATTING RULES — FOLLOW EXACTLY:
+- Never use LaTeX or math notation. No $\\frac{}, \\text{}, or any formula syntax.
+- Write all numbers as plain text. Example: write "Engagement Rate: 1.14%" not any formula.
+- No markdown headers with ## or ###. Use plain text sections only.
+- Write the competitor ranking table as plain text rows, not LaTeX.
+
 IMPORTANT: Use these EXACT pre-computed stats for @${myHandle}:
 - Followers: ${myFollowers}
 - Avg Likes: ${myAvgLikes}
