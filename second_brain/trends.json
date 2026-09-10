@@ -1,69 +1,34 @@
 {
-  "fetched_at": "2026-09-10T08:21:56.839Z",
+  "fetched_at": "2026-09-10T17:41:28.361Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Shopify acquires Tailwind",
-      "score": 1012,
-      "comments": 389,
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "score": 177,
+      "comments": 346,
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201"
     },
     {
       "source": "hackernews",
-      "title": "AirPods 5",
-      "score": 444,
-      "comments": 361,
-      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "score": 112,
+      "comments": 62,
+      "url": "https://cognition.com/blog/swe-2"
     },
     {
       "source": "hackernews",
-      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-      "score": 408,
-      "comments": 134,
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"
+      "title": "Software Drives People Insane",
+      "score": 57,
+      "comments": 35,
+      "url": "https://graybeard.ing/software-drives-people-insane/"
     },
     {
       "source": "hackernews",
-      "title": "Training a 3.8B LLM to 0.384 CORE for $998",
-      "score": 61,
-      "comments": 11,
-      "url": "https://hugovergnes.github.io/little-lm-3-8b/"
-    },
-    {
-      "source": "hackernews",
-      "title": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
-      "score": 68,
-      "comments": 39,
-      "url": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/"
-    },
-    {
-      "source": "hackernews",
-      "title": "OpenAI might have stolen another major proof",
-      "score": 193,
-      "comments": 70,
-      "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996"
-    },
-    {
-      "source": "hackernews",
-      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "score": 208,
-      "comments": 82,
-      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3"
-    },
-    {
-      "source": "hackernews",
-      "title": "Samsung Debuts zHBM Prototype, Stacking Memory Directly on AI Accelerators",
-      "score": 7,
-      "comments": 2,
-      "url": "https://www.thelec.net/news/articleView.html?idxno=12835"
-    },
-    {
-      "source": "hackernews",
-      "title": "How I advertise malicious software on Google Ads",
-      "score": 396,
-      "comments": 242,
-      "url": "https://xlii.space/eng/malicious-software-on-google-ads/"
+      "title": ">10x More Efficient Pretraining",
+      "score": 65,
+      "comments": 34,
+      "url": "https://magic.dev/blog/pretraining#"
     }
   ],
   "youtube": [
@@ -72,8 +37,8 @@
       "category": "Science & Tech",
       "title": "The UNTOLD Story Of The School Phone Ban...😳📱",
       "channel": "Peakzmotivation",
-      "views": 59805087,
-      "likes": 965359,
+      "views": 60215132,
+      "likes": 970226,
       "publishedAt": "2026-08-24T03:40:46Z",
       "url": "https://www.youtube.com/watch?v=2X-Lc35kpB8",
       "tags": [
@@ -89,8 +54,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 46303629,
-      "likes": 488058,
+      "views": 47725325,
+      "likes": 494045,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -107,8 +72,8 @@
       "category": "Science & Tech",
       "title": "Apple Watch series 12 is letting you clip what someone just said..",
       "channel": "CarterPCs",
-      "views": 809677,
-      "likes": 53483,
+      "views": 1174228,
+      "likes": 69227,
       "publishedAt": "2026-09-09T20:09:34Z",
       "url": "https://www.youtube.com/watch?v=OHN3SZgDeSI",
       "tags": [],
@@ -118,16 +83,16 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "automation tools",
+        "keyword": "self improvement",
         "trend_score": 92
       },
       {
         "keyword": "ChatGPT",
-        "trend_score": 90
+        "trend_score": 91
       },
       {
-        "keyword": "self improvement",
-        "trend_score": 88
+        "keyword": "automation tools",
+        "trend_score": 86
       },
       {
         "keyword": "AI for business",
@@ -135,22 +100,22 @@
       },
       {
         "keyword": "AI tools",
-        "trend_score": 84
+        "trend_score": 83
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 81
+        "trend_score": 78
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 75
+        "trend_score": 76
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 51
+        "trend_score": 53
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-10T08:21:56.839Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Shopify acquires Tailwind\" — 1012 pts\n• [HackerNews] \"AirPods 5\" — 444 pts\n• [HackerNews] \"GPT-6 Astra, looped transformers, and hidden reasoning\" — 408 pts\n• [HackerNews] \"Training a 3.8B LLM to 0.384 CORE for $998\" — 61 pts\n• [HackerNews] \"A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming\" — 68 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 59805k views\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 46304k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 810k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nautomation tools (score: 92), ChatGPT (score: 90), self improvement (score: 88), AI for business (score: 85), AI tools (score: 84), solopreneur (score: 81), AI workflow (score: 75), productivity tools (score: 51)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-10T17:41:28.361Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"More questions about whether researchers can trust OpenAI with unpublished math\" — 177 pts\n• [HackerNews] \"Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra\" — 112 pts\n• [HackerNews] \"Software Drives People Insane\" — 57 pts\n• [HackerNews] \">10x More Efficient Pretraining\" — 65 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 60215k views\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 47725k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 1174k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 92), ChatGPT (score: 91), automation tools (score: 86), AI for business (score: 85), AI tools (score: 83), solopreneur (score: 78), AI workflow (score: 76), productivity tools (score: 53)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

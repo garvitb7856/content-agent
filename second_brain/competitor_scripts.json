@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T09:12:35.412Z",
+  "updated_at": "2026-09-10T17:41:28.422Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1509,8 +1509,26 @@
       "engagement_rate": 1.43,
       "verdict": "medium",
       "scraped_at": "2026-09-10T06:12:44.362Z"
+    },
+    {
+      "id": "3978527522457650939_24040950",
+      "account": "@arshman",
+      "url": "https://www.instagram.com/p/Dc2kbPZNAb7/",
+      "topic": "General Tech",
+      "format": "Video",
+      "spoken_hook": "Hello.  All right, let me show you how to make it.  Take a photo of yourself and the products you want to show in the video.",
+      "full_script": "Hello. All right, let me show you how to make it. Take a photo of yourself and the products you want to show in the video. Now open ChatGPT, upload your images, and then paste this prompt. Now tap on plugins, search for Higgsfield, and add the plugin. And now simply run the prompt. And here we go. So, if you want the full prompt, just comment ChatGPT, and I'll send it over.",
+      "full_caption": "Create a Bullet time effect using ChatGPT for your brand! \n\nComment “ChatGPT” to get the detailed prompt and @higgsfield.ai plugin. :)\n\n#HiggsfieldPartner",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 1308,
+      "comments": 2636,
+      "engagement_rate": 1.05,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-09T07:46:30.915Z",
+      "scraped_at": "2026-09-10T17:41:28.413Z"
     }
   ],
-  "total": 98,
-  "transcript_based": 13
+  "total": 99,
+  "transcript_based": 14
 }

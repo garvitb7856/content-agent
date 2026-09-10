@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "rank": 1,
+    "title": "OmniVoice: The Free ElevenLabs Killer",
+    "hook": "Stop paying $22 a month for ElevenLabs. This new open-source tool clones any voice with just 3 seconds of audio.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Voice cloning alternatives have massive save rates across Indian creator communities looking to avoid paid SaaS subscriptions. Competitor transcript data proves direct high-intent utility and retention for open-source AI models.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/3960725499704900621_72269881052/"
+  },
+  {
+    "rank": 2,
+    "title": "Fixing Ugly Amazon Products with AI 3D Renders",
+    "hook": "Tired of trading time for money? Here is how to make ₹50,000 a month fixing ugly Amazon listings using AI 3D renders.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Direct monetization blueprints with specific INR figures consistently outperform theoretical AI explainers in engagement. This adapts @arshman's proven e-commerce 3D rendering workflow into an actionable side hustle.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/3968380350131244539_24040950/"
+  },
+  {
+    "rank": 3,
+    "title": "Is Your Smart Home Leaking Your Live Video?",
+    "hook": "Someone just gained access to 7,000 private home cameras without hacking a single server. Here is how to secure your smart devices.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "High-stakes tech security stories trigger intense curiosity, comments, and immediate shares among broad Indian audiences. Competitor verification demonstrates strong opening retention from the 7,000 exposed cameras narrative.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/3961865123365621346_24040950/"
+  },
+  {
+    "rank": 4,
+    "title": "Replit Design Agent for Non-Designers",
+    "hook": "Don't hire a UI designer for your next project until you've tried this brand-new design agent.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Vibe coding and zero-code design workflows are surging in search demand across young tech builders. The competitor benchmark from @nick_saraev shows immediate product-market fit for plain-English UI generation.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/3961437849768566434_72269881052/"
+  },
+  {
+    "rank": 5,
+    "title": "How to Build an Automated WhatsApp Sales Funnel",
+    "hook": "Indian customers don't read emails; they live on WhatsApp. Here is how to automate your entire client onboarding on WhatsApp using AI.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "WhatsApp automation carries enormous localized resonance for Indian SMBs, agencies, and solopreneurs compared to email-centric funnels. The concept builds on @garvit.irl's high-performing funnel demonstrations with actionable business utility.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/3964987942178995784_65880404765/"
+  }
+]

@@ -692,7 +692,33 @@
       "commentsCount": 19,
       "engagementRate": 0.84,
       "url": "https://www.instagram.com/p/DdB-So2SsTg/",
-      "archivedAt": "2026-09-10T17:28:46.877Z"
+      "archivedAt": "2026-09-10T17:28:46.877Z",
+      "hookText": "Comment me “Prompt” to get access to the prompt library and get the best output ",
+      "finalLikes": 36,
+      "finalComments": 31,
+      "topics": [
+        "ai",
+        "claude",
+        "hack",
+        "prompt"
+      ],
+      "postId": "3981737505267041504_65880404765",
+      "postUrl": "https://www.instagram.com/p/DdB-So2SsTg/",
+      "format": "Video",
+      "postedAt": "2026-09-08T15:10:28.000Z",
+      "likes_at_48h": 36,
+      "comments_at_48h": 31,
+      "engagement_at_48h": 1.09,
+      "followers_at_post": 6173,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 13,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-09-10T06:12:45.050Z"
+      },
+      "updatedAt": "2026-09-10T17:41:28.440Z"
     }
   ]
 }
