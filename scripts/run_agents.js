@@ -548,10 +548,34 @@ Mix formats daily. Vary trigger words. Make every topic specific enough to film.
   };
   if (plannerResult?.modelUsed) modelsUsedMap.planner = plannerResult.modelUsed;
 
+  // Strip LLM chain-of-thought — extract only the JSON array
+  let ideatorClean = ideatorRaw;
+  try {
+    const arrMatch = ideatorClean.match(/\[[\s\S]*\]/);
+    if (arrMatch) {
+      JSON.parse(arrMatch[0]); // validate it's real JSON
+      ideatorClean = arrMatch[0];
+      console.log('  [Ideator] Extracted clean JSON array from response');
+    } else {
+      console.warn('  [Ideator] No JSON array found in response — using raw text');
+    }
+  } catch(e) {
+    console.warn('  [Ideator] JSON extraction failed:', e.message, '— using raw text');
+  }
+
+  let scoutClean = scoutRaw;
+  try {
+    const arrMatch = scoutClean.match(/\[[\s\S]*\]/);
+    if (arrMatch) {
+      JSON.parse(arrMatch[0]);
+      scoutClean = arrMatch[0];
+    }
+  } catch(e) {}
+
   const output = {
     generated_at: new Date().toISOString(),
-    ideator: extractIdeatorJSON(ideatorRaw),
-    scout: scoutRaw,
+    ideator: ideatorClean,
+    scout: scoutClean,
     pending_ideas: top5,
     analyst,
     planner,
