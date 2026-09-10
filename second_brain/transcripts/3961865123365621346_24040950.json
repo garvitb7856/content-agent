@@ -1,0 +1,11 @@
+{
+  "postId": "3961865123365621346_24040950",
+  "handle": "arshman",
+  "postUrl": "https://www.instagram.com/p/3961865123365621346_24040950/",
+  "transcript": "This guy accidentally gained access to 7,000 cameras and microphones inside homes across 24 countries. And he wasn't even a hacker. He was simply trying to control his own robot vacuum. But the company's servers exposed live camera feeds, private audio, and detailed floor plans of thousands of homes. So here's how to make sure that never happens to you. Most smart home appliances run on cloud servers, and that's why I set up something that keeps all of that on my own hardware using ZimaBoard 2. It's a tiny, silent server, and it runs on its own operating system called ZimaOS. You can deploy and use local AI models, create your own personal Netflix, use it as a gaming server, or have your own private smart home assistant. Simply connect LAN to your router, install Zima client, and set up your account. Now install Home Assistant from the ZimaOS app store, and it automatically detects all of the smart devices running on the same IP. I'll connect this light in my office. Let me turn it off first. Hey Zima, can you turn on the light? And can you actually change the color to purple? Pretty cool. Everything you are seeing, the controls, the automation, all of it is running locally in my house, and nothing goes to the cloud. So stay safe and stay local.",
+  "caption": "This guy accidentally gained access to cameras and microphones inside 7,000 homes across 24 countries.\n\nAnd.. He wasn’t even a hacker. \n\nHe was simply trying to control his own robot vacuum.\n\nBut the company’s servers exposed live camera feeds, private audio, and detailed floor plans of thousands of",
+  "timestamp": "2026-08-12T05:08:01.000Z",
+  "transcribedAt": "2026-09-10T04:16:58.694Z",
+  "likes": 0,
+  "comments": 0
+}
