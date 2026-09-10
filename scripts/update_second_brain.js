@@ -33,6 +33,35 @@ function categorizeCaption(caption, type) {
   return 'reel';
 }
 
+function extractSpokenHook(transcript) {
+  if (!transcript || transcript === 'NO_SPEECH') return null;
+  // Take first 1-2 sentences (up to ~150 chars) as the spoken hook
+  const clean = transcript.replace(/\n/g, ' ').trim();
+  const sentenceEnd = clean.search(/[.!?](?:\s|$)/);
+  if (sentenceEnd > 20 && sentenceEnd < 200) {
+    // Check if there's a good second sentence to add
+    const firstSentence = clean.slice(0, sentenceEnd + 1).trim();
+    const rest = clean.slice(sentenceEnd + 1).trim();
+    const secondEnd = rest.search(/[.!?](?:\s|$)/);
+    if (secondEnd > 0 && secondEnd < 100 && firstSentence.length < 100) {
+      return (firstSentence + ' ' + rest.slice(0, secondEnd + 1)).trim();
+    }
+    return firstSentence;
+  }
+  return clean.slice(0, 150).trim();
+}
+
+function classifyHook(text) {
+  if (!text) return 'pattern_interrupt';
+  const t = text.toLowerCase();
+  if (t.match(/\?/) || t.match(/\bwhy\b|\bhow\b|\bwhat\b|\bwhen\b|\bdo you\b|\bdid you\b/)) return 'question';
+  if (t.match(/\bstop\b|\bnobody\b|\bnever\b|\bdon't\b|\bwrong\b|\bmistake\b|\bsecret\b|\bexpose\b/)) return 'pattern_interrupt';
+  if (t.match(/\bhow i\b|\bwhen i\b|\bi found\b|\bi built\b|\bmy \b/)) return 'story';
+  if (t.match(/\b\d+\b.*\b(ways|tips|tools|reasons|steps|things)\b/)) return 'list';
+  if (t.match(/\bfree\b|\bsave\b|\bget\b.*\bfree\b/)) return 'value';
+  return 'pattern_interrupt';
+}
+
 function main() {
   const data = loadJson(DATA_PATH, {});
   const me = data.your_account || {};
@@ -54,46 +83,80 @@ function main() {
   let newPostsLogged = 0;
   let newHooksAdded = 0;
 
-  // A & B: DETECT & LOG NEW POSTS
-  rawPosts.forEach(p => {
-    const pid = p.id || p.shortCode || p.url;
-    if (!pid) return;
-
-    const likesCount = p.likesCount !== undefined ? p.likesCount : (p.likes || 0);
-    const commentsCount = p.commentsCount !== undefined ? p.commentsCount : (p.comments || 0);
-    const shortCode = p.shortCode || getShortCode(p.url);
-    const url = p.url || (shortCode ? `https://www.instagram.com/p/${shortCode}/` : '');
-    const caption = p.caption || '';
-    const timestamp = p.timestamp || new Date().toISOString();
-
-    if (!existingLogIds.has(pid)) {
-      contentLog.push({
-        id: pid,
-        shortCode,
-        caption,
-        timestamp,
-        likesCount,
-        commentsCount,
-        url,
-        type: p.type || 'Post',
-        archived: false
-      });
-      existingLogIds.add(pid);
-      newPostsLogged++;
+  const allAccounts = [];
+  if (me && rawPosts.length) allAccounts.push({ handle: me.username || 'garvit.irl', posts: rawPosts, isMe: true });
+  const rawComps = data.competitors || {};
+  if (typeof rawComps === 'object' && !Array.isArray(rawComps)) {
+    for (const [handle, acc] of Object.entries(rawComps)) {
+      allAccounts.push({ handle: handle, posts: acc.posts || [], isMe: false });
     }
+  }
 
-    // E: UPDATE HOOK BANK (first 80 chars of caption)
-    const hookText = caption.substring(0, 80).replace(/\n/g, ' ').trim();
-    if (hookText && !hookBank.some(h => h.postId === pid)) {
-      hookBank.push({
-        hook: hookText,
-        postId: pid,
-        likes: likesCount,
-        comments: commentsCount,
-        addedAt: new Date().toISOString()
-      });
-      newHooksAdded++;
-    }
+  // A, B & E: DETECT & LOG NEW POSTS & HOOK BANK
+  allAccounts.forEach(({ handle, posts, isMe }) => {
+    posts.forEach(p => {
+      const pid = p.id || p.shortCode || p.url;
+      if (!pid) return;
+
+      const likesCount = p.likesCount !== undefined ? p.likesCount : (p.likes || 0);
+      const commentsCount = p.commentsCount !== undefined ? p.commentsCount : (p.comments || 0);
+      const shortCode = p.shortCode || getShortCode(p.url);
+      const url = p.url || (shortCode ? `https://www.instagram.com/p/${shortCode}/` : '');
+      const caption = p.caption || '';
+      const timestamp = p.timestamp || new Date().toISOString();
+
+      if (isMe && !existingLogIds.has(pid)) {
+        contentLog.push({
+          id: pid,
+          shortCode,
+          caption,
+          timestamp,
+          likesCount,
+          commentsCount,
+          url,
+          type: p.type || 'Post',
+          archived: false
+        });
+        existingLogIds.add(pid);
+        newPostsLogged++;
+      }
+
+      // UPDATE HOOK BANK
+      if (!hookBank.some(h => h.postId === pid || h.postUrl === url)) {
+        let hookText = null;
+        let source = 'caption';
+        const transcriptPath = path.join(ROOT, `second_brain/transcripts/${pid}.json`);
+        if (fs.existsSync(transcriptPath)) {
+          try {
+            const tr = JSON.parse(fs.readFileSync(transcriptPath, 'utf8'));
+            const spoken = extractSpokenHook(tr.transcript);
+            if (spoken) {
+              hookText = spoken;
+              source = 'transcript';
+            }
+          } catch(e) {}
+        }
+        if (!hookText) {
+          const firstLine = caption.split('\n')[0].replace(/#\w+/g, '').trim();
+          hookText = firstLine.substring(0, 100).trim();
+          source = 'caption';
+        }
+        if (hookText) {
+          hookBank.push({
+            hook: hookText,
+            source: source,
+            handle: handle.startsWith('@') ? handle : `@${handle}`,
+            postId: pid,
+            likes: likesCount,
+            comments: commentsCount,
+            type: classifyHook(hookText),
+            postUrl: url,
+            addedAt: new Date().toISOString()
+          });
+          newHooksAdded++;
+        }
+      }
+    });
   });
 
   // C: UPDATE PERFORMANCE ARCHIVE (posts 48+ hours old)

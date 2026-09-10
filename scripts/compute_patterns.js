@@ -2,6 +2,24 @@ const fs = require('fs');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
 
+function classifyHook(text) {
+  if (!text) return 'pattern_interrupt';
+  const t = text.toLowerCase();
+  if (t.match(/\?/) || t.match(/\bwhy\b|\bhow\b|\bwhat\b|\bwhen\b|\bdo you\b|\bdid you\b/)) return 'question';
+  if (t.match(/\bstop\b|\bnobody\b|\bnever\b|\bdon't\b|\bwrong\b|\bmistake\b|\bsecret\b/)) return 'pattern_interrupt';
+  if (t.match(/\bhow i\b|\bwhen i\b|\bi found\b|\bi built\b|\bmy \b/)) return 'story';
+  if (t.match(/\b\d+\b.*\b(ways|tips|tools|reasons|steps|things)\b/)) return 'list';
+  return 'pattern_interrupt';
+}
+
+function normalizeFormat(t) {
+  if (!t) return 'Reel';
+  const l = t.toLowerCase();
+  if (l.includes('video') || l.includes('reel')) return 'Reel';
+  if (l.includes('carousel') || l.includes('sidecar')) return 'Carousel';
+  return 'Post';
+}
+
 function atomicWrite(filePath, data) {
   const tmp = filePath + '.tmp';
   fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
@@ -50,8 +68,8 @@ const followers    = (rawData.your_account && rawData.your_account.followers) ||
 // ============================================================
 function getLikes(p) { return p.finalLikes || p.likes_at_48h || p.likes || 0; }
 function getEng(p)   { return p.engagementRate || p.engagement_rate_48h || 0; }
-function getHook(p)  { return p.hook_type || p.hookType || 'unknown'; }
-function getFormat(p){ return p.format || 'reel'; }
+function getHook(p)  { return (p.hook_type && p.hook_type !== 'unknown') ? p.hook_type : (p.hookType && p.hookType !== 'unknown') ? p.hookType : classifyHook(p.hookText || (p.caption || '').slice(0, 100)); }
+function getFormat(p){ return normalizeFormat(p.format || p.type || p.media_type); }
 
 const yourByHook   = groupBy(archive, getHook,   getLikes);
 const yourByFormat = groupBy(archive, getFormat, getLikes);
