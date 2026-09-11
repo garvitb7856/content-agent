@@ -316,7 +316,7 @@ async function main() {
     const briefPath = path.join(ROOT, 'second_brain/pending_brief.json');
     if (fs.existsSync(briefPath)) {
       const brief = JSON.parse(fs.readFileSync(briefPath, 'utf8'));
-      idea = brief.idea || brief.text || '';
+      idea = brief.idea || brief.text || brief.brief || '';
       chatId = brief.chat_id || CHAT_ID;
     }
   }
@@ -325,6 +325,7 @@ async function main() {
   const briefTextPath = path.join(ROOT, 'second_brain/pending_brief_text.txt');
   if (!idea && fs.existsSync(briefTextPath)) {
     idea = fs.readFileSync(briefTextPath, 'utf8').trim();
+    fs.writeFileSync(briefTextPath, '', 'utf8'); // clear after reading to prevent stale re-use
   }
 
   // Load from pending_ideas if numeric index
