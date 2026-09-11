@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-10",
-  "end_date": "2026-09-17",
+  "generated_on": "2026-09-11",
+  "end_date": "2026-09-18",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-10",
-      "topic": "OmniVoice: Free Open-Source Voice Cloning Alternative",
+      "date": "2026-09-11",
+      "topic": "Free Open-Source Voice Cloning (OmniVoice vs ElevenLabs)",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "Stop paying $22 a month for voice cloning tools.",
+      "hook": "Stop paying ElevenLabs. Clone any voice free in 3 seconds.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-11",
-      "topic": "Step-by-Step Blueprint: Earning with AI 3D Render Upgrades",
+      "date": "2026-09-12",
+      "topic": "Local Business AI Landing Page Hustle (Monetizing Tier-2 Indian Businesses)",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Fix ugly product photos and sell 3D renders with AI.",
+      "post_time": "7:00 PM IST",
+      "hook": "How to make ₹15,000 building AI sites for local shops.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-12",
-      "topic": "Smart Home IoT Privacy Vulnerability & Protection Steps",
+      "date": "2026-09-13",
+      "topic": "Building a Zero-Salary Multi-Agent AI Marketing Squad",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "How 7,000 smart home cameras got exposed without hacking.",
+      "post_time": "8:00 PM IST",
+      "hook": "Build a full AI marketing team for zero rupees.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-13",
-      "topic": "How to Build an Automated AI WhatsApp Sales Funnel",
+      "date": "2026-09-14",
+      "topic": "Top 5 Claude Code Plugins to Upgrade Front-End UI/UX",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "How to build an automated WhatsApp sales funnel with AI.",
+      "post_time": "6:45 PM IST",
+      "hook": "5 Claude Code plugins to build insanely good websites.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-14",
-      "topic": "Building On-Brand UI Fast with Replit Design Agent",
+      "date": "2026-09-15",
+      "topic": "Generating 8K 3D E-Commerce Product Renders with AI",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Stop hiring designers before trying this AI design agent.",
+      "post_time": "7:30 PM IST",
+      "hook": "Stop paying for 3D renders. Build 8K models using AI.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-15",
-      "topic": "5 Claude Code Plugins to Upgrade Front-End Design Quality",
+      "date": "2026-09-16",
+      "topic": "The Agentic Shift: What Indian Builders Should Build Instead of Traditional SaaS",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "5 Claude plugins that make your UI look insanely good.",
+      "post_time": "7:00 PM IST",
+      "hook": "Traditional SaaS is dying. Here is what to build instead.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-16",
-      "topic": "Building a Complete Lead Funnel on Emergent (Free Account)",
+      "date": "2026-09-17",
+      "topic": "Text-to-UI Design Workflow using Replit Design Agent",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "How I built a full sales funnel using free AI.",
+      "post_time": "6:30 PM IST",
+      "hook": "Describe your website in text and watch AI design it.",
       "status": "pending"
     }
   ]

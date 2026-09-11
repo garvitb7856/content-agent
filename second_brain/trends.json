@@ -1,61 +1,58 @@
 {
-  "fetched_at": "2026-09-10T17:41:28.361Z",
+  "fetched_at": "2026-09-11T06:29:33.303Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-      "score": 177,
-      "comments": 346,
-      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201"
+      "title": "OpenAI Agents API",
+      "score": 216,
+      "comments": 128,
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview"
     },
     {
       "source": "hackernews",
       "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "score": 112,
-      "comments": 62,
+      "score": 399,
+      "comments": 166,
       "url": "https://cognition.com/blog/swe-2"
     },
     {
       "source": "hackernews",
-      "title": "Software Drives People Insane",
-      "score": 57,
-      "comments": 35,
-      "url": "https://graybeard.ing/software-drives-people-insane/"
+      "title": "The Gemini app is now available for Windows",
+      "score": 12,
+      "comments": 5,
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/"
     },
     {
       "source": "hackernews",
-      "title": ">10x More Efficient Pretraining",
-      "score": 65,
-      "comments": 34,
-      "url": "https://magic.dev/blog/pretraining#"
+      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+      "score": 79,
+      "comments": 54,
+      "url": "https://system76.com/workstations/thelio-mira-ai"
+    },
+    {
+      "source": "hackernews",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "score": 771,
+      "comments": 714,
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201"
+    },
+    {
+      "source": "hackernews",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "score": 112,
+      "comments": 184,
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "The UNTOLD Story Of The School Phone Ban...😳📱",
-      "channel": "Peakzmotivation",
-      "views": 60215132,
-      "likes": 970226,
-      "publishedAt": "2026-08-24T03:40:46Z",
-      "url": "https://www.youtube.com/watch?v=2X-Lc35kpB8",
-      "tags": [
-        "Yondr pouches",
-        "phone lock pouches",
-        "school security",
-        "student hacks"
-      ],
-      "description": "Schools use Yondr pouches to stop students from using phones, but some kids found ways to bypass these security measures quickly.\n\nThis video details "
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 47725325,
-      "likes": 494045,
+      "views": 48470744,
+      "likes": 498328,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -72,50 +69,72 @@
       "category": "Science & Tech",
       "title": "Apple Watch series 12 is letting you clip what someone just said..",
       "channel": "CarterPCs",
-      "views": 1174228,
-      "likes": 69227,
+      "views": 1668293,
+      "likes": 84113,
       "publishedAt": "2026-09-09T20:09:34Z",
       "url": "https://www.youtube.com/watch?v=OHN3SZgDeSI",
       "tags": [],
       "description": "Apple Watch series 12 is letting you clip what someone just said..\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Why your smart TV is a spy device #smarttv #privacy #exposed",
+      "channel": "Star AI",
+      "views": 717752,
+      "likes": 27863,
+      "publishedAt": "2026-09-09T07:24:10Z",
+      "url": "https://www.youtube.com/watch?v=FUSP0-OTaLo",
+      "tags": [
+        "security",
+        "smart home ideas",
+        "best smart home devices",
+        "surveillance",
+        "LG"
+      ],
+      "description": "Researchers just spent 500 hours and $70,000 finding out what your LG TV does when the screen looks off.\n\nShort version: it keeps listening. Plain-tex"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "self improvement",
-        "trend_score": 92
-      },
-      {
         "keyword": "ChatGPT",
-        "trend_score": 91
+        "trend_score": 95
       },
       {
-        "keyword": "automation tools",
-        "trend_score": 86
+        "keyword": "self improvement",
+        "trend_score": 94
       },
       {
         "keyword": "AI for business",
         "trend_score": 85
       },
       {
+        "keyword": "productivity tools",
+        "trend_score": 85
+      },
+      {
         "keyword": "AI tools",
-        "trend_score": 83
+        "trend_score": 84
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 82
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 78
+        "trend_score": 81
       },
       {
         "keyword": "AI workflow",
         "trend_score": 76
       },
       {
-        "keyword": "productivity tools",
-        "trend_score": 53
+        "keyword": "automation tools",
+        "trend_score": 76
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-10T17:41:28.361Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"More questions about whether researchers can trust OpenAI with unpublished math\" — 177 pts\n• [HackerNews] \"Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra\" — 112 pts\n• [HackerNews] \"Software Drives People Insane\" — 57 pts\n• [HackerNews] \">10x More Efficient Pretraining\" — 65 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + People & Blogs):\n• [YouTube Global] \"The UNTOLD Story Of The School Phone Ban...😳📱\" by Peakzmotivation — 60215k views\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 47725k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 1174k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 92), ChatGPT (score: 91), automation tools (score: 86), AI for business (score: 85), AI tools (score: 83), solopreneur (score: 78), AI workflow (score: 76), productivity tools (score: 53)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-11T06:29:33.303Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"OpenAI Agents API\" — 216 pts\n• [HackerNews] \"Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra\" — 399 pts\n• [HackerNews] \"The Gemini app is now available for Windows\" — 12 pts\n• [HackerNews] \"Thelio Mira AI Linux Workstation: 192 GB GPU Memory\" — 79 pts\n• [HackerNews] \"More questions about whether researchers can trust OpenAI with unpublished math\" — 771 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 48471k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 1668k views\n• [YouTube Global] \"Why your smart TV is a spy device #smarttv #privacy #exposed\" by Star AI — 718k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 95), self improvement (score: 94), AI for business (score: 85), productivity tools (score: 85), AI tools (score: 84), entrepreneur (score: 82), solopreneur (score: 81), AI workflow (score: 76), automation tools (score: 76)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T17:41:28.473Z",
+  "updated_at": "2026-09-11T06:29:33.422Z",
   "your_performance": {
     "posts_analyzed": 34,
     "best_hook_type": "contrarian",
@@ -214,22 +214,22 @@
     "by_hook_type": [
       {
         "type": "pattern_interrupt",
-        "avg": 11798,
+        "avg": 11797,
         "count": 1
       },
       {
         "type": "story",
-        "avg": 3779.1,
+        "avg": 3808.25,
         "count": 20
       },
       {
         "type": "question",
-        "avg": 1340,
+        "avg": 1356.5,
         "count": 2
       },
       {
         "type": "curiosity_gap",
-        "avg": 1055,
+        "avg": 1074,
         "count": 3
       }
     ],
@@ -242,9 +242,9 @@
         "format": "Reel",
         "account": "@arshman",
         "postUrl": "https://www.instagram.com/p/DV2rO_NDc2u/",
-        "likes": 11798,
+        "likes": 11797,
         "comments": 130,
-        "added_at": "2026-09-10T17:41:28.411Z"
+        "added_at": "2026-09-11T06:29:33.349Z"
       },
       {
         "id": "3976687439442723344_72269881052",
@@ -254,9 +254,9 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/DcwCCgivcIQ/",
-        "likes": 10198,
-        "comments": 7884,
-        "added_at": "2026-09-10T17:41:28.409Z"
+        "likes": 10448,
+        "comments": 8074,
+        "added_at": "2026-09-11T06:29:33.347Z"
       },
       {
         "id": "3882134268666144341_24040950",
@@ -266,9 +266,9 @@
         "format": "Reel",
         "account": "@arshman",
         "postUrl": "https://www.instagram.com/p/DXgHIyGN2ZV/",
-        "likes": 9250,
+        "likes": 9253,
         "comments": 663,
-        "added_at": "2026-09-10T17:41:28.412Z"
+        "added_at": "2026-09-11T06:29:33.349Z"
       },
       {
         "id": "3964315563965815687_72269881052",
@@ -278,9 +278,9 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/DcEFABnvBuH/",
-        "likes": 9080,
-        "comments": 10463,
-        "added_at": "2026-09-10T17:41:28.411Z"
+        "likes": 9117,
+        "comments": 10518,
+        "added_at": "2026-09-11T06:29:33.348Z"
       },
       {
         "id": "3969409826403778316_72269881052",
@@ -290,9 +290,9 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/DcWLTTOvf8M/",
-        "likes": 5384,
-        "comments": 3968,
-        "added_at": "2026-09-10T17:41:28.410Z"
+        "likes": 5390,
+        "comments": 3971,
+        "added_at": "2026-09-11T06:29:33.348Z"
       }
     ]
   },
@@ -343,5 +343,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (34 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\" | \"I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and\" | \"That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurshi\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (26 hooks, 99 scripts):\nBest hook type in niche: pattern_interrupt\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Stop pretending you know how to use Claude.  Give me 60 seconds and I can guarantee you, you'll know more than 99. 9% of people in AI.\" (11798 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (10198 likes) | \"These are my AI employees and as a team they run my business.  They can make video ads, do sales, branding, and even end-to-end marketing.  So let me show you how you can create AI employees for your business or a client completely free.\" (9250 likes) | \"If you guys want to get better front-end designs with Claude Code, here are five plugins you need to install right now.  The first is Taste Skill that pulls real design taste from premium references so your UI stops looking crappy and vibe coded.  The second is the Vercel Web Design Guidelines skill.\" (9080 likes) | \"DeepSeek just launched a free version of Claude Code, and it's already crossed 180,000 stars on GitHub in under a week.  It's called DeepSeek Harness, and unlike Claude Code, it's fully customizable.  It's basically built on the idea that everything inside it is a plugin, including the model, the tools, the memory, and even the agent loop itself.\" (5384 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (34 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\" | \"I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and\" | \"That’s called peace after financial freedom \n\n#motivationquotes #entrepreneurshi\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (26 hooks, 99 scripts):\nBest hook type in niche: pattern_interrupt\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Stop pretending you know how to use Claude.  Give me 60 seconds and I can guarantee you, you'll know more than 99. 9% of people in AI.\" (11797 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (10448 likes) | \"These are my AI employees and as a team they run my business.  They can make video ads, do sales, branding, and even end-to-end marketing.  So let me show you how you can create AI employees for your business or a client completely free.\" (9253 likes) | \"If you guys want to get better front-end designs with Claude Code, here are five plugins you need to install right now.  The first is Taste Skill that pulls real design taste from premium references so your UI stops looking crappy and vibe coded.  The second is the Vercel Web Design Guidelines skill.\" (9117 likes) | \"DeepSeek just launched a free version of Claude Code, and it's already crossed 180,000 stars on GitHub in under a week.  It's called DeepSeek Harness, and unlike Claude Code, it's fully customizable.  It's basically built on the idea that everything inside it is a plugin, including the model, the tools, the memory, and even the agent loop itself.\" (5390 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }
