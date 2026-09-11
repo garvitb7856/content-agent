@@ -315,7 +315,7 @@ function buildSummaries(data) {
     let postsText='';
     top3.forEach(p => {
       const cap=(p.caption||'').slice(0,100).replace(/\n/g,' ');
-      const url = p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : (p.url && !p.url.match(/\/p\/\d{10,}\//) ? p.url : '');
+      const url = p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : (p.url && p.url.match(/instagram\.com\/p\/[A-Za-z0-9][A-Za-z0-9_-]{4,18}\//) ? p.url : '');
       if(cap) postsText+='    - '+url+' | '+(p.likes||0)+' likes | '+cap+'\n';
     });
     compSummary+='\n@'+handle+': '+followers+' followers | avg '+avgLikes+' likes\n'+postsText;
@@ -323,7 +323,7 @@ function buildSummaries(data) {
   let myPostsText='';
   myPosts.slice(0,5).forEach(p => {
     const cap=(p.caption||'').slice(0,100).replace(/\n/g,' ');
-    const url = p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : (p.url && !p.url.match(/\/p\/\d{10,}\//) ? p.url : '');
+    const url = p.shortCode ? `https://www.instagram.com/p/${p.shortCode}/` : (p.url && p.url.match(/instagram\.com\/p\/[A-Za-z0-9][A-Za-z0-9_-]{4,18}\//) ? p.url : '');
     if(cap) myPostsText+='  - '+url+' | '+(p.likes||0)+' likes | '+cap+'\n';
   });
   return {myHandle,myFollowers,myAvgLikes,myAvgComments,myPostsText,compSummary};
@@ -661,7 +661,16 @@ Generate all 50. Mix AI tools (40%), entrepreneurship (30%), self-growth (30%). 
 `, 'Ideator', 0.8);
   const ideatorRaw = ideatorResult.text;
 
-  const ideas50 = parseJSONArray(ideatorRaw, 'Ideator');
+  let ideas50 = parseJSONArray(ideatorRaw, 'Ideator');
+
+  // Validate sourceUrls — strip any that aren't real Instagram shortCode URLs
+  ideas50 = ideas50.map(idea => {
+    if (idea.sourceUrl && !idea.sourceUrl.match(/instagram\.com\/p\/[A-Za-z0-9][A-Za-z0-9_-]{4,18}\//)) {
+      idea.sourceUrl = '';
+    }
+    return idea;
+  });
+
   console.log('  → Parsed '+ideas50.length+' ideas');
 
   // ── AGENT 2: SCOUT — filter to top 5 ─────────────────────────────────────
