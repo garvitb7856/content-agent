@@ -1,69 +1,41 @@
 {
-  "fetched_at": "2026-09-12T03:31:46.605Z",
+  "fetched_at": "2026-09-12T08:06:17.024Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
       "title": "A misalignment of AI in mathematics",
-      "score": 722,
-      "comments": 741,
+      "score": 860,
+      "comments": 842,
       "url": "https://mathandai.org/"
     },
     {
       "source": "hackernews",
       "title": "A Design Space Exploration of Async/Await",
-      "score": 180,
-      "comments": 37,
+      "score": 260,
+      "comments": 60,
       "url": "https://cel.cs.brown.edu/blog/design-space-async-await/"
     },
     {
       "source": "hackernews",
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "score": 434,
-      "comments": 246,
+      "score": 643,
+      "comments": 363,
       "url": "https://www.rubyhack.ai/"
     },
     {
       "source": "hackernews",
       "title": "Litelm: LiteLLM Without the Bloat",
-      "score": 106,
-      "comments": 39,
+      "score": 128,
+      "comments": 42,
       "url": "https://github.com/kennethwolters/litelm"
     },
     {
       "source": "hackernews",
-      "title": "AI researchers debate how close we are to recursive self-improvement",
-      "score": 63,
-      "comments": 49,
-      "url": "https://www.dwarkesh.com/p/john-beren-charlie"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents",
-      "score": 18,
-      "comments": 9,
-      "url": "https://github.com/zachsaw/graphify-csharp"
-    },
-    {
-      "source": "hackernews",
-      "title": "Zep AI (YC W24) Is Hiring a Head of Forward Deployed Engineering",
-      "score": 1,
-      "comments": 0,
-      "url": "https://www.getzep.com/careers/"
-    },
-    {
-      "source": "hackernews",
       "title": "Claude is only available to people over 18 years",
-      "score": 592,
-      "comments": 611,
+      "score": 633,
+      "comments": 625,
       "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude"
-    },
-    {
-      "source": "hackernews",
-      "title": "CIA Releases President's Daily Briefs in Commemoration of 9/11",
-      "score": 121,
-      "comments": 58,
-      "url": "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/"
     }
   ],
   "youtube": [
@@ -72,8 +44,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 49151915,
-      "likes": 501943,
+      "views": 49237224,
+      "likes": 502478,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -90,8 +62,8 @@
       "category": "Science & Tech",
       "title": "Speed Test The New AirPods 5! 🤣",
       "channel": "Snickerly",
-      "views": 2400993,
-      "likes": 38420,
+      "views": 2644181,
+      "likes": 41762,
       "publishedAt": "2026-09-10T09:19:07Z",
       "url": "https://www.youtube.com/watch?v=IurVUStCbrs",
       "tags": [
@@ -108,8 +80,8 @@
       "category": "Science & Tech",
       "title": "Apple Watch series 12 is letting you clip what someone just said..",
       "channel": "CarterPCs",
-      "views": 2018679,
-      "likes": 95960,
+      "views": 2094459,
+      "likes": 98051,
       "publishedAt": "2026-09-09T20:09:34Z",
       "url": "https://www.youtube.com/watch?v=OHN3SZgDeSI",
       "tags": [],
@@ -120,8 +92,8 @@
       "category": "Science & Tech",
       "title": "Why your smart TV is a spy device #smarttv #privacy #exposed",
       "channel": "Star AI",
-      "views": 867464,
-      "likes": 32445,
+      "views": 880933,
+      "likes": 32697,
       "publishedAt": "2026-09-09T07:24:10Z",
       "url": "https://www.youtube.com/watch?v=FUSP0-OTaLo",
       "tags": [
@@ -138,26 +110,26 @@
     "keyword_trends": [
       {
         "keyword": "self improvement",
+        "trend_score": 88
+      },
+      {
+        "keyword": "AI tools",
         "trend_score": 86
       },
       {
         "keyword": "AI for business",
-        "trend_score": 84
+        "trend_score": 86
       },
       {
         "keyword": "automation tools",
-        "trend_score": 83
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 81
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 79
+        "trend_score": 86
       },
       {
         "keyword": "ChatGPT",
+        "trend_score": 79
+      },
+      {
+        "keyword": "productivity tools",
         "trend_score": 78
       },
       {
@@ -165,15 +137,15 @@
         "trend_score": 73
       },
       {
-        "keyword": "AI workflow",
-        "trend_score": 62
+        "keyword": "entrepreneur",
+        "trend_score": 66
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 61
+        "keyword": "AI workflow",
+        "trend_score": 65
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-12T03:31:46.605Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"A misalignment of AI in mathematics\" — 722 pts\n• [HackerNews] \"A Design Space Exploration of Async/Await\" — 180 pts\n• [HackerNews] \"OpenAI agents carried out an undisclosed attack on RubyGems\" — 434 pts\n• [HackerNews] \"Litelm: LiteLLM Without the Bloat\" — 106 pts\n• [HackerNews] \"AI researchers debate how close we are to recursive self-improvement\" — 63 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49152k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 2401k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 2019k views\n• [YouTube Global] \"Why your smart TV is a spy device #smarttv #privacy #exposed\" by Star AI — 867k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 86), AI for business (score: 84), automation tools (score: 83), AI tools (score: 81), productivity tools (score: 79), ChatGPT (score: 78), solopreneur (score: 73), AI workflow (score: 62), entrepreneur (score: 61)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-12T08:06:17.024Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"A misalignment of AI in mathematics\" — 860 pts\n• [HackerNews] \"A Design Space Exploration of Async/Await\" — 260 pts\n• [HackerNews] \"OpenAI agents carried out an undisclosed attack on RubyGems\" — 643 pts\n• [HackerNews] \"Litelm: LiteLLM Without the Bloat\" — 128 pts\n• [HackerNews] \"Claude is only available to people over 18 years\" — 633 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49237k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 2644k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 2094k views\n• [YouTube Global] \"Why your smart TV is a spy device #smarttv #privacy #exposed\" by Star AI — 881k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 88), AI tools (score: 86), AI for business (score: 86), automation tools (score: 86), ChatGPT (score: 79), productivity tools (score: 78), solopreneur (score: 73), entrepreneur (score: 66), AI workflow (score: 65)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

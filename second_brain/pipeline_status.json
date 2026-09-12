@@ -1,112 +1,107 @@
 {
-  "run_started": "2026-09-12T03:31:05.853Z",
-  "run_finished": "2026-09-12T03:34:07.754Z",
-  "overall": "success",
+  "run_started": "2026-09-12T08:06:13.607Z",
+  "run_finished": null,
+  "overall": "running",
   "steps": {
     "1__fetch_apify_data": {
-      "status": "success",
-      "startedAt": "2026-09-12T03:31:05.871Z",
-      "finishedAt": "2026-09-12T03:31:42.571Z"
+      "status": "skipped",
+      "reason": "data 5h old"
     },
     "2__fetch_internet_trends": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:42.571Z",
-      "finishedAt": "2026-09-12T03:31:46.611Z"
+      "startedAt": "2026-09-12T08:06:13.621Z",
+      "finishedAt": "2026-09-12T08:06:17.030Z"
     },
     "2_5_analyze_ig_trends": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:42.573Z",
-      "finishedAt": "2026-09-12T03:31:42.619Z"
+      "startedAt": "2026-09-12T08:06:13.623Z",
+      "finishedAt": "2026-09-12T08:06:13.659Z"
     },
     "2_6_feedback_loop": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:42.574Z",
-      "finishedAt": "2026-09-12T03:31:42.614Z"
+      "startedAt": "2026-09-12T08:06:13.624Z",
+      "finishedAt": "2026-09-12T08:06:13.655Z"
     },
     "update_hook_bank": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:46.612Z",
-      "finishedAt": "2026-09-12T03:31:46.671Z"
+      "startedAt": "2026-09-12T08:06:17.031Z",
+      "finishedAt": "2026-09-12T08:06:17.084Z"
     },
     "update_caption_bank": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:46.613Z",
-      "finishedAt": "2026-09-12T03:31:46.686Z"
+      "startedAt": "2026-09-12T08:06:17.032Z",
+      "finishedAt": "2026-09-12T08:06:17.089Z"
     },
     "update_competitor_scripts": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:46.614Z",
-      "finishedAt": "2026-09-12T03:31:46.692Z"
+      "startedAt": "2026-09-12T08:06:17.034Z",
+      "finishedAt": "2026-09-12T08:06:17.084Z"
     },
     "fetch_48h_performance": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:46.616Z",
-      "finishedAt": "2026-09-12T03:31:46.677Z"
+      "startedAt": "2026-09-12T08:06:17.036Z",
+      "finishedAt": "2026-09-12T08:06:17.095Z"
     },
     "detect_new_posts": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:46.618Z",
-      "finishedAt": "2026-09-12T03:31:46.666Z"
+      "startedAt": "2026-09-12T08:06:17.039Z",
+      "finishedAt": "2026-09-12T08:06:17.078Z"
     },
     "compute_patterns": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:46.692Z",
-      "finishedAt": "2026-09-12T03:31:46.727Z"
+      "startedAt": "2026-09-12T08:06:17.095Z",
+      "finishedAt": "2026-09-12T08:06:17.129Z"
     },
     "notify_pattern_update": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:46.727Z",
-      "finishedAt": "2026-09-12T03:31:47.359Z"
+      "startedAt": "2026-09-12T08:06:17.130Z",
+      "finishedAt": "2026-09-12T08:06:17.841Z"
     },
     "3__detect_posted": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:47.360Z",
-      "finishedAt": "2026-09-12T03:31:47.403Z"
+      "startedAt": "2026-09-12T08:06:17.841Z",
+      "finishedAt": "2026-09-12T08:06:17.875Z"
     },
     "3_5_caption_diff": {
       "status": "success",
-      "startedAt": "2026-09-12T03:31:47.403Z",
-      "finishedAt": "2026-09-12T03:31:47.446Z"
+      "startedAt": "2026-09-12T08:06:17.875Z",
+      "finishedAt": "2026-09-12T08:06:17.906Z"
     },
     "3_8_refresh_topic_clusters": {
-      "status": "success",
-      "startedAt": "2026-09-12T03:31:47.446Z",
-      "finishedAt": "2026-09-12T03:31:57.086Z"
+      "status": "failed",
+      "startedAt": "2026-09-12T08:06:17.907Z",
+      "error": "Command failed: node scripts/refresh_clusters.js",
+      "finishedAt": "2026-09-12T08:07:44.705Z"
     },
     "4__run_ai_agents": {
-      "status": "success",
-      "startedAt": "2026-09-12T03:31:57.086Z",
-      "finishedAt": "2026-09-12T03:34:04.693Z"
+      "status": "failed",
+      "startedAt": "2026-09-12T08:07:44.705Z",
+      "error": "Command failed: node scripts/run_agents.js",
+      "finishedAt": "2026-09-12T08:07:44.742Z"
     },
     "5__update_second_brain": {
       "status": "success",
-      "startedAt": "2026-09-12T03:34:04.693Z",
-      "finishedAt": "2026-09-12T03:34:04.739Z"
+      "startedAt": "2026-09-12T08:07:44.742Z",
+      "finishedAt": "2026-09-12T08:07:44.776Z"
     },
     "6__plan_manager": {
       "status": "success",
-      "startedAt": "2026-09-12T03:34:04.739Z",
-      "finishedAt": "2026-09-12T03:34:04.768Z"
+      "startedAt": "2026-09-12T08:07:44.777Z",
+      "finishedAt": "2026-09-12T08:07:44.801Z"
     },
     "6_5_prune_second_brain": {
       "status": "success",
-      "startedAt": "2026-09-12T03:34:04.768Z",
-      "finishedAt": "2026-09-12T03:34:04.799Z"
+      "startedAt": "2026-09-12T08:07:44.801Z",
+      "finishedAt": "2026-09-12T08:07:44.827Z"
     },
     "7__save_history": {
       "status": "success",
-      "startedAt": "2026-09-12T03:34:04.800Z",
-      "finishedAt": "2026-09-12T03:34:04.832Z"
+      "startedAt": "2026-09-12T08:07:44.827Z",
+      "finishedAt": "2026-09-12T08:07:44.850Z"
     },
     "8__push_to_github": {
-      "status": "success",
-      "startedAt": "2026-09-12T03:34:04.833Z",
-      "finishedAt": "2026-09-12T03:34:06.695Z"
-    },
-    "9__send_telegram": {
-      "status": "success",
-      "startedAt": "2026-09-12T03:34:06.695Z",
-      "finishedAt": "2026-09-12T03:34:07.753Z"
+      "status": "running",
+      "startedAt": "2026-09-12T08:07:44.851Z"
     }
   }
 }
