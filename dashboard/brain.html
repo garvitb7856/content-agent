@@ -493,7 +493,7 @@ function renderScripts(d){
 function renderAttribution(posts){
   const el=document.getElementById('content-log-content');
   const attrPosts=posts.filter(p=>p.diffAnalysis);
-  if(!attrPosts.length){el.innerHTML='<div class="empty">No attribution data yet — runs automatically after posts are detected.</div>';return;}
+  if(!attrPosts.length){el.innerHTML='<div class="empty" style="text-align:left;padding:1.5rem"><b style="color:#94a3b8">No attribution data yet.</b><br><br><span style="color:#475569;font-size:.72rem">Caption diff runs automatically when new posts are detected. It will classify each post as:<br><br>• <b style="color:#10b981">Used AI Script</b> — similarity ≥60% with a generated script<br>• <b style="color:#f59e0b">AI Idea, Own Script</b> — similarity 30–60%<br>• <b style="color:#64748b">Fully Original</b> — similarity &lt;30%<br><br>Check back after tomorrow\'s 9 AM pipeline run.</span></div>';return;}
   const counts={agent_script_used:0,agent_idea_own_script:0,original_content:0};
   attrPosts.forEach(p=>{if(p.diffAnalysis&&p.diffAnalysis.classification)counts[p.diffAnalysis.classification]=(counts[p.diffAnalysis.classification]||0)+1;});
   el.innerHTML=`
@@ -570,14 +570,20 @@ function renderLog(d,tab){
 }
 
 function renderCaptions(data){
-  const raw=data['data']||data;
-  const myPosts=(raw.your_account&&Array.isArray(raw.your_account.posts))?raw.your_account.posts:[];
-  const compsArr=Array.isArray(raw.competitors)?raw.competitors:(raw.competitors&&typeof raw.competitors==='object'?Object.values(raw.competitors):[]);
-  const compPosts=compsArr.flatMap(c=>Array.isArray(c.posts)?c.posts.map(p=>({...p,username:c.username||p.username})):[]);
-  window._capMine=myPosts;
-  window._capComps=compPosts;
-  document.getElementById('nc-captions').textContent=myPosts.length+compPosts.length;
-  renderCapTab('mine');
+  const el=document.getElementById('captions-content');
+  el.innerHTML='<div class="loading">Loading captions...</div>';
+  fetch('data.json?t='+Date.now())
+    .then(r=>r.json())
+    .then(raw=>{
+      const myPosts=(raw.your_account&&Array.isArray(raw.your_account.posts))?raw.your_account.posts:[];
+      const compsArr=Array.isArray(raw.competitors)?raw.competitors:(raw.competitors&&typeof raw.competitors==='object'?Object.values(raw.competitors):[]);
+      const compPosts=compsArr.flatMap(c=>Array.isArray(c.posts)?c.posts.map(p=>({...p,username:c.username||p.username})):[]);
+      window._capMine=myPosts;
+      window._capComps=compPosts;
+      document.getElementById('nc-captions').textContent=myPosts.length+compPosts.length;
+      renderCapTab('mine');
+    })
+    .catch(e=>{el.innerHTML='<div class="empty">Error: '+e.message+'</div>';});
 }
 
 function renderCapTab(tab){
@@ -611,7 +617,7 @@ function renderPerformance(d){
   perf.forEach(function(p){
     var growth=p.likes_at_detection&&p.likes_at_48h?Math.round(((p.likes_at_48h-p.likes_at_detection)/p.likes_at_detection)*100)+'%':'—';
     html+='<tr>'
-      +'<td style="max-width:180px"><a href="'+esc(p.url||'')+'" target="_blank" style="color:#a78bfa;text-decoration:none">'+esc((p.caption_first_line||'').substring(0,50))+'...</a></td>'
+      +'<td>'+(p.url?'<a href="'+esc(p.url)+'" target="_blank" style="color:#a78bfa">🔗 View</a>':(p.id||'').toString().slice(-8))+'</td>'
       +'<td>'+fmt(p.likes_at_detection)+'</td>'
       +'<td style="color:#10b981;font-weight:700">'+fmt(p.likes_at_48h)+'</td>'
       +'<td style="color:#38bdf8">'+growth+'</td>'
