@@ -490,52 +490,55 @@ function renderScripts(d){
 }
 
 // ── Content Log ───────────────────────────────────────────────
+function renderAttribution(posts){
+  const el=document.getElementById('content-log-content');
+  const attrPosts=posts.filter(p=>p.diffAnalysis);
+  if(!attrPosts.length){el.innerHTML='<div class="empty">No attribution data yet — runs automatically after posts are detected.</div>';return;}
+  const counts={agent_script_used:0,agent_idea_own_script:0,original_content:0};
+  attrPosts.forEach(p=>{if(p.diffAnalysis&&p.diffAnalysis.classification)counts[p.diffAnalysis.classification]=(counts[p.diffAnalysis.classification]||0)+1;});
+  el.innerHTML=`
+    <div class="stat-row">
+      <div class="stat-box" style="border-color:#10b981"><div class="stat-num" style="color:#10b981">${counts.agent_script_used}</div><div class="stat-lbl">Used AI Script</div></div>
+      <div class="stat-box" style="border-color:#f59e0b"><div class="stat-num" style="color:#f59e0b">${counts.agent_idea_own_script}</div><div class="stat-lbl">Own Script (AI Idea)</div></div>
+      <div class="stat-box" style="border-color:#64748b"><div class="stat-num" style="color:#64748b">${counts.original_content}</div><div class="stat-lbl">Fully Original</div></div>
+    </div>`+
+    attrPosts.map(p=>{
+      const d=p.diffAnalysis||{};
+      const cls=d.classification||'unknown';
+      const color=cls==='agent_script_used'?'#10b981':cls==='agent_idea_own_script'?'#f59e0b':'#64748b';
+      return `<div class="card">
+        <div class="card-title" style="color:#f1f5f9">${esc((p.caption||p.caption_first_line||'').slice(0,80))}...</div>
+        <div class="hook-meta" style="margin-top:.35rem">
+          <span class="tag tag-purple">${cls.replace(/_/g,' ')}</span>
+          <span style="color:#475569">similarity: ${d.similarity!=null?Math.round(d.similarity*100)+'%':'—'}</span>
+          <span>❤️ ${p.likes||p.likes_at_detection||0}</span><span>💬 ${p.comments||p.comments_at_detection||0}</span>
+          ${p.url?`<a href="${p.url}" target="_blank" style="color:#a78bfa">🔗</a>`:''}
+        </div>
+      </div>`;
+    }).join('');
+}
+
 var logTab='all';
 window.setLogTab=function(tab){
   logTab=tab;
   document.getElementById('tab-all').className='tab-btn '+(tab==='all'?'tab-active':'tab-inactive');
   document.getElementById('tab-attr').className='tab-btn '+(tab==='attribution'?'tab-active':'tab-inactive');
-  fetchJSON('content_log.json').then(function(d){renderLog(d,tab);});
+  if(window._logPosts&&window._logPosts.length){
+    if(tab==='attribution') renderAttribution(window._logPosts);
+    else renderLog(window._logPosts,'all');
+  } else {
+    fetchJSON('content_log.json').then(function(d){renderLog(d,tab);});
+  }
 };
 
 function renderLog(d,tab){
   var el=document.getElementById('content-log-content');
   var posts=unwrapArray(d);
+  window._logPosts=posts;
   if(!posts.length){el.innerHTML='<div class="empty">No posts tracked yet</div>';return;}
 
   if(tab==='attribution'){
-    var colorMap={agent_script_used:'#22c55e',agent_idea_own_script:'#f97316',original_content:'#6b7280'};
-    var labelMap={agent_script_used:'Used AI Script',agent_idea_own_script:'Own Script (AI Idea)',original_content:'Fully Original'};
-    var withDiff=posts.filter(function(p){return p.diffAnalysis;});
-    if(!withDiff.length){
-      el.innerHTML='<div class="empty">No attribution data yet — caption_diff.js runs after posts are detected</div>';
-      return;
-    }
-    var counts={agent_script_used:0,agent_idea_own_script:0,original_content:0};
-    withDiff.forEach(function(p){var c=p.diffAnalysis.classification;if(c&&counts[c]!==undefined)counts[c]++;});
-    var html='<div class="stat-row">';
-    Object.entries(counts).forEach(function(e){
-      var col=colorMap[e[0]]||'#64748b';
-      html+='<div class="stat-box" style="border-color:'+col+'"><div class="stat-num" style="color:'+col+'">'+e[1]+'</div><div class="stat-lbl">'+(labelMap[e[0]]||e[0])+'</div></div>';
-    });
-    html+='</div>';
-    withDiff.forEach(function(p){
-      var da=p.diffAnalysis||{};
-      var cls=da.classification||'unknown';
-      var col=colorMap[cls]||'#64748b';
-      var sim=da.similarity!=null?Math.round(da.similarity*100)+'%':'—';
-      html+='<div class="card">'
-        +'<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem">'
-        +'<span style="font-size:.6rem;font-weight:700;padding:.15rem .45rem;border-radius:4px;background:'+col+'22;color:'+col+';border:1px solid '+col+'44">'+(labelMap[cls]||cls)+'</span>'
-        +'<span style="font-size:.65rem;color:#475569">'+sim+' match</span>'
-        +'</div>'
-        +'<div class="card-title">'+esc((p.caption_first_line||'').substring(0,120))+'</div>'
-        +'<div class="card-sub">❤️ '+fmt(p.likes_at_detection)+' · '+istTime(p.detected_at)
-        +(p.url?' · <a href="'+esc(p.url)+'" target="_blank" style="color:#6366f1">View ↗</a>':'')+'</div>'
-        +(da.matchedScript?'<div style="font-size:.67rem;color:#6366f1;margin-top:.35rem">Matched: "'+esc(da.matchedScript.substring(0,80))+'"</div>':'')
-        +'</div>';
-    });
-    el.innerHTML=html;
+    renderAttribution(posts);
     return;
   }
 
@@ -567,28 +570,19 @@ function renderLog(d,tab){
 }
 
 function renderCaptions(data){
-  let allPosts=data['posts']||[];
-  if (!allPosts.length && (data.your_account || data.competitors || data.data)) {
-    const raw = data.data || data;
-    const myPosts = ((raw.your_account || {}).posts || []).map(p => ({ ...p, username: p.username || (raw.your_account || {}).username || 'garvit.irl' }));
-    const compPosts = [];
-    const comps = raw.competitors || [];
-    const compList = Array.isArray(comps) ? comps : Object.entries(comps).map(([k, v]) => ({ username: k, ...v }));
-    compList.forEach(comp => {
-      (comp.posts || []).forEach(p => compPosts.push({ ...p, username: comp.username || p.username }));
-    });
-    allPosts = [...myPosts, ...compPosts];
-  }
-  const myHandle=(data['my_handle']||'garvit.irl').replace('@','').toLowerCase();
-  window._capMine=allPosts.filter(p=>(p.username||'').toLowerCase()===myHandle);
-  window._capComps=allPosts.filter(p=>(p.username||'').toLowerCase()!==myHandle);
-  document.getElementById('nc-captions').textContent=allPosts.length;
+  const raw=data['data']||data;
+  const myPosts=(raw.your_account&&Array.isArray(raw.your_account.posts))?raw.your_account.posts:[];
+  const compsArr=Array.isArray(raw.competitors)?raw.competitors:(raw.competitors&&typeof raw.competitors==='object'?Object.values(raw.competitors):[]);
+  const compPosts=compsArr.flatMap(c=>Array.isArray(c.posts)?c.posts.map(p=>({...p,username:c.username||p.username})):[]);
+  window._capMine=myPosts;
+  window._capComps=compPosts;
+  document.getElementById('nc-captions').textContent=myPosts.length+compPosts.length;
   renderCapTab('mine');
 }
 
 function renderCapTab(tab){
   document.querySelectorAll('.cap-tab-btn').forEach(b=>{
-    b.className='tab-btn cap-tab-btn '+(b.dataset.tab===tab?'active tab-active':'inactive tab-inactive');
+    b.className='tab-btn cap-tab-btn '+(b.dataset.tab===tab?'tab-active':'tab-inactive');
   });
   const posts=tab==='mine'?window._capMine||[]:window._capComps||[];
   const el=document.getElementById('captions-content');
@@ -597,7 +591,7 @@ function renderCapTab(tab){
     <div class="card">
       <div class="card-title">@${esc(p.username||'')} &nbsp;<span style="color:#475569;font-weight:400">❤️ ${p.likes||0} &nbsp;💬 ${p.comments||0}</span></div>
       <div class="card-sub" style="white-space:pre-wrap;margin-top:.4rem;color:#94a3b8">${esc(p.caption||'(no caption)')}</div>
-      ${p.url?`<a href="${p.url}" target="_blank" style="color:#a78bfa;font-size:.62rem">🔗 View post</a>`:''}
+      ${p.url?`<a href="${p.url}" target="_blank" style="color:#a78bfa;font-size:.62rem;display:block;margin-top:.35rem">🔗 View post</a>`:''}
     </div>`).join('');
 }
 
@@ -888,12 +882,16 @@ function renderTranscription(d){
   if(d.model){
     html+='<div class="card"><div class="card-title">Model Used</div><div class="card-sub">'+esc(d.model)+'</div></div>';
   }
-  if(d.errors&&d.errors.length){
-    html+='<div class="card"><div class="card-title" style="color:#ef4444">Recent Errors</div>';
-    d.errors.slice(0,10).forEach(function(e){
-      html+='<div style="font-size:.72rem;color:#94a3b8;padding:.3rem 0;border-bottom:1px solid rgba(255,255,255,.04)">'+esc(JSON.stringify(e).substring(0,200))+'</div>';
-    });
-    html+='</div>';
+  if((d.errors&&d.errors.length)||(d.failed_items&&d.failed_items.length)){
+    const failed=d.errors||d.failed_items||[];
+    const errHtml=failed.slice(0,5).map(e=>{
+      const obj=typeof e==='string'?{id:e}:(e||{});
+      return `<div style="font-size:.68rem;color:#ef4444;padding:.3rem 0;border-bottom:1px solid rgba(255,255,255,.04)">
+        ${esc(obj.id||obj.postId||'unknown')} — ${esc(obj.error||obj.reason||'failed')}
+        ${obj.url?`<a href="${obj.url}" target="_blank" style="color:#a78bfa;margin-left:.5rem">post</a>`:''}
+      </div>`;
+    }).join('');
+    html+='<div class="card"><div class="card-title" style="color:#ef4444">Recent Errors</div>'+errHtml+'</div>';
   }
   if(!html.includes('card')){
     html+='<div class="json-box">'+esc(JSON.stringify(d,null,2))+'</div>';
