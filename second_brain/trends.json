@@ -1,41 +1,62 @@
 {
-  "fetched_at": "2026-09-12T08:06:17.024Z",
+  "fetched_at": "2026-09-13T03:31:36.266Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "A misalignment of AI in mathematics",
-      "score": 860,
-      "comments": 842,
-      "url": "https://mathandai.org/"
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "score": 148,
+      "comments": 74,
+      "url": "https://withspecific.com/benchmarks/real-swe"
     },
     {
       "source": "hackernews",
-      "title": "A Design Space Exploration of Async/Await",
-      "score": 260,
-      "comments": 60,
-      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/"
+      "title": "Nvidia is the central bank of AI",
+      "score": 415,
+      "comments": 283,
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai"
     },
     {
       "source": "hackernews",
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "score": 643,
-      "comments": 363,
-      "url": "https://www.rubyhack.ai/"
+      "title": "Everyone should slow down AI development except for me",
+      "score": 202,
+      "comments": 92,
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/"
     },
     {
       "source": "hackernews",
-      "title": "Litelm: LiteLLM Without the Bloat",
-      "score": 128,
-      "comments": 42,
-      "url": "https://github.com/kennethwolters/litelm"
+      "title": "Align AI and Mathematics–To Something Else",
+      "score": 26,
+      "comments": 12,
+      "url": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/"
     },
     {
       "source": "hackernews",
-      "title": "Claude is only available to people over 18 years",
-      "score": 633,
-      "comments": 625,
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude"
+      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "score": 454,
+      "comments": 367,
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio"
+    },
+    {
+      "source": "hackernews",
+      "title": "AgentsDock: An IDE designed for agentic AI research",
+      "score": 17,
+      "comments": 7,
+      "url": "https://agentsdock.net/"
+    },
+    {
+      "source": "hackernews",
+      "title": "I fixed a tractor using John Deere's self-repair service. Farmers aren't sold",
+      "score": 110,
+      "comments": 113,
+      "url": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/"
+    },
+    {
+      "source": "hackernews",
+      "title": "How Trail of Bits helps verify the integrity of Signal chats",
+      "score": 60,
+      "comments": 38,
+      "url": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/"
     }
   ],
   "youtube": [
@@ -44,8 +65,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 49237224,
-      "likes": 502478,
+      "views": 49577483,
+      "likes": 504563,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -60,10 +81,27 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "you missed this iPhone Duo 3-in-1 feature",
+      "channel": "mryeester",
+      "views": 3360327,
+      "likes": 89117,
+      "publishedAt": "2026-09-10T15:21:47Z",
+      "url": "https://www.youtube.com/watch?v=T8i0UuvTra4",
+      "tags": [
+        "PC",
+        "PC tips",
+        "PC building",
+        "mryeester"
+      ],
+      "description": "You might've missed this small detail in Apple's iPhone Duo where they combined the battery, network, and wifi symbols into a single status icon. Now "
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Speed Test The New AirPods 5! 🤣",
       "channel": "Snickerly",
-      "views": 2644181,
-      "likes": 41762,
+      "views": 3260678,
+      "likes": 51963,
       "publishedAt": "2026-09-10T09:19:07Z",
       "url": "https://www.youtube.com/watch?v=IurVUStCbrs",
       "tags": [
@@ -80,72 +118,54 @@
       "category": "Science & Tech",
       "title": "Apple Watch series 12 is letting you clip what someone just said..",
       "channel": "CarterPCs",
-      "views": 2094459,
-      "likes": 98051,
+      "views": 2302028,
+      "likes": 104695,
       "publishedAt": "2026-09-09T20:09:34Z",
       "url": "https://www.youtube.com/watch?v=OHN3SZgDeSI",
       "tags": [],
       "description": "Apple Watch series 12 is letting you clip what someone just said..\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Why your smart TV is a spy device #smarttv #privacy #exposed",
-      "channel": "Star AI",
-      "views": 880933,
-      "likes": 32697,
-      "publishedAt": "2026-09-09T07:24:10Z",
-      "url": "https://www.youtube.com/watch?v=FUSP0-OTaLo",
-      "tags": [
-        "security",
-        "smart home ideas",
-        "best smart home devices",
-        "surveillance",
-        "LG"
-      ],
-      "description": "Researchers just spent 500 hours and $70,000 finding out what your LG TV does when the screen looks off.\n\nShort version: it keeps listening. Plain-tex"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "self improvement",
-        "trend_score": 88
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 86
-      },
-      {
         "keyword": "AI for business",
-        "trend_score": 86
+        "trend_score": 82
       },
       {
         "keyword": "automation tools",
-        "trend_score": 86
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 79
+        "trend_score": 81
       },
       {
         "keyword": "productivity tools",
         "trend_score": 78
       },
       {
-        "keyword": "solopreneur",
-        "trend_score": 73
+        "keyword": "self improvement",
+        "trend_score": 77
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 66
+        "keyword": "AI tools",
+        "trend_score": 74
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 61
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 60
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 65
+        "trend_score": 58
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 53
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-12T08:06:17.024Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"A misalignment of AI in mathematics\" — 860 pts\n• [HackerNews] \"A Design Space Exploration of Async/Await\" — 260 pts\n• [HackerNews] \"OpenAI agents carried out an undisclosed attack on RubyGems\" — 643 pts\n• [HackerNews] \"Litelm: LiteLLM Without the Bloat\" — 128 pts\n• [HackerNews] \"Claude is only available to people over 18 years\" — 633 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49237k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 2644k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 2094k views\n• [YouTube Global] \"Why your smart TV is a spy device #smarttv #privacy #exposed\" by Star AI — 881k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 88), AI tools (score: 86), AI for business (score: 86), automation tools (score: 86), ChatGPT (score: 79), productivity tools (score: 78), solopreneur (score: 73), entrepreneur (score: 66), AI workflow (score: 65)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-13T03:31:36.265Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases\" — 148 pts\n• [HackerNews] \"Nvidia is the central bank of AI\" — 415 pts\n• [HackerNews] \"Everyone should slow down AI development except for me\" — 202 pts\n• [HackerNews] \"Align AI and Mathematics–To Something Else\" — 26 pts\n• [HackerNews] \"LG denies TV spying claims, says tracking and snooping concerns 'not true'\" — 454 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49577k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 3360k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 3261k views\n• [YouTube Global] \"Apple Watch series 12 is letting you clip what someone just said..\" by CarterPCs — 2302k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI for business (score: 82), automation tools (score: 81), productivity tools (score: 78), self improvement (score: 77), AI tools (score: 74), ChatGPT (score: 61), solopreneur (score: 60), AI workflow (score: 58), entrepreneur (score: 53)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

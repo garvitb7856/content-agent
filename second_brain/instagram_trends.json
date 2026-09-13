@@ -1,78 +1,56 @@
 {
-  "generated_at": "2026-09-12T08:06:13.649Z",
+  "generated_at": "2026-09-13T03:31:34.295Z",
   "hotRightNow": [
     {
-      "username": "nick_saraev",
-      "caption": "Comment \"FABLE\" to get the leaked Claude Fable 5.1 system prompt.\n\nSomeone just leaked the full syst",
-      "likes": 1297,
-      "comments": 2191,
-      "engagement": 3488,
-      "engRate": "0.52",
-      "timestamp": "2026-09-11T18:07:17.000Z",
-      "url": "https://www.instagram.com/p/DdKA61hvQKJ/",
-      "type": "Video"
-    },
-    {
-      "username": "vaibhavsisinty",
-      "caption": "GPT-6 Astra Broke the Internet\n\nOpenAI just launched something wild. And the internet moved fast.\nOn",
-      "likes": 2060,
-      "comments": 70,
-      "engagement": 2130,
-      "engRate": "0.10",
-      "timestamp": "2026-09-11T15:50:51.000Z",
-      "url": "https://www.instagram.com/p/DdJxWKigpj5/",
-      "type": "Video"
-    },
-    {
-      "username": "thevarunmayya",
-      "caption": "Here's how we built Build What Moves India's hackathon set in 3D from a single PDF using Higgsfield ",
-      "likes": 1205,
-      "comments": 14,
-      "engagement": 1219,
-      "engRate": "0.10",
-      "timestamp": "2026-09-11T14:33:44.000Z",
-      "url": "https://www.instagram.com/p/DdJobS7olXt/",
+      "username": "nivedan.ai",
+      "caption": "What if your AI could search and collect information from almost anywhere on the internet? 👀\n\nMeet ",
+      "likes": 1521,
+      "comments": 1329,
+      "engagement": 2850,
+      "engRate": "0.54",
+      "timestamp": "2026-09-12T13:44:01.000Z",
+      "url": "https://www.instagram.com/p/DdMHjYnpEvL/",
       "type": "Video"
     },
     {
       "username": "ishansharma7390",
-      "caption": "25 years ago, an ordinary morning changed countless lives forever.\n\nToday, we remember those lost on",
-      "likes": 660,
-      "comments": 9,
-      "engagement": 669,
-      "engRate": "0.05",
-      "timestamp": "2026-09-11T18:09:52.000Z",
-      "url": "https://www.instagram.com/p/DdKAXwRsBC9/",
+      "caption": "Send this to a 18 y/o you know!",
+      "likes": 886,
+      "comments": 8,
+      "engagement": 894,
+      "engRate": "0.07",
+      "timestamp": "2026-09-12T11:01:09.000Z",
+      "url": "https://www.instagram.com/p/DdL0NrysCK2/",
       "type": "Video"
     },
     {
       "username": "nivedan.ai",
-      "caption": "Anthropic is giving away free Claude certificates. 👀🎓\n\nIf you’re already using Claude or want to b",
-      "likes": 402,
-      "comments": 186,
-      "engagement": 588,
-      "engRate": "0.11",
-      "timestamp": "2026-09-11T08:22:56.000Z",
-      "url": "https://www.instagram.com/p/DdI-PjvCepK/",
+      "caption": "If you’re trying to understand where AI is heading, save this carousel. 👀🤖\n\nI’ve put together 5 mu",
+      "likes": 180,
+      "comments": 68,
+      "engagement": 248,
+      "engRate": "0.05",
+      "timestamp": "2026-09-12T09:36:49.000Z",
+      "url": "https://www.instagram.com/p/DdLrfmEiTi2/",
       "type": "Post"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 4953,
-      "count": 43
+      "avgEng": 5162,
+      "count": 41
     },
     {
       "format": "post",
-      "avgEng": 2410,
+      "avgEng": 2487,
       "count": 10
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "9 top posts"
+      "appearsIn": "10 top posts"
     },
     {
       "topic": "gpt",
@@ -92,39 +70,39 @@
     }
   ],
   "bestPostingWindow": [
-    "18:00 IST (4 top posts)",
-    "20:00 IST (3 top posts)",
-    "23:00 IST (3 top posts)"
+    "18:00 IST (3 top posts)",
+    "19:00 IST (3 top posts)",
+    "20:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 62831,
+      "likes": 63432,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98284,
+      "likes": 98282,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 75968,
+      "likes": 76862,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 20288,
+      "likes": 20694,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 65680,
+      "likes": 65976,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]
