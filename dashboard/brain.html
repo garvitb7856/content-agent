@@ -570,35 +570,45 @@ function renderLog(d,tab){
 }
 
 function renderCaptions(data){
-  const el=document.getElementById('captions-content');
+  var el=document.getElementById('captions-content');
   el.innerHTML='<div class="loading">Loading captions...</div>';
   fetch('data.json?t='+Date.now())
-    .then(r=>r.json())
-    .then(raw=>{
-      const myPosts=(raw.your_account&&Array.isArray(raw.your_account.posts))?raw.your_account.posts:[];
-      const compsArr=Array.isArray(raw.competitors)?raw.competitors:(raw.competitors&&typeof raw.competitors==='object'?Object.values(raw.competitors):[]);
-      const compPosts=compsArr.flatMap(c=>Array.isArray(c.posts)?c.posts.map(p=>({...p,username:c.username||p.username})):[]);
+    .then(function(r){return r.json();})
+    .then(function(raw){
+      var myAcc=raw.your_account||{};
+      var myPosts=Array.isArray(myAcc.posts)?myAcc.posts:[];
+      var comps=Array.isArray(raw.competitors)?raw.competitors:[];
+      var compPosts=[];
+      comps.forEach(function(c){
+        if(Array.isArray(c.posts))c.posts.forEach(function(p){
+          compPosts.push(Object.assign({},p,{username:c.username||p.username}));
+        });
+      });
       window._capMine=myPosts;
       window._capComps=compPosts;
-      document.getElementById('nc-captions').textContent=myPosts.length+compPosts.length;
+      var nc=document.getElementById('nc-captions');
+      if(nc)nc.textContent=myPosts.length+compPosts.length;
       renderCapTab('mine');
     })
-    .catch(e=>{el.innerHTML='<div class="empty">Error: '+e.message+'</div>';});
+    .catch(function(e){el.innerHTML='<div class="empty">Error: '+e.message+'</div>';});
 }
 
 function renderCapTab(tab){
-  document.querySelectorAll('.cap-tab-btn').forEach(b=>{
+  document.querySelectorAll('.cap-tab-btn').forEach(function(b){
     b.className='tab-btn cap-tab-btn '+(b.dataset.tab===tab?'tab-active':'tab-inactive');
   });
-  const posts=tab==='mine'?window._capMine||[]:window._capComps||[];
-  const el=document.getElementById('captions-content');
-  if(!posts.length){el.innerHTML='<div class="empty">No data yet.</div>';return;}
-  el.innerHTML=posts.map(p=>`
-    <div class="card">
-      <div class="card-title">@${esc(p.username||'')} &nbsp;<span style="color:#475569;font-weight:400">❤️ ${p.likes||0} &nbsp;💬 ${p.comments||0}</span></div>
-      <div class="card-sub" style="white-space:pre-wrap;margin-top:.4rem;color:#94a3b8">${esc(p.caption||'(no caption)')}</div>
-      ${p.url?`<a href="${p.url}" target="_blank" style="color:#a78bfa;font-size:.62rem;display:block;margin-top:.35rem">🔗 View post</a>`:''}
-    </div>`).join('');
+  var posts=tab==='mine'?(window._capMine||[]):(window._capComps||[]);
+  var el=document.getElementById('captions-content');
+  if(!posts.length){el.innerHTML='<div class="empty">No posts loaded yet.</div>';return;}
+  el.innerHTML=posts.map(function(p){
+    return '<div class="card">'+
+      '<div class="card-title">@'+(p.username||'unknown')+
+      ' <span style="color:#475569;font-weight:400">❤️ '+(p.likes||0)+' &nbsp;💬 '+(p.comments||0)+'</span></div>'+
+      '<div class="card-sub" style="white-space:pre-wrap;margin-top:.4rem;color:#94a3b8">'+
+        (p.caption||'(no caption)').replace(/</g,'&lt;')+'</div>'+
+      (p.url?'<a href="'+p.url+'" target="_blank" style="color:#a78bfa;font-size:.62rem;display:block;margin-top:.35rem">🔗 View post</a>':'')+
+      '</div>';
+  }).join('');
 }
 
 // ── Performance Archive ───────────────────────────────────────
