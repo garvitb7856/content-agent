@@ -86,9 +86,13 @@ function loadTrends() {
 // Groups all idea history into compact topic buckets so the Ideator
 // prompt never grows beyond ~20 lines regardless of history size.
 function clusterHistory(history) {
-  const clustersPath = path.join(__dirname, '../second_brain/topic_clusters.json');
+  const CLUSTERS_FILE = path.join(__dirname, '../second_brain/topic_clusters.json');
   let CLUSTERS = [];
-  try { CLUSTERS = JSON.parse(fs.readFileSync(clustersPath, 'utf8')); } catch(e) {}
+  try {
+    let rawC = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf8'));
+    const clusters = Array.isArray(rawC) ? rawC : (Array.isArray(rawC.clusters) ? rawC.clusters : []);
+    CLUSTERS = clusters;
+  } catch(e) {}
 
   const allTitles = [
     ...(history.generated_topics || []).map(t => (t.title || t).toLowerCase()),

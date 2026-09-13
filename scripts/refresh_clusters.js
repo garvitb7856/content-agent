@@ -5,6 +5,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const ROOT = path.join(__dirname, '..');
 const CLUSTERS_PATH = path.join(ROOT, 'second_brain/topic_clusters.json');
+const CLUSTERS_FILE = CLUSTERS_PATH;
 const HISTORY_PATH  = path.join(ROOT, 'second_brain/ideas_history.json');
 const GEMINI_KEY    = process.env.GEMINI_API_KEY;
 const UNCATEGORIZED_THRESHOLD = 15;
@@ -16,7 +17,11 @@ function atomicWrite(filePath, data) {
 }
 
 function loadClusters() {
-  try { return JSON.parse(fs.readFileSync(CLUSTERS_PATH, 'utf8')); } catch(e) { return []; }
+  try {
+    let raw = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf8'));
+    const clusters = Array.isArray(raw) ? raw : (Array.isArray(raw.clusters) ? raw.clusters : []);
+    return clusters;
+  } catch(e) { return []; }
 }
 
 function loadHistory() {
