@@ -159,12 +159,11 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
     <div id="sec-captions" class="sec-block">
       <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">✍️ Captions — <span>Full Post Captions</span></div>
-      <div style="margin-bottom:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
-        <button class="tab-btn tab-active" id="cap-tab-mine" onclick="setCapTab('mine')">👤 My Posts</button>
-        <button class="tab-btn tab-inactive" id="cap-tab-competitors" onclick="setCapTab('competitors')">🏆 Competitors</button>
+      <div style="display:flex;gap:.5rem;margin-bottom:1rem">
+        <button class="tab-btn cap-tab-btn active tab-active" data-tab="mine" onclick="renderCapTab('mine')">My Posts</button>
+        <button class="tab-btn cap-tab-btn inactive tab-inactive" data-tab="competitors" onclick="renderCapTab('competitors')">Competitors</button>
       </div>
-      <div id="cap-acct-filter" style="display:none;gap:.4rem;flex-wrap:wrap;margin-bottom:.75rem"></div>
-      <div id="captions-content"><div class="loading">Loading...</div></div>
+      <div id="captions-content"></div>
     </div>
 
     <div id="sec-performance" class="sec-block">
@@ -355,7 +354,7 @@ function renderSection(id){
     case'ideas':     fetchJSON('ideas_history.json').then(renderIdeas); break;
     case'plan':      fetchJSON('active_plan.json').then(renderPlan); break;
     case'transcription': fetchJSON('transcription_summary.json').then(renderTranscription); break;
-    case'captions':  setCapTab('mine'); break;
+    case'captions':  renderCapTab('mine'); break;
   }
 }
 
@@ -568,34 +567,37 @@ function renderLog(d,tab){
 }
 
 function renderCaptions(data){
-  const el=document.getElementById('captions-content');
-  const raw=data['data']||data||{};
-  const mine=Array.isArray(raw.your_account)?raw.your_account:(raw.your_account?.posts||[]);
-  let comps=[];
-  if (Array.isArray(raw.competitors)) {
-    comps = raw.competitors.flatMap(c => Array.isArray(c)?c:(c.posts||[c]));
-  } else if (raw.competitors && typeof raw.competitors === 'object') {
-    comps = Object.values(raw.competitors).flatMap(c => Array.isArray(c)?c:(c.posts||[c]));
+  let allPosts=data['posts']||[];
+  if (!allPosts.length && (data.your_account || data.competitors || data.data)) {
+    const raw = data.data || data;
+    const myPosts = ((raw.your_account || {}).posts || []).map(p => ({ ...p, username: p.username || (raw.your_account || {}).username || 'garvit.irl' }));
+    const compPosts = [];
+    const comps = raw.competitors || [];
+    const compList = Array.isArray(comps) ? comps : Object.entries(comps).map(([k, v]) => ({ username: k, ...v }));
+    compList.forEach(comp => {
+      (comp.posts || []).forEach(p => compPosts.push({ ...p, username: comp.username || p.username }));
+    });
+    allPosts = [...myPosts, ...compPosts];
   }
-  window._capMine=mine; window._capComps=comps;
-  document.getElementById('nc-captions').textContent=mine.length+comps.length;
-  setCapTab('mine');
+  const myHandle=(data['my_handle']||'garvit.irl').replace('@','').toLowerCase();
+  window._capMine=allPosts.filter(p=>(p.username||'').toLowerCase()===myHandle);
+  window._capComps=allPosts.filter(p=>(p.username||'').toLowerCase()!==myHandle);
+  document.getElementById('nc-captions').textContent=allPosts.length;
+  renderCapTab('mine');
 }
 
-function setCapTab(tab){
-  ['mine','competitors'].forEach(t=>{
-    const btn=document.getElementById('cap-tab-'+t);
-    if(btn) btn.className='tab-btn '+(t===tab?'tab-active':'tab-inactive');
+function renderCapTab(tab){
+  document.querySelectorAll('.cap-tab-btn').forEach(b=>{
+    b.className='tab-btn cap-tab-btn '+(b.dataset.tab===tab?'active tab-active':'inactive tab-inactive');
   });
   const posts=tab==='mine'?window._capMine||[]:window._capComps||[];
-  const filter=document.getElementById('cap-acct-filter');
-  if(filter) filter.style.display=tab==='competitors'?'flex':'none';
   const el=document.getElementById('captions-content');
-  if(!posts.length){el.innerHTML='<div class="empty">No captions yet.</div>';return;}
+  if(!posts.length){el.innerHTML='<div class="empty">No data yet.</div>';return;}
   el.innerHTML=posts.map(p=>`
     <div class="card">
-      <div class="card-title">@${p.username||''} &nbsp;<span style="color:#475569;font-weight:400">❤️ ${p.likes||0} &nbsp;💬 ${p.comments||0}</span></div>
+      <div class="card-title">@${esc(p.username||'')} &nbsp;<span style="color:#475569;font-weight:400">❤️ ${p.likes||0} &nbsp;💬 ${p.comments||0}</span></div>
       <div class="card-sub" style="white-space:pre-wrap;margin-top:.4rem;color:#94a3b8">${esc(p.caption||'(no caption)')}</div>
+      ${p.url?`<a href="${p.url}" target="_blank" style="color:#a78bfa;font-size:.62rem">🔗 View post</a>`:''}
     </div>`).join('');
 }
 
