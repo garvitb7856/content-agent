@@ -1,10 +1,7 @@
 name: Daily Content Agent
 
 on:
-  schedule:
-    - cron: '30 3 * * *'   # 7:00 AM IST (UTC+5:30) daily
-  workflow_dispatch:         # allows manual trigger from GitHub UI
-
+  workflow_dispatch:
 jobs:
   run:
     runs-on: ubuntu-latest
