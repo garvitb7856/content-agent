@@ -77,6 +77,7 @@ async function runParallel(steps) {
   console.log('🚀 Content Agent Daily Run — ' + new Date().toLocaleString('en-IN'));
 
   let freshFetch = false;
+  let agentsRan = false;
   try {
     const data = JSON.parse(fs.readFileSync('dashboard/data/data.json', 'utf8'));
     const fetchedAt = new Date(data.fetched_at);
@@ -116,13 +117,21 @@ async function runParallel(steps) {
   run('3. Detect Posted',            'node scripts/detect_posted.js');
   run('3.5 Caption Diff',            'node scripts/caption_diff.js');
   run('3.8 Refresh Topic Clusters',  'node scripts/refresh_clusters.js');
-  run('4. Run AI Agents',            'node scripts/run_agents.js', { critical: false });
+  if (run('4. Run AI Agents',            'node scripts/run_agents.js', { critical: false })) {
+    agentsRan = true;
+  }
   run('5. Update Second Brain',      'node scripts/update_second_brain.js');
   run('6. Plan Manager',             'node scripts/plan_manager.js');
   run('6.5 Prune Second Brain',      'node scripts/prune_second_brain.js');
   run('7. Save History',             'node scripts/save_history.js');
   run('8. Push to GitHub',           'git add -A && git commit -m "daily auto-update" --allow-empty && git pull --rebase origin main && git push');
-  run('9. Send Telegram',            'node scripts/telegram_bot.js');
+  if (!freshFetch && !agentsRan) {
+    console.log('\n⏭ Skipping Telegram — no new data or agent output this run.');
+    status.steps['9__send_telegram'] = { status: 'skipped', reason: 'no fresh data' };
+    saveStatus();
+  } else {
+    run('9. Send Telegram',            'node scripts/telegram_bot.js');
+  }
 
   // Finalize status
   const nonCriticalKeys = new Set([
