@@ -355,7 +355,7 @@ function renderSection(id){
     case'ideas':     fetchJSON('ideas_history.json').then(renderIdeas); break;
     case'plan':      fetchJSON('active_plan.json').then(renderPlan); break;
     case'transcription': fetchJSON('transcription_summary.json').then(renderTranscription); break;
-    case'captions':  renderCaptionsView(); break;
+    case'captions':  setCapTab('mine'); break;
   }
 }
 
@@ -438,36 +438,24 @@ function renderPipeline(d){
 }
 
 // ── Hooks ─────────────────────────────────────────────────────
-function renderHooks(d){
-  var el=document.getElementById('hooks-content');
-  var hooks=unwrapArray(d,'hooks');
-  if(!hooks.length){el.innerHTML='<div class="empty">No hooks stored yet</div>';return;}
-
-  hooks=hooks.slice().sort(function(a,b){return(b.likes||0)-(a.likes||0);});
-
-  // top stats
-  var avgLikes=Math.round(hooks.reduce(function(s,h){return s+(h.likes||0);},0)/hooks.length);
-  var accounts=[...new Set(hooks.map(function(h){return h.account;}))];
-  var html='<div class="stat-row">'
-    +'<div class="stat-box" style="border-color:#6366f1"><div class="stat-num" style="color:#6366f1">'+fmt(hooks.length)+'</div><div class="stat-lbl">Total Hooks</div></div>'
-    +'<div class="stat-box" style="border-color:#a855f7"><div class="stat-num" style="color:#a855f7">'+fmt(avgLikes)+'</div><div class="stat-lbl">Avg Likes</div></div>'
-    +'<div class="stat-box" style="border-color:#38bdf8"><div class="stat-num" style="color:#38bdf8">'+accounts.length+'</div><div class="stat-lbl">Accounts</div></div>'
-    +'</div>';
-
-  hooks.slice(0,50).forEach(function(h){
-    var typeColor={'bold_claim':'#6366f1','story':'#10b981','pattern_interrupt':'#f59e0b','question':'#38bdf8'}[h.type]||'#64748b';
-    html+='<div class="hook-item">'
-      +'<div class="hook-text">'+esc(h.text||h.hook||'')+'</div>'
-      +'<div class="hook-meta">'
-      +'<span style="color:'+typeColor+';font-weight:700">'+esc(h.type||'unknown')+'</span>'
-      +'<span class="tag tag-blue">'+esc(h.format||'Reel')+'</span>'
-      +'<span>'+esc(h.account||'')+'</span>'
-      +'<span>❤️ '+fmt(h.likes)+'</span>'
-      +'<span>💬 '+fmt(h.comments)+'</span>'
-      +(h.postUrl?'<a href="'+esc(h.postUrl)+'" target="_blank" style="color:#6366f1">View ↗</a>':'')
-      +'</div></div>';
-  });
-  el.innerHTML=html;
+function renderHooks(data){
+  const el=document.getElementById('hooks-content');
+  const raw=data['hook_bank']||data||{};
+  const hooks=Array.isArray(raw.hooks)?raw.hooks:(Array.isArray(raw)?raw:[]);
+  document.getElementById('nc-hooks').textContent=hooks.length||0;
+  if(!hooks.length){el.innerHTML='<div class="empty">No hooks yet.</div>';return;}
+  el.innerHTML=hooks.slice(0,80).map(h=>`
+    <div class="hook-item">
+      <div class="hook-text">${esc(h.text||'')}</div>
+      <div class="hook-meta">
+        <span>${h.account||''}</span>
+        <span>❤️ ${h.likes||0}</span>
+        <span>💬 ${h.comments||0}</span>
+        <span class="tag tag-purple">${h.format||'Reel'}</span>
+        <span class="tag tag-blue">${h.type||''}</span>
+        ${h.postUrl?`<a href="${h.postUrl}" target="_blank" style="color:#a78bfa;font-size:.62rem">🔗 View</a>`:''}
+      </div>
+    </div>`).join('');
 }
 
 // ── Competitor Scripts ────────────────────────────────────────
@@ -579,82 +567,36 @@ function renderLog(d,tab){
   el.innerHTML=html;
 }
 
-let captionsData = [];
-let capCurrentTab = 'mine';
-let capSelectedAccount = 'all';
-
-function setCapTab(tab) {
-  capCurrentTab = tab;
-  capSelectedAccount = 'all';
-  ['mine','competitors'].forEach(t => {
-    const btn = document.getElementById('cap-tab-'+t);
-    if(btn) btn.className = 'tab-btn '+(t===tab?'tab-active':'tab-inactive');
-  });
-  const acctRow = document.getElementById('cap-acct-filter');
-  if(acctRow) acctRow.style.display = tab==='competitors' ? 'flex' : 'none';
-  renderCaptionsView();
-}
-
-function setCapAccount(acct) {
-  capSelectedAccount = acct;
-  document.querySelectorAll('.cap-acct-btn').forEach(b => {
-    b.className = 'tab-btn '+(b.dataset.acct===acct?'tab-active':'tab-inactive')+' cap-acct-btn';
-  });
-  renderCaptionsView();
-}
-
-function renderCaptionsView() {
-  const el = document.getElementById('captions-content');
-  if(!el) return;
-  let posts = captionsData.filter(p => capCurrentTab==='mine' ? p._isMe : !p._isMe);
-  if(capCurrentTab==='competitors' && capSelectedAccount!=='all') posts = posts.filter(p=>p.username===capSelectedAccount);
-  posts = posts.sort((a,b)=>(b.likes||0)-(a.likes||0));
-  if(!posts.length){ el.innerHTML='<div class="empty">No posts match this filter.</div>'; return; }
-  el.innerHTML = posts.map(p => {
-    const cap = (p.caption||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-    const url = p.shortCode ? 'https://www.instagram.com/p/'+p.shortCode+'/' : (p.url||'#');
-    const fmt = (p.type||'').toLowerCase().includes('video')||p.type==='reel'?'🎬 Reel':(p.type||'').toLowerCase().includes('carousel')||p.type==='album'?'📸 Carousel':'🖼 Post';
-    const likes=p.likes||0, comments=p.comments||0;
-    const date=p.timestamp?new Date(p.timestamp*1000).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'}):'';
-    const borderColor=likes>=500?'#f59e0b':likes>=100?'#10b981':'#475569';
-    return `<div class="card" style="margin-bottom:.85rem">
-      <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem;flex-wrap:wrap">
-        ${!p._isMe?`<span class="tag tag-purple">@${p.username}</span>`:''}
-        <span class="tag" style="background:#1e293b;color:#94a3b8">${fmt}</span>
-        <span style="font-size:.72rem;color:#10b981;font-weight:700">❤️ ${likes.toLocaleString()}</span>
-        <span style="font-size:.72rem;color:#64748b">💬 ${comments.toLocaleString()}</span>
-        ${date?'<span style="font-size:.68rem;color:#475569">📅 '+date+'</span>':''}
-        <a href="${url}" target="_blank" style="margin-left:auto;font-size:.68rem;color:#a78bfa;text-decoration:none">View ↗</a>
-      </div>
-      <div style="font-size:.78rem;color:#cbd5e1;white-space:pre-wrap;line-height:1.7;background:rgba(0,0,0,.3);padding:.75rem;border-radius:8px;border-left:3px solid ${borderColor}">${cap||'<em style="color:#475569">No caption</em>'}</div>
-    </div>`;
-  }).join('');
-}
-
-function renderCaptions(data) {
-  const myHandle = (data.your_account||{}).username || '';
-  const myPosts = ((data.your_account||{}).posts||[]).map(p=>({...p,_isMe:true}));
-  const compPosts = [];
-  const comps = data.competitors || [];
-  const compList = Array.isArray(comps) ? comps : Object.entries(comps).map(([k,v]) => ({username:k, ...v}));
-  compList.forEach(comp => {
-    (comp.posts||[]).forEach(p => compPosts.push({...p, username: comp.username||p.username, _isMe:false}));
-  });
-  captionsData = [...myPosts, ...compPosts];
-
-  // Count badges
-  document.getElementById('nc-captions').textContent = captionsData.length;
-
-  // Build competitor account filter buttons
-  const handles = [...new Set(compPosts.map(p=>p.username))].sort();
-  const acctRow = document.getElementById('cap-acct-filter');
-  if(acctRow) {
-    acctRow.innerHTML = `<button class="tab-btn tab-active cap-acct-btn" data-acct="all" onclick="setCapAccount('all')" style="font-size:.7rem">All</button>`
-      + handles.map(h=>`<button class="tab-btn tab-inactive cap-acct-btn" data-acct="${h}" onclick="setCapAccount('${h}')" style="font-size:.7rem">@${h}</button>`).join('');
-    acctRow.style.display = 'none';
+function renderCaptions(data){
+  const el=document.getElementById('captions-content');
+  const raw=data['data']||data||{};
+  const mine=Array.isArray(raw.your_account)?raw.your_account:(raw.your_account?.posts||[]);
+  let comps=[];
+  if (Array.isArray(raw.competitors)) {
+    comps = raw.competitors.flatMap(c => Array.isArray(c)?c:(c.posts||[c]));
+  } else if (raw.competitors && typeof raw.competitors === 'object') {
+    comps = Object.values(raw.competitors).flatMap(c => Array.isArray(c)?c:(c.posts||[c]));
   }
+  window._capMine=mine; window._capComps=comps;
+  document.getElementById('nc-captions').textContent=mine.length+comps.length;
+  setCapTab('mine');
+}
 
-  renderCaptionsView();
+function setCapTab(tab){
+  ['mine','competitors'].forEach(t=>{
+    const btn=document.getElementById('cap-tab-'+t);
+    if(btn) btn.className='tab-btn '+(t===tab?'tab-active':'tab-inactive');
+  });
+  const posts=tab==='mine'?window._capMine||[]:window._capComps||[];
+  const filter=document.getElementById('cap-acct-filter');
+  if(filter) filter.style.display=tab==='competitors'?'flex':'none';
+  const el=document.getElementById('captions-content');
+  if(!posts.length){el.innerHTML='<div class="empty">No captions yet.</div>';return;}
+  el.innerHTML=posts.map(p=>`
+    <div class="card">
+      <div class="card-title">@${p.username||''} &nbsp;<span style="color:#475569;font-weight:400">❤️ ${p.likes||0} &nbsp;💬 ${p.comments||0}</span></div>
+      <div class="card-sub" style="white-space:pre-wrap;margin-top:.4rem;color:#94a3b8">${esc(p.caption||'(no caption)')}</div>
+    </div>`).join('');
 }
 
 // ── Performance Archive ───────────────────────────────────────
