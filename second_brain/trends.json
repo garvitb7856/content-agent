@@ -1,55 +1,48 @@
 {
-  "fetched_at": "2026-09-14T03:31:53.816Z",
+  "fetched_at": "2026-09-14T10:27:16.083Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Open-Source AI and Open Models Reading List",
-      "score": 38,
-      "comments": 2,
+      "title": "XCancel Taken Down Again",
+      "score": 45,
+      "comments": 26,
+      "url": "https://xcancel.com/#"
+    },
+    {
+      "source": "hackernews",
+      "title": "The case against JPEG XL",
+      "score": 169,
+      "comments": 229,
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+      "score": 12,
+      "comments": 3,
+      "url": "https://github.com/anuj0456/OpenArch"
+    },
+    {
+      "source": "hackernews",
+      "title": "Open-source AI and open models reading list",
+      "score": 112,
+      "comments": 22,
       "url": "https://www.interconnects.ai/p/open-source-ai-reading-list"
     },
     {
       "source": "hackernews",
       "title": "The Malicious Use of Artificial Intelligence",
-      "score": 14,
-      "comments": 4,
+      "score": 66,
+      "comments": 15,
       "url": "https://arxiv.org/abs/1802.07228"
     },
     {
       "source": "hackernews",
-      "title": "Making Startups Powerful",
-      "score": 178,
-      "comments": 78,
-      "url": "https://paulgraham.com/powerful.html"
-    },
-    {
-      "source": "hackernews",
       "title": "AI Robots – When will they be in our homes",
-      "score": 7,
-      "comments": 3,
+      "score": 36,
+      "comments": 38,
       "url": "https://spectrum.ieee.org/ai-robots"
-    },
-    {
-      "source": "hackernews",
-      "title": "I build a mechanical watch face: a real gear train for a watch with no gears",
-      "score": 16,
-      "comments": 8,
-      "url": "https://myday24.com/blog/how-a-mechanical-watch-face-is-built/"
-    },
-    {
-      "source": "hackernews",
-      "title": "\"Chilling\" warning or overreaction? AI bioweapons report divides experts",
-      "score": 12,
-      "comments": 0,
-      "url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts"
-    },
-    {
-      "source": "hackernews",
-      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
-      "score": 64,
-      "comments": 16,
-      "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace"
     }
   ],
   "youtube": [
@@ -58,8 +51,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 49869694,
-      "likes": 506110,
+      "views": 49921688,
+      "likes": 506360,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -74,62 +67,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone 18 Pro/Duo Impressions: Mogged",
-      "channel": "Marques Brownlee",
-      "views": 23151577,
-      "likes": 339382,
-      "publishedAt": "2026-09-10T07:29:55Z",
-      "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
-      "tags": [
-        "iPhone Duo",
-        "iPhone 18 Pro",
-        "MKBHD"
-      ],
-      "description": "The first folding iPhone Duo and iPhone 18 Pro are here, and this is everything you need to know.\n\nCheck out Ridge’s latest iPhone tech gear at https:"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Folding Phones Back Then Vs Now: IPhone Duo ???",
-      "channel": "Ramo Akh",
-      "views": 7056941,
-      "likes": 122223,
-      "publishedAt": "2026-09-10T01:19:50Z",
-      "url": "https://www.youtube.com/watch?v=RNJ3WiDz17Y",
-      "tags": [],
-      "description": "ORIGINAL VIDEO FROM: @iPhonedo"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Samsung’s Pressed About the Iphone Duo 😭😭",
-      "channel": "Jorski",
-      "views": 5480685,
-      "likes": 189505,
-      "publishedAt": "2026-09-10T01:05:37Z",
-      "url": "https://www.youtube.com/watch?v=-FUIoAymfoc",
-      "tags": [],
-      "description": "Samsung’s Pressed About the Iphone Duo 😭😭\n\nsub for more!!!"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!",
-      "channel": "TECH NRZZ",
-      "views": 5202280,
-      "likes": 69157,
-      "publishedAt": "2026-09-10T16:37:46Z",
-      "url": "https://www.youtube.com/watch?v=G1wCu8o62mE",
-      "tags": [],
-      "description": "🔥 iPhone 17e vs iPhone 15 SPEED TEST! 🔥\n\niPhone 17e vs iPhone 15 - Ultimate Speed Test ⚡🚀📱 😱⚡\n\nIn this video, we compare the speed and performanc"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "you missed this iPhone Duo 3-in-1 feature",
       "channel": "mryeester",
-      "views": 4929579,
-      "likes": 122257,
+      "views": 5253685,
+      "likes": 129812,
       "publishedAt": "2026-09-10T15:21:47Z",
       "url": "https://www.youtube.com/watch?v=T8i0UuvTra4",
       "tags": [
@@ -143,97 +84,62 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "new iPhone 18 features are crazy 😳",
-      "channel": "ohnepixel raw",
-      "views": 4578545,
-      "likes": 94935,
-      "publishedAt": "2026-09-09T18:03:21Z",
-      "url": "https://www.youtube.com/watch?v=CIixIOGNwL8",
+      "title": "Speed Test The New AirPods 5! 🤣",
+      "channel": "Snickerly",
+      "views": 3891847,
+      "likes": 62021,
+      "publishedAt": "2026-09-10T09:19:07Z",
+      "url": "https://www.youtube.com/watch?v=IurVUStCbrs",
       "tags": [
-        "ohnepixel",
-        "iphone 18",
-        "iphone",
-        "apple"
+        "Shorts",
+        "Kai Cenat",
+        "Kai",
+        "Funny",
+        "Kai Cenat Live"
       ],
-      "description": "ohnepixel reacts to the new iphone 18 from apple #iphone18 #ohnepixel \n\ni am live every day here: https://www.twitch.tv/ohnepixel\nalso live here: http"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "This OG tech creator is banned by Apple…",
-      "channel": "John Casterline",
-      "views": 2380754,
-      "likes": 187302,
-      "publishedAt": "2026-09-12T03:19:06Z",
-      "url": "https://www.youtube.com/watch?v=ulCrxDbolAo",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Turning iPhone 16 Into iPhone 17 😱🤯",
-      "channel": "Austin Boller",
-      "views": 1722165,
-      "likes": 32539,
-      "publishedAt": "2026-09-11T06:00:12Z",
-      "url": "https://www.youtube.com/watch?v=t3t4hWllLTM",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Magic John.. the most unhinged screen protector brand oat",
-      "channel": "CarterPCs",
-      "views": 1609989,
-      "likes": 95326,
-      "publishedAt": "2026-09-13T05:37:02Z",
-      "url": "https://www.youtube.com/watch?v=1y8DXikRTbM",
-      "tags": [],
-      "description": "Magic John.. the most unhinged screen protector brand oat\n\n#carterpcs #tech #gaming"
+      "description": "Speed Test The New AirPods 5! 🤣\n\nSubscribe For More!\n►  https://www.youtube.com/channel/UCjBz-SDpfjRWZ-5Wc5Tj4kw\n\nShorts Kai Cenat IShowSpeed\n#shorts"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "self improvement",
-        "trend_score": 91
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 78
+        "trend_score": 90
       },
       {
         "keyword": "AI for business",
-        "trend_score": 73
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 72
+        "trend_score": 76
       },
       {
         "keyword": "automation tools",
-        "trend_score": 72
+        "trend_score": 76
       },
       {
-        "keyword": "solopreneur",
-        "trend_score": 68
+        "keyword": "AI tools",
+        "trend_score": 75
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 73
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 61
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 59
+        "trend_score": 68
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 55
+        "trend_score": 62
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 60
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 58
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-14T03:31:53.816Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Open-Source AI and Open Models Reading List\" — 38 pts\n• [HackerNews] \"The Malicious Use of Artificial Intelligence\" — 14 pts\n• [HackerNews] \"Making Startups Powerful\" — 178 pts\n• [HackerNews] \"AI Robots – When will they be in our homes\" — 7 pts\n• [HackerNews] \"I build a mechanical watch face: a real gear train for a watch with no gears\" — 16 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49870k views\n• [YouTube Global] \"iPhone 18 Pro/Duo Impressions: Mogged\" by Marques Brownlee — 23152k views\n• [YouTube Global] \"Folding Phones Back Then Vs Now: IPhone Duo ???\" by Ramo Akh — 7057k views\n• [YouTube Global] \"Samsung’s Pressed About the Iphone Duo 😭😭\" by Jorski — 5481k views\n• [YouTube Global] \"⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!\" by TECH NRZZ — 5202k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 4930k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 91), AI tools (score: 78), AI for business (score: 73), productivity tools (score: 72), automation tools (score: 72), solopreneur (score: 68), AI workflow (score: 61), ChatGPT (score: 59), entrepreneur (score: 55)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-14T10:27:16.083Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"XCancel Taken Down Again\" — 45 pts\n• [HackerNews] \"The case against JPEG XL\" — 169 pts\n• [HackerNews] \"OpenArch – PyTorch implementations of modern LLM architectures\" — 12 pts\n• [HackerNews] \"Open-source AI and open models reading list\" — 112 pts\n• [HackerNews] \"The Malicious Use of Artificial Intelligence\" — 66 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49922k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 5254k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 3892k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 90), AI for business (score: 76), automation tools (score: 76), AI tools (score: 75), productivity tools (score: 73), AI workflow (score: 68), entrepreneur (score: 62), ChatGPT (score: 60), solopreneur (score: 58)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

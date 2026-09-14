@@ -1,51 +1,51 @@
 [
   {
     "rank": 1,
-    "title": "The ₹15,000 Google Maps Website Fix Hustle",
-    "hook": "I searched Google Maps for local shops in my city without websites, built 5-minute sites using AI, and pitched them.",
+    "title": "Bypassing YouTube's NotebookLM Demonetization Trap",
+    "hook": "NotebookLM plus YouTube is getting thousands of Indian channels demonetized right now.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Dhaval Kataria dominates local lead-generation concepts with an 18.4% engagement rate, proving intense viewer appetite for practical offline B2B arbitrage. This hyper-local case study provides immediate monetization value for Garvit's audience of aspiring Indian solopreneurs.",
-    "niche": "Entrepreneurship",
+    "reasoning": "Based on @favourite.engineer's viral breakdown that exceeded 21,000 likes, easily topping the 9,000-like threshold for large accounts. Directly alerts Indian creators to critical YouTube policy risks when monetizing AI content.",
+    "niche": "AI",
     "sourceUrl": ""
   },
   {
     "rank": 2,
-    "title": "Free 3-Second Voice Cloning with OmniVoice",
-    "hook": "Forget paying $22 a month for ElevenLabs. This open-source tool clones any voice with just 3 seconds of sample audio.",
+    "title": "Testing the Raj Shamani ₹50,000 Business Idea with AI",
+    "hook": "I tried Raj Shamani's viral business strategy to make ₹50,000 using Emergent AI in 24 hours.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Tested directly by top competitor Nick Saraev, comparing free open-source software against expensive paid subscriptions consistently triggers massive save-to-reach ratios. This offers immediate practical value to bootstrapped creators and developers looking to cut software overhead.",
-    "niche": "AI",
-    "sourceUrl": ""
-  },
-  {
-    "rank": 3,
-    "title": "3D Product Interactive Previews for D2C Brands",
-    "hook": "Indian D2C brands pay thousands for 3D renders. Here is how you can convert 2D product photos into 8K 3D web models using AI.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Originating from Arshman's top-performing 8K 3D conversion breakdown, this workflow bridges viral visual novelty with high-ticket service pitching. It gives Garvit an engaging, visual-first demo format tailored directly to India's rapidly growing D2C ecosystem.",
+    "reasoning": "Adapts @dhavalkataria_'s proven concept where business ideas from viral Indian podcasts are executed with AI (averaging 9,500+ likes vs 3,000 threshold). Offers high watch-time potential and actionable execution.",
     "niche": "Entrepreneurship",
     "sourceUrl": ""
   },
   {
+    "rank": 3,
+    "title": "Winning Indian AI Hackathons: The OpenAI Hackathon Playbook",
+    "hook": "How 3 winners stood out among 13,000 developers at the OpenAI India Hackathon.",
+    "format": "Carousel",
+    "score": "HIGH",
+    "reasoning": "Back-linked directly to a verified viral Instagram post covering the massive OpenAI India event. Offers high saveability and targeted relevance for ambitious Indian tech builders.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DdO0TLoAXqz/"
+  },
+  {
     "rank": 4,
-    "title": "The Leaked Claude Fable 5.1 System Prompt Breakdown",
-    "hook": "Stop prompting Claude blindly. Someone just leaked the full 5.1 system prompt, and it reveals how Anthropic actually wants you to code.",
+    "title": "Fixing Ugly AI Vibe-Coded Frontends with Taste Skill",
+    "hook": "If your AI-built website looks like a cheap 2010 template, you're missing this single plugin.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Competitor prompt-leak breakdowns routinely exceed viral baselines because behind-the-scenes insider tech reveals trigger immense curiosity among engineers. Positioning this as an actionable coding guideline positions Garvit as an authoritative, forward-thinking curator in the LLM space.",
+    "reasoning": "Directly modeled on @nick_saraev's proven Taste Skill reel transcript targeting Claude Code developers. Solves the widely experienced problem of generic AI-generated website UI.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdKA61hvQKJ/"
+    "sourceUrl": ""
   },
   {
     "rank": 5,
-    "title": "Vercel Web Design Guidelines Skill Breakdown",
-    "hook": "Before you push your vibe-coded site live, run this single terminal command to audit your code against Vercel's design standard.",
+    "title": "The Smart Vacuum Live Camera Leak Security Warning",
+    "hook": "Someone accidentally got live video feeds from 7,000 smart home cameras across the world—without hacking.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Highlighted directly in Nick Saraev's Claude Code workflow analysis, single-command terminal utilities deliver immediate, copy-paste gratification. It directly addresses the aesthetic flaws of vibe-coded websites, establishing strong authority among builders who care about production-level polish.",
+    "reasoning": "Based on @arshman's top-performing security transcript on smart home camera leaks. Curiosity-inducing pattern interrupt creates high retention and virality.",
     "niche": "AI",
     "sourceUrl": ""
   }

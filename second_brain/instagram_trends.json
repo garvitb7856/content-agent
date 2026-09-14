@@ -1,24 +1,13 @@
 {
-  "generated_at": "2026-09-14T03:31:51.564Z",
+  "generated_at": "2026-09-14T10:27:14.357Z",
   "hotRightNow": [
-    {
-      "username": "vaibhavsisinty",
-      "caption": "Mukesh Ambani socked the world again! \n\nHe just launched JioPC, a cloud computer that works on any c",
-      "likes": 25374,
-      "comments": 425,
-      "engagement": 25799,
-      "engRate": "1.20",
-      "timestamp": "2026-09-13T04:44:57.000Z",
-      "url": "https://www.instagram.com/p/DdNutj0g2QM/",
-      "type": "Video"
-    },
     {
       "username": "thevarunmayya",
       "caption": "From 13,000 to 3 winners. Thank you to everyone who participated: your time and energy was channeled",
-      "likes": 16952,
-      "comments": 121,
-      "engagement": 17073,
-      "engRate": "1.34",
+      "likes": 19863,
+      "comments": 133,
+      "engagement": 19996,
+      "engRate": "1.57",
       "timestamp": "2026-09-13T14:51:30.000Z",
       "url": "https://www.instagram.com/p/DdO0TLoAXqz/",
       "type": "Post"
@@ -26,10 +15,10 @@
     {
       "username": "ishansharma7390",
       "caption": "still not over the apple event san francisco trip.🥹✨\n\nOnly @joshuakarthikr can make my life look li",
-      "likes": 5628,
-      "comments": 26,
-      "engagement": 5654,
-      "engRate": "0.44",
+      "likes": 6400,
+      "comments": 31,
+      "engagement": 6431,
+      "engRate": "0.51",
       "timestamp": "2026-09-13T12:09:31.000Z",
       "url": "https://www.instagram.com/p/DdOhw4UjEiF/",
       "type": "Post"
@@ -37,10 +26,10 @@
     {
       "username": "vaibhavsisinty",
       "caption": "Two days after I said it on stage, OpenAI proved it.\n\nI was in a fireside with @pchandok , President",
-      "likes": 3107,
-      "comments": 17,
-      "engagement": 3124,
-      "engRate": "0.14",
+      "likes": 3784,
+      "comments": 20,
+      "engagement": 3804,
+      "engRate": "0.18",
       "timestamp": "2026-09-13T14:56:57.000Z",
       "url": "https://www.instagram.com/p/DdO07GHlHMh/",
       "type": "Post"
@@ -48,83 +37,94 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"GOOGLE\" to get this Free Google Maps Scraper AI Tool. \n\nThis free AI tool lets you scrape u",
-      "likes": 226,
-      "comments": 292,
-      "engagement": 518,
-      "engRate": "0.08",
+      "likes": 1066,
+      "comments": 1558,
+      "engagement": 2624,
+      "engRate": "0.39",
       "timestamp": "2026-09-14T02:44:43.000Z",
       "url": "https://www.instagram.com/p/DdQF09DPR04/",
       "type": "Video"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "If you’re trying to understand where AI is heading, save this carousel. 👀🤖\n\nI’ve put together 5 mu",
+      "likes": 48,
+      "comments": 30,
+      "engagement": 78,
+      "engRate": "0.01",
+      "timestamp": "2026-09-14T09:15:34.000Z",
+      "url": "https://www.instagram.com/p/DdQypotCfSo/",
+      "type": "Post"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 5769,
+      "avgEng": 5940,
       "count": 41
     },
     {
       "format": "post",
-      "avgEng": 3943,
+      "avgEng": 4248,
       "count": 13
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "10 top posts"
-    },
-    {
-      "topic": "agent",
-      "appearsIn": "4 top posts"
+      "appearsIn": "11 top posts"
     },
     {
       "topic": "gpt",
       "appearsIn": "4 top posts"
     },
     {
+      "topic": "claude",
+      "appearsIn": "3 top posts"
+    },
+    {
       "topic": "money",
       "appearsIn": "3 top posts"
     },
     {
-      "topic": "claude",
-      "appearsIn": "2 top posts"
+      "topic": "agent",
+      "appearsIn": "3 top posts"
     }
   ],
   "bestPostingWindow": [
-    "18:00 IST (3 top posts)",
+    "20:00 IST (4 top posts)",
     "19:00 IST (3 top posts)",
-    "20:00 IST (3 top posts)"
+    "23:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 63967,
+      "likes": 64125,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98288,
+      "likes": 98297,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 77833,
+      "likes": 78135,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 21112,
+      "likes": 21224,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 66384,
+      "likes": 66543,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-12",
-  "end_date": "2026-09-19",
+  "generated_on": "2026-09-14",
+  "end_date": "2026-09-21",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-12",
-      "topic": "Free 3-Second Voice Cloning with Open-Source OmniVoice",
+      "date": "2026-09-14",
+      "topic": "Testing Raj Shamani’s viral business idea using Emergent AI in 24 hours",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "Stop paying ElevenLabs $22 every single month.",
+      "hook": "I tested Raj Shamani’s viral business idea using AI.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-13",
-      "topic": "Step-by-Step Blueprint: Earn ₹15,000 Pitching AI Website Fixes on Google Maps",
+      "date": "2026-09-15",
+      "topic": "The OpenAI India Hackathon Playbook: How 3 winners beat 13,000 developers",
       "format": "Carousel",
       "post_time": "7:00 PM IST",
-      "hook": "Make ₹15,000 fixing local Google Maps listings with AI.",
+      "hook": "How 3 devs won the OpenAI India Hackathon.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-14",
-      "topic": "Converting 2D Product Photos into 8K Interactive 3D Web Models for D2C Brands",
+      "date": "2026-09-16",
+      "topic": "YouTube's NotebookLM demonetization trap and how Indian creators can bypass it",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Turn product photos into interactive 3D models using AI.",
+      "post_time": "7:30 PM IST",
+      "hook": "NotebookLM is getting Indian YouTube channels demonetized fast.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-15",
-      "topic": "5 Terminal Plugins That Audit & Upgrade Your Vibe-Coded Web UI",
+      "date": "2026-09-17",
+      "topic": "Free open-source voice cloning tool (OmniVoice) setup & step-by-step breakdown",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Five terminal tools that instantly fix ugly AI websites.",
+      "post_time": "6:45 PM IST",
+      "hook": "Stop paying ElevenLabs! Clone your voice for free.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-16",
-      "topic": "Smart Home IoT Leaks & Cloud Security Steps for AI-Connected Devices",
+      "date": "2026-09-18",
+      "topic": "Fixing generic AI UI designs using Taste Skill & Claude Code plugins",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Your smart home camera might be streaming to strangers.",
+      "post_time": "8:00 PM IST",
+      "hook": "Your AI website looks ugly because of this mistake.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-17",
-      "topic": "Breakdown of System Prompt Techniques Behind Senior-Level AI Coding Agents",
+      "date": "2026-09-19",
+      "topic": "The 7,000 Smart Camera Leak: Smart home security checklist for Indian homes",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Senior developers use this exact leaked system prompt framework.",
+      "post_time": "7:15 PM IST",
+      "hook": "7,000 smart cameras got leaked without any hacking.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-18",
-      "topic": "Building On-Brand Web UI Automatically Using Replit Design Agent",
+      "date": "2026-09-20",
+      "topic": "Automating client outreach by finding weak Amazon listings using AI",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Build production UI designs without knowing any web design.",
+      "post_time": "6:30 PM IST",
+      "hook": "Automate finding client emails on Amazon using AI.",
       "status": "pending"
     }
   ]
