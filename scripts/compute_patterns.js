@@ -117,7 +117,20 @@ if (diffInsights.length >= 2) {
       ? `INSIGHT: Using the generated script closely gives +${diff.toFixed(2)}% more engagement. Stay closer to the script.`
       : `INSIGHT: Your rewrites outperform generated scripts by ${Math.abs(diff).toFixed(2)}%. The agent should match your rewriting style.`);
   }
-  diffLearning = lines.join('\n');
+
+  // If no agent-script posts yet, generate baseline insight from original content
+  if (lines.length === 0) {
+    const origPosts = diffInsights.filter(d => d.type === 'original_content');
+    if (origPosts.length >= 2) {
+      const avgEngOrig = Math.round(avg(origPosts.map(d => d.eng)) * 100) / 100;
+      const topOrig = [...origPosts].sort((a,b) => b.likes - a.likes).slice(0, 3);
+      lines.push(`${origPosts.length} posts analyzed — all are original content (predate the agent script system).`);
+      lines.push(`Baseline avg engagement: ${avgEngOrig}%. Top original posts: ${topOrig.map(p => p.likes + ' likes').join(', ')}.`);
+      lines.push(`INSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.`);
+    }
+  }
+
+  diffLearning = lines.length > 0 ? lines.join('\n') : 'Not enough diff data yet (need posted videos that used generated scripts).';
 }
 
 // ============================================================
