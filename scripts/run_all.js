@@ -97,7 +97,6 @@ async function runParallel(steps) {
     }
   }
 
-
   await runParallel([
     ['2. Fetch Internet Trends',  'node scripts/fetch_trends.js'],
     ['2.5 Analyze IG Trends',     'node scripts/instagram_trends.js'],
@@ -124,7 +123,7 @@ async function runParallel(steps) {
     saveStatus();
   }
   run('3.8 Refresh Topic Clusters',  'node scripts/refresh_clusters.js');
-  if (run('4. Run AI Agents',            'node scripts/run_agents.js', { critical: false })) {
+  if (run('4. Run AI Agents',        'node scripts/run_agents.js', { critical: false })) {
     agentsRan = true;
   }
   run('5. Update Second Brain',      'node scripts/update_second_brain.js');
@@ -137,13 +136,14 @@ async function runParallel(steps) {
     status.steps['9__send_telegram'] = { status: 'skipped', reason: 'no fresh data' };
     saveStatus();
   } else {
-    run('9. Send Telegram',            'node scripts/telegram_bot.js');
+    run('9. Send Telegram',          'node scripts/telegram_bot.js');
   }
 
   // Finalize status
   const nonCriticalKeys = new Set([
     '9__send_telegram',
     'notify_pattern_update',
+    '3_6_transcribe_videos',
     '1_5_transcribe_videos',
     '1_5_transcribe_videos_',
     'transcribe',
