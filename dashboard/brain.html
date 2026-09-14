@@ -587,7 +587,7 @@ function renderCapTab(tab) {
   if (!el) return;
   el.innerHTML = '<div class="loading">Loading captions...</div>';
 
-  fetch('../dashboard/data.json?' + Date.now())
+  fetch('data.json?' + Date.now())
     .then(r => r.json())
     .then(data => {
       const myHandle = 'garvit.irl';
