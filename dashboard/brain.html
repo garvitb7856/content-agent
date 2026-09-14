@@ -639,6 +639,7 @@ function renderCapTab(tab) {
         el.innerHTML = '<div class="empty">Failed to load captions: ' + err.message + '</div>';
       });
   }
+window.renderCapTab = renderCapTab;
 
 // ── Performance Archive ───────────────────────────────────────
 function renderPerformance(d){
