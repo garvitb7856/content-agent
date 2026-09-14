@@ -591,11 +591,14 @@ function renderCapTab(tab) {
     .then(r => r.json())
     .then(data => {
       const myHandle = 'garvit.irl';
-      const allPosts = Array.isArray(data) ? data : (data.posts || []);
-
-      const posts = tab === 'mine'
-        ? allPosts.filter(p => (p.username || '').toLowerCase().replace('@','') === myHandle.replace('@',''))
-        : allPosts.filter(p => (p.username || '').toLowerCase().replace('@','') !== myHandle.replace('@',''));
+      const myPosts = data.your_account?.posts || [];
+      const compPosts = [];
+      if (data.competitors) {
+        const comps = Array.isArray(data.competitors) ? data.competitors : Object.values(data.competitors);
+        comps.forEach(c => { if (c.posts) compPosts.push(...c.posts); });
+      }
+      const allPosts = [...myPosts, ...compPosts];
+      const posts = tab === 'mine' ? myPosts : compPosts;
 
       document.getElementById('nc-captions').textContent = allPosts.length;
 
