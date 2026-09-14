@@ -373,10 +373,19 @@
       "hardware"
     ]
   },
-  "lead generation",
-  "pitch agency",
-  "pitch decks",
-  "cold emailing",
-  "b2b leads",
-  "monetizing scraped"
+  {
+    "name": "Agency / lead generation / B2B sales",
+    "keywords": [
+      "lead generation",
+      "pitch agency",
+      "pitch decks",
+      "cold emailing",
+      "b2b leads",
+      "monetizing",
+      "agency",
+      "b2b",
+      "leads",
+      "clients"
+    ]
+  }
 ]

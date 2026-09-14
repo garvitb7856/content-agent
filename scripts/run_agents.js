@@ -91,7 +91,7 @@ function clusterHistory(history) {
   try {
     let rawC = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf8'));
     const clusters = Array.isArray(rawC) ? rawC : (Array.isArray(rawC.clusters) ? rawC.clusters : []);
-    CLUSTERS = clusters;
+    CLUSTERS = clusters.filter(c => c && typeof c === 'object' && Array.isArray(c.keywords));
   } catch(e) {}
 
   const allTitles = [

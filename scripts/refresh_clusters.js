@@ -20,7 +20,7 @@ function loadClusters() {
   try {
     let raw = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf8'));
     const clusters = Array.isArray(raw) ? raw : (Array.isArray(raw.clusters) ? raw.clusters : []);
-    return clusters;
+    return clusters.filter(c => c && typeof c === 'object' && Array.isArray(c.keywords));
   } catch(e) { return []; }
 }
 
