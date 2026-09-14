@@ -147,13 +147,6 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
     </div>
 
     <div id="sec-content-log" class="sec-block">
-      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
-      <div class="sec-title">📋 Content Log — <span>Your Posts Tracked</span></div>
-      <div style="margin-bottom:.75rem">
-        <button class="tab-btn tab-active" id="tab-all" onclick="setLogTab('all')">All Posts</button>
-        <button class="tab-btn tab-inactive" id="tab-attr" onclick="setLogTab('attribution')">🧬 Script Attribution</button>
-      </div>
-      <div id="content-log-content"><div class="loading">Loading...</div></div>
     </div>
 
     <div id="sec-captions" class="sec-block">
@@ -345,7 +338,7 @@ function renderSection(id){
     case'pipeline':  fetchJSON('pipeline_status.json').then(renderPipeline); break;
     case'hooks':     fetchJSON('hook_bank.json').then(renderHooks); break;
     case'scripts':   fetchJSON('competitor_scripts.json').then(renderScripts); break;
-    case'content-log': fetchJSON('content_log.json').then(function(d){renderLog(d,logTab);}); break;
+    case'content-log': fetchJSON('content_log.json?' + Date.now()).then(renderContentLog); break;
     case'performance': fetchJSON('performance_archive.json').then(renderPerformance); break;
     case'patterns':  fetchJSON('patterns.json').then(renderPatterns); break;
     case'agent-context': fetchJSON('agent_context.json').then(renderAgentContext); break;
@@ -490,83 +483,73 @@ function renderScripts(d){
 }
 
 // ── Content Log ───────────────────────────────────────────────
-function renderAttribution(posts){
-  const el=document.getElementById('content-log-content');
-  const attrPosts=posts.filter(p=>p.diffAnalysis);
-  if(!attrPosts.length){el.innerHTML='<div class="empty" style="text-align:left;padding:1.5rem"><b style="color:#94a3b8">No attribution data yet.</b><br><br><span style="color:#475569;font-size:.72rem">Caption diff runs automatically when new posts are detected. It will classify each post as:<br><br>• <b style="color:#10b981">Used AI Script</b> — similarity ≥60% with a generated script<br>• <b style="color:#f59e0b">AI Idea, Own Script</b> — similarity 30–60%<br>• <b style="color:#64748b">Fully Original</b> — similarity &lt;30%<br><br>Check back after tomorrow\'s 9 AM pipeline run.</span></div>';return;}
-  const counts={agent_script_used:0,agent_idea_own_script:0,original_content:0};
-  attrPosts.forEach(p=>{if(p.diffAnalysis&&p.diffAnalysis.classification)counts[p.diffAnalysis.classification]=(counts[p.diffAnalysis.classification]||0)+1;});
-  el.innerHTML=`
-    <div class="stat-row">
-      <div class="stat-box" style="border-color:#10b981"><div class="stat-num" style="color:#10b981">${counts.agent_script_used}</div><div class="stat-lbl">Used AI Script</div></div>
-      <div class="stat-box" style="border-color:#f59e0b"><div class="stat-num" style="color:#f59e0b">${counts.agent_idea_own_script}</div><div class="stat-lbl">Own Script (AI Idea)</div></div>
-      <div class="stat-box" style="border-color:#64748b"><div class="stat-num" style="color:#64748b">${counts.original_content}</div><div class="stat-lbl">Fully Original</div></div>
-    </div>`+
-    attrPosts.map(p=>{
-      const d=p.diffAnalysis||{};
-      const cls=d.classification||'unknown';
-      const color=cls==='agent_script_used'?'#10b981':cls==='agent_idea_own_script'?'#f59e0b':'#64748b';
-      return `<div class="card">
-        <div class="card-title" style="color:#f1f5f9">${esc((p.caption||p.caption_first_line||'').slice(0,80))}...</div>
-        <div class="hook-meta" style="margin-top:.35rem">
-          <span class="tag tag-purple">${cls.replace(/_/g,' ')}</span>
-          <span style="color:#475569">similarity: ${d.similarity!=null?Math.round(d.similarity*100)+'%':'—'}</span>
-          <span>❤️ ${p.likes||p.likes_at_detection||0}</span><span>💬 ${p.comments||p.comments_at_detection||0}</span>
-          ${p.url?`<a href="${p.url}" target="_blank" style="color:#a78bfa">🔗</a>`:''}
+function renderContentLog(data) {
+  const arr = Array.isArray(data) ? data : (data.posts || data.entries || []);
+  document.getElementById('nc-log').textContent = arr.length;
+
+  // Script Attribution counts — keyed by diffAnalysis.type (not .classification)
+  let aiScript = 0, aiIdea = 0, original = 0;
+  arr.forEach(e => {
+    const t = e.diffAnalysis?.type || '';
+    if (t === 'agent_script_used') aiScript++;
+    else if (t === 'agent_idea_own_script') aiIdea++;
+    else if (t === 'original_content') original++;
+  });
+
+  const el = document.getElementById('sec-content-log');
+  if (!el) return;
+
+  // Tab state
+  let activeTab = 'all';
+  const renderTab = () => {
+    const filtered = activeTab === 'attribution'
+      ? arr.filter(e => e.diffAnalysis)
+      : arr;
+    el.innerHTML = `
+      <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
+      <div class="sec-title">📋 Content Log <span>${arr.length} posts tracked</span></div>
+      <div style="margin-bottom:1rem">
+        <button class="tab-btn ${activeTab==='all'?'tab-active':'tab-inactive'}" onclick="clTab('all')">All Posts</button>
+        <button class="tab-btn ${activeTab==='attribution'?'tab-active':'tab-inactive'}" onclick="clTab('attribution')">✦ Script Attribution</button>
+      </div>
+      ${activeTab==='attribution' ? `
+      <div class="stat-row">
+        <div class="stat-box" style="border-color:#10b981">
+          <div class="stat-num" style="color:#10b981">${aiScript}</div>
+          <div class="stat-lbl">Used AI Script</div>
         </div>
-      </div>`;
-    }).join('');
-}
-
-var logTab='all';
-window.setLogTab=function(tab){
-  logTab=tab;
-  document.getElementById('tab-all').className='tab-btn '+(tab==='all'?'tab-active':'tab-inactive');
-  document.getElementById('tab-attr').className='tab-btn '+(tab==='attribution'?'tab-active':'tab-inactive');
-  if(window._logPosts&&window._logPosts.length){
-    if(tab==='attribution') renderAttribution(window._logPosts);
-    else renderLog(window._logPosts,'all');
-  } else {
-    fetchJSON('content_log.json').then(function(d){renderLog(d,tab);});
-  }
-};
-
-function renderLog(d,tab){
-  var el=document.getElementById('content-log-content');
-  var posts=unwrapArray(d);
-  window._logPosts=posts;
-  if(!posts.length){el.innerHTML='<div class="empty">No posts tracked yet</div>';return;}
-
-  if(tab==='attribution'){
-    renderAttribution(posts);
-    return;
-  }
-
-  // All posts view
-  posts=posts.slice().sort(function(a,b){return(b.likes_at_detection||0)-(a.likes_at_detection||0);});
-  var formatCounts={};
-  posts.forEach(function(p){formatCounts[p.format]=(formatCounts[p.format]||0)+1;});
-  var html='<div class="stat-row">'
-    +'<div class="stat-box" style="border-color:#10b981"><div class="stat-num" style="color:#10b981">'+posts.length+'</div><div class="stat-lbl">Posts Tracked</div></div>';
-  Object.entries(formatCounts).forEach(function(e){
-    html+='<div class="stat-box" style="border-color:#6366f1"><div class="stat-num" style="color:#6366f1">'+e[1]+'</div><div class="stat-lbl">'+esc(e[0])+'s</div></div>';
-  });
-  html+='</div>';
-  html+='<div class="tw"><table><thead><tr><th>Post</th><th>Format</th><th>Hook Type</th><th>Likes</th><th>Comments</th><th>Detected</th><th>48h Done</th></tr></thead><tbody>';
-  posts.forEach(function(p){
-    var perf=p.performance_complete?'<span class="tag tag-green">✅ Done</span>':'<span class="tag tag-gray">Pending</span>';
-    html+='<tr>'
-      +'<td style="max-width:200px"><a href="'+esc(p.url||'')+'" target="_blank" style="color:#a78bfa;text-decoration:none">'+esc((p.caption_first_line||'').substring(0,60))+'...</a></td>'
-      +'<td><span class="tag tag-blue">'+esc(p.format||'')+'</span></td>'
-      +'<td><span class="tag tag-purple">'+esc(p.hook_type||'')+'</span></td>'
-      +'<td style="color:#f1f5f9;font-weight:700">'+fmt(p.likes_at_detection)+'</td>'
-      +'<td>'+fmt(p.comments_at_detection)+'</td>'
-      +'<td>'+istTime(p.detected_at)+'</td>'
-      +'<td>'+perf+'</td>'
-      +'</tr>';
-  });
-  html+='</tbody></table></div>';
-  el.innerHTML=html;
+        <div class="stat-box" style="border-color:#a855f7">
+          <div class="stat-num" style="color:#a855f7">${aiIdea}</div>
+          <div class="stat-lbl">Own Script (AI Idea)</div>
+        </div>
+        <div class="stat-box" style="border-color:#38bdf8">
+          <div class="stat-num" style="color:#38bdf8">${original}</div>
+          <div class="stat-lbl">Fully Original</div>
+        </div>
+        <div class="stat-box" style="border-color:#475569">
+          <div class="stat-num" style="color:#64748b">${arr.filter(e=>!e.diffAnalysis).length}</div>
+          <div class="stat-lbl">Not Yet Analysed</div>
+        </div>
+      </div>` : ''}
+      <div class="tw"><table>
+        <thead><tr><th>Caption</th><th>Format</th><th>Likes</th><th>Comments</th>${activeTab==='attribution'?'<th>Attribution</th>':''}<th>Detected</th></tr></thead>
+        <tbody>${filtered.map(e => {
+          const da = e.diffAnalysis;
+          const tagCls = da?.type==='agent_script_used'?'tag-green':da?.type==='agent_idea_own_script'?'tag-purple':da?.type==='original_content'?'tag-blue':'tag-gray';
+          const tagLabel = da?.type==='agent_script_used'?'AI Script':da?.type==='agent_idea_own_script'?'AI Idea':'Original';
+          return `<tr>
+            <td style="max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(e.caption_first_line||e.url||e.id)}</td>
+            <td>${esc(e.format||'—')}</td>
+            <td>${e.likes_at_detection??'—'}</td>
+            <td>${e.comments_at_detection??'—'}</td>
+            ${activeTab==='attribution'?`<td>${da?`<span class="tag ${tagCls}">${tagLabel}</span><div style="font-size:.6rem;color:#475569;margin-top:.2rem">${esc(da.summary||'')}</div>`:'<span class="tag tag-gray">Pending</span>'}</td>`:''}
+            <td style="white-space:nowrap;color:#475569">${e.detected_at?e.detected_at.slice(0,10):'—'}</td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table></div>`;
+  };
+  window.clTab = (t) => { activeTab=t; renderTab(); };
+  renderTab();
 }
 
 function renderCaptions(data){
