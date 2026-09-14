@@ -99,14 +99,18 @@ async function run() {
   let processed = 0;
 
   for (const entry of contentLog) {
-    if (entry.diffAnalysis) continue;
-    // Transcripts may be named {id}.json OR {id}_{userId}.json
+    if (entry.diffAnalysis && entry.diffAnalysis.analysedAt) continue;
     const allTranscriptFiles = fs.existsSync(TRANSCRIPTS_DIR) ? fs.readdirSync(TRANSCRIPTS_DIR) : [];
     const transcriptFile = allTranscriptFiles.find(f => f === entry.id + '.json' || f.startsWith(entry.id + '_'));
-    if (!transcriptFile) continue;
     let transcript = '';
-    try { const t = JSON.parse(fs.readFileSync(path.join(TRANSCRIPTS_DIR, transcriptFile),'utf8')); transcript = t.transcript||t.text||''; } catch(e) { continue; }
-    if (!transcript || transcript.length < 20) continue;
+    if (transcriptFile) {
+      try { const t = JSON.parse(fs.readFileSync(path.join(TRANSCRIPTS_DIR, transcriptFile),'utf8')); transcript = t.transcript||t.text||''; } catch(e) {}
+    }
+    // Fallback: use caption when no transcript exists
+    if (!transcript || transcript.length < 20) {
+      transcript = (entry.caption_first_line || '').trim();
+    }
+    if (!transcript || transcript.length < 10) continue;
 
     let bestMatch = null, bestScore = 0;
     for (const script of scripts) {
