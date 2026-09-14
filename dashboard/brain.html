@@ -153,11 +153,52 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
       <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">✍️ Captions — <span>Full Post Captions</span></div>
       <div style="display:flex;gap:.5rem;margin-bottom:1rem">
-        <button class="tab-btn cap-tab-btn active tab-active" data-tab="mine" id="cap-btn-mine">My Posts</button>
-        <button class="tab-btn cap-tab-btn inactive tab-inactive" data-tab="competitors" id="cap-btn-comp">Competitors</button>
+        <button class="tab-btn cap-tab-btn tab-active" onclick="capTab('mine',this)">My Posts</button>
+        <button class="tab-btn cap-tab-btn tab-inactive" onclick="capTab('competitors',this)">Competitors</button>
       </div>
       <div id="captions-content"></div>
     </div>
+    <script>
+    function capTab(tab, btn) {
+      document.querySelectorAll('.cap-tab-btn').forEach(function(b){
+        b.className = 'tab-btn cap-tab-btn ' + (b === btn ? 'tab-active' : 'tab-inactive');
+      });
+      var el = document.getElementById('captions-content');
+      el.innerHTML = '<div class="loading">Loading...</div>';
+      fetch('data.json?_=' + Date.now())
+        .then(function(r){ return r.json(); })
+        .then(function(data) {
+          var myPosts = (data.your_account && data.your_account.posts) ? data.your_account.posts : [];
+          var compPosts = [];
+          if (data.competitors) {
+            Object.values(data.competitors).forEach(function(c){
+              if (c && c.posts) compPosts.push.apply(compPosts, c.posts);
+            });
+          }
+          var posts = tab === 'mine' ? myPosts : compPosts;
+          var nc = document.getElementById('nc-captions');
+          if (nc) nc.textContent = myPosts.length + compPosts.length;
+          if (!posts.length) { el.innerHTML = '<div class="empty">No posts found.</div>'; return; }
+          el.innerHTML = posts.map(function(p) {
+            var caption = (p.caption || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+            var date = p.timestamp ? new Date(p.timestamp).toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}) : '';
+            return '<div class="card" style="margin-bottom:.75rem">'
+              + '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.4rem;flex-wrap:wrap;gap:.35rem">'
+              + '<span style="font-size:.72rem;font-weight:700;color:#a78bfa">@' + (p.username||'') + '</span>'
+              + '<span style="display:flex;gap:.4rem;align-items:center">'
+              + (p.type ? '<span class="tag tag-purple">'+p.type+'</span>' : '')
+              + (date ? '<span style="font-size:.62rem;color:#475569">'+date+'</span>' : '')
+              + '</span></div>'
+              + '<div style="font-size:.78rem;color:#cbd5e1;line-height:1.6;white-space:pre-wrap;margin-bottom:.5rem">' + (caption || '<span style="color:#334155;font-style:italic">No caption</span>') + '</div>'
+              + '<div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap">'
+              + '<span style="font-size:.68rem;color:#475569">❤️ ' + (p.likes||0).toLocaleString() + '  💬 ' + (p.comments||0).toLocaleString() + '</span>'
+              + (p.url ? '<a href="'+p.url+'" target="_blank" style="font-size:.65rem;color:#7c3aed;text-decoration:none;background:rgba(124,58,237,.12);padding:.15rem .45rem;border-radius:4px;border:1px solid rgba(124,58,237,.2)">↗ View post</a>' : '')
+              + '</div></div>';
+          }).join('');
+        })
+        .catch(function(err){ el.innerHTML = '<div class="empty">Error: '+err.message+'</div>'; });
+    }
+    </script>
 
     <div id="sec-performance" class="sec-block">
       <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
