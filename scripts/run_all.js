@@ -116,6 +116,13 @@ async function runParallel(steps) {
 
   run('3. Detect Posted',            'node scripts/detect_posted.js');
   run('3.5 Caption Diff',            'node scripts/caption_diff.js');
+  if (freshFetch) {
+    run('3.6 Transcribe Videos',     'node scripts/transcribe.js');
+  } else {
+    console.log('\n⏭ Skipping transcription — no fresh Apify data this run.');
+    status.steps['3_6_transcribe_videos'] = { status: 'skipped', reason: 'no fresh fetch' };
+    saveStatus();
+  }
   run('3.8 Refresh Topic Clusters',  'node scripts/refresh_clusters.js');
   if (run('4. Run AI Agents',            'node scripts/run_agents.js', { critical: false })) {
     agentsRan = true;
