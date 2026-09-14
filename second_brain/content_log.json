@@ -45,7 +45,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 12,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3887473602081805309",
@@ -61,7 +68,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 8,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3912815066596754397",
@@ -93,7 +107,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 11,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3946143846389680373",
@@ -109,7 +130,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 12,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3978841653607163768",
@@ -125,7 +153,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 12,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3935999725371283912",
@@ -141,7 +176,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 9,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3957762440078942729",
@@ -157,7 +199,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 4,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3959199459221110837",
@@ -173,7 +222,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 9,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3974937548342087370",
@@ -189,7 +245,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 10,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3976582731043373845",
@@ -205,7 +268,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 9,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3970782274798662809",
@@ -221,7 +291,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 9,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3954142402868550420",
@@ -237,7 +314,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 7,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3964987942178995784",
@@ -253,7 +337,14 @@
     "likes_at_48h": null,
     "comments_at_48h": null,
     "performance_complete": false,
-    "archived": true
+    "archived": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 10,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-14T12:07:49.103Z"
+    }
   },
   {
     "id": "3980316398731818401_65880404765",

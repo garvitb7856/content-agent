@@ -100,10 +100,12 @@ async function run() {
 
   for (const entry of contentLog) {
     if (entry.diffAnalysis) continue;
-    const transcriptPath = path.join(TRANSCRIPTS_DIR, entry.id + '.json');
-    if (!fs.existsSync(transcriptPath)) continue;
+    // Transcripts may be named {id}.json OR {id}_{userId}.json
+    const allTranscriptFiles = fs.existsSync(TRANSCRIPTS_DIR) ? fs.readdirSync(TRANSCRIPTS_DIR) : [];
+    const transcriptFile = allTranscriptFiles.find(f => f === entry.id + '.json' || f.startsWith(entry.id + '_'));
+    if (!transcriptFile) continue;
     let transcript = '';
-    try { const t = JSON.parse(fs.readFileSync(transcriptPath,'utf8')); transcript = t.transcript||t.text||''; } catch(e) { continue; }
+    try { const t = JSON.parse(fs.readFileSync(path.join(TRANSCRIPTS_DIR, transcriptFile),'utf8')); transcript = t.transcript||t.text||''; } catch(e) { continue; }
     if (!transcript || transcript.length < 20) continue;
 
     let bestMatch = null, bestScore = 0;
