@@ -590,10 +590,16 @@ function renderCapTab(tab) {
         const myPosts = (data.your_account && data.your_account.posts) ? data.your_account.posts : [];
         const compPosts = [];
         if (data.competitors) {
-          Object.values(data.competitors).forEach(c => {
-            if (c && c.posts) compPosts.push(...c.posts);
+          const compEntries = Array.isArray(data.competitors)
+            ? data.competitors
+            : Object.values(data.competitors);
+          compEntries.forEach(c => {
+            if (!c) return;
+            const postArr = c.posts || c.data || [];
+            compPosts.push(...postArr);
           });
         }
+        console.log('[Brain] myPosts:', myPosts.length, 'compPosts:', compPosts.length, 'competitors keys:', data.competitors ? Object.keys(data.competitors) : 'none');
         const posts = tab === 'mine' ? myPosts : compPosts;
 
         // update sidebar count
@@ -601,7 +607,7 @@ function renderCapTab(tab) {
         if (nc) nc.textContent = myPosts.length + compPosts.length;
 
         if (!posts.length) {
-          el.innerHTML = '<div class="empty">No posts found.</div>';
+          el.innerHTML = '<div class="empty">No posts found. Open browser DevTools (F12) → Console to see debug info.</div>';
           return;
         }
 
