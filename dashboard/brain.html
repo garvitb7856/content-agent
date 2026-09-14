@@ -153,8 +153,8 @@ footer{text-align:center;padding:1.5rem;color:#1e293b;font-size:.68rem;border-to
       <button class="mob-back" onclick="openMobNav()">☰ Menu</button>
       <div class="sec-title">✍️ Captions — <span>Full Post Captions</span></div>
       <div style="display:flex;gap:.5rem;margin-bottom:1rem">
-        <button class="tab-btn cap-tab-btn active tab-active" data-tab="mine" onclick="renderCapTab('mine')">My Posts</button>
-        <button class="tab-btn cap-tab-btn inactive tab-inactive" data-tab="competitors" onclick="renderCapTab('competitors')">Competitors</button>
+        <button class="tab-btn cap-tab-btn active tab-active" data-tab="mine" id="cap-btn-mine">My Posts</button>
+        <button class="tab-btn cap-tab-btn inactive tab-inactive" data-tab="competitors" id="cap-btn-comp">Competitors</button>
       </div>
       <div id="captions-content"></div>
     </div>
@@ -639,7 +639,13 @@ function renderCapTab(tab) {
         el.innerHTML = '<div class="empty">Failed to load captions: ' + err.message + '</div>';
       });
   }
-window.renderCapTab = renderCapTab;
+  window.renderCapTab = renderCapTab;
+  document.addEventListener('DOMContentLoaded', function() {
+    var bm = document.getElementById('cap-btn-mine');
+    var bc = document.getElementById('cap-btn-comp');
+    if (bm) bm.addEventListener('click', function(){ renderCapTab('mine'); });
+    if (bc) bc.addEventListener('click', function(){ renderCapTab('competitors'); });
+  });
 
 // ── Performance Archive ───────────────────────────────────────
 function renderPerformance(d){
