@@ -576,22 +576,57 @@ function renderCaptions(data){
     .catch(function(e){el.innerHTML='<div class="empty">Error: '+e.message+'</div>';});
 }
 
-function renderCapTab(tab){
-  document.querySelectorAll('.cap-tab-btn').forEach(function(b){
-    b.className='tab-btn cap-tab-btn '+(b.dataset.tab===tab?'tab-active':'tab-inactive');
+function renderCapTab(tab) {
+  // Update tab button styles
+  document.querySelectorAll('.cap-tab-btn').forEach(b => {
+    const isActive = b.dataset.tab === tab;
+    b.className = 'tab-btn cap-tab-btn ' + (isActive ? 'tab-active active' : 'tab-inactive inactive');
   });
-  var posts=tab==='mine'?(window._capMine||[]):(window._capComps||[]);
-  var el=document.getElementById('captions-content');
-  if(!posts.length){el.innerHTML='<div class="empty">No posts loaded yet.</div>';return;}
-  el.innerHTML=posts.map(function(p){
-    return '<div class="card">'+
-      '<div class="card-title">@'+(p.username||'unknown')+
-      ' <span style="color:#475569;font-weight:400">❤️ '+(p.likes||0)+' &nbsp;💬 '+(p.comments||0)+'</span></div>'+
-      '<div class="card-sub" style="white-space:pre-wrap;margin-top:.4rem;color:#94a3b8">'+
-        (p.caption||'(no caption)').replace(/</g,'&lt;')+'</div>'+
-      (p.url?'<a href="'+p.url+'" target="_blank" style="color:#a78bfa;font-size:.62rem;display:block;margin-top:.35rem">🔗 View post</a>':'')+
-      '</div>';
-  }).join('');
+
+  const el = document.getElementById('captions-content');
+  if (!el) return;
+  el.innerHTML = '<div class="loading">Loading captions...</div>';
+
+  fetch('../dashboard/data.json?' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const myHandle = 'garvit.irl';
+      const allPosts = Array.isArray(data) ? data : (data.posts || []);
+
+      const posts = tab === 'mine'
+        ? allPosts.filter(p => (p.username || '').toLowerCase().replace('@','') === myHandle.replace('@',''))
+        : allPosts.filter(p => (p.username || '').toLowerCase().replace('@','') !== myHandle.replace('@',''));
+
+      document.getElementById('nc-captions').textContent = allPosts.length;
+
+      if (!posts.length) {
+        el.innerHTML = '<div class="empty">No posts found for this tab.</div>';
+        return;
+      }
+
+      el.innerHTML = '<div class="tw"><table>' +
+        '<thead><tr><th>Account</th><th>Caption</th><th>Likes</th><th>Comments</th><th>Link</th></tr></thead>' +
+        '<tbody>' + posts.map(p => {
+          const cap = (p.caption || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+          const preview = cap.length > 120 ? cap.slice(0,120) + '…' : cap;
+          const full = cap.replace(/\n/g,'<br>');
+          const id = 'cap-' + (p.id || Math.random().toString(36).slice(2));
+          return `<tr>
+            <td style="white-space:nowrap;color:#a78bfa;font-weight:600">@${p.username||'—'}</td>
+            <td style="max-width:300px">
+              <div id="${id}-short">${preview} ${cap.length>120?`<span onclick="document.getElementById('${id}-short').style.display='none';document.getElementById('${id}-full').style.display='block'" style="color:#6366f1;cursor:pointer;font-size:.68rem">[more]</span>`:''}</div>
+              <div id="${id}-full" style="display:none">${full} <span onclick="document.getElementById('${id}-full').style.display='none';document.getElementById('${id}-short').style.display='block'" style="color:#6366f1;cursor:pointer;font-size:.68rem">[less]</span></div>
+            </td>
+            <td>${p.likes??'—'}</td>
+            <td>${p.comments??'—'}</td>
+            <td>${p.url?`<a href="${p.url}" target="_blank" style="color:#6366f1;font-size:.68rem">↗ View</a>`:'—'}</td>
+          </tr>`;
+        }).join('') +
+        '</tbody></table></div>';
+    })
+    .catch(e => {
+      el.innerHTML = '<div class="empty">Failed to load captions: ' + e.message + '</div>';
+    });
 }
 
 // ── Performance Archive ───────────────────────────────────────
