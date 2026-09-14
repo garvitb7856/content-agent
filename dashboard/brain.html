@@ -577,60 +577,62 @@ function renderCaptions(data){
 }
 
 function renderCapTab(tab) {
-  // Update tab button styles
-  document.querySelectorAll('.cap-tab-btn').forEach(b => {
-    const isActive = b.dataset.tab === tab;
-    b.className = 'tab-btn cap-tab-btn ' + (isActive ? 'tab-active active' : 'tab-inactive inactive');
-  });
-
-  const el = document.getElementById('captions-content');
-  if (!el) return;
-  el.innerHTML = '<div class="loading">Loading captions...</div>';
-
-  fetch('data.json?' + Date.now())
-    .then(r => r.json())
-    .then(data => {
-      const myHandle = 'garvit.irl';
-      const myPosts = data.your_account?.posts || [];
-      const compPosts = [];
-      if (data.competitors) {
-        const comps = Array.isArray(data.competitors) ? data.competitors : Object.values(data.competitors);
-        comps.forEach(c => { if (c.posts) compPosts.push(...c.posts); });
-      }
-      const allPosts = [...myPosts, ...compPosts];
-      const posts = tab === 'mine' ? myPosts : compPosts;
-
-      document.getElementById('nc-captions').textContent = allPosts.length;
-
-      if (!posts.length) {
-        el.innerHTML = '<div class="empty">No posts found for this tab.</div>';
-        return;
-      }
-
-      el.innerHTML = '<div class="tw"><table>' +
-        '<thead><tr><th>Account</th><th>Caption</th><th>Likes</th><th>Comments</th><th>Link</th></tr></thead>' +
-        '<tbody>' + posts.map(p => {
-          const cap = (p.caption || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-          const preview = cap.length > 120 ? cap.slice(0,120) + '…' : cap;
-          const full = cap.replace(/\n/g,'<br>');
-          const id = 'cap-' + (p.id || Math.random().toString(36).slice(2));
-          return `<tr>
-            <td style="white-space:nowrap;color:#a78bfa;font-weight:600">@${p.username||'—'}</td>
-            <td style="max-width:300px">
-              <div id="${id}-short">${preview} ${cap.length>120?`<span onclick="document.getElementById('${id}-short').style.display='none';document.getElementById('${id}-full').style.display='block'" style="color:#6366f1;cursor:pointer;font-size:.68rem">[more]</span>`:''}</div>
-              <div id="${id}-full" style="display:none">${full} <span onclick="document.getElementById('${id}-full').style.display='none';document.getElementById('${id}-short').style.display='block'" style="color:#6366f1;cursor:pointer;font-size:.68rem">[less]</span></div>
-            </td>
-            <td>${p.likes??'—'}</td>
-            <td>${p.comments??'—'}</td>
-            <td>${p.url?`<a href="${p.url}" target="_blank" style="color:#6366f1;font-size:.68rem">↗ View</a>`:'—'}</td>
-          </tr>`;
-        }).join('') +
-        '</tbody></table></div>';
-    })
-    .catch(e => {
-      el.innerHTML = '<div class="empty">Failed to load captions: ' + e.message + '</div>';
+    document.querySelectorAll('.cap-tab-btn').forEach(b => {
+      b.classList.toggle('tab-active', b.dataset.tab === tab);
+      b.classList.toggle('tab-inactive', b.dataset.tab !== tab);
     });
-}
+    const el = document.getElementById('captions-content');
+    el.innerHTML = '<div class="loading">Loading...</div>';
+
+    fetch('data.json?_=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        const myPosts = (data.your_account && data.your_account.posts) ? data.your_account.posts : [];
+        const compPosts = [];
+        if (data.competitors) {
+          Object.values(data.competitors).forEach(c => {
+            if (c && c.posts) compPosts.push(...c.posts);
+          });
+        }
+        const posts = tab === 'mine' ? myPosts : compPosts;
+
+        // update sidebar count
+        const nc = document.getElementById('nc-captions');
+        if (nc) nc.textContent = myPosts.length + compPosts.length;
+
+        if (!posts.length) {
+          el.innerHTML = '<div class="empty">No posts found.</div>';
+          return;
+        }
+
+        el.innerHTML = posts.map(p => {
+          const caption = (p.caption || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+          const url = p.url || '';
+          const username = p.username || '';
+          const likes = p.likes || 0;
+          const comments = p.comments || 0;
+          const type = p.type || '';
+          const date = p.timestamp ? new Date(p.timestamp).toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}) : '';
+          return `<div class="card" style="margin-bottom:.75rem">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.4rem;flex-wrap:wrap;gap:.35rem">
+              <span style="font-size:.72rem;font-weight:700;color:#a78bfa">@${username}</span>
+              <span style="display:flex;gap:.4rem;align-items:center">
+                ${type ? `<span class="tag tag-purple">${type}</span>` : ''}
+                ${date ? `<span style="font-size:.62rem;color:#475569">${date}</span>` : ''}
+              </span>
+            </div>
+            <div style="font-size:.78rem;color:#cbd5e1;line-height:1.6;white-space:pre-wrap;margin-bottom:.5rem">${caption || '<span style="color:#334155;font-style:italic">No caption</span>'}</div>
+            <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap">
+              <span style="font-size:.68rem;color:#475569">❤️ ${likes.toLocaleString()}  💬 ${comments.toLocaleString()}</span>
+              ${url ? `<a href="${url}" target="_blank" style="font-size:.65rem;color:#7c3aed;text-decoration:none;background:rgba(124,58,237,.12);padding:.15rem .45rem;border-radius:4px;border:1px solid rgba(124,58,237,.2)">↗ View post</a>` : ''}
+            </div>
+          </div>`;
+        }).join('');
+      })
+      .catch(err => {
+        el.innerHTML = '<div class="empty">Failed to load captions: ' + err.message + '</div>';
+      });
+  }
 
 // ── Performance Archive ───────────────────────────────────────
 function renderPerformance(d){
