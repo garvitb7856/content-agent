@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-14",
-  "end_date": "2026-09-21",
+  "generated_on": "2026-09-15",
+  "end_date": "2026-09-22",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-14",
-      "topic": "Testing Raj Shamani’s viral business idea using Emergent AI in 24 hours",
+      "date": "2026-09-15",
+      "topic": "Free Local Lead Scraper using Claude & Google Maps",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "I tested Raj Shamani’s viral business idea using AI.",
+      "hook": "Stop paying thousands for lead generation databases. Use this instead.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-15",
-      "topic": "The OpenAI India Hackathon Playbook: How 3 winners beat 13,000 developers",
+      "date": "2026-09-16",
+      "topic": "Local LLM vs API Cost Calculator for Indian Tech Founders",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "How 3 devs won the OpenAI India Hackathon.",
+      "post_time": "7:15 PM IST",
+      "hook": "When should you switch from OpenAI to local AI models?",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-16",
-      "topic": "YouTube's NotebookLM demonetization trap and how Indian creators can bypass it",
+      "date": "2026-09-17",
+      "topic": "World Monitor: Real-time Global Dashboard Tool Breakdown",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "NotebookLM is getting Indian YouTube channels demonetized fast.",
+      "post_time": "6:45 PM IST",
+      "hook": "Track live global activity with this free open-source dashboard.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-17",
-      "topic": "Free open-source voice cloning tool (OmniVoice) setup & step-by-step breakdown",
+      "date": "2026-09-18",
+      "topic": "5 Must-Install Claude Code Plugins for High-End UI Design",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Stop paying ElevenLabs! Clone your voice for free.",
+      "post_time": "8:00 PM IST",
+      "hook": "Five Claude plugins to make your frontend designs look professional.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-18",
-      "topic": "Fixing generic AI UI designs using Taste Skill & Claude Code plugins",
+      "date": "2026-09-19",
+      "topic": "Cloning Your Voice to Create Faceless AI Videos",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Your AI website looks ugly because of this mistake.",
+      "post_time": "7:00 PM IST",
+      "hook": "How to clone your voice and make AI content fast.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-19",
-      "topic": "The 7,000 Smart Camera Leak: Smart home security checklist for Indian homes",
+      "date": "2026-09-20",
+      "topic": "Step-by-step Guide to Building On-Brand UI with Replit Design Agent",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "7,000 smart cameras got leaked without any hacking.",
+      "post_time": "7:30 PM IST",
+      "hook": "Build custom UI designs without any design experience.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-20",
-      "topic": "Automating client outreach by finding weak Amazon listings using AI",
+      "date": "2026-09-21",
+      "topic": "How to Run Open-Source AI Models Locally in 60 Seconds",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "Automate finding client emails on Amazon using AI.",
+      "hook": "Run powerful AI models on your laptop completely free.",
       "status": "pending"
     }
   ]

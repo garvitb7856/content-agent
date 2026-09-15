@@ -781,6 +781,11 @@
     "url": "https://www.instagram.com/p/DdMPB5VSxuX/",
     "type": "Video",
     "loggedAt": "2026-09-13T03:31:34.304Z",
-    "archived": false
+    "archived": true,
+    "likes_at_48h": 40,
+    "comments_at_48h": 11,
+    "engagement_at_48h": 0.8,
+    "followers_at_post": 6386,
+    "performance_complete": true
   }
 ]

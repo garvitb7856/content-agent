@@ -1,0 +1,11 @@
+{
+  "postId": "3967692962560307195_24040950",
+  "handle": "arshman",
+  "postUrl": "https://www.instagram.com/p/DcQE7pLOW_7/",
+  "transcript": "Everyone is talking about open source or local AI models, but why do we need them? And how to set it up in under 60 seconds? Number one benefit is it's totally free, and you can run it on your own computer. And you don't have to pay for any subscriptions. Second is privacy. You can upload sensitive data or your client information, and it stays on your computer. And the last one is control. You can build your own AI agent on top of it, and you don't have to worry about getting it banned from Anthropic or OpenAI. Now to set it up, go to this website and click on Downloads. Download it for your operating system and then open the app. Now go back to the website and click on Models, and you can find all top available open source AI models here. I'll select Qwen 3.5 with 9 billion parameters, which ranks above Opus 4.5. Now to download this model, copy this CLI command. Open your terminal if you are using Mac, or PowerShell if you're using Windows, and then paste this command. Once it's downloaded, open your Ollama app, click on drop-down menu, and select the downloaded model. And now you can literally use it like ChatGPT or Claude, but free and private. Now if you want to build your first local AI agent, then follow me, and I'll see you in the next one.",
+  "caption": "Everyone is talking about open-source or local AI models.\n\nBut why do we need them?\n\nAnd how do you set one up in under 60 seconds?\n\nNumber one is it’s totally free. You can run it on your computer, and you don’t have to pay for subscriptions.\n\nSecond is privacy. You can upload sensitive information",
+  "timestamp": "2026-08-20T06:08:17.000Z",
+  "transcribedAt": "2026-09-15T03:40:00.932Z",
+  "likes": 0,
+  "comments": 0
+}

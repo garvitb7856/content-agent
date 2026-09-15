@@ -1,57 +1,13 @@
 {
-  "generated_at": "2026-09-14T10:27:14.357Z",
+  "generated_at": "2026-09-15T03:31:40.979Z",
   "hotRightNow": [
-    {
-      "username": "thevarunmayya",
-      "caption": "From 13,000 to 3 winners. Thank you to everyone who participated: your time and energy was channeled",
-      "likes": 19863,
-      "comments": 133,
-      "engagement": 19996,
-      "engRate": "1.57",
-      "timestamp": "2026-09-13T14:51:30.000Z",
-      "url": "https://www.instagram.com/p/DdO0TLoAXqz/",
-      "type": "Post"
-    },
-    {
-      "username": "ishansharma7390",
-      "caption": "still not over the apple event san francisco trip.🥹✨\n\nOnly @joshuakarthikr can make my life look li",
-      "likes": 6400,
-      "comments": 31,
-      "engagement": 6431,
-      "engRate": "0.51",
-      "timestamp": "2026-09-13T12:09:31.000Z",
-      "url": "https://www.instagram.com/p/DdOhw4UjEiF/",
-      "type": "Post"
-    },
-    {
-      "username": "vaibhavsisinty",
-      "caption": "Two days after I said it on stage, OpenAI proved it.\n\nI was in a fireside with @pchandok , President",
-      "likes": 3784,
-      "comments": 20,
-      "engagement": 3804,
-      "engRate": "0.18",
-      "timestamp": "2026-09-13T14:56:57.000Z",
-      "url": "https://www.instagram.com/p/DdO07GHlHMh/",
-      "type": "Post"
-    },
-    {
-      "username": "nick_saraev",
-      "caption": "Comment \"GOOGLE\" to get this Free Google Maps Scraper AI Tool. \n\nThis free AI tool lets you scrape u",
-      "likes": 1066,
-      "comments": 1558,
-      "engagement": 2624,
-      "engRate": "0.39",
-      "timestamp": "2026-09-14T02:44:43.000Z",
-      "url": "https://www.instagram.com/p/DdQF09DPR04/",
-      "type": "Video"
-    },
     {
       "username": "nivedan.ai",
       "caption": "If you’re trying to understand where AI is heading, save this carousel. 👀🤖\n\nI’ve put together 5 mu",
-      "likes": 48,
-      "comments": 30,
-      "engagement": 78,
-      "engRate": "0.01",
+      "likes": 152,
+      "comments": 150,
+      "engagement": 302,
+      "engRate": "0.06",
       "timestamp": "2026-09-14T09:15:34.000Z",
       "url": "https://www.instagram.com/p/DdQypotCfSo/",
       "type": "Post"
@@ -60,12 +16,12 @@
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 5940,
-      "count": 41
+      "avgEng": 6612,
+      "count": 34
     },
     {
       "format": "post",
-      "avgEng": 4248,
+      "avgEng": 4538,
       "count": 13
     }
   ],
@@ -79,52 +35,52 @@
       "appearsIn": "4 top posts"
     },
     {
-      "topic": "claude",
-      "appearsIn": "3 top posts"
-    },
-    {
       "topic": "money",
       "appearsIn": "3 top posts"
     },
     {
       "topic": "agent",
       "appearsIn": "3 top posts"
+    },
+    {
+      "topic": "openai",
+      "appearsIn": "3 top posts"
     }
   ],
   "bestPostingWindow": [
-    "20:00 IST (4 top posts)",
-    "19:00 IST (3 top posts)",
+    "19:00 IST (4 top posts)",
+    "20:00 IST (3 top posts)",
     "23:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 64125,
+      "likes": 64395,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98297,
+      "likes": 98298,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 78135,
+      "likes": 78784,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 21224,
+      "likes": 21459,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 66543,
+      "likes": 66849,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]
