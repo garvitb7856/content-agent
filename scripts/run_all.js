@@ -111,6 +111,7 @@ async function runParallel(steps) {
     ['Detect New Posts',           'node scripts/detect_new_posts.js'],
   ]);
   run('Compute Patterns',            'node scripts/compute_patterns.js');
+  run('Analyze Brand Voice',         'node scripts/analyze_brand_voice.js');
   run('Notify Pattern Update',       'node scripts/notify_pattern_update.js');
 
   run('3. Detect Posted',            'node scripts/detect_posted.js');

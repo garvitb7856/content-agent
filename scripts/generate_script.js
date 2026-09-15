@@ -100,12 +100,14 @@ function loadIntelligence() {
     }
   } catch(e) {}
 
-  return { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts, competitorCaptions };
+  const brandVoice = safeRead(path.join(ROOT, 'second_brain/brand_voice.json'), {});
+
+  return { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts, competitorCaptions, brandVoice };
 }
 
 // ── BUILD SCRIPT PROMPT ───────────────────────────────────────
 function buildScriptPrompt(idea, intel) {
-  const { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts, competitorCaptions = [] } = intel;
+  const { hookBank, compScripts, patterns, agentCtx, trends, transcripts, myTopPosts, compTopPosts, competitorCaptions = [], brandVoice = {} } = intel;
 
   const capContext = competitorCaptions.length
     ? `\nTOP COMPETITOR CAPTIONS (study their caption structure, hooks, CTAs, emojis):\n` +
@@ -150,6 +152,59 @@ function buildScriptPrompt(idea, intel) {
     .map(t => `  [${t.source}] ${t.title}`)
     .join('\n');
 
+  const bv = brandVoice.gemini_analysis || {};
+  const svs = bv.garvit_speaking_style || {};
+  const gws = bv.garvit_writing_style || {};
+  const cvp = bv.competitor_speaking_patterns || {};
+  const verdict = bv.verdict || {};
+
+  // Brand voice section
+  const brandVoiceSection = bv.verdict ? `
+GARVIT'S BRAND VOICE — HOW HE SPEAKS ON CAMERA:
+${svs.summary || ''}
+• Sentence style: ${svs.sentence_structure || ''}
+• Language: ${svs.language_mix || ''}
+• Tone: ${svs.tone || ''} | Pacing: ${svs.pacing || ''}
+• Signature phrases: ${(svs.signature_phrases||[]).join(', ')}
+• What makes it work: ${svs.what_makes_it_work || ''}
+
+HOW GARVIT WRITES CAPTIONS (different from how he speaks):
+${gws.summary || ''}
+• Caption structure: ${gws.caption_structure || ''}
+• CTA patterns: ${(gws.cta_patterns||[]).join(' | ')}
+
+WHAT MAKES COMPETITOR SCRIPTS GO VIRAL (study but don't copy):
+${cvp.summary || ''}
+• Viral hook patterns: ${(cvp.viral_hook_patterns||[]).join(' | ')}
+• Viral body structure: ${cvp.viral_body_structure || ''}
+• Key difference from Garvit: ${cvp.key_difference_from_garvit || ''}
+
+VERDICT — WHOSE STYLE GOES VIRAL FOR GARVIT:
+${verdict.whose_style_goes_viral || 'Accumulating data'}: ${verdict.reasoning || ''}
+• Recommended hook structure: ${verdict.recommended_hook_structure || 'pattern_interrupt, ≤10 words, contrarian opening'}
+• Recommended body structure: ${verdict.recommended_body_structure || ''}
+• Recommended CTA: ${verdict.recommended_cta_structure || ''}
+• AVOID: ${(verdict.avoid_these||[]).join(', ')}
+
+SCRIPT TYPE PERFORMANCE (A=AI script, B=AI idea own script, C=fully original):
+${brandVoice.script_type_verdict || 'Not enough data yet'}
+`.trim() : 'Brand voice analysis accumulating — use general best practices from intelligence database.';
+
+  // Own viral scripts — full transcripts for style learning
+  const myViralSection = (brandVoice.your_viral_scripts || []).slice(0, 3).map((s,i) =>
+    `[Own Script ${i+1} | ${s.likes} likes | Type ${s.scriptType}]\nHOOK: "${s.hook}"\nSPOKEN TRANSCRIPT:\n"${s.transcript}"\nWRITTEN CAPTION:\n"${s.caption}"`
+  ).join('\n\n---\n\n') || 'No own transcripts yet';
+
+  // Competitor viral scripts — full transcripts for structure learning
+  const compViralSection = (brandVoice.competitor_viral_scripts || []).slice(0, 5).map((s,i) =>
+    `[Competitor ${i+1}: @${s.handle} | ${s.likes} likes]\nHOOK: "${s.hook}"\nSPOKEN TRANSCRIPT:\n"${s.transcript}"`
+  ).join('\n\n---\n\n') || viralTranscripts;
+
+  // Top 5 captions (written word only)
+  const topCaptionsSection = (brandVoice.your_top_captions || []).map((c,i) =>
+    `[Caption ${i+1} | ${c.likes} likes]\n"${c.caption}"`
+  ).join('\n\n---\n\n') || myCtaPatterns;
+
   return `
 You are an expert viral content strategist for @garvit.irl on Instagram.
 Niche: AI + Automation + Tech + Entrepreneurship. Indian audience.
@@ -163,19 +218,32 @@ ACCOUNT INTELLIGENCE BRIEFING — apply this to everything you write
 ${agentCtx.instruction_for_agents || 'No briefing available yet — use general best practices.'}
 
 ═══════════════════════════════════════════════════════
-INTELLIGENCE DATABASE — study all of this before writing
+BRAND VOICE INTELLIGENCE — read this first, apply to everything
 ═══════════════════════════════════════════════════════
+${brandVoiceSection}
 
-TOP PERFORMING HOOKS (sorted by likes, [SPOKEN] = from actual video transcript):
+═══════════════════════════════════════════════════════
+MY OWN VIRAL SCRIPTS — this is exactly how I speak and write
+(Hook + full spoken transcript + written caption — mirror my voice)
+═══════════════════════════════════════════════════════
+${myViralSection}
+
+═══════════════════════════════════════════════════════
+MY TOP 5 WRITTEN CAPTIONS — this is how I write, not speak
+(Study word choice, formatting, CTA, emoji use, caption length)
+═══════════════════════════════════════════════════════
+${topCaptionsSection}
+
+═══════════════════════════════════════════════════════
+COMPETITOR VIRAL SCRIPTS — study their structure, adapt don't copy
+(Full spoken transcripts — how do they hook, build tension, deliver, close?)
+═══════════════════════════════════════════════════════
+${compViralSection}
+
+TOP HOOKS FROM NICHE (sorted by likes):
 ${topHooks}
 
-VIRAL VIDEO STRUCTURES — LAST 60 DAYS (recent top-performing reels only):
-${viralTranscripts}
-
-CTA PATTERNS — FROM MY TOP POSTS (what endings work for @garvit.irl):
-${myCtaPatterns}
-
-CTA PATTERNS — FROM COMPETITOR VIRAL POSTS (what endings work in this niche):
+CTA PATTERNS — FROM COMPETITOR TOP POSTS:
 ${compCtaPatterns}
 ${capContext}
 
