@@ -1,48 +1,55 @@
 {
-  "fetched_at": "2026-09-15T03:31:44.237Z",
+  "fetched_at": "2026-09-16T03:31:41.742Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Pion, an agent designed to run any company autonomously",
-      "score": 313,
-      "comments": 347,
-      "url": "https://andonlabs.com/blog/why-we-built-pion"
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "score": 334,
+      "comments": 204,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
     },
     {
       "source": "hackernews",
-      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-      "score": 51,
-      "comments": 15,
-      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/"
+      "title": "Stay discoverable in search while disallowing AI training",
+      "score": 27,
+      "comments": 13,
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/"
     },
     {
       "source": "hackernews",
-      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-      "score": 391,
-      "comments": 331,
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/"
+      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "score": 52,
+      "comments": 0,
+      "url": "https://mnoukhov.github.io/posts/ngu/"
     },
     {
       "source": "hackernews",
-      "title": "Why don't machine learning research agents overfit?",
-      "score": 111,
-      "comments": 61,
-      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit"
+      "title": "Let's make quality the norm again",
+      "score": 335,
+      "comments": 338,
+      "url": "https://www.forbrukerradet.no/short-life/"
     },
     {
       "source": "hackernews",
-      "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
-      "score": 53,
-      "comments": 27,
-      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325"
+      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "score": 508,
+      "comments": 175,
+      "url": "https://www.effort.news/irregular"
     },
     {
       "source": "hackernews",
-      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
-      "score": 120,
-      "comments": 116,
-      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review"
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "score": 451,
+      "comments": 401,
+      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "score": 35,
+      "comments": 19,
+      "url": "https://github.com/pizza-bot-app/pizza-bot"
     }
   ],
   "youtube": [
@@ -51,8 +58,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 49656584,
-      "likes": 506984,
+      "views": 49770323,
+      "likes": 507524,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -69,8 +76,8 @@
       "category": "Science & Tech",
       "title": "you missed this iPhone Duo 3-in-1 feature",
       "channel": "mryeester",
-      "views": 6054170,
-      "likes": 149445,
+      "views": 6832183,
+      "likes": 168564,
       "publishedAt": "2026-09-10T15:21:47Z",
       "url": "https://www.youtube.com/watch?v=T8i0UuvTra4",
       "tags": [
@@ -86,8 +93,8 @@
       "category": "Science & Tech",
       "title": "Speed Test The New AirPods 5! 🤣",
       "channel": "Snickerly",
-      "views": 4154460,
-      "likes": 67666,
+      "views": 4355133,
+      "likes": 71859,
       "publishedAt": "2026-09-10T09:19:07Z",
       "url": "https://www.youtube.com/watch?v=IurVUStCbrs",
       "tags": [
@@ -101,8 +108,45 @@
     }
   ],
   "google_trends": {
-    "keyword_trends": [],
+    "keyword_trends": [
+      {
+        "keyword": "self improvement",
+        "trend_score": 91
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 88
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 88
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 87
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 87
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 81
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 79
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 75
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 69
+      }
+    ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-15T03:31:44.237Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Pion, an agent designed to run any company autonomously\" — 313 pts\n• [HackerNews] \"Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)\" — 51 pts\n• [HackerNews] \"OpenAI bots knew about the RubyGems caching vulnerability\" — 391 pts\n• [HackerNews] \"Why don't machine learning research agents overfit?\" — 111 pts\n• [HackerNews] \"Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent\" — 53 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49657k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 6054k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 4154k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nNo data\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-16T03:31:41.742Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Gemini 3.8 Live and 3.8 Live Extended Thinking\" — 334 pts\n• [HackerNews] \"Stay discoverable in search while disallowing AI training\" — 27 pts\n• [HackerNews] \"Learning to solve hard problems in RL for LLMs by never giving up\" — 52 pts\n• [HackerNews] \"Let's make quality the norm again\" — 335 pts\n• [HackerNews] \"A single firm is behind OpenAI, Anthropic, and Meta hacking scandals\" — 508 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49770k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 6832k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 4355k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 91), AI tools (score: 88), AI workflow (score: 88), productivity tools (score: 87), entrepreneur (score: 87), AI for business (score: 81), automation tools (score: 79), solopreneur (score: 75), ChatGPT (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

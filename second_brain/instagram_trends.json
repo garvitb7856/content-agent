@@ -1,38 +1,86 @@
 {
-  "generated_at": "2026-09-15T03:31:40.979Z",
+  "generated_at": "2026-09-16T03:31:38.651Z",
   "hotRightNow": [
     {
       "username": "nivedan.ai",
-      "caption": "If you’re trying to understand where AI is heading, save this carousel. 👀🤖\n\nI’ve put together 5 mu",
-      "likes": 152,
-      "comments": 150,
-      "engagement": 302,
-      "engRate": "0.06",
-      "timestamp": "2026-09-14T09:15:34.000Z",
-      "url": "https://www.instagram.com/p/DdQypotCfSo/",
-      "type": "Post"
+      "caption": "₹2,000 ChatGPT Plus for FREE? 👀\n\nOpenAI is reportedly showing a “Claim Offer” option to some users ",
+      "likes": 1011,
+      "comments": 3903,
+      "engagement": 4914,
+      "engRate": "0.93",
+      "timestamp": "2026-09-15T15:09:57.000Z",
+      "url": "https://www.instagram.com/p/DdT_cQLpKl0/",
+      "type": "Video"
+    },
+    {
+      "username": "vaibhavsisinty",
+      "caption": "Comment \"Slomo\" and I will send prompt in your DM.\nConvert any photo into a video inside ChatGPT\n\nHi",
+      "likes": 3108,
+      "comments": 265,
+      "engagement": 3373,
+      "engRate": "0.16",
+      "timestamp": "2026-09-15T16:59:16.000Z",
+      "url": "https://www.instagram.com/p/DdUMUZugNIf/",
+      "type": "Video"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "Come party with me in the biggest apple office!",
+      "likes": 942,
+      "comments": 13,
+      "engagement": 955,
+      "engRate": "0.08",
+      "timestamp": "2026-09-15T07:07:08.000Z",
+      "url": "https://www.instagram.com/p/DdTIXZ5I_e9/",
+      "type": "Video"
+    },
+    {
+      "username": "arshman",
+      "caption": "Comment “ChatGPT” to get more commands like these! \n\nSimply add the @higgsfield.ai plugin to your Ch",
+      "likes": 340,
+      "comments": 135,
+      "engagement": 475,
+      "engRate": "0.13",
+      "timestamp": "2026-09-15T05:41:59.000Z",
+      "url": "https://www.instagram.com/p/DdS-4kVuhkN/",
+      "type": "Video"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "iOS27 brings the NEW Siri AI✨\n\nBut how is it better than chatgpt or gemini?\n\nLilian Rincon, VP Marke",
+      "likes": 373,
+      "comments": 8,
+      "engagement": 381,
+      "engRate": "0.03",
+      "timestamp": "2026-09-15T14:40:44.000Z",
+      "url": "https://www.instagram.com/p/DdT8WV9MNux/",
+      "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 6612,
-      "count": 34
+      "avgEng": 6676,
+      "count": 32
     },
     {
       "format": "post",
-      "avgEng": 4538,
-      "count": 13
+      "avgEng": 5248,
+      "count": 11
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "11 top posts"
+      "appearsIn": "12 top posts"
     },
     {
       "topic": "gpt",
       "appearsIn": "4 top posts"
+    },
+    {
+      "topic": "claude",
+      "appearsIn": "3 top posts"
     },
     {
       "topic": "money",
@@ -41,46 +89,42 @@
     {
       "topic": "agent",
       "appearsIn": "3 top posts"
-    },
-    {
-      "topic": "openai",
-      "appearsIn": "3 top posts"
     }
   ],
   "bestPostingWindow": [
     "19:00 IST (4 top posts)",
-    "20:00 IST (3 top posts)",
-    "23:00 IST (3 top posts)"
+    "20:00 IST (4 top posts)",
+    "1:00 IST (2 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 64395,
+      "likes": 64871,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98298,
+      "likes": 98288,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 78784,
+      "likes": 79646,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 21459,
+      "likes": 21747,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 66849,
+      "likes": 67189,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

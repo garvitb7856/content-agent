@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T03:31:44.293Z",
+  "updated_at": "2026-09-16T03:31:41.793Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -914,16 +914,19 @@
       "id": "3969869713810022810_24040950",
       "account": "@arshman",
       "url": "https://www.instagram.com/p/DcXz3iwOmGa/",
-      "topic": "General Tech",
+      "topic": "Claude/AI Tools",
       "format": "Video",
-      "hook": "Someone just launched a free dashboard similar to the ones governments use for surveillance.",
+      "spoken_hook": "Someone just launched a free dashboard similar to what governments use for surveillance and it's called World Monitor.  You can open it in your browser and see what's happening right now all around the globe.  And you can even filter it down to your region of interest.",
+      "full_script": "Someone just launched a free dashboard similar to what governments use for surveillance and it's called World Monitor. You can open it in your browser and see what's happening right now all around the globe. And you can even filter it down to your region of interest. Not only that, but you can also toggle on multiple layers and watch military activity, trade routes, or even see natural disasters like earthquake and wildfires caught by NASA satellites. There's also a panel for live webcams and broadcasts where you can choose between multiple news channels for each country, like BBC, CNN playing at the same time. But here's the craziest part. There are six versions right inside the dashboard like world, tech, finance, and even a happy monitor that shows only good news around the world. And you can even connect this monitor to your ChatGPT or Claude to investigate further. If you want a link to this website, it's pinned in the comment section.",
       "full_caption": "Someone just launched a free dashboard similar to the ones governments use for surveillance.\n\nIt’s called World Monitor.\n\nYou can open it in your browser and see what’s happening around the globe in real time. \n\nYou can even filter the dashboard by any region you’re interested in.\n\nToggle between mu",
-      "script_pattern": "unknown",
-      "likes": 6314,
-      "comments": 55,
-      "engagement_rate": 1.7,
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 6926,
+      "comments": 63,
+      "engagement_rate": 1.86,
       "verdict": "medium",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-15T03:39:19.287Z",
+      "scraped_at": "2026-09-16T03:31:41.792Z"
     },
     {
       "id": "3963308196582687414_24040950",
@@ -931,14 +934,17 @@
       "url": "https://www.instagram.com/p/DcAf85otIK2/",
       "topic": "General Tech",
       "format": "Video",
-      "hook": "ChatGPT can now make a perfect clone of you (AI Avatar)...",
+      "spoken_hook": "ChatGPT can now make your clone the way you speak the way you act and make content for you without you being in front of camera.  So I tested these reels on a different channel and here are the results for first three videos.  So you go to ChatGPT and paste this prompt.",
+      "full_script": "ChatGPT can now make your clone the way you speak the way you act and make content for you without you being in front of camera. So I tested these reels on a different channel and here are the results for first three videos. So you go to ChatGPT and paste this prompt. It can do all the research on your topic and use this viral structure to write down a script. Now only once you need to upload a 15-second video of yourself with separate 30 seconds of audio file of your voice to train an AI model. Now go to plugins and add a custom plugin for Higgsfield. And then give this prompt: the character in this video speaking the given script use his voice from the audio file and hit enter. Now this connector will find the most suitable generative AI model as per your video, script, and audio to make your perfect clone. And if you want detailed guide to set up this process, just comment plugin and I'll send you the link to the PDF with 3 days of free trial on Higgsfield.",
       "full_caption": "ChatGPT can now make a perfect clone of you (AI Avatar)...\n\nThe way you speak. \n\nThe way you act. \n\nAnd it makes content for you, without you ever being in front of a camera.\n\nI tested this on a different channel and here are the results from the first 3 videos.\n\nOnly one time you have to upload a 1",
-      "script_pattern": "unknown",
-      "likes": 1736,
-      "comments": 3112,
-      "engagement_rate": 1.29,
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 1763,
+      "comments": 3208,
+      "engagement_rate": 1.33,
       "verdict": "medium",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-15T03:42:16.887Z",
+      "scraped_at": "2026-09-16T03:31:41.792Z"
     },
     {
       "id": "3978676773123510232_26526554234",
@@ -1548,5 +1554,5 @@
     }
   ],
   "total": 100,
-  "transcript_based": 15
+  "transcript_based": 17
 }
