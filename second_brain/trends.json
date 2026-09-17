@@ -1,55 +1,62 @@
 {
-  "fetched_at": "2026-09-16T03:31:41.742Z",
+  "fetched_at": "2026-09-17T03:31:52.465Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "score": 334,
-      "comments": 204,
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "score": 433,
+      "comments": 91,
+      "url": "https://rohanbansal.com/qorl"
     },
     {
       "source": "hackernews",
-      "title": "Stay discoverable in search while disallowing AI training",
-      "score": 27,
-      "comments": 13,
-      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/"
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "score": 301,
+      "comments": 80,
+      "url": "https://mimo.xiaomi.com/rl/"
     },
     {
       "source": "hackernews",
-      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
-      "score": 52,
-      "comments": 0,
-      "url": "https://mnoukhov.github.io/posts/ngu/"
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "score": 153,
+      "comments": 21,
+      "url": "https://arxiv.org/abs/2609.16338"
     },
     {
       "source": "hackernews",
-      "title": "Let's make quality the norm again",
-      "score": 335,
-      "comments": 338,
-      "url": "https://www.forbrukerradet.no/short-life/"
+      "title": "OpenSpec – A lightweight and configurable AI spec framework",
+      "score": 91,
+      "comments": 35,
+      "url": "https://openspec.dev/"
     },
     {
       "source": "hackernews",
-      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
-      "score": 508,
-      "comments": 175,
-      "url": "https://www.effort.news/irregular"
+      "title": "The Return of Sail Power: Cargo Ships Are Turning Back to the Wind",
+      "score": 28,
+      "comments": 11,
+      "url": "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/"
     },
     {
       "source": "hackernews",
-      "title": "Suspected sabotage causes major Netherlands rail disruption",
-      "score": 451,
-      "comments": 401,
-      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo"
+      "title": "Part-human part-mouse brain developed in science breakthrough",
+      "score": 8,
+      "comments": 3,
+      "url": "https://www.bbc.com/news/articles/c60m3k28j81mo"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
-      "score": 35,
-      "comments": 19,
-      "url": "https://github.com/pizza-bot-app/pizza-bot"
+      "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "score": 58,
+      "comments": 17,
+      "url": "https://harnesstax.github.io/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Pangram – AI detector for text and images",
+      "score": 9,
+      "comments": 5,
+      "url": "https://www.pangram.com"
     }
   ],
   "youtube": [
@@ -58,8 +65,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 49770323,
-      "likes": 507524,
+      "views": 49877443,
+      "likes": 507925,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -74,10 +81,50 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "iPhone 18 Pro/Duo Impressions: Mogged",
+      "channel": "Marques Brownlee",
+      "views": 25928758,
+      "likes": 354903,
+      "publishedAt": "2026-09-10T07:29:55Z",
+      "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
+      "tags": [
+        "iPhone Duo",
+        "iPhone 18 Pro",
+        "MKBHD"
+      ],
+      "description": "The first folding iPhone Duo and iPhone 18 Pro are here, and this is everything you need to know.\n\nCheck out Ridge’s latest iPhone tech gear at https:"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Folding Phones Back Then Vs Now: IPhone Duo ???",
+      "channel": "Ramo Akh",
+      "views": 8900786,
+      "likes": 150242,
+      "publishedAt": "2026-09-10T01:19:50Z",
+      "url": "https://www.youtube.com/watch?v=RNJ3WiDz17Y",
+      "tags": [],
+      "description": "ORIGINAL VIDEO FROM: @iPhonedo"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!",
+      "channel": "TECH NRZZ",
+      "views": 8236832,
+      "likes": 97478,
+      "publishedAt": "2026-09-10T16:37:46Z",
+      "url": "https://www.youtube.com/watch?v=G1wCu8o62mE",
+      "tags": [],
+      "description": "🔥 iPhone 17e vs iPhone 15 SPEED TEST! 🔥\n\niPhone 17e vs iPhone 15 - Ultimate Speed Test ⚡🚀📱 😱⚡\n\nIn this video, we compare the speed and performanc"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "you missed this iPhone Duo 3-in-1 feature",
       "channel": "mryeester",
-      "views": 6832183,
-      "likes": 168564,
+      "views": 7295666,
+      "likes": 180250,
       "publishedAt": "2026-09-10T15:21:47Z",
       "url": "https://www.youtube.com/watch?v=T8i0UuvTra4",
       "tags": [
@@ -91,55 +138,97 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Speed Test The New AirPods 5! 🤣",
-      "channel": "Snickerly",
-      "views": 4355133,
-      "likes": 71859,
-      "publishedAt": "2026-09-10T09:19:07Z",
-      "url": "https://www.youtube.com/watch?v=IurVUStCbrs",
-      "tags": [
-        "Shorts",
-        "Kai Cenat",
-        "Kai",
-        "Funny",
-        "Kai Cenat Live"
-      ],
-      "description": "Speed Test The New AirPods 5! 🤣\n\nSubscribe For More!\n►  https://www.youtube.com/channel/UCjBz-SDpfjRWZ-5Wc5Tj4kw\n\nShorts Kai Cenat IShowSpeed\n#shorts"
+      "title": "Samsung’s Pressed About the Iphone Duo 😭😭",
+      "channel": "Jorski",
+      "views": 6247332,
+      "likes": 211550,
+      "publishedAt": "2026-09-10T01:05:37Z",
+      "url": "https://www.youtube.com/watch?v=-FUIoAymfoc",
+      "tags": [],
+      "description": "Samsung’s Pressed About the Iphone Duo 😭😭\n\nsub for more!!!"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "This OG tech creator is banned by Apple…",
+      "channel": "John Casterline",
+      "views": 3942370,
+      "likes": 305012,
+      "publishedAt": "2026-09-12T03:19:06Z",
+      "url": "https://www.youtube.com/watch?v=ulCrxDbolAo",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "The iPhone duo is going to survive bend tests.. Stitch: Some_W3rd0?",
+      "channel": "CarterPCs",
+      "views": 3668767,
+      "likes": 189443,
+      "publishedAt": "2026-09-14T22:37:15Z",
+      "url": "https://www.youtube.com/watch?v=rN1vHN72rOw",
+      "tags": [],
+      "description": "The iPhone duo is going to survive bend tests.. Stitch: Some_W3rd0?\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Turning iPhone 16 Into iPhone 17 😱🤯",
+      "channel": "Austin Boller",
+      "views": 2260012,
+      "likes": 41440,
+      "publishedAt": "2026-09-11T06:00:12Z",
+      "url": "https://www.youtube.com/watch?v=t3t4hWllLTM",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "You need this connector 😮",
+      "channel": "The Reynolds Recommend",
+      "views": 1563875,
+      "likes": 11455,
+      "publishedAt": "2026-09-10T06:45:03Z",
+      "url": "https://www.youtube.com/watch?v=YXsHL5H9YuE",
+      "tags": [],
+      "description": "https://galacticgoodsstore.com/products/quickconnect-no-strip-wire-connectors"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
+        "keyword": "solopreneur",
+        "trend_score": 95
+      },
+      {
         "keyword": "self improvement",
-        "trend_score": 91
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 88
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 88
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 87
+        "trend_score": 93
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 87
+        "trend_score": 90
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 88
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 85
       },
       {
         "keyword": "AI for business",
-        "trend_score": 81
+        "trend_score": 84
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 83
       },
       {
         "keyword": "automation tools",
-        "trend_score": 79
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 75
+        "trend_score": 82
       },
       {
         "keyword": "ChatGPT",
@@ -148,5 +237,5 @@
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-16T03:31:41.742Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Gemini 3.8 Live and 3.8 Live Extended Thinking\" — 334 pts\n• [HackerNews] \"Stay discoverable in search while disallowing AI training\" — 27 pts\n• [HackerNews] \"Learning to solve hard problems in RL for LLMs by never giving up\" — 52 pts\n• [HackerNews] \"Let's make quality the norm again\" — 335 pts\n• [HackerNews] \"A single firm is behind OpenAI, Anthropic, and Meta hacking scandals\" — 508 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49770k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 6832k views\n• [YouTube Global] \"Speed Test The New AirPods 5! 🤣\" by Snickerly — 4355k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 91), AI tools (score: 88), AI workflow (score: 88), productivity tools (score: 87), entrepreneur (score: 87), AI for business (score: 81), automation tools (score: 79), solopreneur (score: 75), ChatGPT (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-17T03:31:52.464Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Training a 4B model to produce 81% faster query plans than Postgres\" — 433 pts\n• [HackerNews] \"Xiaomi Mimo 2.6 live post-training dashboard\" — 301 pts\n• [HackerNews] \"Breaking the 1.58-bit Barrier for Ternary LLMs\" — 153 pts\n• [HackerNews] \"OpenSpec – A lightweight and configurable AI spec framework\" — 91 pts\n• [HackerNews] \"The Return of Sail Power: Cargo Ships Are Turning Back to the Wind\" — 28 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49877k views\n• [YouTube Global] \"iPhone 18 Pro/Duo Impressions: Mogged\" by Marques Brownlee — 25929k views\n• [YouTube Global] \"Folding Phones Back Then Vs Now: IPhone Duo ???\" by Ramo Akh — 8901k views\n• [YouTube Global] \"⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!\" by TECH NRZZ — 8237k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 7296k views\n• [YouTube Global] \"Samsung’s Pressed About the Iphone Duo 😭😭\" by Jorski — 6247k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nsolopreneur (score: 95), self improvement (score: 93), entrepreneur (score: 90), productivity tools (score: 88), AI tools (score: 85), AI for business (score: 84), AI workflow (score: 83), automation tools (score: 82), ChatGPT (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
