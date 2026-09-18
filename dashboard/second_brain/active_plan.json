@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-17",
-  "end_date": "2026-09-24",
+  "generated_on": "2026-09-18",
+  "end_date": "2026-09-25",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-17",
-      "topic": "Voice-to-Voice AI Agents for Indian D2C WhatsApp Marketing",
+      "date": "2026-09-18",
+      "topic": "WhatsApp Voice AI Agent for D2C Brands (Comet Voice Agent Case Study)",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Texting D2C customers is dead. Here is the new way.",
+      "post_time": "6:45 PM IST",
+      "hook": "AI WhatsApp agents now reply with actual voice notes.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-18",
-      "topic": "Step-by-Step Blueprint to Pitch AI Audits to Local Businesses",
+      "date": "2026-09-19",
+      "topic": "Claude Fable 5.1 System Prompt Leak Breakdown & Key Learnings",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Ask local businesses this 1 question to land ₹15k deals.",
+      "post_time": "7:15 PM IST",
+      "hook": "Claude’s 275,000 character system prompt just got leaked.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-19",
-      "topic": "Scrape Unlimited Local Business Leads with Google Maps Scraper Kit",
+      "date": "2026-09-20",
+      "topic": "DaVinci Resolve MCP Server (Controlling video edits via AI & Claude Code)",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Stop paying for leads. Scrape local businesses for free.",
+      "post_time": "6:30 PM IST",
+      "hook": "AI can now edit full videos inside DaVinci Resolve.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-20",
-      "topic": "Running Local LLMs (Ollama) Privately on Old Hardware",
+      "date": "2026-09-21",
+      "topic": "How to run Open-Source / Local AI on your PC in 60 Seconds",
       "format": "Carousel",
       "post_time": "7:30 PM IST",
-      "hook": "Run powerful AI models on your old laptop for free.",
+      "hook": "Stop paying for ChatGPT: run local AI for free.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-21",
-      "topic": "Building a WhatsApp Personal Expense Tracking AI Agent",
+      "date": "2026-09-22",
+      "topic": "D2C Intent-Based Abandoned Cart Recovery AI Agent (Snitch Case Study)",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Text spending on WhatsApp to automatically track your monthly budget.",
+      "post_time": "6:45 PM IST",
+      "hook": "This AI agent recovers lakhs in abandoned D2C carts.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-22",
-      "topic": "Converting Corporate Workflows into Sellable AI Services",
+      "date": "2026-09-23",
+      "topic": "Open Design Tool: Free No-Code 3D Website Generator",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Turn any company workflow into a sellable AI service.",
+      "post_time": "7:00 PM IST",
+      "hook": "Build 3D websites for free without coding or Figma.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-23",
-      "topic": "AI Cold Email Engines for ₹25k/Month Client Retainers",
+      "date": "2026-09-24",
+      "topic": "Building a Face-Less AI Persona & Voice Clone Workflow",
       "format": "Reel",
       "post_time": "8:00 PM IST",
-      "hook": "Land ₹25k monthly agency retainers with this AI engine.",
+      "hook": "Create an AI avatar clone that speaks like you.",
       "status": "pending"
     }
   ]

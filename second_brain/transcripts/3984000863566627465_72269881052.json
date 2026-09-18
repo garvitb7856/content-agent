@@ -1,0 +1,11 @@
+{
+  "postId": "3984000863566627465_72269881052",
+  "handle": "nick_saraev",
+  "postUrl": "https://www.instagram.com/p/DdKA61hvQKJ/",
+  "transcript": "Someone just leaked the full system prompt from Claude Fable 5.1, and this isn't just some basic prompt. It's over 275,000 characters long, around 8,000 lines, and it covers the exact instructions that Anthropic uses to control how one of the world's most powerful AI models thinks, plans, and gets work done. The leak includes the entire prompt with its tools, instructions, and behavior rules, and it's all sitting in a public GitHub. So you can use it to improve your own prompting skills by studying exactly how Anthropic defines its tools, sets their restrictions, and even tells the models what to use when and how. If you guys want that link, just comment \"Fable\" down below, and I'll send it to you directly.",
+  "caption": "Comment \"FABLE\" to get the leaked Claude Fable 5.1 system prompt.\n\nSomeone just leaked the full system prompt of Claude Fable 5.1.\n\nAnd this isn't some basic prompt.\n\nIt's over 275,000 characters long, around 8,000 lines.\n\nIt covers the exact instructions Anthropic uses to control how one of the wor",
+  "timestamp": "2026-09-11T18:07:17.000Z",
+  "transcribedAt": "2026-09-18T03:47:32.242Z",
+  "likes": 0,
+  "comments": 0
+}

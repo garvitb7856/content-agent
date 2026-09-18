@@ -1,62 +1,62 @@
 {
-  "fetched_at": "2026-09-17T03:31:52.465Z",
+  "fetched_at": "2026-09-18T03:32:02.082Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
-      "score": 433,
-      "comments": 91,
-      "url": "https://rohanbansal.com/qorl"
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "score": 280,
+      "comments": 86,
+      "url": "https://prismml.com/news/bonsai-2-27b"
     },
     {
       "source": "hackernews",
-      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
-      "score": 301,
-      "comments": 80,
-      "url": "https://mimo.xiaomi.com/rl/"
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "score": 340,
+      "comments": 173,
+      "url": "https://bend-lang.com/"
     },
     {
       "source": "hackernews",
-      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-      "score": 153,
-      "comments": 21,
-      "url": "https://arxiv.org/abs/2609.16338"
+      "title": "Hacking OpenAI",
+      "score": 7,
+      "comments": 1,
+      "url": "https://www.hacktron.ai/blog/hacking-openai"
     },
     {
       "source": "hackernews",
-      "title": "OpenSpec – A lightweight and configurable AI spec framework",
-      "score": 91,
-      "comments": 35,
-      "url": "https://openspec.dev/"
+      "title": "Diplodocus, Long Thought Exclusively American, Turns Up in Spain",
+      "score": 36,
+      "comments": 27,
+      "url": "https://www.sci.news/paleontology/spanish-diplodocus-15064.html"
     },
     {
       "source": "hackernews",
-      "title": "The Return of Sail Power: Cargo Ships Are Turning Back to the Wind",
-      "score": 28,
-      "comments": 11,
-      "url": "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Part-human part-mouse brain developed in science breakthrough",
-      "score": 8,
-      "comments": 3,
-      "url": "https://www.bbc.com/news/articles/c60m3k28j81mo"
-    },
-    {
-      "source": "hackernews",
-      "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "title": "How Uber Protects Against Retry Storms",
       "score": 58,
-      "comments": 17,
-      "url": "https://harnesstax.github.io/"
+      "comments": 29,
+      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/"
     },
     {
       "source": "hackernews",
-      "title": "Pangram – AI detector for text and images",
-      "score": 9,
-      "comments": 5,
-      "url": "https://www.pangram.com"
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "score": 121,
+      "comments": 35,
+      "url": "https://arxiv.org/abs/2609.18842"
+    },
+    {
+      "source": "hackernews",
+      "title": "TSMC revealing details about next gen A14 node",
+      "score": 99,
+      "comments": 37,
+      "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "score": 198,
+      "comments": 108,
+      "url": "https://mysetup.ai/"
     }
   ],
   "youtube": [
@@ -65,8 +65,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 49877443,
-      "likes": 507925,
+      "views": 49953394,
+      "likes": 508110,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -81,38 +81,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone 18 Pro/Duo Impressions: Mogged",
-      "channel": "Marques Brownlee",
-      "views": 25928758,
-      "likes": 354903,
-      "publishedAt": "2026-09-10T07:29:55Z",
-      "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
-      "tags": [
-        "iPhone Duo",
-        "iPhone 18 Pro",
-        "MKBHD"
-      ],
-      "description": "The first folding iPhone Duo and iPhone 18 Pro are here, and this is everything you need to know.\n\nCheck out Ridge’s latest iPhone tech gear at https:"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Folding Phones Back Then Vs Now: IPhone Duo ???",
-      "channel": "Ramo Akh",
-      "views": 8900786,
-      "likes": 150242,
-      "publishedAt": "2026-09-10T01:19:50Z",
-      "url": "https://www.youtube.com/watch?v=RNJ3WiDz17Y",
-      "tags": [],
-      "description": "ORIGINAL VIDEO FROM: @iPhonedo"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!",
       "channel": "TECH NRZZ",
-      "views": 8236832,
-      "likes": 97478,
+      "views": 9448205,
+      "likes": 104336,
       "publishedAt": "2026-09-10T16:37:46Z",
       "url": "https://www.youtube.com/watch?v=G1wCu8o62mE",
       "tags": [],
@@ -121,10 +93,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "iPhone 18 Pro Review: All About that Chip",
+      "channel": "Marques Brownlee",
+      "views": 9244114,
+      "likes": 133432,
+      "publishedAt": "2026-09-16T12:01:27Z",
+      "url": "https://www.youtube.com/watch?v=ohqxP8EEumo",
+      "tags": [],
+      "description": "iPhone 18 Pro is basically an S year upgrade. And one part of it is really impressive.\n\nProtect your new iPhone 18 with a case or screen protector at "
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "you missed this iPhone Duo 3-in-1 feature",
       "channel": "mryeester",
-      "views": 7295666,
-      "likes": 180250,
+      "views": 7554023,
+      "likes": 185170,
       "publishedAt": "2026-09-10T15:21:47Z",
       "url": "https://www.youtube.com/watch?v=T8i0UuvTra4",
       "tags": [
@@ -140,8 +124,8 @@
       "category": "Science & Tech",
       "title": "Samsung’s Pressed About the Iphone Duo 😭😭",
       "channel": "Jorski",
-      "views": 6247332,
-      "likes": 211550,
+      "views": 6306497,
+      "likes": 213057,
       "publishedAt": "2026-09-10T01:05:37Z",
       "url": "https://www.youtube.com/watch?v=-FUIoAymfoc",
       "tags": [],
@@ -150,22 +134,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "This OG tech creator is banned by Apple…",
-      "channel": "John Casterline",
-      "views": 3942370,
-      "likes": 305012,
-      "publishedAt": "2026-09-12T03:19:06Z",
-      "url": "https://www.youtube.com/watch?v=ulCrxDbolAo",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "The iPhone duo is going to survive bend tests.. Stitch: Some_W3rd0?",
       "channel": "CarterPCs",
-      "views": 3668767,
-      "likes": 189443,
+      "views": 4206834,
+      "likes": 207645,
       "publishedAt": "2026-09-14T22:37:15Z",
       "url": "https://www.youtube.com/watch?v=rN1vHN72rOw",
       "tags": [],
@@ -174,10 +146,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "This OG tech creator is banned by Apple…",
+      "channel": "John Casterline",
+      "views": 4171515,
+      "likes": 318878,
+      "publishedAt": "2026-09-12T03:19:06Z",
+      "url": "https://www.youtube.com/watch?v=ulCrxDbolAo",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Turning iPhone 16 Into iPhone 17 😱🤯",
       "channel": "Austin Boller",
-      "views": 2260012,
-      "likes": 41440,
+      "views": 2305354,
+      "likes": 42478,
       "publishedAt": "2026-09-11T06:00:12Z",
       "url": "https://www.youtube.com/watch?v=t3t4hWllLTM",
       "tags": [],
@@ -186,10 +170,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Steam Frame Wireless Range Test",
+      "channel": "Linus Tech Tips",
+      "views": 2053682,
+      "likes": 41464,
+      "publishedAt": "2026-09-16T17:05:56Z",
+      "url": "https://www.youtube.com/watch?v=Zzzkg_ZrOII",
+      "tags": [],
+      "description": "How far from your PC can you get using the Steam Frame's wireless dongle?"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "You need this connector 😮",
       "channel": "The Reynolds Recommend",
-      "views": 1563875,
-      "likes": 11455,
+      "views": 2017905,
+      "likes": 13687,
       "publishedAt": "2026-09-10T06:45:03Z",
       "url": "https://www.youtube.com/watch?v=YXsHL5H9YuE",
       "tags": [],
@@ -199,43 +195,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "solopreneur",
-        "trend_score": 95
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 93
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 90
-      },
-      {
         "keyword": "productivity tools",
-        "trend_score": 88
+        "trend_score": 98
       },
       {
         "keyword": "AI tools",
-        "trend_score": 85
+        "trend_score": 96
       },
       {
         "keyword": "AI for business",
-        "trend_score": 84
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 83
+        "trend_score": 94
       },
       {
         "keyword": "automation tools",
-        "trend_score": 82
+        "trend_score": 92
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 91
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 90
       },
       {
         "keyword": "ChatGPT",
-        "trend_score": 69
+        "trend_score": 89
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 89
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 77
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-17T03:31:52.464Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Training a 4B model to produce 81% faster query plans than Postgres\" — 433 pts\n• [HackerNews] \"Xiaomi Mimo 2.6 live post-training dashboard\" — 301 pts\n• [HackerNews] \"Breaking the 1.58-bit Barrier for Ternary LLMs\" — 153 pts\n• [HackerNews] \"OpenSpec – A lightweight and configurable AI spec framework\" — 91 pts\n• [HackerNews] \"The Return of Sail Power: Cargo Ships Are Turning Back to the Wind\" — 28 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49877k views\n• [YouTube Global] \"iPhone 18 Pro/Duo Impressions: Mogged\" by Marques Brownlee — 25929k views\n• [YouTube Global] \"Folding Phones Back Then Vs Now: IPhone Duo ???\" by Ramo Akh — 8901k views\n• [YouTube Global] \"⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!\" by TECH NRZZ — 8237k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 7296k views\n• [YouTube Global] \"Samsung’s Pressed About the Iphone Duo 😭😭\" by Jorski — 6247k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nsolopreneur (score: 95), self improvement (score: 93), entrepreneur (score: 90), productivity tools (score: 88), AI tools (score: 85), AI for business (score: 84), AI workflow (score: 83), automation tools (score: 82), ChatGPT (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-18T03:32:02.082Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint\" — 280 pts\n• [HackerNews] \"Bend – A language that blocks AI mistakes via proof, on CPU and GPU\" — 340 pts\n• [HackerNews] \"Hacking OpenAI\" — 7 pts\n• [HackerNews] \"Diplodocus, Long Thought Exclusively American, Turns Up in Spain\" — 36 pts\n• [HackerNews] \"How Uber Protects Against Retry Storms\" — 58 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 49953k views\n• [YouTube Global] \"⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!\" by TECH NRZZ — 9448k views\n• [YouTube Global] \"iPhone 18 Pro Review: All About that Chip\" by Marques Brownlee — 9244k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 7554k views\n• [YouTube Global] \"Samsung’s Pressed About the Iphone Duo 😭😭\" by Jorski — 6306k views\n• [YouTube Global] \"The iPhone duo is going to survive bend tests.. Stitch: Some_W3rd0?\" by CarterPCs — 4207k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nproductivity tools (score: 98), AI tools (score: 96), AI for business (score: 94), automation tools (score: 92), self improvement (score: 91), solopreneur (score: 90), ChatGPT (score: 89), AI workflow (score: 89), entrepreneur (score: 77)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

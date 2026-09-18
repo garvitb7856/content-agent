@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T03:33:15.790Z",
+  "updated_at": "2026-09-18T03:33:26.352Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -13,11 +13,11 @@
     },
     "C": {
       "count": 20,
-      "avgLikes": 270,
+      "avgLikes": 268,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 270 likes. Type C: 20 posts, avg 270 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 268 likes. Type C: 20 posts, avg 268 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -36,7 +36,7 @@
       "scriptType": "C (fully original)",
       "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10. Khair us waqt to ho nahi paya but I'm starti",
       "transcript": "Tumhe pata hai I have always wanted to be a content creator since I was 10. Khair us waqt to ho nahi paya but I'm starting it out now. Ab ise dekh ke kuch log man hi man kehne wale hain ki kya kar raha hai be kuch nahi hone wala tera but you know you know what I don't care about you. By the way main ye sab tumhe bata kyu raha hu but ab sun rahe ho to sun hi lo. For the past 12 days I haven't posted anything. But in 12 dino mein mujhe ek baat to pata chali ki mujhe ye karna pasand to hai par mujhe pata nahi ki main kya banau. I am doing everything, vlogs, AI videos, trying to build businesses and documenting everything because it's better to be Jack of all trades than master of one. So you're gonna see me every day whether you like it or not because who actually cares? Cheers. This is Garvit, and you'll be seeing me again.",
-      "caption": "Just some talks \n\n#entrepreneurship #creator #money #",
+      "caption": "",
       "transcriptFull": "Tumhe pata hai I have always wanted to be a content creator since I was 10. Khair us waqt to ho nahi paya but I'm starting it out now. Ab ise dekh ke kuch log man hi man kehne wale hain ki kya kar raha hai be kuch nahi hone wala tera but you know you know what I don't care about you. By the way main ye sab tumhe bata kyu raha hu but ab sun rahe ho to sun hi lo. For the past 12 days I haven't posted anything. But in 12 dino mein mujhe ek baat to pata chali ki mujhe ye karna pasand to hai par mujhe pata nahi ki main kya banau. I am doing everything, vlogs, AI videos, trying to build businesses and documenting everything because it's better to be Jack of all trades than master of one. So you're gonna see me every day whether you like it or not because who actually cares? Cheers. This is Garvit, and you'll be seeing me again."
     },
     {
@@ -72,7 +72,7 @@
   ],
   "your_top_captions": [
     {
-      "likes": 4331,
+      "likes": 4365,
       "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
       "url": "https://www.instagram.com/p/DbVirrOyodk/"
     },
@@ -87,17 +87,26 @@
       "url": "https://www.instagram.com/p/Dbx5u5xywA1/"
     },
     {
-      "likes": 64,
-      "caption": "OpenAI just beat Claude at almost everything 😳\nHere’s what nobody told u \n\nNew math test that was designed to be unsolvable by AI? Astra basically aced it.\nIt got so good at hacking that even OpenAI is scared to give everyone access.\nBut here’s what Open Ai didn’t exposed !\n\nshipping actual code? C",
-      "url": "https://www.instagram.com/p/Dc3r2c0yGd4/"
+      "likes": 65,
+      "caption": "I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and make your work better !\n\n#ai #chatgptprompts #aicontentcreator #aiimagegenerator #aiimages",
+      "url": "https://www.instagram.com/p/DcbDXDZyrSZ/"
     },
     {
       "likes": 64,
-      "caption": "I bet you dont know this Chatgpt hack !!\n\nComment “Chatgpt” to get the codes and make your work better !\n\n#ai #chatgptprompts #aicontentcreator #aiimagegenerator #aiimages",
-      "url": "https://www.instagram.com/p/DcbDXDZyrSZ/"
+      "caption": "OpenAI just beat Claude at almost everything 😳\nHere’s what nobody told u \n\nNew math test that was designed to be unsolvable by AI? Astra basically aced it.\nIt got so good at hacking that even OpenAI is scared to give everyone access.\nBut here’s what Open Ai didn’t exposed !\n\nshipping actual code? C",
+      "url": "https://www.instagram.com/p/Dc3r2c0yGd4/"
     }
   ],
   "competitor_viral_scripts": [
+    {
+      "handle": "aryamanupmanyu",
+      "postUrl": "https://www.instagram.com/p/DJ6_e99PD4M/",
+      "likes": 0,
+      "comments": 0,
+      "hook": "We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India right now, and I think that it might set a",
+      "transcript": "We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India right now, and I think that it might set a new benchmark for customer experience in the entire D2C space. Now here's the part that made me stop and say, What? Because it replies to your voice note with a voice note. Picture this, you're on Comet's WhatsApp, and you say, Hey, I'm looking for shoes between 3 to 4 k, can you suggest me something good? Seconds later, boom, a voice note reply and links to options that match exactly what you asked. Sure thing. Here are some awesome sneakers available between 3,000 to 4,000. You wanna go deeper? Ask for black shoes in a 5k range, and it filters and replies again. No waiting, no please hold, no drama, just instant, intelligent service. Now here's what actually blew my mind. Once you pick a shoe, you can literally ask, hey, what should I wear with this? And the AI stylist inside Comet's chatbot recommends shirt plus pant combos that match your sneakers. This is actual",
+      "transcriptFull": "We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India right now, and I think that it might set a new benchmark for customer experience in the entire D2C space. Now here's the part that made me stop and say, What? Because it replies to your voice note with a voice note. Picture this, you're on Comet's WhatsApp, and you say, Hey, I'm looking for shoes between 3 to 4 k, can you suggest me something good? Seconds later, boom, a voice note reply and links to options that match exactly what you asked. Sure thing. Here are some awesome sneakers available between 3,000 to 4,000. You wanna go deeper? Ask for black shoes in a 5k range, and it filters and replies again. No waiting, no please hold, no drama, just instant, intelligent service. Now here's what actually blew my mind. Once you pick a shoe, you can literally ask, hey, what should I wear with this? And the AI stylist inside Comet's chatbot recommends shirt plus pant combos that match your sneakers. This is actually I mean, Comet isn't selling shoes anymore. They're talking to their customers, solving their problems, and personalizing fashion advice, all on WhatsApp. This is the future of shopping, where you talk, it understands, where you ask, it delivers flawlessly. Now comment AI to get a full beginner-friendly guide to build something like this in minutes, and also tag a brand that needs this, and also tag Comet if they haven't seen this magic yet. Ciao, see you in the next one."
+    },
     {
       "handle": "aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DUD3favkl5P/",
@@ -160,88 +169,79 @@
       "hook": "This guy accidentally gained access to 7,000 cameras and microphones inside homes across 24 countries. And he wasn't eve",
       "transcript": "This guy accidentally gained access to 7,000 cameras and microphones inside homes across 24 countries. And he wasn't even a hacker. He was simply trying to control his own robot vacuum. But the company's servers exposed live camera feeds, private audio, and detailed floor plans of thousands of homes. So here's how to make sure that never happens to you. Most smart home appliances run on cloud servers, and that's why I set up something that keeps all of that on my own hardware using ZimaBoard 2. It's a tiny, silent server, and it runs on its own operating system called ZimaOS. You can deploy and use local AI models, create your own personal Netflix, use it as a gaming server, or have your own private smart home assistant. Simply connect LAN to your router, install Zima client, and set up your account. Now install Home Assistant from the ZimaOS app store, and it automatically detects all of the smart devices running on the same IP. I'll connect this light in my office. Let me turn it off",
       "transcriptFull": "This guy accidentally gained access to 7,000 cameras and microphones inside homes across 24 countries. And he wasn't even a hacker. He was simply trying to control his own robot vacuum. But the company's servers exposed live camera feeds, private audio, and detailed floor plans of thousands of homes. So here's how to make sure that never happens to you. Most smart home appliances run on cloud servers, and that's why I set up something that keeps all of that on my own hardware using ZimaBoard 2. It's a tiny, silent server, and it runs on its own operating system called ZimaOS. You can deploy and use local AI models, create your own personal Netflix, use it as a gaming server, or have your own private smart home assistant. Simply connect LAN to your router, install Zima client, and set up your account. Now install Home Assistant from the ZimaOS app store, and it automatically detects all of the smart devices running on the same IP. I'll connect this light in my office. Let me turn it off first. Hey Zima, can you turn on the light? And can you actually change the color to purple? Pretty cool. Everything you are seeing, the controls, the automation, all of it is running locally in my house, and nothing goes to the cloud. So stay safe and stay local."
-    },
-    {
-      "handle": "arshman",
-      "postUrl": "https://www.instagram.com/p/DcAf85otIK2/",
-      "likes": 0,
-      "comments": 0,
-      "hook": "ChatGPT can now make your clone the way you speak the way you act and make content for you without you being in front of",
-      "transcript": "ChatGPT can now make your clone the way you speak the way you act and make content for you without you being in front of camera. So I tested these reels on a different channel and here are the results for first three videos. So you go to ChatGPT and paste this prompt. It can do all the research on your topic and use this viral structure to write down a script. Now only once you need to upload a 15-second video of yourself with separate 30 seconds of audio file of your voice to train an AI model. Now go to plugins and add a custom plugin for Higgsfield. And then give this prompt: the character in this video speaking the given script use his voice from the audio file and hit enter. Now this connector will find the most suitable generative AI model as per your video, script, and audio to make your perfect clone. And if you want detailed guide to set up this process, just comment plugin and I'll send you the link to the PDF with 3 days of free trial on Higgsfield.",
-      "transcriptFull": "ChatGPT can now make your clone the way you speak the way you act and make content for you without you being in front of camera. So I tested these reels on a different channel and here are the results for first three videos. So you go to ChatGPT and paste this prompt. It can do all the research on your topic and use this viral structure to write down a script. Now only once you need to upload a 15-second video of yourself with separate 30 seconds of audio file of your voice to train an AI model. Now go to plugins and add a custom plugin for Higgsfield. And then give this prompt: the character in this video speaking the given script use his voice from the audio file and hit enter. Now this connector will find the most suitable generative AI model as per your video, script, and audio to make your perfect clone. And if you want detailed guide to set up this process, just comment plugin and I'll send you the link to the PDF with 3 days of free trial on Higgsfield."
     }
   ],
   "gemini_analysis": {
     "garvit_speaking_style": {
-      "summary": "Garvit speaks in a casual, highly conversational Hinglish blend that oscillates between direct-to-camera tech hacks and personal creator updates. He relies on energetic call-outs to grab immediate attention before shifting into fast, value-dense explanations.",
-      "sentence_structure": "short and punchy hooks transitioning into run-on explanatory sentences",
-      "language_mix": "60% English, 40% Hindi (uses Hindi for emphasis and direct address like 'tumhe pata hai', 'ek Indian developer ne')",
-      "tone": "conversational, informal, slightly rebellious, and peer-to-peer",
-      "pacing": "fast-paced and dense with info",
+      "summary": "Garvit speaks directly to the camera with high conviction, seamlessly switching between personal storytelling and high-value AI tool breakdowns. He balances energetic Hinglish delivery for relatable personal moments with clear English for technical utility, creating an approachable tech-founder vibe.",
+      "sentence_structure": "Short, punchy declarative hooks followed by explanatory, medium-length breakdown sentences.",
+      "language_mix": "70% English and 30% Hinglish code-switching for emotional emphasis and audience connection.",
+      "tone": "Conversational, urgent, confident, and direct.",
+      "pacing": "Fast to medium pacing with dense informational delivery to maintain hook retention.",
       "signature_phrases": [
         "stop taking AI subscriptions right now",
-        "tumhe pata hai",
         "I wish I knew this earlier",
+        "you're gonna see me every day whether you like it or not",
         "comment below to get the link"
       ],
-      "what_makes_it_work": "His relatable peer-to-peer tone eliminates the distance between him and the audience, making tech tips feel like insider secrets shared by a friend."
+      "what_makes_it_work": "He combines anti-subscription cost-saving hacks with high-energy urgency that appeals directly to price-sensitive Indian creators and developers."
     },
     "garvit_writing_style": {
-      "summary": "Garvit's captions are ultra-concise, structured as quick benefit summaries rather than long essays. He focuses heavily on the value proposition and a direct comment-to-DM CTA.",
-      "caption_structure": "Opens with a capitalized hook/benefit statement, lists key features in short bulleted or single-line phrases, and closes with a clear DM automation CTA and niche hashtags.",
+      "summary": "Garvit writes captions formatted for maximum CTA conversion and DM automation triggers. His captions highlight the core offer upfront and rely on bullet points and visual spacing rather than long narrative blocks.",
+      "caption_structure": "High-caps visual header hook -> Feature bullet list (No limit / Free alternative) -> Clear CTA trigger instruction -> Relevant hashtags.",
       "cta_patterns": [
-        "Follow and then comment [Keyword] to get the guide in your DM:)",
-        "Comment [Keyword] to get the link"
+        "Follow and then comment [KEYWORD] to get the guide in your DM",
+        "Just comment [KEYWORD] and I'll send you the complete guide"
       ],
-      "tone_vs_speaking": "His written tone is far more direct and stripped-down compared to his spoken tone, omitting conversational filler to focus purely on the lead magnet offer."
+      "tone_vs_speaking": "Written captions are purely functional, bulleted, and in standard English, whereas spoken delivery is personal, raw, and Hinglish-driven."
     },
     "competitor_speaking_patterns": {
-      "summary": "Viral competitors use intense pattern interrupts, real-world case studies, and distinct step-by-step frameworks (e.g., layers, multi-agent teams) with concrete metrics and visual proofs.",
+      "summary": "Viral competitor scripts establish immediate authority by using strong negative hooks, structured step-by-step frameworks (e.g., 8 layers, 4 agents), and real-world commercial metrics.",
       "viral_hook_patterns": [
-        "Stop pretending you know how to use [Tool]...",
-        "We built this AI agent for [Viral Brand]...",
-        "Forget [Paid Tool]. Instead, use this free open-source alternative..."
+        "Stop pretending you know how to use [Tool]",
+        "We built this AI agent for [Recognized Brand]",
+        "Forget [Popular Paid Tool], use this free open source alternative"
       ],
-      "viral_body_structure": "They build authority using named frameworks (e.g., 'Layer 1 to Layer 8' or '4 AI Agents: Gatekeeper, Judge, Ghostwriter, Closer') and walk through step-by-step screen workflows.",
+      "viral_body_structure": "High-stakes premise -> Multi-tiered breakdown or step-by-step live build -> Proof of result/metric -> DM automation prompt.",
       "viral_cta_patterns": [
-        "Just comment [Keyword] and I'll send this entire workflow and guide...",
-        "Don't forget to follow and save this reel."
+        "Comment [KEYWORD] down below and I'll send you the link directly",
+        "Comment [KEYWORD] and I'll send this entire workflow and guide"
       ],
-      "key_difference_from_garvit": "Competitors focus more on operational systems, business ROI (e.g., 'cart recovery from 30% to 80%'), and clear frameworks, whereas Garvit focuses more on consumer savings ('get paid tools for free') and personal creator journey storytelling."
+      "key_difference_from_garvit": "Competitors use systematic frameworks (layers, workflows, multi-agent systems) and real-world brand proof, while Garvit focuses on single-hack cost savings and raw personal building."
     },
     "viral_own_script_analysis": [
       {
         "rank": 1,
         "likes": 0,
-        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch ",
+        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch",
         "hook_type": "pattern_interrupt",
-        "hook_length_words": 21,
-        "body_structure": "Value reveal -> cost comparison -> open source validation (GitHub stars) -> CTA",
+        "hook_length_words": 20,
+        "body_structure": "Urgent value claim -> Open-source replacement reveal -> Technical setup context (GitHub/API keys) -> DM conversion call.",
         "cta": "comment below free to get the link",
         "script_type": "C",
-        "what_made_it_viral": "High local relevance ('ek Indian developer') combined with financial pain-point leverage ('stop taking subscriptions')."
+        "what_made_it_viral": "Leveraged high urgency, local pride ('Indian developer'), and strong financial incentive (saving ₹5000-6000/month)."
       },
       {
         "rank": 2,
         "likes": 0,
-        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top m",
+        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free.",
         "hook_type": "pattern_interrupt",
-        "hook_length_words": 23,
-        "body_structure": "Contrarian warning -> direct screen proof -> emotional trigger ('need money to make money') -> solution -> CTA",
+        "hook_length_words": 15,
+        "body_structure": "Bold warning statement -> Screen-proof showcase of premium features -> Secret method explanation -> DM automation CTA.",
         "cta": "Just comment 'Claude' and I'll send you the complete guide to do",
         "script_type": "C",
-        "what_made_it_viral": "Strong contrarian claim targeting a premium software brand (Claude) coupled with proof of massive utility (250k tokens)."
+        "what_made_it_viral": "Direct attack on a universal creator pain point (Claude subscription limits and costs)."
       },
       {
         "rank": 3,
         "likes": 0,
-        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get Go",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 21,
-        "body_structure": "Regret hook -> rapid-fire tool stack feature drop -> high value bonus -> CTA",
+        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free.",
+        "hook_type": "story",
+        "hook_length_words": 15,
+        "body_structure": "Regret hook -> Rapid-fire list of unlocked high-value Google AI tools -> Free bonus addition -> DM guide CTA.",
         "cta": "just follow me and comment",
         "script_type": "C",
-        "what_made_it_viral": "FOMO-inducing hook leverage combined with a heavy stack of flagship Google tool drops."
+        "what_made_it_viral": "FOMO hook combined with high feature density (Gemini Pro, Veo 3.1, 5TB Storage)."
       },
       {
         "rank": 4,
@@ -249,33 +249,32 @@
         "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10. Khair us waqt to ho nahi paya but I'm starti",
         "hook_type": "story",
         "hook_length_words": 24,
-        "body_structure": "Personal confession -> hater callout -> vulnerability about content struggle -> re-commitment statement",
+        "body_structure": "Personal vulnerability -> Addressing haters -> Creator journey update -> Daily consistency pledge.",
         "cta": "This is Garvit, and you'll be seeing me again.",
         "script_type": "C",
-        "what_made_it_viral": "Raw authenticity and relatable creator vulnerability that builds deep personal connection."
+        "what_made_it_viral": "Raw, authentic Hinglish storytelling that builds founder narrative and personal connection."
       },
       {
         "rank": 5,
         "likes": 0,
-        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan. I a",
+        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan.",
         "hook_type": "list",
-        "hook_length_words": 24,
-        "body_structure": "Celebrity quote stacking -> core pattern identification -> self-limiting talk critique -> psychological explanation -> actionable rules/affirmations",
-        "cta": "None (Implicit mindset shift)",
+        "hook_length_words": 22,
+        "body_structure": "Celebrity name drops -> Common psychological trait extraction -> Subconscious mind principle -> Daily affirmations framework.",
+        "cta": "Written caption call to practice self-belief.",
         "script_type": "C",
-        "what_made_it_viral": "High-authority name dropping immediately followed by a universal psychological insight."
+        "what_made_it_viral": "High cultural relevance (Ronaldo, Kohli, SRK) linked to relatable mindset and self-talk insights."
       }
     ],
     "verdict": {
-      "whose_style_goes_viral": "Hybrid (Garvit's energetic Hinglish hook & direct tone + Competitors' structured step-by-step frameworks)",
-      "reasoning": "Garvit's own Type C original scripts drive strong audience affinity due to his natural Hinglish delivery and cost-saving hooks. However, competitor retention is higher because they break down complex ideas into named multi-step frameworks (e.g. '8 layers', '4 AI agents'). Combining Garvit's natural tone with structured frameworks creates maximum engagement.",
-      "recommended_hook_structure": "Stop doing [Common Action] right now. [Tool/Developer] ne [Paid Feature] ko completely free kar diya hai.",
-      "recommended_body_structure": "1. Show screen proof/result immediately. 2. Break down the solution into 3-4 numbered steps or named components. 3. Quantify the saved money or earned metric.",
-      "recommended_cta_structure": "If you want the exact [Guide/Workflow/Prompt], just comment '[KEYWORD]' down below and I'll DM you the link.",
+      "whose_style_goes_viral": "Garvit's original style",
+      "reasoning": "Garvit's Type C original scripts succeed because they combine high-utility tech cost-savings with relatable Indian Hinglish context. Applying competitive framework structures to his authentic voice yields the highest retention.",
+      "recommended_hook_structure": "[Stop paying for / Nobody should buy] [Paid Tool/Subscription] because [Free Alternative / Secret Hack] [Key Benefit].",
+      "recommended_body_structure": "Show proof on screen -> Explain the 2-3 step setup process -> Highlight exact savings/features -> Call out DM trigger keyword.",
+      "recommended_cta_structure": "Comment '[KEYWORD]' below and I will DM you the step-by-step setup guide for free.",
       "avoid_these": [
-        "Vague narrative rants without explicit visual or technical breakdowns",
-        "Long intros before showing screen proof or actual output",
-        "Purely English scripts when addressing broad Indian tech/student audiences"
+        "Overly generic motivation without concrete action steps",
+        "Vague tech updates without clear utility or direct user benefits"
       ]
     }
   }

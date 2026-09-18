@@ -1,71 +1,71 @@
 {
-  "generated_at": "2026-09-17T03:31:48.335Z",
+  "generated_at": "2026-09-18T03:31:58.326Z",
   "hotRightNow": [
     {
-      "username": "thevarunmayya",
-      "caption": "An app with a blank homepage is worth $2.5 billion. Instinct is an AI agent you text like a person.",
-      "likes": 6322,
-      "comments": 166,
-      "engagement": 6488,
-      "engRate": "0.51",
-      "timestamp": "2026-09-16T14:31:54.000Z",
-      "url": "https://www.instagram.com/p/DdWgNK3o-pu/",
+      "username": "vaibhavsisinty",
+      "caption": "Yes, it's a @temple ❤️\n\nI'm one of a few hundred people on the planet wearing one right now.\n\nYou've",
+      "likes": 27311,
+      "comments": 206,
+      "engagement": 27517,
+      "engRate": "1.27",
+      "timestamp": "2026-09-17T09:59:29.000Z",
+      "url": "https://www.instagram.com/p/DdYmD-IlI2y/",
+      "type": "Post"
+    },
+    {
+      "username": "vaibhavsisinty",
+      "caption": "Reversing aging just got real\n\nIn 2006, Shinya Yamanaka won a Nobel for showing proteins could make ",
+      "likes": 7041,
+      "comments": 78,
+      "engagement": 7119,
+      "engRate": "0.33",
+      "timestamp": "2026-09-17T15:12:34.000Z",
+      "url": "https://www.instagram.com/p/DdZJqMrBzK6/",
       "type": "Video"
     },
     {
       "username": "nick_saraev",
-      "caption": "Comment \"VIDEO\" to get the DaVinci Resolve MCP to start editing videos with Claude AI. \n\nYour AI can",
-      "likes": 1724,
-      "comments": 2485,
-      "engagement": 4209,
-      "engRate": "0.62",
-      "timestamp": "2026-09-16T15:49:43.000Z",
-      "url": "https://www.instagram.com/p/DdWpF8JPkh2/",
-      "type": "Video"
-    },
-    {
-      "username": "ishansharma7390",
-      "caption": "Tag that friend who will buy you an iPhone!\n\n10 years ago from iPhone SE to today.\n\nApple just sent ",
-      "likes": 3447,
-      "comments": 51,
-      "engagement": 3498,
-      "engRate": "0.28",
-      "timestamp": "2026-09-16T12:30:07.000Z",
-      "url": "https://www.instagram.com/p/DdWShWNNasE/",
-      "type": "Video"
-    },
-    {
-      "username": "vaibhavsisinty",
-      "caption": "An ex-SpaceX engineer built a cargo rocket\n\nJacob left SpaceX to build Rook, a rocket that delivers ",
-      "likes": 2006,
-      "comments": 14,
-      "engagement": 2020,
-      "engRate": "0.09",
-      "timestamp": "2026-09-16T14:12:39.000Z",
-      "url": "https://www.instagram.com/p/DdWeEdzMSUb/",
+      "caption": "Comment \"SEO\" to get these 3 Claude Code plugins to boost your SEO. \n\nYou don't need to pay for expe",
+      "likes": 1078,
+      "comments": 1594,
+      "engagement": 2672,
+      "engRate": "0.39",
+      "timestamp": "2026-09-17T16:00:38.000Z",
+      "url": "https://www.instagram.com/p/DdZPRfiStXv/",
       "type": "Video"
     },
     {
       "username": "nivedan.ai",
       "caption": "What if your job search could run while you sleep? 👀\n\nOne person built an AI agent that found jobs,",
-      "likes": 416,
-      "comments": 653,
-      "engagement": 1069,
-      "engRate": "0.20",
-      "timestamp": "2026-09-16T12:31:36.000Z",
-      "url": "https://www.instagram.com/p/DdWQrBqpq8h/",
+      "likes": 723,
+      "comments": 739,
+      "engagement": 1462,
+      "engRate": "0.28",
+      "timestamp": "2026-09-17T07:03:21.000Z",
+      "url": "https://www.instagram.com/p/DdYRj4KJD0X/",
       "type": "Video"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "The engineer behind Claude Code just released a free 28-minute masterclass on how to get better resu",
+      "likes": 691,
+      "comments": 659,
+      "engagement": 1350,
+      "engRate": "0.25",
+      "timestamp": "2026-09-17T08:23:23.000Z",
+      "url": "https://www.instagram.com/p/DdYbEHSCfAt/",
+      "type": "Post"
     }
   ],
   "risingFormat": [
     {
       "format": "post",
-      "avgEng": 4885,
-      "count": 12
+      "avgEng": 6288,
+      "count": 11
     },
     {
       "format": "video",
-      "avgEng": 4343,
+      "avgEng": 4290,
       "count": 31
     }
   ],
@@ -79,52 +79,52 @@
       "appearsIn": "4 top posts"
     },
     {
-      "topic": "claude",
-      "appearsIn": "3 top posts"
-    },
-    {
       "topic": "money",
       "appearsIn": "3 top posts"
     },
     {
       "topic": "agent",
       "appearsIn": "3 top posts"
+    },
+    {
+      "topic": "openai",
+      "appearsIn": "3 top posts"
     }
   ],
   "bestPostingWindow": [
     "19:00 IST (4 top posts)",
-    "20:00 IST (4 top posts)",
+    "20:00 IST (3 top posts)",
     "1:00 IST (2 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 65248,
+      "likes": 65670,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98285,
+      "likes": 98292,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 80125,
+      "likes": 80614,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 21975,
+      "likes": 22183,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 67615,
+      "likes": 68085,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]
