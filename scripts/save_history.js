@@ -1,87 +1,104 @@
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
-function atomicWrite(filePath, data) {
-  const tmp = filePath + '.tmp';
-  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
-  fs.renameSync(tmp, filePath);
+const ROOT = path.join(__dirname, '..');
+const HISTORY_DIR = path.join(ROOT, 'second_brain/history');
+
+function atomicWrite(p, data) {
+  const t = p + '.tmp';
+  fs.writeFileSync(t, JSON.stringify(data, null, 2));
+  fs.renameSync(t, p);
 }
 
-const SECOND_BRAIN_DIR = path.join(__dirname, '../second_brain');
-const DASHBOARD_SB_DIR = path.join(__dirname, '../dashboard/second_brain');
-const HISTORY_DIR = path.join(SECOND_BRAIN_DIR, 'history');
-const DASHBOARD_HISTORY_DIR = path.join(DASHBOARD_SB_DIR, 'history');
-
-const AGENTS_OUTPUT_PATH = path.join(__dirname, '../dashboard/data/agents_output.json');
-const ACTIVE_PLAN_PATH = path.join(SECOND_BRAIN_DIR, 'active_plan.json');
-
-function ensureDirs() {
-  fs.mkdirSync(HISTORY_DIR, { recursive: true });
-  fs.mkdirSync(DASHBOARD_HISTORY_DIR, { recursive: true });
+function safeRead(p, d) {
+  try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch(e) { return d; }
 }
 
-function getTodayStr() {
-  return new Date().toISOString().split('T')[0];
+function median(arr) {
+  if (!arr || !arr.length) return 0;
+  const s = arr.slice().sort((a, b) => a - b);
+  const m = Math.floor(s.length / 2);
+  return s.length % 2 ? s[m] : Math.round((s[m - 1] + s[m]) / 2);
 }
 
-function copyFileSync(src, dst) {
-  if (fs.existsSync(src)) {
-    fs.mkdirSync(path.dirname(dst), { recursive: true });
-    fs.copyFileSync(src, dst);
-  }
-}
-
-function cleanupOldFiles(dirPath, maxAgeDays = 14) {
-  if (!fs.existsSync(dirPath)) return;
-  const now = Date.now();
-  const maxAgeMs = maxAgeDays * 24 * 60 * 60 * 1000;
-
-  const files = fs.readdirSync(dirPath);
-  files.forEach(file => {
-    const filePath = path.join(dirPath, file);
-    try {
-      const stats = fs.statSync(filePath);
-      if (stats.isFile()) {
-        const fileAge = now - stats.mtimeMs;
-        if (fileAge > maxAgeMs) {
-          fs.unlinkSync(filePath);
-          console.log(`🗑️ Deleted history file older than 14 days: ${file}`);
-        }
-      }
-    } catch (e) {
-      console.warn(`Warning checking ${file}:`, e.message);
-    }
-  });
+function accountStats(account) {
+  const posts = account.posts || account.recent_posts || [];
+  const likes = posts.map(p => p.likes || 0);
+  const comments = posts.map(p => p.comments || 0);
+  const mLikes = median(likes);
+  const mComments = median(comments);
+  const followers = account.followers || 0;
+  const engRate = followers > 0
+    ? ((mLikes + mComments) / followers * 100).toFixed(2)
+    : '0.00';
+  return {
+    followers,
+    median_likes: mLikes,
+    median_comments: mComments,
+    engagement_rate: engRate,
+    post_count: posts.length
+  };
 }
 
 function run() {
-  ensureDirs();
-  const today = getTodayStr();
+  fs.mkdirSync(HISTORY_DIR, { recursive: true });
 
-  // Skip if we already saved history for today
-  const existingFile = path.join(HISTORY_DIR, `${today}.json`);
-  if (fs.existsSync(existingFile)) {
-    console.log(`⏭ History for ${today} already saved — skipping to avoid overwrite.`);
+  const today = new Date().toISOString().split('T')[0];
+  const outPath = path.join(HISTORY_DIR, `${today}.json`);
+
+  if (fs.existsSync(outPath)) {
+    console.log(`⏭ History for ${today} already saved — skipping.`);
     return;
   }
 
-  // 1. Copy agents_output.json to history/YYYY-MM-DD.json
-  const histAgentFile = path.join(HISTORY_DIR, `${today}.json`);
-  const dashHistAgentFile = path.join(DASHBOARD_HISTORY_DIR, `${today}.json`);
-  copyFileSync(AGENTS_OUTPUT_PATH, histAgentFile);
-  copyFileSync(AGENTS_OUTPUT_PATH, dashHistAgentFile);
+  // Read fresh data.json for follower stats
+  const data = safeRead(path.join(ROOT, 'dashboard/data.json'), null);
+  if (!data) {
+    console.log('❌ dashboard/data.json not found — skipping history save.');
+    return;
+  }
 
-  // 2. Copy active_plan.json to history/plan_YYYY-MM-DD.json
-  const histPlanFile = path.join(HISTORY_DIR, `plan_${today}.json`);
-  const dashHistPlanFile = path.join(DASHBOARD_HISTORY_DIR, `plan_${today}.json`);
-  copyFileSync(ACTIVE_PLAN_PATH, histPlanFile);
-  copyFileSync(ACTIVE_PLAN_PATH, dashHistPlanFile);
+  const myStats = accountStats(data.your_account || {});
+  const myHandle = (data.your_account || {}).handle ||
+    (process.env.MY_INSTAGRAM_HANDLE || '').replace('@', '').toLowerCase();
 
-  // 3. Delete files older than 14 days
-  cleanupOldFiles(HISTORY_DIR, 14);
-  cleanupOldFiles(DASHBOARD_HISTORY_DIR, 14);
+  const rawComp = data.competitors || [];
+  const competitorList = Array.isArray(rawComp)
+    ? rawComp
+    : Object.entries(rawComp).map(([handle, c]) => ({ handle: c.handle || handle, ...c }));
 
-  console.log(`✅ Saved today's history snapshot (${today}) and cleaned up old entries.`);
+  const competitorStats = competitorList.map(c => ({
+    handle: c.handle,
+    ...accountStats(c)
+  }));
+
+  const snapshot = {
+    date: today,
+    saved_at: new Date().toISOString(),
+    fetched_at: data.fetched_at || null,
+    your_account: {
+      handle: myHandle,
+      ...myStats
+    },
+    competitors: competitorStats
+  };
+
+  atomicWrite(outPath, snapshot);
+  console.log(`✅ History saved for ${today}`);
+  console.log(`   @${myHandle}: ${myStats.followers} followers, ${myStats.median_likes} med likes, ${myStats.engagement_rate}% eng`);
+  console.log(`   ${competitorStats.length} competitors recorded`);
+
+  // Clean up history files older than 30 days
+  const files = fs.readdirSync(HISTORY_DIR).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f));
+  const cutoff = Date.now() - 30 * 24 * 60 * 60 * 1000;
+  files.forEach(f => {
+    const fp = path.join(HISTORY_DIR, f);
+    if (fs.statSync(fp).mtimeMs < cutoff) {
+      fs.unlinkSync(fp);
+      console.log(`🗑 Deleted old history: ${f}`);
+    }
+  });
 }
 
 run();
