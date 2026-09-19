@@ -1,82 +1,86 @@
 {
-  "generated_at": "2026-09-18T03:31:58.326Z",
+  "generated_at": "2026-09-19T03:31:50.352Z",
   "hotRightNow": [
     {
-      "username": "vaibhavsisinty",
-      "caption": "Yes, it's a @temple ❤️\n\nI'm one of a few hundred people on the planet wearing one right now.\n\nYou've",
-      "likes": 27311,
-      "comments": 206,
-      "engagement": 27517,
-      "engRate": "1.27",
-      "timestamp": "2026-09-17T09:59:29.000Z",
-      "url": "https://www.instagram.com/p/DdYmD-IlI2y/",
-      "type": "Post"
-    },
-    {
-      "username": "vaibhavsisinty",
-      "caption": "Reversing aging just got real\n\nIn 2006, Shinya Yamanaka won a Nobel for showing proteins could make ",
-      "likes": 7041,
-      "comments": 78,
-      "engagement": 7119,
-      "engRate": "0.33",
-      "timestamp": "2026-09-17T15:12:34.000Z",
-      "url": "https://www.instagram.com/p/DdZJqMrBzK6/",
-      "type": "Video"
-    },
-    {
       "username": "nick_saraev",
-      "caption": "Comment \"SEO\" to get these 3 Claude Code plugins to boost your SEO. \n\nYou don't need to pay for expe",
-      "likes": 1078,
-      "comments": 1594,
-      "engagement": 2672,
-      "engRate": "0.39",
-      "timestamp": "2026-09-17T16:00:38.000Z",
-      "url": "https://www.instagram.com/p/DdZPRfiStXv/",
+      "caption": "Comment \"MODELS\" to get access and start building with these top video models.\n\nYou don't need a sub",
+      "likes": 650,
+      "comments": 776,
+      "engagement": 1426,
+      "engRate": "0.21",
+      "timestamp": "2026-09-18T15:15:35.000Z",
+      "url": "https://www.instagram.com/p/Ddbu9HxPWnH/",
+      "type": "Video"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "Which level are you at?",
+      "likes": 1072,
+      "comments": 17,
+      "engagement": 1089,
+      "engRate": "0.09",
+      "timestamp": "2026-09-18T16:04:56.000Z",
+      "url": "https://www.instagram.com/p/Ddb0i3CIvIr/",
       "type": "Video"
     },
     {
       "username": "nivedan.ai",
-      "caption": "What if your job search could run while you sleep? 👀\n\nOne person built an AI agent that found jobs,",
-      "likes": 723,
-      "comments": 739,
-      "engagement": 1462,
-      "engRate": "0.28",
-      "timestamp": "2026-09-17T07:03:21.000Z",
-      "url": "https://www.instagram.com/p/DdYRj4KJD0X/",
+      "caption": "Too lazy to get camera-ready? Don't have a background that looks professional?\n\n Using Genjutsu, you",
+      "likes": 136,
+      "comments": 232,
+      "engagement": 368,
+      "engRate": "0.07",
+      "timestamp": "2026-09-18T12:23:45.000Z",
+      "url": "https://www.instagram.com/p/DdbbJSYJlIj/",
+      "type": "Video"
+    },
+    {
+      "username": "arshman",
+      "caption": "You can now design right inside Claude (not Claude Design)\n\nThese are the two commands from the reel",
+      "likes": 107,
+      "comments": 91,
+      "engagement": 198,
+      "engRate": "0.05",
+      "timestamp": "2026-09-18T04:11:09.000Z",
+      "url": "https://www.instagram.com/p/DdairGWtP7q/",
       "type": "Video"
     },
     {
       "username": "nivedan.ai",
-      "caption": "The engineer behind Claude Code just released a free 28-minute masterclass on how to get better resu",
-      "likes": 691,
-      "comments": 659,
-      "engagement": 1350,
-      "engRate": "0.25",
-      "timestamp": "2026-09-17T08:23:23.000Z",
-      "url": "https://www.instagram.com/p/DdYbEHSCfAt/",
+      "caption": "These 7 prompts can turn ChatGPT into your personal language tutor, conversation partner, grammar as",
+      "likes": 130,
+      "comments": 30,
+      "engagement": 160,
+      "engRate": "0.03",
+      "timestamp": "2026-09-18T08:29:54.000Z",
+      "url": "https://www.instagram.com/p/DdbAmo6iVb2/",
       "type": "Post"
     }
   ],
   "risingFormat": [
     {
       "format": "post",
-      "avgEng": 6288,
-      "count": 11
+      "avgEng": 7465,
+      "count": 10
     },
     {
       "format": "video",
-      "avgEng": 4290,
-      "count": 31
+      "avgEng": 4974,
+      "count": 26
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "12 top posts"
+      "appearsIn": "13 top posts"
     },
     {
       "topic": "gpt",
       "appearsIn": "4 top posts"
+    },
+    {
+      "topic": "claude",
+      "appearsIn": "3 top posts"
     },
     {
       "topic": "money",
@@ -85,46 +89,42 @@
     {
       "topic": "agent",
       "appearsIn": "3 top posts"
-    },
-    {
-      "topic": "openai",
-      "appearsIn": "3 top posts"
     }
   ],
   "bestPostingWindow": [
     "19:00 IST (4 top posts)",
-    "20:00 IST (3 top posts)",
+    "20:00 IST (4 top posts)",
     "1:00 IST (2 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 65670,
+      "likes": 66035,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98292,
+      "likes": 98285,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 80614,
+      "likes": 81232,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 22183,
+      "likes": 22489,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 68085,
+      "likes": 68549,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-18",
-  "end_date": "2026-09-25",
+  "generated_on": "2026-09-19",
+  "end_date": "2026-09-26",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-18",
-      "topic": "WhatsApp Voice AI Agent for D2C Brands (Comet Voice Agent Case Study)",
+      "date": "2026-09-19",
+      "topic": "Voice-to-Voice AI Customer Care for Tier 2 Indian Brands",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "AI WhatsApp agents now reply with actual voice notes.",
+      "post_time": "6:30 PM IST",
+      "hook": "We built a Hinglish voice AI agent for a local Kirana supply brand that answers calls and takes orders automatically.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-19",
-      "topic": "Claude Fable 5.1 System Prompt Leak Breakdown & Key Learnings",
+      "date": "2026-09-20",
+      "topic": "5 ChatGPT Work Plugins Running Businesses 24/7",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Claude’s 275,000 character system prompt just got leaked.",
+      "post_time": "7:00 PM IST",
+      "hook": "These 5 free ChatGPT plugins run my business while I sleep.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-20",
-      "topic": "DaVinci Resolve MCP Server (Controlling video edits via AI & Claude Code)",
+      "date": "2026-09-21",
+      "topic": "The 'Humans vs AI Agents' Checkout Speed Test",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "AI can now edit full videos inside DaVinci Resolve.",
+      "post_time": "6:45 PM IST",
+      "hook": "We raced a human shopper against an AI agent to order on BigBasket during flash sales. The result was brutal.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-21",
-      "topic": "How to run Open-Source / Local AI on your PC in 60 Seconds",
+      "date": "2026-09-22",
+      "topic": "Claude Code SEO Expert Setup",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Stop paying for ChatGPT: run local AI for free.",
+      "post_time": "8:00 PM IST",
+      "hook": "Stop paying for SEO tools. Use Claude Code instead.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-22",
-      "topic": "D2C Intent-Based Abandoned Cart Recovery AI Agent (Snitch Case Study)",
+      "date": "2026-09-23",
+      "topic": "DaVinci Resolve MCP Server: AI Video Editing via Chat",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "This AI agent recovers lakhs in abandoned D2C carts.",
+      "post_time": "7:15 PM IST",
+      "hook": "DaVinci Resolve just added an MCP server to edit full videos using Claude Code.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-23",
-      "topic": "Open Design Tool: Free No-Code 3D Website Generator",
+      "date": "2026-09-24",
+      "topic": "Discipline vs Indiscipline: The Harsh Truth for Creators",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Build 3D websites for free without coding or Figma.",
+      "post_time": "6:30 PM IST",
+      "hook": "The problem with discipline vs indiscipline will change how you work.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-24",
-      "topic": "Building a Face-Less AI Persona & Voice Clone Workflow",
+      "date": "2026-09-25",
+      "topic": "World Monitor Terminal: Tracking Global Events in Real Time",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Create an AI avatar clone that speaks like you.",
+      "post_time": "7:30 PM IST",
+      "hook": "This free OSINT dashboard turns your browser into a government-grade situational war room.",
       "status": "pending"
     }
   ]

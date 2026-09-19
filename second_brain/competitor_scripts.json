@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T03:32:02.141Z",
+  "updated_at": "2026-09-19T03:31:52.136Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1554,8 +1554,62 @@
       "verdict": "medium",
       "transcribed_at": "2026-09-09T17:25:52.583Z",
       "scraped_at": "2026-09-14T03:31:53.860Z"
+    },
+    {
+      "id": "3987555248167078006_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DdWpF8JPkh2/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Your AI can edit movies now.  And not just simple things like captions and cuts, but full production grade edits.  DaVinci Resolve, which is a free video editor that's on par with Premiere Pro, just dropped an official MCP server.",
+      "full_script": "Your AI can edit movies now. And not just simple things like captions and cuts, but full production grade edits. DaVinci Resolve, which is a free video editor that's on par with Premiere Pro, just dropped an official MCP server. So you can now connect it directly to Claude Code or Codex and control your entire timeline literally just by having a conversation. So with this, you can now automatically color grade your footage, build motion graphics, create multicam cuts, add sound effects, and even adjust your own music so it fits the edits perfectly. Plus, if you need a B-roll clip in between, you can have Claude generate it, and then just drop it straight into the timeline. Want the whole setup for yourselves? Just comment \"video\" down below, and I'll send you the link directly.",
+      "full_caption": "Comment \"VIDEO\" to get the DaVinci Resolve MCP to start editing videos with Claude AI. \n\nYour AI can edit videos now, and not just simple stuff like captions and cuts.\n\nFull production grade edits.\n\nDaVinci Resolve, which is a free video editor on par with Premiere Pro, just dropped their official M",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3859,
+      "comments": 5583,
+      "engagement_rate": 1.39,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-18T03:44:27.692Z",
+      "scraped_at": "2026-09-19T03:31:52.119Z"
+    },
+    {
+      "id": "3985711299420822840_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DdQF09DPR04/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "This free AI tool lets you scrape unlimited local leads without having to pay for anything.  It's called Google Maps Scraper Kit, and it's a free and open-source scraper that just runs in your own computer, with Claude automating the entire scraping process for you.  You just tell it the city and the type of business you want to target, and it'll come back with a clean list of everyone, including their name, phone number, email, website, and even address.",
+      "full_script": "This free AI tool lets you scrape unlimited local leads without having to pay for anything. It's called Google Maps Scraper Kit, and it's a free and open-source scraper that just runs in your own computer, with Claude automating the entire scraping process for you. You just tell it the city and the type of business you want to target, and it'll come back with a clean list of everyone, including their name, phone number, email, website, and even address. Plus, it even pulls their social media accounts straight from their websites, so you guys can reach them there, too. If you want to try this for yourself, just comment Google down below, and I'll send you guys the repo.",
+      "full_caption": "Comment \"GOOGLE\" to get this Free Google Maps Scraper AI Tool. \n\nThis free AI tool lets you scrape unlimited local leads without paying for anything.\n\nIt's called Google Maps Scraper Kit.\n\nIt's a free and open source scraper that runs on your own computer.\n\nWith Claude automating the whole thing for",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 2724,
+      "comments": 4149,
+      "engagement_rate": 1.01,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-15T03:34:09.150Z",
+      "scraped_at": "2026-09-19T03:31:52.120Z"
+    },
+    {
+      "id": "3984000863566627465_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DdKA61hvQKJ/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Someone just leaked the full system prompt from Claude Fable 5. 1, and this isn't just some basic prompt.  It's over 275,000 characters long, around 8,000 lines, and it covers the exact instructions that Anthropic uses to control how one of the world's most powerful AI models thinks, plans, and gets work done.",
+      "full_script": "Someone just leaked the full system prompt from Claude Fable 5.1, and this isn't just some basic prompt. It's over 275,000 characters long, around 8,000 lines, and it covers the exact instructions that Anthropic uses to control how one of the world's most powerful AI models thinks, plans, and gets work done. The leak includes the entire prompt with its tools, instructions, and behavior rules, and it's all sitting in a public GitHub. So you can use it to improve your own prompting skills by studying exactly how Anthropic defines its tools, sets their restrictions, and even tells the models what to use when and how. If you guys want that link, just comment \"Fable\" down below, and I'll send it to you directly.",
+      "full_caption": "Comment \"FABLE\" to get the leaked Claude Fable 5.1 system prompt.\n\nSomeone just leaked the full system prompt of Claude Fable 5.1.\n\nAnd this isn't some basic prompt.\n\nIt's over 275,000 characters long, around 8,000 lines.\n\nIt covers the exact instructions Anthropic uses to control how one of the wor",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3290,
+      "comments": 6124,
+      "engagement_rate": 1.39,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-18T03:47:32.242Z",
+      "scraped_at": "2026-09-19T03:31:52.120Z"
     }
   ],
-  "total": 100,
-  "transcript_based": 18
+  "total": 103,
+  "transcript_based": 21
 }

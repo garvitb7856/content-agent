@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "WhatsApp AI Agent for Comet",
-    "hook": "We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India, and it literally replies to your voice notes with voice notes.",
+    "title": "Voice-to-Voice AI Customer Care for Tier 2 Indian Brands",
+    "hook": "We built a Hinglish voice AI agent for a local Kirana supply brand that answers calls and takes orders automatically.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Voice AI agents for popular Indian D2C brands show proven hyper-engagement and viral save rates across tech audiences. Aryaman's original breakdown proved strong traction by showcasing practical, localized agentic workflows.",
+    "reasoning": "Backed by @aryamanupmanyu's proven viral voice agent showcase for Comet which generated massive engagement in the Indian D2C space. The local Hinglish Kirana angle offers a highly relatable, practical voice automation proof perfect for @garvit.irl's audience.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DJ6_e99PD4M/"
   },
   {
     "rank": 2,
-    "title": "DaVinci Resolve MCP Server",
-    "hook": "Your AI can edit movies now. And I don’t mean simple captions—I mean full production-grade edits directly in DaVinci Resolve.",
+    "title": "The 'Humans vs AI Agents' Checkout Speed Test",
+    "hook": "We raced a human shopper against an AI autonomous agent to order on BigBasket during flash sales. The result was brutal.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "MCP protocol workflows and automated video editing are exploding among creators looking to streamline tedious production tasks. Nick Saraev's post demonstrated massive appeal by connecting developer tools directly to creative software.",
+    "reasoning": "Inspired by @ishansharma7390's high-performing live experiment concept testing humans against AI agents. Racing an autonomous agent on BigBasket provides high-stakes visual tension and a strong local Indian consumer hook.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DdY95rOSiLd/"
+  },
+  {
+    "rank": 3,
+    "title": "DaVinci Resolve MCP Server: AI Video Editing via Chat",
+    "hook": "DaVinci Resolve just released an official MCP server, which means you can now edit full videos inside DaVinci using Claude Code.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Based on @nick_saraev's breakdown demonstrating conversational timeline editing inside DaVinci Resolve via Claude Code. It provides a fresh, high-utility angle combining video editing and MCP servers for tech creators.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DdWpF8JPkh2/"
   },
   {
-    "rank": 3,
-    "title": "The Snitch Cart Recovery Agent",
-    "hook": "We built this AI agent for Snitch, and it’s saving them lakhs in abandoned carts without spamming robotic discount codes.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "D2C business case studies demonstrating direct revenue recovery resonate heavily with Indian entrepreneurs and agency builders. Competitor data from Aryaman validates high curiosity and comment velocity around custom brand automation.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DUD3favkl5P/"
-  },
-  {
     "rank": 4,
-    "title": "Open Design: The Free Claude Design Killer",
-    "hook": "You can now make 3D websites for absolutely free, and you don’t even need Figma or coding.",
+    "title": "Discipline vs Indiscipline: The Harsh Truth for Creators",
+    "hook": "The problem with discipline is that every day feels the same. But the problem with indiscipline is that every year feels the same.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Free no-code 3D website builders hit the sweet spot for budget-conscious Indian freelancers and frontend developers. Arshman's viral demonstration showed strong shareability and bookmarking behavior for zero-cost design alternatives.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DcFr5UYNM7Y/"
+    "reasoning": "Directly leverages the viral quote concept from @ishansharma7390 which achieved outsized engagement. The concise philosophical framing delivers strong emotional resonance and high retention among young creators.",
+    "niche": "Self-growth",
+    "sourceUrl": "https://www.instagram.com/p/DdWeSQGML5M/"
   },
   {
     "rank": 5,
-    "title": "Claude Fable 5.1 System Prompt Leak",
-    "hook": "Someone just leaked the full system prompt of Claude Fable 5.1, and it is over 275,000 characters long.",
-    "format": "Carousel",
+    "title": "World Monitor Terminal: Tracking Global Events in Real Time",
+    "hook": "This free OSINT dashboard turns your browser into a government-grade situational war room.",
+    "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Behind-the-scenes system prompt teardowns consistently drive massive save rates and technical credibility among AI builders. Nick Saraev's breakdown captured viral attention by revealing Anthropic's proprietary agent steering architecture.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdKA61hvQKJ/"
+    "reasoning": "Taps into trending audience curiosity around open-source intelligence terminals and real-time global monitoring tools. Serves as a strong visual pattern-interrupt that drives saves and shares among tech enthusiasts.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": ""
   }
 ]
