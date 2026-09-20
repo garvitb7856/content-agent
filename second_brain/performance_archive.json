@@ -890,6 +890,74 @@
         "analysedAt": "2026-09-16T03:31:52.186Z"
       },
       "updatedAt": "2026-09-15T03:31:44.302Z"
+    },
+    {
+      "id": "3988279997642668226_65880404765",
+      "shortCode": "DdZN4bsSXjC",
+      "caption": "I re-created @vaibhavsisinty ‘s entire 100 million views Ai content system worth more than 1000 dollars for completely free \nPart-1 if you want to get your hands on it, watch Part-2 \nComment “Master” to get it !\n\n#growthhacks #automation #contentcreation \n@vaibhavsisinty",
+      "url": "https://www.instagram.com/p/DdZN4bsSXjC/",
+      "postedAt": "2026-09-17T15:49:18.000Z",
+      "archivedAt": "2026-09-20T03:31:55.894Z",
+      "format": "Video",
+      "topics": [
+        "ai",
+        "free",
+        "hack",
+        "automation"
+      ],
+      "finalLikes": 24,
+      "finalComments": 10,
+      "engagementRate": 0.47,
+      "hookText": "I re-created @vaibhavsisinty ‘s entire 100 million views Ai content system worth",
+      "postId": "3988279997642668226_65880404765",
+      "postUrl": "https://www.instagram.com/p/DdZN4bsSXjC/",
+      "likes_at_48h": 24,
+      "comments_at_48h": 10,
+      "engagement_at_48h": 0.47,
+      "followers_at_post": 7242,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 5,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-09-19T03:33:08.696Z"
+      },
+      "updatedAt": "2026-09-20T03:31:59.004Z"
+    },
+    {
+      "id": "3988276233128975590_65880404765",
+      "shortCode": "DdZNBptyRzm",
+      "caption": "Anyone can get 100 million views with this Ai content system\nIt worths 1000 dollars i am giving away to you for free for sometime now get it or Pay for it later\n\nI recreated @vaibhavsisinty entire content system and giving to you guys for free !\n\nComment “Master” to get it!\n\n#growthhacks #automation",
+      "url": "https://www.instagram.com/p/DdZNBptyRzm/",
+      "postedAt": "2026-09-17T15:43:36.000Z",
+      "archivedAt": "2026-09-20T03:31:55.894Z",
+      "format": "Video",
+      "topics": [
+        "ai",
+        "free",
+        "hack",
+        "automation"
+      ],
+      "finalLikes": 68,
+      "finalComments": 97,
+      "engagementRate": 2.28,
+      "hookText": "Anyone can get 100 million views with this Ai content system\nIt worths 1000 doll",
+      "postId": "3988276233128975590_65880404765",
+      "postUrl": "https://www.instagram.com/p/DdZNBptyRzm/",
+      "likes_at_48h": 68,
+      "comments_at_48h": 97,
+      "engagement_at_48h": 2.28,
+      "followers_at_post": 7242,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 16,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-09-19T03:33:08.696Z"
+      },
+      "updatedAt": "2026-09-20T03:31:59.004Z"
     }
   ]
 }

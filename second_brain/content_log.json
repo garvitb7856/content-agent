@@ -805,14 +805,19 @@
     "url": "https://www.instagram.com/p/DdZN4bsSXjC/",
     "type": "Video",
     "loggedAt": "2026-09-18T03:31:58.321Z",
-    "archived": false,
+    "archived": true,
     "diffAnalysis": {
       "type": "original_content",
       "method": "embedding",
       "similarityScore": 5,
       "summary": "Original content — no significant match to any generated script.",
       "analysedAt": "2026-09-19T03:33:08.696Z"
-    }
+    },
+    "likes_at_48h": 24,
+    "comments_at_48h": 10,
+    "engagement_at_48h": 0.47,
+    "followers_at_post": 7242,
+    "performance_complete": true
   },
   {
     "id": "3988276233128975590_65880404765",
@@ -824,14 +829,19 @@
     "url": "https://www.instagram.com/p/DdZNBptyRzm/",
     "type": "Video",
     "loggedAt": "2026-09-18T03:31:58.321Z",
-    "archived": false,
+    "archived": true,
     "diffAnalysis": {
       "type": "original_content",
       "method": "embedding",
       "similarityScore": 16,
       "summary": "Original content — no significant match to any generated script.",
       "analysedAt": "2026-09-19T03:33:08.696Z"
-    }
+    },
+    "likes_at_48h": 68,
+    "comments_at_48h": 97,
+    "engagement_at_48h": 2.28,
+    "followers_at_post": 7242,
+    "performance_complete": true
   },
   {
     "id": "3988973080214536538_65880404765",
@@ -843,6 +853,13 @@
     "url": "https://www.instagram.com/p/DdbreHIyIFa/",
     "type": "Video",
     "loggedAt": "2026-09-19T03:31:50.366Z",
-    "archived": false
+    "archived": false,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 0,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-20T03:33:27.244Z"
+    }
   }
 ]

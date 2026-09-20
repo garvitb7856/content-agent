@@ -1,76 +1,34 @@
 {
-  "fetched_at": "2026-09-19T03:31:52.074Z",
+  "fetched_at": "2026-09-20T03:31:58.945Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Science Is Open Software",
-      "score": 21,
-      "comments": 7,
-      "url": "https://jepedersen.dk/blog/202505_research/"
+      "title": "AI-generated posters don’t have to be horrible",
+      "score": 1428,
+      "comments": 791,
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html"
     },
     {
       "source": "hackernews",
       "title": "How to Write with an LLM",
-      "score": 415,
-      "comments": 287,
+      "score": 638,
+      "comments": 378,
       "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
     },
     {
       "source": "hackernews",
-      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-      "score": 67,
-      "comments": 62,
-      "url": "https://spectrum.ieee.org/llms-for-chip-design"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
-      "score": 171,
-      "comments": 78,
-      "url": "https://cactuscompute.com/needle"
-    },
-    {
-      "source": "hackernews",
-      "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
-      "score": 69,
-      "comments": 12,
-      "url": "https://arxiv.org/abs/2510.03215"
-    },
-    {
-      "source": "hackernews",
-      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-      "score": 551,
-      "comments": 198,
-      "url": "https://code.claude.com/docs/en/changelog"
-    },
-    {
-      "source": "hackernews",
-      "title": "Gemini hacked three companies in first known breakout by Google's AI",
-      "score": 25,
-      "comments": 17,
-      "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
-      "score": 51,
-      "comments": 7,
-      "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions"
-    },
-    {
-      "source": "hackernews",
-      "title": "The Implications of Linguistic Illegibility for LLM Security",
-      "score": 56,
-      "comments": 20,
-      "url": "https://arxiv.org/abs/2609.02852"
+      "title": "I think you should almost never use AI to write",
+      "score": 256,
+      "comments": 131,
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai"
     },
     {
       "source": "hackernews",
       "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-      "score": 107,
-      "comments": 60,
-      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/"
+      "score": 613,
+      "comments": 241,
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html"
     }
   ],
   "youtube": [
@@ -79,8 +37,8 @@
       "category": "Science & Tech",
       "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
       "channel": "Apple",
-      "views": 50019641,
-      "likes": 508322,
+      "views": 50051777,
+      "likes": 508511,
       "publishedAt": "2026-09-09T18:25:05Z",
       "url": "https://www.youtube.com/watch?v=39BalPDuTo0",
       "tags": [
@@ -95,10 +53,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset",
+      "channel": "Founders Bits",
+      "views": 13932071,
+      "likes": 410481,
+      "publishedAt": "2026-09-15T16:45:12Z",
+      "url": "https://www.youtube.com/watch?v=yukKoFJr_4w",
+      "tags": [],
+      "description": "On January 9, 2007, Steve Jobs didn't just launch the iPhone — he announced the funeral of BlackBerry and Nokia.\n\nHis point was brutal:\n\nBlackBerry an"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "iPhone 18 Pro Review: All About that Chip",
       "channel": "Marques Brownlee",
-      "views": 10231626,
-      "likes": 140615,
+      "views": 10800064,
+      "likes": 146042,
       "publishedAt": "2026-09-16T12:01:27Z",
       "url": "https://www.youtube.com/watch?v=ohqxP8EEumo",
       "tags": [],
@@ -107,51 +77,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!",
-      "channel": "TECH NRZZ",
-      "views": 9702772,
-      "likes": 106055,
-      "publishedAt": "2026-09-10T16:37:46Z",
-      "url": "https://www.youtube.com/watch?v=G1wCu8o62mE",
+      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
+      "channel": "MrCappuccino Memes",
+      "views": 8446152,
+      "likes": 32619,
+      "publishedAt": "2026-09-15T22:02:06Z",
+      "url": "https://www.youtube.com/watch?v=wiheJmZ5KFA",
       "tags": [],
-      "description": "🔥 iPhone 17e vs iPhone 15 SPEED TEST! 🔥\n\niPhone 17e vs iPhone 15 - Ultimate Speed Test ⚡🚀📱 😱⚡\n\nIn this video, we compare the speed and performanc"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "you missed this iPhone Duo 3-in-1 feature",
-      "channel": "mryeester",
-      "views": 7678635,
-      "likes": 186926,
-      "publishedAt": "2026-09-10T15:21:47Z",
-      "url": "https://www.youtube.com/watch?v=T8i0UuvTra4",
-      "tags": [
-        "PC",
-        "PC tips",
-        "PC building",
-        "mryeester"
-      ],
-      "description": "You might've missed this small detail in Apple's iPhone Duo where they combined the battery, network, and wifi symbols into a single status icon. Now "
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Samsung’s Pressed About the Iphone Duo 😭😭",
-      "channel": "Jorski",
-      "views": 6338957,
-      "likes": 213756,
-      "publishedAt": "2026-09-10T01:05:37Z",
-      "url": "https://www.youtube.com/watch?v=-FUIoAymfoc",
-      "tags": [],
-      "description": "Samsung’s Pressed About the Iphone Duo 😭😭\n\nsub for more!!!"
+      "description": ""
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "The iPhone duo is going to survive bend tests.. Stitch: Some_W3rd0?",
       "channel": "CarterPCs",
-      "views": 4683467,
-      "likes": 218676,
+      "views": 4718666,
+      "likes": 221388,
       "publishedAt": "2026-09-14T22:37:15Z",
       "url": "https://www.youtube.com/watch?v=rN1vHN72rOw",
       "tags": [],
@@ -160,22 +101,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "This OG tech creator is banned by Apple…",
-      "channel": "John Casterline",
-      "views": 4334634,
-      "likes": 327753,
-      "publishedAt": "2026-09-12T03:19:06Z",
-      "url": "https://www.youtube.com/watch?v=ulCrxDbolAo",
+      "title": "I Turned My MICROWAVE into a Gaming Mouse… #gaming #pcgaming #gamingmouse #mousegaming #gamer",
+      "channel": "cmcteq",
+      "views": 3186176,
+      "likes": 101938,
+      "publishedAt": "2026-09-17T03:29:13Z",
+      "url": "https://www.youtube.com/watch?v=wkrJjzOkX5s",
       "tags": [],
-      "description": ""
+      "description": "Over the last few videos I've built the darkest, brightest, and heaviest gaming mice in the world, and along the way I realized something crazy: the s"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "Steam Frame Wireless Range Test",
       "channel": "Linus Tech Tips",
-      "views": 2559797,
-      "likes": 47804,
+      "views": 2977747,
+      "likes": 53799,
       "publishedAt": "2026-09-16T17:05:56Z",
       "url": "https://www.youtube.com/watch?v=Zzzkg_ZrOII",
       "tags": [],
@@ -184,68 +125,80 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Turning iPhone 16 Into iPhone 17 😱🤯",
-      "channel": "Austin Boller",
-      "views": 2350206,
-      "likes": 43176,
-      "publishedAt": "2026-09-11T06:00:12Z",
-      "url": "https://www.youtube.com/watch?v=t3t4hWllLTM",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "You need this connector 😮",
       "channel": "The Reynolds Recommend",
-      "views": 2225092,
-      "likes": 14995,
+      "views": 2400577,
+      "likes": 16328,
       "publishedAt": "2026-09-10T06:45:03Z",
       "url": "https://www.youtube.com/watch?v=YXsHL5H9YuE",
       "tags": [],
       "description": "https://galacticgoodsstore.com/products/quickconnect-no-strip-wire-connectors"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Android Users Hit a Lick on the Iphone Duo’s Animation 😭😭",
+      "channel": "Jorski",
+      "views": 1138685,
+      "likes": 42876,
+      "publishedAt": "2026-09-18T02:49:51Z",
+      "url": "https://www.youtube.com/watch?v=EJYwGY8nl34",
+      "tags": [],
+      "description": "Android Stealing the Iphone Duo’s Animation 😭😭\n\nsub for more!!!"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "the new burgundy #iphone 18 pro is 😻 #iphone18pro #unboxing #satisfying #iphonecase",
+      "channel": "reddnea",
+      "views": 625545,
+      "likes": 20396,
+      "publishedAt": "2026-09-19T15:12:30Z",
+      "url": "https://www.youtube.com/watch?v=A973gceM3Hc",
+      "tags": [],
+      "description": ""
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "self improvement",
-        "trend_score": 95
+        "keyword": "ChatGPT",
+        "trend_score": 70
       },
       {
         "keyword": "AI tools",
-        "trend_score": 92
+        "trend_score": 64
       },
       {
         "keyword": "AI for business",
-        "trend_score": 92
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 90
+        "trend_score": 61
       },
       {
         "keyword": "automation tools",
-        "trend_score": 87
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 86
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 84
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 83
+        "trend_score": 61
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 78
+        "trend_score": 60
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 58
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 57
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 56
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 56
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-19T03:31:52.074Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Science Is Open Software\" — 21 pts\n• [HackerNews] \"How to Write with an LLM\" — 415 pts\n• [HackerNews] \"How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip\" — 67 pts\n• [HackerNews] \"Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash\" — 171 pts\n• [HackerNews] \"Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)\" — 69 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 50020k views\n• [YouTube Global] \"iPhone 18 Pro Review: All About that Chip\" by Marques Brownlee — 10232k views\n• [YouTube Global] \"⚡🚀 IPHONE 17E VS IPHONE 15 SPEED TEST!!\" by TECH NRZZ — 9703k views\n• [YouTube Global] \"you missed this iPhone Duo 3-in-1 feature\" by mryeester — 7679k views\n• [YouTube Global] \"Samsung’s Pressed About the Iphone Duo 😭😭\" by Jorski — 6339k views\n• [YouTube Global] \"The iPhone duo is going to survive bend tests.. Stitch: Some_W3rd0?\" by CarterPCs — 4683k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 95), AI tools (score: 92), AI for business (score: 92), productivity tools (score: 90), automation tools (score: 87), solopreneur (score: 86), AI workflow (score: 84), ChatGPT (score: 83), entrepreneur (score: 78)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-20T03:31:58.945Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"AI-generated posters don’t have to be horrible\" — 1428 pts\n• [HackerNews] \"How to Write with an LLM\" — 638 pts\n• [HackerNews] \"I think you should almost never use AI to write\" — 256 pts\n• [HackerNews] \"Two parallel neural ectoderm progenitors contribute to the developing brain\" — 613 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Event September 9 2026: Introducing iPhone Duo and more\" by Apple — 50052k views\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 13932k views\n• [YouTube Global] \"iPhone 18 Pro Review: All About that Chip\" by Marques Brownlee — 10800k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MrCappuccino Memes — 8446k views\n• [YouTube Global] \"The iPhone duo is going to survive bend tests.. Stitch: Some_W3rd0?\" by CarterPCs — 4719k views\n• [YouTube Global] \"I Turned My MICROWAVE into a Gaming Mouse… #gaming #pcgaming #gamingmouse #mousegaming #gamer\" by cmcteq — 3186k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 70), AI tools (score: 64), AI for business (score: 61), automation tools (score: 61), entrepreneur (score: 60), AI workflow (score: 58), productivity tools (score: 57), self improvement (score: 56), solopreneur (score: 56)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

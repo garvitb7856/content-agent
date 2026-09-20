@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T03:31:52.136Z",
+  "updated_at": "2026-09-20T03:31:59.010Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1608,8 +1608,44 @@
       "verdict": "medium",
       "transcribed_at": "2026-09-18T03:47:32.242Z",
       "scraped_at": "2026-09-19T03:31:52.120Z"
+    },
+    {
+      "id": "3909698735666735348_24040950",
+      "account": "@arshman",
+      "url": "https://www.instagram.com/p/DZCCkkeNaj0/",
+      "topic": "Monetization",
+      "format": "Video",
+      "spoken_hook": "I spent $150,000 on this degree.  Was it worth it?  I don't think so.",
+      "full_script": "I spent $150,000 on this degree. Was it worth it? I don't think so. I've worked at a Big Four and a Fortune 500 company as a senior data analyst. Neither one cared about my degree. They only cared if I could actually do the work. And the skills that actually got me hired, I didn't learn them in classroom. Yes, university gave me network, friends, and the exposure, but DataCamp gave me the part that actually got me paid. SQL, Python, Tableau, or Power BI. Like real statistics, not just theory. And the best part? All 600+ DataCamp courses are free from June 1st to June 7th, including career tracks and certifications. Like there is something for everyone, no matter what your goals: data analytics, data science, business intelligence, and machine learning. Or if you just want to learn to code, you can enroll in these free tracks. And all without putting in your credit card. Enrollments are closing soon, so comment DataCamp to get the link.",
+      "full_caption": "DataCamp’s 600+ courses with certifications are FREE to enroll this week!! \n\nComment “Datacamp” to get your link 👇",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 1607,
+      "comments": 2541,
+      "engagement_rate": 1.11,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-19T03:49:08.724Z",
+      "scraped_at": "2026-09-20T03:31:59.007Z"
+    },
+    {
+      "id": "3930778478675894823_24040950",
+      "account": "@arshman",
+      "url": "https://www.instagram.com/p/DaM7jNAOiIn/",
+      "topic": "General Tech",
+      "format": "Video",
+      "spoken_hook": "What?  This is insane.  I have never seen AI directing movies like this before.",
+      "full_script": "What? This is insane. I have never seen AI directing movies like this before. To make this film, I went to OpenArt Director Mode and then selected Short Film. I just gave it my rough idea, select the video style, and then the duration to 5 minutes. Then the vibe director turned my concept into a full storyboard, keeping every single shot consistent across every scene—same character, same voice, and location. Then just click on Looks Good!. Once you get a full video, now you can edit each scene. Like add a different character if you like, change the location, or add multiple objects. Or even trimming and adding a completely new scene in the film. It's way easier than switching multiple models or even editing video in the post-production. And if you want to watch the complete film, just drop a follow, and I'll post in the next one.",
+      "full_caption": "Five minutes long, super realistic movies from a single prompt. \n\nTo watch the complete film, tap the linked reel in the bottom left corner. \n\nOpenArt’s Director can now create a full script, images storyboard and generate fully produced videos. \n\nComment “Film” to get a link with FREE credits to te",
+      "script_source": "transcript",
+      "script_pattern": "transformation",
+      "likes": 3254,
+      "comments": 1462,
+      "engagement_rate": 1.26,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-19T03:55:40.756Z",
+      "scraped_at": "2026-09-20T03:31:59.008Z"
     }
   ],
-  "total": 103,
-  "transcript_based": 21
+  "total": 105,
+  "transcript_based": 23
 }
