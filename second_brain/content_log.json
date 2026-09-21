@@ -769,7 +769,14 @@
     "comments_at_48h": 5,
     "engagement_at_48h": 0.35,
     "followers_at_post": 6233,
-    "performance_complete": true
+    "performance_complete": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 19,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-21T03:33:23.641Z"
+    }
   },
   {
     "id": "3984625871293717399_65880404765",
@@ -853,7 +860,7 @@
     "url": "https://www.instagram.com/p/DdbreHIyIFa/",
     "type": "Video",
     "loggedAt": "2026-09-19T03:31:50.366Z",
-    "archived": false,
+    "archived": true,
     "diffAnalysis": {
       "type": "original_content",
       "method": "embedding",
@@ -861,5 +868,17 @@
       "summary": "Original content — no significant match to any generated script.",
       "analysedAt": "2026-09-20T03:33:27.244Z"
     }
+  },
+  {
+    "id": "3990292809965383264_65880404765",
+    "shortCode": "DdgXitPyC5g",
+    "caption": "Comment anything to get this !",
+    "timestamp": "2026-09-20T10:34:56.000Z",
+    "likesCount": 791,
+    "commentsCount": 439,
+    "url": "https://www.instagram.com/p/DdgXitPyC5g/",
+    "type": "Video",
+    "loggedAt": "2026-09-21T03:31:40.259Z",
+    "archived": false
   }
 ]

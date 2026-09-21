@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T03:31:59.010Z",
+  "updated_at": "2026-09-21T03:31:42.089Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -980,16 +980,19 @@
       "id": "3603432541911984451_48619065725",
       "account": "@aryamanupmanyu",
       "url": "https://www.instagram.com/p/DIB9s4YvylD/",
-      "topic": "Monetization",
+      "topic": "AI Automation",
       "format": "Video",
-      "hook": "COMMENT “AI” to know exactly how i built this🤭",
+      "spoken_hook": "I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.",
+      "full_script": "I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened. The AI literally spoke like a real person. It paused, it responded, and even handled objections. This blew my mind. So here's what it actually did. Grabbed a pre-built voice model, hooked it to a simple backend using GPT, and trained it with just five call scripts. And the craziest part, it answered to each and every question that I had asked. Most people think AI agents are rocket science or need hours of coding, but the right tools can shortcut months of work. You're sleeping on it if you are still not exploring AI. Now if you wanna build an AI voice calling agent of your own, comment the word AI below and I'll send you a proper instructions doc right away. Ciao, see you in the next one.",
       "full_caption": "COMMENT “AI” to know exactly how i built this🤭\n.\n.\n#ai #business #chatgpt #artificialintelligenceai #explore",
-      "script_pattern": "comment_CTA",
-      "likes": 27678,
-      "comments": 31426,
-      "engagement_rate": 79.24,
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA + transformation",
+      "likes": 27674,
+      "comments": 31442,
+      "engagement_rate": 77.28,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-20T03:44:54.613Z",
+      "scraped_at": "2026-09-21T03:31:42.086Z"
     },
     {
       "id": "3637498854095207948_48619065725",
@@ -1647,5 +1650,5 @@
     }
   ],
   "total": 105,
-  "transcript_based": 23
+  "transcript_based": 24
 }

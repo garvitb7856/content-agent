@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T03:33:26.549Z",
+  "updated_at": "2026-09-21T03:31:54.304Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -13,11 +13,11 @@
     },
     "C": {
       "count": 20,
-      "avgLikes": 296,
+      "avgLikes": 341,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 296 likes. Type C: 20 posts, avg 296 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 341 likes. Type C: 20 posts, avg 341 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -72,9 +72,14 @@
   ],
   "your_top_captions": [
     {
-      "likes": 4752,
+      "likes": 5015,
       "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
       "url": "https://www.instagram.com/p/DbVirrOyodk/"
+    },
+    {
+      "likes": 791,
+      "caption": "Comment anything to get this !",
+      "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
     {
       "likes": 157,
@@ -82,12 +87,7 @@
       "url": "https://www.instagram.com/p/Dbf75DCShsU/"
     },
     {
-      "likes": 152,
-      "caption": "Comment anything for the link !",
-      "url": "https://www.instagram.com/p/DdbreHIyIFa/"
-    },
-    {
-      "likes": 107,
+      "likes": 108,
       "caption": "You can use Claude, even after you hit your credit limits. Have installed an app inside my Claude that will tell you how much credits you have used till yet and when it will be reset. Other than that, if you hit your complete credit limits, it will take you to another model and give it the complete ",
       "url": "https://www.instagram.com/p/Dbx5u5xywA1/"
     },
@@ -98,6 +98,15 @@
     }
   ],
   "competitor_viral_scripts": [
+    {
+      "handle": "aryamanupmanyu",
+      "postUrl": "https://www.instagram.com/p/DIB9s4YvylD/",
+      "likes": 0,
+      "comments": 0,
+      "hook": "I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened. The AI lite",
+      "transcript": "I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened. The AI literally spoke like a real person. It paused, it responded, and even handled objections. This blew my mind. So here's what it actually did. Grabbed a pre-built voice model, hooked it to a simple backend using GPT, and trained it with just five call scripts. And the craziest part, it answered to each and every question that I had asked. Most people think AI agents are rocket science or need hours of coding, but the right tools can shortcut months of work. You're sleeping on it if you are still not exploring AI. Now if you wanna build an AI voice calling agent of your own, comment the word AI below and I'll send you a proper instructions doc right away. Ciao, see you in the next one.",
+      "transcriptFull": "I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened. The AI literally spoke like a real person. It paused, it responded, and even handled objections. This blew my mind. So here's what it actually did. Grabbed a pre-built voice model, hooked it to a simple backend using GPT, and trained it with just five call scripts. And the craziest part, it answered to each and every question that I had asked. Most people think AI agents are rocket science or need hours of coding, but the right tools can shortcut months of work. You're sleeping on it if you are still not exploring AI. Now if you wanna build an AI voice calling agent of your own, comment the word AI below and I'll send you a proper instructions doc right away. Ciao, see you in the next one."
+    },
     {
       "handle": "aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DJ6_e99PD4M/",
@@ -160,121 +169,114 @@
       "hook": "I spent $150,000 on this degree. Was it worth it? I don't think so. I've worked at a Big Four and a Fortune 500 company ",
       "transcript": "I spent $150,000 on this degree. Was it worth it? I don't think so. I've worked at a Big Four and a Fortune 500 company as a senior data analyst. Neither one cared about my degree. They only cared if I could actually do the work. And the skills that actually got me hired, I didn't learn them in classroom. Yes, university gave me network, friends, and the exposure, but DataCamp gave me the part that actually got me paid. SQL, Python, Tableau, or Power BI. Like real statistics, not just theory. And the best part? All 600+ DataCamp courses are free from June 1st to June 7th, including career tracks and certifications. Like there is something for everyone, no matter what your goals: data analytics, data science, business intelligence, and machine learning. Or if you just want to learn to code, you can enroll in these free tracks. And all without putting in your credit card. Enrollments are closing soon, so comment DataCamp to get the link.",
       "transcriptFull": "I spent $150,000 on this degree. Was it worth it? I don't think so. I've worked at a Big Four and a Fortune 500 company as a senior data analyst. Neither one cared about my degree. They only cared if I could actually do the work. And the skills that actually got me hired, I didn't learn them in classroom. Yes, university gave me network, friends, and the exposure, but DataCamp gave me the part that actually got me paid. SQL, Python, Tableau, or Power BI. Like real statistics, not just theory. And the best part? All 600+ DataCamp courses are free from June 1st to June 7th, including career tracks and certifications. Like there is something for everyone, no matter what your goals: data analytics, data science, business intelligence, and machine learning. Or if you just want to learn to code, you can enroll in these free tracks. And all without putting in your credit card. Enrollments are closing soon, so comment DataCamp to get the link."
-    },
-    {
-      "handle": "arshman",
-      "postUrl": "https://www.instagram.com/p/DaM7jNAOiIn/",
-      "likes": 0,
-      "comments": 0,
-      "hook": "What? This is insane. I have never seen AI directing movies like this before. To make this film, I went to OpenArt Direc",
-      "transcript": "What? This is insane. I have never seen AI directing movies like this before. To make this film, I went to OpenArt Director Mode and then selected Short Film. I just gave it my rough idea, select the video style, and then the duration to 5 minutes. Then the vibe director turned my concept into a full storyboard, keeping every single shot consistent across every scene—same character, same voice, and location. Then just click on Looks Good!. Once you get a full video, now you can edit each scene. Like add a different character if you like, change the location, or add multiple objects. Or even trimming and adding a completely new scene in the film. It's way easier than switching multiple models or even editing video in the post-production. And if you want to watch the complete film, just drop a follow, and I'll post in the next one.",
-      "transcriptFull": "What? This is insane. I have never seen AI directing movies like this before. To make this film, I went to OpenArt Director Mode and then selected Short Film. I just gave it my rough idea, select the video style, and then the duration to 5 minutes. Then the vibe director turned my concept into a full storyboard, keeping every single shot consistent across every scene—same character, same voice, and location. Then just click on Looks Good!. Once you get a full video, now you can edit each scene. Like add a different character if you like, change the location, or add multiple objects. Or even trimming and adding a completely new scene in the film. It's way easier than switching multiple models or even editing video in the post-production. And if you want to watch the complete film, just drop a follow, and I'll post in the next one."
     }
   ],
   "gemini_analysis": {
     "garvit_speaking_style": {
-      "summary": "Garvit speaks with a direct, high-energy Hinglish flow that feels unfiltered and fast-paced. He balances urgent tech hacks and financial savings angles with a casual, authentic creator persona.",
-      "sentence_structure": "short/punchy",
-      "language_mix": "60% English / 40% Hindi (Conversational Hinglish)",
-      "tone": "casual/conversational",
-      "pacing": "fast, dense info",
+      "summary": "Garvit speaks with a direct, conversational, and raw tone that alternates between high-urgency tech 'hacks' and introspective, defiant self-reflections. He addresses the viewer directly like a peer or younger tech enthusiast rather than a polished corporate educator.",
+      "sentence_structure": "Short, punchy declarative opening sentences followed by conversational, run-on explanatory sentences.",
+      "language_mix": "Natural Hinglish (60% English, 40% colloquial Hindi) with seamless code-switching for emphasis and emotional connection.",
+      "tone": "Casual, defiant, urgent, and accessible.",
+      "pacing": "Fast-paced and dense with information in tech reels; measured and deliberate in mindset/personal reels.",
       "signature_phrases": [
-        "Stop taking AI subscriptions right now",
-        "I wish I knew this earlier",
-        "Comment below to get the link"
+        "stop taking AI subscriptions right now",
+        "Look, here I can use",
+        "you know what, I don't care",
+        "This is Garvit, and you'll be seeing me again"
       ],
-      "what_makes_it_work": "He connects immediately by framing high-tech tools as immediate money-savers or free alternatives, delivered in everyday conversational Hinglish."
+      "what_makes_it_work": "He speaks directly to Indian middle-class economic friction—specifically saving ₹5,000-₹6,000/month on expensive US-dollar SaaS subscriptions."
     },
     "garvit_writing_style": {
-      "summary": "Garvit's captions are minimal, high-impact summaries designed strictly to drive automated DMs. He uses capitalized key phrases, clean spacing, and bullet points.",
-      "caption_structure": "Capitalized Hook Line -> Bulleted Feature/Value list -> Clear Comment CTA -> Short Hashtag list",
+      "summary": "Garvit writes minimal, high-utility captions that double down on the primary value proposition without fluff. His captions read like clear software release notes or straightforward download prompts.",
+      "caption_structure": "Bold all-caps headline/hook, 2-3 bullet points listing features or eliminated limitations, followed immediately by an automation CTA.",
       "cta_patterns": [
-        "Follow and then comment [KEYWORD] to get the guide in your DM",
-        "Just comment [KEYWORD] and I'll send you the complete guide"
+        "Follow and then comment [KEYWORD] to get the guide in your DM:)",
+        "Just comment '[KEYWORD]' and I'll send you the complete guide"
       ],
-      "tone_vs_speaking": "is his written tone different from his spoken tone? how? Yes, written text is clean, structured English focused purely on utility, while spoken video is emotional, Hinglish, and fast-paced."
+      "tone_vs_speaking": "His written tone is more utilitarian and English-dominant compared to his spoken tone, omitting the colloquial Hindi banter and personality in favor of straight searchability and CTA efficiency."
     },
     "competitor_speaking_patterns": {
-      "summary": "Competitors build high authority through real-world agency case studies (e.g., Comet, Snitch), flex personal credentials ($150k degree), and structure content into numbered layers or vivid scenarios rather than quick hack lists.",
+      "summary": "Competitors (Aryaman Upmanyu and Arshman) build authority through third-party social proof (brands like Comet and Snitch), step-by-step systems (e.g., 'eight layers of Claude'), and hyper-specific workflows rather than just sharing 'free hack' links.",
       "viral_hook_patterns": [
-        "Stop pretending you know how to use [Tool]. Give me 60 seconds...",
-        "We built this AI agent for [Top Brand], and it's going to set a new benchmark...",
-        "I spent $150,000 on this degree. Was it worth it?"
+        "We built this [Tool/Agent] for [Famous Brand/Target], and it might set a new benchmark...",
+        "Stop pretending you know how to use [Tool]. Give me 60 seconds and...",
+        "I made an AI [Project] in just [X] minutes and the first [Outcome], I could not believe..."
       ],
-      "viral_body_structure": "Narrative/Agency setup -> Gamified step/layer structure (Layer 1 to Layer 8) OR visual walkthrough ('Picture this...') -> Practical demonstration of outcome -> High ROI conclusion.",
+      "viral_body_structure": "Hook -> Real-world scenario/proof demo ('Picture this...') -> Layered technical breakdown (Layer 1, Layer 2 or Step-by-step architecture) -> Business impact/metrics -> Instant automation CTA.",
       "viral_cta_patterns": [
-        "Comment [KEYWORD] and I'll send this entire workflow and guide",
-        "Drop a follow and I'll post the full film in the next one"
+        "Comment the word [KEYWORD] below and I'll send you a proper instructions doc right away.",
+        "Comment [KEYWORD] and I will send this entire workflow and its guide straight to your DMs."
       ],
-      "key_difference_from_garvit": "Competitors focus on agency-level workflows, multi-agent systems, and career/business outcomes, whereas Garvit focuses primarily on individual free access hacks and tool alternatives."
+      "key_difference_from_garvit": "Competitors frame AI through real-world business implementations and structured mental models, whereas Garvit frames AI primarily as cost-saving hacks and free alternatives."
     },
     "viral_own_script_analysis": [
       {
         "rank": 1,
-        "likes": 0,
-        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch",
+        "likes": 341,
+        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch ",
         "hook_type": "pattern_interrupt",
-        "hook_length_words": 20,
-        "body_structure": "Quantifies monthly cost savings -> Explains open-source GitHub release -> Explains catch (API key) vs software free -> Social proof (10k stars in 3 days) -> CTA.",
+        "hook_length_words": 19,
+        "body_structure": "Problem (expensive monthly subs) -> Solution reveal (Indian dev open-sourced it on GitHub) -> Nuance/clarification (free tool, bring own API) -> Social proof (10k stars in 3 days) -> CTA.",
         "cta": "comment below free to get the link",
         "script_type": "C",
-        "what_made_it_viral": "High financial incentive (saving 5-6k INR/mo) combined with local pride ('Indian developer') and high urgency."
+        "what_made_it_viral": "Direct wallet relief (saving ₹5k-6k/mo) combined with nationalistic pride ('ek Indian developer ne') and strong pattern-interrupt hook."
       },
       {
         "rank": 2,
-        "likes": 0,
-        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free.",
+        "likes": 341,
+        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top m",
         "hook_type": "pattern_interrupt",
-        "hook_length_words": 15,
-        "body_structure": "Bold counter-intuitive claim -> Feature breakdown (Fable 5, Claude Code, 250k tokens) -> Tool reveal (Google Antigravity + prompt) -> Emotional relatability ('need money to make money') -> CTA.",
+        "hook_length_words": 23,
+        "body_structure": "Contrarian warning -> Visual on-screen proof/demo -> Value quantification (250,000 free tokens) -> Relatable founder pain point ('need money to make money') -> CTA.",
         "cta": "Just comment 'Claude' and I'll send you the complete guide to do",
         "script_type": "C",
-        "what_made_it_viral": "Direct attack on a expensive paid tool combined with concrete token proof (250,000 tokens free)."
+        "what_made_it_viral": "Capitalized on massive search interest around Claude models by offering a zero-cost bypass for high token usage."
       },
       {
         "rank": 3,
-        "likes": 0,
-        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free.",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 15,
-        "body_structure": "Regret/FOMO opening -> Rapid feature stack (Gemini Pro, Veo 3.1, Pomelli, Notebook) -> Massive bonus drop (5TB free cloud storage) -> CTA.",
+        "likes": 341,
+        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get Go",
+        "hook_type": "story",
+        "hook_length_words": 21,
+        "body_structure": "Regret hook ('I wish I knew this earlier') -> Feature stack/list reveal (Gemini Pro, Veo 3.1, Pomelli, 5 TB cloud storage) -> Value stacking -> CTA.",
         "cta": "just follow me and comment",
         "script_type": "C",
-        "what_made_it_viral": "Perceived immense value stack (Google paid suite + 5TB storage for free)."
+        "what_made_it_viral": "Value stacking: pairing Google's premier AI video tool (Veo 3.1) with an irresistible free storage perk (5 TB)."
       },
       {
         "rank": 4,
-        "likes": 0,
+        "likes": 341,
         "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10. Khair us waqt to ho nahi paya but I'm starti",
         "hook_type": "story",
-        "hook_length_words": 22,
-        "body_structure": "Personal story -> Hater rejection monologue -> Vulnerable disclosure of 12-day break -> Core philosophy ('Jack of all trades') -> Sign-off.",
-        "cta": "None (Personal branding / sign-off)",
+        "hook_length_words": 25,
+        "body_structure": "Childhood dream story -> Confronting anticipated haters -> Raw update on creative struggle (12 days off) -> Philosophical stance ('Jack of all trades') -> Defiant sign-off.",
+        "cta": "Cheers. This is Garvit, and you'll be seeing me again.",
         "script_type": "C",
-        "what_made_it_viral": "Raw vulnerability and relatable creator journey documentation."
+        "what_made_it_viral": "High relatability and vulnerability; builds parasocial creator loyalty by openly showing self-doubt and determination."
       },
       {
         "rank": 5,
-        "likes": 0,
+        "likes": 341,
         "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan. I a",
-        "hook_type": "pattern_interrupt",
+        "hook_type": "list",
         "hook_length_words": 23,
-        "body_structure": "Celebrity quote compilation -> Contrast with audience self-doubt -> Mindset lesson on subconscious mind -> Bruce Lee 5 affirmations list.",
-        "cta": "None (Motivational ending)",
+        "body_structure": "Staccato celebrity quote hooks -> Identifying the common pattern -> Psychological pivot to viewer's negative self-talk -> Scientific rationale (subconscious mind) -> Actionable affirmations.",
+        "cta": "None (Manifestation/affirmation cliffhanger)",
         "script_type": "C",
-        "what_made_it_viral": "High authority name-dropping (Ronaldo, Kohli, SRK, Bruce Lee) tied to mindset evolution."
+        "what_made_it_viral": "High-status authority borrowing (Ronaldo, Kohli, SRK) paired with deeply emotional personal development framing."
       }
     ],
     "verdict": {
       "whose_style_goes_viral": "Hybrid",
-      "reasoning": "Garvit's original Type C free-hack scripts drive high comment engagement due to low friction and immediate money-saving utility. However, adopting competitor techniques—like agency story frameworks, layered breakdown levels, and concrete real-world use-cases—will raise his brand authority while keeping his energetic Hinglish identity.",
-      "recommended_hook_structure": "Stop [expensive habit / paid subscription] right now because [Indian context / shock method] lets you do it for completely free.",
-      "recommended_body_structure": "1. Quantify exact savings (Time or Money)\n2. Show direct screen proof or 3-step feature stack\n3. Address the catch/prerequisite simply\n4. Give clear benefit statement",
-      "recommended_cta_structure": "Follow me and comment '[KEYWORD]' below, and I'll DM you the step-by-step setup guide instantly.",
+      "reasoning": "Garvit's natural edge is his relatable, unapologetic Hinglish delivery and focus on economic relief for Indian creators/developers. However, competitors like Aryaman and Arshman generate massive authority by demonstrating tangible builds, systems, and case studies (e.g., Snitch, Comet, Claude Multi-Agent Systems). Combining Garvit's accessible tone and 'free hack' angle with structured competitor-grade workflows will create an unbeatable differentiator.",
+      "recommended_hook_structure": "[Stop doing common expensive action / Bold contrarian claim] + [Specific Indian-relatable outcome or metric achieved in X time for free]. Example: 'Stop paying ₹2,000 for Claude every month. An Indian dev just made this open-source setup that gives you unlimited tokens.'",
+      "recommended_body_structure": "Step 1: On-screen visual proof/demo ('Look here, see this screen...') -> Step 2: 3-part framework or system breakdown (Layer 1, 2, 3 or Tool + Backend + Prompt) -> Step 3: Emotional relief or business utility ('You don't need coding or cash to do this').",
+      "recommended_cta_structure": "Comment '[SINGLE_RELEVANT_WORD]' and I'll DM you the complete step-by-step setup guide and free prompt template right now.",
       "avoid_these": [
-        "Vague existential monologues without actionable tech/entrepreneurship utility",
-        "Pure English scripts that lack Garvit's natural Hinglish creator energy",
-        "Listing tool names continuously without demonstrating a clear end-to-end outcome"
+        "Avoid vague mindset advice without a direct hook to AI, business, or practical tools.",
+        "Avoid listing tools that sound fake or unverified without showing live on-screen UI proof.",
+        "Avoid passive endings; never end a video without an explicit comment keyword CTA for DM automation.",
+        "Avoid switching completely to academic English—the colloquial Hinglish inflection is essential for Indian audience retention."
       ]
     }
   }

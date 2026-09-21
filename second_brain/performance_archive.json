@@ -855,7 +855,13 @@
       "engagement_at_48h": 0.35,
       "followers_at_post": 6233,
       "scriptSimilarity": 0,
-      "diffAnalysis": null,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 19,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-09-21T03:33:23.641Z"
+      },
       "updatedAt": "2026-09-13T03:31:36.347Z"
     },
     {
@@ -958,6 +964,27 @@
         "analysedAt": "2026-09-19T03:33:08.696Z"
       },
       "updatedAt": "2026-09-20T03:31:59.004Z"
+    },
+    {
+      "id": "3988973080214536538_65880404765",
+      "shortCode": "DdbreHIyIFa",
+      "caption": "Comment anything for the link !",
+      "url": "https://www.instagram.com/p/DdbreHIyIFa/",
+      "postedAt": "2026-09-18T14:48:24.000Z",
+      "archivedAt": "2026-09-21T03:31:40.259Z",
+      "format": "reel",
+      "topics": [],
+      "finalLikes": 110,
+      "finalComments": 79,
+      "engagementRate": 2.45,
+      "hookText": "Comment anything for the link !",
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 0,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-09-20T03:33:27.244Z"
+      }
     }
   ]
 }
