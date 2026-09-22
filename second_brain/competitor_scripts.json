@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T03:31:42.089Z",
+  "updated_at": "2026-09-22T03:32:23.248Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1647,8 +1647,44 @@
       "verdict": "medium",
       "transcribed_at": "2026-09-19T03:55:40.756Z",
       "scraped_at": "2026-09-20T03:31:59.008Z"
+    },
+    {
+      "id": "3989720162404130006_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DdeVVlpT9zW/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "You can now run Claude code completely free with almost unlimited usage.  Uh somebody on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month.  And that includes models from ChatGPT, Gemini, GLM, Kimi, Grok, Mistral, Qwen, and even more.",
+      "full_script": "You can now run Claude code completely free with almost unlimited usage. Uh somebody on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month. And that includes models from ChatGPT, Gemini, GLM, Kimi, Grok, Mistral, Qwen, and even more. It's called Awesome Free LLM APIs, and it links your Claude code to over 600 free AI models, all through one really easy setup. So the moment your Claude limit runs out, it'll automatically switch you over to the next best model to keep your session going. Plus, it'll leave a note behind as it switches, so the new model will already have all your context. Want to try it for yourselves? Just comment \"Claude\" down below, and I'll send you the link.",
+      "full_caption": "Comment \"CLAUDE\" to get this Free Tool to run Claude Code with almost unlimited usage.\n\nYou can now run Claude Code for completely free, with almost unlimited usage.\n\nSomeone on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month.\n\nAnd that includes models fr",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 7170,
+      "comments": 12725,
+      "engagement_rate": 2.92,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-21T03:40:45.363Z",
+      "scraped_at": "2026-09-22T03:32:23.226Z"
+    },
+    {
+      "id": "3982558243502093344_26526554234",
+      "account": "@ishansharma7390",
+      "url": "https://www.instagram.com/p/DdE4585PvQg/",
+      "topic": "General Tech",
+      "format": "Video",
+      "spoken_hook": "And as we open that display, just seamlessly folds into that full screen view.",
+      "full_script": "And as we open that display, just seamlessly folds into that full screen view.",
+      "full_caption": "",
+      "script_source": "transcript",
+      "script_pattern": "unknown",
+      "likes": 59534,
+      "comments": 671,
+      "engagement_rate": 4.74,
+      "verdict": "high",
+      "transcribed_at": "2026-09-21T03:53:50.140Z",
+      "scraped_at": "2026-09-22T03:32:23.241Z"
     }
   ],
-  "total": 105,
-  "transcript_based": 24
+  "total": 107,
+  "transcript_based": 26
 }

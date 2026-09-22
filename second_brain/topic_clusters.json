@@ -454,5 +454,52 @@
       "curiosity",
       "inquiry"
     ]
+  },
+  {
+    "name": "AI Video Generation and Storyboarding",
+    "keywords": [
+      "video gen",
+      "storyboarding",
+      "openart",
+      "higgsfield",
+      "video avatars",
+      "storyboard",
+      "video ad"
+    ]
+  },
+  {
+    "name": "MCP (Model Context Protocol) Integrations",
+    "keywords": [
+      "mcp",
+      "mcp server",
+      "davinci resolve mcp",
+      "openseo",
+      "search console mcp",
+      "model context protocol"
+    ]
+  },
+  {
+    "name": "Tech Skill Stacking and Career Adaptability",
+    "keywords": [
+      "skill stack",
+      "skill triad",
+      "upgradable",
+      "fake programmer",
+      "degree fail",
+      "losing value",
+      "skill-stack"
+    ]
+  },
+  {
+    "name": "System Design and Low-Bloat Software Architecture",
+    "keywords": [
+      "zero-bloat",
+      "fasthtml",
+      "memoization",
+      "retry storms",
+      "bend language",
+      "llm routing",
+      "cloud cost"
+    ]
   }
 ]
