@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T03:35:31.562Z",
+  "updated_at": "2026-09-23T03:33:37.287Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -13,11 +13,11 @@
     },
     "C": {
       "count": 20,
-      "avgLikes": 387,
+      "avgLikes": 397,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 387 likes. Type C: 20 posts, avg 387 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 397 likes. Type C: 20 posts, avg 397 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -72,22 +72,22 @@
   ],
   "your_top_captions": [
     {
-      "likes": 5123,
+      "likes": 5185,
       "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
       "url": "https://www.instagram.com/p/DbVirrOyodk/"
     },
     {
-      "likes": 1598,
+      "likes": 1734,
       "caption": "Comment anything to get this !",
       "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
     {
-      "likes": 157,
+      "likes": 158,
       "caption": "I wish i knew this earlier because you can Google’s AI subscriptions for compeletely free. Look here, you can get Google’s Gemini Pro with all the top models. You can use Google’s Nano Banana Pro and best video generation model, Veo 3.1. You also get access to Google’s Pomelli, Google’s Gemini Noteb",
       "url": "https://www.instagram.com/p/Dbf75DCShsU/"
     },
     {
-      "likes": 108,
+      "likes": 109,
       "caption": "You can use Claude, even after you hit your credit limits. Have installed an app inside my Claude that will tell you how much credits you have used till yet and when it will be reset. Other than that, if you hit your complete credit limits, it will take you to another model and give it the complete ",
       "url": "https://www.instagram.com/p/Dbx5u5xywA1/"
     },
@@ -171,110 +171,5 @@
       "transcriptFull": "I spent $150,000 on this degree. Was it worth it? I don't think so. I've worked at a Big Four and a Fortune 500 company as a senior data analyst. Neither one cared about my degree. They only cared if I could actually do the work. And the skills that actually got me hired, I didn't learn them in classroom. Yes, university gave me network, friends, and the exposure, but DataCamp gave me the part that actually got me paid. SQL, Python, Tableau, or Power BI. Like real statistics, not just theory. And the best part? All 600+ DataCamp courses are free from June 1st to June 7th, including career tracks and certifications. Like there is something for everyone, no matter what your goals: data analytics, data science, business intelligence, and machine learning. Or if you just want to learn to code, you can enroll in these free tracks. And all without putting in your credit card. Enrollments are closing soon, so comment DataCamp to get the link."
     }
   ],
-  "gemini_analysis": {
-    "garvit_speaking_style": {
-      "summary": "Garvit speaks with a direct, unfiltered, and deeply conversational tone, blending casual tech-bro vocabulary with raw personal philosophy. He sounds less like a formal educator and more like a sharp friend sharing insider secrets over coffee.",
-      "sentence_structure": "short/punchy mixed with fast-paced explanatory clauses to maintain momentum.",
-      "language_mix": "Hinglish, featuring seamless transitions from casual Hindi connectors ('ek Indian developer ne', 'Khair us waqt') to technical English.",
-      "tone": "conversational, confident, slightly rebellious, and candid.",
-      "pacing": "fast and information-dense, moving rapidly from hook to the core value or philosophical takeaway.",
-      "signature_phrases": [
-        "stop taking AI subscriptions right now",
-        "I wish I knew this earlier",
-        "Jack of all trades than master of one"
-      ],
-      "what_makes_it_work": "It drops fake formalities immediately, building instant trust through vulnerability, bold claims, and high-value utility."
-    },
-    "garvit_writing_style": {
-      "summary": "Garvit's captions are minimal, utilitarian, and directly amplify the video's core value proposition without unnecessary fluff. They are designed purely to capture search intent and drive comment-based engagement workflows.",
-      "caption_structure": "Opens with a bold claim or title in all-caps, followed by short, punchy benefit-driven lines, and ends with a clear engagement instruction.",
-      "cta_patterns": [
-        "Follow and then comment [Keyword] to get the guide in your DM:)",
-        "comment [Keyword] to get the link"
-      ],
-      "tone_vs_speaking": "His written tone is cleaner and more search-optimized than his spoken tone, omitting conversational filler words while retaining the punchy, benefit-driven hook."
-    },
-    "competitor_speaking_patterns": {
-      "summary": "Competitors like Aryaman and Arshman utilize ultra-specific case studies, structured multi-layer breakdowns, and live tool demonstrations to establish immediate authority.",
-      "viral_hook_patterns": [
-        "I made an [X] in just [Y] minutes and [Z] happened",
-        "Stop pretending you know how to use [Tool]",
-        "We built this [AI Agent] for [Famous Brand] in India"
-      ],
-      "viral_body_structure": "Step-by-step layer breakdown, real-world case study proof, or live workflow walkthrough that makes complex AI concepts look dead simple.",
-      "viral_cta_patterns": [
-        "comment the word [Keyword] below and I'll send you a proper instructions doc right away",
-        "comment [Keyword] and I will send this entire workflow"
-      ],
-      "key_difference_from_garvit": "Competitors rely heavily on social proof of famous brands or step-by-step frameworks, whereas Garvit blends high-utility software hacks with raw personal narrative and mindset shifts."
-    },
-    "viral_own_script_analysis": [
-      {
-        "rank": 1,
-        "likes": 0,
-        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 18,
-        "body_structure": "Problem identification -> Free open-source alternative reveal -> GitHub validation -> Low friction CTA",
-        "cta": "comment below free to get the link",
-        "script_type": "C",
-        "what_made_it_viral": "Direct financial saving angle tied to national pride ('ek Indian developer') and a high-demand paid tool alternative."
-      },
-      {
-        "rank": 2,
-        "likes": 0,
-        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free.",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 16,
-        "body_structure": "Bold anti-subscription claim -> Feature breakdown and token usage proof -> Antigravity prompt reveal -> Automated DM CTA",
-        "cta": "Just comment Claude and I'll send you the complete guide",
-        "script_type": "C",
-        "what_made_it_viral": "Targeting an expensive, universally desired tool (Claude) and offering an immediate loophole/workaround."
-      },
-      {
-        "rank": 3,
-        "likes": 0,
-        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free.",
-        "hook_type": "story",
-        "hook_length_words": 17,
-        "body_structure": "Regret-based hook -> Rapid listing of high-value tools (Gemini Pro, Veo 3.1, 5TB storage) -> Follow and comment prompt",
-        "cta": "just follow me and comment [keyword]",
-        "script_type": "C",
-        "what_made_it_viral": "Stacking multiple high-value perks (models + storage) into a single 'gold mine' resource drop."
-      },
-      {
-        "rank": 4,
-        "likes": 0,
-        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best.",
-        "hook_type": "story",
-        "hook_length_words": 19,
-        "body_structure": "Celebrity validation of mindset -> Direct contrast with viewer's self-doubt -> Universal performance psychology rule -> Bruce Lee affirmations",
-        "cta": "None",
-        "script_type": "C",
-        "what_made_it_viral": "High-status cross-domain authority borrowing (Ronaldo, Kohli, SRK) mixed with deep psychological reframing."
-      },
-      {
-        "rank": 5,
-        "likes": 0,
-        "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10.",
-        "hook_type": "story",
-        "hook_length_words": 18,
-        "body_structure": "Vulnerable childhood dream confession -> Addressing haters directly -> Embracing being a 'Jack of all trades' -> Relentless consistency promise",
-        "cta": "None",
-        "script_type": "C",
-        "what_made_it_viral": "Raw personal authenticity, vulnerability, and transparent journey-documenting that builds deep parasocial connection."
-      }
-    ],
-    "verdict": {
-      "whose_style_goes_viral": "Hybrid",
-      "reasoning": "Garvit's highest-performing original content combines the aggressive, utility-driven hook and free-resource structure of top competitors with his own raw, conversational, and philosophical storytelling style.",
-      "recommended_hook_structure": "Stop paying for [Expensive AI Tool] because an [Indian developer / free method] lets you use it completely free.",
-      "recommended_body_structure": "1. Call out the financial pain point. 2. Show the interface or feature proof immediately. 3. Drop the exact tool name or loophole method without fluff.",
-      "recommended_cta_structure": "Just comment [KEYWORD] below and I'll send you the complete guide right in your DM.",
-      "avoid_these": [
-        "Beating around the bush before revealing the core tool or hack",
-        "Pure motivational rants without a tangible takeaway or actionable tool link"
-      ]
-    }
-  }
+  "gemini_analysis": {}
 }

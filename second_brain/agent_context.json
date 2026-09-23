@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T03:32:23.289Z",
+  "updated_at": "2026-09-23T03:31:51.152Z",
   "your_performance": {
-    "posts_analyzed": 39,
+    "posts_analyzed": 40,
     "best_hook_type": "contrarian",
     "best_format": "Reel",
     "by_hook_type": [
@@ -9,6 +9,11 @@
         "type": "contrarian",
         "avg": 838.6,
         "count": 5
+      },
+      {
+        "type": "statement",
+        "avg": 183.62,
+        "count": 13
       },
       {
         "type": "personal_story",
@@ -21,11 +26,6 @@
         "count": 1
       },
       {
-        "type": "statement",
-        "avg": 54.42,
-        "count": 12
-      },
-      {
         "type": "unknown",
         "avg": 0,
         "count": 16
@@ -34,8 +34,8 @@
     "by_format": [
       {
         "type": "Reel",
-        "avg": 143.08,
-        "count": 36
+        "avg": 186.08,
+        "count": 37
       },
       {
         "type": "Post",
@@ -75,6 +75,29 @@
         "followers_at_post": 0,
         "scriptSimilarity": 0,
         "updatedAt": "2026-09-08T11:54:04.394Z"
+      },
+      {
+        "id": "3990292809965383264_65880404765",
+        "shortCode": "DdgXitPyC5g",
+        "caption": "Comment anything to get this !",
+        "url": "https://www.instagram.com/p/DdgXitPyC5g/",
+        "postedAt": "2026-09-20T10:34:56.000Z",
+        "archivedAt": "2026-09-23T03:31:47.967Z",
+        "format": "Video",
+        "topics": [],
+        "finalLikes": 1734,
+        "finalComments": 974,
+        "engagementRate": 33.14,
+        "hookText": "Comment anything to get this !",
+        "postId": "3990292809965383264_65880404765",
+        "postUrl": "https://www.instagram.com/p/DdgXitPyC5g/",
+        "likes_at_48h": 1734,
+        "comments_at_48h": 974,
+        "engagement_at_48h": 33.14,
+        "followers_at_post": 8171,
+        "scriptSimilarity": 0,
+        "diffAnalysis": null,
+        "updatedAt": "2026-09-23T03:31:51.111Z"
       },
       {
         "id": "3954142402868550420_65880404765",
@@ -160,40 +183,6 @@
         "followers_at_post": 0,
         "scriptSimilarity": 0,
         "updatedAt": "2026-09-08T11:54:04.394Z"
-      },
-      {
-        "id": "3988276233128975590_65880404765",
-        "shortCode": "DdZNBptyRzm",
-        "caption": "Anyone can get 100 million views with this Ai content system\nIt worths 1000 dollars i am giving away to you for free for sometime now get it or Pay for it later\n\nI recreated @vaibhavsisinty entire content system and giving to you guys for free !\n\nComment “Master” to get it!\n\n#growthhacks #automation",
-        "url": "https://www.instagram.com/p/DdZNBptyRzm/",
-        "postedAt": "2026-09-17T15:43:36.000Z",
-        "archivedAt": "2026-09-20T03:31:55.894Z",
-        "format": "Video",
-        "topics": [
-          "ai",
-          "free",
-          "hack",
-          "automation"
-        ],
-        "finalLikes": 68,
-        "finalComments": 97,
-        "engagementRate": 2.28,
-        "hookText": "Anyone can get 100 million views with this Ai content system\nIt worths 1000 doll",
-        "postId": "3988276233128975590_65880404765",
-        "postUrl": "https://www.instagram.com/p/DdZNBptyRzm/",
-        "likes_at_48h": 68,
-        "comments_at_48h": 97,
-        "engagement_at_48h": 2.28,
-        "followers_at_post": 7242,
-        "scriptSimilarity": 0,
-        "diffAnalysis": {
-          "type": "original_content",
-          "method": "embedding",
-          "similarityScore": 16,
-          "summary": "Original content — no significant match to any generated script.",
-          "analysedAt": "2026-09-19T03:33:08.696Z"
-        },
-        "updatedAt": "2026-09-20T03:31:59.004Z"
       }
     ]
   },
@@ -202,35 +191,35 @@
     "insights": "35 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.64%. Top original posts: 4007 likes, 154 likes, 110 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
   },
   "niche_performance": {
-    "total_hooks": 53,
-    "total_scripts": 107,
+    "total_hooks": 58,
+    "total_scripts": 108,
     "viral_scripts": 37,
     "best_hook_type": "story",
     "hook_length_insight": "Not enough hook length data yet.",
     "by_hook_type": [
       {
         "type": "story",
-        "avg": 5208.03,
-        "count": 36
+        "avg": 4674.8,
+        "count": 40
       },
       {
         "type": "pattern_interrupt",
-        "avg": 4436.67,
+        "avg": 4488,
         "count": 3
       },
       {
         "type": "question",
-        "avg": 3179.29,
+        "avg": 3182.43,
         "count": 7
       },
       {
         "type": "relatability",
-        "avg": 2947.5,
-        "count": 2
+        "avg": 2215,
+        "count": 3
       },
       {
         "type": "curiosity_gap",
-        "avg": 2179.5,
+        "avg": 2197.5,
         "count": 4
       },
       {
@@ -248,9 +237,9 @@
         "format": "Reel",
         "account": "@ishansharma7390",
         "postUrl": "https://www.instagram.com/p/DdE4585PvQg/",
-        "likes": 59534,
-        "comments": 671,
-        "added_at": "2026-09-22T03:32:23.226Z"
+        "likes": 59726,
+        "comments": 675,
+        "added_at": "2026-09-23T03:31:51.098Z"
       },
       {
         "id": "3603432541911984451_48619065725",
@@ -260,9 +249,9 @@
         "format": "Reel",
         "account": "@aryamanupmanyu",
         "postUrl": "https://www.instagram.com/p/DIB9s4YvylD/",
-        "likes": 27670,
-        "comments": 31443,
-        "added_at": "2026-09-22T03:32:23.227Z"
+        "likes": 27671,
+        "comments": 31444,
+        "added_at": "2026-09-23T03:31:51.100Z"
       },
       {
         "id": "3976687439442723344_72269881052",
@@ -272,9 +261,9 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/DcwCCgivcIQ/",
-        "likes": 13841,
-        "comments": 10347,
-        "added_at": "2026-09-22T03:32:23.220Z"
+        "likes": 14159,
+        "comments": 10504,
+        "added_at": "2026-09-23T03:31:51.093Z"
       },
       {
         "id": "3637498854095207948_48619065725",
@@ -284,9 +273,9 @@
         "format": "Reel",
         "account": "@aryamanupmanyu",
         "postUrl": "https://www.instagram.com/p/DJ6_e99PD4M/",
-        "likes": 12445,
-        "comments": 12936,
-        "added_at": "2026-09-22T03:32:23.227Z"
+        "likes": 12443,
+        "comments": 12935,
+        "added_at": "2026-09-23T03:31:51.100Z"
       },
       {
         "id": "3852456677199433134_24040950",
@@ -296,9 +285,9 @@
         "format": "Reel",
         "account": "@arshman",
         "postUrl": "https://www.instagram.com/p/DV2rO_NDc2u/",
-        "likes": 11798,
+        "likes": 11796,
         "comments": 130,
-        "added_at": "2026-09-22T03:32:23.223Z"
+        "added_at": "2026-09-23T03:31:51.096Z"
       }
     ]
   },
@@ -349,5 +338,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (39 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\" | \"Anyone can get 100 million views with this Ai content system\nIt worths 1000 doll\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n35 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.64%. Top original posts: 4007 likes, 154 likes, 110 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (53 hooks, 107 scripts):\nBest hook type in niche: story\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"And as we open that display, just seamlessly folds into that full screen view.\" (59534 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27670 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (13841 likes) | \"We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India right now, and I think that it might set a new benchmark for customer experience in the entire D2C space.  Now here's the part that made me stop and say, What?  Because it replies to your voice note with a voice note.\" (12445 likes) | \"Stop pretending you know how to use Claude.  Give me 60 seconds and I can guarantee you, you'll know more than 99. 9% of people in AI.\" (11798 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (40 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n35 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.64%. Top original posts: 4007 likes, 154 likes, 110 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (58 hooks, 108 scripts):\nBest hook type in niche: story\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"And as we open that display, just seamlessly folds into that full screen view.\" (59726 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27671 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (14159 likes) | \"We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India right now, and I think that it might set a new benchmark for customer experience in the entire D2C space.  Now here's the part that made me stop and say, What?  Because it replies to your voice note with a voice note.\" (12443 likes) | \"Stop pretending you know how to use Claude.  Give me 60 seconds and I can guarantee you, you'll know more than 99. 9% of people in AI.\" (11796 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

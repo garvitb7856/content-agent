@@ -985,6 +985,35 @@
         "summary": "Original content — no significant match to any generated script.",
         "analysedAt": "2026-09-20T03:33:27.244Z"
       }
+    },
+    {
+      "id": "3990292809965383264_65880404765",
+      "shortCode": "DdgXitPyC5g",
+      "caption": "Comment anything to get this !",
+      "url": "https://www.instagram.com/p/DdgXitPyC5g/",
+      "postedAt": "2026-09-20T10:34:56.000Z",
+      "archivedAt": "2026-09-23T03:31:47.967Z",
+      "format": "Video",
+      "topics": [],
+      "finalLikes": 1734,
+      "finalComments": 974,
+      "engagementRate": 33.14,
+      "hookText": "Comment anything to get this !",
+      "postId": "3990292809965383264_65880404765",
+      "postUrl": "https://www.instagram.com/p/DdgXitPyC5g/",
+      "likes_at_48h": 1734,
+      "comments_at_48h": 974,
+      "engagement_at_48h": 33.14,
+      "followers_at_post": 8171,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 4,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-09-23T03:33:37.994Z"
+      },
+      "updatedAt": "2026-09-23T03:31:51.111Z"
     }
   ]
 }

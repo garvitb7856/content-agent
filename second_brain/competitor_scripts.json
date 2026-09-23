@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T03:32:23.248Z",
+  "updated_at": "2026-09-23T03:31:51.106Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1683,8 +1683,26 @@
       "verdict": "high",
       "transcribed_at": "2026-09-21T03:53:50.140Z",
       "scraped_at": "2026-09-22T03:32:23.241Z"
+    },
+    {
+      "id": "3988286117803382255_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DdZPRfiStXv/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "You don't need to pay for expensive SEO tools anymore.  Just use these three free plugins to turn Claude Code into an SEO expert instantly.  The first is GSC's MCP.",
+      "full_script": "You don't need to pay for expensive SEO tools anymore. Just use these three free plugins to turn Claude Code into an SEO expert instantly. The first is GSC's MCP. Connects Claude directly to Google Search Console, meaning it can now study your analytics, find the keywords you're close to ranking for, and even tell you exactly what to fix to rank even higher. The second is OpenSEO, which is a free alternative to Ahrefs and Semrush that handles your keyword research, your rank tracking, your backlinks, and even full site audits. And finally, there's GEO Optimizer Skill, which optimizes your website for the new Generative Engine Optimization standards, so ChatGPT, Claude, and Google's AI Overviews can directly cite your site instead of your competitors. So if you want to try them all, just comment SEO down below and I'll send you the links directly.",
+      "full_caption": "Comment \"SEO\" to get these 3 Claude Code plugins to boost your SEO. \n\nYou don't need to pay for expensive SEO tools anymore.\n\nInstead use these 3 free plugins to turn your Claude Code into an SEO expert instantly.\n\nFirst is GSC MCP.\n\nIt connects Claude directly to your Google Search Console.\n\nIt stu",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 2601,
+      "comments": 4258,
+      "engagement_rate": 1,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-19T03:38:40.609Z",
+      "scraped_at": "2026-09-23T03:31:51.097Z"
     }
   ],
-  "total": 107,
-  "transcript_based": 26
+  "total": 108,
+  "transcript_based": 27
 }
