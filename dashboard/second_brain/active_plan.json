@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-23",
-  "end_date": "2026-09-30",
+  "generated_on": "2026-09-24",
+  "end_date": "2026-10-01",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-23",
-      "topic": "The $703 Million Medicare AI Heist",
+      "date": "2026-09-24",
+      "topic": "Why I'm Apologizing to Zuckerberg After Llama's Latest Move",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "This is the most insane AI heist in history.",
+      "hook": "This is an official apology to Mark Zuckerberg.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-24",
-      "topic": "23 Free AI Bootcamps from Big Tech",
+      "date": "2026-09-25",
+      "topic": "Why Indian B2B Founders Are Abandoning Western SaaS Tools",
       "format": "Carousel",
       "post_time": "7:00 PM IST",
-      "hook": "Stop paying lakhs for AI bootcamps right now.",
+      "hook": "Indian SaaS is undergoing a silent massacre right now.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-25",
-      "topic": "One-Tripod Multi-Angle B-Roll Hack",
+      "date": "2026-09-26",
+      "topic": "Why JioPC Is a Sneaky Threat to Entry-Level Laptops in India",
       "format": "Reel",
       "post_time": "6:45 PM IST",
-      "hook": "Stop wasting hours setting up 5 different cameras.",
+      "hook": "Mukesh Ambani just shocked the tech market again.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-26",
-      "topic": "Claude AI Full Team Blueprints for Solopreneurs",
+      "date": "2026-09-27",
+      "topic": "How to Automate Cross-Platform Content Distribution Without Zapier Fees",
       "format": "Carousel",
       "post_time": "8:00 PM IST",
-      "hook": "Build a complete AI team using just Claude chats.",
+      "hook": "Stop paying hundreds for subscriptions when this is free.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-27",
-      "topic": "Run Claude Code 100% Free with GitHub",
+      "date": "2026-09-28",
+      "topic": "Visualizing Transformers: How AI Actually Thinks Under the Hood",
       "format": "Reel",
       "post_time": "7:15 PM IST",
-      "hook": "You are wasting thousands on Claude API keys.",
+      "hook": "Stop treating ChatGPT like magic. Let me explain.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-28",
-      "topic": "Highest Paying AI Automation Businesses for 2026",
+      "date": "2026-09-29",
+      "topic": "Building Autonomous Agent Loops with Claude Code",
       "format": "Carousel",
       "post_time": "6:30 PM IST",
-      "hook": "Start this billion-dollar AI automation agency right now.",
+      "hook": "Most people run their AI agents in a straight line.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-29",
-      "topic": "Open-Source Local World Model Video Generator",
+      "date": "2026-09-30",
+      "topic": "The Free Open-Source Tool Replacing Paid LinkedIn Automation",
       "format": "Reel",
       "post_time": "7:30 PM IST",
-      "hook": "Don't pay Luma or Kling another single dollar.",
+      "hook": "This completely free tool automates your entire LinkedIn.",
       "status": "pending"
     }
   ]

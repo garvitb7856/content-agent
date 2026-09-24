@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "The $703 Million Medicare AI Heist",
-    "hook": "This is the most insane AI heist in history, and it didn't even happen in a bank.",
+    "title": "Why I'm Apologizing to Zuckerberg After Llama's Latest Move",
+    "hook": "This is an official apology to Mark Zuckerberg, because for a second, I thought Meta had completely lost the AI race.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "True crime meets AI is an incredibly viral combination that appeals to a broad, curious audience. Adapting this storytelling format from a large competitor profile is a proven way to bypass standard tech-niche limitations.",
+    "reasoning": "Remixes a proven competitor hook pattern from @vaibhavsisinty with a fresh perspective on open-source model dominance. Backed by strong community engagement signals around Meta's aggressive open-weight strategy.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Ddf5YfbO0ER/"
+    "sourceUrl": "https://www.instagram.com/p/Ddpi80Ahicm/"
   },
   {
     "rank": 2,
-    "title": "One-Tripod Multi-Angle B-Roll Hack",
-    "hook": "Stop wasting hours setting up 5 different cameras for your Reels. You only need one tripod and this AI tool.",
+    "title": "Why JioPC Is a Sneaky Threat to Entry-Level Laptops in India",
+    "hook": "Mukesh Ambani just shocked the tech market again, and this cloud computer running Ubuntu right inside your browser is going to hurt budget laptop sales.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "This highly visual, production-focused hack directly targets creators and solopreneurs looking to optimize their workflow. Visual demonstration videos of AI video editing tools consistently overperform the creator's average engagement.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdbbJSYJlIj/"
+    "reasoning": "Leverages massive local Indian tech search volume and consumer economic trends. High-performing concept that bridges cloud infrastructure shifts with everyday consumer impact.",
+    "niche": "Indian Tech",
+    "sourceUrl": ""
   },
   {
     "rank": 3,
-    "title": "23 Free AI Bootcamps from Big Tech",
-    "hook": "Stop paying lakhs for AI bootcamps. Anthropic, Google, and OpenAI just released these for 100% free.",
-    "format": "Reel",
+    "title": "Why Indian B2B Founders Are Abandoning Western SaaS Tools",
+    "hook": "Indian SaaS is undergoing a silent massacre, and founders who don't pivot to agentic workflows right now are going to get priced out.",
+    "format": "Carousel",
     "score": "HIGH",
-    "reasoning": "High-value curation posts that replace paid education are a proven growth engine for medium-sized accounts. Offering structured, free alternatives to expensive courses triggers massive saves and shares.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DcoW_TPJLrx/"
+    "reasoning": "Presents a contrarian macro business viewpoint tailored for entrepreneurial audiences. Taps into the high-performing wave of local software disruption and cost efficiency.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": ""
   },
   {
     "rank": 4,
-    "title": "Run Claude Code 100% Free",
-    "hook": "You are wasting thousands on Claude API keys. Run Claude Code completely free with this GitHub hack.",
+    "title": "Visualizing Transformers: How AI Actually Thinks Under the Hood",
+    "hook": "Stop treating ChatGPT like magic. Give me 60 seconds and I'll show you how vector embeddings actually represent human language.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Developer utility hacks perform exceptionally well with builder audiences, which aligns perfectly with Garvit's demographic. It provides a highly specific, high-ROI solution that drives high bookmark rates.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdeVVlpT9zW/"
+    "score": "HIGH",
+    "reasoning": "Bridges deep technical concepts with clear visual storytelling inspired by high-performing pattern-interrupt hooks. Appeals strongly to curious developers and tech enthusiasts.",
+    "niche": "AI Engineering",
+    "sourceUrl": ""
   },
   {
     "rank": 5,
-    "title": "Open-Source World Model Video Generator",
-    "hook": "Don't pay Luma or Kling another dollar. Run this 100% free world model on your local machine.",
-    "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Open-source local AI alternatives are highly trending due to subscription fatigue. Showing a side-by-side quality comparison of a local model vs. paid giants creates a high-retention visual hook.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Ddg8Mqnv0R5/"
+    "title": "How to Automate Cross-Platform Content Distribution Without Zapier Fees",
+    "hook": "Stop paying hundreds of dollars a month for automation subscriptions when an open-source webhook stack can do it for free.",
+    "format": "Carousel",
+    "score": "HIGH",
+    "reasoning": "Delivers high-value practical utility that naturally drives saves and shares among entrepreneurs and creators. Directly addresses subscription fatigue in modern creator stacks.",
+    "niche": "Automation",
+    "sourceUrl": ""
   }
 ]

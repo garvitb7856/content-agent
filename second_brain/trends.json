@@ -1,69 +1,62 @@
 {
-  "fetched_at": "2026-09-23T03:31:51.056Z",
+  "fetched_at": "2026-09-24T03:31:58.098Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "GPT-6 Sol and Luna",
-      "score": 1266,
-      "comments": 636,
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+      "title": "Feds Target AI Critics as \"Foreign Agents\"",
+      "score": 90,
+      "comments": 58,
+      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign"
     },
     {
       "source": "hackernews",
-      "title": "Claude Opus 5.5",
-      "score": 1285,
-      "comments": 853,
-      "url": "https://www.anthropic.com/claude-opus-5-5"
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "score": 544,
+      "comments": 574,
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
     },
     {
       "source": "hackernews",
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "score": 585,
-      "comments": 370,
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
-    },
-    {
-      "source": "hackernews",
-      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
-      "score": 246,
-      "comments": 77,
-      "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
-    },
-    {
-      "source": "hackernews",
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "score": 480,
-      "comments": 243,
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
-    },
-    {
-      "source": "hackernews",
-      "title": "OpenAI is well positioned to fast-follow Jev",
-      "score": 271,
-      "comments": 196,
-      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Unreal Agent",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
       "score": 144,
-      "comments": 86,
-      "url": "https://unreallabs.ai/blog/unreal-agent/"
+      "comments": 95,
+      "url": "https://fly.io/blog/vscode-ssh-wtf/"
     },
     {
       "source": "hackernews",
-      "title": "Delta: Highly available, strongly consistent storage using chain replication (2022)",
-      "score": 3,
-      "comments": 0,
-      "url": "https://engineering.fb.com/2022/05/04/data-infrastructure/delta/"
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "score": 65,
+      "comments": 33,
+      "url": "https://artificialanalysis.ai/models/mercury-2-5"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Training a model to identify AI web content from structure alone",
-      "score": 48,
-      "comments": 10,
-      "url": "https://arxiv.org/abs/2609.15369"
+      "title": "Making Tailscale Faster",
+      "score": 96,
+      "comments": 40,
+      "url": "https://tailscale.com/blog/making-tailscale-faster"
+    },
+    {
+      "source": "hackernews",
+      "title": "Australia says OpenAI agent hacked into government website",
+      "score": 35,
+      "comments": 23,
+      "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411"
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini 3.8 text-to-speech",
+      "score": 266,
+      "comments": 124,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+    },
+    {
+      "source": "hackernews",
+      "title": "I don't want the details",
+      "score": 371,
+      "comments": 201,
+      "url": "https://michaelheap.com/i-dont-want-the-details/"
     }
   ],
   "youtube": [
@@ -72,8 +65,8 @@
       "category": "Science & Tech",
       "title": "How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset",
       "channel": "Founders Bits",
-      "views": 25600687,
-      "likes": 823220,
+      "views": 26781274,
+      "likes": 854438,
       "publishedAt": "2026-09-15T16:45:12Z",
       "url": "https://www.youtube.com/watch?v=yukKoFJr_4w",
       "tags": [],
@@ -82,158 +75,85 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
-      "channel": "MrCappuccino Memes",
-      "views": 11227409,
-      "likes": 40825,
-      "publishedAt": "2026-09-15T22:02:06Z",
-      "url": "https://www.youtube.com/watch?v=wiheJmZ5KFA",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "iPhone 18 Pro Review: All About that Chip",
+      "title": "The Apple Watch Has a Problem",
       "channel": "Marques Brownlee",
-      "views": 10639846,
-      "likes": 153998,
-      "publishedAt": "2026-09-16T12:01:27Z",
-      "url": "https://www.youtube.com/watch?v=ohqxP8EEumo",
-      "tags": [],
-      "description": "iPhone 18 Pro is basically an S year upgrade. And one part of it is really impressive.\n\nProtect your new iPhone 18 with a case or screen protector at "
+      "views": 3390616,
+      "likes": 59951,
+      "publishedAt": "2026-09-22T17:49:42Z",
+      "url": "https://www.youtube.com/watch?v=pOX1l1edBME",
+      "tags": [
+        "apple watch",
+        "apple watch series 12",
+        "audio intelligence",
+        "MKBHD"
+      ],
+      "description": "Apple Watch series 12 has a new \"Audio Intelligence\" feature, let's talk about it\n\nApple vs the AI Race: https://youtu.be/eWKY0OnPByg\n\nMKBHD Merch: ht"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "I Turned My MICROWAVE into a Gaming Mouse… #gaming #pcgaming #gamingmouse #mousegaming #gamer",
-      "channel": "cmcteq",
-      "views": 5143295,
-      "likes": 159711,
-      "publishedAt": "2026-09-17T03:29:13Z",
-      "url": "https://www.youtube.com/watch?v=wkrJjzOkX5s",
+      "title": "AI research funded by Asian dad with the MSI Raider 16 HX @MSI_USA  #comedyskit #growingupasian",
+      "channel": "Remy Zee",
+      "views": 1590856,
+      "likes": 71635,
+      "publishedAt": "2026-09-21T20:30:16Z",
+      "url": "https://www.youtube.com/watch?v=Xi9b1eX4-L0",
       "tags": [],
-      "description": "Over the last few videos I've built the darkest, brightest, and heaviest gaming mice in the world, and along the way I realized something crazy: the s"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Steam Frame Wireless Range Test",
-      "channel": "Linus Tech Tips",
-      "views": 3118167,
-      "likes": 58116,
-      "publishedAt": "2026-09-16T17:05:56Z",
-      "url": "https://www.youtube.com/watch?v=Zzzkg_ZrOII",
-      "tags": [],
-      "description": "How far from your PC can you get using the Steam Frame's wireless dongle?"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "The Pigeon That Beat An Internet Connection 😬",
-      "channel": "Zack D. Films",
-      "views": 2401504,
-      "likes": 134755,
-      "publishedAt": "2026-09-21T21:30:20Z",
-      "url": "https://www.youtube.com/watch?v=H_45lgMj-vA",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Android Users Hit a Lick on the Iphone Duo’s Animation 😭😭",
-      "channel": "Jorski",
-      "views": 1694680,
-      "likes": 62809,
-      "publishedAt": "2026-09-18T02:49:51Z",
-      "url": "https://www.youtube.com/watch?v=EJYwGY8nl34",
-      "tags": [],
-      "description": "Android Stealing the Iphone Duo’s Animation 😭😭\n\nsub for more!!!"
+      "description": "Intel Core Ultra 9 275HX | NVIDIA GeForce RTX 5070 Ti | available in-store and online at Best Buy | link in bio :)\n\n#immigrantparents #asiandad\n📲 Soc"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "How to claim your $$ from Apple Intelligence class action lawsuit..",
       "channel": "CarterPCs",
-      "views": 1146987,
-      "likes": 64425,
+      "views": 1553499,
+      "likes": 80476,
       "publishedAt": "2026-09-22T04:37:05Z",
       "url": "https://www.youtube.com/watch?v=zUbD8sn5gZE",
       "tags": [],
       "description": "How to claim your $$ from Apple Intelligence class action lawsuit..\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Pass Through Sockets?? #tools #contractor #mechanic",
-      "channel": "Chris Garage78",
-      "views": 831406,
-      "likes": 10314,
-      "publishedAt": "2026-09-19T21:41:20Z",
-      "url": "https://www.youtube.com/watch?v=WXMPUg3948k",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Hold Up..Is The Iphone 19 Actually Going To Look Like This?! 👀",
-      "channel": "soseriuzradio",
-      "views": 457005,
-      "likes": 5545,
-      "publishedAt": "2026-09-20T19:10:26Z",
-      "url": "https://www.youtube.com/watch?v=cW7cDjQpEXA",
-      "tags": [
-        "iPhone Flip",
-        "Soulja Boy",
-        "foldable phone",
-        "iPhone 19",
-        "new iphone"
-      ],
-      "description": "Is the iPhone Flip actually coming? Soulja Boy thinks Apple is about to copy Samsung’s style.\n\nHe’s convinced the iPhone 19 will be a foldable phone w"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "ChatGPT",
-        "trend_score": 89
+        "trend_score": 81
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 58
+        "trend_score": 42
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 57
+        "trend_score": 37
       },
       {
         "keyword": "AI tools",
-        "trend_score": 55
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 53
+        "trend_score": 34
       },
       {
         "keyword": "self improvement",
-        "trend_score": 49
+        "trend_score": 34
       },
       {
-        "keyword": "AI workflow",
-        "trend_score": 49
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 48
+        "keyword": "AI for business",
+        "trend_score": 30
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 46
+        "trend_score": 28
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 28
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 25
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-23T03:31:51.056Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"GPT-6 Sol and Luna\" — 1266 pts\n• [HackerNews] \"Claude Opus 5.5\" — 1285 pts\n• [HackerNews] \"OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005\" — 585 pts\n• [HackerNews] \"Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)\" — 246 pts\n• [HackerNews] \"Pentagon says overreliance on AI contributed to missile strike on Iran school\" — 480 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 25601k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MrCappuccino Memes — 11227k views\n• [YouTube Global] \"iPhone 18 Pro Review: All About that Chip\" by Marques Brownlee — 10640k views\n• [YouTube Global] \"I Turned My MICROWAVE into a Gaming Mouse… #gaming #pcgaming #gamingmouse #mousegaming #gamer\" by cmcteq — 5143k views\n• [YouTube Global] \"Steam Frame Wireless Range Test\" by Linus Tech Tips — 3118k views\n• [YouTube Global] \"The Pigeon That Beat An Internet Connection 😬\" by Zack D. Films — 2402k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 89), solopreneur (score: 58), entrepreneur (score: 57), AI tools (score: 55), AI for business (score: 53), self improvement (score: 49), AI workflow (score: 49), automation tools (score: 48), productivity tools (score: 46)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-24T03:31:58.098Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Feds Target AI Critics as \"Foreign Agents\"\" — 90 pts\n• [HackerNews] \"Claude discovers a novel enzyme system with CRISPR-like repeats\" — 544 pts\n• [HackerNews] \"VSCode's SSH Agent Is Bananas (2025)\" — 144 pts\n• [HackerNews] \"Mercury 2.5 LLM hits 770 tokens per second\" — 65 pts\n• [HackerNews] \"Making Tailscale Faster\" — 96 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 26781k views\n• [YouTube Global] \"The Apple Watch Has a Problem\" by Marques Brownlee — 3391k views\n• [YouTube Global] \"AI research funded by Asian dad with the MSI Raider 16 HX @MSI_USA  #comedyskit #growingupasian\" by Remy Zee — 1591k views\n• [YouTube Global] \"How to claim your $$ from Apple Intelligence class action lawsuit..\" by CarterPCs — 1553k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 81), solopreneur (score: 42), entrepreneur (score: 37), AI tools (score: 34), self improvement (score: 34), AI for business (score: 30), productivity tools (score: 28), automation tools (score: 28), AI workflow (score: 25)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

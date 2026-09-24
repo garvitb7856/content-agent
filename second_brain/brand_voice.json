@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T03:33:37.287Z",
+  "updated_at": "2026-09-24T03:34:21.713Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -13,11 +13,11 @@
     },
     "C": {
       "count": 20,
-      "avgLikes": 397,
+      "avgLikes": 407,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 397 likes. Type C: 20 posts, avg 397 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 407 likes. Type C: 20 posts, avg 407 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -72,12 +72,12 @@
   ],
   "your_top_captions": [
     {
-      "likes": 5185,
+      "likes": 5270,
       "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
       "url": "https://www.instagram.com/p/DbVirrOyodk/"
     },
     {
-      "likes": 1734,
+      "likes": 1831,
       "caption": "Comment anything to get this !",
       "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
@@ -92,7 +92,7 @@
       "url": "https://www.instagram.com/p/Dbx5u5xywA1/"
     },
     {
-      "likes": 72,
+      "likes": 73,
       "caption": "Anyone can get 100 million views with this Ai content system\nIt worths 1000 dollars i am giving away to you for free for sometime now get it or Pay for it later\n\nI recreated @vaibhavsisinty entire content system and giving to you guys for free !\n\nComment “Master” to get it!\n\n#growthhacks #automation",
       "url": "https://www.instagram.com/p/DdZNBptyRzm/"
     }
@@ -171,5 +171,66 @@
       "transcriptFull": "I spent $150,000 on this degree. Was it worth it? I don't think so. I've worked at a Big Four and a Fortune 500 company as a senior data analyst. Neither one cared about my degree. They only cared if I could actually do the work. And the skills that actually got me hired, I didn't learn them in classroom. Yes, university gave me network, friends, and the exposure, but DataCamp gave me the part that actually got me paid. SQL, Python, Tableau, or Power BI. Like real statistics, not just theory. And the best part? All 600+ DataCamp courses are free from June 1st to June 7th, including career tracks and certifications. Like there is something for everyone, no matter what your goals: data analytics, data science, business intelligence, and machine learning. Or if you just want to learn to code, you can enroll in these free tracks. And all without putting in your credit card. Enrollments are closing soon, so comment DataCamp to get the link."
     }
   ],
-  "gemini_analysis": {}
+  "gemini_analysis": {
+    "garvit_speaking_style": {
+      "summary": "Garvit speaks with an authentic, conversational, and direct Indian-English mix that feels like an insider buddy leaking secrets. His delivery blends high-value tech utility with raw personal vulnerability and mindset shifts.",
+      "sentence_structure": "short/punchy",
+      "language_mix": "Hinglish (casual conversational Hindi woven seamlessly with English tech terminology)",
+      "tone": "casual",
+      "pacing": "fast, dense info",
+      "signature_phrases": [
+        "stop taking AI subscriptions right now",
+        "I wish I knew this earlier",
+        "Jack of all trades than master of one"
+      ],
+      "what_makes_it_work": "It sounds unfiltered and urgent, tearing down paywalls and gatekeeping in the AI space while occasionally showing genuine creator self-awareness."
+    },
+    "garvit_writing_style": {
+      "summary": "Garvit writes captions with extreme minimalism or punchy all-caps declarations that mirror his spoken hooks. He prioritizes direct keyword comments for automated DM delivery over long-form storytelling in text.",
+      "caption_structure": "Starts with a bold claim or all-caps hook, lists key features or no-cost benefits concisely, and ends with a strict follow-and-comment CTA.",
+      "cta_patterns": [
+        "Follow and then comment [Keyword] to get the guide in your DM",
+        "comment [Keyword] and I'll send you the complete guide"
+      ],
+      "tone_vs_speaking": "His written tone is cleaner and more structured than his spoken Hinglish, leaning fully into English with capitalization for emphasis on free tools."
+    },
+    "competitor_speaking_patterns": {
+      "summary": "Competitors use heavy social proof, named brand case studies, and structured multi-layered lists that create immediate FOMO and authority.",
+      "viral_hook_patterns": [
+        "I made an AI agent in X minutes and what happened next blew my mind",
+        "We built this AI agent for [Famous Brand], and it sets a new benchmark",
+        "Stop pretending you know how to use [Tool]. Give me 60 seconds..."
+      ],
+      "viral_body_structure": "Hook -> Real-world brand/project case study -> Step-by-step layer breakdown or feature reveal -> Fast-paced value delivery -> Keyword CTA.",
+      "viral_cta_patterns": [
+        "comment the word [Keyword] below and I'll send you a proper instructions doc right away",
+        "comment [Keyword] and I will send this entire workflow"
+      ],
+      "key_difference_from_garvit": "Competitors anchor their tech scripts on real Indian D2C brands or systematic masterclasses (Layers 1-8), whereas Garvit blends raw personal rants, mindset affirmations, and leaked free GitHub/tool workarounds."
+    },
+    "viral_own_script_analysis": [
+      {
+        "rank": 1,
+        "likes": 0,
+        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch ",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 20,
+        "body_structure": "reveal -> utility/value breakdown -> proof of developer adoption -> CTA",
+        "cta": "comment below free to get the link",
+        "script_type": "C",
+        "what_made_it_viral": "Leverages intense value arbitrage (expensive subscription made free) combined with localized pride (an Indian developer did it)."
+      }
+    ],
+    "verdict": {
+      "whose_style_goes_viral": "Hybrid",
+      "reasoning": "Garvit's raw, unfiltered delivery and anti-subscription stance create high personal brand equity, but structuring his tech hacks with competitor-style social proof or systematic step-by-step frameworks maximizes engagement and DM automated leads.",
+      "recommended_hook_structure": "Stop paying for [Expensive Tool] because an Indian developer/I found a way to use it completely free.",
+      "recommended_body_structure": "Quick value reveal -> Proof of capability (tokens/models unlocked) -> How to access it in seconds without credit limits.",
+      "recommended_cta_structure": "Follow me and comment '[KEYWORD]' to get the complete step-by-step guide in your DMs.",
+      "avoid_these": [
+        "long philosophical tangents without immediate software/tech utility",
+        "leaving captions completely empty on high-value tool drops"
+      ]
+    }
+  }
 }

@@ -501,5 +501,40 @@
       "llm routing",
       "cloud cost"
     ]
+  },
+  {
+    "name": "Social Media Curation and Competitor Intelligence",
+    "keywords": [
+      "twitter",
+      "feed",
+      "reels",
+      "competitor",
+      "insights",
+      "curating",
+      "content"
+    ]
+  },
+  {
+    "name": "AI Content Creation and Output Quality",
+    "keywords": [
+      "llm",
+      "writing",
+      "bot",
+      "posters",
+      "visuals",
+      "markdown",
+      "voice notes"
+    ]
+  },
+  {
+    "name": "Digital Privacy and Data Security",
+    "keywords": [
+      "security",
+      "leak",
+      "audit",
+      "digital footprint",
+      "privacy",
+      "off-grid"
+    ]
   }
 ]
