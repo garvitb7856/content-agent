@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Why I'm Apologizing to Zuckerberg After Llama's Latest Move",
-    "hook": "This is an official apology to Mark Zuckerberg, because for a second, I thought Meta had completely lost the AI race.",
+    "title": "The $703M AI Fraud: Case Study on US Medicare Exploitation",
+    "hook": "This is how four people allegedly pulled off a $703 million fraud using AI automation, and why US authorities are panicking.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Remixes a proven competitor hook pattern from @vaibhavsisinty with a fresh perspective on open-source model dominance. Backed by strong community engagement signals around Meta's aggressive open-weight strategy.",
+    "reasoning": "True-crime tech storytelling triggers immense hook retention and virality compared to standard AI tool tutorials. Adapted from @arshman's top-performing case study format, this provides an electric narrative angle that commands attention.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Ddpi80Ahicm/"
+    "sourceUrl": "https://www.instagram.com/p/Ddf5YfbO0ER/"
   },
   {
     "rank": 2,
-    "title": "Why JioPC Is a Sneaky Threat to Entry-Level Laptops in India",
-    "hook": "Mukesh Ambani just shocked the tech market again, and this cloud computer running Ubuntu right inside your browser is going to hurt budget laptop sales.",
+    "title": "The $68 Billion AI Bookkeeping Opportunity for Indian Founders",
+    "hook": "Agentic accounting is quietly becoming the highest paying AI business model of 2026. Here is how Indian agencies are monetizing it.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Leverages massive local Indian tech search volume and consumer economic trends. High-performing concept that bridges cloud infrastructure shifts with everyday consumer impact.",
-    "niche": "Indian Tech",
-    "sourceUrl": ""
+    "reasoning": "Moves past oversaturated customer support bots to target a high-ticket, enterprise-level B2B automation vertical. Proven by strong engagement signals on @aryamanupmanyu's agency breakdowns, making it ideal for solopreneurs.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Db8ocVByeA8/"
   },
   {
     "rank": 3,
-    "title": "Why Indian B2B Founders Are Abandoning Western SaaS Tools",
-    "hook": "Indian SaaS is undergoing a silent massacre, and founders who don't pivot to agentic workflows right now are going to get priced out.",
-    "format": "Carousel",
+    "title": "Awesome Free LLM APIs: Get 7 Billion AI Tokens for Free Every Month",
+    "hook": "You don't need to pay for Claude or OpenAI API keys anymore. Someone on GitHub linked over 600 free AI models into one router.",
+    "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Presents a contrarian macro business viewpoint tailored for entrepreneurial audiences. Taps into the high-performing wave of local software disruption and cost efficiency.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": ""
+    "reasoning": "Directly solves the primary API cost barrier for bootstrapped builders and Indian engineers. Validated by @nick_saraev's proven high-utility framework, ensuring exceptional bookmark and share metrics.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DdeVVlpT9zW/"
   },
   {
     "rank": 4,
-    "title": "Visualizing Transformers: How AI Actually Thinks Under the Hood",
-    "hook": "Stop treating ChatGPT like magic. Give me 60 seconds and I'll show you how vector embeddings actually represent human language.",
-    "format": "Reel",
+    "title": "Why Vibe Coding Makes System Design 10x More Valuable for Engineers",
+    "hook": "When AI writes code for ₹0, knowing syntax isn't a superpower anymore. System design and architecture are where Indian devs will win.",
+    "format": "Carousel",
     "score": "HIGH",
-    "reasoning": "Bridges deep technical concepts with clear visual storytelling inspired by high-performing pattern-interrupt hooks. Appeals strongly to curious developers and tech enthusiasts.",
-    "niche": "AI Engineering",
+    "reasoning": "Taps directly into the trending vibe coding discourse with a counter-intuitive career strategy that resonates with software engineers. Positions @garvit.irl as a mature technical thought leader delivering defensible career insights.",
+    "niche": "Self-growth",
     "sourceUrl": ""
   },
   {
     "rank": 5,
-    "title": "How to Automate Cross-Platform Content Distribution Without Zapier Fees",
-    "hook": "Stop paying hundreds of dollars a month for automation subscriptions when an open-source webhook stack can do it for free.",
-    "format": "Carousel",
+    "title": "Build a 5-Minute Website Monetization System for Local Indian SMBs",
+    "hook": "I tested building quick digital presences for local tier-2 city businesses using ChatGPT and rapid builders. Here are the exact conversion numbers.",
+    "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Delivers high-value practical utility that naturally drives saves and shares among entrepreneurs and creators. Directly addresses subscription fatigue in modern creator stacks.",
-    "niche": "Automation",
+    "reasoning": "Inspired by top-performing SME playbooks from hyper-engaged creators like @dhavalkataria_ (18.88% engagement rate). Delivers actionable micro-agency blueprints that bypass abstract AI hype to show real rupees earned.",
+    "niche": "Entrepreneurship",
     "sourceUrl": ""
   }
 ]

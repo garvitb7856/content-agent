@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-24",
-  "end_date": "2026-10-01",
+  "generated_on": "2026-09-25",
+  "end_date": "2026-10-02",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-24",
-      "topic": "Why I'm Apologizing to Zuckerberg After Llama's Latest Move",
+      "date": "2026-09-25",
+      "topic": "The $703M AI Fraud: Case Study on US Medicare Exploitation",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "This is an official apology to Mark Zuckerberg.",
+      "hook": "This is how four people allegedly pulled off a $703 million fraud using AI automation, and why US authorities are panicking.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-25",
-      "topic": "Why Indian B2B Founders Are Abandoning Western SaaS Tools",
+      "date": "2026-09-26",
+      "topic": "Why Vibe Coding Makes System Design 10x More Valuable for Engineers",
       "format": "Carousel",
       "post_time": "7:00 PM IST",
-      "hook": "Indian SaaS is undergoing a silent massacre right now.",
+      "hook": "When AI writes code for ₹0, system design is your only survival skill.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-26",
-      "topic": "Why JioPC Is a Sneaky Threat to Entry-Level Laptops in India",
+      "date": "2026-09-27",
+      "topic": "Awesome Free LLM APIs: Get 7 Billion AI Tokens for Free Every Month",
       "format": "Reel",
       "post_time": "6:45 PM IST",
-      "hook": "Mukesh Ambani just shocked the tech market again.",
+      "hook": "You don't need to pay for Claude or OpenAI API keys anymore. Someone on GitHub linked over 600 free AI models into one router.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-27",
-      "topic": "How to Automate Cross-Platform Content Distribution Without Zapier Fees",
+      "date": "2026-09-28",
+      "topic": "Build a 5-Minute Website Monetization System for Local Indian SMBs",
       "format": "Carousel",
       "post_time": "8:00 PM IST",
-      "hook": "Stop paying hundreds for subscriptions when this is free.",
+      "hook": "How I built high-converting digital setups for local stores using simple AI prompts in minutes.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-28",
-      "topic": "Visualizing Transformers: How AI Actually Thinks Under the Hood",
+      "date": "2026-09-29",
+      "topic": "The $68 Billion AI Bookkeeping Opportunity for Indian Founders",
       "format": "Reel",
       "post_time": "7:15 PM IST",
-      "hook": "Stop treating ChatGPT like magic. Let me explain.",
+      "hook": "Agentic accounting is quietly becoming the highest paying AI business model of 2026. Here is how Indian agencies are monetizing it.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-29",
-      "topic": "Building Autonomous Agent Loops with Claude Code",
+      "date": "2026-09-30",
+      "topic": "Zero-Cost Automated Content Pipelines Using Free Open Source Tools",
       "format": "Carousel",
       "post_time": "6:30 PM IST",
-      "hook": "Most people run their AI agents in a straight line.",
+      "hook": "Automate your entire social media workflow with completely free tools and zero subscriptions.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-09-30",
-      "topic": "The Free Open-Source Tool Replacing Paid LinkedIn Automation",
+      "date": "2026-10-01",
+      "topic": "Claude Code Multi-Agent Parallel Loops: Running 1000 Tasks at Once",
       "format": "Reel",
       "post_time": "7:30 PM IST",
-      "hook": "This completely free tool automates your entire LinkedIn.",
+      "hook": "Stop running your AI agents in straight lines. Spawn a thousand sub-agents instantly using this one Claude prompt.",
       "status": "pending"
     }
   ]
