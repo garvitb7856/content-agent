@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "The $703M AI Fraud: Case Study on US Medicare Exploitation",
-    "hook": "This is how four people allegedly pulled off a $703 million fraud using AI automation, and why US authorities are panicking.",
+    "title": "Awesome Free LLM APIs: 7 Billion Free Tokens",
+    "hook": "You can now run Claude and GPT models completely free with almost unlimited usage, and yes, it is 100% legal.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "True-crime tech storytelling triggers immense hook retention and virality compared to standard AI tool tutorials. Adapted from @arshman's top-performing case study format, this provides an electric narrative angle that commands attention.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Ddf5YfbO0ER/"
-  },
-  {
-    "rank": 2,
-    "title": "The $68 Billion AI Bookkeeping Opportunity for Indian Founders",
-    "hook": "Agentic accounting is quietly becoming the highest paying AI business model of 2026. Here is how Indian agencies are monetizing it.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Moves past oversaturated customer support bots to target a high-ticket, enterprise-level B2B automation vertical. Proven by strong engagement signals on @aryamanupmanyu's agency breakdowns, making it ideal for solopreneurs.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Db8ocVByeA8/"
-  },
-  {
-    "rank": 3,
-    "title": "Awesome Free LLM APIs: Get 7 Billion AI Tokens for Free Every Month",
-    "hook": "You don't need to pay for Claude or OpenAI API keys anymore. Someone on GitHub linked over 600 free AI models into one router.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Directly solves the primary API cost barrier for bootstrapped builders and Indian engineers. Validated by @nick_saraev's proven high-utility framework, ensuring exceptional bookmark and share metrics.",
+    "reasoning": "Provides an immediate zero-cost solution for developers by unlocking 7B free tokens across 600+ models via GitHub tools. Proven by top competitor Nick Saraev's high-performing breakdown, making it prime viral value for budget-conscious Indian tech builders.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DdeVVlpT9zW/"
   },
   {
-    "rank": 4,
-    "title": "Why Vibe Coding Makes System Design 10x More Valuable for Engineers",
-    "hook": "When AI writes code for ₹0, knowing syntax isn't a superpower anymore. System design and architecture are where Indian devs will win.",
-    "format": "Carousel",
+    "rank": 2,
+    "title": "The $703M AI Medicare Fraud: Real Money Heist",
+    "hook": "These four individuals are wanted by US authorities for pulling off a 703 million dollar heist using deepfake AI.",
+    "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Taps directly into the trending vibe coding discourse with a counter-intuitive career strategy that resonates with software engineers. Positions @garvit.irl as a mature technical thought leader delivering defensible career insights.",
-    "niche": "Self-growth",
-    "sourceUrl": ""
+    "reasoning": "Combines high-stakes true crime storytelling with bleeding-edge AI manipulation, driving massive watch time and shareability. Validated by Arshman's viral investigative format, offering Garvit an engaging narrative hook outside typical tutorial content.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/Ddf5YfbO0ER/"
+  },
+  {
+    "rank": 3,
+    "title": "How to Build a Custom AI Agent Team Using n8n",
+    "hook": "This single n8n template with 7 AI agents just saved an Indian startup over 1 lakh rupees a month in operational costs.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Delivers a concrete, step-by-step enterprise automation blueprint showing how 7 specialized AI agents replace manual overhead. Competitor Aryaman Upmanyu demonstrated strong viral pull with this exact multi-agent workflow breakdown.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/DbqjmgXyZzr/"
+  },
+  {
+    "rank": 4,
+    "title": "Higgsfield API: Cheapest AI Video Gen",
+    "hook": "This is now officially the cheapest way to generate cinematic AI video, and you don't even need a monthly subscription.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Taps into viral AI video generation demand while offering a pay-per-generation API hack that eliminates expensive SaaS subscriptions. Validated by Nick Saraev's top video showcasing multi-model access through a single wallet balance.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/Ddl7NQJvAWW/"
   },
   {
     "rank": 5,
-    "title": "Build a 5-Minute Website Monetization System for Local Indian SMBs",
-    "hook": "I tested building quick digital presences for local tier-2 city businesses using ChatGPT and rapid builders. Here are the exact conversion numbers.",
+    "title": "The $10 Billion Agentic Bookkeeping Opportunity",
+    "hook": "This is currently the fastest-growing AI automation business in 2026, and almost nobody in India is building it yet.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Inspired by top-performing SME playbooks from hyper-engaged creators like @dhavalkataria_ (18.88% engagement rate). Delivers actionable micro-agency blueprints that bypass abstract AI hype to show real rupees earned.",
+    "reasoning": "Rides the massive expansion of the AI accounting software market by framing it as an untapped agency business model. Proven by Aryaman Upmanyu's high-engagement business breakdown series for founders and freelancers looking to sell B2B automations.",
     "niche": "Entrepreneurship",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/Db8ocVByeA8/"
   }
 ]

@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-25",
-  "end_date": "2026-10-02",
+  "generated_on": "2026-09-26",
+  "end_date": "2026-10-03",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-25",
-      "topic": "The $703M AI Fraud: Case Study on US Medicare Exploitation",
+      "date": "2026-09-26",
+      "topic": "Accessing 7 Billion Free AI Tokens via Awesome Free LLM APIs",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "This is how four people allegedly pulled off a $703 million fraud using AI automation, and why US authorities are panicking.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop paying for AI: Get 7 billion tokens free.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-26",
-      "topic": "Why Vibe Coding Makes System Design 10x More Valuable for Engineers",
+      "date": "2026-09-27",
+      "topic": "5 Hidden Claude Layers That Turn It Into a $500/Mo Assistant",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "When AI writes code for ₹0, system design is your only survival skill.",
+      "post_time": "6:30 PM IST",
+      "hook": "Claude has 5 hidden features you aren't using.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-27",
-      "topic": "Awesome Free LLM APIs: Get 7 Billion AI Tokens for Free Every Month",
+      "date": "2026-09-28",
+      "topic": "The $703M AI Medicare Fraud: How 4 Guys Pulled Off an AI Heist",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "You don't need to pay for Claude or OpenAI API keys anymore. Someone on GitHub linked over 600 free AI models into one router.",
+      "post_time": "7:30 PM IST",
+      "hook": "Four guys used deepfake AI to steal $703 million.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-28",
-      "topic": "Build a 5-Minute Website Monetization System for Local Indian SMBs",
+      "date": "2026-09-29",
+      "topic": "How to Automate Your Entire LinkedIn Strategy Using Free Claude GitHub Skills",
       "format": "Carousel",
       "post_time": "8:00 PM IST",
-      "hook": "How I built high-converting digital setups for local stores using simple AI prompts in minutes.",
+      "hook": "Automate your entire LinkedIn strategy completely for free.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-09-29",
-      "topic": "The $68 Billion AI Bookkeeping Opportunity for Indian Founders",
+      "date": "2026-09-30",
+      "topic": "How to Build a Custom 7-Agent AI Team on n8n to Replace Daily Ops",
       "format": "Reel",
       "post_time": "7:15 PM IST",
-      "hook": "Agentic accounting is quietly becoming the highest paying AI business model of 2026. Here is how Indian agencies are monetizing it.",
+      "hook": "This single n8n template replaces a whole marketing team.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-09-30",
-      "topic": "Zero-Cost Automated Content Pipelines Using Free Open Source Tools",
+      "date": "2026-10-01",
+      "topic": "The $10 Billion Agentic Bookkeeping Business Blueprint for B2B Founders",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Automate your entire social media workflow with completely free tools and zero subscriptions.",
+      "post_time": "6:45 PM IST",
+      "hook": "This AI business will make billions by 2026.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-01",
-      "topic": "Claude Code Multi-Agent Parallel Loops: Running 1000 Tasks at Once",
+      "date": "2026-10-02",
+      "topic": "Higgsfield API: The Absolute Cheapest Way to Generate Cinematic AI Video",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Stop running your AI agents in straight lines. Spawn a thousand sub-agents instantly using this one Claude prompt.",
+      "post_time": "7:45 PM IST",
+      "hook": "Stop buying expensive AI video subscriptions right now.",
       "status": "pending"
     }
   ]

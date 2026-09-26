@@ -1,62 +1,55 @@
 {
-  "fetched_at": "2026-09-25T03:31:55.168Z",
+  "fetched_at": "2026-09-26T03:31:31.264Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "score": 224,
-      "comments": 85,
-      "url": "https://github.com/devdotfast/whiteboard"
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "score": 272,
+      "comments": 162,
+      "url": "https://swarmtraces.org/"
     },
     {
       "source": "hackernews",
-      "title": "Rails World 2026 Opening Keynote [video]",
-      "score": 266,
-      "comments": 279,
-      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY"
+      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+      "score": 66,
+      "comments": 21,
+      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide"
     },
     {
       "source": "hackernews",
-      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-      "score": 92,
-      "comments": 14,
-      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Air-gapped file encryption as self-decrypting HTML page",
+      "title": "I wrote a ray tracer in Brainfuck",
       "score": 43,
-      "comments": 14,
-      "url": "https://cms-sfx-demo.apeleg.com/"
+      "comments": 12,
+      "url": "https://epestr.com/blog/writing-a-ray-tracer-in-brainfuck/"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Koi.rest – watch some fish and regain your balance",
-      "score": 143,
-      "comments": 38,
-      "url": "https://koi.rest"
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "score": 407,
+      "comments": 717,
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
     },
     {
       "source": "hackernews",
-      "title": "Security auditing in the age of (good enough) AI",
-      "score": 74,
-      "comments": 8,
-      "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/"
+      "title": "An airport cooled by natural ventilation",
+      "score": 54,
+      "comments": 30,
+      "url": "https://www.theguardian.com/environment/2026/sep/25/didnt-need-air-conditioning-airport-cooled-natural-ventilation-reunion"
     },
     {
       "source": "hackernews",
-      "title": "Opus 5.5 is good at explainer videos",
-      "score": 156,
-      "comments": 96,
-      "url": "https://launchvideo.io"
+      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "score": 9,
+      "comments": 2,
+      "url": "https://www.gptbeyond.com/try?home=1"
     },
     {
       "source": "hackernews",
-      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
-      "score": 87,
-      "comments": 151,
-      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r"
+      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+      "score": 91,
+      "comments": 85,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot"
     }
   ],
   "youtube": [
@@ -65,8 +58,8 @@
       "category": "Science & Tech",
       "title": "How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset",
       "channel": "Founders Bits",
-      "views": 27870963,
-      "likes": 881100,
+      "views": 28551642,
+      "likes": 895933,
       "publishedAt": "2026-09-15T16:45:12Z",
       "url": "https://www.youtube.com/watch?v=yukKoFJr_4w",
       "tags": [],
@@ -77,8 +70,8 @@
       "category": "Science & Tech",
       "title": "The Apple Watch Has a Problem",
       "channel": "Marques Brownlee",
-      "views": 3999630,
-      "likes": 65520,
+      "views": 4380188,
+      "likes": 68022,
       "publishedAt": "2026-09-22T17:49:42Z",
       "url": "https://www.youtube.com/watch?v=pOX1l1edBME",
       "tags": [
@@ -94,8 +87,8 @@
       "category": "Science & Tech",
       "title": "AI research funded by Asian dad with the MSI Raider 16 HX @MSI_USA  #comedyskit #growingupasian",
       "channel": "Remy Zee",
-      "views": 1958893,
-      "likes": 85127,
+      "views": 2401636,
+      "likes": 101861,
       "publishedAt": "2026-09-21T20:30:16Z",
       "url": "https://www.youtube.com/watch?v=Xi9b1eX4-L0",
       "tags": [],
@@ -106,31 +99,43 @@
       "category": "Science & Tech",
       "title": "How to claim your $$ from Apple Intelligence class action lawsuit..",
       "channel": "CarterPCs",
-      "views": 1936967,
-      "likes": 94900,
+      "views": 2197832,
+      "likes": 101276,
       "publishedAt": "2026-09-22T04:37:05Z",
       "url": "https://www.youtube.com/watch?v=zUbD8sn5gZE",
       "tags": [],
       "description": "How to claim your $$ from Apple Intelligence class action lawsuit..\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Is GPT Astra going to replace electrical engineers?",
+      "channel": "Tech.Explain",
+      "views": 1615680,
+      "likes": 43333,
+      "publishedAt": "2026-09-23T17:46:35Z",
+      "url": "https://www.youtube.com/watch?v=XdtaUmr3j6g",
+      "tags": [],
+      "description": ""
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "ChatGPT",
-        "trend_score": 76
+        "trend_score": 67
       },
       {
         "keyword": "solopreneur",
         "trend_score": 35
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 32
+        "keyword": "self improvement",
+        "trend_score": 31
       },
       {
-        "keyword": "self improvement",
-        "trend_score": 30
+        "keyword": "entrepreneur",
+        "trend_score": 31
       },
       {
         "keyword": "AI tools",
@@ -138,11 +143,11 @@
       },
       {
         "keyword": "AI for business",
-        "trend_score": 27
+        "trend_score": 26
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 25
+        "trend_score": 26
       },
       {
         "keyword": "AI workflow",
@@ -150,10 +155,10 @@
       },
       {
         "keyword": "automation tools",
-        "trend_score": 23
+        "trend_score": 22
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-25T03:31:55.168Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design\" — 224 pts\n• [HackerNews] \"Rails World 2026 Opening Keynote [video]\" — 266 pts\n• [HackerNews] \"Using LLMs to trace alchemical knowledge and decode 17th century letters\" — 92 pts\n• [HackerNews] \"Show HN: Air-gapped file encryption as self-decrypting HTML page\" — 43 pts\n• [HackerNews] \"Show HN: Koi.rest – watch some fish and regain your balance\" — 143 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 27871k views\n• [YouTube Global] \"The Apple Watch Has a Problem\" by Marques Brownlee — 4000k views\n• [YouTube Global] \"AI research funded by Asian dad with the MSI Raider 16 HX @MSI_USA  #comedyskit #growingupasian\" by Remy Zee — 1959k views\n• [YouTube Global] \"How to claim your $$ from Apple Intelligence class action lawsuit..\" by CarterPCs — 1937k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 76), solopreneur (score: 35), entrepreneur (score: 32), self improvement (score: 30), AI tools (score: 29), AI for business (score: 27), productivity tools (score: 25), AI workflow (score: 23), automation tools (score: 23)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-26T03:31:31.264Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Revealing the details of how OpenAI agents hacked Hugging Face\" — 272 pts\n• [HackerNews] \"One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days\" — 66 pts\n• [HackerNews] \"I wrote a ray tracer in Brainfuck\" — 43 pts\n• [HackerNews] \"U.S. appeals court upholds designation of Anthropic as supply chain risk\" — 407 pts\n• [HackerNews] \"An airport cooled by natural ventilation\" — 54 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 28552k views\n• [YouTube Global] \"The Apple Watch Has a Problem\" by Marques Brownlee — 4380k views\n• [YouTube Global] \"AI research funded by Asian dad with the MSI Raider 16 HX @MSI_USA  #comedyskit #growingupasian\" by Remy Zee — 2402k views\n• [YouTube Global] \"How to claim your $$ from Apple Intelligence class action lawsuit..\" by CarterPCs — 2198k views\n• [YouTube Global] \"Is GPT Astra going to replace electrical engineers?\" by Tech.Explain — 1616k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 67), solopreneur (score: 35), self improvement (score: 31), entrepreneur (score: 31), AI tools (score: 29), AI for business (score: 26), productivity tools (score: 26), AI workflow (score: 23), automation tools (score: 22)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
