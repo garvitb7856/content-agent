@@ -903,6 +903,18 @@
     "url": "https://www.instagram.com/p/DdrDPZzpx45/",
     "type": "Video",
     "loggedAt": "2026-09-25T03:31:52.144Z",
-    "archived": false
+    "archived": true,
+    "likes_at_48h": 92,
+    "comments_at_48h": 3,
+    "engagement_at_48h": 1.1,
+    "followers_at_post": 8672,
+    "performance_complete": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 12,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-09-27T03:33:18.586Z"
+    }
   }
 ]

@@ -1014,6 +1014,39 @@
         "analysedAt": "2026-09-23T03:33:37.994Z"
       },
       "updatedAt": "2026-09-23T03:31:51.111Z"
+    },
+    {
+      "id": "3993299747235896889_65880404765",
+      "shortCode": "DdrDPZzpx45",
+      "caption": "Warning:- Dont watch this 3 minute long video if you want to live your life doom scrolling the next free ai tool and don’t want to take any actions using it \nI am not posting this reel for views I am posting it so that even if one person watches it, He learns something.",
+      "url": "https://www.instagram.com/p/DdrDPZzpx45/",
+      "postedAt": "2026-09-24T14:00:08.000Z",
+      "archivedAt": "2026-09-27T03:31:41.260Z",
+      "format": "Video",
+      "topics": [
+        "ai",
+        "tool",
+        "free"
+      ],
+      "finalLikes": 92,
+      "finalComments": 3,
+      "engagementRate": 1.1,
+      "hookText": "Warning:- Dont watch this 3 minute long video if you want to live your life doom",
+      "postId": "3993299747235896889_65880404765",
+      "postUrl": "https://www.instagram.com/p/DdrDPZzpx45/",
+      "likes_at_48h": 92,
+      "comments_at_48h": 3,
+      "engagement_at_48h": 1.1,
+      "followers_at_post": 8672,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 12,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-09-27T03:33:18.586Z"
+      },
+      "updatedAt": "2026-09-27T03:31:45.022Z"
     }
   ]
 }

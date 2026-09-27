@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-26T03:31:31.312Z",
-  "total": 301,
+  "updated_at": "2026-09-27T03:31:45.029Z",
+  "total": 305,
   "captions": [
     {
       "id": "3983074283965215404_72269881052",
@@ -3914,6 +3914,58 @@
       "comments": 8,
       "engagement_rate": 0.2,
       "added_at": "2026-09-26T03:31:31.312Z"
+    },
+    {
+      "id": "3993131281581335790_59161778770",
+      "handle": "@nivedan.ai",
+      "postUrl": "https://www.instagram.com/p/Ddqc758J-Tu/",
+      "hook_line": "One AI video could put you in the running for $50,000. 👀🔥",
+      "opening_lines": "One AI video could put you in the running for $50,000. 👀🔥\nPicsart is hosting an official AI video contest where you can create and submit your own AI-generated video.\nSo if you already love experimenting with AI video, why not turn one of your ideas into a contest entry? 🎬",
+      "full_caption": "One AI video could put you in the running for $50,000. 👀🔥\n\nPicsart is hosting an official AI video contest where you can create and submit your own AI-generated video.\n\nSo if you already love experimenting with AI video, why not turn one of your ideas into a contest entry? 🎬\n\n👇 Comment “AI” and",
+      "format": "Reel",
+      "likes": 44,
+      "comments": 55,
+      "engagement_rate": 0.02,
+      "added_at": "2026-09-27T03:31:45.029Z"
+    },
+    {
+      "id": "3994525250485848117_59161778770",
+      "handle": "@nivedan.ai",
+      "postUrl": "https://www.instagram.com/p/DdvZ40piYg1/",
+      "hook_line": "The world’s first human vs humanoid robot cage fight just went down in San Francisco. 👀",
+      "opening_lines": "The world’s first human vs humanoid robot cage fight just went down in San Francisco. 👀\nInfluencer Frankie LaPenna stepped inside a fighting cage to trade direct blows with a six-foot tall machine:\nFrankie landed initial punches before the machine responded with heavy kicks that sent him to the c",
+      "full_caption": "The world’s first human vs humanoid robot cage fight just went down in San Francisco. 👀\n\nInfluencer Frankie LaPenna stepped inside a fighting cage to trade direct blows with a six-foot tall machine:\n\nFrankie landed initial punches before the machine responded with heavy kicks that sent him to the c",
+      "format": "Reel",
+      "likes": 473,
+      "comments": 8,
+      "engagement_rate": 0.09,
+      "added_at": "2026-09-27T03:31:45.029Z"
+    },
+    {
+      "id": "3994670937475457794_27437145281",
+      "handle": "@favourite.engineer",
+      "postUrl": "https://www.instagram.com/p/Ddv7A2OzSMC/",
+      "hook_line": "Secret codes of ChatGPT 😱..",
+      "opening_lines": "Secret codes of ChatGPT 😱..\n.\n#ai #viralvideo #chatgptprompts",
+      "full_caption": "Secret codes of ChatGPT 😱..\n.\n#ai #viralvideo #chatgptprompts",
+      "format": "Reel",
+      "likes": 3,
+      "comments": 682,
+      "engagement_rate": 0.4,
+      "added_at": "2026-09-27T03:31:45.029Z"
+    },
+    {
+      "id": "3994832851626591924_7695520761",
+      "handle": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/Ddwf1AiQ4a0/",
+      "hook_line": "Listen to what David Heinemeier Hansson, the inventor of Ruby on Rails, has to say on AI changing how we write code.",
+      "opening_lines": "Listen to what David Heinemeier Hansson, the inventor of Ruby on Rails, has to say on AI changing how we write code.",
+      "full_caption": "Listen to what David Heinemeier Hansson, the inventor of Ruby on Rails, has to say on AI changing how we write code.",
+      "format": "Reel",
+      "likes": 3638,
+      "comments": 30,
+      "engagement_rate": 0.29,
+      "added_at": "2026-09-27T03:31:45.029Z"
     }
   ]
 }
