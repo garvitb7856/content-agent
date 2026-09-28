@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-28",
+  "saved_at": "2026-09-28T04:13:03.023Z",
+  "fetched_at": "2026-09-28T03:31:48.288Z",
+  "your_account": {
+    "handle": "garvit.irl",
+    "followers": 8765,
+    "median_likes": 54,
+    "median_comments": 18,
+    "engagement_rate": "0.82",
+    "post_count": 20
+  },
+  "competitors": [
+    {
+      "handle": "nick_saraev",
+      "followers": 688369,
+      "median_likes": 3019,
+      "median_comments": 3876,
+      "engagement_rate": "1.00",
+      "post_count": 20
+    },
+    {
+      "handle": "arshman",
+      "followers": 374002,
+      "median_likes": 915,
+      "median_comments": 256,
+      "engagement_rate": "0.31",
+      "post_count": 20
+    },
+    {
+      "handle": "ishansharma7390",
+      "followers": 1269250,
+      "median_likes": 1611,
+      "median_comments": 30,
+      "engagement_rate": "0.13",
+      "post_count": 19
+    },
+    {
+      "handle": "aryamanupmanyu",
+      "followers": 77357,
+      "median_likes": 3,
+      "median_comments": 403,
+      "engagement_rate": "0.52",
+      "post_count": 20
+    },
+    {
+      "handle": "nivedan.ai",
+      "followers": 537681,
+      "median_likes": 341,
+      "median_comments": 108,
+      "engagement_rate": "0.08",
+      "post_count": 17
+    },
+    {
+      "handle": "dhavalkataria_",
+      "followers": 53237,
+      "median_likes": 2181,
+      "median_comments": 330,
+      "engagement_rate": "4.72",
+      "post_count": 20
+    },
+    {
+      "handle": "vaibhavsisinty",
+      "followers": 2168423,
+      "median_likes": 7722,
+      "median_comments": 122,
+      "engagement_rate": "0.36",
+      "post_count": 20
+    },
+    {
+      "handle": "favourite.engineer",
+      "followers": 173464,
+      "median_likes": 597,
+      "median_comments": 669,
+      "engagement_rate": "0.73",
+      "post_count": 20
+    },
+    {
+      "handle": "thevarunmayya",
+      "followers": 1273005,
+      "median_likes": 7564,
+      "median_comments": 96,
+      "engagement_rate": "0.60",
+      "post_count": 20
+    },
+    {
+      "handle": "devbuildsai",
+      "followers": 34084,
+      "median_likes": 3,
+      "median_comments": 2,
+      "engagement_rate": "0.01",
+      "post_count": 15
+    },
+    {
+      "handle": "zeeeljain",
+      "followers": 167735,
+      "median_likes": 452,
+      "median_comments": 32,
+      "engagement_rate": "0.29",
+      "post_count": 20
+    }
+  ]
+}

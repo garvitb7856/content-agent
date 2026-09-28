@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-27",
-  "end_date": "2026-10-04",
+  "generated_on": "2026-09-28",
+  "end_date": "2026-10-05",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-27",
-      "topic": "Automating IRCTC Tatkal ticket booking using an AI agent",
+      "date": "2026-09-28",
+      "topic": "Claude Chat Usage Limit Workaround (Free Chrome extension that reveals your actual message usage bar to optimize token limits)",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "You don't need to book a Tatkal ticket now.",
+      "post_time": "7:30 PM IST",
+      "hook": "Stop hitting your Claude chat limit with this free tool.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-28",
-      "topic": "Step-by-step breakdown of making 9 Lakhs a month from just 3 videos",
+      "date": "2026-09-29",
+      "topic": "5 Hidden Layers to Turn Claude into a $500 Machine (Project memory, work saving canvas, persistence, app integrations, voice)",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "How I made ₹9 Lakhs last month from 3 videos.",
+      "post_time": "6:30 PM IST",
+      "hook": "5 hidden Claude features you aren't using yet.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-29",
-      "topic": "The real-life $703M AI Medicare fraud case breakdown",
+      "date": "2026-09-30",
+      "topic": "Free Claude Code Alternative (GitHub project linking Claude Code to 600+ free models with 7 billion tokens)",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "What I'm about to show you is a real life Money Heist.",
+      "post_time": "8:00 PM IST",
+      "hook": "Run Claude Code for free with 7 billion tokens.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-09-30",
-      "topic": "5 extra layers in Claude to turn it into a $500 productivity machine",
+      "date": "2026-10-01",
+      "topic": "The $12,300/mo Claude Template with 7 AI Agents (Claude + n8n automation template for customer support, invoicing, and tracking)",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Stop using Claude like a basic chat box.",
+      "post_time": "7:00 PM IST",
+      "hook": "This free Claude template automates your entire business.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-01",
-      "topic": "Running Claude Code completely free with unlimited AI tokens via GitHub workaround",
+      "date": "2026-10-02",
+      "topic": "Running Local LLMs on Hardware Constraints (Optimizing RAM and local caching to run AI models on budget Indian laptops)",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "You can now run Claude code completely free.",
+      "post_time": "8:30 PM IST",
+      "hook": "How to run powerful local AI on potato laptops.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-02",
-      "topic": "7-Agent autonomous business template that recovers lost revenue on autopilot",
+      "date": "2026-10-03",
+      "topic": "How to Claim Canva Pro Free in India for 1 Year (Unlocking premium templates, cloud storage, and 10x more Canva AI usage)",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "This 7-agent AI template recovered $12,300 last month.",
+      "post_time": "6:45 PM IST",
+      "hook": "Get Canva Pro completely free in India right now.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-03",
-      "topic": "Highest paying AI bookkeeping and accounting agency models for 2026",
+      "date": "2026-10-04",
+      "topic": "Prototyping a Cancelled Apple Product in 4 Hours (Using AI builders to recreate abandoned physical/digital product concepts on a zero budget)",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "The highest-paying AI business nobody is talking about yet.",
+      "post_time": "7:15 PM IST",
+      "hook": "We built a cancelled Apple product using free AI.",
       "status": "pending"
     }
   ]

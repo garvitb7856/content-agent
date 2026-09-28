@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T03:33:17.808Z",
+  "updated_at": "2026-09-28T03:33:21.529Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -13,11 +13,11 @@
     },
     "C": {
       "count": 20,
-      "avgLikes": 429,
+      "avgLikes": 432,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 429 likes. Type C: 20 posts, avg 429 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 432 likes. Type C: 20 posts, avg 432 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -72,12 +72,12 @@
   ],
   "your_top_captions": [
     {
-      "likes": 5418,
+      "likes": 5453,
       "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
       "url": "https://www.instagram.com/p/DbVirrOyodk/"
     },
     {
-      "likes": 2085,
+      "likes": 2129,
       "caption": "Comment anything to get this !",
       "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
@@ -92,7 +92,7 @@
       "url": "https://www.instagram.com/p/Dbx5u5xywA1/"
     },
     {
-      "likes": 92,
+      "likes": 93,
       "caption": "Warning:- Dont watch this 3 minute long video if you want to live your life doom scrolling the next free ai tool and don’t want to take any actions using it \nI am not posting this reel for views I am posting it so that even if one person watches it, He learns something.",
       "url": "https://www.instagram.com/p/DdrDPZzpx45/"
     }
@@ -173,110 +173,85 @@
   ],
   "gemini_analysis": {
     "garvit_speaking_style": {
-      "summary": "Garvit speaks with a conversational, high-energy, and direct Hinglish tone that feels like a tech-savvy friend dropping insider hacks. He seamlessly mixes English technical jargon with colloquial Hindi transitions to maintain high viewer retention.",
+      "summary": "Garvit speaks directly to the camera with high energy, combining casual Hinglish conversational phrasing with crisp tech terminology. He uses personal address ('tum', 'you') to create immediate intimacy and urgency, framing tech tools around saving money or gaining an unfair advantage.",
       "sentence_structure": "short/punchy",
-      "language_mix": "Hinglish (60% English, 40% Hindi; uses English for technical features and Hindi for emotional hooks and relatable narrative bridges)",
-      "tone": "conversational",
+      "language_mix": "Hinglish (60% English, 40% Hindi) mixed with pure conversational English when breaking down tools",
+      "tone": "casual/conversational",
       "pacing": "fast, dense info",
       "signature_phrases": [
         "stop taking AI subscriptions right now",
-        "Look, here I can use",
         "I wish I knew this earlier",
-        "you know what I don't care",
         "comment below free to get the link"
       ],
-      "what_makes_it_work": "He connects by directly targeting the Indian creator/developer wallet pain-point (saving money on paid AI tools) with raw, unpolished authenticity."
+      "what_makes_it_work": "His ability to pitch complex AI tools as immediate money-saving hacks creates instant high perceived value for young Indian tech enthusiasts and creators."
     },
     "garvit_writing_style": {
-      "summary": "Garvit writes captions as direct transcripts or truncated mirrors of his spoken hooks to maintain video continuity. He keeps text formatting clean, minimalist, and action-oriented to drive automation comments.",
-      "caption_structure": "Opens with the exact hook line from the reel body, lists key feature bullets or setup steps, and truncates right before giving the final answer to force comment engagement.",
+      "summary": "Garvit's written captions strictly mirror his spoken hooks and transcript narrative. He keeps captions sparse and direct, focusing on transcript duplication to ensure key information is captured even if video audio is off.",
+      "caption_structure": "Direct copy of the spoken hook -> short list of tool features/models -> clear comment-to-DM call to action",
       "cta_patterns": [
-        "Just comment '[KEYWORD]' and I'll send you the complete guide",
-        "Follow me and comment '[KEYWORD]'"
+        "comment '[KEYWORD]' to get the link",
+        "follow me and comment '[KEYWORD]'"
       ],
-      "tone_vs_speaking": "is his written tone different from his spoken tone? No, his written tone directly mirrors his spoken voice, keeping the exact word-for-word opening hook."
+      "tone_vs_speaking": "is his written tone different from his spoken tone? No, his written tone identical to his spoken tone."
     },
     "competitor_speaking_patterns": {
-      "summary": "Viral competitors rely on hyper-structured framework models (e.g., '8 Layers of Claude', '4 AI Agents working together') and famous brand name-drops (Snitch, Comet) to immediately build professional authority.",
+      "summary": "Viral competitor scripts leverage high-authority call-outs ('Stop pretending you know...'), concrete real-world case studies with famous brand names (Snitch, Comet), and structured multi-layer breakdowns instead of simple feature lists.",
       "viral_hook_patterns": [
-        "Stop pretending you know how to use [Tool]. Give me 60 seconds...",
-        "We built this AI agent for [Viral Brand Name], and it's going to set a new benchmark...",
-        "I made an AI [Agent/Tool] in just [X] minutes and the first call it made..."
+        "We built this AI agent for [Viral Brand Name]...",
+        "Stop pretending you know how to use [Tool]...",
+        "I made [Complex AI Tool] in just [X minutes] and..."
       ],
-      "viral_body_structure": "Problem framing -> Breakdown into clear numbered layers or agent roles (Gatekeeper, Judge, Ghostwriter, Closer) -> Live demonstration/proof -> Measurable impact metrics.",
+      "viral_body_structure": "Real-world scenario setup -> system breakdown (e.g., 4 AI agents working together / 8 layers) -> tangible result/metrics -> resource drop",
       "viral_cta_patterns": [
-        "Comment '[KEYWORD]' and I'll send you the entire workflow and guide right away",
-        "Save this reel and follow for more"
+        "comment [KEYWORD] and I'll send you a proper instructions doc right away",
+        "comment [KEYWORD] and I will send this entire workflow"
       ],
-      "key_difference_from_garvit": "Competitors focus on multi-agent architectural frameworks and agency case studies, whereas Garvit focuses more on consumer-facing free hacks and raw personal documentation."
+      "key_difference_from_garvit": "Competitors focus on business workflows, named brands, and structured step-by-step layer frameworks, whereas Garvit focuses primarily on free subscription alternatives and individual consumer hacks."
     },
     "viral_own_script_analysis": [
       {
         "rank": 1,
-        "likes": 429,
+        "likes": 432,
         "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch",
         "hook_type": "pattern_interrupt",
-        "hook_length_words": 19,
-        "body_structure": "Urgent monetary pain point -> Local developer angle -> Proof stack (GitHub star count, zero credit limit) -> Comment keyword CTA",
+        "hook_length_words": 20,
+        "body_structure": "Direct reveal of tool -> feature highlights (GitHub/no sub/no limits) -> social proof (10k stars in 3 days) -> CTA",
         "cta": "comment below free to get the link",
         "script_type": "C",
-        "what_made_it_viral": "Immediate monetary relief hook combined with local Indian developer context and solid open-source proof."
+        "what_made_it_viral": "High financial incentive (saving ₹5k-₹6k monthly), local relevance (Indian developer), and urgency."
       },
       {
         "rank": 2,
-        "likes": 429,
+        "likes": 432,
         "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free.",
         "hook_type": "pattern_interrupt",
-        "hook_length_words": 14,
-        "body_structure": "Contrarian hook -> Visual feature flex (250k tokens, Claude Code, Co-work) -> Simple secret trigger step -> Comment CTA",
-        "cta": "Just comment 'Claude' and I'll send you the complete guide to do",
+        "hook_length_words": 15,
+        "body_structure": "Contrarian hook -> feature flex (250k tokens, models unlocked) -> mechanism reveal (Google Antigravity prompt) -> CTA",
+        "cta": "Just comment 'Claude' and I'll send you the complete guide",
         "script_type": "C",
-        "what_made_it_viral": "Leveraged high search intent for Claude with a high-value free access work-around."
+        "what_made_it_viral": "Direct friction reduction on a paid tool that tech enthusiasts desperately want for free."
       },
       {
         "rank": 3,
-        "likes": 429,
+        "likes": 432,
         "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free.",
         "hook_type": "pattern_interrupt",
         "hook_length_words": 15,
-        "body_structure": "Regret hook -> Rapid value stack (Gemini Pro, Veo 3.1, 5TB Cloud Storage) -> Follow + Comment CTA",
+        "body_structure": "Regret hook -> feature stacking (Gemini Pro, Veo 3.1, 5TB storage) -> CTA",
         "cta": "just follow me and comment",
         "script_type": "C",
-        "what_made_it_viral": "High FOMO hook paired with an insane value stack (5TB storage + top video AI models)."
-      },
-      {
-        "rank": 4,
-        "likes": 429,
-        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan. I a",
-        "hook_type": "list",
-        "hook_length_words": 26,
-        "body_structure": "Triple celebrity quote stack -> Subconscious mind philosophy -> Actionable 5-affirmation routine",
-        "cta": "Implicit self-talk shift / Spells and manifestation closing",
-        "script_type": "C",
-        "what_made_it_viral": "Pattern interrupt using massive household sports/cinema icons to anchor mindset advice."
-      },
-      {
-        "rank": 5,
-        "likes": 429,
-        "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10.",
-        "hook_type": "story",
-        "hook_length_words": 14,
-        "body_structure": "Nostalgic ambition story -> Vulnerable update on hiatus -> Defiant statement of purpose -> Sign-off",
-        "cta": "Cheers. This is Garvit, and you'll be seeing me again.",
-        "script_type": "C",
-        "what_made_it_viral": "Raw emotional authenticity and personal vulnerability that builds high brand-affinity."
+        "what_made_it_viral": "Stacking absurdly high value perks (5TB storage + top AI models) in one short script."
       }
     ],
     "verdict": {
-      "whose_style_goes_viral": "Hybrid (Garvit's original Hinglish voice + Competitor framework breakdown)",
-      "reasoning": "Garvit's Type C original content drives his highest engagement due to his authentic Hinglish tone and free-resource positioning. However, integrating competitors' structured multi-layer frameworks (e.g., 'Layer 1 to 5' or multi-agent breakdowns) will elevate his content from simple 'hacks' to high-authority developer content.",
-      "recommended_hook_structure": "[Negative Command / Pattern Interrupt in English] + [Local / Free Value Proposition in Hinglish] (e.g., 'Stop buying [Paid Tool] subscriptions right now! Ek Indian developer ne isko completely free kar diya hai.')",
-      "recommended_body_structure": "1. Visual Proof/Flex ('Look here...'). 2. Structured Layer Breakdown (Layer 1: Basic, Layer 2: Workflow, Layer 3: Enterprise). 3. Pain-point resolution ('Now this problem is solved').",
-      "recommended_cta_structure": "Just comment '[KEYWORD]' and I'll send you the entire workflow guide straight to your DMs.",
+      "whose_style_goes_viral": "Hybrid",
+      "reasoning": "Garvit's Type C original content drives strong reach when focusing on extreme consumer utility (saving money/free access). Combining his signature high-energy 'free unlock' hook style with competitor-style multi-step workflows and brand case studies will maximize both reach and saves/shares.",
+      "recommended_hook_structure": "Stop paying for [Tool Name] right now. [Unexpected trick/tool] gives you [High-Value Feature] for 100% free.",
+      "recommended_body_structure": "Hook -> Screen Proof/Demo -> 3-step value stack (what it unlocks) -> Clear outcome/ROI.",
+      "recommended_cta_structure": "Comment '[KEYWORD]' below and I'll send you the exact guide and workflow link straight to your DMs.",
       "avoid_these": [
-        "Generic tech news recaps without an actionable free resource or prompt.",
-        "Purely formal English scripts that suppress his natural Hinglish personality.",
-        "Vague call-to-actions without comment-automation keyword triggers."
+        "Vague self-help mindset monologues without tech/AI utility",
+        "Listing tool names without showing screen proof or exact implementation steps"
       ]
     }
   }

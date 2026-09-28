@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "AI Automated IRCTC Tatkal Ticket Booking",
-    "hook": "You don't need to book a Tatkal ticket now. AI will do it for you.",
+    "title": "We Built the Product Apple Quietly Abandoned Using Zero-Budget AI Prototyping",
+    "hook": "Apple spent millions building this exact product and then canned it. So we coded it in 4 hours using AI.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Automating IRCTC Tatkal booking via AI agent taps into a massive, highly relatable pain point for Indian audiences. The concept carries strong viral potential due to immediate real-world utility and high shareability.",
+    "score": "HIGH",
+    "reasoning": "Taps into the proven viral trope of indie builders out-executing Big Tech R&D failures using modern AI tooling. Demonstrates high practical utility and relatable builder hustle that resonates strongly with Garvit's developer audience.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdrFxg4pbfr/"
+    "sourceUrl": ""
   },
   {
     "rank": 2,
-    "title": "Real Life $703M AI Medicare Fraud Breakdown",
-    "hook": "What I'm about to show you is a real life Money Heist.",
+    "title": "How Hardware Constraints Shape AI Adoption in Tier-2 Indian Cities",
+    "hook": "Silicon Valley builds AI for M4 Macs, but builders in Tier-2 India are running local models on potato laptops.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "True-crime storytelling combined with AI tech analysis creates strong hook retention and curiosity. High-stakes financial fraud topics consistently drive high view duration and debate in comments.",
+    "score": "HIGH",
+    "reasoning": "Exploits high Indian cultural relatability and the real-world friction of running local open-source models under strict hardware budgets. Strong emotional resonance and contrarian framing drive high comment debate and shareability.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Ddf5YfbO0ER/"
+    "sourceUrl": ""
   },
   {
     "rank": 3,
-    "title": "Transparent Breakdown of Making 9 Lakhs from 3 Videos",
-    "hook": "I just made 9 lakhs last month by posting 3 videos online. Let's break down how.",
+    "title": "The Brutal Truth About Projector Classrooms vs. Real-World Tech Education in India",
+    "hook": "My professor's laptop was connected to the projector the whole time, and it exposed our entire education system.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Financial transparency and income breakdowns perform exceptionally well with creator and entrepreneurship audiences. Transparent breakdown of AdSense, sponsorships, and consulting creates high bookmark rates.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DdoktZjIjc1/"
+    "score": "HIGH",
+    "reasoning": "Capitalizes on widespread student frustration regarding outdated college curriculums versus fast-moving industry AI tools. High-retention visual storytelling reliably sparks massive peer tagging and comment section debates.",
+    "niche": "Self-growth",
+    "sourceUrl": ""
   },
   {
     "rank": 4,
-    "title": "Free Unlimited Access Setup for Claude Code",
-    "hook": "You can now run Claude code completely free with almost unlimited usage.",
+    "title": "How RAM and Local Cache Actually Work When Running Large Local LLMs",
+    "hook": "Stop blaming your graphics card for slow local AI models until you understand how RAM handles context caching.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Free developer tools and workarounds for LLM usage limits drive high saves and shares among builders. Directly addresses the trending vibe coding setup interest without tool bloat.",
+    "score": "HIGH",
+    "reasoning": "Solves a specific technical bottleneck for the booming local AI and open-weight model community in India. Breaks down complex hardware mechanics into clear actionable insights, yielding high saves and authority positioning.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DdeVVlpT9zW/"
+    "sourceUrl": ""
   },
   {
     "rank": 5,
-    "title": "7-Agent Autonomous Business Template",
-    "hook": "This one Claude template with 7 AI agents just recovered $12,300 a month for a business.",
+    "title": "Why Steve Jobs Hated Market Research (And How Indian Startups Can Copy It)",
+    "hook": "Steve Jobs never did focus groups, and it’s why Nokia and BlackBerry died in the dark.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "B2B automation templates paired with specific dollar revenue metrics trigger high comment intent. Combining Claude logic with n8n execution provides clear, actionable value for solopreneurs.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DbqjmgXyZzr/"
+    "score": "HIGH",
+    "reasoning": "Combines iconic tech founder lore with actionable, contrarian product strategy for Indian builders and solopreneurs. Counter-intuitive business storytelling historically delivers top-tier watch time and cross-platform retention.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": ""
   }
 ]
