@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-28",
-  "end_date": "2026-10-05",
+  "generated_on": "2026-09-29",
+  "end_date": "2026-10-06",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-28",
-      "topic": "Claude Chat Usage Limit Workaround (Free Chrome extension that reveals your actual message usage bar to optimize token limits)",
+      "date": "2026-09-29",
+      "topic": "4 ChatGPT prompts to research and monetize local business pain points",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Stop hitting your Claude chat limit with this free tool.",
+      "post_time": "7:00 PM IST",
+      "hook": "These 4 ChatGPT prompts made 1 lakh in 7 days.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-29",
-      "topic": "5 Hidden Layers to Turn Claude into a $500 Machine (Project memory, work saving canvas, persistence, app integrations, voice)",
+      "date": "2026-09-30",
+      "topic": "The 5 hidden layers inside Claude 3.5 that 90% of users miss",
       "format": "Carousel",
       "post_time": "6:30 PM IST",
-      "hook": "5 hidden Claude features you aren't using yet.",
+      "hook": "5 hidden Claude features that feel illegal to know.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-09-30",
-      "topic": "Free Claude Code Alternative (GitHub project linking Claude Code to 600+ free models with 7 billion tokens)",
+      "date": "2026-10-01",
+      "topic": "How 4 international fraudsters used AI for a $703M Medicare heist",
       "format": "Reel",
       "post_time": "8:00 PM IST",
-      "hook": "Run Claude Code for free with 7 billion tokens.",
+      "hook": "Four hackers used AI for a 700 million heist.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-01",
-      "topic": "The $12,300/mo Claude Template with 7 AI Agents (Claude + n8n automation template for customer support, invoicing, and tracking)",
+      "date": "2026-10-02",
+      "topic": "Step-by-step roadmap to claim free Canva Pro and unlock advanced AI models",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "This free Claude template automates your entire business.",
+      "post_time": "7:30 PM IST",
+      "hook": "How to get Canva Pro AI features completely free.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-02",
-      "topic": "Running Local LLMs on Hardware Constraints (Optimizing RAM and local caching to run AI models on budget Indian laptops)",
+      "date": "2026-10-03",
+      "topic": "The brutal truth of why creators promote free AI tools they never use",
       "format": "Reel",
-      "post_time": "8:30 PM IST",
-      "hook": "How to run powerful local AI on potato laptops.",
+      "post_time": "7:00 PM IST",
+      "hook": "The dirty truth about creators promoting free AI tools.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-03",
-      "topic": "How to Claim Canva Pro Free in India for 1 Year (Unlocking premium templates, cloud storage, and 10x more Canva AI usage)",
+      "date": "2026-10-04",
+      "topic": "Zero-code blueprint to build your first AI agent using Claude and n8n",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Get Canva Pro completely free in India right now.",
+      "post_time": "6:30 PM IST",
+      "hook": "Build your first no-code AI agent step by step.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-04",
-      "topic": "Prototyping a Cancelled Apple Product in 4 Hours (Using AI builders to recreate abandoned physical/digital product concepts on a zero budget)",
+      "date": "2026-10-05",
+      "topic": "Essential Claude Code terminal plugins to cut token usage in half",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "We built a cancelled Apple product using free AI.",
+      "post_time": "8:00 PM IST",
+      "hook": "Stop coding with Claude before installing these 4 plugins.",
       "status": "pending"
     }
   ]

@@ -1,50 +1,72 @@
 {
-  "generated_at": "2026-09-28T03:31:48.350Z",
+  "generated_at": "2026-09-29T03:32:03.911Z",
   "hotRightNow": [
     {
-      "username": "thevarunmayya",
-      "caption": "Making my wife guess video games 🤓\nBased on the viral trend by Jack and Meghan!",
-      "likes": 9461,
-      "comments": 119,
-      "engagement": 9580,
-      "engRate": "0.75",
-      "timestamp": "2026-09-27T10:54:49.000Z",
-      "url": "https://www.instagram.com/p/DdycIcYzSZW/",
-      "type": "Video"
-    },
-    {
       "username": "ishansharma7390",
-      "caption": "Dont make THIS mistake at 21!❌\n\nI recently made a video in which I shared earning by age: how much s",
-      "likes": 753,
+      "caption": "Look maa, I'm on TV!🥹✨\n\nThanks to NDTV for inviting me to talk about AI and how it's impacting all ",
+      "likes": 1264,
       "comments": 9,
-      "engagement": 762,
-      "engRate": "0.06",
-      "timestamp": "2026-09-27T12:40:11.000Z",
-      "url": "https://www.instagram.com/p/Ddyn5HPsP92/",
-      "type": "Video"
+      "engagement": 1273,
+      "engRate": "0.10",
+      "timestamp": "2026-09-28T15:57:47.000Z",
+      "url": "https://www.instagram.com/p/Dd1jz4nH4Pv/",
+      "type": "Post"
     },
     {
       "username": "favourite.engineer",
-      "caption": "Comment “🙌🏻” for the 35+ connectors list 🤯..\n.\n#connectors #ai",
+      "caption": "Turn your AI ideas into cinematic stories. 🎥✨\n\nJoin Harry Ranveer’s live AI Filmmaking Workshop, sp",
       "likes": 3,
-      "comments": 28,
-      "engagement": 31,
-      "engRate": "0.02",
-      "timestamp": "2026-09-27T07:56:07.000Z",
-      "url": "https://www.instagram.com/p/DdyH5JTE2rA/",
+      "comments": 375,
+      "engagement": 378,
+      "engRate": "0.22",
+      "timestamp": "2026-09-28T12:57:37.000Z",
+      "url": "https://www.instagram.com/p/Dd1OYA5zg7o/",
+      "type": "Video"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "Turn any simple photo into mind-blowing visual styles using just one shortcut command. 👀\n\nThese pro",
+      "likes": 116,
+      "comments": 142,
+      "engagement": 258,
+      "engRate": "0.05",
+      "timestamp": "2026-09-28T16:29:39.000Z",
+      "url": "https://www.instagram.com/p/Dd1kz66pJsh/",
+      "type": "Video"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "Anthropic’s chief executive officer wants artificial intelligence companies to deliberately slow dow",
+      "likes": 134,
+      "comments": 2,
+      "engagement": 136,
+      "engRate": "0.03",
+      "timestamp": "2026-09-28T07:20:39.000Z",
+      "url": "https://www.instagram.com/p/Dd0ooQfiYdX/",
       "type": "Post"
+    },
+    {
+      "username": "aryamanupmanyu",
+      "caption": "Comment “AI” & steal the Multi-AI Agent roadmap🚀\n.\n.\n#ai #explore #aiagent #aiagents",
+      "likes": 3,
+      "comments": 80,
+      "engagement": 83,
+      "engRate": "0.11",
+      "timestamp": "2026-09-28T16:19:01.000Z",
+      "url": "https://www.instagram.com/p/Dd1lkoVS2wg/",
+      "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 3730,
+      "avgEng": 3720,
       "count": 30
     },
     {
       "format": "post",
-      "avgEng": 341,
-      "count": 7
+      "avgEng": 442,
+      "count": 9
     }
   ],
   "trendingTopics": [
@@ -78,31 +100,31 @@
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 70163,
+      "likes": 70570,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
-    },
-    {
-      "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
-      "username": "thevarunmayya",
-      "likes": 98329,
-      "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 85800,
+      "likes": 86113,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
+    },
+    {
+      "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
+      "username": "thevarunmayya",
+      "likes": 98330,
+      "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 24542,
+      "likes": 24789,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 71825,
+      "likes": 72058,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

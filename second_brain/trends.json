@@ -1,20 +1,55 @@
 {
-  "fetched_at": "2026-09-28T03:31:50.032Z",
+  "fetched_at": "2026-09-29T03:32:07.214Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Nissan's third generation e-POWER powertrain",
-      "score": 8,
-      "comments": 6,
-      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/"
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "score": 332,
+      "comments": 133,
+      "url": "https://github.com/firelex/jeff"
     },
     {
       "source": "hackernews",
-      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
-      "score": 8,
-      "comments": 1,
-      "url": "https://www.inkandswitch.com/essay/malleable-software/"
+      "title": "12,000-year-old Göbeklitepe burials explain scattered bones",
+      "score": 92,
+      "comments": 23,
+      "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/"
+    },
+    {
+      "source": "hackernews",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "score": 155,
+      "comments": 66,
+      "url": "https://stateofutopia.com/experiments/microllmlab/"
+    },
+    {
+      "source": "hackernews",
+      "title": "It's Time to Investigate the AI Labs",
+      "score": 334,
+      "comments": 131,
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "score": 117,
+      "comments": 153,
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+    },
+    {
+      "source": "hackernews",
+      "title": "What reversing, modernising old games tells us about the economic impact of AI",
+      "score": 80,
+      "comments": 29,
+      "url": "https://this.os.isfine.org/blog/posts/what-reverse-engineering-and-modernising-an-old-war-game-tells-us-about-the-econ/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "score": 130,
+      "comments": 56,
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/"
     }
   ],
   "youtube": [
@@ -23,8 +58,8 @@
       "category": "Science & Tech",
       "title": "How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset",
       "channel": "Founders Bits",
-      "views": 29813450,
-      "likes": 926225,
+      "views": 30628421,
+      "likes": 947660,
       "publishedAt": "2026-09-15T16:45:12Z",
       "url": "https://www.youtube.com/watch?v=yukKoFJr_4w",
       "tags": [],
@@ -35,8 +70,8 @@
       "category": "Science & Tech",
       "title": "We Built the Product Apple Gave Up On...",
       "channel": "HTX Studio",
-      "views": 5451888,
-      "likes": 431665,
+      "views": 6912828,
+      "likes": 525493,
       "publishedAt": "2026-09-24T12:00:25Z",
       "url": "https://www.youtube.com/watch?v=yAabREkiUEs",
       "tags": [],
@@ -47,8 +82,8 @@
       "category": "Science & Tech",
       "title": "My teacher's laptop was connected to the PROJECTOR the whole time!",
       "channel": "Xenost ",
-      "views": 5035070,
-      "likes": 73800,
+      "views": 5914751,
+      "likes": 83369,
       "publishedAt": "2026-09-26T14:33:54Z",
       "url": "https://www.youtube.com/watch?v=7KlT-vHYqP4",
       "tags": [],
@@ -59,8 +94,8 @@
       "category": "Science & Tech",
       "title": "How RAM Works 🤔",
       "channel": "Zack D. Films",
-      "views": 2551293,
-      "likes": 142636,
+      "views": 3084631,
+      "likes": 168135,
       "publishedAt": "2026-09-26T12:30:34Z",
       "url": "https://www.youtube.com/watch?v=fXpTLFTfN_w",
       "tags": [],
@@ -69,46 +104,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "S Why I don’t use a clear phone case..",
-      "channel": "CarterPCs",
-      "views": 2528911,
-      "likes": 79630,
-      "publishedAt": "2026-09-26T23:36:38Z",
-      "url": "https://www.youtube.com/watch?v=Limsn9MaPkE",
-      "tags": [],
-      "description": "S Why I don’t use a clear phone case..\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Is GPT Astra going to replace electrical engineers?",
-      "channel": "Tech.Explain",
-      "views": 2434790,
-      "likes": 67146,
-      "publishedAt": "2026-09-23T17:46:35Z",
-      "url": "https://www.youtube.com/watch?v=XdtaUmr3j6g",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Pass Through Sockets?? #tools #contractor #mechanic",
-      "channel": "Chris Garage78",
-      "views": 2117687,
-      "likes": 26440,
-      "publishedAt": "2026-09-19T21:41:20Z",
-      "url": "https://www.youtube.com/watch?v=WXMPUg3948k",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "The Wolverine PS5 Is Actually INSANE",
       "channel": "Kyle Krueger",
-      "views": 2021517,
-      "likes": 66226,
+      "views": 2587519,
+      "likes": 78427,
       "publishedAt": "2026-09-25T00:21:40Z",
       "url": "https://www.youtube.com/watch?v=J6A_2wCXRl4",
       "tags": [],
@@ -117,10 +116,34 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Guessing your gaming headset in 5 tries..",
+      "channel": "CarterPCs",
+      "views": 2122815,
+      "likes": 70065,
+      "publishedAt": "2026-09-28T06:36:46Z",
+      "url": "https://www.youtube.com/watch?v=FwZivqkJP94",
+      "tags": [],
+      "description": "Guessing your gaming headset in 5 tries..\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Pass Through Sockets?? #tools #contractor #mechanic",
+      "channel": "Chris Garage78",
+      "views": 2113825,
+      "likes": 26843,
+      "publishedAt": "2026-09-19T21:41:20Z",
+      "url": "https://www.youtube.com/watch?v=WXMPUg3948k",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "BIGGEST ISSUE FLIPS/FOLD PHONES!!! #smartphone #problemfix #brokenfix #screenbreak #techtok",
       "channel": "Digital Doctor ",
-      "views": 1349172,
-      "likes": 63425,
+      "views": 1921332,
+      "likes": 88859,
       "publishedAt": "2026-09-26T00:32:12Z",
       "url": "https://www.youtube.com/watch?v=8mzPWSJH13E",
       "tags": [],
@@ -131,10 +154,22 @@
       "category": "Science & Tech",
       "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
       "channel": "MrCappuccino Memes",
-      "views": 1328407,
-      "likes": 5305,
+      "views": 1629494,
+      "likes": 6614,
       "publishedAt": "2026-09-22T22:00:08Z",
       "url": "https://www.youtube.com/watch?v=oh4iGOhQvIs",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Yet Another PC Company to Avoid?",
+      "channel": "Zach's Tech Turf",
+      "views": 1109479,
+      "likes": 58525,
+      "publishedAt": "2026-09-26T14:00:03Z",
+      "url": "https://www.youtube.com/watch?v=SZoUpujwqEc",
       "tags": [],
       "description": ""
     }
@@ -143,42 +178,42 @@
     "keyword_trends": [
       {
         "keyword": "ChatGPT",
-        "trend_score": 58
+        "trend_score": 81
       },
       {
         "keyword": "self improvement",
-        "trend_score": 37
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 33
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 31
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 28
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 27
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 27
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 26
+        "trend_score": 80
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 24
+        "trend_score": 78
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 75
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 75
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 72
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 71
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 70
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 66
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-28T03:31:50.032Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Nissan's third generation e-POWER powertrain\" — 8 pts\n• [HackerNews] \"Malleable software: Restoring user agency in a world of locked-down apps (2025)\" — 8 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 29813k views\n• [YouTube Global] \"We Built the Product Apple Gave Up On...\" by HTX Studio — 5452k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 5035k views\n• [YouTube Global] \"How RAM Works 🤔\" by Zack D. Films — 2551k views\n• [YouTube Global] \"S Why I don’t use a clear phone case..\" by CarterPCs — 2529k views\n• [YouTube Global] \"Is GPT Astra going to replace electrical engineers?\" by Tech.Explain — 2435k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 58), self improvement (score: 37), AI tools (score: 33), solopreneur (score: 31), AI for business (score: 28), productivity tools (score: 27), entrepreneur (score: 27), automation tools (score: 26), AI workflow (score: 24)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-29T03:32:07.214Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms\" — 332 pts\n• [HackerNews] \"12,000-year-old Göbeklitepe burials explain scattered bones\" — 92 pts\n• [HackerNews] \"MicroLLM Lab – Try 7 tiny LLM's in the browser\" — 155 pts\n• [HackerNews] \"It's Time to Investigate the AI Labs\" — 334 pts\n• [HackerNews] \"Nvidia wants to put a watchdog chip next to every AI agent\" — 117 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 30628k views\n• [YouTube Global] \"We Built the Product Apple Gave Up On...\" by HTX Studio — 6913k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 5915k views\n• [YouTube Global] \"How RAM Works 🤔\" by Zack D. Films — 3085k views\n• [YouTube Global] \"The Wolverine PS5 Is Actually INSANE\" by Kyle Krueger — 2588k views\n• [YouTube Global] \"Guessing your gaming headset in 5 tries..\" by CarterPCs — 2123k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 81), self improvement (score: 80), AI workflow (score: 78), AI for business (score: 75), productivity tools (score: 75), AI tools (score: 72), entrepreneur (score: 71), automation tools (score: 70), solopreneur (score: 66)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

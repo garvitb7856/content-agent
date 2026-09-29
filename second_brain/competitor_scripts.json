@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T03:31:50.098Z",
+  "updated_at": "2026-09-29T03:32:07.271Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1049,16 +1049,19 @@
       "id": "3967910289556586246_1411361583",
       "account": "@dhavalkataria_",
       "url": "https://www.instagram.com/p/DcQ2WKtoz8G/",
-      "topic": "General Tech",
+      "topic": "Monetization",
       "format": "Video",
-      "hook": "Comment “PROOF” for the Link 🔗",
+      "spoken_hook": "Here's my income progression from 15,000 a month to 5 lakh a month at 25.  I started my career interning for BeerBiceps for a salary of 15,000 rupees.  6 months later got promoted to 25,000 rupees a month.",
+      "full_script": "Here's my income progression from 15,000 a month to 5 lakh a month at 25. I started my career interning for BeerBiceps for a salary of 15,000 rupees. 6 months later got promoted to 25,000 rupees a month. 6 months after that, 35,000 rupees a month. Then I quit my job and started freelancing. Signed my first social media client at 1 lakh rupees per month. In the same month signed two more clients to make 2 lakh rupees per month. After 6 months I quit freelancing to start my own agency. My income dropped to zero for the next three months, but after that my agency was working with brands like these to make 3 lakhs a month. We worked with these brands for 6 months and almost made 5 lakhs per month. But maza nahi aa raha tha, so I shut down my agency. Then I started my own YouTube channel. 6 months in, brand deals plus ad revenue was making me 2 lakhs per month. 1 year in, brand deals plus ad revenue plus consulting made me 5 lakhs per month. Today we are 1.5 years in. Can you guess the current income? I've shared all the proof in this video, comment \"PROOF\" and I'll send it to you.",
       "full_caption": "Comment “PROOF” for the Link 🔗",
-      "script_pattern": "comment_CTA",
-      "likes": 4467,
-      "comments": 916,
-      "engagement_rate": 10.6,
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA + narrative + transformation",
+      "likes": 4949,
+      "comments": 987,
+      "engagement_rate": 11.14,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-28T04:01:07.342Z",
+      "scraped_at": "2026-09-29T03:32:07.264Z"
     },
     {
       "id": "3953432369198939354_1411361583",
@@ -1758,8 +1761,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-09-27T03:57:52.663Z",
       "scraped_at": "2026-09-28T03:31:50.094Z"
+    },
+    {
+      "id": "3987305762365305156_59161778770",
+      "account": "@nivedan.ai",
+      "url": "https://www.instagram.com/p/DdVwXcYpvFE/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "You can now get Claude Max worth 1 lakh rupees for free.  It's a new program launched by Anthropic.  Comment Max and I'll DM you the link.",
+      "full_script": "You can now get Claude Max worth 1 lakh rupees for free. It's a new program launched by Anthropic. Comment Max and I'll DM you the link.",
+      "full_caption": "Most people are spending hundreds or even thousands on premium AI tools every month. 👀\n\nBut Anthropic has launched a program that could give you free access to Claude Max.\n\nWhether you’re a student, researcher, builder, or someone who uses AI every day, this could be a great opportunity to get more",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 2011,
+      "comments": 9506,
+      "engagement_rate": 2.14,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-28T03:54:55.769Z",
+      "scraped_at": "2026-09-29T03:32:07.264Z"
     }
   ],
-  "total": 111,
-  "transcript_based": 31
+  "total": 112,
+  "transcript_based": 33
 }

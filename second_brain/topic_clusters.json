@@ -571,5 +571,44 @@
       "sci-fi brain tech",
       "brain tech"
     ]
+  },
+  {
+    "name": "Creative Hardware Hacking and IoT",
+    "keywords": [
+      "microwave",
+      "iot",
+      "smart",
+      "device",
+      "hardware",
+      "ray",
+      "tracer",
+      "brainfuck"
+    ]
+  },
+  {
+    "name": "Software Architecture and Tech Philosophy",
+    "keywords": [
+      "software",
+      "monopoly",
+      "malleable",
+      "big",
+      "tech",
+      "ram",
+      "physics",
+      "hardware"
+    ]
+  },
+  {
+    "name": "AI Theory and Architecture Visualization",
+    "keywords": [
+      "transformers",
+      "visualizing",
+      "thinks",
+      "hood",
+      "gpt",
+      "astra",
+      "machines",
+      "ai"
+    ]
   }
 ]
