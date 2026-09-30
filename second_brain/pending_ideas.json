@@ -1,52 +1,48 @@
 [
   {
     "rank": 1,
-    "title": "How Four Hackers Used AI for a 703 Million Dollar Medicare Heist",
-    "hook": "What I am about to show you is a real-life money heist where four international fraudsters used artificial intelligence to loot millions.",
+    "title": "Always-On Dots Agents Automation",
+    "hook": "Breaking news! OpenAI just launched Dots, and the simplest way to describe them is always-on agents that run while you sleep.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Leverages proven true-crime tech storytelling from Arshman that generates peak audience retention and massive algorithmic watch-time. The high-stakes heist narrative combined with AI fraud creates an irresistible hook that works exceptionally well across tech and general audiences.",
+    "reasoning": "Directly remixes @thevarunmayya's top-performing post format on the new Dots feature, perfect for the Indian audience eager for cutting-edge automation. Backed by proven mega-account virality thresholds.",
     "niche": "AI",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/Dd4YFpdziV4/"
   },
   {
-    "rank": 2,
-    "title": "Stop Vibe Coding Without Installing These Four Claude Plugins",
-    "hook": "Don't start vibe coding with Claude Code unless you've installed these four essential terminal plugins to cut token usage in half.",
+    "title": "Solopreneur Tool-Hopping Trap",
+    "hook": "If you are constantly switching between 20 different AI tools every week, you are not building a business—you are just procrastinating with fancy software.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Adapts Nick Saraev's breakout developer utility format for Claude Code, which delivers intense save and share metrics from builders. It targets the exploding vibe coding movement with immediate actionable workflow optimization.",
-    "niche": "AI",
-    "sourceUrl": ""
-  },
-  {
-    "rank": 3,
-    "title": "The 4 ChatGPT Prompts That Generated One Lakh Rupees in 7 Days",
-    "hook": "These four specific ChatGPT prompts made me one lakh rupees in just 7 days, and you can copy my exact workflow.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Capitalizes on Dhaval Kataria's proven prompt-to-revenue framework that historically drives viral comment and save rates in the Indian ecosystem. The step-by-step local business discovery angle makes AI utility tangible and directly monetizable.",
+    "score": "MEDIUM",
+    "reasoning": "Directly targets solopreneur psychology and burnout, representing strong 1.5-2x average engagement territory for Indian creators. Highly relatable builder narrative.",
     "niche": "Entrepreneurship",
     "sourceUrl": ""
   },
   {
-    "rank": 4,
-    "title": "The Five Hidden Layers Inside Claude That Most Users Never Open",
-    "hook": "Do you want to turn your Claude into a 500-dollar productivity machine or keep using it like a basic chat box?",
+    "title": "Claude Max Free Tier Loophole",
+    "hook": "You can now claim your free Anthropic Claude access through this lesser-known developer program.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Mirrors Aryaman Upmanyu's top-performing feature-stacking format that reframes a familiar tool into an advanced enterprise system. The contrast hook drives immediate curiosity and high replay value among productivity enthusiasts.",
+    "score": "MEDIUM",
+    "reasoning": "Directly models high-performing utility hooks from @nivedan.ai and @arshman, hitting the sweet spot of high-save developer content.",
     "niche": "AI",
     "sourceUrl": ""
   },
   {
-    "rank": 5,
-    "title": "Why 99% of Free AI Tool Creators Never Use Their Own Recommendations",
-    "hook": "Let me tell you the brutal ground reality of why creators promote free AI tools on Instagram when they never touch them.",
+    "title": "Temple Smart Ring First Impressions",
+    "hook": "I am one of the few hundred people wearing the Temple smart ring right now, and it feels like sci-fi brain tech.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Leverages Garvit's proven contrarian insider breakdown style that builds instant trust and high comment engagement. Calling out influencer fluff cuts through feed noise and establishes unmatched authenticity.",
-    "niche": "Entrepreneurship",
+    "score": "MEDIUM",
+    "reasoning": "Leverages elite creator validation for high consumer tech curiosity, scoring well above medium account follower baselines.",
+    "niche": "Hardware and Tech Gadgets",
+    "sourceUrl": ""
+  },
+  {
+    "title": "Higgsfield Unified API for Video Generation",
+    "hook": "This is now the cheapest way to generate AI video without monthly subscriptions or expiring credits.",
+    "format": "Reel",
+    "score": "MEDIUM",
+    "reasoning": "Provides immediate practical value for video creators and digital solopreneurs, echoing top technical utility metrics from @nick_saraev.",
+    "niche": "AI",
     "sourceUrl": ""
   }
 ]

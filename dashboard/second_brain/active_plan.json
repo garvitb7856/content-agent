@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-29",
-  "end_date": "2026-10-06",
+  "generated_on": "2026-09-30",
+  "end_date": "2026-10-07",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-29",
-      "topic": "4 ChatGPT prompts to research and monetize local business pain points",
+      "date": "2026-09-30",
+      "topic": "OpenAI Dots Always-On Agents Setup",
       "format": "Reel",
       "post_time": "7:00 PM IST",
-      "hook": "These 4 ChatGPT prompts made 1 lakh in 7 days.",
+      "hook": "OpenAI just launched Dots, your new 24/7 autonomous worker.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-09-30",
-      "topic": "The 5 hidden layers inside Claude 3.5 that 90% of users miss",
+      "date": "2026-10-01",
+      "topic": "Claude Pro Free Tier Loophole & Developer Program Access",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "5 hidden Claude features that feel illegal to know.",
+      "post_time": "7:30 PM IST",
+      "hook": "Stop paying for Claude when this free developer loop exists.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-01",
-      "topic": "How 4 international fraudsters used AI for a $703M Medicare heist",
+      "date": "2026-10-02",
+      "topic": "Solopreneur Tool-Hopping Trap & AI Procrastination",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Four hackers used AI for a 700 million heist.",
+      "post_time": "6:30 PM IST",
+      "hook": "Stop jumping between 50 AI tools and build something real.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-02",
-      "topic": "Step-by-step roadmap to claim free Canva Pro and unlock advanced AI models",
+      "date": "2026-10-03",
+      "topic": "5 Free Chrome Extensions That Automate Your Browser Workflow",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "How to get Canva Pro AI features completely free.",
+      "post_time": "8:00 PM IST",
+      "hook": "These 5 free extensions replace a full-time virtual assistant.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-03",
-      "topic": "The brutal truth of why creators promote free AI tools they never use",
+      "date": "2026-10-04",
+      "topic": "Higgsfield Unified API for Cheap AI Video Generation",
       "format": "Reel",
       "post_time": "7:00 PM IST",
-      "hook": "The dirty truth about creators promoting free AI tools.",
+      "hook": "This is the cheapest way to generate cinematic AI video.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-04",
-      "topic": "Zero-code blueprint to build your first AI agent using Claude and n8n",
+      "date": "2026-10-05",
+      "topic": "5 AI Prompts to Write Your Entire Content Strategy in 10 Minutes",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Build your first no-code AI agent step by step.",
+      "post_time": "6:45 PM IST",
+      "hook": "Steal my exact prompt stack for 30 days of content.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-05",
-      "topic": "Essential Claude Code terminal plugins to cut token usage in half",
+      "date": "2026-10-06",
+      "topic": "Temple Smart Ring & Next-Gen Hardware Tech First Impressions",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Stop coding with Claude before installing these 4 plugins.",
+      "post_time": "7:15 PM IST",
+      "hook": "Testing the world's most futuristic productivity ring right now.",
       "status": "pending"
     }
   ]

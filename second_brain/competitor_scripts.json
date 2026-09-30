@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T03:32:07.271Z",
+  "updated_at": "2026-09-30T03:31:54.326Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1142,16 +1142,19 @@
       "id": "3916455154859376104_1411361583",
       "account": "@dhavalkataria_",
       "url": "https://www.instagram.com/p/DZaCzaMI_3o/",
-      "topic": "General Tech",
+      "topic": "Monetization",
       "format": "Video",
-      "hook": "4 ChatGPT Prompts = ₹1,00,000🤑",
+      "spoken_hook": "These four ChatGPT prompts made me 1 lakh rupees in 7 days.  Here's how you can copy me step by step.  Prompt 1: Sabse pehle I gave ChatGPT my state and city name, then I asked it to give me the biggest pain points of businesses in my city.",
+      "full_script": "These four ChatGPT prompts made me 1 lakh rupees in 7 days. Here's how you can copy me step by step. Prompt 1: Sabse pehle I gave ChatGPT my state and city name, then I asked it to give me the biggest pain points of businesses in my city. Usne mujhe poora research paper bana ke diya. Prompt 2: I gave ChatGPT my income goal, my starting capital, and my skill level. Then I asked it to give me three service ideas jo main unhi businesses ko sell kar sakta hu. These are the three ideas it gave, and I picked the easiest one. Prompt 3: I asked it to give me all the selling points that I can use to get clients. Usne mujhe poore ka poora sales script bana ke diya. Finally, Prompt 4: I asked it to give me all the location and contact details of clients in my city. I took that, went into the market, and talked to 15 to 20 clients. I got 4 clients worth ₹50,000 in just 2 days. In this video, I have documented everything in detail. Agar tumhe dekhna hai, comment karo Prompt, and I will share it with you.",
       "full_caption": "4 ChatGPT Prompts = ₹1,00,000🤑\nComment “prompt” for the video link",
+      "script_source": "transcript",
       "script_pattern": "comment_CTA",
-      "likes": 12536,
-      "comments": 2502,
-      "engagement_rate": 29.62,
+      "likes": 12732,
+      "comments": 2546,
+      "engagement_rate": 28.64,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-29T03:50:34.589Z",
+      "scraped_at": "2026-09-30T03:31:54.323Z"
     },
     {
       "id": "3901189222851344478_1411361583",
@@ -1782,5 +1785,5 @@
     }
   ],
   "total": 112,
-  "transcript_based": 33
+  "transcript_based": 34
 }

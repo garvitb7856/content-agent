@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-29T03:32:07.312Z",
+  "updated_at": "2026-09-30T03:31:54.385Z",
   "your_performance": {
-    "posts_analyzed": 41,
+    "posts_analyzed": 42,
     "best_hook_type": "contrarian",
     "best_format": "Reel",
     "by_hook_type": [
@@ -12,8 +12,8 @@
       },
       {
         "type": "statement",
-        "avg": 177.07,
-        "count": 14
+        "avg": 167.6,
+        "count": 15
       },
       {
         "type": "personal_story",
@@ -34,8 +34,8 @@
     "by_format": [
       {
         "type": "Reel",
-        "avg": 183.61,
-        "count": 38
+        "avg": 179.79,
+        "count": 39
       },
       {
         "type": "Post",
@@ -197,7 +197,7 @@
     "insights": "37 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
   },
   "niche_performance": {
-    "total_hooks": 83,
+    "total_hooks": 77,
     "total_scripts": 112,
     "viral_scripts": 37,
     "best_hook_type": "pattern_interrupt",
@@ -205,32 +205,32 @@
     "by_hook_type": [
       {
         "type": "pattern_interrupt",
-        "avg": 6888,
+        "avg": 6932,
         "count": 2
       },
       {
         "type": "story",
-        "avg": 4181.77,
-        "count": 57
+        "avg": 4593.67,
+        "count": 52
       },
       {
         "type": "curiosity_gap",
-        "avg": 2837.33,
-        "count": 6
+        "avg": 4307.71,
+        "count": 7
       },
       {
         "type": "relatability",
-        "avg": 2443.2,
-        "count": 5
+        "avg": 3011.5,
+        "count": 4
       },
       {
         "type": "question",
-        "avg": 2355.3,
-        "count": 10
+        "avg": 2620.44,
+        "count": 9
       },
       {
         "type": "bold_claim",
-        "avg": 698.67,
+        "avg": 747.33,
         "count": 3
       }
     ],
@@ -243,9 +243,9 @@
         "format": "Reel",
         "account": "@ishansharma7390",
         "postUrl": "https://www.instagram.com/p/DdE4585PvQg/",
-        "likes": 60477,
+        "likes": 60549,
         "comments": 688,
-        "added_at": "2026-09-29T03:32:07.255Z"
+        "added_at": "2026-09-30T03:31:54.344Z"
       },
       {
         "id": "3970814642533503560_1411361583",
@@ -255,9 +255,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-        "likes": 37239,
-        "comments": 6919,
-        "added_at": "2026-09-29T03:32:07.258Z"
+        "likes": 37434,
+        "comments": 6964,
+        "added_at": "2026-09-30T03:31:54.345Z"
       },
       {
         "id": "3603432541911984451_48619065725",
@@ -267,9 +267,9 @@
         "format": "Reel",
         "account": "@aryamanupmanyu",
         "postUrl": "https://www.instagram.com/p/DIB9s4YvylD/",
-        "likes": 27674,
-        "comments": 31453,
-        "added_at": "2026-09-29T03:32:07.255Z"
+        "likes": 27673,
+        "comments": 31455,
+        "added_at": "2026-09-30T03:31:54.344Z"
       },
       {
         "id": "3976687439442723344_72269881052",
@@ -279,21 +279,21 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/DcwCCgivcIQ/",
-        "likes": 15090,
-        "comments": 11135,
-        "added_at": "2026-09-29T03:32:07.251Z"
+        "likes": 15205,
+        "comments": 11236,
+        "added_at": "2026-09-30T03:31:54.335Z"
       },
       {
-        "id": "3637498854095207948_48619065725",
-        "text": "We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India right now, and I think that it might set a new benchmark for customer experience in the entire D2C space.  Now here's the part that made me stop and say, What?  Because it replies to your voice note with a voice note.",
+        "id": "3916455154859376104_1411361583",
+        "text": "These four ChatGPT prompts made me 1 lakh rupees in 7 days.  Here's how you can copy me step by step.  Prompt 1: Sabse pehle I gave ChatGPT my state and city name, then I asked it to give me the biggest pain points of businesses in my city.",
         "source": "transcript",
-        "type": "question",
+        "type": "curiosity_gap",
         "format": "Reel",
-        "account": "@aryamanupmanyu",
-        "postUrl": "https://www.instagram.com/p/DJ6_e99PD4M/",
-        "likes": 12446,
-        "comments": 12937,
-        "added_at": "2026-09-29T03:32:07.255Z"
+        "account": "@dhavalkataria_",
+        "postUrl": "https://www.instagram.com/p/DZaCzaMI_3o/",
+        "likes": 12732,
+        "comments": 2546,
+        "added_at": "2026-09-30T03:31:54.345Z"
       }
     ]
   },
@@ -344,5 +344,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (41 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n37 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (83 hooks, 112 scripts):\nBest hook type in niche: pattern_interrupt\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"And as we open that display, just seamlessly folds into that full screen view.\" (60477 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (37239 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27674 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (15090 likes) | \"We built this WhatsApp AI agent for Comet, the hottest sneaker brand in India right now, and I think that it might set a new benchmark for customer experience in the entire D2C space.  Now here's the part that made me stop and say, What?  Because it replies to your voice note with a voice note.\" (12446 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (42 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n37 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (77 hooks, 112 scripts):\nBest hook type in niche: pattern_interrupt\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"And as we open that display, just seamlessly folds into that full screen view.\" (60549 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (37434 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27673 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (15205 likes) | \"These four ChatGPT prompts made me 1 lakh rupees in 7 days.  Here's how you can copy me step by step.  Prompt 1: Sabse pehle I gave ChatGPT my state and city name, then I asked it to give me the biggest pain points of businesses in my city.\" (12732 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }
