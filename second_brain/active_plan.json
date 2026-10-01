@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-09-30",
-  "end_date": "2026-10-07",
+  "generated_on": "2026-10-01",
+  "end_date": "2026-10-08",
   "days": [
     {
       "day": 1,
-      "date": "2026-09-30",
-      "topic": "OpenAI Dots Always-On Agents Setup",
+      "date": "2026-10-01",
+      "topic": "The 5 Lacs Bank Balance Rule for Indian Freelancers",
       "format": "Reel",
       "post_time": "7:00 PM IST",
-      "hook": "OpenAI just launched Dots, your new 24/7 autonomous worker.",
+      "hook": "If you don't have 5 Lacs saved, stop doing this.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-01",
-      "topic": "Claude Pro Free Tier Loophole & Developer Program Access",
+      "date": "2026-10-02",
+      "topic": "One-Person AI Agency Blueprint Using Claude Projects",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Stop paying for Claude when this free developer loop exists.",
+      "post_time": "6:30 PM IST",
+      "hook": "Run a 1-person AI agency using just 4 files.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-02",
-      "topic": "Solopreneur Tool-Hopping Trap & AI Procrastination",
+      "date": "2026-10-03",
+      "topic": "The Ground Reality of Free AI Tools & Data Privacy",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Stop jumping between 50 AI tools and build something real.",
+      "post_time": "8:15 PM IST",
+      "hook": "Stop using free AI tools before you lose your data.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-03",
-      "topic": "5 Free Chrome Extensions That Automate Your Browser Workflow",
+      "date": "2026-10-04",
+      "topic": "5 Free AI Extensions to Supercharge Your Setup",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "These 5 free extensions replace a full-time virtual assistant.",
+      "post_time": "7:30 PM IST",
+      "hook": "5 free AI plugins that will 10x your output.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-04",
-      "topic": "Higgsfield Unified API for Cheap AI Video Generation",
+      "date": "2026-10-05",
+      "topic": "How to Close a 2 Lakh B2B Client Without Sending Proposals",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "This is the cheapest way to generate cinematic AI video.",
+      "post_time": "6:45 PM IST",
+      "hook": "How I closed a 2 Lakh client with zero resume.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-05",
-      "topic": "5 AI Prompts to Write Your Entire Content Strategy in 10 Minutes",
+      "date": "2026-10-06",
+      "topic": "Turning 1 Skill Into a Monetizable Business in 30 Minutes",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Steal my exact prompt stack for 30 days of content.",
+      "post_time": "8:00 PM IST",
+      "hook": "Turn any skill into a business in 30 minutes.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-06",
-      "topic": "Temple Smart Ring & Next-Gen Hardware Tech First Impressions",
+      "date": "2026-10-07",
+      "topic": "Building Proof of Work to Get Hired Instead of Cold Resumes",
       "format": "Reel",
       "post_time": "7:15 PM IST",
-      "hook": "Testing the world's most futuristic productivity ring right now.",
+      "hook": "Stop sending resumes. Do this to get hired fast.",
       "status": "pending"
     }
   ]

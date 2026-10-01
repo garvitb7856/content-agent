@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T03:31:54.326Z",
+  "updated_at": "2026-10-01T03:31:52.597Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1097,16 +1097,19 @@
       "id": "3933851278842666794_1411361583",
       "account": "@dhavalkataria_",
       "url": "https://www.instagram.com/p/DaX2OVKoh8q/",
-      "topic": "General Tech",
+      "topic": "Career",
       "format": "Video",
-      "hook": "Comment “Scam” if you want Rich Clients",
+      "spoken_hook": "How did I trick this guy into giving me 5 lakh rupees with 0 experience?  Aye Nimmoun, kya phook ke aaya hai bey?  Finance with Sharan was my first client in my agency.",
+      "full_script": "How did I trick this guy into giving me 5 lakh rupees with 0 experience? Aye Nimmoun, kya phook ke aaya hai bey? Finance with Sharan was my first client in my agency. I followed 3 steps to close him. Number one: Bribe. Sharan once tagged his videographer in one of his stories. I DM'ed that videographer and asked him to setup my meeting with Sharan. He said no. So I bribed him. I told him agar Sharan mera client banta hai, I will give you 50% of my fees of the first month. That worked. Meeting setup ho gayi. Number two: Lie. In the first meeting, Sharan asked me what do you do? Now, I was just a writer at my current job. So I lied. I said main content strategy karta hu, production karta hu, editing karta hu, sab karta hu. Again, it worked. Sometimes lying is better taaki sabka bhala ho sake. Step 3: Audacity. When Sharan asked me for my prices, I pulled out the biggest number out of my ass that I could think of. 5000 rupees for 1 reel script and additional 50,000 rupees for content strategy. Total ja raha tha around 1 lakh per month. Now, if I had quoted less, usko samajh jaata that I do not have the skills that I previously lied about. So again, it worked and he became my first and the biggest client at that time. Now, if you also want such high ticket clients, comment SCAM and I will send you a full video on how to get clients.",
       "full_caption": "Comment “Scam” if you want Rich Clients",
-      "script_pattern": "comment_CTA",
-      "likes": 7073,
-      "comments": 1091,
-      "engagement_rate": 16.08,
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA + narrative",
+      "likes": 8394,
+      "comments": 1235,
+      "engagement_rate": 18.03,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-30T03:47:27.437Z",
+      "scraped_at": "2026-10-01T03:31:52.595Z"
     },
     {
       "id": "3928039273951069576_1411361583",
@@ -1114,14 +1117,17 @@
       "url": "https://www.instagram.com/p/DaDMuhzowWI/",
       "topic": "Monetization",
       "format": "Video",
-      "hook": "Comment “money” if you want to Make More Money",
+      "spoken_hook": "Here are 5 signs you are not doing well financially.  It gets increasingly harder, so if you pass all 5, you are in the top 1% of India.  Number 5: Whenever you get a wedding invitation, you get worried about the gift ka kharcha, rather than being excited about going to the wedding.",
+      "full_script": "Here are 5 signs you are not doing well financially. It gets increasingly harder, so if you pass all 5, you are in the top 1% of India. Number 5: Whenever you get a wedding invitation, you get worried about the gift ka kharcha, rather than being excited about going to the wedding. Number 4: If your salary gets delayed, you have to delay paying your rent and other basic expenses. Number 3: If your phone or laptop stops working, you cannot comfortably buy a new one on the same day. Number 2: If a travel or business opportunity comes up, you have to say no, purely because you don't have extra cash lying around. And number 1: If your parents have some medical issue, and the first thing that comes to mind is the expense, and not the wellbeing of your parents. If you failed at any of these levels, comment Money and I will teach you how to make more money.",
       "full_caption": "Comment “money” if you want to Make More Money",
+      "script_source": "transcript",
       "script_pattern": "comment_CTA",
-      "likes": 1803,
-      "comments": 496,
-      "engagement_rate": 4.53,
+      "likes": 1871,
+      "comments": 514,
+      "engagement_rate": 4.47,
       "verdict": "high",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-30T03:50:35.424Z",
+      "scraped_at": "2026-10-01T03:31:52.595Z"
     },
     {
       "id": "3925171614062253980_1411361583",
@@ -1129,14 +1135,17 @@
       "url": "https://www.instagram.com/p/DZ5AslaoJec/",
       "topic": "General Tech",
       "format": "Video",
-      "hook": "Comment “Alex” if you want RICH Clients 🤑",
+      "spoken_hook": "I just made 2 lakh rupees by only working 4 hours.  Ek engineer itna paisa apni 6 mahine ghisa ke bhi nahi kama sakta hai.  So let me tell you how I did it.",
+      "full_script": "I just made 2 lakh rupees by only working 4 hours. Ek engineer itna paisa apni 6 mahine ghisa ke bhi nahi kama sakta hai. So let me tell you how I did it. 1 client pays me this amount every month to write 4 YouTube scripts. Only 4. And I myself don't even write these scripts, meri team likhti hai. But itna paisa itne kam kaam ke liye kyu? 2 reasons. Number 1, because this is the result that we give to our clients. And 2, because the client is rich and I asked for it. I followed the Alex Hormozi principle, that is solve problems for rich people. Now, how can you do this? Very easy. Stop chasing big clients, wo bhaav nahi denge. Ulta, chase mid-size agencies. They already have big clients, but they don't have people to do the work for them. Unko 5 lakh ka deal milega, beech me se wo 3 lakh rupaye profit rakhenge, and tumhe 2 lakh rupaye de denge. I have followed the Alex Hormozi strategy live in this video, so comment \"Alex\" and I will send it to you in your DM.",
       "full_caption": "Comment “Alex” if you want RICH Clients 🤑",
-      "script_pattern": "comment_CTA",
-      "likes": 8051,
-      "comments": 4827,
-      "engagement_rate": 25.37,
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA",
+      "likes": 8916,
+      "comments": 5477,
+      "engagement_rate": 26.95,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-30T03:53:44.659Z",
+      "scraped_at": "2026-10-01T03:31:52.595Z"
     },
     {
       "id": "3916455154859376104_1411361583",
@@ -1162,14 +1171,17 @@
       "url": "https://www.instagram.com/p/DYjzu3Fovhe/",
       "topic": "General Tech",
       "format": "Video",
-      "hook": "Comment “CLIENT” & I’ll share the Video with you! Enjoy!",
+      "spoken_hook": "This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.",
+      "full_script": "This one video made me 16 lakh rupees. Let me break down how. Sabse pehle toh I copied this video and this video and made my video. Now my video went viral, obviously. YouTube AdSense alone from that video made me 65,000 rupees. Uske baad I used my viral video as a case study and pitched my service to a client. The client saw the potential and signed with us, 40,000 rupees for 6 months, that is 2,40,000. Ab woh client ke liye I copied my video and made this video. Woh bhi viral gaya, obviously. So the client was also happy. In fact, he was so happy that he gave me another client's YouTube channel on a contract basis. Uska price hai 1.1 lakh per month for 12 months, so that is 13.2 lakh rupees. Sabka total mila do, around 16 lakh plus some change. Now, if you also want such clients, I have made a full video about it. Comment \"CLIENT\" and I will send it to you.",
       "full_caption": "Comment “CLIENT” & I’ll share the Video with you! Enjoy!",
-      "script_pattern": "comment_CTA",
-      "likes": 28028,
-      "comments": 9013,
-      "engagement_rate": 72.96,
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA",
+      "likes": 28103,
+      "comments": 9045,
+      "engagement_rate": 69.55,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-30T03:56:55.404Z",
+      "scraped_at": "2026-10-01T03:31:52.595Z"
     },
     {
       "id": "3891815806451123714_1411361583",
@@ -1177,14 +1189,17 @@
       "url": "https://www.instagram.com/p/DYCgdsyxQYC/",
       "topic": "Monetization",
       "format": "Video",
-      "hook": "Comment “1 Lakh” & i’ll share all the side hustles and how you can make money from them",
+      "spoken_hook": "If you are not making 1 lakh a month, you should not be allowed to do these 5 things.  Number 1, have a girlfriend.  Instead of spending 10,000 rupees and wasting 2 days of your life every weekend, pick up a side hustle and start making more money.",
+      "full_script": "If you are not making 1 lakh a month, you should not be allowed to do these 5 things. Number 1, have a girlfriend. Instead of spending 10,000 rupees and wasting 2 days of your life every weekend, pick up a side hustle and start making more money. If you want a list of side hustles and how to do them, comment 1 lakh and I will share it with you. Number 2, going to the gym. Roz tum 2 ghanta gym me jaake apne muscles ko pump kar rahe ho, but it is a fake sense of achievement. Your life is still same as before. You are still broke. Number 3, celebrating festivals. India me har 15 din me festival aata hai and 1 festival ke piche minimum 5 days barbaad hote hai. That is 10 days of the month gone for empty dopamine. Number 5, watching cricket. Every year Indian cricketers play in 100+ matches including IPL. Tum wo saare ke saare dekhte ho. They are getting richer and you are getting poorer while you watch them. Think about that. Number 5, watching Netflix. Tum 6 ghanta kisi aur ko main character hote hue dekh rahe ho, but tum apni life me sirf ek side character ho. Isse accha comment 1 lakh and I will tell you all the side hustles and teach you how to do them.",
       "full_caption": "Comment “1 Lakh” & i’ll share all the side hustles and how you can make money from them",
-      "script_pattern": "comment_CTA",
-      "likes": 16774,
-      "comments": 28627,
-      "engagement_rate": 89.43,
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA + transformation",
+      "likes": 16744,
+      "comments": 28624,
+      "engagement_rate": 84.93,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-09-30T04:01:03.744Z",
+      "scraped_at": "2026-10-01T03:31:52.595Z"
     },
     {
       "id": "3889610066938066259_1411361583",
@@ -1785,5 +1800,5 @@
     }
   ],
   "total": 112,
-  "transcript_based": 34
+  "transcript_based": 39
 }

@@ -1,89 +1,89 @@
 {
-  "generated_at": "2026-09-30T03:31:49.971Z",
+  "generated_at": "2026-10-01T03:31:49.338Z",
   "hotRightNow": [
     {
-      "username": "thevarunmayya",
-      "caption": "Breaking News! OpenAI just launched dots! And the simplest way to describe them is: always-on agents",
-      "likes": 15716,
-      "comments": 142,
-      "engagement": 15858,
-      "engRate": "1.25",
-      "timestamp": "2026-09-29T18:14:12.000Z",
-      "url": "https://www.instagram.com/p/Dd4YFpdziV4/",
+      "username": "nick_saraev",
+      "caption": "Comment \"JEV\" to get the setup guide for Laya, the Free and Opensource Jev alternative.\n\nSomeone jus",
+      "likes": 1397,
+      "comments": 1368,
+      "engagement": 2765,
+      "engRate": "0.40",
+      "timestamp": "2026-09-30T11:40:07.000Z",
+      "url": "https://www.instagram.com/p/Dd6P9YOB06z/",
       "type": "Video"
     },
     {
       "username": "vaibhavsisinty",
-      "caption": "Guys, @thsottiaux’s reset button is REAL! 🤯\n\nMy full conversation with the man himself drops today ",
-      "likes": 807,
-      "comments": 8,
-      "engagement": 815,
-      "engRate": "0.04",
-      "timestamp": "2026-09-29T14:30:29.000Z",
-      "url": "https://www.instagram.com/p/Dd3-juRArPk/",
+      "caption": "AI that works while you sleep.\n\n@openai just launched Dots, and it changes what an AI assistant can ",
+      "likes": 1545,
+      "comments": 21,
+      "engagement": 1566,
+      "engRate": "0.07",
+      "timestamp": "2026-09-30T13:53:22.000Z",
+      "url": "https://www.instagram.com/p/Dd6fDRkgU1l/",
       "type": "Video"
     },
     {
       "username": "ishansharma7390",
-      "caption": "While I was flying, my dot spotted a sponsor workshop clashing with judging at my planned 1,000-pers",
-      "likes": 256,
-      "comments": 6,
-      "engagement": 262,
+      "caption": "Do you agree?\n\nAayush and I had a chat at NDTV Yuva on the problem with GenZ using AI at work.",
+      "likes": 312,
+      "comments": 2,
+      "engagement": 314,
       "engRate": "0.02",
-      "timestamp": "2026-09-29T18:22:52.000Z",
-      "url": "https://www.instagram.com/p/Dd4Y9VRorJl/",
+      "timestamp": "2026-09-30T13:12:31.000Z",
+      "url": "https://www.instagram.com/p/Dd6aUgPIwX9/",
       "type": "Video"
     },
     {
-      "username": "zeeeljain",
-      "caption": "Everyone's asking what to automate. Almost nobody's asking what shouldn't exist at all.\n\nThe work I ",
-      "likes": 224,
-      "comments": 3,
-      "engagement": 227,
-      "engRate": "0.14",
-      "timestamp": "2026-09-29T08:09:31.000Z",
-      "url": "https://www.instagram.com/p/Dd3TBDtCtUU/",
-      "type": "Post"
+      "username": "arshman",
+      "caption": "Stop building AI slop websites.\n\nBeige background, giant fancy font and orange buttons… looks so ugl",
+      "likes": 273,
+      "comments": 5,
+      "engagement": 278,
+      "engRate": "0.07",
+      "timestamp": "2026-09-30T05:05:51.000Z",
+      "url": "https://www.instagram.com/p/Dd5ih4wObwX/",
+      "type": "Video"
     },
     {
       "username": "favourite.engineer",
-      "caption": "Make your Character Consistent 💥..\n.\n#gemini #ai",
+      "caption": "ChatGPT will predict your Future 🤯..\n.\n#ai #chatgpt",
       "likes": 3,
-      "comments": 141,
-      "engagement": 144,
-      "engRate": "0.08",
-      "timestamp": "2026-09-29T14:20:47.000Z",
-      "url": "https://www.instagram.com/p/Dd39Z04Tpk6/",
+      "comments": 270,
+      "engagement": 273,
+      "engRate": "0.16",
+      "timestamp": "2026-09-30T13:13:44.000Z",
+      "url": "https://www.instagram.com/p/Dd6aBMrBNLz/",
       "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 4060,
-      "count": 29
+      "avgEng": 4425,
+      "count": 32
     },
     {
       "format": "post",
-      "avgEng": 463,
-      "count": 8
+      "avgEng": 552,
+      "count": 7
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "13 top posts"
-    },
-    {
-      "topic": "claude",
-      "appearsIn": "4 top posts"
-    },
-    {
-      "topic": "money",
-      "appearsIn": "3 top posts"
+      "appearsIn": "14 top posts"
     },
     {
       "topic": "agent",
+      "appearsIn": "5 top posts"
+    },
+    {
+      "topic": "claude",
+      "appearsIn": "3 top posts"
+    },
+    {
+      "topic": "money",
       "appearsIn": "3 top posts"
     },
     {
@@ -94,37 +94,37 @@
   "bestPostingWindow": [
     "20:00 IST (5 top posts)",
     "19:00 IST (4 top posts)",
-    "21:00 IST (3 top posts)"
+    "18:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 70908,
+      "likes": 71269,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 86416,
+      "likes": 86677,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98340,
+      "likes": 98353,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 25067,
+      "likes": 25284,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 72261,
+      "likes": 72441,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

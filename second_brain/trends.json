@@ -1,49 +1,72 @@
 {
-  "fetched_at": "2026-09-30T03:31:54.265Z",
+  "fetched_at": "2026-10-01T03:31:52.530Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "score": 823,
-      "comments": 752,
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+      "title": "Gemini 4 Argon",
+      "score": 1074,
+      "comments": 720,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
     },
     {
       "source": "hackernews",
-      "title": "Dots: Always-on agents",
-      "score": 479,
-      "comments": 360,
-      "url": "https://openai.com/index/introducing-dots/"
+      "title": "Surprisingly complex waves reveal the brain's inner workings",
+      "score": 135,
+      "comments": 42,
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/"
     },
     {
       "source": "hackernews",
-      "title": "Sustainable energy without the hot air (2008)",
-      "score": 139,
-      "comments": 80,
-      "url": "https://www.withouthotair.com/"
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "score": 131,
+      "comments": 61,
+      "url": "https://github.com/magnitudedev/magnitude"
+    },
+    {
+      "source": "hackernews",
+      "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
+      "score": 50,
+      "comments": 10,
+      "url": "https://www.chompiclub.com/opensource"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+      "score": 37,
+      "comments": 15,
+      "url": "https://lathoa.ai/en"
+    },
+    {
+      "source": "hackernews",
+      "title": "Doing a Machine Learning PhD While Working in Japan",
+      "score": 52,
+      "comments": 20,
+      "url": "https://www.tokyodev.com/articles/doing-a-machine-learning-phd-while-working-in-japan"
+    },
+    {
+      "source": "hackernews",
+      "title": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
+      "score": 1,
+      "comments": 0,
+      "url": "https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer"
+    },
+    {
+      "source": "hackernews",
+      "title": "Responsible Release of AI-Generated Mathematics",
+      "score": 81,
+      "comments": 102,
+      "url": "https://agmai.org/general-sep29/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset",
-      "channel": "Founders Bits",
-      "views": 31874386,
-      "likes": 976766,
-      "publishedAt": "2026-09-15T16:45:12Z",
-      "url": "https://www.youtube.com/watch?v=yukKoFJr_4w",
-      "tags": [],
-      "description": "On January 9, 2007, Steve Jobs didn't just launch the iPhone — he announced the funeral of BlackBerry and Nokia.\n\nHis point was brutal:\n\nBlackBerry an"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "We Built the Product Apple Gave Up On...",
       "channel": "HTX Studio",
-      "views": 7713683,
-      "likes": 572853,
+      "views": 8410315,
+      "likes": 613987,
       "publishedAt": "2026-09-24T12:00:25Z",
       "url": "https://www.youtube.com/watch?v=yAabREkiUEs",
       "tags": [],
@@ -54,8 +77,8 @@
       "category": "Science & Tech",
       "title": "My teacher's laptop was connected to the PROJECTOR the whole time!",
       "channel": "Xenost ",
-      "views": 6252736,
-      "likes": 86023,
+      "views": 6442478,
+      "likes": 87809,
       "publishedAt": "2026-09-26T14:33:54Z",
       "url": "https://www.youtube.com/watch?v=7KlT-vHYqP4",
       "tags": [],
@@ -64,12 +87,12 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "How RAM Works 🤔",
-      "channel": "Zack D. Films",
-      "views": 3396365,
-      "likes": 180272,
-      "publishedAt": "2026-09-26T12:30:34Z",
-      "url": "https://www.youtube.com/watch?v=fXpTLFTfN_w",
+      "title": "BIGGEST ISSUE FLIPS/FOLD PHONES!!! #smartphone #problemfix #brokenfix #screenbreak #techtok",
+      "channel": "Digital Doctor ",
+      "views": 3785010,
+      "likes": 155997,
+      "publishedAt": "2026-09-26T00:32:12Z",
+      "url": "https://www.youtube.com/watch?v=8mzPWSJH13E",
       "tags": [],
       "description": ""
     },
@@ -78,8 +101,8 @@
       "category": "Science & Tech",
       "title": "Who pays more for an old iPhone? #shorts",
       "channel": "Dylan Ayres",
-      "views": 2987752,
-      "likes": 126464,
+      "views": 3651975,
+      "likes": 150681,
       "publishedAt": "2026-09-24T17:34:09Z",
       "url": "https://www.youtube.com/watch?v=oxegMXLWfzA",
       "tags": [],
@@ -90,8 +113,8 @@
       "category": "Science & Tech",
       "title": "The Wolverine PS5 Is Actually INSANE",
       "channel": "Kyle Krueger",
-      "views": 2978005,
-      "likes": 86023,
+      "views": 3247958,
+      "likes": 91767,
       "publishedAt": "2026-09-25T00:21:40Z",
       "url": "https://www.youtube.com/watch?v=J6A_2wCXRl4",
       "tags": [],
@@ -100,34 +123,34 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "BIGGEST ISSUE FLIPS/FOLD PHONES!!! #smartphone #problemfix #brokenfix #screenbreak #techtok",
-      "channel": "Digital Doctor ",
-      "views": 2880465,
-      "likes": 127924,
-      "publishedAt": "2026-09-26T00:32:12Z",
-      "url": "https://www.youtube.com/watch?v=8mzPWSJH13E",
+      "title": "Do this to your nasty charging cable",
+      "channel": "CarterPCs",
+      "views": 2562940,
+      "likes": 69180,
+      "publishedAt": "2026-09-30T04:37:13Z",
+      "url": "https://www.youtube.com/watch?v=xY8nLOeX1_o",
+      "tags": [],
+      "description": "Do this to your nasty charging cable\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "She built one console out of a PS5, Xbox, and Nintendo Switch 🤯🔧",
+      "channel": "Bubbly Eyez",
+      "views": 2326165,
+      "likes": 47265,
+      "publishedAt": "2026-09-24T09:00:19Z",
+      "url": "https://www.youtube.com/watch?v=7isE7Mgu5AU",
       "tags": [],
       "description": ""
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Guessing your gaming headset in 5 tries..",
-      "channel": "CarterPCs",
-      "views": 2747323,
-      "likes": 84296,
-      "publishedAt": "2026-09-28T06:36:46Z",
-      "url": "https://www.youtube.com/watch?v=FwZivqkJP94",
-      "tags": [],
-      "description": "Guessing your gaming headset in 5 tries..\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Pass Through Sockets?? #tools #contractor #mechanic",
       "channel": "Chris Garage78",
-      "views": 2175760,
-      "likes": 27663,
+      "views": 2247101,
+      "likes": 28504,
       "publishedAt": "2026-09-19T21:41:20Z",
       "url": "https://www.youtube.com/watch?v=WXMPUg3948k",
       "tags": [],
@@ -136,12 +159,24 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "She built one console out of a PS5, Xbox, and Nintendo Switch 🤯🔧",
-      "channel": "Bubbly Eyez",
-      "views": 1523782,
-      "likes": 29094,
-      "publishedAt": "2026-09-24T09:00:19Z",
-      "url": "https://www.youtube.com/watch?v=7isE7Mgu5AU",
+      "title": "PC GAMING IS COOKED #shorts",
+      "channel": "jacobweeby",
+      "views": 1540480,
+      "likes": 95419,
+      "publishedAt": "2026-09-29T22:59:30Z",
+      "url": "https://www.youtube.com/watch?v=wtbmIebNz5w",
+      "tags": [],
+      "description": "$6K for a graphics card is INSANE 😭 \n\n#steam #xboxseriesx #xbox #ps5 #playstation #gaming #skit #fyp #funny #shorts"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "How Candles Can Replace A Wii Sensor Bar 🤔",
+      "channel": "Zack D. Films",
+      "views": 603516,
+      "likes": 31114,
+      "publishedAt": "2026-09-30T21:30:30Z",
+      "url": "https://www.youtube.com/watch?v=Yqs0BjH3YCs",
       "tags": [],
       "description": ""
     }
@@ -149,43 +184,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "AI tools",
-        "trend_score": 92
-      },
-      {
         "keyword": "self improvement",
         "trend_score": 92
       },
       {
-        "keyword": "AI workflow",
-        "trend_score": 92
-      },
-      {
-        "keyword": "ChatGPT",
+        "keyword": "AI tools",
         "trend_score": 91
       },
       {
-        "keyword": "productivity tools",
-        "trend_score": 90
-      },
-      {
-        "keyword": "AI for business",
+        "keyword": "ChatGPT",
         "trend_score": 88
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 85
+        "keyword": "AI workflow",
+        "trend_score": 86
       },
       {
-        "keyword": "automation tools",
-        "trend_score": 84
+        "keyword": "entrepreneur",
+        "trend_score": 82
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 80
+        "trend_score": 81
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 79
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 79
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 78
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-09-30T03:31:54.265Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price\" — 823 pts\n• [HackerNews] \"Dots: Always-on agents\" — 479 pts\n• [HackerNews] \"Sustainable energy without the hot air (2008)\" — 139 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"How Steve Jobs Ended BlackBerry & Nokia's Reign #podcast #clips #successmindset\" by Founders Bits — 31874k views\n• [YouTube Global] \"We Built the Product Apple Gave Up On...\" by HTX Studio — 7714k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 6253k views\n• [YouTube Global] \"How RAM Works 🤔\" by Zack D. Films — 3396k views\n• [YouTube Global] \"Who pays more for an old iPhone? #shorts\" by Dylan Ayres — 2988k views\n• [YouTube Global] \"The Wolverine PS5 Is Actually INSANE\" by Kyle Krueger — 2978k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 92), self improvement (score: 92), AI workflow (score: 92), ChatGPT (score: 91), productivity tools (score: 90), AI for business (score: 88), entrepreneur (score: 85), automation tools (score: 84), solopreneur (score: 80)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-01T03:31:52.530Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Gemini 4 Argon\" — 1074 pts\n• [HackerNews] \"Surprisingly complex waves reveal the brain's inner workings\" — 135 pts\n• [HackerNews] \"Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents\" — 131 pts\n• [HackerNews] \"CHOMPI portable sampler instrument is now open-source (hardware and software)\" — 50 pts\n• [HackerNews] \"Show HN: Lathoa, a math app for kids where the AI is wrong on purpose\" — 37 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"We Built the Product Apple Gave Up On...\" by HTX Studio — 8410k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 6442k views\n• [YouTube Global] \"BIGGEST ISSUE FLIPS/FOLD PHONES!!! #smartphone #problemfix #brokenfix #screenbreak #techtok\" by Digital Doctor  — 3785k views\n• [YouTube Global] \"Who pays more for an old iPhone? #shorts\" by Dylan Ayres — 3652k views\n• [YouTube Global] \"The Wolverine PS5 Is Actually INSANE\" by Kyle Krueger — 3248k views\n• [YouTube Global] \"Do this to your nasty charging cable\" by CarterPCs — 2563k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 92), AI tools (score: 91), ChatGPT (score: 88), AI workflow (score: 86), entrepreneur (score: 82), solopreneur (score: 81), AI for business (score: 79), productivity tools (score: 79), automation tools (score: 78)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

@@ -1,48 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Always-On Dots Agents Automation",
-    "hook": "Breaking news! OpenAI just launched Dots, and the simplest way to describe them is always-on agents that run while you sleep.",
+    "title": "The 5 Lacs Bank Balance Rule for Indian Freelancers",
+    "hook": "If you don't have 5 Lacs in your bank account, you should not be spending weekends at expensive cafes in Mumbai or Bangalore.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Directly remixes @thevarunmayya's top-performing post format on the new Dots feature, perfect for the Indian audience eager for cutting-edge automation. Backed by proven mega-account virality thresholds.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Dd4YFpdziV4/"
-  },
-  {
-    "title": "Solopreneur Tool-Hopping Trap",
-    "hook": "If you are constantly switching between 20 different AI tools every week, you are not building a business—you are just procrastinating with fancy software.",
-    "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Directly targets solopreneur psychology and burnout, representing strong 1.5-2x average engagement territory for Indian creators. Highly relatable builder narrative.",
+    "reasoning": "Sourced from @dhavalkataria_ (53k followers) whose post average of 10,170 likes massively exceeds the 3,000-like viral threshold for medium accounts. The harsh financial boundary framework generates explosive comment section debate and high shareability.",
     "niche": "Entrepreneurship",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/DYCgdsyxQYC/"
   },
   {
-    "title": "Claude Max Free Tier Loophole",
-    "hook": "You can now claim your free Anthropic Claude access through this lesser-known developer program.",
+    "rank": 2,
+    "title": "The 3 Golden Rules for Pitching High-Ticket B2B Clients",
+    "hook": "How we closed a 2 Lakh rupee Indian client by showing proof of work instead of sending a 20-page proposal.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Directly models high-performing utility hooks from @nivedan.ai and @arshman, hitting the sweet spot of high-save developer content.",
+    "score": "HIGH",
+    "reasoning": "Based on @dhavalkataria_'s proven high-revenue case study format that delivers 10k+ average likes, far surpassing medium account virality criteria. Directly targets freelancers and agency owners with actionable B2B closing tactics.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/DZ5AslaoJec/"
+  },
+  {
+    "rank": 3,
+    "title": "Why Free AI Tools Track Your Data and What to Use Instead",
+    "hook": "If an AI tool on Instagram is 100% free, you are not the customer—your private business data is the product.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Directly backed by @garvit.irl's own top-performing reel which beat the 300-like threshold for small accounts with strong engagement. Establishes authentic industry authority and deep audience trust through counter-narrative education.",
     "niche": "AI",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/DdrDPZzpx45/"
   },
   {
-    "title": "Temple Smart Ring First Impressions",
-    "hook": "I am one of the few hundred people wearing the Temple smart ring right now, and it feels like sci-fi brain tech.",
+    "rank": 4,
+    "title": "Why You Should Build Proof of Work Before Applying for Jobs",
+    "hook": "Instead of sending 100 blind resumes on LinkedIn, build one working AI project for a company and tag their CEO.",
     "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Leverages elite creator validation for high consumer tech curiosity, scoring well above medium account follower baselines.",
-    "niche": "Hardware and Tech Gadgets",
-    "sourceUrl": ""
+    "score": "HIGH",
+    "reasoning": "Leverages original concept performance from @garvit.irl's viral proof-of-work format, outperforming standard small-account benchmarks. Offers clear career transition value to tech students and young developers.",
+    "niche": "Self-growth",
+    "sourceUrl": "https://www.instagram.com/p/DdyhPKVyoEm/"
   },
   {
-    "title": "Higgsfield Unified API for Video Generation",
-    "hook": "This is now the cheapest way to generate AI video without monthly subscriptions or expiring credits.",
-    "format": "Reel",
-    "score": "MEDIUM",
-    "reasoning": "Provides immediate practical value for video creators and digital solopreneurs, echoing top technical utility metrics from @nick_saraev.",
+    "rank": 5,
+    "title": "One-Person Agency Blueprint with Claude Projects",
+    "hook": "You don't need employees to run a 2 Lakh per month agency in 2026. You just need 4 files inside Claude.",
+    "format": "Carousel",
+    "score": "HIGH",
+    "reasoning": "Adapts strong performance signals from @aryamanupmanyu (78k followers) focusing on modern Claude workflow blueprints. The high utility carousel format triggers exceptional save-to-share ratios among solo builders.",
     "niche": "AI",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/DadSk9vSTcZ/"
   }
 ]

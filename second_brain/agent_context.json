@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T03:31:54.385Z",
+  "updated_at": "2026-10-01T03:31:52.653Z",
   "your_performance": {
     "posts_analyzed": 42,
     "best_hook_type": "contrarian",
@@ -193,11 +193,11 @@
     ]
   },
   "diff_learning": {
-    "posts_with_diff": 37,
-    "insights": "37 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
+    "posts_with_diff": 38,
+    "insights": "38 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.32%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
   },
   "niche_performance": {
-    "total_hooks": 77,
+    "total_hooks": 81,
     "total_scripts": 112,
     "viral_scripts": 37,
     "best_hook_type": "pattern_interrupt",
@@ -205,48 +205,36 @@
     "by_hook_type": [
       {
         "type": "pattern_interrupt",
-        "avg": 6932,
+        "avg": 6958.5,
         "count": 2
       },
       {
-        "type": "story",
-        "avg": 4593.67,
-        "count": 52
-      },
-      {
         "type": "curiosity_gap",
-        "avg": 4307.71,
+        "avg": 4364.86,
         "count": 7
       },
       {
-        "type": "relatability",
-        "avg": 3011.5,
-        "count": 4
+        "type": "story",
+        "avg": 4216.44,
+        "count": 55
       },
       {
         "type": "question",
-        "avg": 2620.44,
-        "count": 9
+        "avg": 2997.2,
+        "count": 10
+      },
+      {
+        "type": "relatability",
+        "avg": 2514.8,
+        "count": 5
       },
       {
         "type": "bold_claim",
-        "avg": 747.33,
-        "count": 3
+        "avg": 47,
+        "count": 2
       }
     ],
     "top_hooks": [
-      {
-        "id": "3982558243502093344_26526554234",
-        "text": "And as we open that display, just seamlessly folds into that full screen view.",
-        "source": "transcript",
-        "type": "story",
-        "format": "Reel",
-        "account": "@ishansharma7390",
-        "postUrl": "https://www.instagram.com/p/DdE4585PvQg/",
-        "likes": 60549,
-        "comments": 688,
-        "added_at": "2026-09-30T03:31:54.344Z"
-      },
       {
         "id": "3970814642533503560_1411361583",
         "text": "If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.",
@@ -255,9 +243,21 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-        "likes": 37434,
-        "comments": 6964,
-        "added_at": "2026-09-30T03:31:54.345Z"
+        "likes": 37641,
+        "comments": 6993,
+        "added_at": "2026-10-01T03:31:52.587Z"
+      },
+      {
+        "id": "3901189222851344478_1411361583",
+        "text": "This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.",
+        "source": "transcript",
+        "type": "story",
+        "format": "Reel",
+        "account": "@dhavalkataria_",
+        "postUrl": "https://www.instagram.com/p/DYjzu3Fovhe/",
+        "likes": 28103,
+        "comments": 9045,
+        "added_at": "2026-10-01T03:31:52.588Z"
       },
       {
         "id": "3603432541911984451_48619065725",
@@ -267,9 +267,21 @@
         "format": "Reel",
         "account": "@aryamanupmanyu",
         "postUrl": "https://www.instagram.com/p/DIB9s4YvylD/",
-        "likes": 27673,
-        "comments": 31455,
-        "added_at": "2026-09-30T03:31:54.344Z"
+        "likes": 27674,
+        "comments": 31457,
+        "added_at": "2026-10-01T03:31:52.584Z"
+      },
+      {
+        "id": "3891815806451123714_1411361583",
+        "text": "If you are not making 1 lakh a month, you should not be allowed to do these 5 things.  Number 1, have a girlfriend.  Instead of spending 10,000 rupees and wasting 2 days of your life every weekend, pick up a side hustle and start making more money.",
+        "source": "transcript",
+        "type": "story",
+        "format": "Reel",
+        "account": "@dhavalkataria_",
+        "postUrl": "https://www.instagram.com/p/DYCgdsyxQYC/",
+        "likes": 16744,
+        "comments": 28624,
+        "added_at": "2026-10-01T03:31:52.588Z"
       },
       {
         "id": "3976687439442723344_72269881052",
@@ -279,21 +291,9 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/DcwCCgivcIQ/",
-        "likes": 15205,
-        "comments": 11236,
-        "added_at": "2026-09-30T03:31:54.335Z"
-      },
-      {
-        "id": "3916455154859376104_1411361583",
-        "text": "These four ChatGPT prompts made me 1 lakh rupees in 7 days.  Here's how you can copy me step by step.  Prompt 1: Sabse pehle I gave ChatGPT my state and city name, then I asked it to give me the biggest pain points of businesses in my city.",
-        "source": "transcript",
-        "type": "curiosity_gap",
-        "format": "Reel",
-        "account": "@dhavalkataria_",
-        "postUrl": "https://www.instagram.com/p/DZaCzaMI_3o/",
-        "likes": 12732,
-        "comments": 2546,
-        "added_at": "2026-09-30T03:31:54.345Z"
+        "likes": 15325,
+        "comments": 11307,
+        "added_at": "2026-10-01T03:31:52.574Z"
       }
     ]
   },
@@ -344,5 +344,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (42 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n37 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (77 hooks, 112 scripts):\nBest hook type in niche: pattern_interrupt\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"And as we open that display, just seamlessly folds into that full screen view.\" (60549 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (37434 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27673 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (15205 likes) | \"These four ChatGPT prompts made me 1 lakh rupees in 7 days.  Here's how you can copy me step by step.  Prompt 1: Sabse pehle I gave ChatGPT my state and city name, then I asked it to give me the biggest pain points of businesses in my city.\" (12732 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (42 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n38 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15.32%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (81 hooks, 112 scripts):\nBest hook type in niche: pattern_interrupt\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (37641 likes) | \"This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.\" (28103 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27674 likes) | \"If you are not making 1 lakh a month, you should not be allowed to do these 5 things.  Number 1, have a girlfriend.  Instead of spending 10,000 rupees and wasting 2 days of your life every weekend, pick up a side hustle and start making more money.\" (16744 likes) | \"Don't start vibe coding with Claude Code unless you've installed these four plugins.  The first is Ponytail, which optimizes Claude Code's output and cuts your token usage by over 50% without losing you any accuracy at all.  The second is Omniroute, which gives Claude Code almost unlimited usage by connecting it to over 300 other free AI providers.\" (15325 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }
