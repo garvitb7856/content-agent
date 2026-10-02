@@ -1076,6 +1076,35 @@
         "analysedAt": "2026-09-30T03:32:42.291Z"
       },
       "updatedAt": "2026-09-30T03:31:54.336Z"
+    },
+    {
+      "id": "3996923502006632857_65880404765",
+      "shortCode": "Dd37L-bhAGZ",
+      "caption": "Follow karke comment karo guys for the link ✌🏻",
+      "url": "https://www.instagram.com/p/Dd37L-bhAGZ/",
+      "postedAt": "2026-09-29T14:00:06.000Z",
+      "archivedAt": "2026-10-02T03:31:45.384Z",
+      "format": "Video",
+      "topics": [],
+      "finalLikes": 88,
+      "finalComments": 163,
+      "engagementRate": 2.79,
+      "hookText": "Follow karke comment karo guys for the link ✌🏻",
+      "postId": "3996923502006632857_65880404765",
+      "postUrl": "https://www.instagram.com/p/Dd37L-bhAGZ/",
+      "likes_at_48h": 88,
+      "comments_at_48h": 163,
+      "engagement_at_48h": 2.79,
+      "followers_at_post": 8990,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 8,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-10-02T03:39:46.482Z"
+      },
+      "updatedAt": "2026-10-02T03:31:48.768Z"
     }
   ]
 }

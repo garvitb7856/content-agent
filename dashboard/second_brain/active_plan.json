@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-01",
-  "end_date": "2026-10-08",
+  "generated_on": "2026-10-02",
+  "end_date": "2026-10-09",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-01",
-      "topic": "The 5 Lacs Bank Balance Rule for Indian Freelancers",
+      "date": "2026-10-02",
+      "topic": "Bypassing Claude Code paywalls using Awesome Free LLM APIs (GitHub tool setup)",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "If you don't have 5 Lacs saved, stop doing this.",
+      "post_time": "6:30 PM IST",
+      "hook": "Get unlimited free Claude Code access using this GitHub tool.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-02",
-      "topic": "One-Person AI Agency Blueprint Using Claude Projects",
+      "date": "2026-10-03",
+      "topic": "5 Free Claude Code Plugins to 10x Developer Setup (claude-mem, find-skills, auto-refactor, etc.)",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Run a 1-person AI agency using just 4 files.",
+      "post_time": "7:15 PM IST",
+      "hook": "5 free Claude Code plugins to 10x your workflow.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-03",
-      "topic": "The Ground Reality of Free AI Tools & Data Privacy",
+      "date": "2026-10-04",
+      "topic": "Monetizing Viral Reach: Turning 1 Viral Video into 16 Lakhs in B2B Retainers",
       "format": "Reel",
-      "post_time": "8:15 PM IST",
-      "hook": "Stop using free AI tools before you lose your data.",
+      "post_time": "6:45 PM IST",
+      "hook": "How to turn 1 viral video into 16 Lakhs.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-04",
-      "topic": "5 Free AI Extensions to Supercharge Your Setup",
+      "date": "2026-10-05",
+      "topic": "Fix Your UI: How AI Builders Can Stop Making Ugly \"Vibe-Coded\" Websites",
       "format": "Carousel",
       "post_time": "7:30 PM IST",
-      "hook": "5 free AI plugins that will 10x your output.",
+      "hook": "Stop building ugly AI websites! Do this design breakdown.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-05",
-      "topic": "How to Close a 2 Lakh B2B Client Without Sending Proposals",
+      "date": "2026-10-06",
+      "topic": "Pay-Per-Generation Cheap AI Video Setup via Single API (Higgsfield API breakdown)",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "How I closed a 2 Lakh client with zero resume.",
+      "post_time": "7:00 PM IST",
+      "hook": "Generate cheap AI videos without paying monthly SaaS subscriptions.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-06",
-      "topic": "Turning 1 Skill Into a Monetizable Business in 30 Minutes",
+      "date": "2026-10-07",
+      "topic": "The 4-Prompt Workflow to Build & Automate a Faceless AI YouTube Channel",
       "format": "Carousel",
       "post_time": "8:00 PM IST",
-      "hook": "Turn any skill into a business in 30 minutes.",
+      "hook": "Build a faceless YouTube channel using these 4 prompts.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-07",
-      "topic": "Building Proof of Work to Get Hired Instead of Cold Resumes",
+      "date": "2026-10-08",
+      "topic": "High-Margin B2B AI Agency Model: AI Legal & Contract Intelligence Setup",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop sending resumes. Do this to get hired fast.",
+      "post_time": "6:30 PM IST",
+      "hook": "This AI legal model beats a lawyer in 26 seconds.",
       "status": "pending"
     }
   ]

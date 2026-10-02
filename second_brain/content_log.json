@@ -951,6 +951,30 @@
     "url": "https://www.instagram.com/p/Dd37L-bhAGZ/",
     "type": "Video",
     "loggedAt": "2026-09-30T03:31:49.964Z",
+    "archived": true,
+    "likes_at_48h": 88,
+    "comments_at_48h": 163,
+    "engagement_at_48h": 2.79,
+    "followers_at_post": 8990,
+    "performance_complete": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 8,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-10-02T03:39:46.482Z"
+    }
+  },
+  {
+    "id": "3998280542931511356_65880404765",
+    "shortCode": "Dd8vvhRyeg8",
+    "caption": "Follow me and Comment anything and i will send you the link !",
+    "timestamp": "2026-10-01T10:57:35.000Z",
+    "likesCount": 31,
+    "commentsCount": 35,
+    "url": "https://www.instagram.com/p/Dd8vvhRyeg8/",
+    "type": "Video",
+    "loggedAt": "2026-10-02T03:31:45.384Z",
     "archived": false
   }
 ]
