@@ -1,0 +1,11 @@
+{
+  "postId": "3997577807835647667_72269881052",
+  "handle": "nick_saraev",
+  "postUrl": "https://www.instagram.com/p/Dd6P9YOB06z/",
+  "transcript": "Someone just released a free open-source version of Jev and it's actually way faster and cheaper. It's called laya and it's a classifier model that you can run locally on your own computer. And it does the exact same job as Jev, but takes only around 30 milliseconds to answer while Jev takes closer to 200. The only problem is that the base model isn't good at everything out of the box, so it needs to be fine-tuned and trained for your specific use case. And you can do that with the help of Claude Code really easily. Once you're done, it can even match Jev on accuracy, except do it in a 10th of the time. So if you want a guide to set it up yourself, just comment Jev below and I'll send you the link directly.",
+  "caption": "Comment \"JEV\" to get the setup guide for Laya, the Free and Opensource Jev alternative.\n\nSomeone just released a free and open source version of Jev, and it's actually way faster and cheaper.\n\nIt's called Laya.\n\nIt's a classifier model that you can run locally on your own computer.\n\nIt does the exac",
+  "timestamp": "2026-09-30T11:40:07.000Z",
+  "transcribedAt": "2026-10-03T03:36:03.482Z",
+  "likes": 0,
+  "comments": 0
+}

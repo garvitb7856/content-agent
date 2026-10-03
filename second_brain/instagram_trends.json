@@ -1,72 +1,61 @@
 {
-  "generated_at": "2026-10-02T03:31:45.377Z",
+  "generated_at": "2026-10-03T03:32:03.386Z",
   "hotRightNow": [
     {
-      "username": "vaibhavsisinty",
-      "caption": "I think this was what touching grass actually means😅",
-      "likes": 16230,
-      "comments": 138,
-      "engagement": 16368,
-      "engRate": "0.75",
-      "timestamp": "2026-10-01T10:23:33.000Z",
-      "url": "https://www.instagram.com/p/Dd8r8anFPEl/",
-      "type": "Post"
-    },
-    {
-      "username": "thevarunmayya",
-      "caption": "How does Garmin’s Autoland (coming soon to commercial Airbus flights) work?",
-      "likes": 1614,
-      "comments": 17,
-      "engagement": 1631,
-      "engRate": "0.13",
-      "timestamp": "2026-10-02T00:07:39.000Z",
-      "url": "https://www.instagram.com/p/Dd-KJ5gTchA/",
+      "username": "ishansharma7390",
+      "caption": "Stuff of dreams🥹🥹",
+      "likes": 9575,
+      "comments": 378,
+      "engagement": 9953,
+      "engRate": "0.78",
+      "timestamp": "2026-10-02T05:17:42.000Z",
+      "url": "https://www.instagram.com/p/Dd-tpadoyAa/",
       "type": "Video"
     },
     {
       "username": "nick_saraev",
-      "caption": "Comment \"CODING\" to get this Free AI Coding Agent.\n\nYou can now vibe code with GPT-6, GLM 5.3 and De",
-      "likes": 702,
-      "comments": 628,
-      "engagement": 1330,
-      "engRate": "0.19",
-      "timestamp": "2026-10-01T18:05:09.000Z",
-      "url": "https://www.instagram.com/p/Dd9gsWCTDFE/",
+      "caption": "Comment \"VIDEO\" to get this AI production studio.\n\nThis free AI tool turns your Claude Code into a f",
+      "likes": 1677,
+      "comments": 2761,
+      "engagement": 4438,
+      "engRate": "0.64",
+      "timestamp": "2026-10-02T14:33:43.000Z",
+      "url": "https://www.instagram.com/p/Dd_tRbkP0qO/",
       "type": "Video"
     },
     {
-      "username": "nivedan.ai",
-      "caption": "Your resume could be the reason you’re not getting interview calls. 👀\n\nThese 3 ChatGPT prompts help",
-      "likes": 344,
-      "comments": 678,
-      "engagement": 1022,
-      "engRate": "0.19",
-      "timestamp": "2026-10-01T10:01:09.000Z",
-      "url": "https://www.instagram.com/p/Dd8pTh_J_uG/",
+      "username": "vaibhavsisinty",
+      "caption": "12 things OpenAI dropped at DevDay\n\ndots, an AI assistant that never switches off and connects to 4,",
+      "likes": 1395,
+      "comments": 15,
+      "engagement": 1410,
+      "engRate": "0.06",
+      "timestamp": "2026-10-02T15:20:21.000Z",
+      "url": "https://www.instagram.com/p/Dd_yi3RAcTk/",
       "type": "Video"
     },
     {
-      "username": "ishansharma7390",
-      "caption": "Setup Claude better than 99% people!🔥",
-      "likes": 861,
-      "comments": 6,
-      "engagement": 867,
-      "engRate": "0.07",
-      "timestamp": "2026-10-01T12:58:34.000Z",
-      "url": "https://www.instagram.com/p/Dd89deUIhxW/",
+      "username": "arshman",
+      "caption": "Looks good on the model but not on you? \nThis ChatGPT setup gives you an end-to-end system by enteri",
+      "likes": 454,
+      "comments": 515,
+      "engagement": 969,
+      "engRate": "0.26",
+      "timestamp": "2026-10-02T04:56:32.000Z",
+      "url": "https://www.instagram.com/p/Dd-rCJfurqp/",
       "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 3847,
-      "count": 29
+      "avgEng": 4406,
+      "count": 27
     },
     {
       "format": "post",
-      "avgEng": 2266,
-      "count": 9
+      "avgEng": 3384,
+      "count": 7
     }
   ],
   "trendingTopics": [
@@ -100,31 +89,31 @@
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 71566,
+      "likes": 71952,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 86771,
+      "likes": 86803,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98362,
+      "likes": 98367,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 25487,
+      "likes": 25827,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 72566,
+      "likes": 72725,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

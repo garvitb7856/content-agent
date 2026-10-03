@@ -1,56 +1,98 @@
 {
-  "fetched_at": "2026-10-02T03:31:48.681Z",
+  "fetched_at": "2026-10-03T03:32:06.439Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Vote on which of Hacker News' challenges for AI have been met",
-      "score": 107,
-      "comments": 114,
-      "url": "https://stoppels.ch/goalposts/"
+      "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+      "score": 21,
+      "comments": 9,
+      "url": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf"
     },
     {
       "source": "hackernews",
-      "title": "Aweb – Communication for AI Agents",
-      "score": 27,
-      "comments": 17,
-      "url": "https://aweb.ai"
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "score": 191,
+      "comments": 92,
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
-      "score": 90,
-      "comments": 30,
-      "url": "https://news.ycombinator.com/item?id=49911500"
-    },
-    {
-      "source": "hackernews",
-      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "title": "From the creator of Redis; run LLM locally with ds4",
       "score": 174,
-      "comments": 102,
-      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design"
+      "comments": 44,
+      "url": "https://dwarfstar.sh/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "score": 193,
+      "comments": 52,
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "score": 80,
+      "comments": 41,
+      "url": "https://github.com/anteloc/ldraw-nova"
+    },
+    {
+      "source": "hackernews",
+      "title": "Sites in ChatGPT",
+      "score": 227,
+      "comments": 226,
+      "url": "https://chatgpt.com/features/sites/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Venice’s failed war against Constantinople led to the first bond market",
+      "score": 86,
+      "comments": 24,
+      "url": "https://bigthink.com/books/a-fabulous-debt/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "score": 219,
+      "comments": 72,
+      "url": "https://stillwet.art/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Every SaaS business will become a harness around a model",
+      "score": 114,
+      "comments": 84,
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company"
+    },
+    {
+      "source": "hackernews",
+      "title": "Anatomy of a Lean proof for software engineers",
+      "score": 90,
+      "comments": 18,
+      "url": "https://agostbiro.net/posts/2026-10-anatomy-of-a-lean-proof/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "We Built the Product Apple Gave Up On...",
-      "channel": "HTX Studio",
-      "views": 8746426,
-      "likes": 633208,
-      "publishedAt": "2026-09-24T12:00:25Z",
-      "url": "https://www.youtube.com/watch?v=yAabREkiUEs",
+      "title": "Which AI is smartest?",
+      "channel": "Mrwhosetheboss",
+      "views": 9876454,
+      "likes": 314622,
+      "publishedAt": "2026-10-01T14:21:22Z",
+      "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
       "tags": [],
-      "description": ""
+      "description": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "My teacher's laptop was connected to the PROJECTOR the whole time!",
       "channel": "Xenost ",
-      "views": 6609787,
-      "likes": 89088,
+      "views": 6859895,
+      "likes": 91141,
       "publishedAt": "2026-09-26T14:33:54Z",
       "url": "https://www.youtube.com/watch?v=7KlT-vHYqP4",
       "tags": [],
@@ -61,8 +103,8 @@
       "category": "Science & Tech",
       "title": "BIGGEST ISSUE FLIPS/FOLD PHONES!!! #smartphone #problemfix #brokenfix #screenbreak #techtok",
       "channel": "Digital Doctor ",
-      "views": 4254236,
-      "likes": 176055,
+      "views": 4843938,
+      "likes": 199683,
       "publishedAt": "2026-09-26T00:32:12Z",
       "url": "https://www.youtube.com/watch?v=8mzPWSJH13E",
       "tags": [],
@@ -71,34 +113,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Do this to your nasty charging cable",
-      "channel": "CarterPCs",
-      "views": 3275292,
-      "likes": 85208,
-      "publishedAt": "2026-09-30T04:37:13Z",
-      "url": "https://www.youtube.com/watch?v=xY8nLOeX1_o",
-      "tags": [],
-      "description": "Do this to your nasty charging cable\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Which AI is smartest?",
-      "channel": "Mrwhosetheboss",
-      "views": 2782813,
-      "likes": 115715,
-      "publishedAt": "2026-10-01T14:21:22Z",
-      "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
-      "tags": [],
-      "description": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "She built one console out of a PS5, Xbox, and Nintendo Switch 🤯🔧",
       "channel": "Bubbly Eyez",
-      "views": 2698499,
-      "likes": 57400,
+      "views": 2981280,
+      "likes": 61951,
       "publishedAt": "2026-09-24T09:00:19Z",
       "url": "https://www.youtube.com/watch?v=7isE7Mgu5AU",
       "tags": [],
@@ -109,8 +127,8 @@
       "category": "Science & Tech",
       "title": "How Candles Can Replace A Wii Sensor Bar 🤔",
       "channel": "Zack D. Films",
-      "views": 2007949,
-      "likes": 78126,
+      "views": 2465473,
+      "likes": 88268,
       "publishedAt": "2026-09-30T21:30:30Z",
       "url": "https://www.youtube.com/watch?v=Yqs0BjH3YCs",
       "tags": [],
@@ -119,10 +137,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "How does a computer get that dusty?? 4K_Steak",
+      "channel": "CarterPCs",
+      "views": 2459287,
+      "likes": 141301,
+      "publishedAt": "2026-10-02T04:36:09Z",
+      "url": "https://www.youtube.com/watch?v=O9VoG4cSkaY",
+      "tags": [],
+      "description": "How does a computer get that dusty?? 4K_Steak\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "PC GAMING IS COOKED #shorts",
       "channel": "jacobweeby",
-      "views": 1796815,
-      "likes": 105883,
+      "views": 1934521,
+      "likes": 110762,
       "publishedAt": "2026-09-29T22:59:30Z",
       "url": "https://www.youtube.com/watch?v=wtbmIebNz5w",
       "tags": [],
@@ -131,22 +161,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "The new iOS 27 has a big issue! 👀",
-      "channel": "TechLect",
-      "views": 1028116,
-      "likes": 13885,
-      "publishedAt": "2026-09-29T03:47:28Z",
-      "url": "https://www.youtube.com/watch?v=qCYKiHz7IpM",
-      "tags": [],
-      "description": "The new iOS 27 Update has a big Problem! 👀"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Sandpaper vs atomic force microscope",
       "channel": "NileRed Extra",
-      "views": 833215,
-      "likes": 13763,
+      "views": 1403724,
+      "likes": 24614,
       "publishedAt": "2026-09-29T15:18:00Z",
       "url": "https://www.youtube.com/watch?v=Fmdp2b9_7a0",
       "tags": [
@@ -157,48 +175,72 @@
         "science"
       ],
       "description": "I'm really excited to use this microscope for future projects and I want to thank icspi for lending it to us: https://www.icspicorp.com\n\nThis atomic f"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "iPhone 18 Pro Max Dark Cherry #noads #tiktok #usashortsfeeds",
+      "channel": "Midi Gamer",
+      "views": 813938,
+      "likes": 4549,
+      "publishedAt": "2026-10-02T12:00:37Z",
+      "url": "https://www.youtube.com/watch?v=JnwJIf_Usu0",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Hackers Have Fully Broke The PS5 😭😭",
+      "channel": "Jorski",
+      "views": 723988,
+      "likes": 25443,
+      "publishedAt": "2026-10-02T03:13:01Z",
+      "url": "https://www.youtube.com/watch?v=LDPKbvZw2aA",
+      "tags": [],
+      "description": "Hackers Have Fully Broke The PS5 😭😭\n\nsubscribeskiiii"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "ChatGPT",
-        "trend_score": 95
+        "trend_score": 85
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 84
+        "trend_score": 77
       },
       {
         "keyword": "AI tools",
-        "trend_score": 78
+        "trend_score": 74
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 76
-      },
-      {
-        "keyword": "automation tools",
         "trend_score": 68
       },
       {
-        "keyword": "self improvement",
-        "trend_score": 67
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 66
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 62
+        "keyword": "automation tools",
+        "trend_score": 60
       },
       {
         "keyword": "AI for business",
-        "trend_score": 61
+        "trend_score": 57
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 55
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 54
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 54
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-02T03:31:48.681Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Vote on which of Hacker News' challenges for AI have been met\" — 107 pts\n• [HackerNews] \"Aweb – Communication for AI Agents\" — 27 pts\n• [HackerNews] \"Show HN: Open-source model routing for coding agents at Astra-level performance\" — 90 pts\n• [HackerNews] \"GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design\" — 174 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"We Built the Product Apple Gave Up On...\" by HTX Studio — 8746k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 6610k views\n• [YouTube Global] \"BIGGEST ISSUE FLIPS/FOLD PHONES!!! #smartphone #problemfix #brokenfix #screenbreak #techtok\" by Digital Doctor  — 4254k views\n• [YouTube Global] \"Do this to your nasty charging cable\" by CarterPCs — 3275k views\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 2783k views\n• [YouTube Global] \"She built one console out of a PS5, Xbox, and Nintendo Switch 🤯🔧\" by Bubbly Eyez — 2698k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 95), solopreneur (score: 84), AI tools (score: 78), entrepreneur (score: 76), automation tools (score: 68), self improvement (score: 67), AI workflow (score: 66), productivity tools (score: 62), AI for business (score: 61)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-03T03:32:06.439Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]\" — 21 pts\n• [HackerNews] \"With most information hidden, the game Stratego had stumped AI until now\" — 191 pts\n• [HackerNews] \"From the creator of Redis; run LLM locally with ds4\" — 174 pts\n• [HackerNews] \"Greg Kroah-Hartman – Security in the LLM Age [video]\" — 193 pts\n• [HackerNews] \"Show HN: Made an open-source Lego AI generator\" — 80 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 9876k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 6860k views\n• [YouTube Global] \"BIGGEST ISSUE FLIPS/FOLD PHONES!!! #smartphone #problemfix #brokenfix #screenbreak #techtok\" by Digital Doctor  — 4844k views\n• [YouTube Global] \"She built one console out of a PS5, Xbox, and Nintendo Switch 🤯🔧\" by Bubbly Eyez — 2981k views\n• [YouTube Global] \"How Candles Can Replace A Wii Sensor Bar 🤔\" by Zack D. Films — 2465k views\n• [YouTube Global] \"How does a computer get that dusty?? 4K_Steak\" by CarterPCs — 2459k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 85), solopreneur (score: 77), AI tools (score: 74), entrepreneur (score: 68), automation tools (score: 60), AI for business (score: 57), self improvement (score: 55), productivity tools (score: 54), AI workflow (score: 54)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
