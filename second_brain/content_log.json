@@ -975,7 +975,7 @@
     "url": "https://www.instagram.com/p/Dd8vvhRyeg8/",
     "type": "Video",
     "loggedAt": "2026-10-02T03:31:45.384Z",
-    "archived": false
+    "archived": true
   },
   {
     "id": "3999113587985074442_65880404765",
@@ -987,6 +987,18 @@
     "url": "https://www.instagram.com/p/Dd_tJ68SckK/",
     "type": "Video",
     "loggedAt": "2026-10-03T03:32:03.392Z",
+    "archived": false
+  },
+  {
+    "id": "3999852864943509969_65880404765",
+    "shortCode": "DeCVP0QyVHR",
+    "caption": "Claude code for free !",
+    "timestamp": "2026-10-03T15:02:24.000Z",
+    "likesCount": 44,
+    "commentsCount": 96,
+    "url": "https://www.instagram.com/p/DeCVP0QyVHR/",
+    "type": "Video",
+    "loggedAt": "2026-10-04T03:31:57.788Z",
     "archived": false
   }
 ]

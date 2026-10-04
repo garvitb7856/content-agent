@@ -1,61 +1,72 @@
 {
-  "generated_at": "2026-10-03T03:32:03.386Z",
+  "generated_at": "2026-10-04T03:31:57.789Z",
   "hotRightNow": [
     {
-      "username": "ishansharma7390",
-      "caption": "Stuff of dreams🥹🥹",
-      "likes": 9575,
-      "comments": 378,
-      "engagement": 9953,
-      "engRate": "0.78",
-      "timestamp": "2026-10-02T05:17:42.000Z",
-      "url": "https://www.instagram.com/p/Dd-tpadoyAa/",
-      "type": "Video"
-    },
-    {
       "username": "nick_saraev",
-      "caption": "Comment \"VIDEO\" to get this AI production studio.\n\nThis free AI tool turns your Claude Code into a f",
-      "likes": 1677,
-      "comments": 2761,
-      "engagement": 4438,
-      "engRate": "0.64",
-      "timestamp": "2026-10-02T14:33:43.000Z",
-      "url": "https://www.instagram.com/p/Dd_tRbkP0qO/",
+      "caption": "Comment \"AGENT\" to get these AI skills to run your LinkedIn with Claude Code.\n\nClaude can now run yo",
+      "likes": 1039,
+      "comments": 1997,
+      "engagement": 3036,
+      "engRate": "0.44",
+      "timestamp": "2026-10-03T16:47:14.000Z",
+      "url": "https://www.instagram.com/p/DeChOhIPszm/",
       "type": "Video"
     },
     {
       "username": "vaibhavsisinty",
-      "caption": "12 things OpenAI dropped at DevDay\n\ndots, an AI assistant that never switches off and connects to 4,",
-      "likes": 1395,
-      "comments": 15,
-      "engagement": 1410,
+      "caption": "India’s next big AI wave.🚀\n\nThe era of foundational AI models is becoming commoditized. India’s tru",
+      "likes": 1343,
+      "comments": 20,
+      "engagement": 1363,
       "engRate": "0.06",
-      "timestamp": "2026-10-02T15:20:21.000Z",
-      "url": "https://www.instagram.com/p/Dd_yi3RAcTk/",
+      "timestamp": "2026-10-03T11:51:05.000Z",
+      "url": "https://www.instagram.com/p/DeB-dmAgYAD/",
       "type": "Video"
     },
     {
-      "username": "arshman",
-      "caption": "Looks good on the model but not on you? \nThis ChatGPT setup gives you an end-to-end system by enteri",
-      "likes": 454,
-      "comments": 515,
-      "engagement": 969,
-      "engRate": "0.26",
-      "timestamp": "2026-10-02T04:56:32.000Z",
-      "url": "https://www.instagram.com/p/Dd-rCJfurqp/",
+      "username": "thevarunmayya",
+      "caption": "So I was at Encore 2026, second edition by InMobi and Glance, and out of everything I discussed with",
+      "likes": 1103,
+      "comments": 7,
+      "engagement": 1110,
+      "engRate": "0.09",
+      "timestamp": "2026-10-03T13:59:30.000Z",
+      "url": "https://www.instagram.com/p/DeCOF3RTqBt/",
+      "type": "Video"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "Apple's NEW Mac Mini is HERE!🥹✨\n\nThe new Mac mini with the M5 Pro might be one of the most interest",
+      "likes": 588,
+      "comments": 6,
+      "engagement": 594,
+      "engRate": "0.05",
+      "timestamp": "2026-10-03T13:28:50.000Z",
+      "url": "https://www.instagram.com/p/DeCKbecobCF/",
+      "type": "Video"
+    },
+    {
+      "username": "favourite.engineer",
+      "caption": "Claude will analyse your future 🤯\n.\n#astrology #astrologywithai",
+      "likes": 3,
+      "comments": 545,
+      "engagement": 548,
+      "engRate": "0.31",
+      "timestamp": "2026-10-03T11:46:19.000Z",
+      "url": "https://www.instagram.com/p/DeB-2DbzaSb/",
       "type": "Video"
     }
   ],
   "risingFormat": [
     {
-      "format": "video",
-      "avgEng": 4406,
-      "count": 27
+      "format": "post",
+      "avgEng": 4019,
+      "count": 6
     },
     {
-      "format": "post",
-      "avgEng": 3384,
-      "count": 7
+      "format": "video",
+      "avgEng": 3965,
+      "count": 31
     }
   ],
   "trendingTopics": [
@@ -65,7 +76,7 @@
     },
     {
       "topic": "agent",
-      "appearsIn": "5 top posts"
+      "appearsIn": "4 top posts"
     },
     {
       "topic": "claude",
@@ -83,37 +94,37 @@
   "bestPostingWindow": [
     "20:00 IST (5 top posts)",
     "19:00 IST (4 top posts)",
-    "18:00 IST (3 top posts)"
+    "21:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 71952,
+      "likes": 72482,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 86803,
+      "likes": 86846,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98367,
+      "likes": 98373,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 25827,
+      "likes": 26063,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 72725,
+      "likes": 72840,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

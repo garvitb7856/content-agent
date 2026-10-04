@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T03:32:06.511Z",
+  "updated_at": "2026-10-04T03:32:00.352Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1205,16 +1205,19 @@
       "id": "3889610066938066259_1411361583",
       "account": "@dhavalkataria_",
       "url": "https://www.instagram.com/p/DX6q79yoHVT/",
-      "topic": "General Tech",
+      "topic": "Monetization",
       "format": "Video",
-      "hook": "Comment “100K” to know the real numbers 🤫",
+      "spoken_hook": "How much money did I make with 100k subscribers on YouTube?  Total I made 1. 2 Cr from eight income streams.",
+      "full_script": "How much money did I make with 100k subscribers on YouTube? Total I made 1.2 Cr from eight income streams. Let's go from the lowest to the highest. Number one, Freelance Mentorship Calls. This income source made me a Swiggy delivery boy's yearly salary. Number two, Content Coaching Calls. This income stream made me a TCS ke fresher ka yearly salary. Number three, my most passive income source, Youtube AdSense. This made me a Mumbai ke teacher ka average salary. Number four, Consulting big creators. Isme se maine banaya ek IIT engineer ka salary. Number five, Creating content for other brands. This income source made me a IIM graduate ke salary jitna. Number six, Agency. I have two clients jinka hum Youtube sambhalte hain end-to-end and this makes me a CA ranker ki salary jitna. Number seven, my biggest income source, Brand Sponsorships. I make two Youtube videos a month and it makes me a CEO jitna salary. Number eight, a bonus, that is UGC Ads. This made me an investment banker jitna salary. Comment 100k and saare real numbers main aapko aapke DM mein bhejunga.",
       "full_caption": "Comment “100K” to know the real numbers 🤫",
+      "script_source": "transcript",
       "script_pattern": "comment_CTA",
-      "likes": 4107,
-      "comments": 4869,
-      "engagement_rate": 17.68,
+      "likes": 4130,
+      "comments": 4906,
+      "engagement_rate": 16.85,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-10-03T03:58:19.775Z",
+      "scraped_at": "2026-10-04T03:32:00.350Z"
     },
     {
       "id": "3975602863745529268_104890898",
@@ -1800,5 +1803,5 @@
     }
   ],
   "total": 112,
-  "transcript_based": 39
+  "transcript_based": 40
 }
