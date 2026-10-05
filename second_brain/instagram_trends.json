@@ -1,130 +1,130 @@
 {
-  "generated_at": "2026-10-04T03:31:57.789Z",
+  "generated_at": "2026-10-05T03:32:09.185Z",
   "hotRightNow": [
     {
-      "username": "nick_saraev",
-      "caption": "Comment \"AGENT\" to get these AI skills to run your LinkedIn with Claude Code.\n\nClaude can now run yo",
-      "likes": 1039,
-      "comments": 1997,
-      "engagement": 3036,
-      "engRate": "0.44",
-      "timestamp": "2026-10-03T16:47:14.000Z",
-      "url": "https://www.instagram.com/p/DeChOhIPszm/",
-      "type": "Video"
-    },
-    {
       "username": "vaibhavsisinty",
-      "caption": "India’s next big AI wave.🚀\n\nThe era of foundational AI models is becoming commoditized. India’s tru",
-      "likes": 1343,
-      "comments": 20,
-      "engagement": 1363,
-      "engRate": "0.06",
-      "timestamp": "2026-10-03T11:51:05.000Z",
-      "url": "https://www.instagram.com/p/DeB-dmAgYAD/",
-      "type": "Video"
-    },
-    {
-      "username": "thevarunmayya",
-      "caption": "So I was at Encore 2026, second edition by InMobi and Glance, and out of everything I discussed with",
-      "likes": 1103,
-      "comments": 7,
-      "engagement": 1110,
-      "engRate": "0.09",
-      "timestamp": "2026-10-03T13:59:30.000Z",
-      "url": "https://www.instagram.com/p/DeCOF3RTqBt/",
+      "caption": "What Is Google’s Gemini 4 Argon\n\nIt’s Google’s new frontier model for long coding, research and cybe",
+      "likes": 7775,
+      "comments": 35,
+      "engagement": 7810,
+      "engRate": "0.36",
+      "timestamp": "2026-10-04T13:34:44.000Z",
+      "url": "https://www.instagram.com/p/DeEv6idgsVX/",
       "type": "Video"
     },
     {
       "username": "ishansharma7390",
-      "caption": "Apple's NEW Mac Mini is HERE!🥹✨\n\nThe new Mac mini with the M5 Pro might be one of the most interest",
-      "likes": 588,
-      "comments": 6,
-      "engagement": 594,
-      "engRate": "0.05",
-      "timestamp": "2026-10-03T13:28:50.000Z",
-      "url": "https://www.instagram.com/p/DeCKbecobCF/",
+      "caption": "a day I'll always remember✨\n\nLast year I visited one of India's finest hotels in Agra with my friend",
+      "likes": 6254,
+      "comments": 19,
+      "engagement": 6273,
+      "engRate": "0.49",
+      "timestamp": "2026-10-04T04:31:15.000Z",
+      "url": "https://www.instagram.com/p/DeDyAtAEiYd/",
+      "type": "Post"
+    },
+    {
+      "username": "nick_saraev",
+      "caption": "Comment \"AUDIT\" to get this Free AI skill to fix security holes in your vibe coded apps.\n\nCloudflare",
+      "likes": 2867,
+      "comments": 2581,
+      "engagement": 5448,
+      "engRate": "0.78",
+      "timestamp": "2026-10-04T15:00:49.000Z",
+      "url": "https://www.instagram.com/p/DeE57zWP038/",
       "type": "Video"
     },
     {
-      "username": "favourite.engineer",
-      "caption": "Claude will analyse your future 🤯\n.\n#astrology #astrologywithai",
-      "likes": 3,
-      "comments": 545,
-      "engagement": 548,
-      "engRate": "0.31",
-      "timestamp": "2026-10-03T11:46:19.000Z",
-      "url": "https://www.instagram.com/p/DeB-2DbzaSb/",
+      "username": "vaibhavsisinty",
+      "caption": "#Ad I Built An AI Jack Ma \n\nSolo founder, 2 AM, no cofounder to call. So I built an AI mentor styled",
+      "likes": 1944,
+      "comments": 133,
+      "engagement": 2077,
+      "engRate": "0.10",
+      "timestamp": "2026-10-04T05:39:55.000Z",
+      "url": "https://www.instagram.com/p/DeD5kaygVVn/",
       "type": "Video"
+    },
+    {
+      "username": "arshman",
+      "caption": "You are using 10% of Claude. Here’s the other 90%. \nThese 27 skills turn Claude into a full team of ",
+      "likes": 228,
+      "comments": 267,
+      "engagement": 495,
+      "engRate": "0.13",
+      "timestamp": "2026-10-04T03:47:20.000Z",
+      "url": "https://www.instagram.com/p/DeDszy_stV9/",
+      "type": "Post"
     }
   ],
   "risingFormat": [
     {
-      "format": "post",
-      "avgEng": 4019,
-      "count": 6
+      "format": "video",
+      "avgEng": 4663,
+      "count": 33
     },
     {
-      "format": "video",
-      "avgEng": 3965,
-      "count": 31
+      "format": "post",
+      "avgEng": 4515,
+      "count": 7
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "14 top posts"
+      "appearsIn": "13 top posts"
     },
     {
       "topic": "agent",
       "appearsIn": "4 top posts"
     },
     {
-      "topic": "claude",
-      "appearsIn": "3 top posts"
-    },
-    {
       "topic": "money",
       "appearsIn": "3 top posts"
     },
     {
-      "topic": "coding",
+      "topic": "claude",
+      "appearsIn": "2 top posts"
+    },
+    {
+      "topic": "free",
       "appearsIn": "2 top posts"
     }
   ],
   "bestPostingWindow": [
-    "20:00 IST (5 top posts)",
-    "19:00 IST (4 top posts)",
-    "21:00 IST (3 top posts)"
+    "20:00 IST (4 top posts)",
+    "21:00 IST (4 top posts)",
+    "18:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 72482,
+      "likes": 74448,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 86846,
+      "likes": 86898,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98373,
+      "likes": 98384,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 26063,
+      "likes": 26241,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 72840,
+      "likes": 72977,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

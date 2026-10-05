@@ -1,48 +1,41 @@
 {
-  "fetched_at": "2026-10-04T03:32:00.271Z",
+  "fetched_at": "2026-10-05T03:32:12.112Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "score": 214,
-      "comments": 168,
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "score": 87,
+      "comments": 40,
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/"
     },
     {
       "source": "hackernews",
-      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-      "score": 179,
-      "comments": 127,
-      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/"
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "score": 62,
+      "comments": 25,
+      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0"
     },
     {
       "source": "hackernews",
-      "title": "Agents don't need memory, they need documentation",
-      "score": 74,
-      "comments": 55,
-      "url": "https://liao.gg/blog/agents-dont-need-memory"
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "score": 58,
+      "comments": 16,
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "score": 82,
-      "comments": 30,
-      "url": "https://pipod.dev/"
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "score": 144,
+      "comments": 66,
+      "url": "https://github.com/allenv0/SCM"
     },
     {
       "source": "hackernews",
-      "title": "Three AI agents, two countries, and one uneven world wide web",
-      "score": 9,
-      "comments": 0,
-      "url": "https://royapakzad.substack.com/p/multilingual-ai-agents"
-    },
-    {
-      "source": "hackernews",
-      "title": "RetailReady (YC W24) Is Hiring",
-      "score": 1,
-      "comments": 0,
-      "url": "https://www.ycombinator.com/companies/retailready/jobs/bFcgIe4-implementations"
+      "title": "Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex",
+      "score": 18,
+      "comments": 4,
+      "url": "https://alexalejandre.com/interviews/peter-bex/"
     }
   ],
   "youtube": [
@@ -51,8 +44,8 @@
       "category": "Science & Tech",
       "title": "Which AI is smartest?",
       "channel": "Mrwhosetheboss",
-      "views": 16842639,
-      "likes": 482887,
+      "views": 21328786,
+      "likes": 609503,
       "publishedAt": "2026-10-01T14:21:22Z",
       "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
       "tags": [],
@@ -63,8 +56,8 @@
       "category": "Science & Tech",
       "title": "My teacher's laptop was connected to the PROJECTOR the whole time!",
       "channel": "Xenost ",
-      "views": 7104240,
-      "likes": 92912,
+      "views": 7305865,
+      "likes": 94266,
       "publishedAt": "2026-09-26T14:33:54Z",
       "url": "https://www.youtube.com/watch?v=7KlT-vHYqP4",
       "tags": [],
@@ -73,22 +66,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Samsung Galaxy S27 Ultra Cobalt Violet 🕷️🕸️ #noads #tiktok #usa",
-      "channel": "Tấn hậu Hồ",
-      "views": 4419377,
-      "likes": 20310,
-      "publishedAt": "2026-09-30T02:00:28Z",
-      "url": "https://www.youtube.com/watch?v=zOSCJI1cMl8",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "How does a computer get that dusty?? 4K_Steak",
       "channel": "CarterPCs",
-      "views": 3503771,
-      "likes": 179370,
+      "views": 4079995,
+      "likes": 202524,
       "publishedAt": "2026-10-02T04:36:09Z",
       "url": "https://www.youtube.com/watch?v=O9VoG4cSkaY",
       "tags": [],
@@ -97,34 +78,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "She built one console out of a PS5, Xbox, and Nintendo Switch 🤯🔧",
-      "channel": "Bubbly Eyez",
-      "views": 3257580,
-      "likes": 67054,
-      "publishedAt": "2026-09-24T09:00:19Z",
-      "url": "https://www.youtube.com/watch?v=7isE7Mgu5AU",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "How Candles Can Replace A Wii Sensor Bar 🤔",
-      "channel": "Zack D. Films",
-      "views": 3010143,
-      "likes": 99095,
-      "publishedAt": "2026-09-30T21:30:30Z",
-      "url": "https://www.youtube.com/watch?v=Yqs0BjH3YCs",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "China made a better iPhone Duo 😭",
       "channel": "John Casterline",
-      "views": 2442908,
-      "likes": 131099,
+      "views": 3843616,
+      "likes": 190991,
       "publishedAt": "2026-10-03T00:33:55Z",
       "url": "https://www.youtube.com/watch?v=_1R5FKG_MC0",
       "tags": [
@@ -139,22 +96,64 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone 18 Pro Max Dark Cherry #noads #tiktok #usashortsfeeds",
-      "channel": "Midi Gamer",
-      "views": 1676359,
-      "likes": 8456,
-      "publishedAt": "2026-10-02T12:00:37Z",
-      "url": "https://www.youtube.com/watch?v=JnwJIf_Usu0",
+      "title": "How Candles Can Replace A Wii Sensor Bar 🤔",
+      "channel": "Zack D. Films",
+      "views": 3413412,
+      "likes": 108268,
+      "publishedAt": "2026-09-30T21:30:30Z",
+      "url": "https://www.youtube.com/watch?v=Yqs0BjH3YCs",
       "tags": [],
       "description": ""
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
+      "channel": "MrCappuccino Memes",
+      "views": 3363568,
+      "likes": 25936,
+      "publishedAt": "2026-10-02T22:00:41Z",
+      "url": "https://www.youtube.com/watch?v=_Z70Zsp_uiI",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "iPhone 18 Pro Max Dark Cherry #noads #tiktok #usashortsfeeds",
+      "channel": "Midi Gamer",
+      "views": 2065361,
+      "likes": 10271,
+      "publishedAt": "2026-10-04T06:00:16Z",
+      "url": "https://www.youtube.com/watch?v=w2OuOI4hzi4",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "My Parents Could NEVER Throw Away My iPod 😂 #iPod #Apple #Tech #Nostalgia",
+      "channel": "Custom Adventurist",
+      "views": 2049014,
+      "likes": 61211,
+      "publishedAt": "2026-10-02T05:20:48Z",
+      "url": "https://www.youtube.com/watch?v=Xq5cbiy1CO8",
+      "tags": [
+        "iPod",
+        "iPod Touch",
+        "Apple iPod",
+        "old iPod",
+        "iPod nostalgia"
+      ],
+      "description": "As a kid, I thought my parents literally couldn’t throw away my iPod because of the crossed-out trash can symbol on the back 😂 Turns out that symbol "
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Sandpaper vs atomic force microscope",
       "channel": "NileRed Extra",
-      "views": 1520693,
-      "likes": 26253,
+      "views": 1809600,
+      "likes": 31542,
       "publishedAt": "2026-09-29T15:18:00Z",
       "url": "https://www.youtube.com/watch?v=Fmdp2b9_7a0",
       "tags": [
@@ -171,8 +170,8 @@
       "category": "Science & Tech",
       "title": "Hackers Have Fully Broke The PS5 😭😭",
       "channel": "Jorski",
-      "views": 1196243,
-      "likes": 47925,
+      "views": 1647727,
+      "likes": 68978,
       "publishedAt": "2026-10-02T03:13:01Z",
       "url": "https://www.youtube.com/watch?v=LDPKbvZw2aA",
       "tags": [],
@@ -182,16 +181,28 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "solopreneur",
+        "keyword": "ChatGPT",
         "trend_score": 75
       },
       {
-        "keyword": "AI tools",
-        "trend_score": 69
+        "keyword": "solopreneur",
+        "trend_score": 71
       },
       {
-        "keyword": "ChatGPT",
-        "trend_score": 68
+        "keyword": "self improvement",
+        "trend_score": 67
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 66
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 59
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 58
       },
       {
         "keyword": "automation tools",
@@ -199,26 +210,14 @@
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 57
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 53
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 53
+        "trend_score": 54
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 52
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 52
+        "trend_score": 48
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-04T03:32:00.271Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"OpenAI safety leader quits, warning AI company's culture is 'broken'\" — 214 pts\n• [HackerNews] \"Getting the most out of Opus 5.5 in Claude and Claude Code\" — 179 pts\n• [HackerNews] \"Agents don't need memory, they need documentation\" — 74 pts\n• [HackerNews] \"Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server\" — 82 pts\n• [HackerNews] \"Three AI agents, two countries, and one uneven world wide web\" — 9 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 16843k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 7104k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet 🕷️🕸️ #noads #tiktok #usa\" by Tấn hậu Hồ — 4419k views\n• [YouTube Global] \"How does a computer get that dusty?? 4K_Steak\" by CarterPCs — 3504k views\n• [YouTube Global] \"She built one console out of a PS5, Xbox, and Nintendo Switch 🤯🔧\" by Bubbly Eyez — 3258k views\n• [YouTube Global] \"How Candles Can Replace A Wii Sensor Bar 🤔\" by Zack D. Films — 3010k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nsolopreneur (score: 75), AI tools (score: 69), ChatGPT (score: 68), automation tools (score: 57), entrepreneur (score: 57), AI for business (score: 53), AI workflow (score: 53), productivity tools (score: 52), self improvement (score: 52)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-05T03:32:12.112Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Powerless F1 drivers frustrated by Bahrain F1 software glitch\" — 87 pts\n• [HackerNews] \"Homa: The end of TCP for AI clusters [video]\" — 62 pts\n• [HackerNews] \"How to scale intent, quality, and artistry with AI [video]\" — 58 pts\n• [HackerNews] \"Show HN: AI search for every photo and every frame of video on macOS\" — 144 pts\n• [HackerNews] \"Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex\" — 18 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 21329k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 7306k views\n• [YouTube Global] \"How does a computer get that dusty?? 4K_Steak\" by CarterPCs — 4080k views\n• [YouTube Global] \"China made a better iPhone Duo 😭\" by John Casterline — 3844k views\n• [YouTube Global] \"How Candles Can Replace A Wii Sensor Bar 🤔\" by Zack D. Films — 3413k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MrCappuccino Memes — 3364k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 75), solopreneur (score: 71), self improvement (score: 67), AI tools (score: 66), AI for business (score: 59), AI workflow (score: 58), automation tools (score: 57), entrepreneur (score: 54), productivity tools (score: 48)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

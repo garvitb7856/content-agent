@@ -1,0 +1,11 @@
+{
+  "postId": "4000577167246183932_72269881052",
+  "handle": "nick_saraev",
+  "postUrl": "https://www.instagram.com/p/DeE57zWP038/",
+  "transcript": "Cloudflare just open-sourced an AI skill that finds security holes in your vibe-coded app, and it's completely free. They originally built it for themselves, where it found over 7,000 security issues in their own codebase, and it's already crossed 20,000 stars on GitHub. Just install it into your Claude Code, and it'll map out your entire app. Then it'll send a team of AI agents to hunt through it, from your logins, database, and APIs, even prompt injection if your app uses AI under the hood. And then every bug they find is handed over to a separate agent whose only job is to disprove that bug exists. So, only the real issues will make it all the way to the finish line. And finally, it'll give you a detailed report with every verified issue along with exactly how to fix it. So if you want this for yourselves, just comment \"audit\" down below, and I'll DM you the link directly.",
+  "caption": "Comment \"AUDIT\" to get this Free AI skill to fix security holes in your vibe coded apps.\n\nCloudflare just open sourced an AI skill that finds the security holes in your vibe coded apps.\n\nAnd it's completely free.\n\nThey originally built it for themselves.\n\nIt found over 7,000 security issues in their",
+  "timestamp": "2026-10-04T15:00:49.000Z",
+  "transcribedAt": "2026-10-05T03:35:17.681Z",
+  "likes": 0,
+  "comments": 0
+}

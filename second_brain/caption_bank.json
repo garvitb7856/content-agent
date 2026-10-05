@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T03:32:00.326Z",
-  "total": 347,
+  "updated_at": "2026-10-05T03:32:12.159Z",
+  "total": 353,
   "captions": [
     {
       "id": "3983074283965215404_72269881052",
@@ -4512,6 +4512,84 @@
       "comments": 7,
       "engagement_rate": 0.09,
       "added_at": "2026-10-04T03:32:00.326Z"
+    },
+    {
+      "id": "4000577167246183932_72269881052",
+      "handle": "@nick_saraev",
+      "postUrl": "https://www.instagram.com/p/DeE57zWP038/",
+      "hook_line": "Comment \"AUDIT\" to get this Free AI skill to fix security holes in your vibe coded apps.",
+      "opening_lines": "Comment \"AUDIT\" to get this Free AI skill to fix security holes in your vibe coded apps.\nCloudflare just open sourced an AI skill that finds the security holes in your vibe coded apps.\nAnd it's completely free.",
+      "full_caption": "Comment \"AUDIT\" to get this Free AI skill to fix security holes in your vibe coded apps.\n\nCloudflare just open sourced an AI skill that finds the security holes in your vibe coded apps.\n\nAnd it's completely free.\n\nThey originally built it for themselves.\n\nIt found over 7,000 security issues in their",
+      "format": "Reel",
+      "likes": 2867,
+      "comments": 2581,
+      "engagement_rate": 0.78,
+      "added_at": "2026-10-05T03:32:12.159Z"
+    },
+    {
+      "id": "4000237967530710397_24040950",
+      "handle": "@arshman",
+      "postUrl": "https://www.instagram.com/p/DeDszy_stV9/",
+      "hook_line": "You are using 10% of Claude. Here’s the other 90%. ",
+      "opening_lines": "You are using 10% of Claude. Here’s the other 90%. \nThese 27 skills turn Claude into a full team of AI employees. \nYour new org chart: ",
+      "full_caption": "You are using 10% of Claude. Here’s the other 90%. \nThese 27 skills turn Claude into a full team of AI employees. \nYour new org chart: \nChief Marketing Officer → reddit-automation, seo-audit, copywriting \n\nChief of Staff → find-skills, grill-me, caveman \n\nSocial Media Manager → faceless-explainer, t",
+      "format": "Reel",
+      "likes": 228,
+      "comments": 267,
+      "engagement_rate": 0.13,
+      "added_at": "2026-10-05T03:32:12.159Z"
+    },
+    {
+      "id": "4000260844680259101_26526554234",
+      "handle": "@ishansharma7390",
+      "postUrl": "https://www.instagram.com/p/DeDyAtAEiYd/",
+      "hook_line": "a day I'll always remember✨",
+      "opening_lines": "a day I'll always remember✨\nLast year I visited one of India's finest hotels in Agra with my friend. After the Taj Mahal tour, this was the perfect way to end the day.\nApart from the direct Taj view and the incredible Rajasthani folk dance during sunset, my fav was the night time when the reflecti",
+      "full_caption": "a day I'll always remember✨\n\nLast year I visited one of India's finest hotels in Agra with my friend. After the Taj Mahal tour, this was the perfect way to end the day.\n\nApart from the direct Taj view and the incredible Rajasthani folk dance during sunset, my fav was the night time when the reflecti",
+      "format": "Reel",
+      "likes": 6254,
+      "comments": 19,
+      "engagement_rate": 0.49,
+      "added_at": "2026-10-05T03:32:12.159Z"
+    },
+    {
+      "id": "4000533099929847127_104890898",
+      "handle": "@vaibhavsisinty",
+      "postUrl": "https://www.instagram.com/p/DeEv6idgsVX/",
+      "hook_line": "What Is Google’s Gemini 4 Argon",
+      "opening_lines": "What Is Google’s Gemini 4 Argon\nIt’s Google’s new frontier model for long coding, research and cybersecurity work.\nIt can output up to 1 million tokens in one go, up from 64K.",
+      "full_caption": "What Is Google’s Gemini 4 Argon\n\nIt’s Google’s new frontier model for long coding, research and cybersecurity work.\nIt can output up to 1 million tokens in one go, up from 64K.\n\nGoogle says it finds and patches software vulnerabilities on its own, and calls it its most resilient model yet against pr",
+      "format": "Reel",
+      "likes": 7775,
+      "comments": 35,
+      "engagement_rate": 0.36,
+      "added_at": "2026-10-05T03:32:12.159Z"
+    },
+    {
+      "id": "4000294085352052071_104890898",
+      "handle": "@vaibhavsisinty",
+      "postUrl": "https://www.instagram.com/p/DeD5kaygVVn/",
+      "hook_line": "#Ad I Built An AI Jack Ma ",
+      "opening_lines": "#Ad I Built An AI Jack Ma \nSolo founder, 2 AM, no cofounder to call. So I built an AI mentor styled on him and asked three questions I had never said out loud to anyone.\nSafe or ten times bigger? ",
+      "full_caption": "#Ad I Built An AI Jack Ma \n\nSolo founder, 2 AM, no cofounder to call. So I built an AI mentor styled on him and asked three questions I had never said out loud to anyone.\nSafe or ten times bigger? \n\nWhat do founders obsess over for nothing? What was his biggest early hiring mistake?\nHis answers left",
+      "format": "Reel",
+      "likes": 1944,
+      "comments": 133,
+      "engagement_rate": 0.1,
+      "added_at": "2026-10-05T03:32:12.159Z"
+    },
+    {
+      "id": "3999886104693919552_7695520761",
+      "handle": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/DeCczhMTU9A/",
+      "hook_line": "There's a weird prompting trick called ASD-STE100 that's borrowed from aerospace manuals, and once you try it, you'll never prompt AI the same way again.",
+      "opening_lines": "There's a weird prompting trick called ASD-STE100 that's borrowed from aerospace manuals, and once you try it, you'll never prompt AI the same way again.",
+      "full_caption": "There's a weird prompting trick called ASD-STE100 that's borrowed from aerospace manuals, and once you try it, you'll never prompt AI the same way again.",
+      "format": "Reel",
+      "likes": 22024,
+      "comments": 86,
+      "engagement_rate": 1.73,
+      "added_at": "2026-10-05T03:32:12.159Z"
     }
   ]
 }
