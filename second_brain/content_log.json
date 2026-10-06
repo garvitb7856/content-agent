@@ -999,6 +999,11 @@
     "url": "https://www.instagram.com/p/DeCVP0QyVHR/",
     "type": "Video",
     "loggedAt": "2026-10-04T03:31:57.788Z",
-    "archived": false
+    "archived": true,
+    "likes_at_48h": 81,
+    "comments_at_48h": 240,
+    "engagement_at_48h": 3.47,
+    "followers_at_post": 9264,
+    "performance_complete": true
   }
 ]

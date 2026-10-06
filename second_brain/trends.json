@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-10-05T03:32:12.112Z",
+  "fetched_at": "2026-10-06T03:32:02.903Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-      "score": 87,
-      "comments": 40,
-      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/"
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "score": 122,
+      "comments": 21,
+      "url": "https://qlabs.sh/research/dust"
     },
     {
       "source": "hackernews",
-      "title": "Homa: The end of TCP for AI clusters [video]",
-      "score": 62,
-      "comments": 25,
-      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0"
+      "title": "AI tutoring with Khanmigo in a two-year school experiment",
+      "score": 44,
+      "comments": 32,
+      "url": "https://edworkingpapers.com/ai26-1551"
     },
     {
       "source": "hackernews",
-      "title": "How to scale intent, quality, and artistry with AI [video]",
-      "score": 58,
-      "comments": 16,
-      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk"
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "score": 240,
+      "comments": 171,
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: AI search for every photo and every frame of video on macOS",
-      "score": 144,
-      "comments": 66,
-      "url": "https://github.com/allenv0/SCM"
+      "title": "An Algorithmic Failure Beneath the Secret Ballot",
+      "score": 40,
+      "comments": 12,
+      "url": "https://blog.citp.princeton.edu/2026/08/03/an-algorithmic-failure-beneath-the-secret-ballot/"
     },
     {
       "source": "hackernews",
-      "title": "Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex",
-      "score": 18,
-      "comments": 4,
-      "url": "https://alexalejandre.com/interviews/peter-bex/"
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "score": 324,
+      "comments": 221,
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/"
     }
   ],
   "youtube": [
@@ -44,8 +44,8 @@
       "category": "Science & Tech",
       "title": "Which AI is smartest?",
       "channel": "Mrwhosetheboss",
-      "views": 21328786,
-      "likes": 609503,
+      "views": 24525898,
+      "likes": 698135,
       "publishedAt": "2026-10-01T14:21:22Z",
       "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
       "tags": [],
@@ -54,34 +54,28 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "My teacher's laptop was connected to the PROJECTOR the whole time!",
-      "channel": "Xenost ",
-      "views": 7305865,
-      "likes": 94266,
-      "publishedAt": "2026-09-26T14:33:54Z",
-      "url": "https://www.youtube.com/watch?v=7KlT-vHYqP4",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "How does a computer get that dusty?? 4K_Steak",
-      "channel": "CarterPCs",
-      "views": 4079995,
-      "likes": 202524,
-      "publishedAt": "2026-10-02T04:36:09Z",
-      "url": "https://www.youtube.com/watch?v=O9VoG4cSkaY",
-      "tags": [],
-      "description": "How does a computer get that dusty?? 4K_Steak\n\n#carterpcs #tech #gaming"
+      "title": "Apple trolling Samsung🤣 #apple  #iphone18pro #upcomingphones #newlaunch",
+      "channel": "BakaShortZ",
+      "views": 15287257,
+      "likes": 224969,
+      "publishedAt": "2026-10-03T11:48:27Z",
+      "url": "https://www.youtube.com/watch?v=jF1AxPovjrc",
+      "tags": [
+        "apple",
+        "samsung aura",
+        "troll",
+        "apple troll samsung",
+        "new launch"
+      ],
+      "description": "Apple trolling Samsung🤣 #apple  #iphone18pro #upcomingphones #newlaunch"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "China made a better iPhone Duo 😭",
       "channel": "John Casterline",
-      "views": 3843616,
-      "likes": 190991,
+      "views": 4739215,
+      "likes": 228199,
       "publishedAt": "2026-10-03T00:33:55Z",
       "url": "https://www.youtube.com/watch?v=_1R5FKG_MC0",
       "tags": [
@@ -96,34 +90,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "How Candles Can Replace A Wii Sensor Bar 🤔",
-      "channel": "Zack D. Films",
-      "views": 3413412,
-      "likes": 108268,
-      "publishedAt": "2026-09-30T21:30:30Z",
-      "url": "https://www.youtube.com/watch?v=Yqs0BjH3YCs",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
-      "channel": "MrCappuccino Memes",
-      "views": 3363568,
-      "likes": 25936,
-      "publishedAt": "2026-10-02T22:00:41Z",
-      "url": "https://www.youtube.com/watch?v=_Z70Zsp_uiI",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "iPhone 18 Pro Max Dark Cherry #noads #tiktok #usashortsfeeds",
       "channel": "Midi Gamer",
-      "views": 2065361,
-      "likes": 10271,
+      "views": 4328273,
+      "likes": 20025,
       "publishedAt": "2026-10-04T06:00:16Z",
       "url": "https://www.youtube.com/watch?v=w2OuOI4hzi4",
       "tags": [],
@@ -132,10 +102,46 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
+      "channel": "MrCappuccino Memes",
+      "views": 4132478,
+      "likes": 31406,
+      "publishedAt": "2026-10-02T22:00:41Z",
+      "url": "https://www.youtube.com/watch?v=_Z70Zsp_uiI",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "How Candles Can Replace A Wii Sensor Bar 🤔",
+      "channel": "Zack D. Films",
+      "views": 3730457,
+      "likes": 115607,
+      "publishedAt": "2026-09-30T21:30:30Z",
+      "url": "https://www.youtube.com/watch?v=Yqs0BjH3YCs",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Tesla added a self destruct feature..",
+      "channel": "CarterPCs",
+      "views": 3227986,
+      "likes": 105014,
+      "publishedAt": "2026-10-04T01:40:43Z",
+      "url": "https://www.youtube.com/watch?v=NsoA0eFjtzA",
+      "tags": [],
+      "description": "Tesla added a self destruct feature..\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "My Parents Could NEVER Throw Away My iPod 😂 #iPod #Apple #Tech #Nostalgia",
       "channel": "Custom Adventurist",
-      "views": 2049014,
-      "likes": 61211,
+      "views": 2419517,
+      "likes": 73548,
       "publishedAt": "2026-10-02T05:20:48Z",
       "url": "https://www.youtube.com/watch?v=Xq5cbiy1CO8",
       "tags": [
@@ -150,74 +156,68 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Sandpaper vs atomic force microscope",
-      "channel": "NileRed Extra",
-      "views": 1809600,
-      "likes": 31542,
-      "publishedAt": "2026-09-29T15:18:00Z",
-      "url": "https://www.youtube.com/watch?v=Fmdp2b9_7a0",
-      "tags": [
-        "nilered",
-        "nile",
-        "red",
-        "blue",
-        "science"
-      ],
-      "description": "I'm really excited to use this microscope for future projects and I want to thank icspi for lending it to us: https://www.icspicorp.com\n\nThis atomic f"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Hackers Have Fully Broke The PS5 😭😭",
       "channel": "Jorski",
-      "views": 1647727,
-      "likes": 68978,
+      "views": 1888100,
+      "likes": 81019,
       "publishedAt": "2026-10-02T03:13:01Z",
       "url": "https://www.youtube.com/watch?v=LDPKbvZw2aA",
       "tags": [],
       "description": "Hackers Have Fully Broke The PS5 😭😭\n\nsubscribeskiiii"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Data Centers Need To Stop 😭",
+      "channel": "Danny Rayes",
+      "views": 1065988,
+      "likes": 60513,
+      "publishedAt": "2026-10-05T01:30:31Z",
+      "url": "https://www.youtube.com/watch?v=8D2FKO-hYf8",
+      "tags": [],
+      "description": ""
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "ChatGPT",
-        "trend_score": 75
+        "trend_score": 88
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 71
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 67
+        "trend_score": 79
       },
       {
         "keyword": "AI tools",
-        "trend_score": 66
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 59
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 58
+        "trend_score": 71
       },
       {
         "keyword": "automation tools",
-        "trend_score": 57
+        "trend_score": 69
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 54
+        "trend_score": 68
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 65
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 65
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 64
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 48
+        "trend_score": 63
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-05T03:32:12.112Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Powerless F1 drivers frustrated by Bahrain F1 software glitch\" — 87 pts\n• [HackerNews] \"Homa: The end of TCP for AI clusters [video]\" — 62 pts\n• [HackerNews] \"How to scale intent, quality, and artistry with AI [video]\" — 58 pts\n• [HackerNews] \"Show HN: AI search for every photo and every frame of video on macOS\" — 144 pts\n• [HackerNews] \"Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex\" — 18 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 21329k views\n• [YouTube Global] \"My teacher's laptop was connected to the PROJECTOR the whole time!\" by Xenost  — 7306k views\n• [YouTube Global] \"How does a computer get that dusty?? 4K_Steak\" by CarterPCs — 4080k views\n• [YouTube Global] \"China made a better iPhone Duo 😭\" by John Casterline — 3844k views\n• [YouTube Global] \"How Candles Can Replace A Wii Sensor Bar 🤔\" by Zack D. Films — 3413k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MrCappuccino Memes — 3364k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 75), solopreneur (score: 71), self improvement (score: 67), AI tools (score: 66), AI for business (score: 59), AI workflow (score: 58), automation tools (score: 57), entrepreneur (score: 54), productivity tools (score: 48)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-06T03:32:02.903Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Dust: Pretraining Transformers Without Backpropagation\" — 122 pts\n• [HackerNews] \"AI tutoring with Khanmigo in a two-year school experiment\" — 44 pts\n• [HackerNews] \"Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates\" — 240 pts\n• [HackerNews] \"An Algorithmic Failure Beneath the Secret Ballot\" — 40 pts\n• [HackerNews] \"ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons\" — 324 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 24526k views\n• [YouTube Global] \"Apple trolling Samsung🤣 #apple  #iphone18pro #upcomingphones #newlaunch\" by BakaShortZ — 15287k views\n• [YouTube Global] \"China made a better iPhone Duo 😭\" by John Casterline — 4739k views\n• [YouTube Global] \"iPhone 18 Pro Max Dark Cherry #noads #tiktok #usashortsfeeds\" by Midi Gamer — 4328k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MrCappuccino Memes — 4132k views\n• [YouTube Global] \"How Candles Can Replace A Wii Sensor Bar 🤔\" by Zack D. Films — 3730k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 88), solopreneur (score: 79), AI tools (score: 71), automation tools (score: 69), entrepreneur (score: 68), AI for business (score: 65), self improvement (score: 65), AI workflow (score: 64), productivity tools (score: 63)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

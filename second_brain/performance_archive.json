@@ -1133,6 +1133,32 @@
       "finalComments": 7,
       "engagementRate": 0.21,
       "hookText": "Comment anything to get this !"
+    },
+    {
+      "id": "3999852864943509969_65880404765",
+      "shortCode": "DeCVP0QyVHR",
+      "caption": "Claude code for free !",
+      "url": "https://www.instagram.com/p/DeCVP0QyVHR/",
+      "postedAt": "2026-10-03T15:02:24.000Z",
+      "archivedAt": "2026-10-06T03:31:59.023Z",
+      "format": "Video",
+      "topics": [
+        "claude",
+        "free"
+      ],
+      "finalLikes": 81,
+      "finalComments": 240,
+      "engagementRate": 3.47,
+      "hookText": "Claude code for free !",
+      "postId": "3999852864943509969_65880404765",
+      "postUrl": "https://www.instagram.com/p/DeCVP0QyVHR/",
+      "likes_at_48h": 81,
+      "comments_at_48h": 240,
+      "engagement_at_48h": 3.47,
+      "followers_at_post": 9264,
+      "scriptSimilarity": 0,
+      "diffAnalysis": null,
+      "updatedAt": "2026-10-06T03:32:02.966Z"
     }
   ]
 }

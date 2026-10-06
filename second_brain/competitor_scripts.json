@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T03:32:12.194Z",
+  "updated_at": "2026-10-06T03:32:02.966Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1818,8 +1818,44 @@
       "verdict": "medium",
       "transcribed_at": "2026-09-19T03:42:55.292Z",
       "scraped_at": "2026-10-05T03:32:12.189Z"
+    },
+    {
+      "id": "4000577167246183932_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DeE57zWP038/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Cloudflare just open-sourced an AI skill that finds security holes in your vibe-coded app, and it's completely free.  They originally built it for themselves, where it found over 7,000 security issues in their own codebase, and it's already crossed 20,000 stars on GitHub.  Just install it into your Claude Code, and it'll map out your entire app.",
+      "full_script": "Cloudflare just open-sourced an AI skill that finds security holes in your vibe-coded app, and it's completely free. They originally built it for themselves, where it found over 7,000 security issues in their own codebase, and it's already crossed 20,000 stars on GitHub. Just install it into your Claude Code, and it'll map out your entire app. Then it'll send a team of AI agents to hunt through it, from your logins, database, and APIs, even prompt injection if your app uses AI under the hood. And then every bug they find is handed over to a separate agent whose only job is to disprove that bug exists. So, only the real issues will make it all the way to the finish line. And finally, it'll give you a detailed report with every verified issue along with exactly how to fix it. So if you want this for yourselves, just comment \"audit\" down below, and I'll DM you the link directly.",
+      "full_caption": "Comment \"AUDIT\" to get this Free AI skill to fix security holes in your vibe coded apps.\n\nCloudflare just open sourced an AI skill that finds the security holes in your vibe coded apps.\n\nAnd it's completely free.\n\nThey originally built it for themselves.\n\nIt found over 7,000 security issues in their",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 5029,
+      "comments": 4214,
+      "engagement_rate": 1.33,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-05T03:35:17.681Z",
+      "scraped_at": "2026-10-06T03:32:02.947Z"
+    },
+    {
+      "id": "3999114104051550862_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/Dd_tRbkP0qO/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "This free AI tool turns your Claude code into literally a full production studio, and it's completely free.  It's called Open Montage, and it's a fully open-source project with over 60,000 stars on GitHub.  It basically works just like a real production team, with a researcher, a scriptwriter, a voice artist, and even an editor, all run by AI.",
+      "full_script": "This free AI tool turns your Claude code into literally a full production studio, and it's completely free. It's called Open Montage, and it's a fully open-source project with over 60,000 stars on GitHub. It basically works just like a real production team, with a researcher, a scriptwriter, a voice artist, and even an editor, all run by AI. So you just give it a prompt, and a team of AI agents will search the entire internet, write the script, generate the visuals, even pull B-roll, music, voiceovers, and sound effects, and then put everything together into a finished video, all on its own. And it works for pretty much any format, from animated explainers all the way up to product ads and UGCs, to even cinematic trailers. So if you want to try this for yourselves, just comment \"video\" down below, and I'll DM you the link directly.",
+      "full_caption": "Comment \"VIDEO\" to get this AI production studio.\n\nThis free AI tool turns your Claude Code into a full production studio.\n\nAnd it's completely free.\n\nIt's called Open Montage.\n\nIt's a fully open source project with over 61k stars on GitHub.\n\nIt basically works like a real production team.\n\nWith a r",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 2696,
+      "comments": 4742,
+      "engagement_rate": 1.07,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-03T03:34:54.719Z",
+      "scraped_at": "2026-10-06T03:32:02.948Z"
     }
   ],
-  "total": 113,
-  "transcript_based": 41
+  "total": 115,
+  "transcript_based": 43
 }
