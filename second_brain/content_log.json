@@ -1004,6 +1004,13 @@
     "comments_at_48h": 240,
     "engagement_at_48h": 3.47,
     "followers_at_post": 9264,
-    "performance_complete": true
+    "performance_complete": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 10,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-10-07T03:34:15.599Z"
+    }
   }
 ]

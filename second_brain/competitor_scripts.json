@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T03:32:02.966Z",
+  "updated_at": "2026-10-07T03:32:06.116Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1854,8 +1854,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-10-03T03:34:54.719Z",
       "scraped_at": "2026-10-06T03:32:02.948Z"
+    },
+    {
+      "id": "3999905552237776102_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DeChOhIPszm/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Claude can now run your entire LinkedIn completely free.  So somebody on GitHub just dropped 12 LinkedIn skills that plug straight into your Claude Code, where one writes your posts, another handles your comments, and another one even optimizes your whole profile so more people find you to begin with.  First, it starts by interviewing you all about your own career.",
+      "full_script": "Claude can now run your entire LinkedIn completely free. So somebody on GitHub just dropped 12 LinkedIn skills that plug straight into your Claude Code, where one writes your posts, another handles your comments, and another one even optimizes your whole profile so more people find you to begin with. First, it starts by interviewing you all about your own career. So everything it writes ends up being based on your real stories in your exact tone of voice. Then it'll plan out your whole week of content from the topics, to the hooks, to even the best time to post, all based on 20 proven formulas. Plus, before anything goes live, it'll actually check your post against LinkedIn's latest algorithm rules and remove anything that sounds AI written, preventing you from getting flagged. So want to try this for yourselves? Just comment \"Agent\" down below and I'll send you the link directly.",
+      "full_caption": "Comment \"AGENT\" to get these AI skills to run your LinkedIn with Claude Code.\n\nClaude can now run your entire LinkedIn for completely free.\n\nSomeone on GitHub just dropped 12 LinkedIn skills.\n\nThey plug straight into your Claude Code.\n\nOne writes your posts.\n\nAnother handles your comments.\n\nAnd anot",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA + transformation",
+      "likes": 2356,
+      "comments": 5084,
+      "engagement_rate": 1.07,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-06T03:36:25.823Z",
+      "scraped_at": "2026-10-07T03:32:06.106Z"
     }
   ],
-  "total": 115,
-  "transcript_based": 43
+  "total": 116,
+  "transcript_based": 44
 }

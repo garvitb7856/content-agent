@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Automate Your LinkedIn with Claude Code",
+    "title": "Free LLM APIs and Token Extension Plugins for Claude Code",
+    "hook": "Don't use Claude Code until you've installed these five plugins.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Competitor @nick_saraev posted this concept which addresses developer pain points around token limits. It taps directly into the high-performing AI coding cluster with a fresh, actionable angle on extending free usage limits.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DeKFBr0vRpv/"
+  },
+  {
+    "rank": 2,
+    "title": "Cloudflare's Open-Source Security Scanner for Vibe-Coded Apps",
+    "hook": "Cloudflare just open-sourced an AI skill that finds security holes in your vibe-coded app, and it's completely free.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Posted by @nick_saraev, this leverages trending open-source security tools for AI-generated code. It offers a unique angle on app vulnerabilities that stands out in the crowded AI coding category.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DeE57zWP038/"
+  },
+  {
+    "rank": 3,
+    "title": "Claude Code LinkedIn Automation Skills",
     "hook": "Claude can now run your entire LinkedIn completely free.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "This concept leverages @nick_saraev's strong AI-automation angle with Claude Code, which directly aligns with Garvit's core developer demographic. Although scored LOW due to missing like data, this GitHub-linked workflow represents a highly practical utility that Garvit's audience loves.",
+    "score": "HIGH",
+    "reasoning": "Based on @nick_saraev's viral workflow execution, this combines Claude Code with personal branding and audience growth. It provides a novel utility angle by automating professional social media management via GitHub skills.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DeChOhIPszm/"
   },
   {
-    "rank": 2,
-    "title": "ChatGPT Face Rating Infographic Trick",
-    "hook": "ChatGPT can now rate your face out of 10 and people are losing their minds.",
-    "format": "Reel",
-    "score": "LOW",
-    "reasoning": "This high-shareability prompt concept from @nivedan.ai acts as a perfect consumer AI hook that triggers high comment-to-DM automation. It is scored LOW due to lack of public engagement metrics, but represents an easy-to-recreate viral format.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Ddl-sqlJ6az/"
-  },
-  {
-    "rank": 3,
-    "title": "How to Spot and Fix Vibe-Coded Websites",
-    "hook": "I can spot a vibe-coded website in three seconds.",
-    "format": "Reel",
-    "score": "LOW",
-    "reasoning": "Arshman's design audit concept targets the trending 'vibe coding' narrative that Garvit's audience actively engages with. Rated LOW due to missing like data, but the visual transformation aspect of correcting generic AI layouts guarantees high retention.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Dd5ih4wObwX/"
-  },
-  {
     "rank": 4,
-    "title": "5 Rules If You Make Under 1 Lakh/Month",
-    "hook": "If you are not making 1 lakh a month, you should not be allowed to do these 5 things.",
+    "title": "OpenAI Dots: 24/7 Always-On AI Assistants",
+    "hook": "OpenAI just launched Dots and it is probably the biggest update of the year.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "This hyper-provocative lifestyle hook by @dhavalkataria_ triggers emotional engagement and comment-to-DM side-hustle lead generation. Scored LOW due to missing like data, but Dhaval's massive 19.21% average engagement rate validates this specific format's power.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DYCgdsyxQYC/"
+    "score": "HIGH",
+    "reasoning": "Sourced from @ishansharma7390 and @vaibhavsisinty, this covers major new AI agent product launches with massive search interest. It presents a fresh perspective on background-running persistent AI assistants rather than standard chatbots.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/Dd4b8B2oy0d/"
   },
   {
     "rank": 5,
-    "title": "Cloudflare AI Security Hunter for Vibe-Coded Apps",
-    "hook": "Cloudflare just open-sourced an AI skill that finds security holes in your vibe-coded app.",
+    "title": "AI-Powered Clothing Shopping Prompt Strategy",
+    "hook": "The problem is, if you go on any clothing website, you see an overwhelming amount of options. So, go to ChatGPT...",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "This concept from @nick_saraev pairs Cloudflare's brand authority with the trending vibe-coding developer niche. Scored LOW because of missing like data, but it solves a highly technical security problem that builds deep engineering credibility.",
+    "score": "HIGH",
+    "reasoning": "Derived from @arshman, this practical consumer AI prompt strategy addresses decision fatigue in online shopping. It brings a fresh, highly relatable utility angle outside of standard developer or business AI use cases.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DeE57zWP038/"
+    "sourceUrl": "https://www.instagram.com/p/Dd-rCJfurqp/"
   }
 ]
