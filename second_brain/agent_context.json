@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T03:32:06.157Z",
+  "updated_at": "2026-10-08T03:32:12.314Z",
   "your_performance": {
     "posts_analyzed": 46,
     "best_hook_type": "contrarian",
@@ -193,48 +193,60 @@
     ]
   },
   "diff_learning": {
-    "posts_with_diff": 39,
-    "insights": "39 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
+    "posts_with_diff": 40,
+    "insights": "40 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.71%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
   },
   "niche_performance": {
-    "total_hooks": 90,
-    "total_scripts": 116,
-    "viral_scripts": 37,
-    "best_hook_type": "pattern_interrupt",
+    "total_hooks": 92,
+    "total_scripts": 117,
+    "viral_scripts": 38,
+    "best_hook_type": "question",
     "hook_length_insight": "Not enough hook length data yet.",
     "by_hook_type": [
       {
+        "type": "question",
+        "avg": 7485.38,
+        "count": 16
+      },
+      {
         "type": "pattern_interrupt",
-        "avg": 7060,
+        "avg": 7063.5,
         "count": 2
       },
       {
         "type": "curiosity_gap",
-        "avg": 4820.4,
+        "avg": 4840.8,
         "count": 5
       },
       {
         "type": "story",
-        "avg": 3788.49,
+        "avg": 3842.14,
         "count": 63
       },
       {
-        "type": "question",
-        "avg": 3055.93,
-        "count": 14
-      },
-      {
         "type": "relatability",
-        "avg": 1744,
-        "count": 4
+        "avg": 1888.6,
+        "count": 5
       },
       {
         "type": "bold_claim",
-        "avg": 48.5,
-        "count": 2
+        "avg": 3,
+        "count": 1
       }
     ],
     "top_hooks": [
+      {
+        "id": "3953432369198939354_1411361583",
+        "text": "Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.",
+        "source": "transcript",
+        "type": "question",
+        "format": "Reel",
+        "account": "@dhavalkataria_",
+        "postUrl": "https://www.instagram.com/p/Dbdacspojza/",
+        "likes": 73436,
+        "comments": 5345,
+        "added_at": "2026-10-08T03:32:12.248Z"
+      },
       {
         "id": "3970814642533503560_1411361583",
         "text": "If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.",
@@ -243,9 +255,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-        "likes": 40589,
-        "comments": 7511,
-        "added_at": "2026-10-07T03:32:06.113Z"
+        "likes": 40950,
+        "comments": 7568,
+        "added_at": "2026-10-08T03:32:12.248Z"
       },
       {
         "id": "3901189222851344478_1411361583",
@@ -255,9 +267,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DYjzu3Fovhe/",
-        "likes": 28105,
-        "comments": 9045,
-        "added_at": "2026-10-07T03:32:06.113Z"
+        "likes": 28114,
+        "comments": 9044,
+        "added_at": "2026-10-08T03:32:12.248Z"
       },
       {
         "id": "3603432541911984451_48619065725",
@@ -267,9 +279,9 @@
         "format": "Reel",
         "account": "@aryamanupmanyu",
         "postUrl": "https://www.instagram.com/p/DIB9s4YvylD/",
-        "likes": 27671,
-        "comments": 31471,
-        "added_at": "2026-10-07T03:32:06.111Z"
+        "likes": 27670,
+        "comments": 31472,
+        "added_at": "2026-10-08T03:32:12.246Z"
       },
       {
         "id": "3891815806451123714_1411361583",
@@ -281,19 +293,7 @@
         "postUrl": "https://www.instagram.com/p/DYCgdsyxQYC/",
         "likes": 16742,
         "comments": 28619,
-        "added_at": "2026-10-07T03:32:06.113Z"
-      },
-      {
-        "id": "3989720162404130006_72269881052",
-        "text": "You can now run Claude code completely free with almost unlimited usage.  Uh somebody on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month.  And that includes models from ChatGPT, Gemini, GLM, Kimi, Grok, Mistral, Qwen, and even more.",
-        "source": "transcript",
-        "type": "story",
-        "format": "Reel",
-        "account": "@nick_saraev",
-        "postUrl": "https://www.instagram.com/p/DdeVVlpT9zW/",
-        "likes": 14714,
-        "comments": 25974,
-        "added_at": "2026-10-07T03:32:06.106Z"
+        "added_at": "2026-10-08T03:32:12.248Z"
       }
     ]
   },
@@ -304,14 +304,17 @@
       "url": "https://www.instagram.com/p/Dbdacspojza/",
       "topic": "Monetization",
       "format": "Video",
-      "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:",
+      "spoken_hook": "Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.",
+      "full_script": "Can I make 50,000 Rupees using Raj Shamani's business idea? Let's find out on Episode 1 of UN-BROKE-ING INDIA. Step 1. Tum Google pe jaao. Find out and list down everybody jo high value client hai and unki website nahi hai wahan pe. So I made a list of all the doctors near me who don't have a website. Step 2. And go to ChatGPT. ChatGPT tumhe बढ़िया sa wo utha ke Emergent pe daalo. Tumhare saamne website aa jaayegi bahut hi jaldi. So I selected 1 of the doctors. ChatGPT gave me all the details and Emergent gave me the website. It has amazing copy, testimonials section, it also integrated Google Maps and a WhatsApp contact button. But how much money can we actually make from this? Step 3. And wo website jaake us insaan ko bech do. So I started calling all the doctors one by one, but things were not looking good. Nahi chahiye website. Hello? Main na out of station hu 2 din ke liye. But after just 10 calls, THIS happened! Yeah, sure, you can share me the sample. So I sent our website sample as fast as I could. I thought she would ghost me, but in just 24 hours, we made 15,000 Rupees. If you don't believe me, comment \"PROOF\" and I'll share it with you.",
       "full_caption": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one in 5 minutes.\n\n3️⃣ Sell the value.\n\nAfter a few “No’s,” one “Yes” turned into 15,000 rupees for 5 min",
-      "script_pattern": "transformation",
-      "likes": 64358,
-      "comments": 4629,
-      "engagement_rate": 135.89,
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA + narrative + transformation",
+      "likes": 73436,
+      "comments": 5345,
+      "engagement_rate": 143.22,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-10-07T03:57:37.972Z",
+      "scraped_at": "2026-10-08T03:32:12.247Z"
     },
     {
       "id": "3953432369198939354",
@@ -344,5 +347,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (46 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n39 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 15%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (90 hooks, 116 scripts):\nBest hook type in niche: pattern_interrupt\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (40589 likes) | \"This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.\" (28105 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27671 likes) | \"If you are not making 1 lakh a month, you should not be allowed to do these 5 things.  Number 1, have a girlfriend.  Instead of spending 10,000 rupees and wasting 2 days of your life every weekend, pick up a side hustle and start making more money.\" (16742 likes) | \"You can now run Claude code completely free with almost unlimited usage.  Uh somebody on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month.  And that includes models from ChatGPT, Gemini, GLM, Kimi, Grok, Mistral, Qwen, and even more.\" (14714 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.89%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (46 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n40 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.71%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (92 hooks, 117 scripts):\nBest hook type in niche: question\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (73436 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (40950 likes) | \"This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.\" (28114 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27670 likes) | \"If you are not making 1 lakh a month, you should not be allowed to do these 5 things.  Number 1, have a girlfriend.  Instead of spending 10,000 rupees and wasting 2 days of your life every weekend, pick up a side hustle and start making more money.\" (16742 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

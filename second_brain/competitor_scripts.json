@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T03:32:06.116Z",
+  "updated_at": "2026-10-08T03:32:12.251Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1069,14 +1069,17 @@
       "url": "https://www.instagram.com/p/Dbdacspojza/",
       "topic": "Monetization",
       "format": "Video",
-      "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:",
+      "spoken_hook": "Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.",
+      "full_script": "Can I make 50,000 Rupees using Raj Shamani's business idea? Let's find out on Episode 1 of UN-BROKE-ING INDIA. Step 1. Tum Google pe jaao. Find out and list down everybody jo high value client hai and unki website nahi hai wahan pe. So I made a list of all the doctors near me who don't have a website. Step 2. And go to ChatGPT. ChatGPT tumhe बढ़िया sa wo utha ke Emergent pe daalo. Tumhare saamne website aa jaayegi bahut hi jaldi. So I selected 1 of the doctors. ChatGPT gave me all the details and Emergent gave me the website. It has amazing copy, testimonials section, it also integrated Google Maps and a WhatsApp contact button. But how much money can we actually make from this? Step 3. And wo website jaake us insaan ko bech do. So I started calling all the doctors one by one, but things were not looking good. Nahi chahiye website. Hello? Main na out of station hu 2 din ke liye. But after just 10 calls, THIS happened! Yeah, sure, you can share me the sample. So I sent our website sample as fast as I could. I thought she would ghost me, but in just 24 hours, we made 15,000 Rupees. If you don't believe me, comment \"PROOF\" and I'll share it with you.",
       "full_caption": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one in 5 minutes.\n\n3️⃣ Sell the value.\n\nAfter a few “No’s,” one “Yes” turned into 15,000 rupees for 5 min",
-      "script_pattern": "transformation",
-      "likes": 64358,
-      "comments": 4629,
-      "engagement_rate": 135.89,
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA + narrative + transformation",
+      "likes": 73436,
+      "comments": 5345,
+      "engagement_rate": 143.22,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-10-07T03:57:37.972Z",
+      "scraped_at": "2026-10-08T03:32:12.247Z"
     },
     {
       "id": "3940406097983193021_1411361583",
@@ -1872,8 +1875,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-10-06T03:36:25.823Z",
       "scraped_at": "2026-10-07T03:32:06.106Z"
+    },
+    {
+      "id": "4002011074533237165_1411361583",
+      "account": "@dhavalkataria_",
+      "url": "https://www.instagram.com/p/DeJ_95ku6Gt/",
+      "topic": "Monetization",
+      "format": "Video",
+      "spoken_hook": "Can I make 1,00,000 rupees by selling Jhaadu-Pochha to women online?  Let's find out on episode 3 of Un-Broke-ing India.  See Rida, I am not a sexist, but if this viral mop is wanted by thousands of women, why should I not sell it to them, right?",
+      "full_script": "Can I make 1,00,000 rupees by selling Jhaadu-Pochha to women online? Let's find out on episode 3 of Un-Broke-ing India. See Rida, I am not a sexist, but if this viral mop is wanted by thousands of women, why should I not sell it to them, right? Step 1: Finding the product. I went on wholesale marketplaces like these and found our viral mop for Rs. 399. We will sell it for 999 to make a profit of 600 per order. Sounds good? Step 2: Building the store. I asked ChatGPT for some copy, pasted it to Shopify, added some pictures, and published the website. That was easy! Now let's see how much money we can make. Step 3: Ads. I downloaded 3 different reels of our product, mixed them all into 1 final video, and ran it on Meta Ads at Rs. 500 per day. And the results are in. On Day 1 itself, 3 women bought our product, and we made Rs. 3,100 revenue. But on Day 2, we only made 1 sale and a loss of Rs. 200. Just when I was losing hope, on Day 3, we made 6 sales, crossed Rs. 10,000 revenue, and became profitable. Dekha, it is not sexism, it is just business. Proof is in this video, comment \"BUSINESS\" if you want it in your DMs.",
+      "full_caption": "Comment “BUSINESS” for Proof",
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA + narrative",
+      "likes": 3395,
+      "comments": 252,
+      "engagement_rate": 6.63,
+      "verdict": "viral",
+      "transcribed_at": "2026-10-07T03:54:24.715Z",
+      "scraped_at": "2026-10-08T03:32:12.247Z"
     }
   ],
-  "total": 116,
-  "transcript_based": 44
+  "total": 117,
+  "transcript_based": 46
 }
