@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-08",
-  "end_date": "2026-10-15",
+  "generated_on": "2026-10-09",
+  "end_date": "2026-10-16",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-08",
-      "topic": "Bengaluru's AI traffic camera fining a guitar (Viral Tech Breakdown)",
+      "date": "2026-10-09",
+      "topic": "How to build and sell a WhatsApp AI appointment booking bot to local clinics",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Bengaluru's AI camera just fined a man for a guitar!",
+      "post_time": "7:15 PM IST",
+      "hook": "How to sell WhatsApp AI bots to clinics this weekend.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-09",
-      "topic": "3 ChatGPT prompts to score resumes and land 4 interview calls in 24 hours",
+      "date": "2026-10-10",
+      "topic": "Step-by-step framework to fix ugly vibe-coded UI using reference stacks and design tokens",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop sending plain resumes. Use these 3 ChatGPT prompts.",
+      "post_time": "6:45 PM IST",
+      "hook": "Your vibe-coded app looks ugly. Fix it in 4 steps.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-10",
-      "topic": "Brutal tier-list ranking of AI Automation Agencies in 2026",
+      "date": "2026-10-11",
+      "topic": "Setting up a 6-agent autonomous business inside OpenAI Dots for zero overhead",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Most AI agencies will make you zero rupees this year.",
+      "post_time": "7:30 PM IST",
+      "hook": "Run an entire 6-person startup inside one AI workspace.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-11",
-      "topic": "Visual breakdown: How to fix cheap-looking UI in vibe-coded apps",
+      "date": "2026-10-12",
+      "topic": "Architecture teardown of an AI contract and compliance review agent for Indian legal & CA firms",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Fix your cheap vibe-coded app with these 5 design rules.",
+      "post_time": "7:00 PM IST",
+      "hook": "Review 50-page legal contracts in 20 seconds with AI.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-12",
-      "topic": "Testing Raj Shamani’s viral business idea: Making ₹50k pitching local websites",
+      "date": "2026-10-13",
+      "topic": "Deploying an open-source AI agent to automate LinkedIn outreach, profile auditing, and comment replies",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Can you actually make ₹50,000 fixing local business websites?",
+      "post_time": "7:45 PM IST",
+      "hook": "Let an AI agent run your LinkedIn profile completely free.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-13",
-      "topic": "Free open-source security tool that scans AI vibe-coded apps for hacks",
+      "date": "2026-10-14",
+      "topic": "3 precise client-acquisition prompts to close ₹50,000 automation retainers without a portfolio",
       "format": "Carousel",
-      "post_time": "8:15 PM IST",
-      "hook": "This free tool finds every security flaw in your AI code.",
+      "post_time": "6:30 PM IST",
+      "hook": "Three exact prompts that land ₹50,000 freelance automation clients.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-14",
-      "topic": "How to let Claude run your entire LinkedIn on autopilot using GitHub skills",
+      "date": "2026-10-15",
+      "topic": "Building an autonomous voice calling agent for real estate broker lead qualification",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Claude can now run your entire LinkedIn on total autopilot.",
+      "post_time": "8:00 PM IST",
+      "hook": "Real estate brokers lose crores missing leads. Automate their calls.",
       "status": "pending"
     }
   ]

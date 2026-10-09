@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T03:32:12.241Z",
-  "total": 372,
+  "updated_at": "2026-10-09T03:31:45.875Z",
+  "total": 376,
   "captions": [
     {
       "id": "3983074283965215404_72269881052",
@@ -4837,6 +4837,58 @@
       "comments": 14,
       "engagement_rate": 0.09,
       "added_at": "2026-10-08T03:32:12.241Z"
+    },
+    {
+      "id": "4003229861753224217_59161778770",
+      "handle": "@nivedan.ai",
+      "postUrl": "https://www.instagram.com/p/DeOVFloCXwZ/",
+      "hook_line": "EO Punjab, what an incredible session. 🚀",
+      "opening_lines": "EO Punjab, what an incredible session. 🚀\nHad the opportunity to host an AI Masterclass for an amazing audience of entrepreneurs and business leaders, and the energy in the room was genuinely special.\nFrom exploring practical AI tools to understanding how AI can be used in business, productivity,",
+      "full_caption": "EO Punjab, what an incredible session. 🚀\n\nHad the opportunity to host an AI Masterclass for an amazing audience of entrepreneurs and business leaders, and the energy in the room was genuinely special.\n\nFrom exploring practical AI tools to understanding how AI can be used in business, productivity,",
+      "format": "Reel",
+      "likes": 99,
+      "comments": 1,
+      "engagement_rate": 0.02,
+      "added_at": "2026-10-09T03:31:45.875Z"
+    },
+    {
+      "id": "4003534529418608911_104890898",
+      "handle": "@vaibhavsisinty",
+      "postUrl": "https://www.instagram.com/p/DePaXFgAcEP/",
+      "hook_line": "Your Tesla is now an AI agent",
+      "opening_lines": "Your Tesla is now an AI agent\nTesla just put Grok Bot inside its cars, and it’s not a dashboard chatbot.\nYou give Grok a job and it does it.",
+      "full_caption": "Your Tesla is now an AI agent\n\nTesla just put Grok Bot inside its cars, and it’s not a dashboard chatbot.\nYou give Grok a job and it does it.\nThrough Connectors it reaches your email and calendar to book appointments, reservations, even online orders.\nAnd it knows you’re in a Tesla, so it uses your",
+      "format": "Reel",
+      "likes": 2396,
+      "comments": 31,
+      "engagement_rate": 0.11,
+      "added_at": "2026-10-09T03:31:45.875Z"
+    },
+    {
+      "id": "4003432081401000695_7695520761",
+      "handle": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/DePDERWTzL3/",
+      "hook_line": "Share this with a friend without work life balance and ask them what their screen time is? ",
+      "opening_lines": "Share this with a friend without work life balance and ask them what their screen time is? \nWe went out on the streets of Bangalore to ask people if they have work-life balance. But when they said no, we asked to see their screen time to find out if work was really the problem.",
+      "full_caption": "Share this with a friend without work life balance and ask them what their screen time is? \n\nWe went out on the streets of Bangalore to ask people if they have work-life balance. But when they said no, we asked to see their screen time to find out if work was really the problem.",
+      "format": "Reel",
+      "likes": 4369,
+      "comments": 85,
+      "engagement_rate": 0.35,
+      "added_at": "2026-10-09T03:31:45.875Z"
+    },
+    {
+      "id": "4002733572431314485_7695520761",
+      "handle": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/DeMkPoLTH41/",
+      "hook_line": "GTA 5 was running inside a web browser with no 100GB download, and it got taken down within hours.",
+      "opening_lines": "GTA 5 was running inside a web browser with no 100GB download, and it got taken down within hours.",
+      "full_caption": "GTA 5 was running inside a web browser with no 100GB download, and it got taken down within hours.",
+      "format": "Reel",
+      "likes": 22185,
+      "comments": 127,
+      "engagement_rate": 1.74,
+      "added_at": "2026-10-09T03:31:45.875Z"
     }
   ]
 }

@@ -1,48 +1,34 @@
 {
-  "fetched_at": "2026-10-08T03:32:12.186Z",
+  "fetched_at": "2026-10-09T03:31:45.825Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Claude Haiku 5.5",
-      "score": 729,
-      "comments": 369,
-      "url": "https://www.anthropic.com/claude-haiku-5-5"
+      "title": "AI-ready biological data: $1.8B global commitment",
+      "score": 87,
+      "comments": 10,
+      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/"
     },
     {
       "source": "hackernews",
-      "title": "GPT‑6 and Intelligent UI for everyone",
-      "score": 533,
-      "comments": 278,
-      "url": "https://openai.com/index/gpt-6-for-everyone/"
+      "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+      "score": 23,
+      "comments": 3,
+      "url": "https://github.com/edrisranjbar/lifeos"
     },
     {
       "source": "hackernews",
-      "title": "Docker Agent",
-      "score": 192,
-      "comments": 87,
-      "url": "https://github.com/docker/docker-agent"
+      "title": "Show HN: Jevman – AI decision models play Pac-Man",
+      "score": 43,
+      "comments": 6,
+      "url": "https://opper.ai/jevman-benchmark/"
     },
     {
       "source": "hackernews",
-      "title": "Sharing AI progress in mathematics",
-      "score": 1244,
-      "comments": 1419,
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Anti-patterns in software blogging",
-      "score": 218,
-      "comments": 125,
-      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-      "score": 298,
-      "comments": 289,
-      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/"
+      "title": "The Slow Formation of Durable Software",
+      "score": 269,
+      "comments": 112,
+      "url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/"
     }
   ],
   "youtube": [
@@ -51,8 +37,8 @@
       "category": "Science & Tech",
       "title": "Which AI is smartest?",
       "channel": "Mrwhosetheboss",
-      "views": 30062515,
-      "likes": 832028,
+      "views": 31639498,
+      "likes": 869199,
       "publishedAt": "2026-10-01T14:21:22Z",
       "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
       "tags": [],
@@ -61,94 +47,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone 18 Pro Max Dark Cherry #noads #tiktok #usashortsfeeds",
-      "channel": "Midi Gamer",
-      "views": 5958311,
-      "likes": 29000,
-      "publishedAt": "2026-10-04T06:00:16Z",
-      "url": "https://www.youtube.com/watch?v=w2OuOI4hzi4",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "China made a better iPhone Duo 😭",
-      "channel": "John Casterline",
-      "views": 5752777,
-      "likes": 273613,
-      "publishedAt": "2026-10-03T00:33:55Z",
-      "url": "https://www.youtube.com/watch?v=_1R5FKG_MC0",
-      "tags": [
-        "Shorts",
-        "Latest tiktok",
-        "TikTok",
-        "Best videos",
-        "YouTube shorts"
-      ],
-      "description": "📸 follow me on instagram if you wanna keep up :) https://instagram.com/casterline"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "I’m gonna start handing out PCs",
-      "channel": "CarterPCs",
-      "views": 4641942,
-      "likes": 191861,
-      "publishedAt": "2026-10-06T00:35:54Z",
-      "url": "https://www.youtube.com/watch?v=8tVozXGS33k",
-      "tags": [],
-      "description": "I’m gonna start handing out PCs\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "How Candles Can Replace A Wii Sensor Bar 🤔",
-      "channel": "Zack D. Films",
-      "views": 4333977,
-      "likes": 131640,
-      "publishedAt": "2026-09-30T21:30:30Z",
-      "url": "https://www.youtube.com/watch?v=Yqs0BjH3YCs",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "My Parents Could NEVER Throw Away My iPod 😂 #iPod #Apple #Tech #Nostalgia",
-      "channel": "Custom Adventurist",
-      "views": 2880608,
-      "likes": 87592,
-      "publishedAt": "2026-10-02T05:20:48Z",
-      "url": "https://www.youtube.com/watch?v=Xq5cbiy1CO8",
-      "tags": [
-        "iPod",
-        "iPod Touch",
-        "Apple iPod",
-        "old iPod",
-        "iPod nostalgia"
-      ],
-      "description": "As a kid, I thought my parents literally couldn’t throw away my iPod because of the crossed-out trash can symbol on the back 😂 Turns out that symbol "
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Hackers Have Fully Broke The PS5 😭😭",
-      "channel": "Jorski",
-      "views": 2508129,
-      "likes": 109017,
-      "publishedAt": "2026-10-02T03:13:01Z",
-      "url": "https://www.youtube.com/watch?v=LDPKbvZw2aA",
-      "tags": [],
-      "description": "Hackers Have Fully Broke The PS5 😭😭\n\nsubscribeskiiii"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner",
       "channel": "ForgeCore",
-      "views": 2461617,
-      "likes": 23718,
+      "views": 3552499,
+      "likes": 31324,
       "publishedAt": "2026-10-05T17:19:35Z",
       "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
       "tags": [],
@@ -157,68 +59,56 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "GAMING PRICES IN 2026 VS 2018 #shorts",
+      "title": "PS5 SOFTWARE IS COMING TO PC #shorts",
       "channel": "jacobweeby",
-      "views": 1419889,
-      "likes": 76880,
-      "publishedAt": "2026-10-05T22:27:16Z",
-      "url": "https://www.youtube.com/watch?v=yClT-gog5yU",
+      "views": 1419905,
+      "likes": 89030,
+      "publishedAt": "2026-10-07T19:21:47Z",
+      "url": "https://www.youtube.com/watch?v=6VFonD1ZcPg",
       "tags": [],
-      "description": "HUGE Playstation L 😭 \n\n#ps5 #playstation #xboxseriesx #xbox #steam #gaming #skit #fyp #funny #shorts"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Data Centers Need To Stop 😭",
-      "channel": "Danny Rayes",
-      "views": 1365718,
-      "likes": 75743,
-      "publishedAt": "2026-10-05T01:30:31Z",
-      "url": "https://www.youtube.com/watch?v=8D2FKO-hYf8",
-      "tags": [],
-      "description": ""
+      "description": "PS5 software coming to PC is CRAZY 🔥\n\n#ps5 #playstation #xboxseriesx #xbox #steam #gaming #skit #fyp #funny #shorts"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "ChatGPT",
-        "trend_score": 96
-      },
-      {
         "keyword": "AI tools",
-        "trend_score": 95
+        "trend_score": 97
       },
       {
-        "keyword": "productivity tools",
-        "trend_score": 92
+        "keyword": "ChatGPT",
+        "trend_score": 91
       },
       {
-        "keyword": "solopreneur",
+        "keyword": "self improvement",
         "trend_score": 91
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 87
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 84
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 82
+        "trend_score": 83
       },
       {
         "keyword": "AI for business",
-        "trend_score": 79
+        "trend_score": 81
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 78
+        "trend_score": 81
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 80
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 79
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 76
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-08T03:32:12.186Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Claude Haiku 5.5\" — 729 pts\n• [HackerNews] \"GPT‑6 and Intelligent UI for everyone\" — 533 pts\n• [HackerNews] \"Docker Agent\" — 192 pts\n• [HackerNews] \"Sharing AI progress in mathematics\" — 1244 pts\n• [HackerNews] \"Anti-patterns in software blogging\" — 218 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 30063k views\n• [YouTube Global] \"iPhone 18 Pro Max Dark Cherry #noads #tiktok #usashortsfeeds\" by Midi Gamer — 5958k views\n• [YouTube Global] \"China made a better iPhone Duo 😭\" by John Casterline — 5753k views\n• [YouTube Global] \"I’m gonna start handing out PCs\" by CarterPCs — 4642k views\n• [YouTube Global] \"How Candles Can Replace A Wii Sensor Bar 🤔\" by Zack D. Films — 4334k views\n• [YouTube Global] \"My Parents Could NEVER Throw Away My iPod 😂 #iPod #Apple #Tech #Nostalgia\" by Custom Adventurist — 2881k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 96), AI tools (score: 95), productivity tools (score: 92), solopreneur (score: 91), AI workflow (score: 87), self improvement (score: 84), automation tools (score: 82), AI for business (score: 79), entrepreneur (score: 78)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-09T03:31:45.825Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"AI-ready biological data: $1.8B global commitment\" — 87 pts\n• [HackerNews] \"Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI\" — 23 pts\n• [HackerNews] \"Show HN: Jevman – AI decision models play Pac-Man\" — 43 pts\n• [HackerNews] \"The Slow Formation of Durable Software\" — 269 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 31639k views\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 3552k views\n• [YouTube Global] \"PS5 SOFTWARE IS COMING TO PC #shorts\" by jacobweeby — 1420k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 97), ChatGPT (score: 91), self improvement (score: 91), AI workflow (score: 83), AI for business (score: 81), entrepreneur (score: 81), productivity tools (score: 80), automation tools (score: 79), solopreneur (score: 76)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
