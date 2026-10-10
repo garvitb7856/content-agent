@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-09",
-  "end_date": "2026-10-16",
+  "generated_on": "2026-10-10",
+  "end_date": "2026-10-17",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-09",
-      "topic": "How to build and sell a WhatsApp AI appointment booking bot to local clinics",
+      "date": "2026-10-10",
+      "topic": "OpenAI Dots: Running a 6-Employee Startup Inside ChatGPT",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "How to sell WhatsApp AI bots to clinics this weekend.",
+      "post_time": "6:30 PM IST",
+      "hook": "You can run a 6-person startup inside ChatGPT today.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-10",
-      "topic": "Step-by-step framework to fix ugly vibe-coded UI using reference stacks and design tokens",
+      "date": "2026-10-11",
+      "topic": "Step-by-Step Blueprint: Pitching ₹15k AI Websites to Local Clinics",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Your vibe-coded app looks ugly. Fix it in 4 steps.",
+      "post_time": "7:00 PM IST",
+      "hook": "How to make ₹15,000 pitching AI websites to local doctors.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-11",
-      "topic": "Setting up a 6-agent autonomous business inside OpenAI Dots for zero overhead",
+      "date": "2026-10-12",
+      "topic": "How Faceless AI Influencers Hit 200k Followers in 8 Days",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Run an entire 6-person startup inside one AI workspace.",
+      "post_time": "7:15 PM IST",
+      "hook": "This AI influencer got 200,000 followers in 8 days.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-12",
-      "topic": "Architecture teardown of an AI contract and compliance review agent for Indian legal & CA firms",
+      "date": "2026-10-13",
+      "topic": "Securing Vibe-Coded Apps with Cloudflare’s Free AI Security Scanner",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Review 50-page legal contracts in 20 seconds with AI.",
+      "post_time": "6:45 PM IST",
+      "hook": "Vibe coding without this tool leaves your database completely public.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-13",
-      "topic": "Deploying an open-source AI agent to automate LinkedIn outreach, profile auditing, and comment replies",
+      "date": "2026-10-14",
+      "topic": "Building an AI Legal & Contract Intelligence Automation Agency",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "Let an AI agent run your LinkedIn profile completely free.",
+      "post_time": "8:00 PM IST",
+      "hook": "This AI agent reviews legal contracts in 26 seconds.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-14",
-      "topic": "3 precise client-acquisition prompts to close ₹50,000 automation retainers without a portfolio",
+      "date": "2026-10-15",
+      "topic": "Automating Job Search and Application Using Kimi AI Agent Swarm",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Three exact prompts that land ₹50,000 freelance automation clients.",
+      "post_time": "7:30 PM IST",
+      "hook": "Stop applying manually: AI agent swarm applies to 50 jobs.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-15",
-      "topic": "Building an autonomous voice calling agent for real estate broker lead qualification",
+      "date": "2026-10-16",
+      "topic": "Running Entire LinkedIn Content & Outreach on Autopilot with GitHub Skills",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Real estate brokers lose crores missing leads. Automate their calls.",
+      "post_time": "6:30 PM IST",
+      "hook": "This free AI plugin runs your entire LinkedIn on autopilot.",
       "status": "pending"
     }
   ]

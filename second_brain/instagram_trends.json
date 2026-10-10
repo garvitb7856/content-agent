@@ -1,56 +1,78 @@
 {
-  "generated_at": "2026-10-09T03:31:41.094Z",
+  "generated_at": "2026-10-10T03:32:27.635Z",
   "hotRightNow": [
     {
       "username": "thevarunmayya",
-      "caption": "Share this with a friend without work life balance and ask them what their screen time is? \n\nWe went",
-      "likes": 4369,
-      "comments": 85,
-      "engagement": 4454,
-      "engRate": "0.35",
-      "timestamp": "2026-10-08T13:34:36.000Z",
-      "url": "https://www.instagram.com/p/DePDERWTzL3/",
+      "caption": "This is Build What Moves India, where 10 teams were selected from 13,694 applications to build solut",
+      "likes": 2654,
+      "comments": 22,
+      "engagement": 2676,
+      "engRate": "0.21",
+      "timestamp": "2026-10-09T06:10:27.000Z",
+      "url": "https://www.instagram.com/p/DeQ1PsBhSwt/",
       "type": "Video"
     },
     {
-      "username": "vaibhavsisinty",
-      "caption": "Your Tesla is now an AI agent\n\nTesla just put Grok Bot inside its cars, and it’s not a dashboard cha",
-      "likes": 2396,
-      "comments": 31,
-      "engagement": 2427,
-      "engRate": "0.11",
-      "timestamp": "2026-10-08T16:57:38.000Z",
-      "url": "https://www.instagram.com/p/DePaXFgAcEP/",
+      "username": "ishansharma7390",
+      "caption": "Do you agree?",
+      "likes": 573,
+      "comments": 14,
+      "engagement": 587,
+      "engRate": "0.05",
+      "timestamp": "2026-10-09T14:44:44.000Z",
+      "url": "https://www.instagram.com/p/DeRwFl7Mi8F/",
       "type": "Video"
     },
     {
       "username": "nivedan.ai",
-      "caption": "EO Punjab, what an incredible session. 🚀\n\nHad the opportunity to host an AI Masterclass for an amaz",
-      "likes": 99,
-      "comments": 1,
-      "engagement": 100,
-      "engRate": "0.02",
-      "timestamp": "2026-10-08T06:50:09.000Z",
-      "url": "https://www.instagram.com/p/DeOVFloCXwZ/",
+      "caption": "",
+      "likes": 391,
+      "comments": 160,
+      "engagement": 551,
+      "engRate": "0.10",
+      "timestamp": "2026-10-09T07:48:59.000Z",
+      "url": "https://www.instagram.com/p/DeRAnUjAkGO/",
       "type": "Post"
+    },
+    {
+      "username": "favourite.engineer",
+      "caption": "Automate your Youtube with this one skill 🤯\n.\n#youtubeautomation #ai",
+      "likes": 3,
+      "comments": 478,
+      "engagement": 481,
+      "engRate": "0.27",
+      "timestamp": "2026-10-09T13:10:14.000Z",
+      "url": "https://www.instagram.com/p/DeRlHgozdjZ/",
+      "type": "Video"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "@wisprflowindia lets me get my thoughts out without constantly stopping to type. 🎙️👀\n\nWhether I’m ",
+      "likes": 117,
+      "comments": 270,
+      "engagement": 387,
+      "engRate": "0.07",
+      "timestamp": "2026-10-09T13:05:00.000Z",
+      "url": "https://www.instagram.com/p/DeRknFAplSO/",
+      "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 5602,
-      "count": 32
+      "avgEng": 8518,
+      "count": 36
     },
     {
       "format": "post",
-      "avgEng": 2130,
-      "count": 7
+      "avgEng": 1795,
+      "count": 9
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "11 top posts"
+      "appearsIn": "10 top posts"
     },
     {
       "topic": "agent",
@@ -61,49 +83,49 @@
       "appearsIn": "3 top posts"
     },
     {
-      "topic": "free",
-      "appearsIn": "3 top posts"
+      "topic": "claude",
+      "appearsIn": "2 top posts"
     },
     {
-      "topic": "prompt",
-      "appearsIn": "3 top posts"
+      "topic": "free",
+      "appearsIn": "2 top posts"
     }
   ],
   "bestPostingWindow": [
-    "19:00 IST (4 top posts)",
+    "21:00 IST (5 top posts)",
     "20:00 IST (4 top posts)",
-    "21:00 IST (4 top posts)"
+    "18:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 76269,
+      "likes": 76602,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
+    },
+    {
+      "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, unders",
+      "username": "thevarunmayya",
+      "likes": 134407,
+      "url": "https://www.instagram.com/p/DePZYzRzsoh/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 27155,
+      "likes": 27336,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 87137,
+      "likes": 87197,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98419,
+      "likes": 98452,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
-    },
-    {
-      "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
-      "username": "dhavalkataria_",
-      "likes": 73553,
-      "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]
 }

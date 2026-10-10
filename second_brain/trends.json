@@ -1,34 +1,48 @@
 {
-  "fetched_at": "2026-10-09T03:31:45.825Z",
+  "fetched_at": "2026-10-10T03:32:30.648Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "AI-ready biological data: $1.8B global commitment",
-      "score": 87,
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "score": 296,
+      "comments": 225,
+      "url": "https://typesafe.ai/blog/series-ai"
+    },
+    {
+      "source": "hackernews",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "score": 117,
+      "comments": 56,
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Rewriting Prime Agent in Rust",
+      "score": 30,
       "comments": 10,
-      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/"
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-      "score": 23,
-      "comments": 3,
-      "url": "https://github.com/edrisranjbar/lifeos"
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "score": 46,
+      "comments": 5,
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Jevman – AI decision models play Pac-Man",
-      "score": 43,
-      "comments": 6,
-      "url": "https://opper.ai/jevman-benchmark/"
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "score": 89,
+      "comments": 77,
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/"
     },
     {
       "source": "hackernews",
-      "title": "The Slow Formation of Durable Software",
-      "score": 269,
-      "comments": 112,
-      "url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/"
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "score": 385,
+      "comments": 169,
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
     }
   ],
   "youtube": [
@@ -37,8 +51,8 @@
       "category": "Science & Tech",
       "title": "Which AI is smartest?",
       "channel": "Mrwhosetheboss",
-      "views": 31639498,
-      "likes": 869199,
+      "views": 32390791,
+      "likes": 885413,
       "publishedAt": "2026-10-01T14:21:22Z",
       "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
       "tags": [],
@@ -49,8 +63,8 @@
       "category": "Science & Tech",
       "title": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner",
       "channel": "ForgeCore",
-      "views": 3552499,
-      "likes": 31324,
+      "views": 5126129,
+      "likes": 42492,
       "publishedAt": "2026-10-05T17:19:35Z",
       "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
       "tags": [],
@@ -61,54 +75,66 @@
       "category": "Science & Tech",
       "title": "PS5 SOFTWARE IS COMING TO PC #shorts",
       "channel": "jacobweeby",
-      "views": 1419905,
-      "likes": 89030,
+      "views": 1681716,
+      "likes": 98590,
       "publishedAt": "2026-10-07T19:21:47Z",
       "url": "https://www.youtube.com/watch?v=6VFonD1ZcPg",
       "tags": [],
       "description": "PS5 software coming to PC is CRAZY 🔥\n\n#ps5 #playstation #xboxseriesx #xbox #steam #gaming #skit #fyp #funny #shorts"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple",
+      "channel": "Oleki VFX",
+      "views": 1092429,
+      "likes": 37534,
+      "publishedAt": "2026-10-07T16:07:12Z",
+      "url": "https://www.youtube.com/watch?v=iooMcqSRnTQ",
+      "tags": [],
+      "description": ""
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "AI tools",
-        "trend_score": 97
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 91
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 91
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 83
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 81
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 81
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 80
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 79
+        "trend_score": 95
       },
       {
         "keyword": "solopreneur",
+        "trend_score": 88
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 86
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 81
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 79
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 79
+      },
+      {
+        "keyword": "productivity tools",
         "trend_score": 76
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 75
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 75
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-09T03:31:45.825Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"AI-ready biological data: $1.8B global commitment\" — 87 pts\n• [HackerNews] \"Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI\" — 23 pts\n• [HackerNews] \"Show HN: Jevman – AI decision models play Pac-Man\" — 43 pts\n• [HackerNews] \"The Slow Formation of Durable Software\" — 269 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 31639k views\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 3552k views\n• [YouTube Global] \"PS5 SOFTWARE IS COMING TO PC #shorts\" by jacobweeby — 1420k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 97), ChatGPT (score: 91), self improvement (score: 91), AI workflow (score: 83), AI for business (score: 81), entrepreneur (score: 81), productivity tools (score: 80), automation tools (score: 79), solopreneur (score: 76)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-10T03:32:30.648Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Typesafe AI raises $870M at $7.5B\" — 296 pts\n• [HackerNews] \"Pointing AI at archives found a forgotten meteorite, lost rhinos, and more\" — 117 pts\n• [HackerNews] \"Rewriting Prime Agent in Rust\" — 30 pts\n• [HackerNews] \"What mathematicians should know about the Lean Theorem Prover: reliability & AI\" — 46 pts\n• [HackerNews] \"Anthropic AI model submits false tip on unsolved Philly murder\" — 89 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 32391k views\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 5126k views\n• [YouTube Global] \"PS5 SOFTWARE IS COMING TO PC #shorts\" by jacobweeby — 1682k views\n• [YouTube Global] \"Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple\" by Oleki VFX — 1092k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 95), solopreneur (score: 88), AI for business (score: 86), automation tools (score: 81), ChatGPT (score: 79), self improvement (score: 79), productivity tools (score: 76), AI workflow (score: 75), entrepreneur (score: 75)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
