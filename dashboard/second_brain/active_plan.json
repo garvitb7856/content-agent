@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-10",
-  "end_date": "2026-10-17",
+  "generated_on": "2026-10-11",
+  "end_date": "2026-10-18",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-10",
-      "topic": "OpenAI Dots: Running a 6-Employee Startup Inside ChatGPT",
+      "date": "2026-10-11",
+      "topic": "How to build and sell a WhatsApp lead follow-up AI agent to local gyms",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "You can run a 6-person startup inside ChatGPT today.",
+      "post_time": "7:15 PM IST",
+      "hook": "I charged an Indian gym ₹25,000 using AI.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-11",
-      "topic": "Step-by-Step Blueprint: Pitching ₹15k AI Websites to Local Clinics",
+      "date": "2026-10-12",
+      "topic": "The Zero-Salary Agency: 5 multi-agent roles you can run inside a single prompt swarm",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "How to make ₹15,000 pitching AI websites to local doctors.",
+      "post_time": "6:45 PM IST",
+      "hook": "Run a full 6-figure agency without hiring anyone.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-12",
-      "topic": "How Faceless AI Influencers Hit 200k Followers in 8 Days",
+      "date": "2026-10-13",
+      "topic": "The 11-skill autonomous YouTube production agent (from hook finding to rendering)",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "This AI influencer got 200,000 followers in 8 days.",
+      "post_time": "7:30 PM IST",
+      "hook": "This single script runs my entire YouTube channel.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-13",
-      "topic": "Securing Vibe-Coded Apps with Cloudflare’s Free AI Security Scanner",
+      "date": "2026-10-14",
+      "topic": "Step-by-step setup: Using Kimi Agent Swarm to scan and auto-apply to 50 active LinkedIn roles",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Vibe coding without this tool leaves your database completely public.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop applying manually on LinkedIn. Let AI do it.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-14",
-      "topic": "Building an AI Legal & Contract Intelligence Automation Agency",
+      "date": "2026-10-15",
+      "topic": "B2B AI Contract Intelligence Agency: Auditing Indian vendor agreements in 26 seconds",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "This AI agent reviews legal contracts in 26 seconds.",
+      "post_time": "7:45 PM IST",
+      "hook": "Lawyers take 90 minutes. This AI takes 26 seconds.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-15",
-      "topic": "Automating Job Search and Application Using Kimi AI Agent Swarm",
+      "date": "2026-10-16",
+      "topic": "Technical breakdown: Building a high-ticket Real Estate Property Intelligence Agent for brokers",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Stop applying manually: AI agent swarm applies to 50 jobs.",
+      "post_time": "6:30 PM IST",
+      "hook": "Real estate brokers pay ₹50,000 for this AI pipeline.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-16",
-      "topic": "Running Entire LinkedIn Content & Outreach on Autopilot with GitHub Skills",
+      "date": "2026-10-17",
+      "topic": "Setting up hands-free voice automation for daily WhatsApp and email task execution",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "This free AI plugin runs your entire LinkedIn on autopilot.",
+      "post_time": "8:00 PM IST",
+      "hook": "I finished my entire workday without typing one word.",
       "status": "pending"
     }
   ]
