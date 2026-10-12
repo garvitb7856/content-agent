@@ -1,50 +1,39 @@
 {
-  "generated_at": "2026-10-11T03:32:12.545Z",
+  "generated_at": "2026-10-12T03:32:01.321Z",
   "hotRightNow": [
     {
-      "username": "vaibhavsisinty",
-      "caption": "AI just fixed your home WiFi\n\nWe blame the internet for slow WiFi, but the real fight is inside your",
-      "likes": 1572,
-      "comments": 7,
-      "engagement": 1579,
-      "engRate": "0.07",
-      "timestamp": "2026-10-10T17:10:23.000Z",
-      "url": "https://www.instagram.com/p/DeUlbTmgxiC/",
-      "type": "Video"
-    },
-    {
       "username": "ishansharma7390",
-      "caption": "Which one do you like?👀\n\nI've been using these personal assistants, like ChatGPT, Muse from Meta, a",
-      "likes": 419,
-      "comments": 20,
-      "engagement": 439,
-      "engRate": "0.03",
-      "timestamp": "2026-10-10T12:42:55.000Z",
-      "url": "https://www.instagram.com/p/DeUG6iAsYK-/",
+      "caption": "",
+      "likes": 1378,
+      "comments": 19,
+      "engagement": 1397,
+      "engRate": "0.11",
+      "timestamp": "2026-10-11T15:41:46.000Z",
+      "url": "https://www.instagram.com/p/DeW_rg1sp2b/",
       "type": "Video"
     },
     {
-      "username": "nivedan.ai",
-      "caption": "",
-      "likes": 276,
-      "comments": 1,
-      "engagement": 277,
+      "username": "arshman",
+      "caption": "500+ FREE prompts to turn Claude into a motion designer!\n\nAnd you don’t have to use any paid connect",
+      "likes": 178,
+      "comments": 18,
+      "engagement": 196,
       "engRate": "0.05",
-      "timestamp": "2026-10-10T07:59:32.000Z",
-      "url": "https://www.instagram.com/p/DeTmnjyAtJe/",
-      "type": "Post"
+      "timestamp": "2026-10-11T05:28:01.000Z",
+      "url": "https://www.instagram.com/p/DeV5k7Wt-O_/",
+      "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 8744,
-      "count": 34
+      "avgEng": 8742,
+      "count": 33
     },
     {
       "format": "post",
-      "avgEng": 1700,
-      "count": 10
+      "avgEng": 1139,
+      "count": 8
     }
   ],
   "trendingTopics": [
@@ -78,31 +67,31 @@
     {
       "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, unders",
       "username": "thevarunmayya",
-      "likes": 146915,
+      "likes": 156312,
       "url": "https://www.instagram.com/p/DePZYzRzsoh/"
     },
     {
       "hook": "🤯 Claude can literally pay your rent by building websites\n\nNo coding. Just AI. ",
       "username": "favourite.engineer",
-      "likes": 76901,
+      "likes": 77251,
       "url": "https://www.instagram.com/p/DcL5BoZzh-Q/"
     },
     {
       "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
       "username": "favourite.engineer",
-      "likes": 27707,
+      "likes": 28116,
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
       "username": "favourite.engineer",
-      "likes": 87237,
+      "likes": 87307,
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/"
     },
     {
       "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
       "username": "thevarunmayya",
-      "likes": 98463,
+      "likes": 98472,
       "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
     }
   ]

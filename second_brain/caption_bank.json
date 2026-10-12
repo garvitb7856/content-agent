@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-11T03:32:16.998Z",
-  "total": 391,
+  "updated_at": "2026-10-12T03:32:05.720Z",
+  "total": 392,
   "captions": [
     {
       "id": "3983074283965215404_72269881052",
@@ -5084,6 +5084,19 @@
       "comments": 7,
       "engagement_rate": 0.07,
       "added_at": "2026-10-11T03:32:16.998Z"
+    },
+    {
+      "id": "4005360669900137407_24040950",
+      "handle": "@arshman",
+      "postUrl": "https://www.instagram.com/p/DeV5k7Wt-O_/",
+      "hook_line": "500+ FREE prompts to turn Claude into a motion designer!",
+      "opening_lines": "500+ FREE prompts to turn Claude into a motion designer!\nAnd you don’t have to use any paid connectors or skill files.\nYou can scroll through the library with examples.  Pick the ones you like, tweak the prompt a bit and you got it!",
+      "full_caption": "500+ FREE prompts to turn Claude into a motion designer!\n\nAnd you don’t have to use any paid connectors or skill files.\n\nYou can scroll through the library with examples.  Pick the ones you like, tweak the prompt a bit and you got it!\n\nIt includes everything from minimal designs to complex ones.\n\nLi",
+      "format": "Reel",
+      "likes": 178,
+      "comments": 18,
+      "engagement_rate": 0.05,
+      "added_at": "2026-10-12T03:32:05.720Z"
     }
   ]
 }

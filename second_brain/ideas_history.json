@@ -1,206 +1,6 @@
 {
   "generated_topics": [
     {
-      "date": "2026-09-28",
-      "title": "Why Steve Jobs Hated Market Research (And How Indian Startups Can Copy It)"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Malleable Software: Why Locking Down Your Apps is Killing Your Solo Business"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "How RAM and Local Cache Actually Work When Running Large Local LLMs"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Is GPT Astra Going to Make Junior Electrical and Hardware Engineers Obsolete?"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Clear Phone Case Trap: Why Minimalist Tech Aesthetics Are Backfiring"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "We Built the Product Apple Quietly Abandoned Using Zero-Budget AI Prototyping"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why Nokia's Collapse Proves Every Indian Service Agency Needs an AI Pivot Now"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Hidden Costs of SaaS Bloat: How to Reclaim User Agency in Your Business"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "How Hardware Constraints Shape AI Adoption in Tier-2 Indian Cities"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Stop Building Standard SaaS: Why Modular, Hackable Tools Are the 2026 Goldmine"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Brutal Truth About Projector Classrooms vs. Real-World Tech Education in India"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "How Autonomous Powertrains and AI Are Rewriting Automotive Engineering"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why Steve Jobs' Product Philosophy Will Save Your Solo Creator Business"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Truth Behind Apple's Cancelled Projects: Can AI Reverse-Engineer Innovation?"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why Clear Phone Cases Are a Zero-Sum Game for Tech Minimalists"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "RAM, Tokens, and Context Windows: The Ultimate Hardware Bottle-Neck Explained"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "GPT Astra vs. Traditional Engineering: Will Your Degree Survive 2026?"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Malleable Software vs. Walled Gardens: Reclaiming Your Digital Autonomy"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "How Nokia's Arrogance Blueprint Explains Modern Corporate AI Denial in India"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Building Products Apple Dropped: A Solopreneur’s Guide to Speed-to-Market"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Hidden Physics of RAM That Every Tech Creator Needs to Understand"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why GPT Astra Changes Everything About How We Interact with Machines"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Death of Static Apps: Why Malleable Software is the Next Billion-Dollar Shift"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Steve Jobs' Rule for Saying 'No' to 1,000 Good Ideas in Your Business"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why Clear Phone Cases Are a Metaphor for Over-Engineered Productivity Setups"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "How Nissan's e-POWER Powertrain Teaches Us About Hybrid AI-Human Workflows"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Projector Classrooms and the Illusion of Modern Tech Training in India"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Building the Unbuilt: How HTX Studio’s Dropped Product Inspired Our Next AI Tool"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why RAM Speeds Matter More Than Core Counts for Running Local AI Agents"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "GPT Astra and the Evolution of Autonomous Engineering Workflows"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Malleable Software: The Open-Source Movement Reclaiming User Agency"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Steve Jobs, BlackBerry, and the Danger of Incremental Innovation in Startups"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Clear Case Fallacy: Why Aesthetics Are Ruining Your Daily Tech Carry"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "How Smart Powertrains Are Redefining Machine Efficiency in 2026"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why Classroom Projectors Are the Ultimate Symbol of Outdated Skill Sets"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Rebuilding Apple’s Abandoned Tech Dreams with Zero Budget and Open-Source AI"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "RAM Optimization Secrets for Running Multiple AI Agents Simultaneously"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "GPT Astra: The OpenAI Release That Every Technical Founder Needs to Master"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Why Malleable Software is the Antithesis of Big Tech Monopoly Control"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Steve Jobs' Secret Product Strategy That Indian Founders Completely Ignore"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Transparent Phone Case Phenomenon: Minimalism Gone Too Far?"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Nissan’s e-POWER vs. Pure EV: What Tech Builders Can Learn From Hybrid Systems"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Projectors, Professors, and the Urgent Need for Real-World AI Literacy"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Building What Big Tech Abandoned: The Indie Hacker's Ultimate Playbook"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "How RAM Architecture Dictates the Speed of Modern AI-Driven Enterprises"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "GPT Astra and the Rise of Conversational Engineering Across Industries"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Malleable Software: Rewriting the Rules of Engagement for Digital Creators"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Steve Jobs vs. Nokia: The Ultimate Lesson in Spotting Industrial Shifts Early"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Clear Phone Case Conundrum: Why Tech Minimalism is Flawed"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Autonomous Powertrains and the Future of AI Integration in Physical Machines"
-    },
-    {
       "date": "2026-09-29",
       "title": "Home-trained 0.8B Decision Models on Local Hardware"
     },
@@ -1999,6 +1799,206 @@
     {
       "date": "2026-10-11",
       "title": "The Anti-Doomscrolling System Lock for Founders"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why You Must Stop Buying AI Subscriptions in 2026"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Build a ₹50,000 WhatsApp AI Booking Agent in 15 Minutes"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "OpenAI 'Dots' vs Meta Muse: Your Personal Army"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Reverse Engineering Your Career: ChatGPT's Hardest Truth"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The 2-Minute Claude Code Landing Page Method"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The Secret AI Job Hunter Agent on Kimi"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why Indian Traffic Cameras Flagged a Guitar (AI Computer Vision Glitch)"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Cloudflare's Free Security Agent for Vibe Coders"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The LLM Capability Gap: Why 90% of Pros Are Falling Behind"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Build a Local Legal Contract Scanner Agency"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "500B Tokens Later: AI Decompiling Video Games"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Whisper + Automations: Going a Full Day Without Typing"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The 'No Choice' Rule: Jensen Huang's Leather Jacket Philosophy"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why Starlink vs Jio is the Biggest Battle for Indian Tech"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Build an AI Fashion Stylist on ChatGPT"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The AI Influencer Goldrush: How Dahab Daddy Got 200k Followers"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Google NotebookLM Just Became a 24/7 Voice Tutor"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "OpenAI ASI Leaked Date: March 2028 Breakdown"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Top 3 Skills That Make Claude Code Run Your LinkedIn"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "How to Turn Wholesale Market Finds into a ₹1 Lakh Side Hustle"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The Real Estate Intelligence Agency: ₹2 Lakh Retainers"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "5 Free Documentaries Every Future Tech Founder Must Watch"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why AI Smart Wi-Fi Routers Are the Next Big Indian Startup Trend"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "AI Discovered Newton's Laws from Scratch: Why This Terrifies Devs"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The 'Proof of Work' Portfolio: How to Get Hired in AI Without JEE"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Fix Inconsistent Gemini Image Generations with One Secret Prompt"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The Strix Hack Test: How to Audit Your AI App in 60 Seconds"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Which AI is Actually the Smartest in 2026? (Honest Benchmark)"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Automating Introvert Boundaries with an AI Stoplight"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The Single Best Cold DM Strategy for ₹50k Retainers"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why Most Solo Founders Burn Out Before Reaching ₹1 Lakh/Month"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The ASD-STE100 Aerospace Prompting Formula"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "How Indian Creators Get Demonetized Using NotebookLM"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The 20-Minute AI Voice Receptionist for Indian Dentists"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The 5 Things You Must Ban If You Make Under ₹1 Lakh/Month"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Free LLM API Aggregators: Never Hit Rate Limits Again"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Google Gemini 4 Argon: 1 Million Output Tokens Explained"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Breakdown: 8 Income Streams from 100k Followers in India"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Meta's 100-Gram AR Glasses: The End of Smartphones?"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why Indian Engineers Must Pivot from SaaS to Autonomous Agents"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The Solopreneur 'Touch Grass' Protocol: Escaping Screen Brain Rot"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "GTA 5 Running in Web Browsers: How Edge Computing Changed"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "4 ChatGPT Prompts to Land High-Ticket International Clients"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "How to Build a Custom GPT That Auto-Extracts Indian GST Invoices"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Building Without Code: The Framer Motion + 21st.dev Stack"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The Real Difference: ChatGPT Dots vs Meta Muse vs Grok Bot"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why You Shouldn't Touch DeepSeek or Kimi Without System Prompt Hardening"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "The Solopreneur AI Stack: Run a 5-Person Agency Solo in 2026"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Why Ben Affleck Coding Python Should Wake Up Every Non-Techie"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Zero-Cost AI Coding Setup for Indian College Students"
     }
   ],
   "posted_topics": []

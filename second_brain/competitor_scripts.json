@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T03:32:17.005Z",
+  "updated_at": "2026-10-12T03:32:05.706Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1893,8 +1893,26 @@
       "verdict": "viral",
       "transcribed_at": "2026-10-07T03:54:24.715Z",
       "scraped_at": "2026-10-08T03:32:12.247Z"
+    },
+    {
+      "id": "4002033324879845999_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DeKFBr0vRpv/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Don't use Claude Code until you've installed these five plugins.  First is Free LLM APIs, which gives your Claude Code over 7 billion free AI tokens from over 146 AI models.  So it automatically switches you to the next best model anytime your usage limit runs out, letting your sessions last significantly longer.",
+      "full_script": "Don't use Claude Code until you've installed these five plugins. First is Free LLM APIs, which gives your Claude Code over 7 billion free AI tokens from over 146 AI models. So it automatically switches you to the next best model anytime your usage limit runs out, letting your sessions last significantly longer. The second is Strix, which attacks your vibe-coded app just like a real hacker to find and then fix any security vulnerabilities you left behind. Third is Claude-Mem, which gives your Claude memory across literally every session so it can remember your projects and your files without you ever having to re-explain a single thing. The fourth is Agent Reach, which lets you scrape anything off the internet, even gated platforms like LinkedIn, Instagram, X, and Reddit, all without paying an additional cent. And finally, there's Claude Code Setup. It's an official Anthropic plugin that scans your codebase and recommends the best skills, hooks, sub-agents, and MCP servers for your project. So if you want them all for yourselves, just comment Claude down below, and I'll send you the link directly.",
+      "full_caption": "Comment \"CLAUDE\" to get all these 5 AI plugins to level up your Claude Code.\n\nDon't use Claude Code until you've installed these five plugins.\n\nFirst is FreeLLMAPI.\n\nIt gives your Claude Code over 7 billion free AI tokens from 600+ AI models.\n\nIt automatically switches you to the next best model whe",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3486,
+      "comments": 3693,
+      "engagement_rate": 1.02,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-07T03:34:33.369Z",
+      "scraped_at": "2026-10-12T03:32:05.687Z"
     }
   ],
-  "total": 117,
-  "transcript_based": 46
+  "total": 118,
+  "transcript_based": 47
 }

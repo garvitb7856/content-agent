@@ -1,69 +1,20 @@
 {
-  "fetched_at": "2026-10-11T03:32:16.940Z",
+  "fetched_at": "2026-10-12T03:32:05.641Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-      "score": 49,
-      "comments": 30,
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "score": 289,
+      "comments": 467,
+      "url": "https://twitter.com/karpathy/status/2109361546505966046"
+    },
+    {
+      "source": "hackernews",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "score": 178,
+      "comments": 125,
       "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Veda: The First Agentic Hobby Operating System",
-      "score": 32,
-      "comments": 3,
-      "url": "https://github.com/vahmoh25/Veda"
-    },
-    {
-      "source": "hackernews",
-      "title": "Five months treating bugs like patients and coding agents like a medical team",
-      "score": 87,
-      "comments": 36,
-      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "score": 262,
-      "comments": 123,
-      "url": "https://github.com/rociiu/talorys"
-    },
-    {
-      "source": "hackernews",
-      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-      "score": 171,
-      "comments": 39,
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Grieving the loss of details",
-      "score": 371,
-      "comments": 288,
-      "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "score": 134,
-      "comments": 91,
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
-    },
-    {
-      "source": "hackernews",
-      "title": "Food processing influences metabolism and brain activity",
-      "score": 118,
-      "comments": 90,
-      "url": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html"
-    },
-    {
-      "source": "hackernews",
-      "title": "Recent AI models struggled to match a human algorithmic innovation",
-      "score": 82,
-      "comments": 63,
-      "url": "https://epoch.ai/publications/innovationeval"
     }
   ],
   "youtube": [
@@ -72,8 +23,8 @@
       "category": "Science & Tech",
       "title": "Which AI is smartest?",
       "channel": "Mrwhosetheboss",
-      "views": 33150923,
-      "likes": 901373,
+      "views": 33953411,
+      "likes": 918019,
       "publishedAt": "2026-10-01T14:21:22Z",
       "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
       "tags": [],
@@ -84,8 +35,8 @@
       "category": "Science & Tech",
       "title": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner",
       "channel": "ForgeCore",
-      "views": 6389878,
-      "likes": 51854,
+      "views": 7330357,
+      "likes": 59517,
       "publishedAt": "2026-10-05T17:19:35Z",
       "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
       "tags": [],
@@ -96,8 +47,8 @@
       "category": "Science & Tech",
       "title": "Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple",
       "channel": "Oleki VFX",
-      "views": 2010595,
-      "likes": 70672,
+      "views": 3087368,
+      "likes": 113230,
       "publishedAt": "2026-10-07T16:07:12Z",
       "url": "https://www.youtube.com/watch?v=iooMcqSRnTQ",
       "tags": [],
@@ -108,8 +59,8 @@
       "category": "Science & Tech",
       "title": "PS5 SOFTWARE IS COMING TO PC #shorts",
       "channel": "jacobweeby",
-      "views": 1858294,
-      "likes": 104638,
+      "views": 1971680,
+      "likes": 108550,
       "publishedAt": "2026-10-07T19:21:47Z",
       "url": "https://www.youtube.com/watch?v=6VFonD1ZcPg",
       "tags": [],
@@ -119,43 +70,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "automation tools",
-        "trend_score": 88
-      },
-      {
         "keyword": "self improvement",
-        "trend_score": 85
+        "trend_score": 87
       },
       {
         "keyword": "AI tools",
-        "trend_score": 83
+        "trend_score": 82
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 79
+        "trend_score": 77
       },
       {
-        "keyword": "AI for business",
-        "trend_score": 73
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 73
+        "keyword": "automation tools",
+        "trend_score": 77
       },
       {
         "keyword": "ChatGPT",
+        "trend_score": 72
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 71
+      },
+      {
+        "keyword": "solopreneur",
         "trend_score": 68
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 62
+        "trend_score": 61
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 58
+        "trend_score": 59
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-11T03:32:16.940Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter\" — 49 pts\n• [HackerNews] \"Veda: The First Agentic Hobby Operating System\" — 32 pts\n• [HackerNews] \"Five months treating bugs like patients and coding agents like a medical team\" — 87 pts\n• [HackerNews] \"Talorys – A self-hosted personal AI agent on Cloudflare's free tier\" — 262 pts\n• [HackerNews] \"Mxc: Microsoft Execution Containers version 1.0.0\" — 171 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 33151k views\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 6390k views\n• [YouTube Global] \"Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple\" by Oleki VFX — 2011k views\n• [YouTube Global] \"PS5 SOFTWARE IS COMING TO PC #shorts\" by jacobweeby — 1858k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nautomation tools (score: 88), self improvement (score: 85), AI tools (score: 83), productivity tools (score: 79), AI for business (score: 73), solopreneur (score: 73), ChatGPT (score: 68), entrepreneur (score: 62), AI workflow (score: 58)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-12T03:32:05.641Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"The gap in shared understanding of LLM capability is widening\" — 289 pts\n• [HackerNews] \"500B tokens later: Letting AI agents decompile a first-person shooter\" — 178 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 33953k views\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 7330k views\n• [YouTube Global] \"Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple\" by Oleki VFX — 3087k views\n• [YouTube Global] \"PS5 SOFTWARE IS COMING TO PC #shorts\" by jacobweeby — 1972k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 87), AI tools (score: 82), productivity tools (score: 77), automation tools (score: 77), ChatGPT (score: 72), AI for business (score: 71), solopreneur (score: 68), entrepreneur (score: 61), AI workflow (score: 59)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
