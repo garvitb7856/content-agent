@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-12",
-  "end_date": "2026-10-19",
+  "generated_on": "2026-10-13",
+  "end_date": "2026-10-20",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-12",
-      "topic": "How to build and sell ₹1 Lakh animated landing pages using Claude Code, Framer Motion, and 21st.dev UI components",
+      "date": "2026-10-13",
+      "topic": "Testing Raj Shamani's local business website blueprint to make quick cash from offline stores",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Build a one lakh rupee website in two minutes.",
+      "post_time": "6:30 PM IST",
+      "hook": "Raj Shamani ke business idea ko test kiya: 15 minute me website banayi!",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-13",
-      "topic": "Step-by-step setup to auto-apply to 50 curated LinkedIn and Naukri jobs using Kimi AI's Agent Swarm",
+      "date": "2026-10-14",
+      "topic": "Claude context optimization cheat sheet: when to use Haiku, Sonnet, and Opus to save tokens",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Stop scrolling LinkedIn. This free AI applies for you.",
+      "post_time": "7:00 PM IST",
+      "hook": "Claude limit out jaldi kyu hoti hai? Ye mistake band karo.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-14",
-      "topic": "Creating an automated Hindi/English voice receptionist for local Indian clinics and dentists using Vapi and Make",
+      "date": "2026-10-15",
+      "topic": "The one prompt brutal audit on ChatGPT to find out what is holding your career or business back",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "I built an AI clinic receptionist in twenty minutes.",
+      "post_time": "6:45 PM IST",
+      "hook": "ChatGPT se pucho ki tumhare andar sabse bada flaw kya hai.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-15",
-      "topic": "The 3-prompt ChatGPT psychological audit that reveals your biggest career blindspot based on user history",
+      "date": "2026-10-16",
+      "topic": "Breakdown of 8 real income streams of a 100k tech content creator in India",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Ask ChatGPT this prompt to discover your biggest blindspot.",
+      "post_time": "7:30 PM IST",
+      "hook": "100k subscribers se kitna paisa banta hai? Real numbers dekho.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-16",
-      "topic": "Automating your entire inbound LinkedIn pipeline with open-source GitHub skills plugged into terminal tools",
+      "date": "2026-10-17",
+      "topic": "Agentic Real Estate: Setting up AI property lead-scoring bots for Gurgaon and Bengaluru brokers",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "This free GitHub skill puts your LinkedIn on autopilot.",
+      "post_time": "6:00 PM IST",
+      "hook": "Restaurants chhod do, ye AI agency real estate me lakhs de rahi hai!",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-17",
-      "topic": "Blueprint for 3 high-ticket AI automation agencies you can run solo (Contract Intelligence, Property Signals, Inbound Voice)",
+      "date": "2026-10-18",
+      "topic": "Step-by-step swipe file for setting up a 6-job automated business inside ChatGPT using dots",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Three high ticket AI automation businesses to start today.",
+      "post_time": "8:00 PM IST",
+      "hook": "Ek hi ChatGPT window me 6 alag jobs kaise run karein?",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-18",
-      "topic": "Free open-source security audit tools (Strix & Cloudflare AI skills) to test vibe-coded apps before client delivery",
+      "date": "2026-10-19",
+      "topic": "How to use free open-source LLM plugins to get unlimited tokens without paying for subscriptions",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Don't launch your AI app before running this test.",
+      "post_time": "6:30 PM IST",
+      "hook": "Bina ek bhi paisa diye unlimited AI tokens kaise lein?",
       "status": "pending"
     }
   ]

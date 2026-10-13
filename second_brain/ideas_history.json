@@ -1,206 +1,6 @@
 {
   "generated_topics": [
     {
-      "date": "2026-09-29",
-      "title": "Home-trained 0.8B Decision Models on Local Hardware"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Nvidia Watchdog Chip Threat to Autonomous Agents"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Browser-Based MicroLLM Labs for Quick Prototyping"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why It's Time to Audit Big Tech AI Labs"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Göbeklitepe Burials and the Re-writing of Ancient History"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How Steve Jobs Killed BlackBerry Without Writing Code"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Rebuilding the Abandoned Tech Product Apple Gave Up On"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Projector Connection Secret in Modern Classrooms"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Zack D. Films Style Breakdown of How RAM Architecture Works"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Custom Wolverine PS5 Setup That Breaks the Console Rules"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Guessing Gaming Headsets in 5 Tries: Tech Creator Edition"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Danger of Tool Hopping on Execution Speed"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why Unified APIs Are Killing Subscription Fatigue for Builders"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Sneaky Threat of Entry-Level Cloud Laptops"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why I'm Finally Apologizing to Mark Zuckerberg After This VR Leap"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How Sam Altman and OpenAI Are Funding Cellular Rejuvenation"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "India's First Autonomous AI Warship Needs No Captain"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Truth About Claude's Hidden Unlimited Token Workarounds"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why NotebookLM Channels Are Getting Demonetized Instantly"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Testing Raj Shamani's Viral Business Idea in 5 Minutes"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The AGI Headline Everyone Misunderstood About GPT-6 Astra"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How I Built an Autonomous Customer Support Swarm in 20 Minutes"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why 99% of Free AI Tool Creators Never Use Their Own Recommendations"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How Creators Smoothly Zoom In and Out of Screen Recordings"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The IIT Bombay Proof of Work Illusion for Freshers"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How to Hire 100 AI Employees for Zero Salary Today"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why Claude Can Literally Pay Your Rent by Building Websites"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "What Sundar Pichai Really Thinks About AI Wrapper Startups"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Secret Temple Smart Ring Used by India's Top Elites"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How Four Hackers Used AI for a 703 Million Dollar Medicare Heist"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Five Hidden Layers Inside Claude That Most Users Never Open"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why AI Agents Will Not Steal Your Entire Job Next Year"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Turning a Single Video Editing Skill Into a Website in 30 Minutes"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Three Essential Communication Skills Every 20-Year-Old Needs"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How I Scaled My Income From 15k to 5 Lakhs Starting as an Intern"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why Having Less Than 5 Lakhs in Your Bank Means You Should Pause Dating"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The 4 ChatGPT Prompts That Generated One Lakh Rupees in 7 Days"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How to Claim Free Anthropic Claude Max Developer Credits in India"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How to Get Canva Pro Free for One Full Year in India"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Truth Behind Thousands of Faceless AI Video Channels Making Millions"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why Higgsfield API Is the Cheapest Way to Generate AI Video Without Subs"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Building a Complete D2C WhatsApp Agent That Talks in Voice Notes"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Stop Vibe Coding Without Installing These Four Claude Plugins"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How AI Is Reshaping Design Jobs and Art Evolution in 2026"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The 8 Free AI Tools That Feel Illegal to Know in 2026"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Why Prompt Engineering Is Still a Real Engineering Career"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Step-by-Step System to Automate Invoicing with Claude and n8n"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How to Overcome Burnout While Building a Tech Startup at 21"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Ultimate Guide to Local LLM Privacy for Indian Founders"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How to Set Up Your First AI Content Operations System in One Hour"
-    },
-    {
       "date": "2026-09-30",
       "title": "GPT-6.1 Sol Local Inference Setup"
     },
@@ -1999,6 +1799,206 @@
     {
       "date": "2026-10-12",
       "title": "Zero-Cost AI Coding Setup for Indian College Students"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "One-Word Image Prompting Cheat Code"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Run Giant 70B LLMs on Low-End Laptops via Janas SSD Streaming"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Anthropic Official Grant: Claude Max Worth $6000 for Indian Founders"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Turn Your Cheap WiFi Router into an SDR Radar"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Stop Wasting Time on Naukri: Free Auto-Applier Swarm Setup"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The 12 GitHub Plugins That Turn Claude into an Auto-Ghostwriter"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Strix Security Audit: Pentest Your AI Apps Before Launch"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Smartest AI Benchmark: 2026 Free Models Compared"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Why Indian Bengaluru AI Traffic Cameras Fined a Guy with a Guitar"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Agentic Real Estate: The B2B Niche Making Lakhs in Tier-1 Cities"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Claude Context Optimization: Haiku Plans, Sonnet Builds, Opus Executes"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Starlink vs Jio Pricing Reality Check for Indian Techies"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Emergency Stoplight for Introverts: ESP32 + ChatGPT Automation"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Build Full 3D Browser Games with Claude Code in 45 Minutes"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "AI Personal Stylist: Upload Full-Body Photo for Indian Weddings"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The ASI 2028 Leak: What Sam Altman's Timeline Means for Freshers"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Distillation Defenses: How Open Source Steals Frontier LLM Weights"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The One Prompt Brutal Audit: What Is Holding Your Business Back?"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The 5-Figure Local Doctor Website Playbook (Raj Shamani Test)"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Faceless AI Influencer Money Machine (Dahab Daddy Breakdown)"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Intel D270 AI Accelerator: 480GB VRAM Disrupting Nvidia Monopoly"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Personal Intelligence Setting in Gemini for Consistent Brand Art"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Why Elite Founders Never Choose Their Outfits (Jensen's Law)"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The 8 Income Streams Breakdown from a Tech Content Creator"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Automated Objections: Building an AI Voice Sales Closer"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Free AI Tokens Token Switcher Setup"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Why You Must Stop Consuming Tutorials Without Proof of Work"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "How Sundar Pichai is Hunting Hackers with Autonomous Security LLMs"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The White House AI Pact: Why Open Source Won't Be Regulated"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Building a Multi-Agent Virtual Co-Founder Swarm for ₹0"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The 2-Minute Portfolio Website with Framer Motion and Claude"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Single Cold DM Framework That Actually Lands International Clients"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "AI Newton: Why Frontier Models are Learning Physics From Scratch"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The 5 Unforgivable Mistakes When Prompting Reasoning Models"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "How to Automate Competitive Intelligence for D2C Brands"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Brutal Truth About YouTube Automation Channels in 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Zero-Cost Local RAG Setup for CA and Legal Files"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The 5 Non-Negotiable Bans If You Make Under 1 Lakh a Month"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "DeepSeek vs Claude 3.7: Which One Should Freelancers Rely On?"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Fast Fourier Transform Exploit: Math Controversy Explained"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Turn Boring Screen Recordings into Apple-Style Product Videos"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Death of Traditional ERP: Why Indian SMEs Are Adopting Mini-Bots"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Building an Autonomous WhatsApp Lead Sorter for Freelancers"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Dopamine Reset Routine for Coders Suffering Brain Fog"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The 1-Click Meeting Summarizer That Doesn't Scare Indian Clients"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Prompting Like a Systems Engineer: Input, Constraint, Output Schema"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Zero-Budget Stack to Build and Host Your First SaaS in 24 Hours"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Why Indian Techies Must Shift from Service Mindset to Product Taste"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Minimalist Desk Tech Setup for 10x Deep Focus"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "How to Build a Custom Customer Support Bot in Hindi-English (Hinglish)"
     }
   ],
   "posted_topics": []
