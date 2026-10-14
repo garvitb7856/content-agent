@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T03:32:15.203Z",
+  "updated_at": "2026-10-14T03:32:10.071Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1276,14 +1276,17 @@
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/",
       "topic": "General Tech",
       "format": "Video",
-      "hook": "NotebookLM + YouTube = 🤑",
+      "spoken_hook": "Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.",
+      "full_script": "Aaj main tumhe dikhata hoon power of prompt. Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath. Karna kya hai wo sun lo. Tumhe koi bhi video mile YouTube se uska link copy karo aur idhar daal do. Aur uske baad tumhe directly video overview mein chale jaana hai. Tumhari video create ho jayegi bina copyright ke. Koi bhi scripting karne ki zaroorat nahi hai. Koi bhi camera utha ke video record karne ki zaroorat nahi hai. Tumhari directly video generate ho jayegi. Bas comment kar dena AI ya fir YouTube, main tumhe directly iska poora process",
       "full_caption": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste a viral link → Video Overview → upload. Content ID won’t flag it, so it feels safe. YouTube’s inauthentic content policy still kills it.\n\nThere’s a version that works. Free guide. Comment AI.\n\n#notebooklm #youtubemonetiz",
+      "script_source": "transcript",
       "script_pattern": "comment_CTA",
-      "likes": 16969,
-      "comments": 40786,
-      "engagement_rate": 36.66,
+      "likes": 28760,
+      "comments": 79482,
+      "engagement_rate": 60.24,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-10-13T03:44:10.901Z",
+      "scraped_at": "2026-10-14T03:32:10.070Z"
     },
     {
       "id": "3932971147428001240_27437145281",
@@ -1914,8 +1917,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-10-07T03:34:33.369Z",
       "scraped_at": "2026-10-12T03:32:05.687Z"
+    },
+    {
+      "id": "4001809554641068545_59161778770",
+      "account": "@nivedan.ai",
+      "url": "https://www.instagram.com/p/DeJSJZjJSIB/",
+      "topic": "General Tech",
+      "format": "Video",
+      "spoken_hook": "This girl hit 470K+ followers in under 100 posts, and she never shot a single video.  Her face, her voice, her setups, everything is made with AI.  And I'll show you how to do it in the next 30 seconds.",
+      "full_script": "This girl hit 470K+ followers in under 100 posts, and she never shot a single video. Her face, her voice, her setups, everything is made with AI. And I'll show you how to do it in the next 30 seconds. You don't need four different AI apps for it. Everything she used is inside Picsart. First, upload one photo of yourself and pick ChatGPT Image 2.5. Don't use Google Nano Banana. ChatGPT is much better. It turns that photo into a clone that looks just like you. Then give a simple prompt and put your clone in a cafe or a studio from any angle you want. Now, I know what you're thinking. AI clones never sound real, and that's why step three fixes that. Pick ElevenLabs V3 and record a short clip of yourself talking. It clones your real voice. Last step, select Seedance 2.5 inside Picsart. Add your AI voice and your pictures and hit generate. Now your clone talks exactly like you. Nivedan is best AI creator. I've put all the settings and prompts into one guide so you don't have to figure it out. Comment clone, and I'll send you the full step-by-step guide in your DMs.",
+      "full_caption": "470K+ followers without filming a single video. 👀🤯\nThis creator built her entire content presence with AI, from her face and voice to the locations and videos.\nAnd the interesting part? You can create the whole workflow inside Picsart.\n\nUse one photo to create your AI clone, generate different sce",
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA",
+      "likes": 4036,
+      "comments": 10352,
+      "engagement_rate": 2.63,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-13T03:41:42.256Z",
+      "scraped_at": "2026-10-14T03:32:10.068Z"
     }
   ],
-  "total": 118,
-  "transcript_based": 48
+  "total": 119,
+  "transcript_based": 50
 }
