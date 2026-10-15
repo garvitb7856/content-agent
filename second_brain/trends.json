@@ -1,91 +1,58 @@
 {
-  "fetched_at": "2026-10-14T03:32:10.008Z",
+  "fetched_at": "2026-10-15T03:32:01.639Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Gemini 4 Argon",
-      "score": 1086,
-      "comments": 798,
-      "url": "https://deepmind.google/models/gemini/"
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "score": 99,
+      "comments": 24,
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
-      "score": 78,
+      "title": "Ask HN: CAD for wood working with LLM support?",
+      "score": 44,
       "comments": 38,
-      "url": "https://pulseos.finance"
+      "url": "https://news.ycombinator.com/item?id=50067325"
     },
     {
       "source": "hackernews",
-      "title": "I built a tool to track what AI leaders say and how their views change on video",
-      "score": 22,
-      "comments": 15,
-      "url": "https://blumify.io/people"
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "score": 848,
+      "comments": 463,
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
     },
     {
       "source": "hackernews",
-      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "score": 274,
-      "comments": 154,
-      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic"
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "score": 323,
+      "comments": 230,
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/"
     },
     {
       "source": "hackernews",
-      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
-      "score": 211,
-      "comments": 352,
-      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/"
+      "title": "Has AI tells",
+      "score": 91,
+      "comments": 79,
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1"
     },
     {
       "source": "hackernews",
-      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
-      "score": 1,
-      "comments": 0,
-      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0"
-    },
-    {
-      "source": "hackernews",
-      "title": "OpenAI engineer arrested in bugging of executive conference room",
-      "score": 452,
-      "comments": 396,
-      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
-      "score": 305,
-      "comments": 272,
-      "url": "https://blog.character.ai/an-update-on-character-ai/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
-      "score": 59,
-      "comments": 7,
-      "url": "https://parsimony.lasu.dev/"
+      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "score": 93,
+      "comments": 66,
+      "url": "https://clova.email/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Which AI is smartest?",
-      "channel": "Mrwhosetheboss",
-      "views": 34869225,
-      "likes": 936478,
-      "publishedAt": "2026-10-01T14:21:22Z",
-      "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
-      "tags": [],
-      "description": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner",
       "channel": "ForgeCore",
-      "views": 8099341,
-      "likes": 64339,
+      "views": 8359134,
+      "likes": 65672,
       "publishedAt": "2026-10-05T17:19:35Z",
       "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
       "tags": [],
@@ -94,22 +61,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple",
-      "channel": "Oleki VFX",
-      "views": 4260546,
-      "likes": 150309,
-      "publishedAt": "2026-10-07T16:07:12Z",
-      "url": "https://www.youtube.com/watch?v=iooMcqSRnTQ",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Welcome Apple HomeView: Designed for life at home.",
       "channel": "Apple",
-      "views": 2065289,
-      "likes": 39805,
+      "views": 2505879,
+      "likes": 44928,
       "publishedAt": "2026-10-13T13:12:01Z",
       "url": "https://www.youtube.com/watch?v=hkrYiZ_g9tw",
       "tags": [
@@ -120,48 +75,60 @@
         "Siri AI"
       ],
       "description": "The new Apple HomeView is designed to help you stay connected, entertained, and in the know. Built-in speakers with Spatial Audio fill the room with y"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link",
+      "channel": "Digital Doctor ",
+      "views": 616742,
+      "likes": 29127,
+      "publishedAt": "2026-10-14T19:29:09Z",
+      "url": "https://www.youtube.com/watch?v=rKRFt_nh0PM",
+      "tags": [],
+      "description": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your device back to"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "ChatGPT",
+        "trend_score": 95
+      },
+      {
+        "keyword": "entrepreneur",
         "trend_score": 90
       },
       {
-        "keyword": "AI tools",
-        "trend_score": 86
+        "keyword": "self improvement",
+        "trend_score": 89
       },
       {
-        "keyword": "self improvement",
-        "trend_score": 84
+        "keyword": "automation tools",
+        "trend_score": 85
       },
       {
         "keyword": "solopreneur",
         "trend_score": 83
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 83
-      },
-      {
         "keyword": "AI workflow",
-        "trend_score": 79
+        "trend_score": 82
       },
       {
-        "keyword": "automation tools",
-        "trend_score": 75
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 73
+        "keyword": "AI tools",
+        "trend_score": 81
       },
       {
         "keyword": "AI for business",
-        "trend_score": 65
+        "trend_score": 77
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 76
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-14T03:32:10.008Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Gemini 4 Argon\" — 1086 pts\n• [HackerNews] \"Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine\" — 78 pts\n• [HackerNews] \"I built a tool to track what AI leaders say and how their views change on video\" — 22 pts\n• [HackerNews] \"I posted to HN, and then my website was flooded with AI bot traffic\" — 274 pts\n• [HackerNews] \"Apple's new 'Switch to Safari' campaign details why you should ditch Chrome\" — 211 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Which AI is smartest?\" by Mrwhosetheboss — 34869k views\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 8099k views\n• [YouTube Global] \"Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple\" by Oleki VFX — 4261k views\n• [YouTube Global] \"Welcome Apple HomeView: Designed for life at home.\" by Apple — 2065k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 90), AI tools (score: 86), self improvement (score: 84), solopreneur (score: 83), entrepreneur (score: 83), AI workflow (score: 79), automation tools (score: 75), productivity tools (score: 73), AI for business (score: 65)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-15T03:32:01.639Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"LFM2.5-24B-A2B: Built for fast on-device agents\" — 99 pts\n• [HackerNews] \"Ask HN: CAD for wood working with LLM support?\" — 44 pts\n• [HackerNews] \"Containment and monitoring failures are to blame for AI hacking reports: experts\" — 848 pts\n• [HackerNews] \"Banks are now trying to offload the AI data center debt they just underwrote\" — 323 pts\n• [HackerNews] \"Has AI tells\" — 91 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 8359k views\n• [YouTube Global] \"Welcome Apple HomeView: Designed for life at home.\" by Apple — 2506k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 617k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 95), entrepreneur (score: 90), self improvement (score: 89), automation tools (score: 85), solopreneur (score: 83), AI workflow (score: 82), AI tools (score: 81), AI for business (score: 77), productivity tools (score: 76)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

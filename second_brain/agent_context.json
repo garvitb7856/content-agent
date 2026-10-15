@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T03:32:10.121Z",
+  "updated_at": "2026-10-15T03:32:01.742Z",
   "your_performance": {
     "posts_analyzed": 47,
     "best_hook_type": "contrarian",
@@ -205,36 +205,48 @@
     "by_hook_type": [
       {
         "type": "question",
-        "avg": 7975.94,
-        "count": 17
+        "avg": 9121.29,
+        "count": 14
       },
       {
         "type": "story",
-        "avg": 5287.01,
-        "count": 76
+        "avg": 6367.64,
+        "count": 77
       },
       {
         "type": "pattern_interrupt",
-        "avg": 4908.67,
+        "avg": 4918.67,
         "count": 3
       },
       {
         "type": "curiosity_gap",
-        "avg": 4120.63,
+        "avg": 4181.25,
         "count": 8
       },
       {
         "type": "relatability",
-        "avg": 2886.33,
-        "count": 3
+        "avg": 3119,
+        "count": 4
       },
       {
         "type": "bold_claim",
         "avg": 3,
-        "count": 2
+        "count": 3
       }
     ],
     "top_hooks": [
+      {
+        "id": "3932971147428001240_27437145281",
+        "text": "Aaja tumhe dikhata hu power of AI agents.  Ziada baat nahi karunga, seedha screen pe leke jaunga.  Aaja chalte hai.",
+        "source": "transcript",
+        "type": "story",
+        "format": "Reel",
+        "account": "@favourite.engineer",
+        "postUrl": "https://www.instagram.com/p/DaUuGu6TnXY/",
+        "likes": 87530,
+        "comments": 13119,
+        "added_at": "2026-10-15T03:32:01.701Z"
+      },
       {
         "id": "3966514697583075216_27437145281",
         "text": "2 minute mein kuch aisi website bana sakte ho jo ki bahut jyada professional lagti hai aur ₹1 lakh tak ki bik sakti hai.  Sabse pahle Claude Code install kar lo.  Animation ke liye Framer Motion wali website pe chale jana aur command copy paste karke Claude Code pe dal do.",
@@ -243,9 +255,9 @@
         "format": "Reel",
         "account": "@favourite.engineer",
         "postUrl": "https://www.instagram.com/p/DcL5BoZzh-Q/",
-        "likes": 77721,
-        "comments": 59902,
-        "added_at": "2026-10-14T03:32:10.063Z"
+        "likes": 77933,
+        "comments": 60140,
+        "added_at": "2026-10-15T03:32:01.701Z"
       },
       {
         "id": "3953432369198939354_1411361583",
@@ -255,9 +267,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/Dbdacspojza/",
-        "likes": 74373,
-        "comments": 5420,
-        "added_at": "2026-10-14T03:32:10.061Z"
+        "likes": 74554,
+        "comments": 5432,
+        "added_at": "2026-10-15T03:32:01.699Z"
       },
       {
         "id": "3970814642533503560_1411361583",
@@ -267,9 +279,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-        "likes": 43202,
-        "comments": 7900,
-        "added_at": "2026-10-14T03:32:10.061Z"
+        "likes": 44119,
+        "comments": 8008,
+        "added_at": "2026-10-15T03:32:01.699Z"
       },
       {
         "id": "3977382380486565190_27437145281",
@@ -279,21 +291,9 @@
         "format": "Reel",
         "account": "@favourite.engineer",
         "postUrl": "https://www.instagram.com/p/DcygDO0zJ1G/",
-        "likes": 28760,
-        "comments": 79482,
-        "added_at": "2026-10-14T03:32:10.063Z"
-      },
-      {
-        "id": "3901189222851344478_1411361583",
-        "text": "This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.",
-        "source": "transcript",
-        "type": "story",
-        "format": "Reel",
-        "account": "@dhavalkataria_",
-        "postUrl": "https://www.instagram.com/p/DYjzu3Fovhe/",
-        "likes": 28120,
-        "comments": 9044,
-        "added_at": "2026-10-14T03:32:10.062Z"
+        "likes": 28949,
+        "comments": 80288,
+        "added_at": "2026-10-15T03:32:01.701Z"
       }
     ]
   },
@@ -347,5 +347,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (47 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n40 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.71%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (109 hooks, 119 scripts):\nBest hook type in niche: question\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"2 minute mein kuch aisi website bana sakte ho jo ki bahut jyada professional lagti hai aur ₹1 lakh tak ki bik sakti hai.  Sabse pahle Claude Code install kar lo.  Animation ke liye Framer Motion wali website pe chale jana aur command copy paste karke Claude Code pe dal do.\" (77721 likes) | \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (74373 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (43202 likes) | \"Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.\" (28760 likes) | \"This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.\" (28120 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (47 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n40 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.71%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (109 hooks, 119 scripts):\nBest hook type in niche: question\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Aaja tumhe dikhata hu power of AI agents.  Ziada baat nahi karunga, seedha screen pe leke jaunga.  Aaja chalte hai.\" (87530 likes) | \"2 minute mein kuch aisi website bana sakte ho jo ki bahut jyada professional lagti hai aur ₹1 lakh tak ki bik sakti hai.  Sabse pahle Claude Code install kar lo.  Animation ke liye Framer Motion wali website pe chale jana aur command copy paste karke Claude Code pe dal do.\" (77933 likes) | \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (74554 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (44119 likes) | \"Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.\" (28949 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

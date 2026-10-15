@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T03:32:10.071Z",
+  "updated_at": "2026-10-15T03:32:01.693Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1292,16 +1292,19 @@
       "id": "3932971147428001240_27437145281",
       "account": "@favourite.engineer",
       "url": "https://www.instagram.com/p/DaUuGu6TnXY/",
-      "topic": "Monetization",
+      "topic": "AI Automation",
       "format": "Video",
-      "hook": "Power of AI Agents 🤯",
+      "spoken_hook": "Aaja tumhe dikhata hu power of AI agents.  Ziada baat nahi karunga, seedha screen pe leke jaunga.  Aaja chalte hai.",
+      "full_script": "Aaja tumhe dikhata hu power of AI agents. Ziada baat nahi karunga, seedha screen pe leke jaunga. Aaja chalte hai. Toh is bande ne banaya hai Post",
       "full_caption": "Power of AI Agents 🤯\n.\n#aiagents #makemoney #ai",
+      "script_source": "transcript",
       "script_pattern": "unknown",
-      "likes": 71426,
-      "comments": 10727,
-      "engagement_rate": 52.15,
+      "likes": 87530,
+      "comments": 13119,
+      "engagement_rate": 55.98,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-10-14T04:04:32.350Z",
+      "scraped_at": "2026-10-15T03:32:01.690Z"
     },
     {
       "id": "3977253560433642376_27437145281",
@@ -1938,5 +1941,5 @@
     }
   ],
   "total": 119,
-  "transcript_based": 50
+  "transcript_based": 51
 }
