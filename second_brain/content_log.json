@@ -1040,6 +1040,11 @@
     "url": "https://www.instagram.com/p/DecEqixzsDS/",
     "type": "Video",
     "loggedAt": "2026-10-14T03:32:07.090Z",
-    "archived": false
+    "archived": true,
+    "likes_at_48h": 20,
+    "comments_at_48h": 4,
+    "engagement_at_48h": 0.25,
+    "followers_at_post": 9621,
+    "performance_complete": true
   }
 ]

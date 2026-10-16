@@ -1,60 +1,94 @@
 {
-  "fetched_at": "2026-10-15T03:32:01.639Z",
+  "fetched_at": "2026-10-16T03:32:18.134Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
-      "score": 99,
+      "title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
+      "score": 79,
       "comments": 24,
-      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/"
     },
     {
       "source": "hackernews",
-      "title": "Ask HN: CAD for wood working with LLM support?",
-      "score": 44,
-      "comments": 38,
-      "url": "https://news.ycombinator.com/item?id=50067325"
+      "title": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
+      "score": 33,
+      "comments": 9,
+      "url": "https://github.com/johnrash/bebox"
     },
     {
       "source": "hackernews",
-      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-      "score": 848,
-      "comments": 463,
-      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "score": 20,
+      "comments": 16,
+      "url": "https://github.com/awslabs/aidlc-workflows"
     },
     {
       "source": "hackernews",
-      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-      "score": 323,
-      "comments": 230,
-      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Has AI tells",
-      "score": 91,
-      "comments": 79,
-      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
-      "score": 93,
-      "comments": 66,
-      "url": "https://clova.email/"
+      "title": "Using AI to reverse engineer hardware",
+      "score": 131,
+      "comments": 115,
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner",
-      "channel": "ForgeCore",
-      "views": 8359134,
-      "likes": 65672,
-      "publishedAt": "2026-10-05T17:19:35Z",
-      "url": "https://www.youtube.com/watch?v=aaGyayYKfMk",
+      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
+      "channel": "MrFlatWhite",
+      "views": 8875503,
+      "likes": 35058,
+      "publishedAt": "2026-10-10T22:01:18Z",
+      "url": "https://www.youtube.com/watch?v=d8AX_8Lkab8",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Apple Homeview Impressions: Not Convinced!",
+      "channel": "Marques Brownlee",
+      "views": 8060942,
+      "likes": 94338,
+      "publishedAt": "2026-10-13T22:42:38Z",
+      "url": "https://www.youtube.com/watch?v=QVv3mQzlrN0",
+      "tags": [],
+      "description": "New Smart home display from Apple. With plenty of quirks and features.\n\nThe deskpad! http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "I’m running out of Rasberry Pi’s..",
+      "channel": "CarterPCs",
+      "views": 6676479,
+      "likes": 283595,
+      "publishedAt": "2026-10-14T03:39:07Z",
+      "url": "https://www.youtube.com/watch?v=XDvtBzrewwE",
+      "tags": [],
+      "description": "I’m running out of Rasberry Pi’s..\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Testing the iPhone duo’s most asked questions",
+      "channel": "Nick Wilkins",
+      "views": 5082547,
+      "likes": 118969,
+      "publishedAt": "2026-10-10T00:19:07Z",
+      "url": "https://www.youtube.com/watch?v=HFoUe6__vYA",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Turning A Shoebox Into A Movie Projector 😮",
+      "channel": "Zack D. Films",
+      "views": 4775574,
+      "likes": 260391,
+      "publishedAt": "2026-10-14T19:30:02Z",
+      "url": "https://www.youtube.com/watch?v=YT3OiJbpd-I",
       "tags": [],
       "description": ""
     },
@@ -63,8 +97,8 @@
       "category": "Science & Tech",
       "title": "Welcome Apple HomeView: Designed for life at home.",
       "channel": "Apple",
-      "views": 2505879,
-      "likes": 44928,
+      "views": 2699164,
+      "likes": 46753,
       "publishedAt": "2026-10-13T13:12:01Z",
       "url": "https://www.youtube.com/watch?v=hkrYiZ_g9tw",
       "tags": [
@@ -79,56 +113,94 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "The iPhone Duo but BETTER 🤯",
+      "channel": "John Casterline",
+      "views": 2328568,
+      "likes": 152754,
+      "publishedAt": "2026-10-14T02:19:07Z",
+      "url": "https://www.youtube.com/watch?v=Q9iDESLZMGk",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link",
       "channel": "Digital Doctor ",
-      "views": 616742,
-      "likes": 29127,
+      "views": 2081747,
+      "likes": 79744,
       "publishedAt": "2026-10-14T19:29:09Z",
       "url": "https://www.youtube.com/watch?v=rKRFt_nh0PM",
       "tags": [],
       "description": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your device back to"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "What Does This Button Do?",
+      "channel": "Sambucha",
+      "views": 1802208,
+      "likes": 68033,
+      "publishedAt": "2026-10-12T19:15:36Z",
+      "url": "https://www.youtube.com/watch?v=dgxslfme0ng",
+      "tags": [
+        "sambucha"
+      ],
+      "description": "Follow me here:\nInstagram ► https://www.instagram.com/sambucha\nX ► https://www.x.com/sambucha"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Nvidia Doesn’t Care Anymore",
+      "channel": "Zach's Tech Turf",
+      "views": 987243,
+      "likes": 46333,
+      "publishedAt": "2026-10-14T19:05:56Z",
+      "url": "https://www.youtube.com/watch?v=-stHATQjhrY",
+      "tags": [],
+      "description": ""
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
+        "keyword": "AI tools",
+        "trend_score": 98
+      },
+      {
         "keyword": "ChatGPT",
         "trend_score": 95
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 90
+        "keyword": "solopreneur",
+        "trend_score": 95
       },
       {
         "keyword": "self improvement",
-        "trend_score": 89
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 85
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 83
+        "trend_score": 90
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 82
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 81
+        "trend_score": 89
       },
       {
         "keyword": "AI for business",
-        "trend_score": 77
+        "trend_score": 88
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 87
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 76
+        "trend_score": 84
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 81
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-15T03:32:01.639Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"LFM2.5-24B-A2B: Built for fast on-device agents\" — 99 pts\n• [HackerNews] \"Ask HN: CAD for wood working with LLM support?\" — 44 pts\n• [HackerNews] \"Containment and monitoring failures are to blame for AI hacking reports: experts\" — 848 pts\n• [HackerNews] \"Banks are now trying to offload the AI data center debt they just underwrote\" — 323 pts\n• [HackerNews] \"Has AI tells\" — 91 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"I made an Automatic stoplight for introverts ChatGPT #ChatGPT_Partner\" by ForgeCore — 8359k views\n• [YouTube Global] \"Welcome Apple HomeView: Designed for life at home.\" by Apple — 2506k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 617k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 95), entrepreneur (score: 90), self improvement (score: 89), automation tools (score: 85), solopreneur (score: 83), AI workflow (score: 82), AI tools (score: 81), AI for business (score: 77), productivity tools (score: 76)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-16T03:32:18.134Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Business accounts will consent to Meta scraping their websites Starting Oct. 30\" — 79 pts\n• [HackerNews] \"BeBox is a Haiku application that emulates Be Inc.'s BeBox\" — 33 pts\n• [HackerNews] \"Aidlc: Adaptive workflow steering rules for AI coding agents\" — 20 pts\n• [HackerNews] \"Using AI to reverse engineer hardware\" — 131 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MrFlatWhite — 8876k views\n• [YouTube Global] \"Apple Homeview Impressions: Not Convinced!\" by Marques Brownlee — 8061k views\n• [YouTube Global] \"I’m running out of Rasberry Pi’s..\" by CarterPCs — 6676k views\n• [YouTube Global] \"Testing the iPhone duo’s most asked questions\" by Nick Wilkins — 5083k views\n• [YouTube Global] \"Turning A Shoebox Into A Movie Projector 😮\" by Zack D. Films — 4776k views\n• [YouTube Global] \"Welcome Apple HomeView: Designed for life at home.\" by Apple — 2699k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 98), ChatGPT (score: 95), solopreneur (score: 95), self improvement (score: 90), AI workflow (score: 89), AI for business (score: 88), entrepreneur (score: 87), productivity tools (score: 84), automation tools (score: 81)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

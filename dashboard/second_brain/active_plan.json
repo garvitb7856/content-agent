@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-15",
-  "end_date": "2026-10-22",
+  "generated_on": "2026-10-16",
+  "end_date": "2026-10-23",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-15",
-      "topic": "Testing Raj Shamani’s Viral Business Idea on Local Indian Doctors",
+      "date": "2026-10-16",
+      "topic": "Ben Affleck coding Python and CNNs vs. standard founders scrolling",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop cold calling. Test this local clinic business hack today.",
+      "post_time": "7:00 PM IST",
+      "hook": "Ben Affleck just revealed he writes Python and trains CNNs.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-16",
-      "topic": "Step-by-Step Blueprint: Building 6 AI Employees Inside One Computer",
+      "date": "2026-10-17",
+      "topic": "Aerospace prompting trick (ASD-STE100) to stop AI hallucinations",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Fire your agency. Run 6 AI employees completely solo.",
+      "post_time": "6:30 PM IST",
+      "hook": "Stop hallucinating: The aerospace prompting trick nobody is using.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-17",
-      "topic": "Reverse Engineering Any Paid App's Code in 60 Seconds with Open Source",
+      "date": "2026-10-18",
+      "topic": "Bypassing Upwork bot bans using advanced browser cookie simulation",
       "format": "Reel",
       "post_time": "8:00 PM IST",
-      "hook": "Steal any app's entire backend code in 60 seconds.",
+      "hook": "Why your Upwork auto-bidder gets banned in 24 hours.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-18",
-      "topic": "The Brutal 2026 Tier List of AI Automation Businesses in India",
+      "date": "2026-10-19",
+      "topic": "How modern AI-first Indian startups run system design interviews",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Selling basic AI to Indian shops is completely dead.",
+      "post_time": "7:15 PM IST",
+      "hook": "College system design is dead. Here is the AI-first interview.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-19",
-      "topic": "Building Ultra-Fast 90ms Sub-Second Voice Calling AI for Real Estate",
+      "date": "2026-10-20",
+      "topic": "Automating YouTube clipping and repurposing with NotebookLM and local LLMs",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Build a voice bot with zero delay in 5 minutes.",
+      "post_time": "6:45 PM IST",
+      "hook": "Stop clipping videos manually. Use this NotebookLM automation pipeline.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-20",
-      "topic": "5 Brutal Habits Keeping Indian Tech Builders Broke Under ₹1 Lakh",
+      "date": "2026-10-21",
+      "topic": "Setting up autonomous multi-agent memory structures for local LLMs",
       "format": "Carousel",
-      "post_time": "7:45 PM IST",
-      "hook": "Stop doing these 5 things if your bank balance is low.",
+      "post_time": "7:30 PM IST",
+      "hook": "Give your local LLMs permanent memory with this simple config.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-21",
-      "topic": "5-Minute Zero-Camera Faceless AI Influencer Setup Guide",
+      "date": "2026-10-22",
+      "topic": "Building localized multilingual voice cloning agents for Indian D2C brands",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "This faceless AI page gained 400K followers without filming.",
+      "post_time": "6:30 PM IST",
+      "hook": "Clone your voice in 83 languages for Indian D2C ads.",
       "status": "pending"
     }
   ]
