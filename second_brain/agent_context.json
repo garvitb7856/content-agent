@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T03:32:18.239Z",
+  "updated_at": "2026-10-17T03:31:58.200Z",
   "your_performance": {
     "posts_analyzed": 48,
     "best_hook_type": "contrarian",
@@ -197,7 +197,7 @@
     "insights": "40 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.71%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
   },
   "niche_performance": {
-    "total_hooks": 103,
+    "total_hooks": 109,
     "total_scripts": 120,
     "viral_scripts": 39,
     "best_hook_type": "question",
@@ -205,33 +205,33 @@
     "by_hook_type": [
       {
         "type": "question",
-        "avg": 9153.79,
-        "count": 14
-      },
-      {
-        "type": "pattern_interrupt",
-        "avg": 4926.67,
-        "count": 3
+        "avg": 8926.85,
+        "count": 13
       },
       {
         "type": "curiosity_gap",
-        "avg": 4233.29,
-        "count": 7
+        "avg": 4043.88,
+        "count": 8
       },
       {
         "type": "story",
-        "avg": 4056.68,
-        "count": 74
+        "avg": 3646.78,
+        "count": 79
       },
       {
         "type": "relatability",
-        "avg": 3184.75,
+        "avg": 3231.25,
         "count": 4
+      },
+      {
+        "type": "pattern_interrupt",
+        "avg": 1504,
+        "count": 2
       },
       {
         "type": "bold_claim",
         "avg": 3,
-        "count": 1
+        "count": 3
       }
     ],
     "top_hooks": [
@@ -243,9 +243,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/Dbdacspojza/",
-        "likes": 74673,
-        "comments": 5440,
-        "added_at": "2026-10-16T03:32:18.180Z"
+        "likes": 74778,
+        "comments": 5444,
+        "added_at": "2026-10-17T03:31:58.156Z"
       },
       {
         "id": "3970814642533503560_1411361583",
@@ -255,9 +255,21 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-        "likes": 44863,
-        "comments": 8111,
-        "added_at": "2026-10-16T03:32:18.180Z"
+        "likes": 45121,
+        "comments": 8165,
+        "added_at": "2026-10-17T03:31:58.156Z"
+      },
+      {
+        "id": "3977382380486565190_27437145281",
+        "text": "Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.",
+        "source": "transcript",
+        "type": "story",
+        "format": "Reel",
+        "account": "@favourite.engineer",
+        "postUrl": "https://www.instagram.com/p/DcygDO0zJ1G/",
+        "likes": 29483,
+        "comments": 82298,
+        "added_at": "2026-10-17T03:31:58.160Z"
       },
       {
         "id": "3901189222851344478_1411361583",
@@ -267,21 +279,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DYjzu3Fovhe/",
-        "likes": 28114,
+        "likes": 28113,
         "comments": 9043,
-        "added_at": "2026-10-16T03:32:18.181Z"
-      },
-      {
-        "id": "3603432541911984451_48619065725",
-        "text": "I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.",
-        "source": "transcript",
-        "type": "story",
-        "format": "Reel",
-        "account": "@aryamanupmanyu",
-        "postUrl": "https://www.instagram.com/p/DIB9s4YvylD/",
-        "likes": 27669,
-        "comments": 31469,
-        "added_at": "2026-10-16T03:32:18.177Z"
+        "added_at": "2026-10-17T03:31:58.156Z"
       },
       {
         "id": "3989720162404130006_72269881052",
@@ -291,9 +291,9 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/DdeVVlpT9zW/",
-        "likes": 20757,
-        "comments": 31741,
-        "added_at": "2026-10-16T03:32:18.171Z"
+        "likes": 21099,
+        "comments": 32108,
+        "added_at": "2026-10-17T03:31:58.148Z"
       }
     ]
   },
@@ -347,5 +347,5 @@
       "scraped_at": "2026-09-06T10:40:06.003Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (48 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n40 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.71%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (103 hooks, 120 scripts):\nBest hook type in niche: question\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (74673 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (44863 likes) | \"This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.\" (28114 likes) | \"I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.  The AI literally spoke like a real person.  It paused, it responded, and even handled objections.\" (27669 likes) | \"You can now run Claude code completely free with almost unlimited usage.  Uh somebody on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month.  And that includes models from ChatGPT, Gemini, GLM, Kimi, Grok, Mistral, Qwen, and even more.\" (20757 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (48 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n40 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.71%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (109 hooks, 120 scripts):\nBest hook type in niche: question\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (74778 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (45121 likes) | \"Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.\" (29483 likes) | \"This one video made me 16 lakh rupees.  Let me break down how.  Sabse pehle toh I copied this video and this video and made my video.\" (28113 likes) | \"You can now run Claude code completely free with almost unlimited usage.  Uh somebody on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month.  And that includes models from ChatGPT, Gemini, GLM, Kimi, Grok, Mistral, Qwen, and even more.\" (21099 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@favourite.engineer | Topic: Claude/AI Tools | Pattern: unknown | Eng: 95.14%\nHook: \"Power of Prompt 🤯\"\nOpening: \"Power of Prompt 🤯\n.\n#claude #chatgptprompts #palmreading...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

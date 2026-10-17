@@ -1,48 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Why Ben Affleck Writes Python and Understands CNNs While Most Founders Are Just Scrolling",
-    "hook": "Ben Affleck, Hollywood director and actor, just revealed that he writes Python, understands convolutional neural networks, and uses GPUs.",
+    "title": "Why Moving Out of Your Parents' House Multiplies Your Income",
+    "hook": "Staying at home saves ₹30,000 in rent, but it's costing you ₹30 lakhs in entrepreneurial risk tolerance and mental clarity.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Leverages the high-performing celebrity-meets-tech hook style popularized by Varun Mayya with strong engagement metrics. Rated HIGH because the source post exceeded virality thresholds for large account tiers.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DExE3UOhUoq/"
-  },
-  {
-    "title": "The Hidden Prompt Engineering Trick Borrowed From Aerospace Manuals",
-    "hook": "There is a weird prompting trick called ASD-STE100 borrowed from aerospace manuals that guarantees your AI outputs never hallucinate.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Remixes Varun Mayya's viral aerospace prompting hook format, capitalizing on high-curiosity technical workflows. Rated HIGH as original content outperformed large-account viral standards.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DehLeOZg-ar/"
-  },
-  {
-    "title": "Autonomous Upwork Bidders That Don't Get Banned: The Secret Cookie Architecture",
-    "hook": "If your autonomous Upwork bidding bot is getting banned within 24 hours, you are missing this exact browser cookie simulation layer.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Targets freelance automation and monetization pain points, which historically drive exceptional comment velocity in Indian tech niches. Rated HIGH based on competitor view-to-like conversion ratios.",
+    "reasoning": "Original creator @dhavalkataria_ averages 11,196 likes on a 57k follower account, far surpassing the 3,000 viral threshold for medium accounts with an exceptional 19.8% engagement rate. This sharp cultural friction point is proven to drive intense comment debates and massive shareability among ambitious young Indian builders.",
     "niche": "Entrepreneurship",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
   },
   {
-    "title": "Why 99% of Indian Engineering Grads Fail At System Design In AI-First Startups",
-    "hook": "Traditional college system design questions are dead. Here is how modern AI-first Indian startups interview engineers using agentic workflows.",
+    "rank": 2,
+    "title": "Can I Build an Entire AI Agency Using Only Open Source LLMs?",
+    "hook": "Can I replace a ₹1.5 lakh monthly agency software bill with zero rupee open-source tools? Let's test this in 48 hours.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Addresses severe career and interview anxiety among the massive Indian engineering student cohort. Rated HIGH because localized tech content consistently exceeds medium-tier account benchmarks.",
+    "reasoning": "Directly adapts Dhaval Kataria's hyper-viral 48-hour challenge framework which regularly crushes his medium-tier benchmark of 3,000 likes. The proof-of-concept execution style perfectly aligns with Garvit's audience preference for free local models over expensive recurring SaaS subscriptions.",
     "niche": "AI",
-    "sourceUrl": ""
+    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
   },
   {
-    "title": "How To Automate YouTube Content Repurposing Using NotebookLM And Local LLMs",
-    "hook": "Stop wasting hours clipping long-form YouTube videos. This NotebookLM plus local LLM pipeline auto-generates 30 viral shorts while you sleep.",
+    "rank": 3,
+    "title": "If You Have Less Than 1 Lakh in Bank, Stop Buying Tech Gadgets",
+    "hook": "If you don't have 1 lakh in your emergency fund, you should not be allowed to buy the new iPhone or mechanical keyboards.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Combines high-demand NotebookLM monetization workflows with automated video editing solutions favored by Indian creators. Rated HIGH due to proven short-form retention patterns in similar source accounts.",
-    "niche": "AI",
-    "sourceUrl": ""
+    "reasoning": "Derived from @dhavalkataria_'s proven viral contrarian habit format that blows past the medium account virality bar. The aggressive, polarising reality check cuts through superficial consumerism in tech and triggers immediate high-retention watch time.",
+    "niche": "Self-growth",
+    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
+  },
+  {
+    "rank": 4,
+    "title": "Can I Build a ₹20,000 B2B Service in 3 Hours on Upwork?",
+    "hook": "Can an average Indian student pitch and deliver an automation script to a global client in 3 hours? Let's test it live.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Built upon Dhaval Kataria's top-performing un-broking series that delivers over 3x the viral threshold for accounts under 100k followers. The live execution structure satisfies high curiosity for student monetization without falling into generic tutorial traps.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
+  },
+  {
+    "rank": 5,
+    "title": "The Silent Trap of 'Lifestyle Inflation' for Indian Freelancers",
+    "hook": "Pehla international client milte hi ₹1.5 lakh ka MacBook aur expensive sneakers lena is the dumbest financial move.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Taps into the proven viral financial teardowns from @dhavalkataria_ that heavily outperform typical competitor averages at 11k+ likes. It addresses a raw, unvarnished financial bottleneck faced by young Indian developers landing early foreign contracts.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
   }
 ]

@@ -1211,7 +1211,13 @@
       "engagement_at_48h": 0.25,
       "followers_at_post": 9621,
       "scriptSimilarity": 0,
-      "diffAnalysis": null,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 12,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-10-17T03:38:49.048Z"
+      },
       "updatedAt": "2026-10-16T03:32:18.191Z"
     }
   ]

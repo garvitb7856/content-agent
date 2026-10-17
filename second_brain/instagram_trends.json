@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-10-16T03:32:14.294Z",
+  "generated_at": "2026-10-17T03:31:54.929Z",
   "hotRightNow": [
     {
-      "username": "ishansharma7390",
-      "caption": "Flew to New York as the only creator representing India at LinkedIn’s Connection by Design, hosted a",
-      "likes": 3782,
-      "comments": 32,
-      "engagement": 3814,
-      "engRate": "0.30",
-      "timestamp": "2026-10-15T14:04:26.000Z",
-      "url": "https://www.instagram.com/p/DehIWjFlvF_/",
-      "type": "Post"
-    },
-    {
-      "username": "zeeeljain",
-      "caption": "We’re hiring! Comment \"HIRE\" and we’ll send the application form straight to your DMs.\n\nWe have full",
-      "likes": 1974,
-      "comments": 1514,
-      "engagement": 3488,
-      "engRate": "2.06",
-      "timestamp": "2026-10-15T11:45:49.000Z",
-      "url": "https://www.instagram.com/p/Deg4fMKinDk/",
-      "type": "Post"
-    },
-    {
-      "username": "nick_saraev",
-      "caption": "Comment \"CLAUDE\" to get these 5 Claude Code plugins to code like a senior dev.\n\nIf you want your Cla",
-      "likes": 1316,
-      "comments": 1207,
-      "engagement": 2523,
-      "engRate": "0.36",
-      "timestamp": "2026-10-15T15:03:30.000Z",
-      "url": "https://www.instagram.com/p/DehO64bvSkV/",
+      "username": "thevarunmayya",
+      "caption": "Tesla roadster can now…fly?!",
+      "likes": 14771,
+      "comments": 172,
+      "engagement": 14943,
+      "engRate": "1.16",
+      "timestamp": "2026-10-16T08:07:17.000Z",
+      "url": "https://www.instagram.com/p/DejELnQIcE2/",
       "type": "Video"
     },
     {
       "username": "vaibhavsisinty",
-      "caption": "Reverse engineer any app for free\n\nA free, open-source tool called REA already has 100,000 GitHub st",
-      "likes": 1777,
-      "comments": 88,
-      "engagement": 1865,
-      "engRate": "0.09",
-      "timestamp": "2026-10-15T14:44:53.000Z",
-      "url": "https://www.instagram.com/p/DehLeOZg-ar/",
+      "caption": "Tesla’s Flying Car Is Actually Real\n\nTesla drove the new Roadster up a curved ramp, hung upside down",
+      "likes": 2347,
+      "comments": 21,
+      "engagement": 2368,
+      "engRate": "0.11",
+      "timestamp": "2026-10-17T01:27:47.000Z",
+      "url": "https://www.instagram.com/p/Dek7HMZA6Kr/",
       "type": "Video"
     },
     {
-      "username": "arshman",
-      "caption": "Content creation could be tiring… setting up studio, lights and camera… \n\nSo I built a virtual studi",
-      "likes": 146,
-      "comments": 73,
-      "engagement": 219,
-      "engRate": "0.06",
-      "timestamp": "2026-10-15T05:54:10.000Z",
-      "url": "https://www.instagram.com/p/DegP0xexsx4/",
+      "username": "nivedan.ai",
+      "caption": "While web crawlers typically operate entirely out of sight behind the scenes, one creative developer",
+      "likes": 900,
+      "comments": 13,
+      "engagement": 913,
+      "engRate": "0.17",
+      "timestamp": "2026-10-16T07:53:50.000Z",
+      "url": "https://www.instagram.com/p/DejCvC3CTm8/",
+      "type": "Post"
+    },
+    {
+      "username": "nick_saraev",
+      "caption": "Comment \"KATANA\" to create Viral AI Videos with Claude + Higgsfield Katana. \n\nYou know those aura fa",
+      "likes": 443,
+      "comments": 178,
+      "engagement": 621,
+      "engRate": "0.09",
+      "timestamp": "2026-10-16T15:13:55.000Z",
+      "url": "https://www.instagram.com/p/Dej0-hivwg8/",
+      "type": "Video"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "",
+      "likes": 471,
+      "comments": 17,
+      "engagement": 488,
+      "engRate": "0.04",
+      "timestamp": "2026-10-16T13:29:56.000Z",
+      "url": "https://www.instagram.com/p/DejpGTYNpUR/",
       "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 3041,
-      "count": 31
+      "avgEng": 3320,
+      "count": 33
     },
     {
       "format": "post",
-      "avgEng": 2101,
+      "avgEng": 2705,
       "count": 13
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "9 top posts"
+      "appearsIn": "8 top posts"
+    },
+    {
+      "topic": "free",
+      "appearsIn": "3 top posts"
+    },
+    {
+      "topic": "claude",
+      "appearsIn": "3 top posts"
     },
     {
       "topic": "chatgpt",
-      "appearsIn": "3 top posts"
+      "appearsIn": "2 top posts"
     },
     {
       "topic": "gpt",
-      "appearsIn": "3 top posts"
-    },
-    {
-      "topic": "prompt",
-      "appearsIn": "3 top posts"
-    },
-    {
-      "topic": "agent",
-      "appearsIn": "3 top posts"
+      "appearsIn": "2 top posts"
     }
   ],
   "bestPostingWindow": [
-    "18:00 IST (5 top posts)",
-    "20:00 IST (4 top posts)",
-    "21:00 IST (4 top posts)"
+    "18:00 IST (4 top posts)",
+    "19:00 IST (4 top posts)",
+    "13:00 IST (2 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, unders",
       "username": "thevarunmayya",
-      "likes": 177037,
+      "likes": 178718,
       "url": "https://www.instagram.com/p/DePZYzRzsoh/"
     },
     {
-      "hook": "I also asked Sundar what he thinks of wrapper startups 😁\n\nComing soon. Make sur",
-      "username": "thevarunmayya",
-      "likes": 98507,
-      "url": "https://www.instagram.com/p/C7CPlnDLW9W/"
+      "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
+      "username": "favourite.engineer",
+      "likes": 29483,
+      "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 74673,
+      "likes": 74778,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     },
     {
-      "hook": "Coming soon. We talk: \n\n- Indian 4o Image gen usage (some numbers too)\n- Design ",
+      "hook": "Breaking News! OpenAI just launched dots! And the simplest way to describe them ",
       "username": "thevarunmayya",
-      "likes": 58810,
-      "url": "https://www.instagram.com/p/DIB4N7-oJ-m/"
+      "likes": 57421,
+      "url": "https://www.instagram.com/p/Dd4YFpdziV4/"
     },
     {
-      "hook": "COMMENT “AI” to know exactly how i built this🤭\n.\n.\n#ai #business #chatgpt #arti",
-      "username": "aryamanupmanyu",
-      "likes": 27669,
-      "url": "https://www.instagram.com/p/DIB9s4YvylD/"
+      "hook": "Comment “CFO” to get the 🔗\nInspired by @priyayadav.in the og",
+      "username": "dhavalkataria_",
+      "likes": 45121,
+      "url": "https://www.instagram.com/p/DcbKuENIRJI/"
     }
   ]
 }

@@ -1,23 +1,33 @@
 {
-  "updated_at": "2026-10-16T04:00:09.118Z",
-  "total_videos_in_data": 159,
-  "transcribed_done": 225,
+  "updated_at": "2026-10-17T03:54:00.657Z",
+  "total_videos_in_data": 173,
+  "transcribed_done": 233,
   "pending_queue": 0,
-  "stored_transcripts": 225,
-  "transcribed_ids_count": 280,
-  "succeeded": 7,
-  "failed": 2,
-  "skipped": 150,
+  "stored_transcripts": 233,
+  "transcribed_ids_count": 289,
+  "succeeded": 8,
+  "failed": 4,
+  "skipped": 159,
   "errors": [
     {
-      "id": "4008550762312182037_72269881052",
-      "url": "https://scontent-cdg6-1.cdninstagram.com/o1/v/t2/f2/m86/AQN5C-OsFcU44GPKllmQ5oCxNcI-BRncxcmZ6qTCMXxPtXODQceJU6c2Ntc9LF-eCFsAGmUAK8s0aunzxkiGItvtMjbcyUhScZ7ZvwU.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-cdg6-1.cdninstagram.com&_nc_ohc=6nI9BY4brp0Q7kNvwGDDbRJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzMzNTQ1OTgyMzMyMzEyNywiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=b1cdd73d9956b7f8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9COEEyRjAyQjlGQjU0MUQ1ODAzMzUwOEQwNzA4NTM4Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzFDQjFFREI1RDEyMTQzQkM5RjBFNEE3QjJGREU1OTM3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbun_SeqOXsCxUCKAJDMywXQEfRBiTdLxsYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ly3KlQ-iH3u3AqiYyNr6rg&_nc_ss=7ca8c&_nc_zt=28&oh=00_AQNUgx8tXKMb7Y9gQVnH7zg9U1i46O0T2SoP0CjmLTxHyA&oe=6AD37BEF",
+      "id": "4008273265599892600_24040950",
+      "url": "https://scontent-jnb2-1.cdninstagram.com/o1/v/t2/f2/m86/AQOk0ZePbWR4OEsliG1B2sgLvg54knupHx66ZF1T4z2KtEtMUgSMGbUn1jrKwVfiweLubv19F8fveKFlccDYlcaoBFDFEUiX6o9arE8.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-jnb2-1.cdninstagram.com&_nc_ohc=lo9Mr8nPJB0Q7kNvwHPsXU7&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjAwNjg4MjQxMDY5ODM1OSwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a60ff0b2579ece42&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85OTE3REY0QTEzMzg0RDlFQTAxNjkyOTQxQ0U4N0Y4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIzM0RBQUU0MEU3RjQ5QTE4MERCQzBDRURFMjk5MDhGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbu2ZCT98-QBxUCKAJDMywXQE3AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=nXnCYkwc3Emhm5I99N2KrA&_nc_ss=7a20f&_nc_zt=28&oh=00_AQNxX1Bks14vBkRxLNsdHQM6HgHMajZ4MzJAK5mJr93H2A&oe=6AD4BF7E",
+      "reason": ""
+    },
+    {
+      "id": "4009130441623071292_59161778770",
+      "url": "https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m84/AQMHLeNHB_jVMraOCNRPTBNWWbwMP2h0I7zoszQeJWXPohrlXS0FIfowU_TOsvwp2KoSbVbbUOzcT18Ac2pTXBKGvqzGpY7qoxy_K6k.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_ohc=CBSkQ_JXaKMQ7kNvwGaQQml&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU1NjQyNzc4MzE4MzkwMiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjoyNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=6819a1421c6b8364&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC84QjJGODFGMkNEQ0M0NUFCOEMyQ0MxNUUxNTc2NUI1M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0UzODBBRkM0OUQ1ODQ5MDg4MUY0MzgwNzg2ODU5RENGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa8-JTSguTDBRUCKAJDMywXQDhAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=bBi29d1GDd-pQFaaznPWNQ&_nc_ss=7a20f&_nc_zt=28&oh=00_AQMD9K-6HIpgZA-1N0IOATld-aagFpGT_QFIV7s_a0eSOg&oe=6AD4B161",
       "reason": "Request failed with status code 403"
     },
     {
-      "id": "4008273265599892600_24040950",
-      "url": "https://instagram.fgdl2-3.fna.fbcdn.net/o1/v/t2/f2/m86/AQOk0ZePbWR4OEsliG1B2sgLvg54knupHx66ZF1T4z2KtEtMUgSMGbUn1jrKwVfiweLubv19F8fveKFlccDYlcaoBFDFEUiX6o9arE8.mp4?_nc_cat=109&_nc_oc=AdpvC-RlgBHMgvEDJNDf8-YPMiN5vZN3W8zXnohfugE07MgKtUVyz6OihLp3kk7rd70&_nc_sid=5e9851&_nc_ht=instagram.fgdl2-3.fna.fbcdn.net&_nc_ohc=lo9Mr8nPJB0Q7kNvwEe2WK-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjAwNjg4MjQxMDY5ODM1OSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a60ff0b2579ece42&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85OTE3REY0QTEzMzg0RDlFQTAxNjkyOTQxQ0U4N0Y4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIzM0RBQUU0MEU3RjQ5QTE4MERCQzBDRURFMjk5MDhGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbu2ZCT98-QBxUCKAJDMywXQE3AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=TcyFvgZOBmy5IwK9dZz3kg&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7ca8c&oh=00_AQOVOMPdY5foQMtfwtU85BeJ91EKG2uwuZ_K8D5EUlPtaA&oe=6AD36DFE",
-      "reason": "Request failed with status code 403"
+      "id": "4009589547351646891_104890898",
+      "url": "https://instagram.fisb2-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQPh8dcCXG8UzSM-lM_8vcYTxtaqoEE0M1VbowzGc18kNck3909R6r3c3lv2pZVid1pHU2iDGvM_xqq9lO96vJYEmbhZ9Na9bq3S-ZA.mp4?_nc_cat=108&_nc_oc=AdpfajmA36usmKvLSX6xRxRZq8P98tExwixuiH7hqNGpBU8v-35hKDGjjlYKG4jyXCE&_nc_sid=5e9851&_nc_ht=instagram.fisb2-1.fna.fbcdn.net&_nc_ohc=XR8uuFHKBs0Q7kNvwHP3B5v&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEwNTY0NDkwMTk2MjcyNCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=6eb39c5ced455c09&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GMURGQzEwNzYwMTQ0MDgzQkJEQkMxRjM2NkRGMzQ4MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U5QzlERUUwNzJBRTQ1NjNBRTEyMDdDMzk5QjMzODVFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbIz4i6gOX2AxUCKAJDMywXQF3EOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=p9WTeCr25pGVbEoSJq61tg&_nc_ss=7a20f&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQNpsBBTUpGgeVfW_0ssX54cubWRywvesidmp9a1yRrYlA&oe=6AD4D79D",
+      "reason": ""
+    },
+    {
+      "id": "4009097868932802330_104890898",
+      "url": "https://instagram.fisb2-2.fna.fbcdn.net/o1/v/t2/f2/m86/AQPjxHIOXq1vVkSa0d84RSuZjVMh5jmTejwX56WO9Lihw_AJ2Il0YUk9IBSQ4mfImGr8h4e_2FFqBQquBbbQTEJXIJ2FHoQneNi_xsE.mp4?_nc_cat=100&_nc_oc=AdpUKuf_NJMJ-Hk9cQIxiOgp16IFuWvIW_nIUunngjNdZpxYQILkOEKIeBoenKw0EIA&_nc_sid=5e9851&_nc_ht=instagram.fisb2-2.fna.fbcdn.net&_nc_ohc=4pQ9-vYB5ukQ7kNvwHnhtIR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTMyMjczNzAzNjUyMzA0NiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo3OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=8df7e7b2f1a744ed&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85RkY4MUNENTU2RTE0RkQ4QjBDRTMzOEFCMTA5QkRCOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ5RDM3QjRDOUJENDRDMUU5M0JFRDYyNDYxMzZDMDQ0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbM2IvztsHZBBUCKAJDMywXQFOqTdLxqfwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=p9WTeCr25pGVbEoSJq61tg&_nc_ss=7a20f&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQNWU1oJD5Ab0YfpHXH7Nbz_-NhCLS8jNMuO9u9WP5yyeA&oe=6AD4B80D",
+      "reason": ""
     }
   ]
 }

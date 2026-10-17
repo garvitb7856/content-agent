@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-16",
-  "end_date": "2026-10-23",
+  "generated_on": "2026-10-17",
+  "end_date": "2026-10-24",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-16",
-      "topic": "Ben Affleck coding Python and CNNs vs. standard founders scrolling",
+      "date": "2026-10-17",
+      "topic": "How to reverse-engineer any competitor SaaS or web app using the trending open-source GitHub tool",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Ben Affleck just revealed he writes Python and trains CNNs.",
+      "post_time": "7:15 PM IST",
+      "hook": "You can clone any web app’s entire code for free.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-17",
-      "topic": "Aerospace prompting trick (ASD-STE100) to stop AI hallucinations",
+      "date": "2026-10-18",
+      "topic": "Step-by-step architecture to run an AI automation agency using 100% open-source local LLMs (₹0 software cost)",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Stop hallucinating: The aerospace prompting trick nobody is using.",
+      "post_time": "6:45 PM IST",
+      "hook": "Stop paying ₹1.5 lakh monthly for AI SaaS tools.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-18",
-      "topic": "Bypassing Upwork bot bans using advanced browser cookie simulation",
+      "date": "2026-10-19",
+      "topic": "Turn a single selfie into viral aura/cinematic video edits using Claude connected with Katana",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Why your Upwork auto-bidder gets banned in 24 hours.",
+      "post_time": "7:30 PM IST",
+      "hook": "Turn one normal selfie into viral cinematic video edits.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-19",
-      "topic": "How modern AI-first Indian startups run system design interviews",
+      "date": "2026-10-20",
+      "topic": "5 harsh lifestyle & money mistakes keeping Indian tech freelancers stuck under ₹1 Lakh/month",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "College system design is dead. Here is the AI-first interview.",
+      "post_time": "8:00 PM IST",
+      "hook": "5 stupid traps keeping Indian freelancers broke in 2026.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-20",
-      "topic": "Automating YouTube clipping and repurposing with NotebookLM and local LLMs",
+      "date": "2026-10-21",
+      "topic": "2 secret ChatGPT data and UI toggles you must change before building prompts",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "Stop clipping videos manually. Use this NotebookLM automation pipeline.",
+      "post_time": "7:00 PM IST",
+      "hook": "Turn off these two ChatGPT settings right now.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-21",
-      "topic": "Setting up autonomous multi-agent memory structures for local LLMs",
+      "date": "2026-10-22",
+      "topic": "LinkedIn Skills plug-in setup for automated viral hooks and lead scraping",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Give your local LLMs permanent memory with this simple config.",
+      "post_time": "6:30 PM IST",
+      "hook": "Automate your entire LinkedIn outreach using this free script.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-22",
-      "topic": "Building localized multilingual voice cloning agents for Indian D2C brands",
+      "date": "2026-10-23",
+      "topic": "Ranking the top 4 AI agency business models from C-Tier to God-Tier based on profit margins",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Clone your voice in 83 languages for Indian D2C ads.",
+      "post_time": "7:45 PM IST",
+      "hook": "Stop selling voice bots to Indian businesses; sell this.",
       "status": "pending"
     }
   ]

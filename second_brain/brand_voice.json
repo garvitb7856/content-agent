@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T03:34:27.812Z",
+  "updated_at": "2026-10-17T03:33:31.159Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -13,11 +13,11 @@
     },
     "C": {
       "count": 20,
-      "avgLikes": 469,
+      "avgLikes": 165,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 469 likes. Type C: 20 posts, avg 469 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 165 likes. Type C: 20 posts, avg 165 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -56,7 +56,7 @@
       "scriptType": "C (fully original)",
       "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top m",
       "transcript": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top models, including Claude fable 5. You can use Claude cowork, as well as Claude code, where I have used 250,000 tokens in a day for completely free. You just need Google's antigravity and paste this secret prompt to get this. In times when you want to create something, but you cannot because you don't have an actual subscription, and then you realize that you need money to make money. But now this problem has been solved. Just comment \"Claude\" and I'll send you the complete guide to do",
-      "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
+      "caption": "",
       "transcriptFull": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top models, including Claude fable 5. You can use Claude cowork, as well as Claude code, where I have used 250,000 tokens in a day for completely free. You just need Google's antigravity and paste this secret prompt to get this. In times when you want to create something, but you cannot because you don't have an actual subscription, and then you realize that you need money to make money. But now this problem has been solved. Just comment \"Claude\" and I'll send you the complete guide to do"
     },
     {
@@ -72,12 +72,7 @@
   ],
   "your_top_captions": [
     {
-      "likes": 6147,
-      "caption": "Nobody should buy Claude subscriptions, because I have found a way to use it for free. \nYou can use all the top models, including Claude Fable 5. \nYou can use Claude Co-work, as well as Claude Code, where I have used 250,000 tokens in a day for completely free. \nYou just need Google’s Antigravity an",
-      "url": "https://www.instagram.com/p/DbVirrOyodk/"
-    },
-    {
-      "likes": 2280,
+      "likes": 2284,
       "caption": "Comment anything to get this !",
       "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
@@ -92,12 +87,35 @@
       "url": "https://www.instagram.com/p/DdrDPZzpx45/"
     },
     {
-      "likes": 95,
+      "likes": 97,
       "caption": "Claude code for free !",
       "url": "https://www.instagram.com/p/DeCVP0QyVHR/"
+    },
+    {
+      "likes": 77,
+      "caption": "Anyone can get 100 million views with this Ai content system\nIt worths 1000 dollars i am giving away to you for free for sometime now get it or Pay for it later\n\nI recreated @vaibhavsisinty entire content system and giving to you guys for free !\n\nComment “Master” to get it!\n\n#growthhacks #automation",
+      "url": "https://www.instagram.com/p/DdZNBptyRzm/"
     }
   ],
   "competitor_viral_scripts": [
+    {
+      "handle": "thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/DExE3UOhUoq/",
+      "likes": 0,
+      "comments": 0,
+      "hook": "If you were 25 years old, sitting out of India, you're seeing all these new models come out, how would you tackle that? ",
+      "transcript": "If you were 25 years old, sitting out of India, you're seeing all these new models come out, how would you tackle that? How would you upskill if you were young again? Keep on the frontier and be ready for the next drop. You can't say, \"Oh, I'm going to build this and then I'll go do next.\" You're simultaneously working with some frontier thing where you're making something that is impossible today, more possible because of what's coming, while you're optimizing. If you had to pick something that India can do now in the next few years, what would that be? I think India has tremendous opportunity. I think the next generation SaaS company that says, \"You know what, I'm going to embrace these agents, change even my business model around it,\" that's a massive opportunity. Are there any other things that you've seen in research level and you think it's going to play out in 5 years? Combination of progress in AI and AI for science and maybe quantum, that to me might be the next big breakthrou",
+      "transcriptFull": "If you were 25 years old, sitting out of India, you're seeing all these new models come out, how would you tackle that? How would you upskill if you were young again? Keep on the frontier and be ready for the next drop. You can't say, \"Oh, I'm going to build this and then I'll go do next.\" You're simultaneously working with some frontier thing where you're making something that is impossible today, more possible because of what's coming, while you're optimizing. If you had to pick something that India can do now in the next few years, what would that be? I think India has tremendous opportunity. I think the next generation SaaS company that says, \"You know what, I'm going to embrace these agents, change even my business model around it,\" that's a massive opportunity. Are there any other things that you've seen in research level and you think it's going to play out in 5 years? Combination of progress in AI and AI for science and maybe quantum, that to me might be the next big breakthrough where science itself is computed. The internet is abuzz with conversation of Satya Nadella said that SaaS is dead. Now I know, you know, that's not what you said, and has lost nuance over time, but I'd love for you to tell me how that shift happens from SaaS all the way to agents?"
+    },
+    {
+      "handle": "thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/DIB4N7-oJ-m/",
+      "likes": 0,
+      "comments": 0,
+      "hook": "Ladies and gentlemen, I am with Sam Altman. You've been tweeting a lot about India. You've also been tweeting a lot abou",
+      "transcript": "Ladies and gentlemen, I am with Sam Altman. You've been tweeting a lot about India. You've also been tweeting a lot about the new Image Gen. It blows my mind. What's the response been like? I I don't know if I can share an exact number, but like way more images than I thought the internet had. What is happening with this technology in India, I've never seen adoption like this for anything anywhere and it's very cool. Do you have a path for how jobs will evolve now that these sort of tools are here? There will be some jobs that totally go away where the AI just does them end-to-end. And then there'll be totally new classes of jobs that we just haven't seen before at all. Do you have a timeline for when, you know, a lot of writing code becomes English? Or is that not gonna happen? I'm less interested in that question than when a coder becomes 10 times more productive, and I think that could happen this year. You know, there's this video of Miyazaki, it's of course it's an out-of-context ",
+      "transcriptFull": "Ladies and gentlemen, I am with Sam Altman. You've been tweeting a lot about India. You've also been tweeting a lot about the new Image Gen. It blows my mind. What's the response been like? I I don't know if I can share an exact number, but like way more images than I thought the internet had. What is happening with this technology in India, I've never seen adoption like this for anything anywhere and it's very cool. Do you have a path for how jobs will evolve now that these sort of tools are here? There will be some jobs that totally go away where the AI just does them end-to-end. And then there'll be totally new classes of jobs that we just haven't seen before at all. Do you have a timeline for when, you know, a lot of writing code becomes English? Or is that not gonna happen? I'm less interested in that question than when a coder becomes 10 times more productive, and I think that could happen this year. You know, there's this video of Miyazaki, it's of course it's an out-of-context video where he's looking at a model from, you know, years ago, something, some creature thrashing around, and he said that, well, you know, \"I don't like this.\" Do you have a view on how the internet should think about this evolving nature of art?"
+    },
     {
       "handle": "aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DIB9s4YvylD/",
@@ -151,85 +169,92 @@
       "hook": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-",
       "transcript": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-to-end marketing. So let me show you how you can create AI employees for your business or a client completely free. So go to Claude and then click on customize. Navigate to Skills section and create a skill with Claude. Create a skill of a senior creative director for video ads. And then next employee. Create a skill for an expert Seedance 2.0 prompt engineer who will take directions from a creative director skill and provide JSON prompt for Seedance 2.0. So basically Claude will take 5 to 10 minutes and create a detailed set of instructions for each employee and will provide you with the skill.md file which you can add by clicking here. Now to run both employees to work as a team, you have to upload your product image and then prompt. Use a creative director skill to create a cinematic ad for this product and use this link to gather information and pass requirements ",
       "transcriptFull": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-to-end marketing. So let me show you how you can create AI employees for your business or a client completely free. So go to Claude and then click on customize. Navigate to Skills section and create a skill with Claude. Create a skill of a senior creative director for video ads. And then next employee. Create a skill for an expert Seedance 2.0 prompt engineer who will take directions from a creative director skill and provide JSON prompt for Seedance 2.0. So basically Claude will take 5 to 10 minutes and create a detailed set of instructions for each employee and will provide you with the skill.md file which you can add by clicking here. Now to run both employees to work as a team, you have to upload your product image and then prompt. Use a creative director skill to create a cinematic ad for this product and use this link to gather information and pass requirements to Seedance 2.0 prompt engineer. Now these two employees will figure out themselves that whose task is to perform what. The creative director is performing its job to produce end-to-end ad direction, and then he gave it to Seedance 2.0 prompt engineer to create a prompt. Now it is generating a detailed prompt that you can copy and paste it into Seedance 2.0. And here's the final ad."
-    },
-    {
-      "handle": "arshman",
-      "postUrl": "https://www.instagram.com/p/3887435135724526493_24040950/",
-      "likes": 0,
-      "comments": 0,
-      "hook": "If you have a super long Claude chat, number one, you're hitting your usage limits frequently. And number two, you canno",
-      "transcript": "If you have a super long Claude chat, number one, you're hitting your usage limits frequently. And number two, you cannot continue chatting in the same chat anymore. So go to your chat and prompt, create a markdown file for this chat. So it will synthesize your chat and provide you with the .md file. Once you get a file, download and upload it to a new chat. And then you can continue chatting in the new chat without hitting your chat or usage limits. So don't forget to follow and save this reel.",
-      "transcriptFull": "If you have a super long Claude chat, number one, you're hitting your usage limits frequently. And number two, you cannot continue chatting in the same chat anymore. So go to your chat and prompt, create a markdown file for this chat. So it will synthesize your chat and provide you with the .md file. Once you get a file, download and upload it to a new chat. And then you can continue chatting in the new chat without hitting your chat or usage limits. So don't forget to follow and save this reel."
-    },
-    {
-      "handle": "dhavalkataria_",
-      "postUrl": "https://www.instagram.com/p/DX6q79yoHVT/",
-      "likes": 0,
-      "comments": 0,
-      "hook": "How much money did I make with 100k subscribers on YouTube? Total I made 1.2 Cr from eight income streams. Let's go from",
-      "transcript": "How much money did I make with 100k subscribers on YouTube? Total I made 1.2 Cr from eight income streams. Let's go from the lowest to the highest. Number one, Freelance Mentorship Calls. This income source made me a Swiggy delivery boy's yearly salary. Number two, Content Coaching Calls. This income stream made me a TCS ke fresher ka yearly salary. Number three, my most passive income source, Youtube AdSense. This made me a Mumbai ke teacher ka average salary. Number four, Consulting big creators. Isme se maine banaya ek IIT engineer ka salary. Number five, Creating content for other brands. This income source made me a IIM graduate ke salary jitna. Number six, Agency. I have two clients jinka hum Youtube sambhalte hain end-to-end and this makes me a CA ranker ki salary jitna. Number seven, my biggest income source, Brand Sponsorships. I make two Youtube videos a month and it makes me a CEO jitna salary. Number eight, a bonus, that is UGC Ads. This made me an investment banker jitna s",
-      "transcriptFull": "How much money did I make with 100k subscribers on YouTube? Total I made 1.2 Cr from eight income streams. Let's go from the lowest to the highest. Number one, Freelance Mentorship Calls. This income source made me a Swiggy delivery boy's yearly salary. Number two, Content Coaching Calls. This income stream made me a TCS ke fresher ka yearly salary. Number three, my most passive income source, Youtube AdSense. This made me a Mumbai ke teacher ka average salary. Number four, Consulting big creators. Isme se maine banaya ek IIT engineer ka salary. Number five, Creating content for other brands. This income source made me a IIM graduate ke salary jitna. Number six, Agency. I have two clients jinka hum Youtube sambhalte hain end-to-end and this makes me a CA ranker ki salary jitna. Number seven, my biggest income source, Brand Sponsorships. I make two Youtube videos a month and it makes me a CEO jitna salary. Number eight, a bonus, that is UGC Ads. This made me an investment banker jitna salary. Comment 100k and saare real numbers main aapko aapke DM mein bhejunga."
     }
   ],
   "gemini_analysis": {
     "garvit_speaking_style": {
-      "summary": "Garvit speaks with raw urgency, blending Indian tech developer slang seamlessly with casual Hinglish conversational cues. He addresses the audience directly as a peer, often dropping high-value secrets or mindset shifts with an authentic, unfiltered attitude.",
-      "sentence_structure": "short/punchy",
-      "language_mix": "Hinglish, heavy mix of colloquial English and conversational Hindi/Desi slang (e.g., 'ek Indian developer ne', 'hazar rupee monthly', 'khair us waqt to ho nahi paya')",
-      "tone": "conversational",
-      "pacing": "fast, dense info",
+      "summary": "Garvit speaks with an urgent, direct peer-to-peer delivery that blends relatable self-awareness with high-utility tech hacks. He switches naturally between conversational, colloquial Hindi for emotional connection and fast-paced English for tactical AI tool breakdowns.",
+      "sentence_structure": "short/punchy during hooks and reveals, medium/explanatory during tech setup",
+      "language_mix": "Hinglish (60% English, 40% Hindi), using Hindi for casual direct address ('tumhe pata hai', 'kuch nahi hone wala tera') and English for AI feature listings and value propositions",
+      "tone": "conversational, defiant, and resourceful",
+      "pacing": "fast, dense info packed in 30-45 seconds with urgent velocity",
       "signature_phrases": [
         "stop taking AI subscriptions right now",
-        "ek Indian developer ne",
-        "comment below free to get the link"
+        "completely free",
+        "you need money to make money",
+        "I wish I knew this earlier",
+        "comment below [keyword] to get the link"
       ],
-      "what_makes_it_work": "It sounds like a tech-savvy friend whispering a valuable insider hack directly into your ear without any corporate fluff or fake enthusiasm."
+      "what_makes_it_work": "He positions himself as a clever digital arbitrageur who finds loopholes to save money for students and young creators who cannot afford expensive SaaS subscriptions."
     },
     "garvit_writing_style": {
-      "summary": "Garvit's captions are minimal, direct extensions of his hook, often left entirely blank or serving as a clean, single-sentence summary of the core video value. They are designed purely to support the spoken delivery rather than act as independent text essays.",
-      "caption_structure": "Direct repetition of the hook or core premise in plain English, with no fluff or lengthy paragraphs, keeping the focus entirely on the reel.",
+      "summary": "Garvit relies almost entirely on video-first engagement, leaving captions empty or minimal. His visual and audio hooks do 100% of the heavy lifting, using ManyChat keyword automation to drive engagement rather than written microblogs.",
+      "caption_structure": "Minimalist or zero-caption setup; relies strictly on verbal CTA to trigger comment-to-DM funnels",
       "cta_patterns": [
         "comment below free to get the link",
-        "comment [keyword] and I'll send you the complete guide"
+        "just comment \"[Tool Name]\" and I'll send you the complete guide"
       ],
-      "tone_vs_speaking": "His written tone is cleaner and stripped of Hinglish colloquialisms compared to his highly energetic, spoken Hinglish delivery."
+      "tone_vs_speaking": "Practically non-existent written presence; all personality, urgency, and tonality are concentrated strictly in his spoken audio delivery."
     },
     "competitor_speaking_patterns": {
-      "summary": "Viral competitor scripts rely on heavy social proof, high-stakes demonstrations, and structured multi-layered frameworks that instantly validate their authority in tech and automation.",
+      "summary": "Top competitors frame their videos around high-ticket real-world implementations, agency case studies (Comet, Snitch), multi-layered educational frameworks (Claude 8 layers), and high-status podcast access rather than consumer freebies.",
       "viral_hook_patterns": [
-        "I made an AI calling agent in just 20 minutes...",
-        "We built this WhatsApp AI agent for Comet, the hottest sneaker brand...",
-        "Stop pretending you know how to use Claude. Give me 60 seconds..."
+        "Stop pretending you know how to use [Tool] / Give me 60 seconds...",
+        "We built this [AI Agent] for [Top Brand], and it's honestly going to set a new benchmark...",
+        "I made an AI [Agent/Workflow] in just [X] minutes and the first result blew my mind..."
       ],
-      "viral_body_structure": "Hook -> High-stakes Proof/Case Study -> Step-by-step breakdown or 4-layer framework -> Clear automated keyword CTA.",
+      "viral_body_structure": "Systemized step-by-step architecture (naming agents like Gatekeeper, Judge, Ghostwriter, Closer) or linear layered progression (Layer 1 chat to Layer 5 artifacts) followed by visual proof of work.",
       "viral_cta_patterns": [
-        "comment the word AI below and I'll send you a proper instructions doc",
-        "don't forget to follow and save this reel"
+        "comment [Keyword] and I'll send this entire workflow and its guide straight to your DMs",
+        "comment the word AI below and I'll send you a proper instructions doc right away"
       ],
-      "key_difference_from_garvit": "Competitors use concrete brand case studies and numbered layering to build instant authority, whereas Garvit relies more on direct hacks, personal mindset shifts, and software workarounds."
+      "key_difference_from_garvit": "Competitors sell competence, enterprise workflows, and business leverage ('AI employees that run my business'), whereas Garvit heavily emphasizes arbitrage hacks ('use paid AI tools for free')."
     },
     "viral_own_script_analysis": [
       {
         "rank": 1,
-        "likes": 0,
-        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai",
+        "likes": 165,
+        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch ",
         "hook_type": "pattern_interrupt",
         "hook_length_words": 19,
-        "body_structure": "demo/reveal",
-        "cta": "comment below free to get the link",
+        "body_structure": "Problem (expensive ₹5-6k/month subscriptions) -> Solution (open-source GitHub project) -> Caveat/Transparency (API cost vs software free) -> Social Proof (10k stars in 3 days)",
+        "cta": "so tumhe bhi apne subscriptions ke paise bachane hain to comment below free to get the link",
         "script_type": "C",
-        "what_made_it_viral": "Combines a strong financial pain point (saving money on subscriptions) with a local angle (Indian developer) and an immediate software workaround."
+        "what_made_it_viral": "High financial pain relief paired with national pride ('Indian developer') and instant FOMO/social proof ('10k stars in 3 days')."
+      },
+      {
+        "rank": 2,
+        "likes": 165,
+        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top m",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 23,
+        "body_structure": "Contrarian warning -> On-screen visual proof of token usage -> Relatable pain point ('need money to make money') -> Solution drop",
+        "cta": "Just comment \"Claude\" and I'll send you the complete guide to do",
+        "script_type": "C",
+        "what_made_it_viral": "Direct assault on a recurring subscription paywall using high-intent keyword bait ('Claude') that attracts developers and students."
+      },
+      {
+        "rank": 3,
+        "likes": 165,
+        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get Go",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 20,
+        "body_structure": "Regret hook ('wish I knew this earlier') -> High-value feature stacking (Gemini Pro, Veo 3.1, Pomelli, 5 TB storage) -> Bonus perk reveal",
+        "cta": "And if you want access to this gold mine, just follow me and comment",
+        "script_type": "C",
+        "what_made_it_viral": "Feature stacking combined with astronomical perceived value (5TB storage + top AI models) creates immediate shareability."
       }
     ],
     "verdict": {
       "whose_style_goes_viral": "Hybrid",
-      "reasoning": "Garvit's native raw, conversational Hinglish delivery paired with the structured, case-study-driven, step-by-step tech breakdowns of competitors creates the ultimate high-retention recipe for the Indian AI/tech niche.",
-      "recommended_hook_structure": "Stop paying for [Expensive AI Tool] because an Indian developer/I just made it 100% free.",
-      "recommended_body_structure": "Quick proof -> The exact workaround or tool name -> Step-by-step how to access it via GitHub/open source without credit limits.",
-      "recommended_cta_structure": "Comment '[KEYWORD]' below and I'll send you the complete guide/link straight to your DM.",
+      "reasoning": "Garvit's native strength lies in snappy, relatable, high-friction-removal hooks ('get paid tech for free') which perfectly resonate with cost-conscious Indian builders. However, competitors achieve greater credibility and longevity by showing real enterprise setups and structured systems (e.g., Arshman's multi-agent workflows). Merging Garvit's accessible Hinglish tone with competitor-style multi-agent frameworks will dramatically increase his perceived authority and engagement.",
+      "recommended_hook_structure": "[Aggressive Command / Stop Doing X] + [High-Value Tool/Result] + [Free / 10x Shortcut Mechanism for Indian Builders]",
+      "recommended_body_structure": "[Visual Proof on Screen] -> [The Problem / Paywall Trap] -> [3-Step Systematic Breakdown / Architecture] -> [Under-the-radar Advantage]",
+      "recommended_cta_structure": "If you want [exact template/workflow/resource], comment \"[KEYWORD]\" below and I will DM you the step-by-step setup doc.",
       "avoid_these": [
-        "leaving captions completely blank on high-value tutorials",
-        "vague storytelling without an actionable software tool or hack attached"
+        "Vague self-help affirmation scripts without an AI/tech anchor",
+        "Leaving caption text 100% blank without search keywords or ManyChat trigger backups",
+        "Relying solely on software piracy or bypass vibes instead of sustainable open-source/agent workflows"
       ]
     }
   }
