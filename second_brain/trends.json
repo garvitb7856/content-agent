@@ -1,110 +1,30 @@
 {
-  "fetched_at": "2026-10-17T03:31:58.076Z",
+  "fetched_at": "2026-10-18T03:31:45.342Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "score": 223,
-      "comments": 61,
-      "url": "https://github.com/cobanov/PS5LM"
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "score": 289,
+      "comments": 27,
+      "url": "https://pele.run/"
     },
     {
       "source": "hackernews",
-      "title": "Claude reveals ECDSA curve origins",
-      "score": 732,
-      "comments": 280,
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
-    },
-    {
-      "source": "hackernews",
-      "title": "Designing more efficient quantum circuits with Claude",
-      "score": 109,
-      "comments": 21,
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
-    },
-    {
-      "source": "hackernews",
-      "title": "Nine-Inch Snails",
-      "score": 37,
-      "comments": 17,
-      "url": "https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/"
-    },
-    {
-      "source": "hackernews",
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "score": 428,
-      "comments": 367,
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/"
-    },
-    {
-      "source": "hackernews",
-      "title": "How the Claude Code team does code review",
-      "score": 260,
-      "comments": 249,
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Gemini 4 Argon plays StarCraft",
-      "score": 195,
-      "comments": 89,
-      "url": "https://starskirmish.com/bench/v0-2/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Coconuts in Medieval Britain (2015)",
-      "score": 6,
-      "comments": 0,
-      "url": "https://www.themarysue.com/monty-python-holy-grail-coconuts/"
-    },
-    {
-      "source": "hackernews",
-      "title": "I love software rendering",
-      "score": 303,
-      "comments": 192,
-      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do",
-      "score": 72,
-      "comments": 64,
-      "url": "https://wonderhop.io/en/"
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "score": 261,
+      "comments": 77,
+      "url": "https://llmspeed.dev/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Apple Homeview Impressions: Not Convinced!",
-      "channel": "Marques Brownlee",
-      "views": 9169215,
-      "likes": 99371,
-      "publishedAt": "2026-10-13T22:42:38Z",
-      "url": "https://www.youtube.com/watch?v=QVv3mQzlrN0",
-      "tags": [],
-      "description": "New Smart home display from Apple. With plenty of quirks and features.\n\nThe deskpad! http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
-      "channel": "MrFlatWhite",
-      "views": 9046802,
-      "likes": 35570,
-      "publishedAt": "2026-10-10T22:01:18Z",
-      "url": "https://www.youtube.com/watch?v=d8AX_8Lkab8",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "I’m running out of Rasberry Pi’s..",
       "channel": "CarterPCs",
-      "views": 7919280,
-      "likes": 318827,
+      "views": 9950498,
+      "likes": 367727,
       "publishedAt": "2026-10-14T03:39:07Z",
       "url": "https://www.youtube.com/watch?v=XDvtBzrewwE",
       "tags": [],
@@ -113,58 +33,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Turning A Shoebox Into A Movie Projector 😮",
-      "channel": "Zack D. Films",
-      "views": 7085956,
-      "likes": 336341,
-      "publishedAt": "2026-10-14T19:30:02Z",
-      "url": "https://www.youtube.com/watch?v=YT3OiJbpd-I",
+      "title": "Apple Homeview Impressions: Not Convinced!",
+      "channel": "Marques Brownlee",
+      "views": 9613241,
+      "likes": 101423,
+      "publishedAt": "2026-10-13T22:42:38Z",
+      "url": "https://www.youtube.com/watch?v=QVv3mQzlrN0",
       "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "What is the BEST app?!📱🤔",
-      "channel": "Cam2r",
-      "views": 3810311,
-      "likes": 215568,
-      "publishedAt": "2026-10-15T22:06:17Z",
-      "url": "https://www.youtube.com/watch?v=5zd1btl7XeI",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "The iPhone Duo but BETTER 🤯",
-      "channel": "John Casterline",
-      "views": 3075308,
-      "likes": 198608,
-      "publishedAt": "2026-10-14T02:19:07Z",
-      "url": "https://www.youtube.com/watch?v=Q9iDESLZMGk",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link",
-      "channel": "Digital Doctor ",
-      "views": 3030329,
-      "likes": 107198,
-      "publishedAt": "2026-10-14T19:29:09Z",
-      "url": "https://www.youtube.com/watch?v=rKRFt_nh0PM",
-      "tags": [],
-      "description": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your device back to"
+      "description": "New Smart home display from Apple. With plenty of quirks and features.\n\nThe deskpad! http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "HOW TO MAKE A HOMEMADE PROJECTOR 😱😱",
       "channel": "Speed McQueen",
-      "views": 2202881,
-      "likes": 57401,
+      "views": 7694408,
+      "likes": 149211,
       "publishedAt": "2026-10-16T16:08:25Z",
       "url": "https://www.youtube.com/watch?v=8Co-xiiueSk",
       "tags": [],
@@ -173,10 +57,58 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Why Cats Rub Against Your Laptop 🤔",
+      "channel": "Zack D. Films",
+      "views": 6302791,
+      "likes": 299016,
+      "publishedAt": "2026-10-17T12:30:34Z",
+      "url": "https://www.youtube.com/watch?v=tUXy4cQwPAo",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "What is the BEST app?!📱🤔",
+      "channel": "Cam2r",
+      "views": 4980132,
+      "likes": 265393,
+      "publishedAt": "2026-10-15T22:06:17Z",
+      "url": "https://www.youtube.com/watch?v=5zd1btl7XeI",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link",
+      "channel": "Digital Doctor ",
+      "views": 3501562,
+      "likes": 122432,
+      "publishedAt": "2026-10-14T19:29:09Z",
+      "url": "https://www.youtube.com/watch?v=rKRFt_nh0PM",
+      "tags": [],
+      "description": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your device back to"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "The iPhone Duo but BETTER 🤯",
+      "channel": "John Casterline",
+      "views": 3299267,
+      "likes": 215152,
+      "publishedAt": "2026-10-14T02:19:07Z",
+      "url": "https://www.youtube.com/watch?v=Q9iDESLZMGk",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "What Does This Button Do?",
       "channel": "Sambucha",
-      "views": 2031867,
-      "likes": 75272,
+      "views": 2260175,
+      "likes": 81037,
       "publishedAt": "2026-10-12T19:15:36Z",
       "url": "https://www.youtube.com/watch?v=dgxslfme0ng",
       "tags": [
@@ -189,10 +121,22 @@
       "category": "Science & Tech",
       "title": "I bought an iPhone mini mini 😂",
       "channel": "Nick Wilkins",
-      "views": 1677331,
-      "likes": 73584,
+      "views": 2221759,
+      "likes": 90415,
       "publishedAt": "2026-10-15T23:19:42Z",
       "url": "https://www.youtube.com/watch?v=jB_bkbGt8Ys",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "PS1, PS2, PS3, PS4 And PS5 Plugs",
+      "channel": "More1980sGamer",
+      "views": 1900956,
+      "likes": 28364,
+      "publishedAt": "2026-10-13T13:17:37Z",
+      "url": "https://www.youtube.com/watch?v=D5l23WgqgsQ",
       "tags": [],
       "description": ""
     }
@@ -200,43 +144,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "AI workflow",
-        "trend_score": 97
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 94
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 92
-      },
-      {
-        "keyword": "solopreneur",
+        "keyword": "automation tools",
         "trend_score": 88
       },
       {
-        "keyword": "AI for business",
-        "trend_score": 86
+        "keyword": "AI tools",
+        "trend_score": 85
       },
       {
-        "keyword": "productivity tools",
+        "keyword": "self improvement",
         "trend_score": 84
       },
       {
-        "keyword": "ChatGPT",
-        "trend_score": 83
+        "keyword": "AI for business",
+        "trend_score": 81
       },
       {
-        "keyword": "automation tools",
-        "trend_score": 79
+        "keyword": "AI workflow",
+        "trend_score": 75
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 75
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 74
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 66
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 77
+        "trend_score": 65
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-17T03:31:58.076Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console\" — 223 pts\n• [HackerNews] \"Claude reveals ECDSA curve origins\" — 732 pts\n• [HackerNews] \"Designing more efficient quantum circuits with Claude\" — 109 pts\n• [HackerNews] \"Nine-Inch Snails\" — 37 pts\n• [HackerNews] \"90% of US working hours are spent on tasks not covered well by AI benchmarks\" — 428 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Apple Homeview Impressions: Not Convinced!\" by Marques Brownlee — 9169k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MrFlatWhite — 9047k views\n• [YouTube Global] \"I’m running out of Rasberry Pi’s..\" by CarterPCs — 7919k views\n• [YouTube Global] \"Turning A Shoebox Into A Movie Projector 😮\" by Zack D. Films — 7086k views\n• [YouTube Global] \"What is the BEST app?!📱🤔\" by Cam2r — 3810k views\n• [YouTube Global] \"The iPhone Duo but BETTER 🤯\" by John Casterline — 3075k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 97), AI tools (score: 94), self improvement (score: 92), solopreneur (score: 88), AI for business (score: 86), productivity tools (score: 84), ChatGPT (score: 83), automation tools (score: 79), entrepreneur (score: 77)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-18T03:31:45.342Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Pele – Mermaid diagrams as themeable SVG\" — 289 pts\n• [HackerNews] \"Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware\" — 261 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"I’m running out of Rasberry Pi’s..\" by CarterPCs — 9950k views\n• [YouTube Global] \"Apple Homeview Impressions: Not Convinced!\" by Marques Brownlee — 9613k views\n• [YouTube Global] \"HOW TO MAKE A HOMEMADE PROJECTOR 😱😱\" by Speed McQueen — 7694k views\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 6303k views\n• [YouTube Global] \"What is the BEST app?!📱🤔\" by Cam2r — 4980k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 3502k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nautomation tools (score: 88), AI tools (score: 85), self improvement (score: 84), AI for business (score: 81), AI workflow (score: 75), solopreneur (score: 75), productivity tools (score: 74), ChatGPT (score: 66), entrepreneur (score: 65)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

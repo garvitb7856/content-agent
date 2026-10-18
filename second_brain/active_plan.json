@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-17",
-  "end_date": "2026-10-24",
+  "generated_on": "2026-10-18",
+  "end_date": "2026-10-25",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-17",
-      "topic": "How to reverse-engineer any competitor SaaS or web app using the trending open-source GitHub tool",
+      "date": "2026-10-18",
+      "topic": "Dubai's $150,000 AI Agent Championship for beginners with zero coding skills",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "You can clone any web app’s entire code for free.",
+      "post_time": "6:30 PM IST",
+      "hook": "Dubai is paying $150,000 for one simple AI agent.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-18",
-      "topic": "Step-by-step architecture to run an AI automation agency using 100% open-source local LLMs (₹0 software cost)",
+      "date": "2026-10-19",
+      "topic": "The Senior Dev Plugin Pack for Claude Code to make it code like a 10-year veteran",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Stop paying ₹1.5 lakh monthly for AI SaaS tools.",
+      "post_time": "7:00 PM IST",
+      "hook": "Make Claude Code write like a senior developer with 5 plugins.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-19",
-      "topic": "Turn a single selfie into viral aura/cinematic video edits using Claude connected with Katana",
+      "date": "2026-10-20",
+      "topic": "Why Windows laptops are holding back your side hustle compared to MacBooks",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Turn one normal selfie into viral cinematic video edits.",
+      "post_time": "6:45 PM IST",
+      "hook": "You will never make 1 Crore using a Windows laptop.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-20",
-      "topic": "5 harsh lifestyle & money mistakes keeping Indian tech freelancers stuck under ₹1 Lakh/month",
+      "date": "2026-10-21",
+      "topic": "Claude Model Tier Strategy (Haiku, Sonnet, Opus) to stop hitting usage limits and save money",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "5 stupid traps keeping Indian freelancers broke in 2026.",
+      "post_time": "7:15 PM IST",
+      "hook": "Stop hitting Claude limits with this exact model routing trick.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-21",
-      "topic": "2 secret ChatGPT data and UI toggles you must change before building prompts",
+      "date": "2026-10-22",
+      "topic": "Converting Mermaid diagrams and code into clean, themeable SVGs instantly without Figma",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Turn off these two ChatGPT settings right now.",
+      "post_time": "6:30 PM IST",
+      "hook": "Stop wasting hours designing system architecture diagrams in Figma.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-22",
-      "topic": "LinkedIn Skills plug-in setup for automated viral hooks and lead scraping",
+      "date": "2026-10-23",
+      "topic": "Step-by-step framework to build an appointment-setting voice calling agent for real estate",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Automate your entire LinkedIn outreach using this free script.",
+      "post_time": "8:00 PM IST",
+      "hook": "Build a voice AI agent that books real estate clients automatically.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-23",
-      "topic": "Ranking the top 4 AI agency business models from C-Tier to God-Tier based on profit margins",
+      "date": "2026-10-24",
+      "topic": "Reverse Engineering any mobile or desktop app completely free using open-source AI tools",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "Stop selling voice bots to Indian businesses; sell this.",
+      "post_time": "7:30 PM IST",
+      "hook": "Decompile any app on your computer using open-source AI free.",
       "status": "pending"
     }
   ]
