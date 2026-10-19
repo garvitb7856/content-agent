@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T03:31:45.392Z",
+  "updated_at": "2026-10-19T03:36:29.897Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -1312,14 +1312,17 @@
       "url": "https://www.instagram.com/p/DcyCwpzTguI/",
       "topic": "Claude/AI Tools",
       "format": "Video",
-      "hook": "Automate your Job Hunting Process with Claude 🤯",
+      "spoken_hook": "Jitni job tum ek saal mein apply karte ho na ek hafte mein kaise kar sakte ho aao tumhe directly dikhata hoon.  Claude pe chale jaana Claude pe jaake web search on kar dena web search on karne ke saath saath connectors pe chale jaao connectors mein jaake Apify wala connector turn on kar do.  Ab ye tumse kuch details maangega jaise tumhara job title tum kaun si job karna chahte ho remote work from home ya fir work from office wo saari details de dena aur tum isko bhej dena tumhe ek detailed list of jobs mil jayegi.",
+      "full_script": "Jitni job tum ek saal mein apply karte ho na ek hafte mein kaise kar sakte ho aao tumhe directly dikhata hoon. Claude pe chale jaana Claude pe jaake web search on kar dena web search on karne ke saath saath connectors pe chale jaao connectors mein jaake Apify wala connector turn on kar do. Ab ye tumse kuch details maangega jaise tumhara job title tum kaun si job karna chahte ho remote work from home ya fir work from office wo saari details de dena aur tum isko bhej dena tumhe ek detailed list of jobs mil jayegi. Bas comment kar dena prompt aur main tumhe prompt bhej deta hoon. Jai Mata Di milte hain next video mein.",
       "full_caption": "Automate your Job Hunting Process with Claude 🤯\n.\n#automation #claude #jobhuntingwithai",
-      "script_pattern": "unknown",
-      "likes": 3012,
-      "comments": 5795,
-      "engagement_rate": 5.59,
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 5247,
+      "comments": 11281,
+      "engagement_rate": 9.14,
       "verdict": "viral",
-      "scraped_at": "2026-09-07T10:32:59.156Z"
+      "transcribed_at": "2026-10-18T03:49:25.600Z",
+      "scraped_at": "2026-10-19T03:36:29.896Z"
     },
     {
       "id": "3962053210588063021_27437145281",
@@ -1956,8 +1959,26 @@
       "verdict": "viral",
       "transcribed_at": "2026-10-15T03:39:48.996Z",
       "scraped_at": "2026-10-16T03:32:18.181Z"
+    },
+    {
+      "id": "4005464408016723901_7695520761",
+      "account": "@thevarunmayya",
+      "url": "https://www.instagram.com/p/DeWRKhATp-9/",
+      "topic": "General Tech",
+      "format": "Video",
+      "spoken_hook": "This is the full GTA 5 running natively on an iPhone 17 at around 50 to 60 FPS.  It isn't streaming from the cloud and was built by one developer in a few days.  Here's what happened.",
+      "full_script": "This is the full GTA 5 running natively on an iPhone 17 at around 50 to 60 FPS. It isn't streaming from the cloud and was built by one developer in a few days. Here's what happened. On October 6th, a website let people play GTA 5 inside a Chrome tab. It streamed about 700 megabytes instead of the usual 105 gigabytes install, and it was reportedly built from GTA 5 source code that leaked in September. But then Take-Two shut the site down within hours. But people had already saved copies. A developer who goes by c22 took that browser version and recompiled it into a real iPhone app. He stripped out the browser completely and pointed the graphics straight at Metal, Apple's own graphics system. The whole game runs on about 1.1 gigabytes of RAM. For reference, the Xbox 360 that GTA 5 launched on had 512 megabytes total. Then he dropped one detail in his replies. It doesn't need JIT, because Apple doesn't let apps write new code while they're running. That one rule is a big reason console emulators have struggled on iPhone for years, because emulators translate a game live as you play. This approach does all the translating ahead of time before the app ever reaches your phone, so Apple's rule has nothing to catch. A modder used a similar trick in 2024 to run Majora's Mask, a Nintendo 64 game, in 4K on PC. Now a lot of kids in India grew up wanting to play GTA 5 without a gaming PC or a console at home. The phone was the only device they had, so they searched GTA 5 mobile download and ended up on fake APKs and YouTube videos promising the real thing. Now the real thing actually runs on a phone. To be clear, this is piracy. It's built on leaked code, and Take-Two already took down the website in an afternoon. The GitHub repo and this iPhone app will probably get taken down too. But the technique won't disappear. If game studios start using these same tools officially, the phone in your pocket could run games that used to need a gaming PC.",
+      "full_caption": "This is the full GTA V running natively on an iPhone 17, at around 50 to 60 fps. It isn’t streaming from the cloud and was built by one developer in a few days.",
+      "script_source": "transcript",
+      "script_pattern": "transformation",
+      "likes": 13862,
+      "comments": 141,
+      "engagement_rate": 1.09,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-18T04:01:50.139Z",
+      "scraped_at": "2026-10-19T03:36:29.896Z"
     }
   ],
-  "total": 120,
-  "transcript_based": 52
+  "total": 121,
+  "transcript_based": 54
 }

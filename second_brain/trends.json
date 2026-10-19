@@ -1,20 +1,41 @@
 {
-  "fetched_at": "2026-10-18T03:31:45.342Z",
+  "fetched_at": "2026-10-19T03:36:29.835Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Pele – Mermaid diagrams as themeable SVG",
-      "score": 289,
-      "comments": 27,
-      "url": "https://pele.run/"
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "score": 258,
+      "comments": 152,
+      "url": "https://arxiv.org/abs/2610.18861"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "score": 261,
-      "comments": 77,
-      "url": "https://llmspeed.dev/"
+      "title": "Someone behind the software",
+      "score": 348,
+      "comments": 141,
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/"
+    },
+    {
+      "source": "hackernews",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "score": 66,
+      "comments": 46,
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+    },
+    {
+      "source": "hackernews",
+      "title": "I built a programming language that LLMs can't use",
+      "score": 106,
+      "comments": 84,
+      "url": "https://blog.picheta.me/post/killswitch-lang/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Namecheap just seized and disabled all my domains",
+      "score": 475,
+      "comments": 233,
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/"
     }
   ],
   "youtube": [
@@ -23,8 +44,8 @@
       "category": "Science & Tech",
       "title": "I’m running out of Rasberry Pi’s..",
       "channel": "CarterPCs",
-      "views": 9950498,
-      "likes": 367727,
+      "views": 11291427,
+      "likes": 403512,
       "publishedAt": "2026-10-14T03:39:07Z",
       "url": "https://www.youtube.com/watch?v=XDvtBzrewwE",
       "tags": [],
@@ -33,22 +54,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Apple Homeview Impressions: Not Convinced!",
-      "channel": "Marques Brownlee",
-      "views": 9613241,
-      "likes": 101423,
-      "publishedAt": "2026-10-13T22:42:38Z",
-      "url": "https://www.youtube.com/watch?v=QVv3mQzlrN0",
-      "tags": [],
-      "description": "New Smart home display from Apple. With plenty of quirks and features.\n\nThe deskpad! http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "HOW TO MAKE A HOMEMADE PROJECTOR 😱😱",
       "channel": "Speed McQueen",
-      "views": 7694408,
-      "likes": 149211,
+      "views": 10549476,
+      "likes": 181189,
       "publishedAt": "2026-10-16T16:08:25Z",
       "url": "https://www.youtube.com/watch?v=8Co-xiiueSk",
       "tags": [],
@@ -59,8 +68,8 @@
       "category": "Science & Tech",
       "title": "Why Cats Rub Against Your Laptop 🤔",
       "channel": "Zack D. Films",
-      "views": 6302791,
-      "likes": 299016,
+      "views": 10517813,
+      "likes": 437210,
       "publishedAt": "2026-10-17T12:30:34Z",
       "url": "https://www.youtube.com/watch?v=tUXy4cQwPAo",
       "tags": [],
@@ -71,8 +80,8 @@
       "category": "Science & Tech",
       "title": "What is the BEST app?!📱🤔",
       "channel": "Cam2r",
-      "views": 4980132,
-      "likes": 265393,
+      "views": 5969815,
+      "likes": 298578,
       "publishedAt": "2026-10-15T22:06:17Z",
       "url": "https://www.youtube.com/watch?v=5zd1btl7XeI",
       "tags": [],
@@ -81,10 +90,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa",
+      "channel": "MR Limbo Green",
+      "views": 5281069,
+      "likes": 23450,
+      "publishedAt": "2026-10-16T22:00:13Z",
+      "url": "https://www.youtube.com/watch?v=DuGPYEfpkPM",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link",
       "channel": "Digital Doctor ",
-      "views": 3501562,
-      "likes": 122432,
+      "views": 4015329,
+      "likes": 136076,
       "publishedAt": "2026-10-14T19:29:09Z",
       "url": "https://www.youtube.com/watch?v=rKRFt_nh0PM",
       "tags": [],
@@ -95,8 +116,8 @@
       "category": "Science & Tech",
       "title": "The iPhone Duo but BETTER 🤯",
       "channel": "John Casterline",
-      "views": 3299267,
-      "likes": 215152,
+      "views": 3503164,
+      "likes": 228373,
       "publishedAt": "2026-10-14T02:19:07Z",
       "url": "https://www.youtube.com/watch?v=Q9iDESLZMGk",
       "tags": [],
@@ -105,10 +126,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "I bought an iPhone mini mini 😂",
+      "channel": "Nick Wilkins",
+      "views": 2734141,
+      "likes": 103580,
+      "publishedAt": "2026-10-15T23:19:42Z",
+      "url": "https://www.youtube.com/watch?v=jB_bkbGt8Ys",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "What Does This Button Do?",
       "channel": "Sambucha",
-      "views": 2260175,
-      "likes": 81037,
+      "views": 2377664,
+      "likes": 83933,
       "publishedAt": "2026-10-12T19:15:36Z",
       "url": "https://www.youtube.com/watch?v=dgxslfme0ng",
       "tags": [
@@ -119,48 +152,32 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "I bought an iPhone mini mini 😂",
-      "channel": "Nick Wilkins",
-      "views": 2221759,
-      "likes": 90415,
-      "publishedAt": "2026-10-15T23:19:42Z",
-      "url": "https://www.youtube.com/watch?v=jB_bkbGt8Ys",
+      "title": "Stolen Rental PC",
+      "channel": "UFD Tech",
+      "views": 542177,
+      "likes": 23285,
+      "publishedAt": "2026-10-18T13:01:13Z",
+      "url": "https://www.youtube.com/watch?v=c5oCIvqRXPw",
       "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "PS1, PS2, PS3, PS4 And PS5 Plugs",
-      "channel": "More1980sGamer",
-      "views": 1900956,
-      "likes": 28364,
-      "publishedAt": "2026-10-13T13:17:37Z",
-      "url": "https://www.youtube.com/watch?v=D5l23WgqgsQ",
-      "tags": [],
-      "description": ""
+      "description": "Writer: Brett Stelmaszek\nEditor: Catlin Stevenson\nMusic by: @UFD-Music"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "automation tools",
-        "trend_score": 88
-      },
-      {
         "keyword": "AI tools",
         "trend_score": 85
       },
       {
-        "keyword": "self improvement",
-        "trend_score": 84
+        "keyword": "automation tools",
+        "trend_score": 85
       },
       {
-        "keyword": "AI for business",
+        "keyword": "self improvement",
         "trend_score": 81
       },
       {
-        "keyword": "AI workflow",
+        "keyword": "AI for business",
         "trend_score": 75
       },
       {
@@ -172,15 +189,19 @@
         "trend_score": 74
       },
       {
+        "keyword": "AI workflow",
+        "trend_score": 72
+      },
+      {
         "keyword": "ChatGPT",
-        "trend_score": 66
+        "trend_score": 67
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 65
+        "trend_score": 61
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-18T03:31:45.342Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Pele – Mermaid diagrams as themeable SVG\" — 289 pts\n• [HackerNews] \"Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware\" — 261 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"I’m running out of Rasberry Pi’s..\" by CarterPCs — 9950k views\n• [YouTube Global] \"Apple Homeview Impressions: Not Convinced!\" by Marques Brownlee — 9613k views\n• [YouTube Global] \"HOW TO MAKE A HOMEMADE PROJECTOR 😱😱\" by Speed McQueen — 7694k views\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 6303k views\n• [YouTube Global] \"What is the BEST app?!📱🤔\" by Cam2r — 4980k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 3502k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nautomation tools (score: 88), AI tools (score: 85), self improvement (score: 84), AI for business (score: 81), AI workflow (score: 75), solopreneur (score: 75), productivity tools (score: 74), ChatGPT (score: 66), entrepreneur (score: 65)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-19T03:36:29.835Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Hybrid Reasoning Agents: LLM agents that think in latent space, act through text\" — 258 pts\n• [HackerNews] \"Someone behind the software\" — 348 pts\n• [HackerNews] \"If you don't run your own LLM proxy, how do you know whats going on?\" — 66 pts\n• [HackerNews] \"I built a programming language that LLMs can't use\" — 106 pts\n• [HackerNews] \"Namecheap just seized and disabled all my domains\" — 475 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"I’m running out of Rasberry Pi’s..\" by CarterPCs — 11291k views\n• [YouTube Global] \"HOW TO MAKE A HOMEMADE PROJECTOR 😱😱\" by Speed McQueen — 10549k views\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 10518k views\n• [YouTube Global] \"What is the BEST app?!📱🤔\" by Cam2r — 5970k views\n• [YouTube Global] \"Samsung Galaxy S27 Ultra Cobalt Violet📱🔥#noads #tiktok #usa\" by MR Limbo Green — 5281k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 4015k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 85), automation tools (score: 85), self improvement (score: 81), AI for business (score: 75), solopreneur (score: 75), productivity tools (score: 74), AI workflow (score: 72), ChatGPT (score: 67), entrepreneur (score: 61)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

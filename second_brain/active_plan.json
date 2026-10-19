@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-18",
-  "end_date": "2026-10-25",
+  "generated_on": "2026-10-19",
+  "end_date": "2026-10-26",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-18",
-      "topic": "Dubai's $150,000 AI Agent Championship for beginners with zero coding skills",
+      "date": "2026-10-19",
+      "topic": "Free open-source voice cloning tool (VoiceStudio) that replaces ElevenLabs in 3 seconds",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Dubai is paying $150,000 for one simple AI agent.",
+      "post_time": "7:15 PM IST",
+      "hook": "Stop paying ElevenLabs. Clone your voice for free today.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-19",
-      "topic": "The Senior Dev Plugin Pack for Claude Code to make it code like a 10-year veteran",
+      "date": "2026-10-20",
+      "topic": "Dubai’s $150K AI Agent Championship breakdown and 4 zero-code ideas to submit",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Make Claude Code write like a senior developer with 5 plugins.",
+      "post_time": "6:45 PM IST",
+      "hook": "Win $150,000 building an AI agent with zero code.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-20",
-      "topic": "Why Windows laptops are holding back your side hustle compared to MacBooks",
+      "date": "2026-10-21",
+      "topic": "Tier-list ranking AI automation agency models (calling bots vs internal workflows vs database syncs)",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "You will never make 1 Crore using a Windows laptop.",
+      "post_time": "7:30 PM IST",
+      "hook": "Ranking AI automation business models from worst to best.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-21",
-      "topic": "Claude Model Tier Strategy (Haiku, Sonnet, Opus) to stop hitting usage limits and save money",
+      "date": "2026-10-22",
+      "topic": "AI PCs explained: Why NPUs matter and what founders need before buying new hardware",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop hitting Claude limits with this exact model routing trick.",
+      "post_time": "7:00 PM IST",
+      "hook": "Don't buy a laptop before understanding AI NPUs.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-22",
-      "topic": "Converting Mermaid diagrams and code into clean, themeable SVGs instantly without Figma",
+      "date": "2026-10-23",
+      "topic": "Automating 100+ verified remote job applications using the Apify web scraper connector",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "Stop wasting hours designing system architecture diagrams in Figma.",
+      "hook": "Apply to 100 remote jobs in one hour automatically.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-23",
-      "topic": "Step-by-step framework to build an appointment-setting voice calling agent for real estate",
+      "date": "2026-10-24",
+      "topic": "The \"Vibe Coding\" tech stack: 5 non-coder tools to launch your first micro-SaaS",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "Build a voice AI agent that books real estate clients automatically.",
+      "post_time": "7:45 PM IST",
+      "hook": "Build your first functional software without writing any code.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-24",
-      "topic": "Reverse Engineering any mobile or desktop app completely free using open-source AI tools",
+      "date": "2026-10-25",
+      "topic": "Generating interactive CSS & micro-motion designs directly from UI screenshots",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Decompile any app on your computer using open-source AI free.",
+      "post_time": "7:15 PM IST",
+      "hook": "Turn flat screenshots into smooth motion animations instantly.",
       "status": "pending"
     }
   ]
