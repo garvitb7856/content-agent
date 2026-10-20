@@ -1219,6 +1219,40 @@
         "analysedAt": "2026-10-17T03:38:49.048Z"
       },
       "updatedAt": "2026-10-16T03:32:18.191Z"
+    },
+    {
+      "id": "4009995769414785811_65880404765",
+      "shortCode": "DemXegKyZsT",
+      "caption": "Dots, Muse and Grok Bot all look the same, but let me tell you which one you should actually use.\n\nDots is OpenAI’s, and it lives inside ChatGPT. Give it one goal, connect your apps, and it keeps working in the background while you do something else.\n\nMuse is Meta’s AI agent. It’s for your personal ",
+      "url": "https://www.instagram.com/p/DemXegKyZsT/",
+      "postedAt": "2026-10-17T15:04:33.000Z",
+      "archivedAt": "2026-10-20T03:33:41.925Z",
+      "format": "Video",
+      "topics": [
+        "ai",
+        "chatgpt",
+        "openai",
+        "agent"
+      ],
+      "finalLikes": 44,
+      "finalComments": 1,
+      "engagementRate": 0.46,
+      "hookText": "Dots, Muse and Grok Bot all look the same, but let me tell you which one you sho",
+      "postId": "4009995769414785811_65880404765",
+      "postUrl": "https://www.instagram.com/p/DemXegKyZsT/",
+      "likes_at_48h": 44,
+      "comments_at_48h": 1,
+      "engagement_at_48h": 0.46,
+      "followers_at_post": 9687,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 14,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-10-19T03:37:05.266Z"
+      },
+      "updatedAt": "2026-10-20T03:33:43.833Z"
     }
   ]
 }

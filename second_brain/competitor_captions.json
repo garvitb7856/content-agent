@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-19T03:56:21.444Z",
+  "updated_at": "2026-10-20T04:07:03.247Z",
   "total": 207,
   "captions": [
     {
       "username": "thevarunmayya",
       "caption": "Ben Affleck, the director and actor, just revealed that he writes Python, understands convolutional neural networks, and has even worked extensively with GPUs",
-      "likes": 180948,
-      "comments": 785,
+      "likes": 181687,
+      "comments": 789,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DePZYzRzsoh/",
@@ -15,8 +15,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one in 5 minutes.\n\n3️⃣ Sell the value.\n\nAfter a few “No’s,” one “Yes” turned into 15,000 rupees for 5 min",
-      "likes": 75096,
-      "comments": 5470,
+      "likes": 75408,
+      "comments": 5499,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dbdacspojza/",
@@ -25,8 +25,8 @@
     {
       "username": "thevarunmayya",
       "caption": "Breaking News! OpenAI just launched dots! And the simplest way to describe them is: always-on agents that can keep running in the background forever, and take on responsibilities instead of just tasks.",
-      "likes": 57445,
-      "comments": 452,
+      "likes": 57446,
+      "comments": 453,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd4YFpdziV4/",
@@ -35,8 +35,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “CFO” to get the 🔗\nInspired by @priyayadav.in the og",
-      "likes": 45493,
-      "comments": 8225,
+      "likes": 45633,
+      "comments": 8251,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcbKuENIRJI/",
@@ -45,8 +45,8 @@
     {
       "username": "thevarunmayya",
       "caption": "There's a weird prompting trick called ASD-STE100 that's borrowed from aerospace manuals, and once you try it, you'll never prompt AI the same way again.",
-      "likes": 41339,
-      "comments": 168,
+      "likes": 41769,
+      "comments": 170,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeCczhMTU9A/",
@@ -64,8 +64,18 @@
     },
     {
       "username": "thevarunmayya",
+      "caption": "This GitHub repo is quietly blowing up because it lets your AI agent reverse engineer any app, without the source code. It’s called REA, it’s free, it runs on your own laptop, and it has already crossed 130,000 stars.",
+      "likes": 32631,
+      "comments": 402,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeZwKRBTGYN/",
+      "timestamp": "2026-10-12T17:26:06.000Z"
+    },
+    {
+      "username": "thevarunmayya",
       "caption": "GTA 5 was running inside a web browser with no 100GB download, and it got taken down within hours.",
-      "likes": 31221,
+      "likes": 31416,
       "comments": 160,
       "type": "Video",
       "shortCode": "",
@@ -73,20 +83,10 @@
       "timestamp": "2026-10-07T14:25:14.000Z"
     },
     {
-      "username": "thevarunmayya",
-      "caption": "This GitHub repo is quietly blowing up because it lets your AI agent reverse engineer any app, without the source code. It’s called REA, it’s free, it runs on your own laptop, and it has already crossed 130,000 stars.",
-      "likes": 31032,
-      "comments": 383,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeZwKRBTGYN/",
-      "timestamp": "2026-10-12T17:26:06.000Z"
-    },
-    {
       "username": "favourite.engineer",
       "caption": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste a viral link → Video Overview → upload. Content ID won’t flag it, so it feels safe. YouTube’s inauthentic content policy still kills it.\n\nThere’s a version that works. Free guide. Comment AI.\n\n#notebooklm #youtubemonetiz",
-      "likes": 29914,
-      "comments": 83124,
+      "likes": 30071,
+      "comments": 83638,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcygDO0zJ1G/",
@@ -95,8 +95,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “CLIENT” & I’ll share the Video with you! Enjoy!",
-      "likes": 28101,
-      "comments": 9045,
+      "likes": 28103,
+      "comments": 9044,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DYjzu3Fovhe/",
@@ -105,7 +105,7 @@
     {
       "username": "vaibhavsisinty",
       "caption": "I think this was what touching grass actually means😅",
-      "likes": 25461,
+      "likes": 25530,
       "comments": 200,
       "type": "Post",
       "shortCode": "",
@@ -115,8 +115,8 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"CLAUDE\" to get this Free Tool to run Claude Code with almost unlimited usage.\n\nYou can now run Claude Code for completely free, with almost unlimited usage.\n\nSomeone on GitHub just built an AI tool that gives you over 7 billion free AI tokens every single month.\n\nAnd that includes models fr",
-      "likes": 21846,
-      "comments": 33013,
+      "likes": 22203,
+      "comments": 33467,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DdeVVlpT9zW/",
@@ -125,7 +125,7 @@
     {
       "username": "vaibhavsisinty",
       "caption": "What Is Google’s Gemini 4 Argon\n\nIt’s Google’s new frontier model for long coding, research and cybersecurity work.\nIt can output up to 1 million tokens in one go, up from 64K.\n\nGoogle says it finds and patches software vulnerabilities on its own, and calls it its most resilient model yet against pr",
-      "likes": 18215,
+      "likes": 18244,
       "comments": 76,
       "type": "Video",
       "shortCode": "",
@@ -135,8 +135,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “1 Lakh” & i’ll share all the side hustles and how you can make money from them",
-      "likes": 16735,
-      "comments": 28605,
+      "likes": 16734,
+      "comments": 28603,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DYCgdsyxQYC/",
@@ -145,7 +145,7 @@
     {
       "username": "thevarunmayya",
       "caption": "Tesla roadster can now…fly?!",
-      "likes": 15113,
+      "likes": 15130,
       "comments": 182,
       "type": "Video",
       "shortCode": "",
@@ -155,7 +155,7 @@
     {
       "username": "thevarunmayya",
       "caption": "This is the full GTA V running natively on an iPhone 17, at around 50 to 60 fps. It isn’t streaming from the cloud and was built by one developer in a few days.",
-      "likes": 13862,
+      "likes": 14004,
       "comments": 141,
       "type": "Video",
       "shortCode": "",
@@ -165,8 +165,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "4 ChatGPT Prompts = ₹1,00,000🤑\nComment “prompt” for the video link",
-      "likes": 12869,
-      "comments": 2564,
+      "likes": 12879,
+      "comments": 2568,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DZaCzaMI_3o/",
@@ -175,7 +175,7 @@
     {
       "username": "thevarunmayya",
       "caption": "Making my wife guess video games 🤓\nBased on the viral trend by Jack and Meghan!",
-      "likes": 12792,
+      "likes": 12799,
       "comments": 148,
       "type": "Video",
       "shortCode": "",
@@ -183,9 +183,19 @@
       "timestamp": "2026-09-27T10:54:49.000Z"
     },
     {
+      "username": "ishansharma7390",
+      "caption": "24 hrs SOLO in New York🥹🗽",
+      "likes": 12076,
+      "comments": 32,
+      "type": "Post",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeezdoZH_I3/",
+      "timestamp": "2026-10-14T16:23:25.000Z"
+    },
+    {
       "username": "thevarunmayya",
       "caption": "Welcome to the BTS of how we shoot videos at home! 🎥 \nOur very first office was actually our house, and while we try to keep home as home, heading to the office isn’t always practical for quick-turnaround content. That’s why being able to edit directly on our phones is a game-changer. Adobe Premier",
-      "likes": 12002,
+      "likes": 12015,
       "comments": 78,
       "type": "Video",
       "shortCode": "",
@@ -195,28 +205,18 @@
     {
       "username": "ishansharma7390",
       "caption": "Stuff of dreams🥹🥹",
-      "likes": 11935,
-      "comments": 459,
+      "likes": 11958,
+      "comments": 460,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd-tpadoyAa/",
       "timestamp": "2026-10-02T05:17:42.000Z"
     },
     {
-      "username": "ishansharma7390",
-      "caption": "24 hrs SOLO in New York🥹🗽",
-      "likes": 11845,
-      "comments": 32,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeezdoZH_I3/",
-      "timestamp": "2026-10-14T16:23:25.000Z"
-    },
-    {
       "username": "thevarunmayya",
       "caption": "This is my engineer with 10 years of experience. And this is our security guard, who has never written a line of code in his life.\n\nCan someone who’s never coded, but has the best vibe coding tools, beat an engineer using the old methods?\n\nThe guard can’t type, so we installed @wisprflow and told hi",
-      "likes": 11591,
-      "comments": 187,
+      "likes": 11728,
+      "comments": 188,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DecFhZZTA2j/",
@@ -225,8 +225,8 @@
     {
       "username": "vaibhavsisinty",
       "caption": "A guitar just got a traffic fine\n\nIn Bengaluru, a woman got a 500-rupee fine for riding without a helmet.\nBut she wasn’t on the scooter, her husband was, alone, with a guitar on his back.\nThe city’s AI cameras read number plates and flag 7 offences live, no cop needed.\nThe AI saw the guitar as a sec",
-      "likes": 10904,
-      "comments": 114,
+      "likes": 11020,
+      "comments": 115,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeKKJAbgqhS/",
@@ -235,7 +235,7 @@
     {
       "username": "thevarunmayya",
       "caption": "Red Dead Redemption 2 is running at 30+ FPS on an iPhone 18 Pro",
-      "likes": 9382,
+      "likes": 9443,
       "comments": 79,
       "type": "Video",
       "shortCode": "",
@@ -245,8 +245,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “Alex” if you want RICH Clients 🤑",
-      "likes": 9104,
-      "comments": 5570,
+      "likes": 9113,
+      "comments": 5577,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DZ5AslaoJec/",
@@ -255,8 +255,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “Scam” if you want Rich Clients",
-      "likes": 8933,
-      "comments": 1306,
+      "likes": 8950,
+      "comments": 1307,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DaX2OVKoh8q/",
@@ -265,7 +265,7 @@
     {
       "username": "ishansharma7390",
       "caption": "a day I'll always remember✨\n\nLast year I visited one of India's finest hotels in Agra with my friend. After the Taj Mahal tour, this was the perfect way to end the day.\n\nApart from the direct Taj view and the incredible Rajasthani folk dance during sunset, my fav was the night time when the reflecti",
-      "likes": 8494,
+      "likes": 8495,
       "comments": 23,
       "type": "Post",
       "shortCode": "",
@@ -275,17 +275,27 @@
     {
       "username": "vaibhavsisinty",
       "caption": "Tesla’s Flying Car Is Actually Real\n\nTesla drove the new Roadster up a curved ramp, hung upside down, flipped in midair and landed on its wheels.\nSpaceX air thrusters did the flying. Then it jumped the whole Tesla lineup and hit 0 to 60 in under one second.\n\nElon Musk said a live crowd had to be the",
-      "likes": 7777,
-      "comments": 61,
+      "likes": 8012,
+      "comments": 63,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dek7HMZA6Kr/",
       "timestamp": "2026-10-17T01:27:47.000Z"
     },
     {
+      "username": "ishansharma7390",
+      "caption": "Elon Musk AGAIN tweets about Ambani\n\nIn a war to enter India and let Starlink compete fairly with reliance Jio and Airtel.\n\nWild times.",
+      "likes": 7706,
+      "comments": 271,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeSLFXJshZg/",
+      "timestamp": "2026-10-09T18:41:05.000Z"
+    },
+    {
       "username": "arshman",
       "caption": "Someone just launched a free dashboard similar to the ones governments use for surveillance.\n\nIt’s called World Monitor.\n\nYou can open it in your browser and see what’s happening around the globe in real time. \n\nYou can even filter the dashboard by any region you’re interested in.\n\nToggle between mu",
-      "likes": 7696,
+      "likes": 7701,
       "comments": 75,
       "type": "Video",
       "shortCode": "",
@@ -293,20 +303,10 @@
       "timestamp": "2026-08-23T06:12:46.000Z"
     },
     {
-      "username": "ishansharma7390",
-      "caption": "Elon Musk AGAIN tweets about Ambani\n\nIn a war to enter India and let Starlink compete fairly with reliance Jio and Airtel.\n\nWild times.",
-      "likes": 7676,
-      "comments": 272,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeSLFXJshZg/",
-      "timestamp": "2026-10-09T18:41:05.000Z"
-    },
-    {
       "username": "thevarunmayya",
       "caption": "Breaking News: Someone just planted a “sophisticated recording device” inside OpenAI’s office and tried to steal its secret!",
-      "likes": 7252,
-      "comments": 48,
+      "likes": 7461,
+      "comments": 51,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeeE8OVBDQD/",
@@ -315,7 +315,7 @@
     {
       "username": "vaibhavsisinty",
       "caption": "Things got kinda meta at Meta 👓",
-      "likes": 6961,
+      "likes": 7025,
       "comments": 35,
       "type": "Post",
       "shortCode": "",
@@ -323,10 +323,20 @@
       "timestamp": "2026-10-05T12:58:39.000Z"
     },
     {
+      "username": "zeeeljain",
+      "caption": "We’re hiring! Comment \"HIRE\" and we’ll send the application form straight to your DMs.\n\nWe have full time roles and internships open in Ahmedabad, all on site, and we’re looking for people who are excited about building with AI.\n\nSwipe through to check out the openings, see what we’re looking for an",
+      "likes": 6958,
+      "comments": 5960,
+      "type": "Post",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/Deg4fMKinDk/",
+      "timestamp": "2026-10-15T11:45:49.000Z"
+    },
+    {
       "username": "ishansharma7390",
       "caption": "If you’ve been waiting for the best price on the iPhone 17 Pro or iPhone 17 Pro Max, this might be the time to upgrade. \n\nReliance Digital has one of the best offers right now with exchange value through SwapEasy Exchange App, an additional exchange bonus, in-store discount and bank cashback. You ca",
-      "likes": 6879,
-      "comments": 55,
+      "likes": 6895,
+      "comments": 57,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeJvjs8oxDc/",
@@ -335,7 +345,7 @@
     {
       "username": "thevarunmayya",
       "caption": "Listen to what David Heinemeier Hansson, the inventor of Ruby on Rails, has to say on AI changing how we write code.",
-      "likes": 6769,
+      "likes": 6777,
       "comments": 46,
       "type": "Video",
       "shortCode": "",
@@ -355,8 +365,8 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"AUDIT\" to get this Free AI skill to fix security holes in your vibe coded apps.\n\nCloudflare just open sourced an AI skill that finds the security holes in your vibe coded apps.\n\nAnd it's completely free.\n\nThey originally built it for themselves.\n\nIt found over 7,000 security issues in their",
-      "likes": 6580,
-      "comments": 5739,
+      "likes": 6613,
+      "comments": 5773,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeE57zWP038/",
@@ -365,28 +375,18 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “1 Crore” if you want to make ₹1 Crore",
-      "likes": 6379,
-      "comments": 569,
+      "likes": 6554,
+      "comments": 579,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Deb83tKIQGE/",
       "timestamp": "2026-10-13T13:59:49.000Z"
     },
     {
-      "username": "zeeeljain",
-      "caption": "We’re hiring! Comment \"HIRE\" and we’ll send the application form straight to your DMs.\n\nWe have full time roles and internships open in Ahmedabad, all on site, and we’re looking for people who are excited about building with AI.\n\nSwipe through to check out the openings, see what we’re looking for an",
-      "likes": 6350,
-      "comments": 5388,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/Deg4fMKinDk/",
-      "timestamp": "2026-10-15T11:45:49.000Z"
-    },
-    {
       "username": "thevarunmayya",
       "caption": "Share this with a friend without work life balance and ask them what their screen time is? \n\nWe went out on the streets of Bangalore to ask people if they have work-life balance. But when they said no, we asked to see their screen time to find out if work was really the problem.",
-      "likes": 6289,
-      "comments": 107,
+      "likes": 6444,
+      "comments": 109,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DePDERWTzL3/",
@@ -395,8 +395,8 @@
     {
       "username": "ishansharma7390",
       "caption": "Flew to New York as the only creator representing India at LinkedIn’s Connection by Design, hosted at their office inside the Empire State Building.\n\nHere’s what LinkedIn showed us:\n\n• Business Cards: create a digital card, save it to your phone wallet and turn an IRL conversation into a lasting con",
-      "likes": 5948,
-      "comments": 44,
+      "likes": 6070,
+      "comments": 45,
       "type": "Post",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DehIWjFlvF_/",
@@ -405,8 +405,8 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “PROOF” for the Link 🔗",
-      "likes": 5629,
-      "comments": 1064,
+      "likes": 5665,
+      "comments": 1070,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcQ2WKtoz8G/",
@@ -415,8 +415,8 @@
     {
       "username": "zeeeljain",
       "caption": "Comment \"tribe\" and I'll send you the setup guide for running this with Claude.\n\nMost content advice is just someone's opinion dressed up as a strategy. TRIBE v2 is different. It's Meta's open-source model trained on brain scans of 700 people watching videos, reading scripts, and listening to audio.",
-      "likes": 5340,
-      "comments": 8204,
+      "likes": 5406,
+      "comments": 8274,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DdqQLcfqbTZ/",
@@ -425,8 +425,8 @@
     {
       "username": "vaibhavsisinty",
       "caption": "Your Tesla is now an AI agent\n\nTesla just put Grok Bot inside its cars, and it’s not a dashboard chatbot.\nYou give Grok a job and it does it.\nThrough Connectors it reaches your email and calendar to book appointments, reservations, even online orders.\nAnd it knows you’re in a Tesla, so it uses your ",
-      "likes": 5273,
-      "comments": 77,
+      "likes": 5300,
+      "comments": 78,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DePaXFgAcEP/",
@@ -435,8 +435,8 @@
     {
       "username": "favourite.engineer",
       "caption": "Automate your Job Hunting Process with Claude 🤯\n.\n#automation #claude #jobhuntingwithai",
-      "likes": 5247,
-      "comments": 11281,
+      "likes": 5277,
+      "comments": 11326,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcyCwpzTguI/",
@@ -445,8 +445,8 @@
     {
       "username": "vaibhavsisinty",
       "caption": "ChatGPT Has Cheat Codes For Images\n\nMost people write long ChatGPT image prompts. You need one word. Type /cinematic, /goldenhour or /productshot and the whole look changes.\nStack them for pro results. /portrait /softlight /photorealistic gives you a LinkedIn headshot. /topdown /macro /natural gives",
-      "likes": 5161,
-      "comments": 1264,
+      "likes": 5259,
+      "comments": 1294,
       "type": "Post",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeYdrH1FNht/",
@@ -455,7 +455,7 @@
     {
       "username": "thevarunmayya",
       "caption": "are you ready to see how India really uses technology?",
-      "likes": 5155,
+      "likes": 5190,
       "comments": 94,
       "type": "Video",
       "shortCode": "",
@@ -465,8 +465,8 @@
     {
       "username": "nivedan.ai",
       "caption": "470K+ followers without filming a single video. 👀🤯\nThis creator built her entire content presence with AI, from her face and voice to the locations and videos.\nAnd the interesting part? You can create the whole workflow inside Picsart.\n\nUse one photo to create your AI clone, generate different sce",
-      "likes": 5024,
-      "comments": 12537,
+      "likes": 5143,
+      "comments": 12793,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeJSJZjJSIB/",
@@ -475,38 +475,38 @@
     {
       "username": "thevarunmayya",
       "caption": "Why costly signalling theory in evolution psychology explains an annoyance with AI slop.",
-      "likes": 4735,
-      "comments": 63,
+      "likes": 4767,
+      "comments": 64,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeG7YnwTfJN/",
       "timestamp": "2026-10-05T09:51:41.000Z"
     },
     {
-      "username": "dhavalkataria_",
-      "caption": "Comment “BUSINESS” for Proof",
-      "likes": 4600,
-      "comments": 354,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeJ_95ku6Gt/",
-      "timestamp": "2026-10-06T14:29:51.000Z"
-    },
-    {
       "username": "vaibhavsisinty",
       "caption": "Reverse engineer any app for free\n\nA free, open-source tool called REA already has 100,000 GitHub stars.\nPlug it into your AI agent, point it at any app,\nand it tells you exactly how a feature works, even without the source code.\nAnd it runs on your machine, so nothing gets uploaded.\nOne guy made hi",
-      "likes": 4518,
-      "comments": 297,
+      "likes": 4743,
+      "comments": 314,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DehLeOZg-ar/",
       "timestamp": "2026-10-15T14:44:53.000Z"
     },
     {
+      "username": "dhavalkataria_",
+      "caption": "Comment “BUSINESS” for Proof",
+      "likes": 4663,
+      "comments": 358,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeJ_95ku6Gt/",
+      "timestamp": "2026-10-06T14:29:51.000Z"
+    },
+    {
       "username": "nick_saraev",
       "caption": "Comment \"CLAUDE\" to get all these 5 AI plugins to level up your Claude Code.\n\nDon't use Claude Code until you've installed these five plugins.\n\nFirst is FreeLLMAPI.\n\nIt gives your Claude Code over 7 billion free AI tokens from 600+ AI models.\n\nIt automatically switches you to the next best model whe",
-      "likes": 4417,
-      "comments": 4741,
+      "likes": 4492,
+      "comments": 4842,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeKFBr0vRpv/",
@@ -515,8 +515,8 @@
     {
       "username": "ishansharma7390",
       "caption": "Life feels like a Shahrukh Khan movie✨🔥🗽\n\nIn new york for a event organised by LinkedIn called \"Connection by Design\". And the kicker? I'm the only international creator among 90 others who are attending. Only one from India.\n\nThanks to LinkedIn India for the opportunity.\n\nAlso my first time going",
-      "likes": 4253,
-      "comments": 60,
+      "likes": 4302,
+      "comments": 62,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Deb7MMCIFDs/",
@@ -525,7 +525,7 @@
     {
       "username": "dhavalkataria_",
       "caption": "Comment “100K” to know the real numbers 🤫",
-      "likes": 4126,
+      "likes": 4125,
       "comments": 4923,
       "type": "Video",
       "shortCode": "",
@@ -535,7 +535,7 @@
     {
       "username": "vaibhavsisinty",
       "caption": "AI just fixed your home WiFi\n\nWe blame the internet for slow WiFi, but the real fight is inside your home, gaming, calls and streaming all pulling one connection through the walls. \n\nACT SmartWiFi runs an AI brain called Zippy 24/7, like a traffic cop that optimises your network and fixes signal iss",
-      "likes": 3785,
+      "likes": 3830,
       "comments": 23,
       "type": "Video",
       "shortCode": "",
@@ -545,8 +545,8 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"VIDEO\" to get this AI production studio.\n\nThis free AI tool turns your Claude Code into a full production studio.\n\nAnd it's completely free.\n\nIt's called Open Montage.\n\nIt's a fully open source project with over 61k stars on GitHub.\n\nIt basically works like a real production team.\n\nWith a r",
-      "likes": 3613,
-      "comments": 6736,
+      "likes": 3625,
+      "comments": 6779,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd_tRbkP0qO/",
@@ -555,7 +555,7 @@
     {
       "username": "vaibhavsisinty",
       "caption": "9 AI updates you missed this week\n\nGoogle turned your notebook into a tutor that talks back in 100 languages.\nChatGPT learned law with NDA review and redlining built in.\nAnthropic shipped Opus 5.5, one engineer wrote 680,000 lines of code in a day.\nOpenAI dropped Sol and Luna and halved API prices.\n",
-      "likes": 3543,
+      "likes": 3573,
       "comments": 23,
       "type": "Video",
       "shortCode": "",
@@ -565,17 +565,27 @@
     {
       "username": "arshman",
       "caption": "Create a Bullet time effect using ChatGPT for your brand! \n\nComment “ChatGPT” to get the detailed prompt and @higgsfield.ai plugin. :)\n\n#HiggsfieldPartner",
-      "likes": 3427,
-      "comments": 6208,
+      "likes": 3439,
+      "comments": 6222,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dc2kbPZNAb7/",
       "timestamp": "2026-09-04T04:53:42.000Z"
     },
     {
+      "username": "nick_saraev",
+      "caption": "Comment \"CLAUDE\" to get these 5 Claude Code plugins to code like a senior dev.\n\nIf you want your Claude Code to code like a real senior dev, you need to install these 5 free plugins.\n\nFirst is Agent Skills.\n\nIt's a pack of 24 skills built by a former director at Google.\n\nIt covers your entire dev cy",
+      "likes": 3410,
+      "comments": 3230,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DehO64bvSkV/",
+      "timestamp": "2026-10-15T15:03:30.000Z"
+    },
+    {
       "username": "thevarunmayya",
       "caption": "This is Build What Moves India, where 10 teams were selected from 13,694 applications to build solutions for real problems around public services in India.\n\nThe teams built everything from an AI-powered cybercrime reporting system and a blood donor matching platform to tools for tracking government ",
-      "likes": 3326,
+      "likes": 3351,
       "comments": 29,
       "type": "Video",
       "shortCode": "",
@@ -583,19 +593,9 @@
       "timestamp": "2026-10-09T06:10:27.000Z"
     },
     {
-      "username": "nick_saraev",
-      "caption": "Comment \"CLAUDE\" to get these 5 Claude Code plugins to code like a senior dev.\n\nIf you want your Claude Code to code like a real senior dev, you need to install these 5 free plugins.\n\nFirst is Agent Skills.\n\nIt's a pack of 24 skills built by a former director at Google.\n\nIt covers your entire dev cy",
-      "likes": 3229,
-      "comments": 3014,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DehO64bvSkV/",
-      "timestamp": "2026-10-15T15:03:30.000Z"
-    },
-    {
       "username": "dhavalkataria_",
       "caption": "3 videos. ₹9,00,000 revenue. \nHere is the exact breakdown of how I made it happen last month—and how I even made money while spending money using Wisor \nComment AI for link to Wisor 🔗",
-      "likes": 3175,
+      "likes": 3191,
       "comments": 157,
       "type": "Video",
       "shortCode": "",
@@ -605,7 +605,7 @@
     {
       "username": "zeeeljain",
       "caption": "Everyone is asking what AI will replace. The more useful question is what it makes rarer.\n\nJudgment, clarity, persuasion, follow-through. None of those got cheaper when the tools got better. They got harder to find.\n\nThe seven in here are all like that. Only one of them is about AI. The other six ar",
-      "likes": 3100,
+      "likes": 3105,
       "comments": 20,
       "type": "Post",
       "shortCode": "",
@@ -615,38 +615,38 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"AGENT\" to get these AI skills to run your LinkedIn with Claude Code.\n\nClaude can now run your entire LinkedIn for completely free.\n\nSomeone on GitHub just dropped 12 LinkedIn skills.\n\nThey plug straight into your Claude Code.\n\nOne writes your posts.\n\nAnother handles your comments.\n\nAnd anot",
-      "likes": 3009,
-      "comments": 6952,
+      "likes": 3023,
+      "comments": 7008,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeChOhIPszm/",
       "timestamp": "2026-10-03T16:47:14.000Z"
     },
     {
-      "username": "vaibhavsisinty",
-      "caption": "#Ad I Built An AI Jack Ma \n\nSolo founder, 2 AM, no cofounder to call. So I built an AI mentor styled on him and asked three questions I had never said out loud to anyone.\nSafe or ten times bigger? \n\nWhat do founders obsess over for nothing? What was his biggest early hiring mistake?\nHis answers left",
-      "likes": 2983,
-      "comments": 284,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeD5kaygVVn/",
-      "timestamp": "2026-10-04T05:39:55.000Z"
-    },
-    {
       "username": "nick_saraev",
       "caption": "Comment \"CLAUDE\" to get these plugins and 10x your Claude Code setup.\n\nIf you're new to Claude Code, you need to install these 5 free plugins to instantly 10x your setup.\n\nFirst is Claude Mem.\n\nIt gives your Claude memory across every session.\n\nIt remembers your project and files without you ever ha",
-      "likes": 2939,
-      "comments": 3497,
+      "likes": 2947,
+      "comments": 3507,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Ddjfv-WP9yo/",
       "timestamp": "2026-09-21T15:37:26.000Z"
     },
     {
+      "username": "vaibhavsisinty",
+      "caption": "Build an AI Agent and receive a USD 150,000 grant to support its development and growth!\n\nDubai will award USD 150,000 to each category winner of the Create AI Agents Championship, organised by Dubai Chamber of Digital Economy.\n\nIdentify a real-world problem in business, everyday life or society, an",
+      "likes": 2822,
+      "comments": 1007,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DemQVYbgmmX/",
+      "timestamp": "2026-10-17T13:51:46.000Z"
+    },
+    {
       "username": "nick_saraev",
       "caption": "Comment \"KEY\" to get access and start generating AI videos with Higgsfield API. \n\nThis is now one of the cheapest ways to generate AI video.\n\nHiggsfield just opened access to all of their models through one API.\n\nSeedance, Kling, Nano Banana, and more, all with one key for everything.\n\nInstead of pa",
-      "likes": 2785,
-      "comments": 4259,
+      "likes": 2799,
+      "comments": 4286,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Ddl7NQJvAWW/",
@@ -655,48 +655,18 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"JEV\" to get the setup guide for Laya, the Free and Opensource Jev alternative.\n\nSomeone just released a free and open source version of Jev, and it's actually way faster and cheaper.\n\nIt's called Laya.\n\nIt's a classifier model that you can run locally on your own computer.\n\nIt does the exac",
-      "likes": 2652,
-      "comments": 2818,
+      "likes": 2653,
+      "comments": 2826,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd6P9YOB06z/",
       "timestamp": "2026-09-30T11:40:07.000Z"
     },
     {
-      "username": "vaibhavsisinty",
-      "caption": "Build an AI Agent and receive a USD 150,000 grant to support its development and growth!\n\nDubai will award USD 150,000 to each category winner of the Create AI Agents Championship, organised by Dubai Chamber of Digital Economy.\n\nIdentify a real-world problem in business, everyday life or society, an",
-      "likes": 2562,
-      "comments": 890,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DemQVYbgmmX/",
-      "timestamp": "2026-10-17T13:51:46.000Z"
-    },
-    {
-      "username": "arshman",
-      "caption": "Complete 3D website at the end…\n \nYou can not make these 3D websites for your products unless you know this\n\nSo they have one problem nobody talks about, when you scroll the product page, product itself is often broken or inaccurate \n\nBecause technically it’s just an AI video moving frame by frame w",
-      "likes": 2455,
-      "comments": 1448,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/Dbx9YOdO_hy/",
-      "timestamp": "2026-08-08T13:23:18.000Z"
-    },
-    {
-      "username": "nick_saraev",
-      "caption": "Comment \"LTX\" to get this Free AI Video Generator.\n\nYou don't need to pay for Veo or Kling to make AI videos anymore.\n\nJust use this open source world model instead.\n\nIt's called LTX-2.5.\n\nTheir previous version pulled in over 18 million downloads.\n\nYou just download the weights and run it on whatev",
-      "likes": 2452,
-      "comments": 4440,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/Ddg8Mqnv0R5/",
-      "timestamp": "2026-09-20T15:47:37.000Z"
-    },
-    {
       "username": "ishansharma7390",
       "caption": "This Claude Skill Can Start Your Business!",
-      "likes": 2411,
-      "comments": 1022,
+      "likes": 2598,
+      "comments": 1176,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DemWpuDt56L/",
@@ -704,9 +674,29 @@
     },
     {
       "username": "nick_saraev",
+      "caption": "Comment \"LTX\" to get this Free AI Video Generator.\n\nYou don't need to pay for Veo or Kling to make AI videos anymore.\n\nJust use this open source world model instead.\n\nIt's called LTX-2.5.\n\nTheir previous version pulled in over 18 million downloads.\n\nYou just download the weights and run it on whatev",
+      "likes": 2461,
+      "comments": 4455,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/Ddg8Mqnv0R5/",
+      "timestamp": "2026-09-20T15:47:37.000Z"
+    },
+    {
+      "username": "arshman",
+      "caption": "Complete 3D website at the end…\n \nYou can not make these 3D websites for your products unless you know this\n\nSo they have one problem nobody talks about, when you scroll the product page, product itself is often broken or inaccurate \n\nBecause technically it’s just an AI video moving frame by frame w",
+      "likes": 2461,
+      "comments": 1452,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/Dbx9YOdO_hy/",
+      "timestamp": "2026-08-08T13:23:18.000Z"
+    },
+    {
+      "username": "nick_saraev",
       "caption": "Comment \"CODING\" to start Reverse Engineering things with Claude Code. \n\nYour Claude Code can now reverse engineer any app on your computer.\n\nDown to its every feature, for completely free.\n\nIt's called Reverse Engineer Anything.\n\nIt's a free and open source tool that's just crossed 37,000 stars on ",
-      "likes": 2345,
-      "comments": 2583,
+      "likes": 2401,
+      "comments": 2664,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DecMXypvoMF/",
@@ -715,8 +705,8 @@
     {
       "username": "arshman",
       "caption": "Make premium websites for absolutely FREE! \nYou don’t even need Figma or know how to code. \nThis tool is called Open Design. \nIt’s basically a free alternative to Claude Design\n\nAnd here’s how to install and use it.\n\nGo to Open Design and download the desktop version.\n\nOpen the execution settings an",
-      "likes": 2310,
-      "comments": 1375,
+      "likes": 2317,
+      "comments": 1376,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcFr5UYNM7Y/",
@@ -725,8 +715,8 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"PLUGIN\" to get these 11 free Claude plugins for your job role.\n\nAnthropic just dropped 11 free plugins that turn Claude into an expert at your actual job.\n\nEach plugin is built for a specific job role.\n\nLike sales, marketing, finance, legal, and product management.\n\nAnd each one comes with ",
-      "likes": 2262,
-      "comments": 3502,
+      "likes": 2278,
+      "comments": 3548,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeHUaCoPFTV/",
@@ -735,7 +725,7 @@
     {
       "username": "vaibhavsisinty",
       "caption": "Trump renamed AI to Super Intelligence\n\nAt a White House lunch with Musk, Zuckerberg, Pichai and the OpenAI and Anthropic bosses, Trump signed an order making every US office write SI, Super Intelligence, not AI. Experts say we’re not there yet.\nThen six AI firms signed a safety promise with four la",
-      "likes": 2156,
+      "likes": 2209,
       "comments": 31,
       "type": "Video",
       "shortCode": "",
@@ -745,8 +735,8 @@
     {
       "username": "vaibhavsisinty",
       "caption": "ChatGPT Just Stopped Answering In Text\n\nGPT-6 is now free for everyone, and with Intelligent UI, ChatGPT builds charts, forms, sliders and mini apps around your question.\n\nI tested 8 things on the free plan. A slider showing where your credit card interest goes. A wedding outfit planner. A bill spli",
-      "likes": 2117,
-      "comments": 38,
+      "likes": 2157,
+      "comments": 39,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeegB_QAbGw/",
@@ -755,7 +745,7 @@
     {
       "username": "ishansharma7390",
       "caption": "Setup Claude better than 99% people!🔥",
-      "likes": 2083,
+      "likes": 2100,
       "comments": 25,
       "type": "Video",
       "shortCode": "",
@@ -765,8 +755,8 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"CODING\" to get this Free AI Coding Agent.\n\nYou can now vibe code with GPT-6, GLM 5.3 and DeepSeek 4.1 for completely free.\n\nIt's called Freebuff.\n\nIt's a free and open source coding agent, just like Claude Code.\n\nBut instead of paying $20 or $100 for a subscription.\n\nYou pay by watching a s",
-      "likes": 1915,
-      "comments": 1993,
+      "likes": 1923,
+      "comments": 1995,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd9gsWCTDFE/",
@@ -786,7 +776,7 @@
       "username": "arshman",
       "caption": "ChatGPT can now make a perfect clone of you (AI Avatar)...\n\nThe way you speak. \n\nThe way you act. \n\nAnd it makes content for you, without you ever being in front of a camera.\n\nI tested this on a different channel and here are the results from the first 3 videos.\n\nOnly one time you have to upload a 1",
       "likes": 1841,
-      "comments": 3397,
+      "comments": 3400,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcAf85otIK2/",
@@ -795,7 +785,7 @@
     {
       "username": "ishansharma7390",
       "caption": "READ THIS Before You Start👇\n\nWant to build a side income while keeping your full-time job? Pick one of these and commit to it properly for the next 30 days.\n\n1. Become an Executive Assistant\n\n- Reach out to new creators, micro-influencers or early-stage startup brands.\n- Research their brand, audie",
-      "likes": 1817,
+      "likes": 1835,
       "comments": 19,
       "type": "Video",
       "shortCode": "",
@@ -835,7 +825,7 @@
     {
       "username": "favourite.engineer",
       "caption": "Never do these mistakes 💥..\n.\n#chatgpt #chatgptsettings",
-      "likes": 1490,
+      "likes": 1506,
       "comments": 284,
       "type": "Video",
       "shortCode": "",
@@ -845,12 +835,42 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"TITAN\" to get the full guide to build a game like this yourself.\n\nI just built this full Attack on Titan multiplayer game inside Claude Code.\n\nIt's a full game in Minecraft style.\n\nAnd it only took about an hour and $31 to build it.\n\nAll I did was ask Claude to build me a full game in Minec",
-      "likes": 1306,
-      "comments": 751,
+      "likes": 1316,
+      "comments": 756,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeZfbS8P3hN/",
       "timestamp": "2026-10-12T14:53:11.000Z"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "While web crawlers typically operate entirely out of sight behind the scenes, one creative developer decided to bring the concept to life. 🕷️🕸️\n\nUsing just JavaScript and CSS, they built a tiny animated spider that actually scuttles across text and links on a webpage, offering a delightful and vis",
+      "likes": 1292,
+      "comments": 20,
+      "type": "Post",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DejCvC3CTm8/",
+      "timestamp": "2026-10-16T07:53:50.000Z"
+    },
+    {
+      "username": "nick_saraev",
+      "caption": "Comment \"VOICE\" to get this Free AI Voice Generator. \n\nForget ElevenLabs, there's a free and open source alternative now.\n\nIt can clone your voice from just 3 seconds of audio.\n\nThat's less time than it takes to tie a shoe.\n\nThe tool is called VoiceStudio.\n\nYou just give it a few seconds of your voi",
+      "likes": 1287,
+      "comments": 970,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DepCy50P-Wd/",
+      "timestamp": "2026-10-18T15:52:24.000Z"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "Do you agree?",
+      "likes": 1260,
+      "comments": 26,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeRwFl7Mi8F/",
+      "timestamp": "2026-10-09T14:44:44.000Z"
     },
     {
       "username": "ishansharma7390",
@@ -863,26 +883,6 @@
       "timestamp": "2026-09-29T18:50:04.000Z"
     },
     {
-      "username": "nivedan.ai",
-      "caption": "While web crawlers typically operate entirely out of sight behind the scenes, one creative developer decided to bring the concept to life. 🕷️🕸️\n\nUsing just JavaScript and CSS, they built a tiny animated spider that actually scuttles across text and links on a webpage, offering a delightful and vis",
-      "likes": 1238,
-      "comments": 20,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DejCvC3CTm8/",
-      "timestamp": "2026-10-16T07:53:50.000Z"
-    },
-    {
-      "username": "ishansharma7390",
-      "caption": "Do you agree?",
-      "likes": 1237,
-      "comments": 26,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeRwFl7Mi8F/",
-      "timestamp": "2026-10-09T14:44:44.000Z"
-    },
-    {
       "username": "dhavalkataria_",
       "caption": "sometimes when i sit back and really let it register\ni did everything i said i would and said it first",
       "likes": 1209,
@@ -891,16 +891,6 @@
       "shortCode": "",
       "url": "https://www.instagram.com/p/DVdxpJcCNde/",
       "timestamp": "2026-03-04T14:15:17.000Z"
-    },
-    {
-      "username": "nick_saraev",
-      "caption": "Comment \"MODELS\" to get access and start building with these top video models.\n\nYou don't need a subscription to use the top AI video models anymore.\n\nHiggsfield just opened their whole catalog through a single API key.\n\nSo you've got Seedance, Kling, Nano Banana, and more, all in one place.\n\nThere'",
-      "likes": 1183,
-      "comments": 1569,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/Ddbu9HxPWnH/",
-      "timestamp": "2026-09-18T15:15:35.000Z"
     },
     {
       "username": "dhavalkataria_",
@@ -915,8 +905,8 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"VOICE\" to get Fish Audio and build a voice agent that answers instantly.\n\nYou can now build a voice agent that answers in under a tenth of a second.\n\nIt's called Fish Audio.\n\nIt starts responding in about 90 milliseconds.\n\nThat is quick enough that the whole thing feels like a real conversa",
-      "likes": 1128,
-      "comments": 1149,
+      "likes": 1160,
+      "comments": 1193,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeexCR3P4dq/",
@@ -925,7 +915,7 @@
     {
       "username": "ishansharma7390",
       "caption": "That early morning walk in new york✨🥹",
-      "likes": 1108,
+      "likes": 1120,
       "comments": 9,
       "type": "Video",
       "shortCode": "",
@@ -935,17 +925,37 @@
     {
       "username": "nivedan.ai",
       "caption": "One developer just used AI to rebuild seven core Adobe applications which is completely free and open-source.\n\nMeet the ArtCraft suite: open-source alternatives to Photoshop, Illustrator, Premiere Pro, and more. Built in Rust with AI assistance, tools like PhotoCraft already handle 90% of everyday P",
-      "likes": 1028,
-      "comments": 12,
+      "likes": 1074,
+      "comments": 13,
       "type": "Post",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DebTLMpCYJo/",
       "timestamp": "2026-10-13T07:43:34.000Z"
     },
     {
+      "username": "vaibhavsisinty",
+      "caption": "Tested all new KATANA inside @higgsfield.ai\n\nIt turns a plain launch video into full motion graphics, with animated typography and polished transitions, the kind of motion design that used to eat up hours in editing.\n\nIt also makes cinematic aura edits. Drop in footage of a person, a car, even your ",
+      "likes": 1055,
+      "comments": 10,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeriTX5Nnl1/",
+      "timestamp": "2026-10-19T15:05:37.000Z"
+    },
+    {
+      "username": "nick_saraev",
+      "caption": "Comment \"MOTION\" to get this Free AI Motion Graphic Prompt library. \n\nClaude can now build full professional motion graphics from scratch.\n\nAnd someone just put together a whole library showing exactly how to create the best ones.\n\nThe library is called Prompt Motion.\n\nIt has over 500 animated video",
+      "likes": 1041,
+      "comments": 1503,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DerldXdPE38/",
+      "timestamp": "2026-10-19T15:32:32.000Z"
+    },
+    {
       "username": "arshman",
       "caption": "Looks good on the model but not on you? \nThis ChatGPT setup gives you an end-to-end system by entering your clothing website. It picks your style, budget and explores outfit combinations.",
-      "likes": 968,
+      "likes": 967,
       "comments": 1147,
       "type": "Video",
       "shortCode": "",
@@ -955,7 +965,7 @@
     {
       "username": "ishansharma7390",
       "caption": "Apple's NEW Mac Mini is HERE!🥹✨\n\nThe new Mac mini with the M5 Pro might be one of the most interesting machines for AI creators right now.\n\nI tested running a 27 billion parameter local model inside LM Studio, generating images with Draw Things, using the new Image Playground, and then jumping stra",
-      "likes": 896,
+      "likes": 897,
       "comments": 8,
       "type": "Video",
       "shortCode": "",
@@ -963,20 +973,10 @@
       "timestamp": "2026-10-03T13:28:50.000Z"
     },
     {
-      "username": "ishansharma7390",
-      "caption": "Which one do you like?👀\n\nI've been using these personal assistants, like ChatGPT, Muse from Meta, and Grok bot, for the past 3 to 4 weeks now. This is my ultimate breakdown of what does what and which specializes in what use case.\n\n#ai #openai #chatgpt",
-      "likes": 882,
-      "comments": 30,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeUG6iAsYK-/",
-      "timestamp": "2026-10-10T12:42:55.000Z"
-    },
-    {
       "username": "nivedan.ai",
       "caption": "You can now get Claude Max worth $6,000 completely FREE for 1 year. 🤯\n\nAnthropic has launched an official program that could help you access Claude Max without paying for a year.\n\nWant to apply? 👀\n\n👇 Comment \"CLAUDE\" and I'll DM you the link to apply.\n\n[Claude Max free, Claude Max subscription, A",
-      "likes": 882,
-      "comments": 2817,
+      "likes": 895,
+      "comments": 2885,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeY4VbrJsAB/",
@@ -984,9 +984,49 @@
     },
     {
       "username": "ishansharma7390",
+      "caption": "Which one do you like?👀\n\nI've been using these personal assistants, like ChatGPT, Muse from Meta, and Grok bot, for the past 3 to 4 weeks now. This is my ultimate breakdown of what does what and which specializes in what use case.\n\n#ai #openai #chatgpt",
+      "likes": 886,
+      "comments": 30,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeUG6iAsYK-/",
+      "timestamp": "2026-10-10T12:42:55.000Z"
+    },
+    {
+      "username": "zeeeljain",
+      "caption": "Most of what actually builds a business looks a little dumb from the outside.\n\nTurning down the client everyone else would kill for. Hiring people who make you the least impressive person in the room. Doing the same boring follow-up for the tenth time.\n\nNone of it feels like progress while you're do",
+      "likes": 878,
+      "comments": 6,
+      "type": "Post",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DejV6GSivDp/",
+      "timestamp": "2026-10-16T10:41:22.000Z"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "Such an important lesson.\n\nGot a chance to interview the legendary motivational author and public speaker Shiv Khera in Delhi last month.\n\nHad a 1hr chat with him on life and learnings.\n\nHave you read his book, You can WIN?",
+      "likes": 846,
+      "comments": 6,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeozrNYtWUn/",
+      "timestamp": "2026-10-18T13:39:10.000Z"
+    },
+    {
+      "username": "zeeeljain",
+      "caption": "Comment \"SYSTEMS\" and I'll send you the full breakdown of all four.\n\nMost of the work in a growing business runs through four places: finding customers, telling them why you, delivering what you sold, and getting paid.\n\nEach one can become a simple system, where AI does the sorting, drafting and rem",
+      "likes": 824,
+      "comments": 270,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DebjlQxq-b8/",
+      "timestamp": "2026-10-13T10:09:22.000Z"
+    },
+    {
+      "username": "ishansharma7390",
       "caption": "While I was flying, my dot spotted a sponsor workshop clashing with judging at my planned 1,000-person Delhi hackathon.\n\nExtending the day added ₹15Lacs and a later finish. A smaller workshop cost ₹5Lacs, but capped attendance at 250 and used participants’ build time.\n\nMy dot weighed those trade-off",
-      "likes": 810,
-      "comments": 205,
+      "likes": 813,
+      "comments": 211,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd4Y9VRorJl/",
@@ -994,18 +1034,8 @@
     },
     {
       "username": "zeeeljain",
-      "caption": "Comment \"SYSTEMS\" and I'll send you the full breakdown of all four.\n\nMost of the work in a growing business runs through four places: finding customers, telling them why you, delivering what you sold, and getting paid.\n\nEach one can become a simple system, where AI does the sorting, drafting and rem",
-      "likes": 801,
-      "comments": 264,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DebjlQxq-b8/",
-      "timestamp": "2026-10-13T10:09:22.000Z"
-    },
-    {
-      "username": "zeeeljain",
       "caption": "Good ideas rarely show up on demand. They come from paying attention to the right things.\n\nMost of it isn't about being more creative. It's about noticing what everyone else walks past, asking why when the answer feels obvious, and giving your brain enough boredom and empty space to actually connect",
-      "likes": 773,
+      "likes": 772,
       "comments": 22,
       "type": "Post",
       "shortCode": "",
@@ -1015,57 +1045,47 @@
     {
       "username": "nick_saraev",
       "caption": "Comment \"BOOK\" to get Replit and start building your own booking system with AI.\n\nYou don't need to pay for a booking tool anymore.\n\nI just built my own on Replit.\n\nAnd it even takes payments.\n\nI just described what I wanted.\n\nAnd it built the whole thing.\n\nFrom the calendar structure, to the availa",
-      "likes": 758,
-      "comments": 589,
+      "likes": 771,
+      "comments": 597,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeMmCg5PlmM/",
       "timestamp": "2026-10-07T14:41:30.000Z"
     },
     {
-      "username": "zeeeljain",
-      "caption": "Most of what actually builds a business looks a little dumb from the outside.\n\nTurning down the client everyone else would kill for. Hiring people who make you the least impressive person in the room. Doing the same boring follow-up for the tenth time.\n\nNone of it feels like progress while you're do",
-      "likes": 740,
-      "comments": 5,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DejV6GSivDp/",
-      "timestamp": "2026-10-16T10:41:22.000Z"
-    },
-    {
       "username": "favourite.engineer",
       "caption": "Nobody told you these AI tools have FREE twins 🤯\n\n10 paid tools, 10 free alternatives doing the same job:\n\nMidjourney → Nano Banana (free AI image generator)\nChatGPT Plus → DeepSeek (free AI chatbot)\nCanva Pro → Adobe Express (free design tool)\nElevenLabs → Fish Audio (free AI voice generator)\nDesc",
       "likes": 735,
-      "comments": 109,
+      "comments": 110,
       "type": "Post",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DctDT6pk4TY/",
       "timestamp": "2026-08-31T12:08:29.000Z"
     },
     {
-      "username": "nivedan.ai",
-      "caption": "ChatGPT doesn’t always challenge you when you need it to. 👀\n\nSometimes it agrees with your ideas too easily, even when the plan has flaws or your assumptions don’t really hold up.\n\nThis prompt changes the way ChatGPT responds by telling it to act more like a brutally honest advisor.",
-      "likes": 675,
-      "comments": 4,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeLyItcgqkW/",
-      "timestamp": "2026-10-07T07:06:16.000Z"
-    },
-    {
       "username": "nick_saraev",
       "caption": "Comment \"KATANA\" to create Viral AI Videos with Claude + Higgsfield Katana. \n\nYou know those aura farming edits that are all over your feed right now.\n\nYou can now make one from a single photo of yourself.\n\nJust one photo is all it takes to start.\n\nBut how do you actually do it?\n\nSo Claude can now d",
-      "likes": 658,
-      "comments": 288,
+      "likes": 700,
+      "comments": 322,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dej0-hivwg8/",
       "timestamp": "2026-10-16T15:13:55.000Z"
     },
     {
+      "username": "nick_saraev",
+      "caption": "Comment \"DESIGN\" to get this skill to create smooth animations with Claude Code.\n\nClaude Code can now create these clean line animations that react to your cursor.\n\nThe lines move as your cursor moves.\n\nAnd it all comes from a simple prompt.\n\nIt's a free skill called Hairline.\n\nIt teaches your Claud",
+      "likes": 659,
+      "comments": 433,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DemnYE2vTUg/",
+      "timestamp": "2026-10-17T17:12:55.000Z"
+    },
+    {
       "username": "zeeeljain",
       "caption": "Comment \"AI\" and I'll send you the full Microsoft guide.\n\nMost companies buy the tool first and wonder why nothing changes. Microsoft says AI success comes down to five things, and only one of them is the technology.\n\nStart with the problem, not the tool. Get your data and systems in order. Build re",
-      "likes": 641,
+      "likes": 642,
       "comments": 169,
       "type": "Post",
       "shortCode": "",
@@ -1074,18 +1094,8 @@
     },
     {
       "username": "ishansharma7390",
-      "caption": "Such an important lesson.\n\nGot a chance to interview the legendary motivational author and public speaker Shiv Khera in Delhi last month.\n\nHad a 1hr chat with him on life and learnings.\n\nHave you read his book, You can WIN?",
-      "likes": 628,
-      "comments": 4,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeozrNYtWUn/",
-      "timestamp": "2026-10-18T13:39:10.000Z"
-    },
-    {
-      "username": "ishansharma7390",
       "caption": "Do you agree?\n\nAayush and I had a chat at NDTV Yuva on the problem with GenZ using AI at work.",
-      "likes": 627,
+      "likes": 628,
       "comments": 23,
       "type": "Video",
       "shortCode": "",
@@ -1093,30 +1103,10 @@
       "timestamp": "2026-09-30T13:12:31.000Z"
     },
     {
-      "username": "nick_saraev",
-      "caption": "Comment \"VOICE\" to get this Free AI Voice Generator. \n\nForget ElevenLabs, there's a free and open source alternative now.\n\nIt can clone your voice from just 3 seconds of audio.\n\nThat's less time than it takes to tie a shoe.\n\nThe tool is called VoiceStudio.\n\nYou just give it a few seconds of your voi",
-      "likes": 617,
-      "comments": 359,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DepCy50P-Wd/",
-      "timestamp": "2026-10-18T15:52:24.000Z"
-    },
-    {
-      "username": "nick_saraev",
-      "caption": "Comment \"DESIGN\" to get this skill to create smooth animations with Claude Code.\n\nClaude Code can now create these clean line animations that react to your cursor.\n\nThe lines move as your cursor moves.\n\nAnd it all comes from a simple prompt.\n\nIt's a free skill called Hairline.\n\nIt teaches your Claud",
-      "likes": 613,
-      "comments": 378,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DemnYE2vTUg/",
-      "timestamp": "2026-10-17T17:12:55.000Z"
-    },
-    {
       "username": "nivedan.ai",
       "caption": "💬 Comment “AGENT” and I’ll DM you the direct link!\n\nClaude just moved into your WhatsApp. 👀\n\nNo new app. No complicated setup. Just one number and you’re chatting with Claude where you already spend half your day.\n\nDrafting replies, summarising long chats, brainstorming ideas, all inside your DMs.",
-      "likes": 612,
-      "comments": 415,
+      "likes": 627,
+      "comments": 427,
       "type": "Post",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeRAnUjAkGO/",
@@ -1125,7 +1115,7 @@
     {
       "username": "arshman",
       "caption": "AI model just rediscovered Newton’s laws in less than 48 hours.\n\nAnd it wasn’t even trained on any existing laws of physics.\n\nIt’s called AI-Newton, built by researchers at Peking University in China.\n\nAnd they intentionally avoided ChatGPT or Claude.\n\nBecause they already know physics.\n\nThey gave t",
-      "likes": 588,
+      "likes": 620,
       "comments": 6,
       "type": "Video",
       "shortCode": "",
@@ -1135,38 +1125,38 @@
     {
       "username": "nivedan.ai",
       "caption": "Comment \"AI \" to get all the links directly in your dm \n\nWant to understand AI beyond just ChatGPT and the latest tools? 👀\n\nThese 5 documentaries are a great place to start.\n\nThey cover everything from how AlphaFold solved a decades-old scientific problem to the global AI race, the future of genera",
-      "likes": 583,
-      "comments": 188,
+      "likes": 596,
+      "comments": 198,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DePOwRTCvpi/",
       "timestamp": "2026-10-08T15:14:46.000Z"
     },
     {
-      "username": "zeeeljain",
-      "caption": "ChatGPT just opened self-serve ads in India, and it doesn't work like Meta or Google.\n\nMeta finds you an audience. Google captures a search. ChatGPT drops you into the conversation someone is already having before they buy.\n\nThat changes how D2C should think about it. Build campaigns around the prob",
-      "likes": 561,
-      "comments": 131,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DdBJATQK5U-/",
-      "timestamp": "2026-09-08T07:24:16.000Z"
-    },
-    {
       "username": "arshman",
       "caption": "Learn how to create your own AI influencer 👀\n Because you don’t have to become the “influencer”.\n\nYou can build one using @higgsfield.ai inside ChatGPT.\n Comment “VIRAL” and I’ll send you the complete guide!\n\n#Higgsfieldcreator",
-      "likes": 555,
-      "comments": 551,
+      "likes": 562,
+      "comments": 559,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeLim5pgbWD/",
       "timestamp": "2026-10-07T04:57:11.000Z"
     },
     {
+      "username": "zeeeljain",
+      "caption": "ChatGPT just opened self-serve ads in India, and it doesn't work like Meta or Google.\n\nMeta finds you an audience. Google captures a search. ChatGPT drops you into the conversation someone is already having before they buy.\n\nThat changes how D2C should think about it. Build campaigns around the prob",
+      "likes": 561,
+      "comments": 132,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DdBJATQK5U-/",
+      "timestamp": "2026-09-08T07:24:16.000Z"
+    },
+    {
       "username": "vaibhavsisinty",
       "caption": "23 pairs of smart glasses. 3 phones. 1 personal AI named “Stan.” 🤯👓\nSat down with Alex Himel (VP of Wearables at @meta) to talk about the future of @metawearables,\n\nMuse, and a world where AR glasses replace your computer.\nFull podcast drops tomorrow—stay tuned! 🔥",
-      "likes": 511,
-      "comments": 7,
+      "likes": 533,
+      "comments": 9,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DejLUVLg-ca/",
@@ -1185,7 +1175,7 @@
     {
       "username": "zeeeljain",
       "caption": "Most sales advice is about convincing. The lines that actually close do the opposite, they get the prospect to tell you what they want.\n\n\"Send me some information\" isn't a request for your deck. It's an opening to ask what they actually care about. \"Your competitor is cheaper\" isn't something to def",
-      "likes": 470,
+      "likes": 475,
       "comments": 20,
       "type": "Video",
       "shortCode": "",
@@ -1205,7 +1195,7 @@
     {
       "username": "zeeeljain",
       "caption": "Comment JOBS and I'll send you the exact Claude prompt I use to take the grind out of job hunting.\n\nEveryone keeps saying AI is coming for your job. Maybe. But right now it can also help you find one. \n \nConnect Claude with Indeed and it can do the part everyone quietly hates: searching roles, openi",
-      "likes": 431,
+      "likes": 432,
       "comments": 122,
       "type": "Video",
       "shortCode": "",
@@ -1215,7 +1205,7 @@
     {
       "username": "zeeeljain",
       "caption": "Working on myself this year has looked less like big goals and more like small, unglamorous fixes.\n\nPosture, because how you carry yourself walks into a room before you do. A capsule wardrobe so getting dressed stops eating my mornings. Delegating the things that quietly drain me. Saying what I actu",
-      "likes": 428,
+      "likes": 430,
       "comments": 18,
       "type": "Video",
       "shortCode": "",
@@ -1235,7 +1225,7 @@
     {
       "username": "zeeeljain",
       "caption": "Ever noticed how something Indian becomes \"premium\" the moment the West renames it?\n\nThe dupatta turns into a \"Scandinavian scarf.\" Ayurveda becomes a global wellness category. Kolhapuris end up on a Prada runway. Same craft, same story, same product. What changes is who it's sold to and the story w",
-      "likes": 401,
+      "likes": 404,
       "comments": 21,
       "type": "Video",
       "shortCode": "",
@@ -1245,32 +1235,32 @@
     {
       "username": "zeeeljain",
       "caption": "Nobody hands you a manual when you become a founder. Most of it you learn by getting it wrong first, and by the time it makes sense, you've already paid for it.\n\nSome of it is about the business. A lot of it is about who you turn into while running it.\n\nNothing fancy here, just what I'd tell myself ",
-      "likes": 373,
-      "comments": 8,
+      "likes": 378,
+      "comments": 9,
       "type": "Post",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeQ6reyk_h7/",
       "timestamp": "2026-10-09T06:57:07.000Z"
     },
     {
-      "username": "arshman",
-      "caption": "You are using 10% of Claude. Here’s the other 90%. \nThese 27 skills turn Claude into a full team of AI employees. \nYour new org chart: \nChief Marketing Officer → reddit-automation, seo-audit, copywriting \n\nChief of Staff → find-skills, grill-me, caveman \n\nSocial Media Manager → faceless-explainer, t",
-      "likes": 364,
-      "comments": 485,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeDszy_stV9/",
-      "timestamp": "2026-10-04T03:47:20.000Z"
-    },
-    {
       "username": "vaibhavsisinty",
       "caption": "23 pairs of smart glasses. 3 phones.1personal Al\nnamed “Stan.\"事\nSat down with Alex Himel (VP of Wearables at\n6meta) to talk about the future of\n@metawearables, \nMuse, and a world where AR glasses replace your computer.\nFull podcast drops today.\nstay tuned!",
-      "likes": 355,
-      "comments": 4,
+      "likes": 374,
+      "comments": 5,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DelZVTzg-Fd/",
       "timestamp": "2026-10-17T05:50:19.000Z"
+    },
+    {
+      "username": "arshman",
+      "caption": "You are using 10% of Claude. Here’s the other 90%. \nThese 27 skills turn Claude into a full team of AI employees. \nYour new org chart: \nChief Marketing Officer → reddit-automation, seo-audit, copywriting \n\nChief of Staff → find-skills, grill-me, caveman \n\nSocial Media Manager → faceless-explainer, t",
+      "likes": 372,
+      "comments": 497,
+      "type": "Post",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeDszy_stV9/",
+      "timestamp": "2026-10-04T03:47:20.000Z"
     },
     {
       "username": "arshman",
@@ -1283,20 +1273,10 @@
       "timestamp": "2026-09-09T16:49:08.000Z"
     },
     {
-      "username": "zeeeljain",
-      "caption": "Everyone's asking what to automate. Almost nobody's asking what shouldn't exist at all.\n\nThe work I hand to AI is real work. Building the workflow once we've decided what to build, writing the SOPs, formatting the docs. Faster than me, and better.\n\nWhat I keep is the part that costs me projects. Tel",
-      "likes": 334,
-      "comments": 8,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/Dd3TBDtCtUU/",
-      "timestamp": "2026-09-29T08:09:31.000Z"
-    },
-    {
       "username": "nivedan.ai",
       "caption": "Transform your standard photos into stunning editorial poster art using this must-try grain art prompt. 🎨\n\nAn advanced image generator is exceptional at elevating your social media visuals with a unique, textured grain style. Get ahead of the curve and start using this look before everyone else cat",
-      "likes": 331,
-      "comments": 234,
+      "likes": 340,
+      "comments": 242,
       "type": "Post",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeeD3viCV1L/",
@@ -1305,12 +1285,32 @@
     {
       "username": "vaibhavsisinty",
       "caption": "The full podcast is officially LIVE! 🚀👓\n\n​Sat down with Alex Himel - VP of Wearables at @meta to unpack the future of @metawearables, Muse, and a world where AR glasses replace your computer. \n\nI must say @zuck is cooking something insane.\n​Watch the full episode of The Meta Conversation—link in b",
-      "likes": 305,
-      "comments": 1,
+      "likes": 335,
+      "comments": 5,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeoKbcmg5yM/",
       "timestamp": "2026-10-18T07:39:10.000Z"
+    },
+    {
+      "username": "zeeeljain",
+      "caption": "Everyone's asking what to automate. Almost nobody's asking what shouldn't exist at all.\n\nThe work I hand to AI is real work. Building the workflow once we've decided what to build, writing the SOPs, formatting the docs. Faster than me, and better.\n\nWhat I keep is the part that costs me projects. Tel",
+      "likes": 333,
+      "comments": 8,
+      "type": "Post",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/Dd3TBDtCtUU/",
+      "timestamp": "2026-09-29T08:09:31.000Z"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "Tesla just unveiled a flying version of its Roadster! 🤯🚗🚀\n\nThe car used SpaceX thrusters to jump over other vehicles, with production targeted for 2028. The future is getting wild! 👀🔥\n\n[Tesla flying car, Tesla Roadster, Elon Musk, SpaceX thrusters, future technology, flying car]\n\n#Tesla #ElonMu",
+      "likes": 301,
+      "comments": 5,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DejSuU3Jeo8/",
+      "timestamp": "2026-10-16T10:14:00.000Z"
     },
     {
       "username": "zeeeljain",
@@ -1324,13 +1324,13 @@
     },
     {
       "username": "nivedan.ai",
-      "caption": "Tesla just unveiled a flying version of its Roadster! 🤯🚗🚀\n\nThe car used SpaceX thrusters to jump over other vehicles, with production targeted for 2028. The future is getting wild! 👀🔥\n\n[Tesla flying car, Tesla Roadster, Elon Musk, SpaceX thrusters, future technology, flying car]\n\n#Tesla #ElonMu",
-      "likes": 292,
-      "comments": 4,
+      "caption": "​Snapped my fingers and summoned a whole flying beast. 🫰💨 \n\nComment \"Car\" to get the prompt sent to your DMs!\n\n#AITrend #AITrends #ai",
+      "likes": 288,
+      "comments": 244,
       "type": "Video",
       "shortCode": "",
-      "url": "https://www.instagram.com/p/DejSuU3Jeo8/",
-      "timestamp": "2026-10-16T10:14:00.000Z"
+      "url": "https://www.instagram.com/p/DeY7q-7prVK/",
+      "timestamp": "2026-10-12T09:40:22.000Z"
     },
     {
       "username": "dhavalkataria_",
@@ -1344,18 +1344,8 @@
     },
     {
       "username": "nivedan.ai",
-      "caption": "​Snapped my fingers and summoned a whole flying beast. 🫰💨 \n\nComment \"Car\" to get the prompt sent to your DMs!\n\n#AITrend #AITrends #ai",
-      "likes": 284,
-      "comments": 244,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeY7q-7prVK/",
-      "timestamp": "2026-10-12T09:40:22.000Z"
-    },
-    {
-      "username": "nivedan.ai",
       "caption": "Most AI website builders can write code...\n\nBut they all seem to design the same website. 👀\n\nThat's exactly what happened with my first Viral Monk landing page.\n\nIt worked, but it looked like every other AI-generated site with generic layouts, gradients, and zero personality.\n\nThen I tried Figma's ",
-      "likes": 281,
+      "likes": 285,
       "comments": 132,
       "type": "Video",
       "shortCode": "",
@@ -1375,8 +1365,8 @@
     {
       "username": "arshman",
       "caption": "500+ FREE prompts to turn Claude into a motion designer!\n\nAnd you don’t have to use any paid connectors or skill files.\n\nYou can scroll through the library with examples.  Pick the ones you like, tweak the prompt a bit and you got it!\n\nIt includes everything from minimal designs to complex ones.\n\nLi",
-      "likes": 252,
-      "comments": 28,
+      "likes": 253,
+      "comments": 29,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeV5k7Wt-O_/",
@@ -1385,8 +1375,8 @@
     {
       "username": "nivedan.ai",
       "caption": "@wisprflowindia lets me get my thoughts out without constantly stopping to type. 🎙️👀\n\nWhether I’m replying to messages, writing emails, or brainstorming with AI, speaking feels much faster and more natural to me.\n\nWhen you type, you often pause to think about the wording, delete sentences, and rew",
-      "likes": 241,
-      "comments": 386,
+      "likes": 242,
+      "comments": 389,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeRknFAplSO/",
@@ -1401,6 +1391,16 @@
       "shortCode": "",
       "url": "https://www.instagram.com/p/DVVWABJCDSN/",
       "timestamp": "2026-03-01T07:30:16.000Z"
+    },
+    {
+      "username": "zeeeljain",
+      "caption": "What if the true potential of AI lies not just in what it can do, but in the lives it can transform? 🌍🤖\n\nFrom breaking language barriers with BHASHINI to supporting faster TB detection with Qure.ai, enabling breast cancer screening through NIRAMAI, and using AI-powered robotics to detect water lea",
+      "likes": 231,
+      "comments": 5,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DelzcopqyCo/",
+      "timestamp": "2026-10-17T09:40:54.000Z"
     },
     {
       "username": "dhavalkataria_",
@@ -1423,20 +1423,20 @@
       "timestamp": "2026-01-01T12:03:17.000Z"
     },
     {
-      "username": "zeeeljain",
-      "caption": "What if the true potential of AI lies not just in what it can do, but in the lives it can transform? 🌍🤖\n\nFrom breaking language barriers with BHASHINI to supporting faster TB detection with Qure.ai, enabling breast cancer screening through NIRAMAI, and using AI-powered robotics to detect water lea",
-      "likes": 202,
-      "comments": 3,
-      "type": "Video",
+      "username": "arshman",
+      "caption": "Content creation is the best way to attract leads and clients… but doing everything yourself gets exhausting 😅\n\nResearcher. Designer. Video editor. Social media manager.\n\nSo I put together 12 GitHub repos to help you build your own AI content factory:\n\n→ Research content ideas and competitors → Cre",
+      "likes": 220,
+      "comments": 243,
+      "type": "Post",
       "shortCode": "",
-      "url": "https://www.instagram.com/p/DelzcopqyCo/",
-      "timestamp": "2026-10-17T09:40:54.000Z"
+      "url": "https://www.instagram.com/p/DelZub4u74G/",
+      "timestamp": "2026-10-17T05:55:04.000Z"
     },
     {
       "username": "nivedan.ai",
       "caption": "A stranger found my phone and asked one simple question - “Who was the owner of this phone?”\n\nBut instead of photos, messages, or contacts... the answer came from the one place that had listened to my thoughts, my questions, and my tears: ChatGPT.\n\nThis is not a storvy about a phone. It’s about a hu",
-      "likes": 182,
-      "comments": 20,
+      "likes": 214,
+      "comments": 22,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DemPqU4Cv5f/",
@@ -1445,12 +1445,22 @@
     {
       "username": "arshman",
       "caption": "Content creation could be tiring… setting up studio, lights and camera… \n\nSo I built a virtual studio (but real) 😅 \nThis FREE app lets you recreate your room, arrange the furniture, choose your camera or phone, and test different lighting positions before moving any equipment.\n\nThe best part? I vib",
-      "likes": 179,
-      "comments": 93,
+      "likes": 188,
+      "comments": 95,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DegP0xexsx4/",
       "timestamp": "2026-10-15T05:54:10.000Z"
+    },
+    {
+      "username": "zeeeljain",
+      "caption": "Comment FOUNDER and I'll send you all five.\n\nSome of the most honest founder writing I've read lately is on Substack, by people a few years into building who are willing to say what it actually felt like.\n\nThese five cover the parts nobody really posts about: finding clients through your network ins",
+      "likes": 179,
+      "comments": 56,
+      "type": "Post",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DeeP-lHCsGp/",
+      "timestamp": "2026-10-14T11:13:21.000Z"
     },
     {
       "username": "dhavalkataria_",
@@ -1461,16 +1471,6 @@
       "shortCode": "",
       "url": "https://www.instagram.com/p/DRY5Ry-Em2i/",
       "timestamp": "2025-11-23T06:30:00.000Z"
-    },
-    {
-      "username": "zeeeljain",
-      "caption": "Comment FOUNDER and I'll send you all five.\n\nSome of the most honest founder writing I've read lately is on Substack, by people a few years into building who are willing to say what it actually felt like.\n\nThese five cover the parts nobody really posts about: finding clients through your network ins",
-      "likes": 172,
-      "comments": 55,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DeeP-lHCsGp/",
-      "timestamp": "2026-10-14T11:13:21.000Z"
     },
     {
       "username": "arshman",
@@ -1504,16 +1504,6 @@
     },
     {
       "username": "arshman",
-      "caption": "Content creation is the best way to attract leads and clients… but doing everything yourself gets exhausting 😅\n\nResearcher. Designer. Video editor. Social media manager.\n\nSo I put together 12 GitHub repos to help you build your own AI content factory:\n\n→ Research content ideas and competitors → Cre",
-      "likes": 129,
-      "comments": 151,
-      "type": "Post",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DelZub4u74G/",
-      "timestamp": "2026-10-17T05:55:04.000Z"
-    },
-    {
-      "username": "arshman",
       "caption": "Not every AI is built for ecommerce, but this one is.\n\nI tested Accio at @alibaba.com_official CoCreate in Los Angeles. They dropped 10 expert-trained agents, AI agents for ecommerce built on real seller experience, not generic internet data.\n\nThese agents help you manage Shopify, TikTok Shop, Amazo",
       "likes": 120,
       "comments": 6,
@@ -1525,17 +1515,27 @@
     {
       "username": "arshman",
       "caption": "Claude edited this video… HOW? 🤯 \nI connected @higgsfield.ai to Claude, added my footage and pasted one detailed prompt.  OR \nYou can also pick a preset, upload your own image or a product image and recreate the editing style. \nComment “EDITS” and I’ll send you the full setup guide + the exact prom",
-      "likes": 116,
-      "comments": 49,
+      "likes": 118,
+      "comments": 51,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dea-sYEOil0/",
       "timestamp": "2026-10-13T04:47:35.000Z"
     },
     {
+      "username": "nivedan.ai",
+      "caption": "Figma brought Config to India, and it turned into an experience I’ll never forget. 🥹✨\n\nFrom a 7-course dinner and a surprise mentalist show to art workshops, amazing food, a DJ night, and front-row access to Figma’s biggest announcements, these 3 days were packed with memories.\n\nWe also got a first",
+      "likes": 115,
+      "comments": 4,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DerjKSrJKSv/",
+      "timestamp": "2026-10-19T15:13:11.000Z"
+    },
+    {
       "username": "devbuildsai",
       "caption": "IN CHESS, EVEN THE PAWN CAN BECOME ANYTHING IF IT ONLY KEEPS MOVING FORWARD ♟️",
-      "likes": 111,
+      "likes": 113,
       "comments": 2,
       "type": "Post",
       "shortCode": "",
@@ -1545,7 +1545,7 @@
     {
       "username": "nivedan.ai",
       "caption": "AI-generated South-style dance videos are going viral, and you can create your own using just AI! 🤯🔥\n\nWith the right prompt and a character sheet, you can keep your character consistent and turn it into an epic dance video without complicated editing.\n\nThe secret is getting the character details a",
-      "likes": 90,
+      "likes": 92,
       "comments": 60,
       "type": "Video",
       "shortCode": "",
@@ -1564,13 +1564,13 @@
     },
     {
       "username": "nivedan.ai",
-      "caption": "LinkedIn can be way more automated than most people realize. 👀\n\nThere’s a free, open-source tool called LinkedIn Skills for Claude with 12 different skills that can help you manage and improve your LinkedIn workflow.\n\nYou can use it to create posts with better hooks, analyze people who engage with ",
-      "likes": 65,
-      "comments": 115,
-      "type": "Video",
+      "caption": "Tesla’s Roadster reveal had the internet going WILD, and the memes are proof. 😂🚗\n\nFrom flying car reactions to people making the most unexpected jokes, the internet had a field day with this one. 💀\n\nSwipe through for the funniest reactions! \n\n[Tesla Roadster, Tesla reveal, Elon Musk, Tesla memes,",
+      "likes": 81,
+      "comments": 0,
+      "type": "Post",
       "shortCode": "",
-      "url": "https://www.instagram.com/p/Ddilaqip2P9/",
-      "timestamp": "2026-09-21T07:06:54.000Z"
+      "url": "https://www.instagram.com/p/DeqspcIiaob/",
+      "timestamp": "2026-10-19T07:14:45.000Z"
     },
     {
       "username": "devbuildsai",
@@ -1586,7 +1586,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” & i’ll share the product link with you‼️\n\nIf you’re looking for AI assisted productivity & collaboration, you have to check out the Intel Core Series 3 Processor!\n\n#IntelCore #IntelCoreSeries3",
       "likes": 3,
-      "comments": 34,
+      "comments": 36,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Demd2RcSliC/",
@@ -1596,7 +1596,7 @@
       "username": "aryamanupmanyu",
       "caption": "You just COMMENT “AI”& start building AI systems🔥\n.\n.\n#ai #trial #aiagents #business",
       "likes": 3,
-      "comments": 561,
+      "comments": 567,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dec1KWkyF_U/",
@@ -1606,7 +1606,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” to never hit CLAUDE’s limit again🤯\n.\n.\n#aiagents #trending #artificialintelligence",
       "likes": 3,
-      "comments": 612,
+      "comments": 625,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeR4utfyRBy/",
@@ -1616,7 +1616,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” & build your 1-person company TODAY🤯\n.\n.\n#ai #aiagents #fyp",
       "likes": 3,
-      "comments": 285,
+      "comments": 286,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeMxApFSBoH/",
@@ -1626,7 +1626,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” & start with your own AI Business TODAY🤯\n.\n.\n#ai #explore #aiagent",
       "likes": 3,
-      "comments": 358,
+      "comments": 363,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd6wQ6NSDO8/",
@@ -1636,7 +1636,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” & steal the Multi-AI Agent roadmap🚀\n.\n.\n#ai #explore #aiagent #aiagents",
       "likes": 3,
-      "comments": 226,
+      "comments": 228,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd1lkoVS2wg/",
@@ -1656,7 +1656,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” to access all 50 CLAUDE SKILLS🤯\n.\n.\n#aiagents #business #ai",
       "likes": 3,
-      "comments": 440,
+      "comments": 442,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DdjjsHnSYi7/",
@@ -1676,7 +1676,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” & automare your SOCIAL MEDIA with CLAUDE🤌🏻\n.\n.\n#ai #claude #socialmedia #socialmediamanagement",
       "likes": 3,
-      "comments": 958,
+      "comments": 960,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DdJz-v3S7SR/",
@@ -1706,7 +1706,7 @@
       "username": "aryamanupmanyu",
       "caption": "Comment “AI” for all 23 FREE AI Courses🤯\n.\n.\n#ai #artificialintelligence #explore",
       "likes": 3,
-      "comments": 1458,
+      "comments": 1460,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcoW_TPJLrx/",
@@ -1794,9 +1794,19 @@
     },
     {
       "username": "favourite.engineer",
+      "caption": "Make your Festive Ready Carousels 🤩\n.\n#dusshera #ai",
+      "likes": 3,
+      "comments": 24,
+      "type": "Video",
+      "shortCode": "",
+      "url": "https://www.instagram.com/p/DerSUl0TYL7/",
+      "timestamp": "2026-10-19T12:45:03.000Z"
+    },
+    {
+      "username": "favourite.engineer",
       "caption": "Comment “🙌🏻” for Tools 🚀\n.\n#viralreeĺs #ai",
       "likes": 3,
-      "comments": 632,
+      "comments": 679,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeeEUHSTVff/",
@@ -1806,7 +1816,7 @@
       "username": "favourite.engineer",
       "caption": "Automate your Instagram for FREE💥\n.\n#free #ai #instagramautomation",
       "likes": 3,
-      "comments": 1406,
+      "comments": 1416,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeY15uNzpSj/",
@@ -1816,7 +1826,7 @@
       "username": "favourite.engineer",
       "caption": "Automate your Youtube with this one skill 🤯\n.\n#youtubeautomation #ai",
       "likes": 3,
-      "comments": 1877,
+      "comments": 1922,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeRlHgozdjZ/",
@@ -1826,7 +1836,7 @@
       "username": "favourite.engineer",
       "caption": "Claude will analyse your future 🤯\n.\n#astrology #astrologywithai",
       "likes": 3,
-      "comments": 2229,
+      "comments": 2239,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DeB-2DbzaSb/",
@@ -1846,7 +1856,7 @@
       "username": "favourite.engineer",
       "caption": "ChatGPT will predict your Future 🤯..\n.\n#ai #chatgpt",
       "likes": 3,
-      "comments": 1036,
+      "comments": 1038,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd6aBMrBNLz/",
@@ -1866,7 +1876,7 @@
       "username": "favourite.engineer",
       "caption": "Turn your AI ideas into cinematic stories. 🎥✨\n\nJoin Harry Ranveer’s live AI Filmmaking Workshop, sponsored by ONLI Academy. Learn how to build your story, create reference images, choose the right model, and bring every scene to life.\n\n📅 October 3–4\n⏰ 10 AM–12 PM\n💻 Live on Zoom \n\nThe workshop is ",
       "likes": 3,
-      "comments": 1043,
+      "comments": 1044,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Dd1OYA5zg7o/",
@@ -1886,7 +1896,7 @@
       "username": "favourite.engineer",
       "caption": "Secret codes of ChatGPT 😱..\n.\n#ai #viralvideo #chatgptprompts",
       "likes": 3,
-      "comments": 2124,
+      "comments": 2133,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/Ddv7A2OzSMC/",
@@ -1896,7 +1906,7 @@
       "username": "favourite.engineer",
       "caption": "Save this Video 😳\n.\n#gta6",
       "likes": 3,
-      "comments": 560,
+      "comments": 561,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DddhLq-T1Ga/",
@@ -1906,7 +1916,7 @@
       "username": "favourite.engineer",
       "caption": "Power of Youtube 😳\n.\n#viralreel #makemoneywithai",
       "likes": 3,
-      "comments": 3627,
+      "comments": 3632,
       "type": "Video",
       "shortCode": "",
       "url": "https://www.instagram.com/p/DdWcRPazoeT/",
@@ -1931,16 +1941,6 @@
       "shortCode": "",
       "url": "https://www.instagram.com/p/DcvozN3zpw6/",
       "timestamp": "2026-09-01T12:17:41.000Z"
-    },
-    {
-      "username": "favourite.engineer",
-      "caption": "🤯 ChatGPT has SECRET CODES nobody told you about\n.\n#viralvideo #ai #fyp #chatgptprompts",
-      "likes": 3,
-      "comments": 501,
-      "type": "Video",
-      "shortCode": "",
-      "url": "https://www.instagram.com/p/DcgIWcZzO3s/",
-      "timestamp": "2026-08-26T11:45:46.000Z"
     },
     {
       "username": "devbuildsai",

@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "rank": 1,
+    "title": "VoiceStudio: The Free Open-Source ElevenLabs Killer",
+    "hook": "Stop paying 2,000 rupees a month for ElevenLabs. This open-source GitHub tool clones your voice in 3 seconds flat.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Open-source cost-saving tools consistently outperform paid tool reviews among Indian builders sensitive to recurring subscription fees. Nick Saraev validated rapid voice-cloning utility as a top-converting hook, making this an immediate high-retention tutorial for Garvit.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DepCy50P-Wd/"
+  },
+  {
+    "rank": 2,
+    "title": "WASM Breakthrough: How Browser Gaming Replaces 100GB Downloads",
+    "hook": "Someone ran full GTA 5 inside Google Chrome without downloading 100GB, and Rockstar killed it within hours.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Varun Mayya proved that pairing mainstream gaming IP with cutting-edge browser architecture generates explosive top-of-funnel reach. This concept breaks out of the narrow dev echo chamber to capture mass curiosity while establishing Garvit's credibility on technical WebAssembly architecture.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DeMkPoLTH41/"
+  },
+  {
+    "rank": 3,
+    "title": "Why Moving Out at 22 Accelerates Your Income",
+    "hook": "Saving 30,000 rupees living at home is secretly costing you 10 lakhs in lost ambition. Let's talk about the middle-class comfort trap.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Dhaval Kataria drives industry-leading 19.95% engagement rates by polarizing young Indian viewers on middle-class comfort traps and early-career independence. This counter-intuitive lifestyle take generates intense debate in the comment section, creating massive algorithmic distribution.",
+    "niche": "Self-growth",
+    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
+  },
+  {
+    "rank": 4,
+    "title": "Why You Fail Every Indian Agency Retainer",
+    "hook": "Selling basic voice calling bots to Indian real estate uncles is a C-tier business. Here is the only AI offer they actually pay lakhs for.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Aryaman Upmanyu's tier-list breakdown debunking low-effort agency hype directly addresses the real monetization struggles of Indian freelancers. It delivers high-utility business positioning that aligns seamlessly with Garvit's practical builder persona.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dec1KWkyF_U/"
+  },
+  {
+    "rank": 5,
+    "title": "Hairline Skill: Generate Clean Cursor Animations in Claude",
+    "hook": "Claude can now build viral UI motion graphics that react to your mouse cursor with just one prompt.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Nick Saraev unlocked huge traction by showcasing dynamic visual front-end outputs from Claude Code rather than dry terminal commands. Interactive cursor animations provide an immediate visual hook within the first 2 seconds, guaranteeing superior watch time on Reels.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DemnYE2vTUg/"
+  }
+]

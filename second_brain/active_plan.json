@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-19",
-  "end_date": "2026-10-26",
+  "generated_on": "2026-10-20",
+  "end_date": "2026-10-27",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-19",
-      "topic": "Free open-source voice cloning tool (VoiceStudio) that replaces ElevenLabs in 3 seconds",
+      "date": "2026-10-20",
+      "topic": "VoiceStudio: The Free Open-Source ElevenLabs Killer",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop paying ElevenLabs. Clone your voice for free today.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop paying for ElevenLabs. This open-source tool clones your voice instantly.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-20",
-      "topic": "Dubai’s $150K AI Agent Championship breakdown and 4 zero-code ideas to submit",
+      "date": "2026-10-21",
+      "topic": "Why Moving Out at 22 Accelerates Your Income",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Win $150,000 building an AI agent with zero code.",
+      "post_time": "6:30 PM IST",
+      "hook": "Saving rent at home is secretly costing you lakhs in ambition.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-21",
-      "topic": "Tier-list ranking AI automation agency models (calling bots vs internal workflows vs database syncs)",
+      "date": "2026-10-22",
+      "topic": "WASM Breakthrough: How Browser Gaming Replaces 100GB Downloads",
       "format": "Reel",
       "post_time": "7:30 PM IST",
-      "hook": "Ranking AI automation business models from worst to best.",
+      "hook": "Someone ran full GTA 5 inside Google Chrome without downloading anything.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-22",
-      "topic": "AI PCs explained: Why NPUs matter and what founders need before buying new hardware",
+      "date": "2026-10-23",
+      "topic": "Why You Fail Every Indian Agency Retainer",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Don't buy a laptop before understanding AI NPUs.",
+      "post_time": "8:00 PM IST",
+      "hook": "Selling basic voice bots to local uncles is a C-tier trap.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-23",
-      "topic": "Automating 100+ verified remote job applications using the Apify web scraper connector",
+      "date": "2026-10-24",
+      "topic": "Hairline Skill: Generate Clean Cursor Animations in Claude",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Apply to 100 remote jobs in one hour automatically.",
+      "post_time": "6:45 PM IST",
+      "hook": "Claude can now build viral UI animations with just one simple prompt.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-24",
-      "topic": "The \"Vibe Coding\" tech stack: 5 non-coder tools to launch your first micro-SaaS",
+      "date": "2026-10-25",
+      "topic": "The 5 Unwritten Rules of Scaling an AI Solopreneur Business",
       "format": "Carousel",
-      "post_time": "7:45 PM IST",
-      "hook": "Build your first functional software without writing any code.",
+      "post_time": "7:15 PM IST",
+      "hook": "Most solopreneurs fail because they act like employees, not system architects.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-25",
-      "topic": "Generating interactive CSS & micro-motion designs directly from UI screenshots",
+      "date": "2026-10-26",
+      "topic": "Steal This Local Business Google Maps Lead Generation Workflow",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Turn flat screenshots into smooth motion animations instantly.",
+      "post_time": "7:00 PM IST",
+      "hook": "Scrape every local business on Google Maps and build an instant website using AI.",
       "status": "pending"
     }
   ]
