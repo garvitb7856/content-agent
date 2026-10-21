@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "VoiceStudio: The Free Open-Source ElevenLabs Killer",
-    "hook": "Stop paying 2,000 rupees a month for ElevenLabs. This open-source GitHub tool clones your voice in 3 seconds flat.",
+    "title": "The 3-Second Open Source Voice Cloner: VoiceStudio",
+    "hook": "Delete your ElevenLabs subscription right now. This free GitHub repo clones Indian accents in 3 seconds.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Open-source cost-saving tools consistently outperform paid tool reviews among Indian builders sensitive to recurring subscription fees. Nick Saraev validated rapid voice-cloning utility as a top-converting hook, making this an immediate high-retention tutorial for Garvit.",
+    "reasoning": "Leverages Nick Saraev's viral VoiceStudio reel demonstrating a free open-source alternative to ElevenLabs. Perfectly aligns with Garvit's audience who love cost-saving, high-utility developer tools.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DepCy50P-Wd/"
   },
   {
     "rank": 2,
-    "title": "WASM Breakthrough: How Browser Gaming Replaces 100GB Downloads",
-    "hook": "Someone ran full GTA 5 inside Google Chrome without downloading 100GB, and Rockstar killed it within hours.",
+    "title": "The Hairline Prompt for React UI Animations",
+    "hook": "Stop paying ₹50,000 for UI designers. This single Claude markdown skill builds reactive line physics for web apps.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Varun Mayya proved that pairing mainstream gaming IP with cutting-edge browser architecture generates explosive top-of-funnel reach. This concept breaks out of the narrow dev echo chamber to capture mass curiosity while establishing Garvit's credibility on technical WebAssembly architecture.",
+    "reasoning": "Adapts Nick Saraev's top-performing Hairline UI skill prompt into a visual design demonstration. Provides massive value for solo founders building frontend web apps with Claude.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DeMkPoLTH41/"
+    "sourceUrl": "https://www.instagram.com/p/DemnYE2vTUg/"
   },
   {
     "rank": 3,
-    "title": "Why Moving Out at 22 Accelerates Your Income",
-    "hook": "Saving 30,000 rupees living at home is secretly costing you 10 lakhs in lost ambition. Let's talk about the middle-class comfort trap.",
-    "format": "Reel",
+    "title": "The 'Sahil Lavingia 10-Skill Pack' for Chatbots",
+    "hook": "A founder who built a ₹1,000 Crore business open-sourced his complete decision-making brain on GitHub.",
+    "format": "Carousel",
     "score": "HIGH",
-    "reasoning": "Dhaval Kataria drives industry-leading 19.95% engagement rates by polarizing young Indian viewers on middle-class comfort traps and early-career independence. This counter-intuitive lifestyle take generates intense debate in the comment section, creating massive algorithmic distribution.",
-    "niche": "Self-growth",
-    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
+    "reasoning": "Capitalizes on Ishan Sharma's viral breakdown of Sahil Lavingia's open-source Gumroad skills repository. Turning this concept into a carousel guarantees high saves and comment-funnel automation.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/DemWpuDt56L/"
   },
   {
     "rank": 4,
-    "title": "Why You Fail Every Indian Agency Retainer",
-    "hook": "Selling basic voice calling bots to Indian real estate uncles is a C-tier business. Here is the only AI offer they actually pay lakhs for.",
+    "title": "How to Run Claude Code with 9 Billion Free Tokens",
+    "hook": "Stop paying $20 every month for Claude limits when two open-source GitHub repos give you 9 billion tokens for free.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Aryaman Upmanyu's tier-list breakdown debunking low-effort agency hype directly addresses the real monetization struggles of Indian freelancers. It delivers high-utility business positioning that aligns seamlessly with Garvit's practical builder persona.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dec1KWkyF_U/"
+    "reasoning": "Extends Garvit's proven top-performing token optimization content into a step-by-step visual setup guide. Directly targets developer pain points around subscription costs and API rate limits.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DeCVP0QyVHR/"
   },
   {
     "rank": 5,
-    "title": "Hairline Skill: Generate Clean Cursor Animations in Claude",
-    "hook": "Claude can now build viral UI motion graphics that react to your mouse cursor with just one prompt.",
+    "title": "The Death of Generic AI Wrappers in 2026",
+    "hook": "Why 90% of Indian founders making ₹2 Lakh/month on AI wrappers are about to go to zero.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Nick Saraev unlocked huge traction by showcasing dynamic visual front-end outputs from Claude Code rather than dry terminal commands. Interactive cursor animations provide an immediate visual hook within the first 2 seconds, guaranteeing superior watch time on Reels.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DemnYE2vTUg/"
+    "reasoning": "Builds on Aryaman Upamnyu's viral business tier-list critique of low-barrier local agency models. Delivers a realistic, counter-narrative perspective that positions Garvit as an authoritative tech founder.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dec1KWkyF_U/"
   }
 ]

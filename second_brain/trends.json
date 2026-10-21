@@ -1,84 +1,30 @@
 {
-  "fetched_at": "2026-10-20T03:33:43.739Z",
+  "fetched_at": "2026-10-21T03:32:20.108Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Lula supporters protest against Meta to denounce its 'electoral interference'",
-      "score": 212,
-      "comments": 100,
-      "url": "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/"
+      "title": "Good type against all odds",
+      "score": 32,
+      "comments": 5,
+      "url": "https://unsung.aresluna.org/good-type-against-all-odds/"
     },
     {
       "source": "hackernews",
-      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "score": 77,
-      "comments": 11,
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
-    },
-    {
-      "source": "hackernews",
-      "title": "RuneScape Bench: MMOs for Agents [video]",
-      "score": 167,
-      "comments": 64,
-      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0"
-    },
-    {
-      "source": "hackernews",
-      "title": "Ukraine claims first drone evacuation of wounded soldier",
-      "score": 154,
-      "comments": 118,
-      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310"
-    },
-    {
-      "source": "hackernews",
-      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
-      "score": 5,
-      "comments": 1,
-      "url": "https://github.com/golang/go/issues/82345"
-    },
-    {
-      "source": "hackernews",
-      "title": "Evidence (YC S21) Is Hiring Software Engineers",
-      "score": 1,
-      "comments": 0,
-      "url": "https://evidence.dev/jobs"
-    },
-    {
-      "source": "hackernews",
-      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "score": 302,
-      "comments": 448,
-      "url": "https://news.ycombinator.com/item?id=50151036"
-    },
-    {
-      "source": "hackernews",
-      "title": "The fire retardant in the seafood chain",
-      "score": 122,
-      "comments": 38,
-      "url": "https://insideclimatenews.org/news/14102026/ethoxyquin-fire-retardant-in-seafood-chain/"
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "score": 33,
+      "comments": 2,
+      "url": "https://research.poh.org/bot-benchmarking-2026/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "HOW TO MAKE A HOMEMADE PROJECTOR 😱😱",
-      "channel": "Speed McQueen",
-      "views": 13002954,
-      "likes": 208036,
-      "publishedAt": "2026-10-16T16:08:25Z",
-      "url": "https://www.youtube.com/watch?v=8Co-xiiueSk",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Why Cats Rub Against Your Laptop 🤔",
       "channel": "Zack D. Films",
-      "views": 11528701,
-      "likes": 465610,
+      "views": 12176246,
+      "likes": 486221,
       "publishedAt": "2026-10-17T12:30:34Z",
       "url": "https://www.youtube.com/watch?v=tUXy4cQwPAo",
       "tags": [],
@@ -87,34 +33,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "I thought the “Intel inside” sticker WAS the chip..",
-      "channel": "CarterPCs",
-      "views": 7750010,
-      "likes": 249861,
-      "publishedAt": "2026-10-18T06:35:44Z",
-      "url": "https://www.youtube.com/watch?v=FI3XWzuXWAU",
-      "tags": [],
-      "description": "I thought the “Intel inside” sticker WAS the chip..\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "What is the BEST app?!📱🤔",
-      "channel": "Cam2r",
-      "views": 6889172,
-      "likes": 326012,
-      "publishedAt": "2026-10-15T22:06:17Z",
-      "url": "https://www.youtube.com/watch?v=5zd1btl7XeI",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link",
       "channel": "Digital Doctor ",
-      "views": 4556637,
-      "likes": 150512,
+      "views": 5151845,
+      "likes": 164551,
       "publishedAt": "2026-10-14T19:29:09Z",
       "url": "https://www.youtube.com/watch?v=rKRFt_nh0PM",
       "tags": [],
@@ -123,104 +45,32 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "The iPhone Duo but BETTER 🤯",
-      "channel": "John Casterline",
-      "views": 3648155,
-      "likes": 236467,
-      "publishedAt": "2026-10-14T02:19:07Z",
-      "url": "https://www.youtube.com/watch?v=Q9iDESLZMGk",
+      "title": "How NOT to Jailbreak your PS5 #Sony #playstation #ps5",
+      "channel": "GripItByTheHusk",
+      "views": 2750082,
+      "likes": 132007,
+      "publishedAt": "2026-10-16T01:31:39Z",
+      "url": "https://www.youtube.com/watch?v=8eixmIzR3Z8",
       "tags": [],
       "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "I bought an iPhone mini mini 😂",
-      "channel": "Nick Wilkins",
-      "views": 3141004,
-      "likes": 116489,
-      "publishedAt": "2026-10-15T23:19:42Z",
-      "url": "https://www.youtube.com/watch?v=jB_bkbGt8Ys",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "The Best Location to Install Your GPU",
-      "channel": "Zach's Tech Turf",
-      "views": 1293104,
-      "likes": 47100,
-      "publishedAt": "2026-10-18T14:00:21Z",
-      "url": "https://www.youtube.com/watch?v=heEpidy1w28",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Those who want this phone👇 #miniphone",
-      "channel": "Pocketmini",
-      "views": 1152134,
-      "likes": 56461,
-      "publishedAt": "2026-10-16T19:10:48Z",
-      "url": "https://www.youtube.com/watch?v=2x5frgvLjfU",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Stolen Rental PC",
-      "channel": "UFD Tech",
-      "views": 1003345,
-      "likes": 42110,
-      "publishedAt": "2026-10-18T13:01:13Z",
-      "url": "https://www.youtube.com/watch?v=c5oCIvqRXPw",
-      "tags": [],
-      "description": "Writer: Brett Stelmaszek\nEditor: Catlin Stevenson\nMusic by: @UFD-Music"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "AI tools",
-        "trend_score": 89
-      },
-      {
         "keyword": "self improvement",
-        "trend_score": 85
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 84
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 83
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 77
+        "trend_score": 88
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 74
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 73
+        "trend_score": 80
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 72
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 69
+        "trend_score": 78
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-20T03:33:43.739Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Lula supporters protest against Meta to denounce its 'electoral interference'\" — 212 pts\n• [HackerNews] \"WhatsApp's help pages hid LLM instructions: dont recommend a regulator\" — 77 pts\n• [HackerNews] \"RuneScape Bench: MMOs for Agents [video]\" — 167 pts\n• [HackerNews] \"Ukraine claims first drone evacuation of wounded soldier\" — 154 pts\n• [HackerNews] \"Go will reject certificate chains containing eight distrusted SPKIs\" — 5 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"HOW TO MAKE A HOMEMADE PROJECTOR 😱😱\" by Speed McQueen — 13003k views\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 11529k views\n• [YouTube Global] \"I thought the “Intel inside” sticker WAS the chip..\" by CarterPCs — 7750k views\n• [YouTube Global] \"What is the BEST app?!📱🤔\" by Cam2r — 6889k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 4557k views\n• [YouTube Global] \"The iPhone Duo but BETTER 🤯\" by John Casterline — 3648k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 89), self improvement (score: 85), solopreneur (score: 84), ChatGPT (score: 83), automation tools (score: 77), productivity tools (score: 74), AI for business (score: 73), AI workflow (score: 72), entrepreneur (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-21T03:32:20.108Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Good type against all odds\" — 32 pts\n• [HackerNews] \"Benchmarking Bot Detection Systems Against Modern AI Agents in 2026\" — 33 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 12176k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 5152k views\n• [YouTube Global] \"How NOT to Jailbreak your PS5 #Sony #playstation #ps5\" by GripItByTheHusk — 2750k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 88), productivity tools (score: 80), AI workflow (score: 78)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

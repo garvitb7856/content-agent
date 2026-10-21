@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-20",
-  "end_date": "2026-10-27",
+  "generated_on": "2026-10-21",
+  "end_date": "2026-10-28",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-20",
-      "topic": "VoiceStudio: The Free Open-Source ElevenLabs Killer",
+      "date": "2026-10-21",
+      "topic": "How to clone your voice for free in 3 seconds using the open-source VoiceStudio repository (killing paid ElevenLabs subscriptions).",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Stop paying for ElevenLabs. This open-source tool clones your voice instantly.",
+      "post_time": "7:15 PM IST",
+      "hook": "Stop paying ElevenLabs. Clone your voice in three seconds.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-21",
-      "topic": "Why Moving Out at 22 Accelerates Your Income",
+      "date": "2026-10-22",
+      "topic": "Step-by-step breakdown of Sahil Lavingia’s open-sourced 10-skill business brain file for Claude/ChatGPT to build, validate, and price a startup.",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Saving rent at home is secretly costing you lakhs in ambition.",
+      "post_time": "6:45 PM IST",
+      "hook": "A thousand crore founder open-sourced his entire brain.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-22",
-      "topic": "WASM Breakthrough: How Browser Gaming Replaces 100GB Downloads",
+      "date": "2026-10-23",
+      "topic": "Building interactive physics and cursor-reactive UI components inside Claude Code using the free Hairline skill file.",
       "format": "Reel",
       "post_time": "7:30 PM IST",
-      "hook": "Someone ran full GTA 5 inside Google Chrome without downloading anything.",
+      "hook": "Fire your frontend designer. Claude makes reactive animations now.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-23",
-      "topic": "Why You Fail Every Indian Agency Retainer",
+      "date": "2026-10-24",
+      "topic": "Tier-list audit of AI automation business models in India (why simple calling bots fail vs. high-ticket custom LLM workflows).",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "Selling basic voice bots to local uncles is a C-tier trap.",
+      "post_time": "6:30 PM IST",
+      "hook": "Why Indian AI automation agencies will die this year.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-24",
-      "topic": "Hairline Skill: Generate Clean Cursor Animations in Claude",
+      "date": "2026-10-25",
+      "topic": "Upgrading Claude Code into a senior developer using two open-source skills: Agent Skills (dev pipeline) and Context7 (live library docs).",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "Claude can now build viral UI animations with just one simple prompt.",
+      "post_time": "7:45 PM IST",
+      "hook": "Make Claude code like a senior Google engineer today.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-25",
-      "topic": "The 5 Unwritten Rules of Scaling an AI Solopreneur Business",
+      "date": "2026-10-26",
+      "topic": "Complete architecture diagram: How to build an autonomous 24/7 lead capture and WhatsApp qualifier using n8n and open models.",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Most solopreneurs fail because they act like employees, not system architects.",
+      "post_time": "6:45 PM IST",
+      "hook": "How to automate your entire business using free AI.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-26",
-      "topic": "Steal This Local Business Google Maps Lead Generation Workflow",
+      "date": "2026-10-27",
+      "topic": "Using a 3D browser-based room generator to simulate camera lenses, softbox angles, and lighting setups before shooting content.",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Scrape every local business on Google Maps and build an instant website using AI.",
+      "post_time": "7:15 PM IST",
+      "hook": "Stop wasting hours adjusting studio lights. Use this tool.",
       "status": "pending"
     }
   ]
