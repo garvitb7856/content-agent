@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-21",
-  "end_date": "2026-10-28",
+  "generated_on": "2026-10-22",
+  "end_date": "2026-10-29",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-21",
-      "topic": "How to clone your voice for free in 3 seconds using the open-source VoiceStudio repository (killing paid ElevenLabs subscriptions).",
+      "date": "2026-10-22",
+      "topic": "Un-Brokeing India: Selling WhatsApp AI booking bots to local salons",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop paying ElevenLabs. Clone your voice in three seconds.",
+      "post_time": "6:30 PM IST",
+      "hook": "Can I make 25,000 selling WhatsApp AI to local salons?",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-22",
-      "topic": "Step-by-step breakdown of Sahil Lavingia’s open-sourced 10-skill business brain file for Claude/ChatGPT to build, validate, and price a startup.",
+      "date": "2026-10-23",
+      "topic": "The exact 5-tool tech stack to run a $10k/month AI agency",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "A thousand crore founder open-sourced his entire brain.",
+      "post_time": "7:15 PM IST",
+      "hook": "The exact tech stack behind our $10k AI agency.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-23",
-      "topic": "Building interactive physics and cursor-reactive UI components inside Claude Code using the free Hairline skill file.",
+      "date": "2026-10-24",
+      "topic": "How Indian D2C brand Comet used an AI agent to fix comment section churn",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Fire your frontend designer. Claude makes reactive animations now.",
+      "post_time": "7:00 PM IST",
+      "hook": "How India's viral sneaker brand stopped losing sales to comments.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-24",
-      "topic": "Tier-list audit of AI automation business models in India (why simple calling bots fail vs. high-ticket custom LLM workflows).",
+      "date": "2026-10-25",
+      "topic": "Sahil Lavingia's 10-Skill Pack for running a business using ChatGPT",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Why Indian AI automation agencies will die this year.",
+      "post_time": "8:00 PM IST",
+      "hook": "10 free AI skills to run a business from scratch.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-25",
-      "topic": "Upgrading Claude Code into a senior developer using two open-source skills: Agent Skills (dev pipeline) and Context7 (live library docs).",
+      "date": "2026-10-26",
+      "topic": "Reverse API Engineer: Turning gated websites into free APIs with Claude Code",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "Make Claude code like a senior Google engineer today.",
+      "post_time": "6:45 PM IST",
+      "hook": "Stop paying for scraping APIs. Turn any site free.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-26",
-      "topic": "Complete architecture diagram: How to build an autonomous 24/7 lead capture and WhatsApp qualifier using n8n and open models.",
+      "date": "2026-10-27",
+      "topic": "NPUs vs CPUs: What is an AI PC and why 87% of businesses are upgrading",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "How to automate your entire business using free AI.",
+      "post_time": "7:30 PM IST",
+      "hook": "Why 87% of companies are throwing away normal PCs.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-27",
-      "topic": "Using a 3D browser-based room generator to simulate camera lenses, softbox angles, and lighting setups before shooting content.",
+      "date": "2026-10-28",
+      "topic": "Automating Google Maps cafe leads into auto-generated landing page pitches",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop wasting hours adjusting studio lights. Use this tool.",
+      "post_time": "7:00 PM IST",
+      "hook": "How to turn Google Maps cafes into paying web clients.",
       "status": "pending"
     }
   ]

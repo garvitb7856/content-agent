@@ -1,8 +1,131 @@
 {
-  "generated_at": "2026-10-21T03:32:18.471Z",
-  "hotRightNow": [],
-  "risingFormat": [],
-  "trendingTopics": [],
-  "bestPostingWindow": [],
-  "topHookPatterns": []
+  "generated_at": "2026-10-22T03:31:48.343Z",
+  "hotRightNow": [
+    {
+      "username": "ishansharma7390",
+      "caption": "still can't get over this feeling🥹✨\n\nyou get one chance to raise your entire bloodline to another l",
+      "likes": 59485,
+      "comments": 520,
+      "engagement": 60005,
+      "engRate": "4.73",
+      "timestamp": "2026-10-21T07:39:23.000Z",
+      "url": "https://www.instagram.com/p/Dev5DjcH3Bs/",
+      "type": "Post"
+    },
+    {
+      "username": "thevarunmayya",
+      "caption": "This is one of the biggest security failures in India. The keys that make websites trustworthy could",
+      "likes": 9155,
+      "comments": 100,
+      "engagement": 9255,
+      "engRate": "0.72",
+      "timestamp": "2026-10-21T19:33:16.000Z",
+      "url": "https://www.instagram.com/p/DexKcYsTjRv/",
+      "type": "Video"
+    },
+    {
+      "username": "thevarunmayya",
+      "caption": "Elon Musk just promised to give SpaceX shares to every kid in America",
+      "likes": 6875,
+      "comments": 78,
+      "engagement": 6953,
+      "engRate": "0.54",
+      "timestamp": "2026-10-21T08:31:51.000Z",
+      "url": "https://www.instagram.com/p/Dev-4yAhT7y/",
+      "type": "Video"
+    },
+    {
+      "username": "vaibhavsisinty",
+      "caption": "Handwork? Here’s my take ⬆️",
+      "likes": 5284,
+      "comments": 70,
+      "engagement": 5354,
+      "engRate": "0.25",
+      "timestamp": "2026-10-21T12:21:42.000Z",
+      "url": "https://www.instagram.com/p/DewY2CuoGRd/",
+      "type": "Video"
+    },
+    {
+      "username": "ishansharma7390",
+      "caption": "Let's unbox iPhone Duo!🔥",
+      "likes": 4032,
+      "comments": 27,
+      "engagement": 4059,
+      "engRate": "0.32",
+      "timestamp": "2026-10-21T12:22:50.000Z",
+      "url": "https://www.instagram.com/p/DewZXY3oERn/",
+      "type": "Video"
+    }
+  ],
+  "risingFormat": [
+    {
+      "format": "post",
+      "avgEng": 7842,
+      "count": 11
+    },
+    {
+      "format": "video",
+      "avgEng": 7437,
+      "count": 35
+    }
+  ],
+  "trendingTopics": [
+    {
+      "topic": "ai",
+      "appearsIn": "9 top posts"
+    },
+    {
+      "topic": "free",
+      "appearsIn": "2 top posts"
+    },
+    {
+      "topic": "chatgpt",
+      "appearsIn": "2 top posts"
+    },
+    {
+      "topic": "gpt",
+      "appearsIn": "2 top posts"
+    },
+    {
+      "topic": "never",
+      "appearsIn": "2 top posts"
+    }
+  ],
+  "bestPostingWindow": [
+    "19:00 IST (5 top posts)",
+    "18:00 IST (4 top posts)",
+    "12:00 IST (2 top posts)"
+  ],
+  "topHookPatterns": [
+    {
+      "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, unders",
+      "username": "thevarunmayya",
+      "likes": 183437,
+      "url": "https://www.instagram.com/p/DePZYzRzsoh/"
+    },
+    {
+      "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
+      "username": "favourite.engineer",
+      "likes": 30439,
+      "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
+    },
+    {
+      "hook": "FINALLY we GOT IT!🤯🥹✨\n\nHad the best day ever, going with my parents to four se",
+      "username": "ishansharma7390",
+      "likes": 101037,
+      "url": "https://www.instagram.com/p/DeuC_xfoPur/"
+    },
+    {
+      "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
+      "username": "dhavalkataria_",
+      "likes": 76437,
+      "url": "https://www.instagram.com/p/Dbdacspojza/"
+    },
+    {
+      "hook": "I must say, the drive is super smooth like a flying car. Oh wait.. it actually f",
+      "username": "arshman",
+      "likes": 65333,
+      "url": "https://www.instagram.com/p/DetJ9weOu6p/"
+    }
+  ]
 }
