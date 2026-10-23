@@ -1,18 +1,12 @@
 {
-  "updated_at": "2026-10-22T04:02:05.078Z",
-  "total_videos_in_data": 173,
+  "updated_at": "2026-10-23T03:35:18.856Z",
+  "total_videos_in_data": 0,
   "transcribed_done": 265,
   "pending_queue": 0,
   "stored_transcripts": 265,
   "transcribed_ids_count": 328,
-  "succeeded": 8,
-  "failed": 1,
-  "skipped": 129,
-  "errors": [
-    {
-      "id": "4012157496597740459_26526554234",
-      "url": "https://instagram.flim38-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMSdMRbv_AkIA0xCuz41mcZ-zyUJYoviNcDE-JVp6n6V2Rvn0MFXKwxoLsuiTRKuxBu9vvLFkuUkxAf1If01dWq_b0R97YosG6j2IQ.mp4?_nc_cat=101&_nc_oc=AdpX_LBvggBKmO0AJT0Em7R-6WohgVQbHEQuvWUQQKPzrg-47l116onkRp78m5PWNdA&_nc_sid=5e9851&_nc_ht=instagram.flim38-1.fna.fbcdn.net&_nc_ohc=rSH56gDWZQwQ7kNvwG2GTw3&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjQwOTQ3NDA5NjU1MDExNiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=e5fa92fe2c6d33f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9COUFDNEMwMEFBMjU0OERGOEM0M0ExMDA1Mzg4MDY4OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkwMDREQjExQTVCNzRFRTRBNkQxQTc3MzA0RjE3ODJBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbIw_b57NnHCBUCKAJDMywXQEKiDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=L9CZoqTcjfBv6YRW-UKvMw&_nc_ss=78a8c&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQOgPWHYV5UyEIdmUj04UaCH8Wj_On3JLmoPOqcE-KWzfA&oe=6ADB7B4E",
-      "reason": "Request failed with status code 403"
-    }
-  ]
+  "succeeded": 0,
+  "failed": 0,
+  "skipped": 0,
+  "errors": []
 }

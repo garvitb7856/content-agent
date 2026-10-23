@@ -1,76 +1,69 @@
 {
-  "fetched_at": "2026-10-22T03:31:51.423Z",
+  "fetched_at": "2026-10-23T03:31:54.584Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-      "score": 455,
-      "comments": 154,
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "score": 180,
+      "comments": 86,
+      "url": "https://www.anthropic.com/research/formal-verification"
     },
     {
       "source": "hackernews",
-      "title": "LLM Agents Play Pokemon Showdown",
-      "score": 13,
-      "comments": 10,
-      "url": "https://olivergrabner.com/research/pokemon/"
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "score": 323,
+      "comments": 166,
+      "url": "https://github.com/NVIDIA/OpenShell"
     },
     {
       "source": "hackernews",
-      "title": "Using LLM for confidence scoring is a bad idea",
-      "score": 17,
-      "comments": 5,
-      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html"
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "score": 272,
+      "comments": 328,
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans"
     },
     {
       "source": "hackernews",
-      "title": "Chain of Thought for Humans",
-      "score": 44,
-      "comments": 21,
-      "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/"
+      "title": "AI compute is the new oil–and needs a new market",
+      "score": 29,
+      "comments": 18,
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-      "score": 32,
-      "comments": 11,
-      "url": "https://github.com/omnara-ai/omnara"
+      "title": "Railpass",
+      "score": 62,
+      "comments": 17,
+      "url": "https://train.samismith.com/"
     },
     {
       "source": "hackernews",
-      "title": "OpenAI models are coming to Google Cloud",
-      "score": 253,
-      "comments": 107,
-      "url": "https://openai.com/index/openai-models-google-cloud/"
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "score": 970,
+      "comments": 646,
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
     },
     {
       "source": "hackernews",
-      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "score": 238,
-      "comments": 162,
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "score": 119,
+      "comments": 72,
+      "url": "https://arxiv.org/abs/2610.27251"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: AI-built browser games, collected in one place",
-      "score": 7,
-      "comments": 0,
-      "url": "https://playgroundarcade.com/"
+      "title": "Jailbreaking the Switch 2",
+      "score": 746,
+      "comments": 259,
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Can you tell an AI's real 30-day memory from a fabricated one?",
-      "score": 5,
-      "comments": 0,
-      "url": "https://kairos-experiment.com/distinguish.html"
-    },
-    {
-      "source": "hackernews",
-      "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
-      "score": 175,
-      "comments": 85,
-      "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488"
+      "title": "Startup taps underwater volcano as energy source in “proof point” test",
+      "score": 127,
+      "comments": 54,
+      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/"
     }
   ],
   "youtube": [
@@ -79,8 +72,8 @@
       "category": "Science & Tech",
       "title": "Why Cats Rub Against Your Laptop 🤔",
       "channel": "Zack D. Films",
-      "views": 12852462,
-      "likes": 505570,
+      "views": 13485911,
+      "likes": 522503,
       "publishedAt": "2026-10-17T12:30:34Z",
       "url": "https://www.youtube.com/watch?v=tUXy4cQwPAo",
       "tags": [],
@@ -91,8 +84,8 @@
       "category": "Science & Tech",
       "title": "🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link",
       "channel": "Digital Doctor ",
-      "views": 5574203,
-      "likes": 173592,
+      "views": 5683880,
+      "likes": 175781,
       "publishedAt": "2026-10-14T19:29:09Z",
       "url": "https://www.youtube.com/watch?v=rKRFt_nh0PM",
       "tags": [],
@@ -103,8 +96,8 @@
       "category": "Science & Tech",
       "title": "How NOT to Jailbreak your PS5 #Sony #playstation #ps5",
       "channel": "GripItByTheHusk",
-      "views": 3160155,
-      "likes": 153547,
+      "views": 3692707,
+      "likes": 181340,
       "publishedAt": "2026-10-16T01:31:39Z",
       "url": "https://www.youtube.com/watch?v=8eixmIzR3Z8",
       "tags": [],
@@ -115,42 +108,42 @@
     "keyword_trends": [
       {
         "keyword": "ChatGPT",
-        "trend_score": 95
+        "trend_score": 93
       },
       {
         "keyword": "AI tools",
-        "trend_score": 89
+        "trend_score": 92
       },
       {
-        "keyword": "productivity tools",
+        "keyword": "solopreneur",
+        "trend_score": 92
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 90
+      },
+      {
+        "keyword": "self improvement",
         "trend_score": 87
       },
       {
         "keyword": "automation tools",
-        "trend_score": 82
+        "trend_score": 84
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 82
-      },
-      {
-        "keyword": "self improvement",
+        "keyword": "productivity tools",
         "trend_score": 81
       },
       {
         "keyword": "AI for business",
-        "trend_score": 80
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 80
+        "trend_score": 79
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 74
+        "trend_score": 75
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-22T03:31:51.423Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor\" — 455 pts\n• [HackerNews] \"LLM Agents Play Pokemon Showdown\" — 13 pts\n• [HackerNews] \"Using LLM for confidence scoring is a bad idea\" — 17 pts\n• [HackerNews] \"Chain of Thought for Humans\" — 44 pts\n• [HackerNews] \"Show HN: Omnara – Open-source alternative to Claude Managed Agents\" — 32 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 12852k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 5574k views\n• [YouTube Global] \"How NOT to Jailbreak your PS5 #Sony #playstation #ps5\" by GripItByTheHusk — 3160k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 95), AI tools (score: 89), productivity tools (score: 87), automation tools (score: 82), entrepreneur (score: 82), self improvement (score: 81), AI for business (score: 80), solopreneur (score: 80), AI workflow (score: 74)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-23T03:31:54.584Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"LLMs are making formal software verification feasible at a much larger scale\" — 180 pts\n• [HackerNews] \"OpenShell – A safe, private runtime for fleets of autonomous AI agents\" — 323 pts\n• [HackerNews] \"Every AI model has the same \"controversial\" take on humans\" — 272 pts\n• [HackerNews] \"AI compute is the new oil–and needs a new market\" — 29 pts\n• [HackerNews] \"Railpass\" — 62 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 13486k views\n• [YouTube Global] \"🚨WAS $20 TOO MUCH 😭‼️Are you having a tech problem? We accept mail ins! We have a Mail-In Link\" by Digital Doctor  — 5684k views\n• [YouTube Global] \"How NOT to Jailbreak your PS5 #Sony #playstation #ps5\" by GripItByTheHusk — 3693k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 93), AI tools (score: 92), solopreneur (score: 92), entrepreneur (score: 90), self improvement (score: 87), automation tools (score: 84), productivity tools (score: 81), AI for business (score: 79), AI workflow (score: 75)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

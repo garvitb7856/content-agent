@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T03:32:36.924Z",
+  "updated_at": "2026-10-23T03:35:18.060Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -12,12 +12,12 @@
       "label": "AI idea, own script (30-60% match)"
     },
     "C": {
-      "count": 20,
-      "avgLikes": 165,
+      "count": 0,
+      "avgLikes": 0,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 165 likes. Type C: 20 posts, avg 165 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type A (AI script used (≥60% match)) performs best with avg 0 likes. Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes | Type C: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -70,33 +70,7 @@
       "transcriptFull": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get Google's Gemini Pro with all the top models. You can use Google's Nano Banana Pro and best video generation model, Veo 3.1. You also get access to Google's Pomelli, Google's Gemini Notebook, and Google AI Studio. As a bonus, it also gives you 5 TB free cloud storage. And if you want access to this gold mine, just follow me and comment"
     }
   ],
-  "your_top_captions": [
-    {
-      "likes": 2297,
-      "caption": "Comment anything to get this !",
-      "url": "https://www.instagram.com/p/DdgXitPyC5g/"
-    },
-    {
-      "likes": 112,
-      "caption": "Follow karke comment karo guys for the link ✌🏻",
-      "url": "https://www.instagram.com/p/Dd37L-bhAGZ/"
-    },
-    {
-      "likes": 99,
-      "caption": "Warning:- Dont watch this 3 minute long video if you want to live your life doom scrolling the next free ai tool and don’t want to take any actions using it \nI am not posting this reel for views I am posting it so that even if one person watches it, He learns something.",
-      "url": "https://www.instagram.com/p/DdrDPZzpx45/"
-    },
-    {
-      "likes": 96,
-      "caption": "Claude code for free !",
-      "url": "https://www.instagram.com/p/DeCVP0QyVHR/"
-    },
-    {
-      "likes": 77,
-      "caption": "Anyone can get 100 million views with this Ai content system\nIt worths 1000 dollars i am giving away to you for free for sometime now get it or Pay for it later\n\nI recreated @vaibhavsisinty entire content system and giving to you guys for free !\n\nComment “Master” to get it!\n\n#growthhacks #automation",
-      "url": "https://www.instagram.com/p/DdZNBptyRzm/"
-    }
-  ],
+  "your_top_captions": [],
   "competitor_viral_scripts": [
     {
       "handle": "thevarunmayya",
@@ -173,41 +147,41 @@
   ],
   "gemini_analysis": {
     "garvit_speaking_style": {
-      "summary": "Garvit speaks directly to the camera with an energetic, raw, and anti-gatekeeping tone tailored for Indian creators and builders. He balances utilitarian money-saving tech hacks with gritty, unfiltered personal thoughts. His delivery is confident, informal, and peer-to-peer rather than academic or polished.",
-      "sentence_structure": "short/punchy with rapid, run-on conversational transitions",
-      "language_mix": "60% English and 40% Hindi (Hinglish), using Hindi for emotional triggers, relatability, and cost framing, and English for tech terminology and hook statements",
-      "tone": "casual and rebellious",
-      "pacing": "fast, dense info with rapid problem-to-solution jumps",
+      "summary": "Garvit speaks in a direct, peer-to-peer conversational manner, blending practical hack revelations with personal vulnerability or hustle-culture motivation. He speaks straight to the camera as an everyday builder showing secrets rather than an untouchable industry authority.",
+      "sentence_structure": "Short to medium conversational bursts; transitions from punchy declarations to rapid step-by-step explanatory walkthroughs.",
+      "language_mix": "Hinglish blend (~60% Hindi / 40% English in relatable/personal videos, shifting to ~80% English with Hindi colloquial markers during tech utility teardowns).",
+      "tone": "Casual, defiant, relatable, and value-first.",
+      "pacing": "Fast and punchy; dense info delivery designed to keep watch time high without dead air.",
       "signature_phrases": [
         "stop taking AI subscriptions right now",
         "Look, here I can use",
         "you need money to make money",
-        "Cheers. This is Garvit, and you'll be seeing me again."
+        "This is Garvit, and you'll be seeing me again"
       ],
-      "what_makes_it_work": "He attacks a massive real pain point for the Indian creator economy—expensive foreign software subscriptions ($20/mo barriers)—by packaging free, open-source workarounds in relatable colloquial Hinglish."
+      "what_makes_it_work": "He taps into acute pain points—saving money on expensive AI subscriptions and democratization of tools—packaged in raw, accessible 'insider shortcut' framing."
     },
     "garvit_writing_style": {
-      "summary": "Garvit treats written captions as secondary, relying almost entirely on visual reels and on-screen audio to carry the narrative. His text footprint is built primarily around inbound comment automations rather than standalone micro-blogging.",
-      "caption_structure": "Minimalist or empty; relies on spoken hooks and on-screen text to tell viewers exactly what single word to drop in the comments.",
+      "summary": "Currently underutilized with empty or minimal written captions, relying heavily on video automation triggers. When prompted, his written text mirrors comment-to-DM lead-magnet funneling.",
+      "caption_structure": "Typically ultra-minimal or blank, letting on-screen/spoken hooks carry the weight, directly pairing with conversational DM automation keywords.",
       "cta_patterns": [
-        "comment below [KEYWORD] to get the link",
-        "just follow me and comment [KEYWORD]"
+        "comment below free to get the link",
+        "Just comment '[KEYWORD]' and I'll send you the complete guide"
       ],
-      "tone_vs_speaking": "His written tone is strictly transactional and automated, stripping away the raw personality, bravado, and Hinglish texture present in his spoken videos."
+      "tone_vs_speaking": "Written presence is purely transactional and utility-driven compared to the emotional, raw, and defiant spoken delivery on camera."
     },
     "competitor_speaking_patterns": {
-      "summary": "Viral competitors package AI around high-status case studies, tangible business workflows (D2C brands like Comet and Snitch), and structured frameworks (multi-layer mental models) rather than purely personal hacks or cost-cutting.",
+      "summary": "Competitors focus on enterprise case studies, tier breakdowns, high-status interviews, and quantifiable ROI rather than basic free tool hacks.",
       "viral_hook_patterns": [
-        "We built this [AI System] for [Viral Brand], and it's honestly going to set a new benchmark...",
-        "Stop pretending you know how to use [Tool]. Give me 60 seconds and I guarantee...",
-        "I made an AI [Agent/Tool] in just [X] minutes and the first [Action] it did blew my mind."
+        "Pattern Interrupt + Authority Gatekeeping ('Stop pretending you know how to use Claude. Give me 60 seconds...')",
+        "Real-World Brand Case Study Hook ('We built this AI agent for [Brand Name], the hottest brand in India right now...')",
+        "Extreme Output Demonstration ('I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.')"
       ],
-      "viral_body_structure": "Hook -> High-status brand or tool context -> 'Picture this' simulated scenario -> 3-4 part named framework (e.g., Gatekeeper, Judge, Ghostwriter, Closer) -> Hard business metrics (e.g., 30% to 80% cart recovery) -> Automation CTA.",
+      "viral_body_structure": "Hook -> Context/Proof Point -> Layered Framework (Layer 1 to Layer 5) or Narrative Breakdown (Problem -> Build -> Insane Result) -> Quantitative impact metric.",
       "viral_cta_patterns": [
-        "Just comment [KEYWORD] and I'll send this entire workflow and its guide straight to your DMs",
-        "Comment the word [KEYWORD] below and I'll send you a proper instructions doc right away"
+        "comment the word [KEYWORD] below and I'll send you a proper instructions doc right away",
+        "Just comment [KEYWORD] and I'll send this entire workflow and its guide straight to your DMs"
       ],
-      "key_difference_from_garvit": "Competitors position AI tools as enterprise money-makers through client case studies and structural breakdowns, whereas Garvit positions AI as consumer cost-saving bypasses and personal utilities."
+      "key_difference_from_garvit": "Competitors frame AI through commercial implementation (replacing teams, client workflows, D2C conversions) whereas Garvit predominantly focuses on cost-saving ('get subscriptions for free') or mindset shifts."
     },
     "viral_own_script_analysis": [
       {
@@ -216,66 +190,44 @@
         "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch ",
         "hook_type": "pattern_interrupt",
         "hook_length_words": 20,
-        "body_structure": "Cost contrast (₹5000-6000 vs free) -> Mechanism reveal (open-source on GitHub, API keys only) -> Social proof (10k developers starred in 3 days) -> Comment CTA.",
-        "cta": "comment below free to get the link",
+        "body_structure": "reveal -> monetary comparison (₹5-6k/mo vs free) -> technical nuance/catch (needs API key) -> social proof (10k GitHub stars) -> CTA",
+        "cta": "so tumhe bhi apne subscriptions ke paise bachane hain to comment below free to get the link",
         "script_type": "C",
-        "what_made_it_viral": "Immediate monetary pattern interrupt combined with Indian pride ('ek Indian developer ne') and massive cost-saving utility."
+        "what_made_it_viral": "Immediate financial pattern interrupt combined with national pride/relatability ('ek Indian developer ne') and concrete savings value."
       },
       {
         "rank": 2,
         "likes": 0,
         "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top m",
         "hook_type": "pattern_interrupt",
-        "hook_length_words": 24,
-        "body_structure": "Negative directive -> Visual screen proof ('Look, here I can use') -> Feature flex (Claude code, 250k tokens) -> Relatable founder pain point ('need money to make money') -> Solution comment CTA.",
-        "cta": "Just comment \"Claude\" and I'll send you the complete guide",
+        "hook_length_words": 21,
+        "body_structure": "contrarian claim -> proof on screen ('Look here') -> feature flex (Claude 3.5/tokens) -> relatable pain point ('need money to make money') -> keyword CTA",
+        "cta": "Just comment 'Claude' and I'll send you the complete guide to do",
         "script_type": "C",
-        "what_made_it_viral": "Counter-intuitive negative command ('Nobody should buy') followed immediately by visual proof and an empathetic financial truth."
+        "what_made_it_viral": "High leverage utility targeting high-demand tool (Claude) removing cost friction for developers and creators."
       },
       {
         "rank": 3,
         "likes": 0,
         "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get Go",
         "hook_type": "story",
-        "hook_length_words": 22,
-        "body_structure": "Regret hook ('I wish I knew this earlier') -> Visual evidence ('Look here') -> Value stacking (Gemini Pro, Veo 3.1, Pomelli, 5 TB storage) -> Follow + Comment CTA.",
+        "hook_length_words": 19,
+        "body_structure": "regret hook -> rapid stack of free features (Gemini Pro, Veo, 5TB storage) -> frictionless DM CTA",
         "cta": "just follow me and comment",
         "script_type": "C",
-        "what_made_it_viral": "FOMO trigger combined with relentless value-stacking of premium features (especially the 5 TB storage bonus)."
-      },
-      {
-        "rank": 4,
-        "likes": 0,
-        "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10. Khair us waqt to ho nahi paya but I'm starti",
-        "hook_type": "story",
-        "hook_length_words": 25,
-        "body_structure": "Childhood dream story -> Direct address to haters/cynics -> Vulnerability about posting consistency -> Philosophy ('Jack of all trades') -> Defiant sign-off.",
-        "cta": "None (Branded sign-off: 'This is Garvit, and you'll be seeing me again.')",
-        "script_type": "C",
-        "what_made_it_viral": "Raw authenticity, zero pretense, and direct callout of internal/external self-doubt that aspiring creators resonate with."
-      },
-      {
-        "rank": 5,
-        "likes": 0,
-        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan. I a",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 24,
-        "body_structure": "Celebrity name-drop montage -> Common denominator reveal ('I am the best') -> Viewer contrast/callout -> Subconscious mind explanation -> Bruce Lee 5 affirmations -> Manifestation conclusion.",
-        "cta": "None",
-        "script_type": "C",
-        "what_made_it_viral": "High-authority pattern interrupt using cultural titans in India (Kohli, SRK, Ronaldo) connected directly to mindset psychology."
+        "what_made_it_viral": "Classic 'I wish I knew this earlier' FOMO angle paired with stacking overwhelming perceived value (5TB storage + elite models)."
       }
     ],
     "verdict": {
       "whose_style_goes_viral": "Hybrid",
-      "reasoning": "Garvit's Type C original content drives all his baseline traction because his unfiltered Hinglish delivery and focus on bypassing subscription fees hit the exact economic nerve of Indian Gen-Z tech enthusiasts. However, to scale past standard utility hacks and reach the viral heights of Aryaman and Arshman, he must fuse his relatable cost-saving delivery with competitor-style proof-of-work (showing real multi-step agent workflows, client deployments, and structured tier breakdowns).",
-      "recommended_hook_structure": "[Negative Command / Pattern Interrupt]: 'Stop paying for [Tool/Subscription] right now. [Indian Context / Secret Method] ne ise completely free kar diya hai.' OR 'Stop pretending you know how to build with [AI Tool]. Look at this screen.'",
-      "recommended_body_structure": "Visual Evidence ('Look, here...') -> Feature Stack or Named 3-Step Framework -> Economic Reality Check ('You need money to make money, but...') -> Live Walkthrough / Demo in under 20 seconds.",
-      "recommended_cta_structure": "Comment '[KEYWORD]' below and I'll send you the exact [workflow / free setup guide / GitHub prompt] directly to your DMs.",
+      "reasoning": "Garvit's highest-converting innate trait is direct-to-camera accessibility and cost-saving hacks for Indian builders. However, to scale past tool-level tips, he must adopt competitor frameworks: structuring videos into actionable multi-step workflows, business applications, and automated ManyChat CTAs rather than general mindset or broad utility hacks.",
+      "recommended_hook_structure": "[Stop Doing X / Contrarian Command] + [Quantifiable Dollar/Time Loss] + [Specific High-Demand Tool/Entity] (e.g., 'Stop paying ₹2,000 for Claude. I found a backend trick that gives you unlimited tokens without paying a single rupee.')",
+      "recommended_body_structure": "Step 1: On-screen visual proof immediately at 0:03 ('Look right here...'). Step 2: High-density 3-part breakdown/workflow. Step 3: Quantified outcome (Saved ₹5,000 / Automated 80% work).",
+      "recommended_cta_structure": "Clear, single-word ManyChat DM trigger tied to an explicit guide or workflow: 'Comment [TOOL] and I’ll DM you the direct template and setup guide.'",
       "avoid_these": [
-        "Pure philosophical rants or generic mindset reels without tangible tech utility or demonstration",
-        "Vague 'I don't know what to post' diary entries that lack an actionable takeaway for the viewer",
-        "Promising free access to paid models without immediately showing screen proof in the first 3 seconds"
+        "Vague philosophical mindset rants without tactical application (Script 2 & 3 style)",
+        "Generic 'I am Jack of all trades / don't know what to post' diary entries",
+        "Leaving caption section completely empty without keyword indexing or SEO context"
       ]
     }
   }

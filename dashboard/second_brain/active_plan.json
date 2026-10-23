@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-22",
-  "end_date": "2026-10-29",
+  "generated_on": "2026-10-23",
+  "end_date": "2026-10-30",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-22",
-      "topic": "Un-Brokeing India: Selling WhatsApp AI booking bots to local salons",
+      "date": "2026-10-23",
+      "topic": "The Indian AI Agency Tier List (Why voice calling bots are dead vs high-retainer sentiment workflows)",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Can I make 25,000 selling WhatsApp AI to local salons?",
+      "post_time": "7:15 PM IST",
+      "hook": "Stop selling cold calling bots to Indian businesses.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-23",
-      "topic": "The exact 5-tool tech stack to run a $10k/month AI agency",
+      "date": "2026-10-24",
+      "topic": "Prompt Motion: Step-by-step guide to generating product animations in Claude without After Effects",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "The exact tech stack behind our $10k AI agency.",
+      "post_time": "6:45 PM IST",
+      "hook": "Claude can now build motion graphics without After Effects.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-24",
-      "topic": "How Indian D2C brand Comet used an AI agent to fix comment section churn",
+      "date": "2026-10-25",
+      "topic": "How Comet uses an automated AI recovery agent to neutralize angry comments during product drops",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "How India's viral sneaker brand stopped losing sales to comments.",
+      "post_time": "7:45 PM IST",
+      "hook": "This AI agent saved an Indian sneaker brand lakhs.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-25",
-      "topic": "Sahil Lavingia's 10-Skill Pack for running a business using ChatGPT",
+      "date": "2026-10-26",
+      "topic": "Reverse API Engineer: How to extract data from gated platforms using Claude Code for free",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "10 free AI skills to run a business from scratch.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop paying for scraping tools; build custom APIs free.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-26",
-      "topic": "Reverse API Engineer: Turning gated websites into free APIs with Claude Code",
+      "date": "2026-10-27",
+      "topic": "The OpenAI Espionage Case: How an insider planted hardware behind an executive boardroom TV",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "Stop paying for scraping APIs. Turn any site free.",
+      "post_time": "6:30 PM IST",
+      "hook": "An OpenAI engineer just got arrested by the FBI.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-27",
-      "topic": "NPUs vs CPUs: What is an AI PC and why 87% of businesses are upgrading",
+      "date": "2026-10-28",
+      "topic": "Gumroad founder’s 10-skill prompt system to validate and launch a business inside Claude",
       "format": "Carousel",
       "post_time": "7:30 PM IST",
-      "hook": "Why 87% of companies are throwing away normal PCs.",
+      "hook": "Gumroad's founder leaked his exact ten AI startup skills.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-28",
-      "topic": "Automating Google Maps cafe leads into auto-generated landing page pitches",
+      "date": "2026-10-29",
+      "topic": "Building a free browser-based 3D studio lighting simulator using Replit",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "How to turn Google Maps cafes into paying web clients.",
+      "post_time": "8:00 PM IST",
+      "hook": "Simulate your entire studio lighting using free browser code.",
       "status": "pending"
     }
   ]
