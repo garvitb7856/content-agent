@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:31:54.612Z",
+  "updated_at": "2026-10-24T03:32:28.934Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2373,8 +2373,44 @@
       "verdict": "medium",
       "transcribed_at": "2026-10-20T04:00:18.844Z",
       "scraped_at": "2026-10-22T03:31:51.483Z"
+    },
+    {
+      "id": "4011906669410447017_24040950",
+      "account": "@arshman",
+      "url": "https://www.instagram.com/p/DetJ9weOu6p/",
+      "topic": "General Tech",
+      "format": "Video",
+      "spoken_hook": "The car behind me is the flying car, and it's the all-new Tesla Roadster.  You might have already seen the demo where this car is literally flying, and you can see it doing some cool stunts.  But I'm gonna show you how this car actually works.",
+      "full_script": "The car behind me is the flying car, and it's the all-new Tesla Roadster. You might have already seen the demo where this car is literally flying, and you can see it doing some cool stunts. But I'm gonna show you how this car actually works. So, in the back of the car, there's a huge tank of air squeezed to very high pressure, and you can open the valve from this giant tablet that blasts air out of nozzles aimed at the ground. In short, high-pressure air goes down, so the car goes up. And that's exactly what Newton's third law says. They lift the car, flip the car in mid-air, and fire again to make the landing smooth. However, this upside-down stunt has a totally different trick. So, there are fans under the car that suck air out from under the car, just like vacuums. With extremely high suction, the car can even stay upside down. Yeah, I mean this car really sucks. So, the car will be released to public in 2028. So, follow me for more tech and AI updates.",
+      "full_caption": "I must say, the drive is super smooth like a flying car. Oh wait.. it actually flies! Lol\n\nWhen the Tesla Roadster was first launched in 2020, it instantly became my dream car. But Elon pulled an Elon and unfortunately it was never launched.\n\nHey, but here we are with this ALL-NEW TESLA ROADSTER!!\n\n",
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps",
+      "likes": 67835,
+      "comments": 240,
+      "engagement_rate": 18.26,
+      "verdict": "viral",
+      "transcribed_at": "2026-10-22T03:51:19.171Z",
+      "scraped_at": "2026-10-24T03:32:28.930Z"
+    },
+    {
+      "id": "3964768101860691672_24040950",
+      "account": "@arshman",
+      "url": "https://www.instagram.com/p/DcFr5UYNM7Y/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "You can now make 3D websites for absolutely free, and you don't even need to use Figma or learn how to code.  So this tool is called Open Design.  It's basically a free alternative to Claude Design, and this is how you can install and use it.",
+      "full_script": "You can now make 3D websites for absolutely free, and you don't even need to use Figma or learn how to code. So this tool is called Open Design. It's basically a free alternative to Claude Design, and this is how you can install and use it. So go to this website and download the desktop version. Now open the execution settings, and you can see all installed CLIs available to use. Now select Open Code and choose any free model to use. By the way, to install and set up Open Code for free, watch this reel. Once installed, select any free model, and just tell it what you want right inside the canvas, where you can keep prompting and keep refining your design until your design looks exactly how you want. Not only that, but you can also make app prototypes, slide decks, and even motion graphics, all in the same place for free. So if you want to try it out, just comment design, and I'll send you the link.",
+      "full_caption": "Make premium websites for absolutely FREE! \nYou don’t even need Figma or know how to code. \nThis tool is called Open Design. \nIt’s basically a free alternative to Claude Design\n\nAnd here’s how to install and use it.\n\nGo to Open Design and download the desktop version.\n\nOpen the execution settings an",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 2339,
+      "comments": 1401,
+      "engagement_rate": 1,
+      "verdict": "medium",
+      "transcribed_at": "2026-09-18T03:51:49.876Z",
+      "scraped_at": "2026-10-24T03:32:28.930Z"
     }
   ],
-  "total": 143,
-  "transcript_based": 76
+  "total": 145,
+  "transcript_based": 78
 }

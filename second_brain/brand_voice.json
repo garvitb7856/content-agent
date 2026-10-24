@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:35:18.060Z",
+  "updated_at": "2026-10-24T03:34:30.357Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -12,12 +12,12 @@
       "label": "AI idea, own script (30-60% match)"
     },
     "C": {
-      "count": 0,
-      "avgLikes": 0,
+      "count": 20,
+      "avgLikes": 166,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type A (AI script used (≥60% match)) performs best with avg 0 likes. Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes | Type C: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 166 likes. Type C: 20 posts, avg 166 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -70,7 +70,33 @@
       "transcriptFull": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get Google's Gemini Pro with all the top models. You can use Google's Nano Banana Pro and best video generation model, Veo 3.1. You also get access to Google's Pomelli, Google's Gemini Notebook, and Google AI Studio. As a bonus, it also gives you 5 TB free cloud storage. And if you want access to this gold mine, just follow me and comment"
     }
   ],
-  "your_top_captions": [],
+  "your_top_captions": [
+    {
+      "likes": 2300,
+      "caption": "Comment anything to get this !",
+      "url": "https://www.instagram.com/p/DdgXitPyC5g/"
+    },
+    {
+      "likes": 112,
+      "caption": "Follow karke comment karo guys for the link ✌🏻",
+      "url": "https://www.instagram.com/p/Dd37L-bhAGZ/"
+    },
+    {
+      "likes": 100,
+      "caption": "Warning:- Dont watch this 3 minute long video if you want to live your life doom scrolling the next free ai tool and don’t want to take any actions using it \nI am not posting this reel for views I am posting it so that even if one person watches it, He learns something.",
+      "url": "https://www.instagram.com/p/DdrDPZzpx45/"
+    },
+    {
+      "likes": 96,
+      "caption": "Claude code for free !",
+      "url": "https://www.instagram.com/p/DeCVP0QyVHR/"
+    },
+    {
+      "likes": 83,
+      "caption": "You don’t need to pay for any Ai voice \nComment me down below and i will share it with you !\n\n#claudecode #elevenlabs #voicecloning #aiagents #freeaitools",
+      "url": "https://www.instagram.com/p/DeywXmaSJ14/"
+    }
+  ],
   "competitor_viral_scripts": [
     {
       "handle": "thevarunmayya",
@@ -145,90 +171,5 @@
       "transcriptFull": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-to-end marketing. So let me show you how you can create AI employees for your business or a client completely free. So go to Claude and then click on customize. Navigate to Skills section and create a skill with Claude. Create a skill of a senior creative director for video ads. And then next employee. Create a skill for an expert Seedance 2.0 prompt engineer who will take directions from a creative director skill and provide JSON prompt for Seedance 2.0. So basically Claude will take 5 to 10 minutes and create a detailed set of instructions for each employee and will provide you with the skill.md file which you can add by clicking here. Now to run both employees to work as a team, you have to upload your product image and then prompt. Use a creative director skill to create a cinematic ad for this product and use this link to gather information and pass requirements to Seedance 2.0 prompt engineer. Now these two employees will figure out themselves that whose task is to perform what. The creative director is performing its job to produce end-to-end ad direction, and then he gave it to Seedance 2.0 prompt engineer to create a prompt. Now it is generating a detailed prompt that you can copy and paste it into Seedance 2.0. And here's the final ad."
     }
   ],
-  "gemini_analysis": {
-    "garvit_speaking_style": {
-      "summary": "Garvit speaks in a direct, peer-to-peer conversational manner, blending practical hack revelations with personal vulnerability or hustle-culture motivation. He speaks straight to the camera as an everyday builder showing secrets rather than an untouchable industry authority.",
-      "sentence_structure": "Short to medium conversational bursts; transitions from punchy declarations to rapid step-by-step explanatory walkthroughs.",
-      "language_mix": "Hinglish blend (~60% Hindi / 40% English in relatable/personal videos, shifting to ~80% English with Hindi colloquial markers during tech utility teardowns).",
-      "tone": "Casual, defiant, relatable, and value-first.",
-      "pacing": "Fast and punchy; dense info delivery designed to keep watch time high without dead air.",
-      "signature_phrases": [
-        "stop taking AI subscriptions right now",
-        "Look, here I can use",
-        "you need money to make money",
-        "This is Garvit, and you'll be seeing me again"
-      ],
-      "what_makes_it_work": "He taps into acute pain points—saving money on expensive AI subscriptions and democratization of tools—packaged in raw, accessible 'insider shortcut' framing."
-    },
-    "garvit_writing_style": {
-      "summary": "Currently underutilized with empty or minimal written captions, relying heavily on video automation triggers. When prompted, his written text mirrors comment-to-DM lead-magnet funneling.",
-      "caption_structure": "Typically ultra-minimal or blank, letting on-screen/spoken hooks carry the weight, directly pairing with conversational DM automation keywords.",
-      "cta_patterns": [
-        "comment below free to get the link",
-        "Just comment '[KEYWORD]' and I'll send you the complete guide"
-      ],
-      "tone_vs_speaking": "Written presence is purely transactional and utility-driven compared to the emotional, raw, and defiant spoken delivery on camera."
-    },
-    "competitor_speaking_patterns": {
-      "summary": "Competitors focus on enterprise case studies, tier breakdowns, high-status interviews, and quantifiable ROI rather than basic free tool hacks.",
-      "viral_hook_patterns": [
-        "Pattern Interrupt + Authority Gatekeeping ('Stop pretending you know how to use Claude. Give me 60 seconds...')",
-        "Real-World Brand Case Study Hook ('We built this AI agent for [Brand Name], the hottest brand in India right now...')",
-        "Extreme Output Demonstration ('I made an AI calling agent in just 20 minutes and the first call it made, I could not believe what happened.')"
-      ],
-      "viral_body_structure": "Hook -> Context/Proof Point -> Layered Framework (Layer 1 to Layer 5) or Narrative Breakdown (Problem -> Build -> Insane Result) -> Quantitative impact metric.",
-      "viral_cta_patterns": [
-        "comment the word [KEYWORD] below and I'll send you a proper instructions doc right away",
-        "Just comment [KEYWORD] and I'll send this entire workflow and its guide straight to your DMs"
-      ],
-      "key_difference_from_garvit": "Competitors frame AI through commercial implementation (replacing teams, client workflows, D2C conversions) whereas Garvit predominantly focuses on cost-saving ('get subscriptions for free') or mindset shifts."
-    },
-    "viral_own_script_analysis": [
-      {
-        "rank": 1,
-        "likes": 0,
-        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch ",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 20,
-        "body_structure": "reveal -> monetary comparison (₹5-6k/mo vs free) -> technical nuance/catch (needs API key) -> social proof (10k GitHub stars) -> CTA",
-        "cta": "so tumhe bhi apne subscriptions ke paise bachane hain to comment below free to get the link",
-        "script_type": "C",
-        "what_made_it_viral": "Immediate financial pattern interrupt combined with national pride/relatability ('ek Indian developer ne') and concrete savings value."
-      },
-      {
-        "rank": 2,
-        "likes": 0,
-        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top m",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 21,
-        "body_structure": "contrarian claim -> proof on screen ('Look here') -> feature flex (Claude 3.5/tokens) -> relatable pain point ('need money to make money') -> keyword CTA",
-        "cta": "Just comment 'Claude' and I'll send you the complete guide to do",
-        "script_type": "C",
-        "what_made_it_viral": "High leverage utility targeting high-demand tool (Claude) removing cost friction for developers and creators."
-      },
-      {
-        "rank": 3,
-        "likes": 0,
-        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get Go",
-        "hook_type": "story",
-        "hook_length_words": 19,
-        "body_structure": "regret hook -> rapid stack of free features (Gemini Pro, Veo, 5TB storage) -> frictionless DM CTA",
-        "cta": "just follow me and comment",
-        "script_type": "C",
-        "what_made_it_viral": "Classic 'I wish I knew this earlier' FOMO angle paired with stacking overwhelming perceived value (5TB storage + elite models)."
-      }
-    ],
-    "verdict": {
-      "whose_style_goes_viral": "Hybrid",
-      "reasoning": "Garvit's highest-converting innate trait is direct-to-camera accessibility and cost-saving hacks for Indian builders. However, to scale past tool-level tips, he must adopt competitor frameworks: structuring videos into actionable multi-step workflows, business applications, and automated ManyChat CTAs rather than general mindset or broad utility hacks.",
-      "recommended_hook_structure": "[Stop Doing X / Contrarian Command] + [Quantifiable Dollar/Time Loss] + [Specific High-Demand Tool/Entity] (e.g., 'Stop paying ₹2,000 for Claude. I found a backend trick that gives you unlimited tokens without paying a single rupee.')",
-      "recommended_body_structure": "Step 1: On-screen visual proof immediately at 0:03 ('Look right here...'). Step 2: High-density 3-part breakdown/workflow. Step 3: Quantified outcome (Saved ₹5,000 / Automated 80% work).",
-      "recommended_cta_structure": "Clear, single-word ManyChat DM trigger tied to an explicit guide or workflow: 'Comment [TOOL] and I’ll DM you the direct template and setup guide.'",
-      "avoid_these": [
-        "Vague philosophical mindset rants without tactical application (Script 2 & 3 style)",
-        "Generic 'I am Jack of all trades / don't know what to post' diary entries",
-        "Leaving caption section completely empty without keyword indexing or SEO context"
-      ]
-    }
-  }
+  "gemini_analysis": {}
 }

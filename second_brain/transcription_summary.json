@@ -1,12 +1,28 @@
 {
-  "updated_at": "2026-10-23T03:35:18.856Z",
-  "total_videos_in_data": 0,
-  "transcribed_done": 265,
+  "updated_at": "2026-10-24T04:04:51.501Z",
+  "total_videos_in_data": 173,
+  "transcribed_done": 273,
   "pending_queue": 0,
-  "stored_transcripts": 265,
-  "transcribed_ids_count": 328,
-  "succeeded": 0,
-  "failed": 0,
-  "skipped": 0,
-  "errors": []
+  "stored_transcripts": 273,
+  "transcribed_ids_count": 338,
+  "succeeded": 8,
+  "failed": 3,
+  "skipped": 146,
+  "errors": [
+    {
+      "id": "4014367220304758543_72269881052",
+      "url": "https://instagram.fluh1-4.fna.fbcdn.net/o1/v/t2/f2/m86/AQNxHk-G9C8L5aC8bkPmpPxjGr-bEcasa2OSjppuRL6NJmAEBVdUpdYInxCXkFeM0hpj3vd7dT9WoOrZa06FmeDTdkTpkeWMk3Pjm1c.mp4?_nc_cat=100&_nc_oc=AdqiQrssNOojFNeB3XNIOfGE9Ca-2zPINUiHQ5HRXs2atZMhPezFiE7T04ar3v6HzybEFBp5MgsZTcA7QkJN7P82&_nc_sid=5e9851&_nc_ht=instagram.fluh1-4.fna.fbcdn.net&_nc_ohc=dlsutNqJJEAQ7kNvwGdyUhB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjg0MDUzNTM1OTkxMzUwODQsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a826feb82f4e7972&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85RUVCQTYxQjg5REM0NkFBQTU4MkQ2MkUxMjUwOTQ2M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdCMDlCRENGOTFCODQyNjE4NkFBNjlGQzFFQzhGQzIwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbYtfevmKH1ZBUCKAJDMywXQEC3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iyYVaa-kOJ89CdCuBSOHFA&_nc_ss=7a20f&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQOQnd-OKb6IkGvEGpVIicIY7xcVlDeFKfI7ohby5wAHqw&oe=6ADE01E1",
+      "reason": "Request failed with status code 403"
+    },
+    {
+      "id": "4013663680770997867_72269881052",
+      "url": "https://instagram.fluh1-3.fna.fbcdn.net/o1/v/t2/f2/m86/AQOF-OYeosf_oO3HD6au2f2ge0KCL1Y08FVNVRn801JRG7VAFm3f1MFiV197sYZoo0JK5vHseGZpn0M5AmS-aI3MmqlRanUJLi1FiX4.mp4?_nc_cat=101&_nc_oc=AdrLmypnnWvfyOeHR9Vyi4oMfCTspsh0fieeAAjanPPtE3bDNPVwRcPvxfVIxDrXjMzvxzqJFjPYS8g-pKajRw86&_nc_sid=5e9851&_nc_ht=instagram.fluh1-3.fna.fbcdn.net&_nc_ohc=VzCTv6MEcccQ7kNvwHpWN46&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTE0NjI5Mjc0MTY3MDExMiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=881cff05b0e232ed&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GNkU0RDNGNzYwMjA0Q0JFQURGODA1NDRCNzQ4RjIyQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JCNjk0M0EyOThBRTQ0QTg4ODE2MTUzQjVDODY5NzM0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbAk-i6gqOJBBUCKAJDMywXQEEEOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iyYVaa-kOJ89CdCuBSOHFA&_nc_ss=7a20f&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQMCtWjPVDbAk_Xpl8K1FtPBYbsFP77j20L8w4nq1rnUQw&oe=6ADDFDD2",
+      "reason": "timeout of 150000ms exceeded"
+    },
+    {
+      "id": "4013619338058671522_26526554234",
+      "url": "https://scontent-hou1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNSf01gR7GhdcoO1lENmXxbmWj958bM5pRjIZ3GSHTQBvCxqaM9vy8ja7gglesyYA4-nkdrq2TBWEJvfV8fM6-3WyRoKlgWyccpNFA.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_ohc=3Gjgapw7pYIQ7kNvwHbZaWR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTExMzEyMDMyMTQ1MTUxNiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=61ae03c5a1fbaa72&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FMUNBMjA5MTk0ODA0QUVBQkU0RkM5RjAxMzlDMUZEOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzhGMzg5NDE3QzQxMjQ2Mzg5OUY4QTExRThBMTUyQTNGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb419HVkJj6AxUCKAJDMywXQFBCHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=EgyDqKG6Rbe8drw0UpZGYw&_nc_ss=7a20f&_nc_zt=28&oh=00_AQOLuWYG7dyF-MFojK6AfGWwg8GsIF06F9x8n3dijR22BQ&oe=6ADE0912",
+      "reason": "Request failed with status code 403"
+    }
+  ]
 }

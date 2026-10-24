@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-23",
-  "end_date": "2026-10-30",
+  "generated_on": "2026-10-24",
+  "end_date": "2026-10-31",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-23",
-      "topic": "The Indian AI Agency Tier List (Why voice calling bots are dead vs high-retainer sentiment workflows)",
+      "date": "2026-10-24",
+      "topic": "The Solopreneur Stack That Replaces a 5-Person Agency",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop selling cold calling bots to Indian businesses.",
+      "post_time": "6:30 PM IST",
+      "hook": "Paying 50,000 for an agency? You are getting robbed.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-24",
-      "topic": "Prompt Motion: Step-by-step guide to generating product animations in Claude without After Effects",
+      "date": "2026-10-25",
+      "topic": "5 Free Prompts to Turn Claude into a UI Carousel Designer",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Claude can now build motion graphics without After Effects.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop paying for Canva when Claude designs carousels free.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-25",
-      "topic": "How Comet uses an automated AI recovery agent to neutralize angry comments during product drops",
+      "date": "2026-10-26",
+      "topic": "How to Extract Local Business Leads from Google Maps to Sell AI Websites",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "This AI agent saved an Indian sneaker brand lakhs.",
+      "post_time": "7:30 PM IST",
+      "hook": "How to find client leads on Google Maps in minutes.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-26",
-      "topic": "Reverse API Engineer: How to extract data from gated platforms using Claude Code for free",
+      "date": "2026-10-27",
+      "topic": "The Indian AI Automation Tier List: High Retainers vs Low-Value Services",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Stop paying for scraping tools; build custom APIs free.",
+      "post_time": "6:45 PM IST",
+      "hook": "Stop selling low-value AI services to Indian local clients.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-27",
-      "topic": "The OpenAI Espionage Case: How an insider planted hardware behind an executive boardroom TV",
+      "date": "2026-10-28",
+      "topic": "How to Turn Any Website into a Free API Using Reverse API Engineer",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "An OpenAI engineer just got arrested by the FBI.",
+      "post_time": "8:00 PM IST",
+      "hook": "Stop paying for scraping tools; build APIs for free.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-28",
-      "topic": "Gumroad founder’s 10-skill prompt system to validate and launch a business inside Claude",
+      "date": "2026-10-29",
+      "topic": "Why Working Hard Early in Your Career is Overrated (Focusing on Leverage)",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Gumroad's founder leaked his exact ten AI startup skills.",
+      "post_time": "7:15 PM IST",
+      "hook": "Working 80 hours a week won't make you rich.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-29",
-      "topic": "Building a free browser-based 3D studio lighting simulator using Replit",
+      "date": "2026-10-30",
+      "topic": "How Higgsfield Katana Adds Cinematic Motion Graphics to Videos via Claude",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Simulate your entire studio lighting using free browser code.",
+      "post_time": "8:30 PM IST",
+      "hook": "This free tool turns Claude into a video editor.",
       "status": "pending"
     }
   ]
