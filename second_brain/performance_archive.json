@@ -1253,6 +1253,41 @@
         "analysedAt": "2026-10-19T03:37:05.266Z"
       },
       "updatedAt": "2026-10-20T03:33:43.833Z"
+    },
+    {
+      "id": "4013482945964187000_65880404765",
+      "shortCode": "DeywXmaSJ14",
+      "caption": "You don’t need to pay for any Ai voice \nComment me down below and i will share it with you !\n\n#claudecode #elevenlabs #voicecloning #aiagents #freeaitools",
+      "url": "https://www.instagram.com/p/DeywXmaSJ14/",
+      "postedAt": "2026-10-22T10:26:43.000Z",
+      "archivedAt": "2026-10-25T03:31:40.819Z",
+      "format": "Video",
+      "topics": [
+        "ai",
+        "claude",
+        "tool",
+        "free",
+        "agent"
+      ],
+      "finalLikes": 85,
+      "finalComments": 24,
+      "engagementRate": 1.11,
+      "hookText": "You don’t need to pay for any Ai voice \nComment me down below and i will share i",
+      "postId": "4013482945964187000_65880404765",
+      "postUrl": "https://www.instagram.com/p/DeywXmaSJ14/",
+      "likes_at_48h": 85,
+      "comments_at_48h": 24,
+      "engagement_at_48h": 1.11,
+      "followers_at_post": 9819,
+      "scriptSimilarity": 0,
+      "diffAnalysis": {
+        "type": "original_content",
+        "method": "embedding",
+        "similarityScore": 11,
+        "summary": "Original content — no significant match to any generated script.",
+        "analysedAt": "2026-10-25T03:32:30.187Z"
+      },
+      "updatedAt": "2026-10-25T03:31:42.695Z"
     }
   ]
 }

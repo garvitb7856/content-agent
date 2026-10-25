@@ -1,48 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "The Solopreneur Stack That Replaces a 5-Person Agency",
-    "hook": "If you are paying 50,000 a month to an agency for content and ads, you are getting robbed by automation.",
+    "title": "Hacking Smart TVs to Remove Ads with Claude",
+    "hook": "People are literally using Claude Code to wipe all ads, bloatware, and spyware off their Smart TVs in under 2 minutes.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Taps into high-performing business cost-saving hooks with proven competitor frameworks in the Indian entrepreneurship niche. Ranked 1 due to strong financial leverage angle combined with zero-cost automation appeal.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": ""
+    "reasoning": "Nick Saraev (719k followers) generated over 72,000 likes with this exact post, far exceeding the 25k mega-account viral threshold. It addresses a universal consumer annoyance using accessible Claude automation.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/De3s5v3vIzE/"
   },
   {
-    "title": "Turning Google Maps Data into Local Business Leads",
-    "hook": "Aaj main tumhe dikhata hoon kaise Google Maps se local businesses ke leads nikal ke unko AI website bech sakte ho.",
+    "rank": 2,
+    "title": "The 'Un-Broke-ing India' WhatsApp Bot Breakdown",
+    "hook": "Can you actually make ₹50,000 in India building simple WhatsApp AI bots for local clinics? I tested it step-by-step.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Remixes successful competitor execution patterns from @favourite.engineer and @dhavalkataria_ tailored for Indian freelancers. Ranked 2 for delivering high utility and clear step-by-step monetization potential.",
+    "reasoning": "Dhaval Kataria (57k followers) achieved 78k+ likes on this series, blowing past the 3,000 medium-account virality threshold. Translating this experiment format into Indian AI automation fits Garvit's audience perfectly.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
+  },
+  {
+    "rank": 3,
+    "title": "Why Ben Affleck Learns Python & CNNs",
+    "hook": "When Hollywood actors like Ben Affleck are learning Python, convolutional neural networks, and GPU setups, you know tech skills are non-negotiable.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Varun Mayya scored over 185,000 likes on this topic, vastly exceeding the 25k mega-account threshold. Bridges A-list celebrity culture directly into core software engineering interest.",
     "niche": "AI",
     "sourceUrl": ""
   },
   {
-    "title": "Why Working Hard Early in Your Career is Overrated",
-    "hook": "Working hard early in your career is completely overrated. Hear me out—working hard has never made anyone rich without leverage.",
+    "rank": 4,
+    "title": "Google Artemis: AI That Controls Real Phones",
+    "hook": "Google silent-dropped an open-source AI tool called Artemis that actually taps on your phone screen, opens apps, and completes tasks like a human.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Directly mirrors high-performing controversial career hooks used by creators like @vaibhavsisinty to spark comment engagement. Ranked 3 for challenging conventional middle-class Indian career mindsets.",
-    "niche": "Self-growth",
-    "sourceUrl": ""
+    "reasoning": "Nick Saraev's coverage of Google's mobile automation agent trended heavily, easily beating account virality benchmarks. On-device screen automation is a high-demand topic among tech builders.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/De15bfEPMcP/"
   },
   {
-    "title": "Unboxing Milestones: Why Working for Parents Matters",
-    "hook": "Money will come and go, but unboxing your first luxury car for your parents at 25 is a feeling you can't buy.",
+    "rank": 5,
+    "title": "The ASD-STE100 Prompting Formula Explained",
+    "hook": "Aerospace engineers use a standardized language trick called ASD-STE100, and when you plug it into Claude, your AI output quality triples instantly.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Leverages proven emotional milestone storytelling from @ishansharma7390 that consistently drives massive organic shares and saves. Ranked 4 for high emotional resonance in the Indian creator ecosystem.",
-    "niche": "Self-growth",
-    "sourceUrl": ""
-  },
-  {
-    "title": "Testing Raj Shamani's Business Idea in 24 Hours",
-    "hook": "Can I make 50,000 Rupees using Raj Shamani's business idea? Let's find out on Episode 1 of Unbrokeing India.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Leans into proven challenge-based viral formats popularized by @dhavalkataria_ within the Indian entrepreneurship context. Ranked 5 for high narrative tension and proven audience retention.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": ""
+    "reasoning": "Inspired by Favourite Engineer's viral prompt breakdown format, which far surpassed baseline engagement. Technical prompting hacks yield exceptionally high save and bookmark rates.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/De1XXwfTGbw/"
   }
 ]

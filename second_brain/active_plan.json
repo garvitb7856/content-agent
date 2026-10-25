@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-24",
-  "end_date": "2026-10-31",
+  "generated_on": "2026-10-25",
+  "end_date": "2026-11-01",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-24",
-      "topic": "The Solopreneur Stack That Replaces a 5-Person Agency",
+      "date": "2026-10-25",
+      "topic": "Hacking Smart TVs with Claude Code to remove all ads and bloatware",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Paying 50,000 for an agency? You are getting robbed.",
+      "post_time": "7:15 PM IST",
+      "hook": "People are wiping all TV ads using Claude right now.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-25",
-      "topic": "5 Free Prompts to Turn Claude into a UI Carousel Designer",
+      "date": "2026-10-26",
+      "topic": "The ASD-STE100 Aerospace Prompting Formula for 3x AI Output Quality",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Stop paying for Canva when Claude designs carousels free.",
+      "post_time": "6:45 PM IST",
+      "hook": "This aerospace prompt trick triples your AI output quality.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-26",
-      "topic": "How to Extract Local Business Leads from Google Maps to Sell AI Websites",
+      "date": "2026-10-27",
+      "topic": "Google Artemis: Open-Source AI Agent that Controls Real Mobile Phones",
       "format": "Reel",
       "post_time": "7:30 PM IST",
-      "hook": "How to find client leads on Google Maps in minutes.",
+      "hook": "Google built an AI that actually controls your phone screen.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-27",
-      "topic": "The Indian AI Automation Tier List: High Retainers vs Low-Value Services",
+      "date": "2026-10-28",
+      "topic": "Step-by-Step Breakdown: Building ₹50k/mo WhatsApp AI Bots for Local Clinics",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Stop selling low-value AI services to Indian local clients.",
+      "post_time": "6:30 PM IST",
+      "hook": "How to make 50 thousand rupees building WhatsApp bots.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-28",
-      "topic": "How to Turn Any Website into a Free API Using Reverse API Engineer",
+      "date": "2026-10-29",
+      "topic": "Higgsfield Katana Integration: Adding Motion Graphics inside Claude Code",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Stop paying for scraping tools; build APIs for free.",
+      "post_time": "7:45 PM IST",
+      "hook": "Claude can now auto-edit your videos with motion graphics.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-29",
-      "topic": "Why Working Hard Early in Your Career is Overrated (Focusing on Leverage)",
+      "date": "2026-10-30",
+      "topic": "The Ultimate AI Tool Tier List for 2025 (Coding, Content, & Research)",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Working 80 hours a week won't make you rich.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop using the wrong AI tools for your work.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-30",
-      "topic": "How Higgsfield Katana Adds Cinematic Motion Graphics to Videos via Claude",
+      "date": "2026-10-31",
+      "topic": "Why Celebrities and Founders are Learning Python and GPU Architectures",
       "format": "Reel",
-      "post_time": "8:30 PM IST",
-      "hook": "This free tool turns Claude into a video editor.",
+      "post_time": "6:30 PM IST",
+      "hook": "Why top Hollywood actors are secretly learning Python today.",
       "status": "pending"
     }
   ]

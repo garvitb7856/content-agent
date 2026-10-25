@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T03:32:28.934Z",
+  "updated_at": "2026-10-25T03:31:42.676Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2409,8 +2409,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-09-18T03:51:49.876Z",
       "scraped_at": "2026-10-24T03:32:28.930Z"
+    },
+    {
+      "id": "4012157496597740459_26526554234",
+      "account": "@ishansharma7390",
+      "url": "https://www.instagram.com/p/DeuC_xfoPur/",
+      "topic": "Monetization",
+      "format": "Video",
+      "spoken_hook": "Guys, money will come and go, but you will never be 25 unboxing your very first Mercedes for your parents.  Let's make it happen.  Mercedes ke is sitare ki tarah mera beta bhi aise hi chamakta rahe.",
+      "full_script": "Guys, money will come and go, but you will never be 25 unboxing your very first Mercedes for your parents. Let's make it happen. Mercedes ke is sitare ki tarah mera beta bhi aise hi chamakta rahe.",
+      "full_caption": "FINALLY we GOT IT!🤯🥹✨\n\nHad the best day ever, going with my parents to four seasons to get pick up my first Mercedes. My mom got too emotional looking at it all. Loved how @sundarammotorsbangalore delivered the car.\n\nI'm still processing what just happened today.\n\nThere's no better feeling than wo",
+      "script_source": "transcript",
+      "script_pattern": "unknown",
+      "likes": 111845,
+      "comments": 1605,
+      "engagement_rate": 8.94,
+      "verdict": "viral",
+      "transcribed_at": "2026-10-24T03:59:57.820Z",
+      "scraped_at": "2026-10-25T03:31:42.664Z"
     }
   ],
-  "total": 145,
-  "transcript_based": 78
+  "total": 146,
+  "transcript_based": 79
 }

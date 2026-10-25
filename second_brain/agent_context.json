@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-24T03:32:28.975Z",
+  "updated_at": "2026-10-25T03:31:42.728Z",
   "your_performance": {
-    "posts_analyzed": 49,
+    "posts_analyzed": 50,
     "best_hook_type": "contrarian",
     "best_format": "Reel",
     "by_hook_type": [
@@ -12,8 +12,8 @@
       },
       {
         "type": "statement",
-        "avg": 127.45,
-        "count": 22
+        "avg": 125.61,
+        "count": 23
       },
       {
         "type": "personal_story",
@@ -34,8 +34,8 @@
     "by_format": [
       {
         "type": "Reel",
-        "avg": 161.96,
-        "count": 45
+        "avg": 160.28,
+        "count": 46
       },
       {
         "type": "Post",
@@ -197,30 +197,30 @@
     "insights": "42 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.02%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
   },
   "niche_performance": {
-    "total_hooks": 120,
-    "total_scripts": 145,
-    "viral_scripts": 57,
+    "total_hooks": 121,
+    "total_scripts": 146,
+    "viral_scripts": 58,
     "best_hook_type": "question",
     "hook_length_insight": "Not enough hook length data yet.",
     "by_hook_type": [
       {
         "type": "question",
-        "avg": 7031.53,
-        "count": 19
-      },
-      {
-        "type": "curiosity_gap",
-        "avg": 5162.56,
-        "count": 9
+        "avg": 7448.89,
+        "count": 18
       },
       {
         "type": "story",
-        "avg": 4837.27,
-        "count": 84
+        "avg": 5991.28,
+        "count": 86
+      },
+      {
+        "type": "curiosity_gap",
+        "avg": 5208.56,
+        "count": 9
       },
       {
         "type": "relatability",
-        "avg": 4150.75,
+        "avg": 4239,
         "count": 4
       },
       {
@@ -231,6 +231,18 @@
     ],
     "top_hooks": [
       {
+        "id": "4012157496597740459_26526554234",
+        "text": "Guys, money will come and go, but you will never be 25 unboxing your very first Mercedes for your parents.  Let's make it happen.  Mercedes ke is sitare ki tarah mera beta bhi aise hi chamakta rahe.",
+        "source": "transcript",
+        "type": "story",
+        "format": "Reel",
+        "account": "@ishansharma7390",
+        "postUrl": "https://www.instagram.com/p/DeuC_xfoPur/",
+        "likes": 111845,
+        "comments": 1605,
+        "added_at": "2026-10-25T03:31:42.668Z"
+      },
+      {
         "id": "3953432369198939354_1411361583",
         "text": "Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.",
         "source": "transcript",
@@ -238,9 +250,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/Dbdacspojza/",
-        "likes": 77539,
-        "comments": 5630,
-        "added_at": "2026-10-24T03:32:28.932Z"
+        "likes": 78074,
+        "comments": 5662,
+        "added_at": "2026-10-25T03:31:42.675Z"
       },
       {
         "id": "4011906669410447017_24040950",
@@ -250,9 +262,9 @@
         "format": "Reel",
         "account": "@arshman",
         "postUrl": "https://www.instagram.com/p/DetJ9weOu6p/",
-        "likes": 67835,
-        "comments": 240,
-        "added_at": "2026-10-24T03:32:28.927Z"
+        "likes": 68671,
+        "comments": 248,
+        "added_at": "2026-10-25T03:31:42.666Z"
       },
       {
         "id": "3970814642533503560_1411361583",
@@ -262,9 +274,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-        "likes": 46466,
-        "comments": 8397,
-        "added_at": "2026-10-24T03:32:28.932Z"
+        "likes": 46751,
+        "comments": 8446,
+        "added_at": "2026-10-25T03:31:42.674Z"
       },
       {
         "id": "4002733572431314485_7695520761",
@@ -274,21 +286,9 @@
         "format": "Reel",
         "account": "@thevarunmayya",
         "postUrl": "https://www.instagram.com/p/DeMkPoLTH41/",
-        "likes": 32135,
-        "comments": 161,
-        "added_at": "2026-10-24T03:32:28.935Z"
-      },
-      {
-        "id": "3977382380486565190_27437145281",
-        "text": "Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.",
-        "source": "transcript",
-        "type": "story",
-        "format": "Reel",
-        "account": "@favourite.engineer",
-        "postUrl": "https://www.instagram.com/p/DcygDO0zJ1G/",
-        "likes": 30898,
-        "comments": 86476,
-        "added_at": "2026-10-24T03:32:28.935Z"
+        "likes": 32243,
+        "comments": 162,
+        "added_at": "2026-10-25T03:31:42.682Z"
       }
     ]
   },
@@ -345,5 +345,5 @@
       "scraped_at": "2026-10-20T03:33:43.799Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (49 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n42 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.02%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (120 hooks, 145 scripts):\nBest hook type in niche: question\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (77539 likes) | \"The car behind me is the flying car, and it's the all-new Tesla Roadster.  You might have already seen the demo where this car is literally flying, and you can see it doing some cool stunts.  But I'm gonna show you how this car actually works.\" (67835 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (46466 likes) | \"GTA 5 was running inside a web browser with no 100 gigabytes download, and it got taken down within hours.  A site called playgta5. com loaded the full game in Chrome.\" (32135 likes) | \"Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.\" (30898 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@ishansharma7390 | Topic: General Tech | Pattern: narrative + transformation | Eng: 124.18%\nHook: \"\"\nOpening: \"Stuff of dreams🥹🥹...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (50 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n42 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 14.02%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (121 hooks, 146 scripts):\nBest hook type in niche: question\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Guys, money will come and go, but you will never be 25 unboxing your very first Mercedes for your parents.  Let's make it happen.  Mercedes ke is sitare ki tarah mera beta bhi aise hi chamakta rahe.\" (111845 likes) | \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (78074 likes) | \"The car behind me is the flying car, and it's the all-new Tesla Roadster.  You might have already seen the demo where this car is literally flying, and you can see it doing some cool stunts.  But I'm gonna show you how this car actually works.\" (68671 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (46751 likes) | \"GTA 5 was running inside a web browser with no 100 gigabytes download, and it got taken down within hours.  A site called playgta5. com loaded the full game in Chrome.\" (32243 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@ishansharma7390 | Topic: General Tech | Pattern: narrative + transformation | Eng: 124.18%\nHook: \"\"\nOpening: \"Stuff of dreams🥹🥹...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

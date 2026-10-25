@@ -1088,6 +1088,18 @@
     "url": "https://www.instagram.com/p/DeywXmaSJ14/",
     "type": "Video",
     "loggedAt": "2026-10-24T03:32:26.193Z",
-    "archived": false
+    "archived": true,
+    "likes_at_48h": 85,
+    "comments_at_48h": 24,
+    "engagement_at_48h": 1.11,
+    "followers_at_post": 9819,
+    "performance_complete": true,
+    "diffAnalysis": {
+      "type": "original_content",
+      "method": "embedding",
+      "similarityScore": 11,
+      "summary": "Original content — no significant match to any generated script.",
+      "analysedAt": "2026-10-25T03:32:30.187Z"
+    }
   }
 ]
