@@ -1,0 +1,11 @@
+{
+  "postId": "4014197862195613872_7695520761",
+  "handle": "thevarunmayya",
+  "postUrl": "https://www.instagram.com/p/De1S7ACTVCw/",
+  "transcript": "This might go down as the scariest day in internet history. The NSA, the FBI, the EU, and even Japan's Prime Minister are telling governments to take their sites offline. Here's exactly what's going on. Back in August, a security firm called Calif was using GPT-5.6 Sol to dig through PHP. If you don't know, PHP is the language behind 70% of websites. And they found a bug so bad that anyone could run their own code on your server without even logging in. The worst part, it had been sitting there for 14 years! Weeks later, OpenAI and Wiz, another firm, found the same bugs and once they all saw how bad it was, they got to work. PHP started building a fix and the plan was simple, everyone keeps quiet until the patch was ready. Then out of nowhere, someone posted about it. There was even a video of it hijacking WordPress and Magento servers and the second the news was out, everyone jumped together. On one end, hackers started hammering websites. On the other, the NSA, the FBI, the UK, the EU, and even Japan's PM are all telling everyone patch it right now, or take their sites offline ASAP! So, now it's a race. Major sites are all going offline for emergency updates including a bunch of government websites. Meanwhile, hackers are trying their best to exploit and get in first. What's worrying is that even though the patch is out, it only covers newer versions of PHP. Overall, this might go down in history as the moment that tells us that AI breaking the internet era has finally arrived and there's no hiding it.",
+  "caption": "This might be one of the worst security bugs in internet history!",
+  "timestamp": "2026-10-23T10:04:16.000Z",
+  "transcribedAt": "2026-10-26T03:54:49.397Z",
+  "likes": 0,
+  "comments": 0
+}

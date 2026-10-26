@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T03:31:42.676Z",
+  "updated_at": "2026-10-26T03:31:55.386Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2427,8 +2427,44 @@
       "verdict": "viral",
       "transcribed_at": "2026-10-24T03:59:57.820Z",
       "scraped_at": "2026-10-25T03:31:42.664Z"
+    },
+    {
+      "id": "4015061716835317144_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/De4XVvXPTWY/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Claude has now become insanely good at motion graphics and video editing, but the sound effects it adds still suck.  To fix that, use these three free tools that add professional sounds to your timeline at the right place and the right level, just like a pro editor would.  The first is Openverse API, which gives your AI agent access to over 5 million high-quality sound effects that it can search and download on its own.",
+      "full_script": "Claude has now become insanely good at motion graphics and video editing, but the sound effects it adds still suck. To fix that, use these three free tools that add professional sounds to your timeline at the right place and the right level, just like a pro editor would. The first is Openverse API, which gives your AI agent access to over 5 million high-quality sound effects that it can search and download on its own. The second is Real SFX, which studies your timeline, finds each moment that needs a sound, and adds one at the exact frame. And finally, if it still can't find the right sound effect, use Earshot to generate a brand new one in code, or even a whole sound kit that fits your project. So if you want all three of these, just comment sound down below and I'll send you the links directly.",
+      "full_caption": "Comment \"SOUND\" to get these 3 Free AI tools ro Add pro sound effects to your Claude edits.\n\nClaude has gotten really good at motion graphics and video editing.\n\nBut the sound effects it adds are still terrible.\n\nIt's like a great movie with the audio turned off.\n\nYou can fix that with three free to",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3961,
+      "comments": 5160,
+      "engagement_rate": 1.26,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-25T03:33:10.797Z",
+      "scraped_at": "2026-10-26T03:31:55.371Z"
+    },
+    {
+      "id": "4014875075281718468_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/De3s5v3vIzE/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "People are now hacking their TVs with Claude Code to remove all the bloatware and the ads, and it's blowing up on the internet right now.  It started when someone on Twitter gave Claude Code their TV's model number.  It found the TV on Wi-Fi, removed all 25 of the bloatware apps and sponsored ads and all the tracking codes, and even built a new home screen entirely from scratch.",
+      "full_script": "People are now hacking their TVs with Claude Code to remove all the bloatware and the ads, and it's blowing up on the internet right now. It started when someone on Twitter gave Claude Code their TV's model number. It found the TV on Wi-Fi, removed all 25 of the bloatware apps and sponsored ads and all the tracking codes, and even built a new home screen entirely from scratch. And it turned into a free GitHub repo that now lets anyone do the same with over 16,000 stars. Just paste one prompt into Claude Code with your TV model, and it'll remove everything you don't want, then install a clean home screen that looks just like Apple TV, or you can even code your own. It already works with over 170 TV models, and if you don't like it, you can restore everything back with just one command. So if you want to try it for yourself, just comment TV down below, and I'll DM you the link directly.",
+      "full_caption": "Comment \"TV\" to get Clean your TV of Ads and Bloatware with Claude Code.\n\nPeople are now hacking their TVs with Claude Code to remove all the bloatware and ads.\n\nAnd it's blowing up on the internet right now.\n\nIt started when someone on Twitter gave Claude Code their TV's model number.\n\nThen Claude ",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 99601,
+      "comments": 24970,
+      "engagement_rate": 17.25,
+      "verdict": "viral",
+      "transcribed_at": "2026-10-25T03:33:48.528Z",
+      "scraped_at": "2026-10-26T03:31:55.372Z"
     }
   ],
-  "total": 146,
-  "transcript_based": 79
+  "total": 148,
+  "transcript_based": 81
 }

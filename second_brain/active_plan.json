@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-25",
-  "end_date": "2026-11-01",
+  "generated_on": "2026-10-26",
+  "end_date": "2026-11-02",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-25",
-      "topic": "Hacking Smart TVs with Claude Code to remove all ads and bloatware",
+      "date": "2026-10-26",
+      "topic": "Tier list of AI Agency Models in India (S-Tier vs. B-Tier services founders actually pay for)",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "People are wiping all TV ads using Claude right now.",
+      "post_time": "6:45 PM IST",
+      "hook": "\"Voice bots are mid. Here is the top AI service.\"",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-26",
-      "topic": "The ASD-STE100 Aerospace Prompting Formula for 3x AI Output Quality",
+      "date": "2026-10-27",
+      "topic": "Step-by-step Image-to-JSON Prompting Trick for instant design styling in ChatGPT",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "This aerospace prompt trick triples your AI output quality.",
+      "post_time": "7:15 PM IST",
+      "hook": "\"Steal this secret prompt to turn photos into custom JSON.\"",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-27",
-      "topic": "Google Artemis: Open-Source AI Agent that Controls Real Mobile Phones",
+      "date": "2026-10-28",
+      "topic": "Google Artemis breakdown: Open-source AI tool controlling real smartphones hands-free",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Google built an AI that actually controls your phone screen.",
+      "post_time": "6:30 PM IST",
+      "hook": "\"Google just built an AI that controls your phone hands-free.\"",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-28",
-      "topic": "Step-by-Step Breakdown: Building ₹50k/mo WhatsApp AI Bots for Local Clinics",
+      "date": "2026-10-29",
+      "topic": "Agency Agents: How to deploy 200+ open-source AI specialists inside Claude Code for $0",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "How to make 50 thousand rupees building WhatsApp bots.",
+      "post_time": "7:45 PM IST",
+      "hook": "\"Run an entire agency inside Claude Code for zero dollars.\"",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-29",
-      "topic": "Higgsfield Katana Integration: Adding Motion Graphics inside Claude Code",
+      "date": "2026-10-30",
+      "topic": "Local business AI hustle: Generating and pitching websites to cafes via Google Maps",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "Claude can now auto-edit your videos with motion graphics.",
+      "post_time": "6:45 PM IST",
+      "hook": "\"How to pitch local cafes using Google Maps and ChatGPT.\"",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-30",
-      "topic": "The Ultimate AI Tool Tier List for 2025 (Coding, Content, & Research)",
+      "date": "2026-10-31",
+      "topic": "Higgsfield Katana integration: Auto-generating cinematic typography and motion graphics inside Claude",
       "format": "Carousel",
       "post_time": "7:00 PM IST",
-      "hook": "Stop using the wrong AI tools for your work.",
+      "hook": "\"Turn plain videos into cinematic graphics with this AI plugin.\"",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-10-31",
-      "topic": "Why Celebrities and Founders are Learning Python and GPU Architectures",
+      "date": "2026-11-01",
+      "topic": "Case study on D2C brand Comet using custom AI agents to auto-resolve negative Instagram comments",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Why top Hollywood actors are secretly learning Python today.",
+      "post_time": "8:00 PM IST",
+      "hook": "\"How Indian brands save thousands of negative Instagram complaints.\"",
       "status": "pending"
     }
   ]

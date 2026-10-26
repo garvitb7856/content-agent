@@ -1,77 +1,58 @@
 {
-  "fetched_at": "2026-10-25T03:31:42.607Z",
+  "fetched_at": "2026-10-26T03:31:55.331Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "score": 477,
+      "comments": 216,
+      "url": "https://lynchlab.net/llm-skin-cancer"
+    },
+    {
+      "source": "hackernews",
+      "title": "If AI displaces human workers, they will lose more than just pay",
+      "score": 4,
+      "comments": 1,
+      "url": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "score": 194,
+      "comments": 218,
+      "url": "https://minimaxir.com/2026/10/cheap-llms/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Making the Buddha Head from Merv Whole Again",
+      "score": 27,
+      "comments": 0,
+      "url": "https://www.getty.edu/news/buddha-head-of-merv-turkmenistan-conservation/"
+    },
+    {
+      "source": "hackernews",
       "title": "We should be more ambitious with the software we build",
-      "score": 245,
-      "comments": 207,
+      "score": 753,
+      "comments": 697,
       "url": "https://danluu.com/ambitious/"
     },
     {
       "source": "hackernews",
-      "title": "Cerebras Deploys Trillion-Parameter AI Models",
-      "score": 16,
-      "comments": 4,
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
-    },
-    {
-      "source": "hackernews",
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "score": 218,
-      "comments": 203,
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
-    },
-    {
-      "source": "hackernews",
-      "title": "Reactive Optimizers: rewrite the optimizer's source code during training",
-      "score": 19,
-      "comments": 1,
-      "url": "https://xingjianbai.com/reactive-optimizers/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Neural chip decodes interactions between brain regions",
-      "score": 96,
-      "comments": 34,
-      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/"
-    },
-    {
-      "source": "hackernews",
-      "title": "In Rainbows",
-      "score": 4,
-      "comments": 0,
-      "url": "https://hitogata.neocities.org/Rainbows"
-    },
-    {
-      "source": "hackernews",
-      "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
-      "score": 38,
-      "comments": 29,
-      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/"
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "score": 9,
+      "comments": 7,
+      "url": "https://adrs.systems"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Why Cats Rub Against Your Laptop 🤔",
-      "channel": "Zack D. Films",
-      "views": 14400991,
-      "likes": 541539,
-      "publishedAt": "2026-10-17T12:30:34Z",
-      "url": "https://www.youtube.com/watch?v=tUXy4cQwPAo",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "iPhone Duo Review: First Generation Fun!",
       "channel": "Marques Brownlee",
-      "views": 11146555,
-      "likes": 189364,
+      "views": 11874510,
+      "likes": 194758,
       "publishedAt": "2026-10-21T12:00:52Z",
       "url": "https://www.youtube.com/watch?v=ESABTN4VtrA",
       "tags": [
@@ -83,10 +64,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "He peeled the nano-texture off his iPhone duo??",
+      "channel": "CarterPCs",
+      "views": 10575505,
+      "likes": 209152,
+      "publishedAt": "2026-10-23T03:40:07Z",
+      "url": "https://www.youtube.com/watch?v=tW39aTQ-LEI",
+      "tags": [],
+      "description": "He peeled the nano-texture off his iPhone duo??\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "6 ways iPhone Duo beats Samsung",
       "channel": "Mrwhosetheboss",
-      "views": 9535754,
-      "likes": 304907,
+      "views": 10360224,
+      "likes": 326420,
       "publishedAt": "2026-10-21T12:02:02Z",
       "url": "https://www.youtube.com/watch?v=i3ZlSlnGWng",
       "tags": [
@@ -101,34 +94,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "What is the BEST app?!📱🤔",
-      "channel": "Cam2r",
-      "views": 9018154,
-      "likes": 385107,
-      "publishedAt": "2026-10-15T22:06:17Z",
-      "url": "https://www.youtube.com/watch?v=5zd1btl7XeI",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "He peeled the nano-texture off his iPhone duo??",
-      "channel": "CarterPCs",
-      "views": 8504879,
-      "likes": 184675,
-      "publishedAt": "2026-10-23T03:40:07Z",
-      "url": "https://www.youtube.com/watch?v=tW39aTQ-LEI",
-      "tags": [],
-      "description": "He peeled the nano-texture off his iPhone duo??\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "iPhone Duo Durability: Destroyed",
       "channel": "JerryRigEverything",
-      "views": 7682673,
-      "likes": 233717,
+      "views": 9895977,
+      "likes": 272055,
       "publishedAt": "2026-10-24T03:58:15Z",
       "url": "https://www.youtube.com/watch?v=5laDGy4INB0",
       "tags": [
@@ -145,8 +114,8 @@
       "category": "Science & Tech",
       "title": "iPhone Duo Is Flopping",
       "channel": "Austin Sweatt",
-      "views": 5311519,
-      "likes": 177968,
+      "views": 7034369,
+      "likes": 211958,
       "publishedAt": "2026-10-22T19:22:54Z",
       "url": "https://www.youtube.com/watch?v=pPNWH_1x1NU",
       "tags": [],
@@ -155,22 +124,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone Duos are cracking 😬",
-      "channel": "John Casterline",
-      "views": 2305387,
-      "likes": 151753,
-      "publishedAt": "2026-10-24T00:26:28Z",
-      "url": "https://www.youtube.com/watch?v=YOAhjSK9Lbw",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "iPhone Duo Upgrade 🤩",
       "channel": "OkCron",
-      "views": 1705724,
-      "likes": 38812,
+      "views": 3263154,
+      "likes": 63446,
       "publishedAt": "2026-10-24T03:32:32Z",
       "url": "https://www.youtube.com/watch?v=mNinG0XdJ7k",
       "tags": [],
@@ -179,10 +136,46 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "She Has the Best iPad Setup For Kids 😭",
+      "channel": "For The Girlies",
+      "views": 2983420,
+      "likes": 25507,
+      "publishedAt": "2026-10-22T01:30:04Z",
+      "url": "https://www.youtube.com/watch?v=oFxviwwPwxw",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "iPhone Duos are cracking 😬",
+      "channel": "John Casterline",
+      "views": 2673767,
+      "likes": 171418,
+      "publishedAt": "2026-10-24T00:26:28Z",
+      "url": "https://www.youtube.com/watch?v=YOAhjSK9Lbw",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot",
+      "channel": "Oba News",
+      "views": 2260455,
+      "likes": 29592,
+      "publishedAt": "2026-10-20T07:30:24Z",
+      "url": "https://www.youtube.com/watch?v=Y8PABtC1yhQ",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "iPhones are completely ruined 😔",
       "channel": "Danny Rayes",
-      "views": 464330,
-      "likes": 29468,
+      "views": 2124405,
+      "likes": 78041,
       "publishedAt": "2026-10-24T22:00:13Z",
       "url": "https://www.youtube.com/watch?v=IGZgK9i7gfc",
       "tags": [],
@@ -192,32 +185,28 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "AI tools",
-        "trend_score": 93
-      },
-      {
         "keyword": "AI workflow",
         "trend_score": 92
       },
       {
-        "keyword": "productivity tools",
+        "keyword": "AI tools",
         "trend_score": 90
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 84
       },
       {
         "keyword": "automation tools",
         "trend_score": 83
       },
       {
-        "keyword": "solopreneur",
-        "trend_score": 79
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 76
+        "keyword": "productivity tools",
+        "trend_score": 81
       },
       {
         "keyword": "AI for business",
-        "trend_score": 72
+        "trend_score": 75
       },
       {
         "keyword": "ChatGPT",
@@ -225,10 +214,14 @@
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 66
+        "trend_score": 69
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 67
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-25T03:31:42.607Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"We should be more ambitious with the software we build\" — 245 pts\n• [HackerNews] \"Cerebras Deploys Trillion-Parameter AI Models\" — 16 pts\n• [HackerNews] \"America has lost 200k of jobs in media, film and the arts. How much is AI?\" — 218 pts\n• [HackerNews] \"Reactive Optimizers: rewrite the optimizer's source code during training\" — 19 pts\n• [HackerNews] \"Neural chip decodes interactions between brain regions\" — 96 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Why Cats Rub Against Your Laptop 🤔\" by Zack D. Films — 14401k views\n• [YouTube Global] \"iPhone Duo Review: First Generation Fun!\" by Marques Brownlee — 11147k views\n• [YouTube Global] \"6 ways iPhone Duo beats Samsung\" by Mrwhosetheboss — 9536k views\n• [YouTube Global] \"What is the BEST app?!📱🤔\" by Cam2r — 9018k views\n• [YouTube Global] \"He peeled the nano-texture off his iPhone duo??\" by CarterPCs — 8505k views\n• [YouTube Global] \"iPhone Duo Durability: Destroyed\" by JerryRigEverything — 7683k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 93), AI workflow (score: 92), productivity tools (score: 90), automation tools (score: 83), solopreneur (score: 79), self improvement (score: 76), AI for business (score: 72), ChatGPT (score: 71), entrepreneur (score: 66)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-26T03:31:55.331Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis\" — 477 pts\n• [HackerNews] \"If AI displaces human workers, they will lose more than just pay\" — 4 pts\n• [HackerNews] \"OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?\" — 194 pts\n• [HackerNews] \"Making the Buddha Head from Merv Whole Again\" — 27 pts\n• [HackerNews] \"We should be more ambitious with the software we build\" — 753 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"iPhone Duo Review: First Generation Fun!\" by Marques Brownlee — 11875k views\n• [YouTube Global] \"He peeled the nano-texture off his iPhone duo??\" by CarterPCs — 10576k views\n• [YouTube Global] \"6 ways iPhone Duo beats Samsung\" by Mrwhosetheboss — 10360k views\n• [YouTube Global] \"iPhone Duo Durability: Destroyed\" by JerryRigEverything — 9896k views\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 7034k views\n• [YouTube Global] \"iPhone Duo Upgrade 🤩\" by OkCron — 3263k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 92), AI tools (score: 90), self improvement (score: 84), automation tools (score: 83), productivity tools (score: 81), AI for business (score: 75), ChatGPT (score: 71), entrepreneur (score: 69), solopreneur (score: 67)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

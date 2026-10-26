@@ -1,0 +1,11 @@
+{
+  "postId": "4013034674087408751_7695520761",
+  "handle": "thevarunmayya",
+  "postUrl": "https://www.instagram.com/p/DexKcYsTjRv/",
+  "transcript": "This is one of the biggest security failures in India. A company that secures websites just got its private keys cracked, and one of them is literally the number four. So, eMudhra is an Indian company that works as a certificate authority. When you open a site, your browser checks its TLS certificate to verify if it's authentic or not, and companies like eMudhra sign those certificates using a private key. But here's the thing, a secret key is supposed to be around 115 digits long so that computers aren't able to crack it easily. But all eight of eMudhra's secret keys were at most just three-digit numbers, meaning cracking a key took at most 255 guesses, and a security researcher, Scott Helme, even cracked all eight in under a second. What this means is that with these keys, anyone could make a fake certificate for any website, and your connection would still show up as secure HTTPS. So if an attacker got on the same network as you, like public Wi-Fi, they could just sit between you and the website, reading and changing everything you sent. What's worse is that eMudhra says it was because of a bug in the script from April 2023, which just means that the keys were exposed for about 17 months. Anyway, India's IT Ministry has already come out and said that they're setting up a special team to investigate the matter. But still, a certificate authority has just one core job: keeping its private keys impossible to guess. And if some aren't able to do that, I'm concerned how companies are gonna navigate when AI gets involved.",
+  "caption": "This is one of the biggest security failures in India. The keys that make websites trustworthy could be guessed in 255 tries, and one of them was just the number 4.",
+  "timestamp": "2026-10-21T19:33:16.000Z",
+  "transcribedAt": "2026-10-26T03:59:09.463Z",
+  "likes": 0,
+  "comments": 0
+}
