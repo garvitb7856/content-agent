@@ -1,82 +1,78 @@
 {
-  "generated_at": "2026-10-26T03:31:51.483Z",
+  "generated_at": "2026-10-27T03:31:41.459Z",
   "hotRightNow": [
     {
-      "username": "thevarunmayya",
-      "caption": "the month that was....",
-      "likes": 20894,
-      "comments": 57,
-      "engagement": 20951,
-      "engRate": "1.63",
-      "timestamp": "2026-10-25T16:52:45.000Z",
-      "url": "https://www.instagram.com/p/De7LkF4k8wq/",
+      "username": "nick_saraev",
+      "caption": "Comment \"CLONE\" to get this Free AI Tool that rebuilds any app you pay for with Claude Code.\n\nYou ca",
+      "likes": 1967,
+      "comments": 2330,
+      "engagement": 4297,
+      "engRate": "0.59",
+      "timestamp": "2026-10-26T08:24:37.000Z",
+      "url": "https://www.instagram.com/p/De82EmlP5ow/",
+      "type": "Video"
+    },
+    {
+      "username": "favourite.engineer",
+      "caption": "Power of AI 😮‍💨\n.\n#makemoneyfast #ai",
+      "likes": 1877,
+      "comments": 749,
+      "engagement": 2626,
+      "engRate": "1.43",
+      "timestamp": "2026-10-26T13:57:54.000Z",
+      "url": "https://www.instagram.com/p/De9cIGWzFWh/",
+      "type": "Video"
+    },
+    {
+      "username": "zeeeljain",
+      "caption": "Comment \"BUILD\" and I'll send you a guide to getting started with AI app building.\n \nYou can now bui",
+      "likes": 314,
+      "comments": 222,
+      "engagement": 536,
+      "engRate": "0.32",
+      "timestamp": "2026-10-26T11:27:17.000Z",
+      "url": "https://www.instagram.com/p/De9LHIkCgcO/",
       "type": "Post"
     },
     {
-      "username": "ishansharma7390",
-      "caption": "New York always makes me feel poor!\n\nThe last morning i had in new york, i took a walk in central pa",
-      "likes": 5448,
-      "comments": 16,
-      "engagement": 5464,
-      "engRate": "0.43",
-      "timestamp": "2026-10-25T12:50:05.000Z",
-      "url": "https://www.instagram.com/p/De6vgxiIAi8/",
-      "type": "Video"
+      "username": "dhavalkataria_",
+      "caption": "hey siri set an alarm for those sleeping on me",
+      "likes": 415,
+      "comments": 20,
+      "engagement": 435,
+      "engRate": "0.76",
+      "timestamp": "2026-10-26T12:34:17.000Z",
+      "url": "https://www.instagram.com/p/De9SjeyOOrs/",
+      "type": "Post"
     },
     {
-      "username": "nick_saraev",
-      "caption": "Comment \"AGENCY\" to start building your own AI Agency inside Claude Code.\n\nYou can now run a whole a",
-      "likes": 1341,
-      "comments": 2382,
-      "engagement": 3723,
-      "engRate": "0.52",
-      "timestamp": "2026-10-25T08:42:01.000Z",
-      "url": "https://www.instagram.com/p/De6TR9XP2dA/",
-      "type": "Video"
-    },
-    {
-      "username": "vaibhavsisinty",
-      "caption": "A startup just turned mercury into gold\n\nSounds like alchemy, but Marathon Fusion says it did it wit",
-      "likes": 2585,
-      "comments": 26,
-      "engagement": 2611,
-      "engRate": "0.12",
-      "timestamp": "2026-10-25T04:03:05.000Z",
-      "url": "https://www.instagram.com/p/De5zQMzAQA7/",
-      "type": "Video"
-    },
-    {
-      "username": "nick_saraev",
-      "caption": "Comment \"STARTUP\" to get Mirofish and test your Business Idea. \n\nYou can now test your startup idea ",
-      "likes": 853,
-      "comments": 772,
-      "engagement": 1625,
-      "engRate": "0.23",
-      "timestamp": "2026-10-25T16:03:43.000Z",
-      "url": "https://www.instagram.com/p/De7Fx7sPof8/",
+      "username": "zeeeljain",
+      "caption": "Same brief. Same AI tools. Same references. Same amount of time. Two very different posts.\n\nAdobe's ",
+      "likes": 308,
+      "comments": 15,
+      "engagement": 323,
+      "engRate": "0.19",
+      "timestamp": "2026-10-26T06:21:19.000Z",
+      "url": "https://www.instagram.com/p/De8n9m8KPzn/",
       "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 12776,
+      "avgEng": 13474,
       "count": 39
     },
     {
       "format": "post",
-      "avgEng": 11082,
-      "count": 10
+      "avgEng": 9282,
+      "count": 13
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "8 top posts"
-    },
-    {
-      "topic": "free",
-      "appearsIn": "2 top posts"
+      "appearsIn": "6 top posts"
     },
     {
       "topic": "chatgpt",
@@ -89,43 +85,47 @@
     {
       "topic": "never",
       "appearsIn": "2 top posts"
+    },
+    {
+      "topic": "prompt",
+      "appearsIn": "2 top posts"
     }
   ],
   "bestPostingWindow": [
-    "18:00 IST (4 top posts)",
-    "19:00 IST (4 top posts)",
-    "21:00 IST (3 top posts)"
+    "13:00 IST (3 top posts)",
+    "18:00 IST (3 top posts)",
+    "19:00 IST (3 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, unders",
       "username": "thevarunmayya",
-      "likes": 185469,
+      "likes": 185687,
       "url": "https://www.instagram.com/p/DePZYzRzsoh/"
     },
     {
       "hook": "Comment \"TV\" to get Clean your TV of Ads and Bloatware with Claude Code.\n\nPeople",
       "username": "nick_saraev",
-      "likes": 99601,
+      "likes": 109950,
       "url": "https://www.instagram.com/p/De3s5v3vIzE/"
-    },
-    {
-      "hook": "NotebookLM + YouTube = 🤑\n\nThat equation is getting channels demonetized.\nPaste ",
-      "username": "favourite.engineer",
-      "likes": 31538,
-      "url": "https://www.instagram.com/p/DcygDO0zJ1G/"
     },
     {
       "hook": "FINALLY we GOT IT!🤯🥹✨\n\nHad the best day ever, going with my parents to four se",
       "username": "ishansharma7390",
-      "likes": 114577,
+      "likes": 116535,
       "url": "https://www.instagram.com/p/DeuC_xfoPur/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 78541,
+      "likes": 78966,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
+    },
+    {
+      "hook": "still can't get over this feeling🥹✨\n\nyou get one chance to raise your entire bl",
+      "username": "ishansharma7390",
+      "likes": 72883,
+      "url": "https://www.instagram.com/p/Dev5DjcH3Bs/"
     }
   ]
 }

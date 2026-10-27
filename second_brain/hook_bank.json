@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-10-26T04:03:27.963Z",
-  "total": 121,
+  "updated_at": "2026-10-27T04:03:59.689Z",
+  "total": 120,
   "note": "All hooks are spoken transcript hooks (first 1-3 sentences of video). No captions used.",
   "hooks": [
+    {
+      "id": "4015606814757316416_72269881052",
+      "text": "You can now run a whole agency inside Claude Code for exactly $0, and it is everything a real agency does from finding clients to building the final product with Claude Code handling all of it.  It's called Agency Agents, and it's a free and open-source library of over 200 AI specialists, each with their own job and personality, and it's already crossed 160k stars on GitHub.  So inside, you get an outbound agent that writes your cold emails, a sales team that preps your calls and writes your proposal, and even a team of engineers that builds the product for your client.",
+      "source": "transcript",
+      "type": "story",
+      "format": "Reel",
+      "account": "@nick_saraev",
+      "postUrl": "https://www.instagram.com/p/De6TR9XP2dA/",
+      "likes": 1659,
+      "comments": 2934,
+      "added_at": "2026-10-27T03:31:45.470Z"
+    },
     {
       "id": "4015061716835317144_72269881052",
       "text": "Claude has now become insanely good at motion graphics and video editing, but the sound effects it adds still suck.  To fix that, use these three free tools that add professional sounds to your timeline at the right place and the right level, just like a pro editor would.  The first is Openverse API, which gives your AI agent access to over 5 million high-quality sound effects that it can search and download on its own.",
@@ -11,9 +23,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/De4XVvXPTWY/",
-      "likes": 3961,
-      "comments": 5160,
-      "added_at": "2026-10-26T03:31:55.370Z"
+      "likes": 4549,
+      "comments": 6053,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4014875075281718468_72269881052",
@@ -23,9 +35,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/De3s5v3vIzE/",
-      "likes": 99601,
-      "comments": 24970,
-      "added_at": "2026-10-26T03:31:55.370Z"
+      "likes": 109950,
+      "comments": 29788,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4014367220304758543_72269881052",
@@ -35,9 +47,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/De15bfEPMcP/",
-      "likes": 2362,
-      "comments": 2115,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 2445,
+      "comments": 2207,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4013663680770997867_72269881052",
@@ -47,9 +59,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DezZdo0Pf5r/",
-      "likes": 459,
-      "comments": 557,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 476,
+      "comments": 588,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4012210491269926703_72269881052",
@@ -59,9 +71,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DeuPC8oPU8v/",
-      "likes": 2035,
-      "comments": 2443,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 2093,
+      "comments": 2498,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4011464638875848188_72269881052",
@@ -71,9 +83,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DerldXdPE38/",
-      "likes": 2063,
-      "comments": 3334,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 2117,
+      "comments": 3453,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4010749237296883101_72269881052",
@@ -83,9 +95,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DepCy50P-Wd/",
-      "likes": 1803,
-      "comments": 1528,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 1822,
+      "comments": 1563,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4010065696514716960_72269881052",
@@ -95,9 +107,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DemnYE2vTUg/",
-      "likes": 780,
-      "comments": 521,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 791,
+      "comments": 523,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4009281088332433468_72269881052",
@@ -107,9 +119,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/Dej0-hivwg8/",
-      "likes": 850,
-      "comments": 418,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 865,
+      "comments": 426,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4008550762312182037_72269881052",
@@ -119,9 +131,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DehO64bvSkV/",
-      "likes": 4045,
-      "comments": 3902,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 4094,
+      "comments": 3964,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4007856379304839018_72269881052",
@@ -131,9 +143,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DeexCR3P4dq/",
-      "likes": 1270,
-      "comments": 1370,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 1277,
+      "comments": 1383,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4007132179946439429_72269881052",
@@ -143,9 +155,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DecMXypvoMF/",
-      "likes": 2564,
-      "comments": 2833,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 2579,
+      "comments": 2852,
+      "added_at": "2026-10-27T03:31:45.471Z"
     },
     {
       "id": "4006371558728628301_72269881052",
@@ -155,9 +167,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DeZfbS8P3hN/",
-      "likes": 1393,
-      "comments": 812,
-      "added_at": "2026-10-26T03:31:55.371Z"
+      "likes": 1402,
+      "comments": 823,
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4002033324879845999_72269881052",
@@ -167,9 +179,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DeKFBr0vRpv/",
-      "likes": 4768,
-      "comments": 5163,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "likes": 4809,
+      "comments": 5207,
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4000577167246183932_72269881052",
@@ -179,21 +191,9 @@
       "format": "Reel",
       "account": "@nick_saraev",
       "postUrl": "https://www.instagram.com/p/DeE57zWP038/",
-      "likes": 6788,
-      "comments": 5947,
-      "added_at": "2026-10-26T03:31:55.372Z"
-    },
-    {
-      "id": "3999905552237776102_72269881052",
-      "text": "Claude can now run your entire LinkedIn completely free.  So somebody on GitHub just dropped 12 LinkedIn skills that plug straight into your Claude Code, where one writes your posts, another handles your comments, and another one even optimizes your whole profile so more people find you to begin with.  First, it starts by interviewing you all about your own career.",
-      "source": "transcript",
-      "type": "story",
-      "format": "Reel",
-      "account": "@nick_saraev",
-      "postUrl": "https://www.instagram.com/p/DeChOhIPszm/",
-      "likes": 3097,
-      "comments": 7284,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "likes": 6801,
+      "comments": 5957,
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4011906669410447017_24040950",
@@ -203,9 +203,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DetJ9weOu6p/",
-      "likes": 69234,
+      "likes": 69474,
       "comments": 250,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4008273265599892600_24040950",
@@ -215,9 +215,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DegP0xexsx4/",
-      "likes": 216,
-      "comments": 106,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "likes": 219,
+      "comments": 107,
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4006790546880866676_24040950",
@@ -227,9 +227,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/Dea-sYEOil0/",
-      "likes": 131,
+      "likes": 134,
       "comments": 64,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4005360669900137407_24040950",
@@ -239,9 +239,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DeV5k7Wt-O_/",
-      "likes": 284,
-      "comments": 32,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "likes": 287,
+      "comments": 33,
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4003891855559942095_24040950",
@@ -251,9 +251,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DeQrm3Zut_P/",
-      "likes": 822,
+      "likes": 835,
       "comments": 7,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "4002444900669961603_24040950",
@@ -263,9 +263,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DeLim5pgbWD/",
-      "likes": 582,
+      "likes": 583,
       "comments": 572,
-      "added_at": "2026-10-26T03:31:55.372Z"
+      "added_at": "2026-10-27T03:31:45.472Z"
     },
     {
       "id": "3998822782786517673_24040950",
@@ -277,7 +277,7 @@
       "postUrl": "https://www.instagram.com/p/Dd-rCJfurqp/",
       "likes": 975,
       "comments": 1153,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3997378006530767895_24040950",
@@ -287,9 +287,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/Dd5ih4wObwX/",
-      "likes": 462,
+      "likes": 463,
       "comments": 9,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3982511820810883695_24040950",
@@ -301,7 +301,7 @@
       "postUrl": "https://www.instagram.com/p/DdEuWaZOhJv/",
       "likes": 343,
       "comments": 100,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3978527522457650939_24040950",
@@ -311,9 +311,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/Dc2kbPZNAb7/",
-      "likes": 3470,
-      "comments": 6288,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "likes": 3469,
+      "comments": 6290,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3969869713810022810_24040950",
@@ -323,9 +323,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DcXz3iwOmGa/",
-      "likes": 7719,
+      "likes": 7717,
       "comments": 75,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3964768101860691672_24040950",
@@ -335,9 +335,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DcFr5UYNM7Y/",
-      "likes": 2361,
-      "comments": 1418,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "likes": 2370,
+      "comments": 1424,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3963308196582687414_24040950",
@@ -347,9 +347,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DcAf85otIK2/",
-      "likes": 1844,
-      "comments": 3412,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "likes": 1845,
+      "comments": 3417,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3959215493062850674_24040950",
@@ -359,9 +359,9 @@
       "format": "Reel",
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/Dbx9YOdO_hy/",
-      "likes": 2503,
-      "comments": 1467,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "likes": 2513,
+      "comments": 1469,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "3909698735666735348_24040950",
@@ -372,8 +372,8 @@
       "account": "@arshman",
       "postUrl": "https://www.instagram.com/p/DZCCkkeNaj0/",
       "likes": 1612,
-      "comments": 2544,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "comments": 2546,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "4014237177048245194_26526554234",
@@ -383,9 +383,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/De1b3G2IKPK/",
-      "likes": 969,
-      "comments": 8,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "likes": 1010,
+      "comments": 11,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "4013619338058671522_26526554234",
@@ -395,9 +395,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DezPYXcoCWi/",
-      "likes": 1552,
-      "comments": 261,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "likes": 1613,
+      "comments": 274,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "4012818826400908391_26526554234",
@@ -407,9 +407,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DewZXY3oERn/",
-      "likes": 4841,
-      "comments": 32,
-      "added_at": "2026-10-26T03:31:55.373Z"
+      "likes": 4854,
+      "comments": 33,
+      "added_at": "2026-10-27T03:31:45.473Z"
     },
     {
       "id": "4012157496597740459_26526554234",
@@ -419,9 +419,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeuC_xfoPur/",
-      "likes": 114577,
-      "comments": 1627,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "likes": 116535,
+      "comments": 1639,
+      "added_at": "2026-10-27T03:31:45.476Z"
     },
     {
       "id": "4010682737856177447_26526554234",
@@ -431,9 +431,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeozrNYtWUn/",
-      "likes": 1280,
-      "comments": 7,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "likes": 1293,
+      "comments": 8,
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4009992142196285067_26526554234",
@@ -443,9 +443,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DemWpuDt56L/",
-      "likes": 3783,
-      "comments": 1849,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "likes": 3875,
+      "comments": 1895,
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4009228846321014033_26526554234",
@@ -455,9 +455,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DejpGTYNpUR/",
-      "likes": 958,
-      "comments": 21,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "likes": 970,
+      "comments": 24,
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4007724977633266383_26526554234",
@@ -467,9 +467,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeeTKIhSorP/",
-      "likes": 1411,
-      "comments": 11,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "likes": 1434,
+      "comments": 12,
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4007056615774638316_26526554234",
@@ -479,9 +479,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/Deb7MMCIFDs/",
-      "likes": 6289,
-      "comments": 72,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "likes": 6405,
+      "comments": 74,
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4005668985720970651_26526554234",
@@ -491,9 +491,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeW_rg1sp2b/",
-      "likes": 2792,
-      "comments": 30,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "likes": 2797,
+      "comments": 31,
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4004856379166786238_26526554234",
@@ -503,9 +503,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeUG6iAsYK-/",
-      "likes": 994,
+      "likes": 999,
       "comments": 32,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4004311765653526112_26526554234",
@@ -515,9 +515,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeSLFXJshZg/",
-      "likes": 7992,
+      "likes": 7994,
       "comments": 271,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4004193034260590341_26526554234",
@@ -527,9 +527,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeRwFl7Mi8F/",
-      "likes": 1465,
+      "likes": 1475,
       "comments": 27,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4001938905525063900_26526554234",
@@ -539,9 +539,9 @@
       "format": "Reel",
       "account": "@ishansharma7390",
       "postUrl": "https://www.instagram.com/p/DeJvjs8oxDc/",
-      "likes": 6949,
+      "likes": 6950,
       "comments": 58,
-      "added_at": "2026-10-26T03:31:55.374Z"
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4012936252277554185_48619065725",
@@ -553,7 +553,7 @@
       "postUrl": "https://www.instagram.com/p/Dew0EKPSnwJ/",
       "likes": 3,
       "comments": 74,
-      "added_at": "2026-10-26T03:31:55.375Z"
+      "added_at": "2026-10-27T03:31:45.477Z"
     },
     {
       "id": "4010023791148816514_48619065725",
@@ -565,7 +565,7 @@
       "postUrl": "https://www.instagram.com/p/Demd2RcSliC/",
       "likes": 3,
       "comments": 36,
-      "added_at": "2026-10-26T03:31:55.375Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "4007311576352186324_48619065725",
@@ -576,8 +576,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/Dec1KWkyF_U/",
       "likes": 3,
-      "comments": 631,
-      "added_at": "2026-10-26T03:31:55.375Z"
+      "comments": 657,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "4004231044261286002_48619065725",
@@ -588,8 +588,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DeR4utfyRBy/",
       "likes": 3,
-      "comments": 719,
-      "added_at": "2026-10-26T03:31:55.375Z"
+      "comments": 723,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "4002789717216598535_48619065725",
@@ -600,8 +600,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DeMxApFSBoH/",
       "likes": 3,
-      "comments": 308,
-      "added_at": "2026-10-26T03:31:55.375Z"
+      "comments": 309,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3997719887488758716_48619065725",
@@ -612,8 +612,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/Dd6wQ6NSDO8/",
       "likes": 3,
-      "comments": 379,
-      "added_at": "2026-10-26T03:31:55.375Z"
+      "comments": 383,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3996265489290193952_48619065725",
@@ -625,7 +625,7 @@
       "postUrl": "https://www.instagram.com/p/Dd1lkoVS2wg/",
       "likes": 3,
       "comments": 228,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3994094798373451020_48619065725",
@@ -636,8 +636,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/Ddt4A64SPUM/",
       "likes": 3,
-      "comments": 94,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "comments": 96,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3991190658240579771_48619065725",
@@ -648,8 +648,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DdjjsHnSYi7/",
       "likes": 3,
-      "comments": 451,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "comments": 459,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3987569466254391896_48619065725",
@@ -660,8 +660,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DdWsU1xSXpY/",
       "likes": 3,
-      "comments": 621,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "comments": 623,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3983943957759112337_48619065725",
@@ -672,8 +672,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DdJz-v3S7SR/",
       "likes": 3,
-      "comments": 980,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "comments": 978,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3981032110877783033_48619065725",
@@ -685,7 +685,7 @@
       "postUrl": "https://www.instagram.com/p/Dc_d5zISzP5/",
       "likes": 3,
       "comments": 74,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3977427463457817810_48619065725",
@@ -697,7 +697,7 @@
       "postUrl": "https://www.instagram.com/p/DcyqTRnSUTS/",
       "likes": 3,
       "comments": 218,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3974527778159901425_48619065725",
@@ -708,8 +708,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DcoW_TPJLrx/",
       "likes": 3,
-      "comments": 1468,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "comments": 1470,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3968721428568228825_48619065725",
@@ -720,8 +720,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/DcTuxyySkPZ/",
       "likes": 3,
-      "comments": 231,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "comments": 233,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3962219640763572284_48619065725",
@@ -732,8 +732,8 @@
       "account": "@aryamanupmanyu",
       "postUrl": "https://www.instagram.com/p/Db8ocVByeA8/",
       "likes": 3,
-      "comments": 428,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "comments": 429,
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3958576880416314307_48619065725",
@@ -745,7 +745,7 @@
       "postUrl": "https://www.instagram.com/p/DbvsLMFSdPD/",
       "likes": 3,
       "comments": 296,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3957131800325233899_48619065725",
@@ -757,7 +757,7 @@
       "postUrl": "https://www.instagram.com/p/DbqjmgXyZzr/",
       "likes": 3,
       "comments": 448,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "3953507811711463128_48619065725",
@@ -769,19 +769,7 @@
       "postUrl": "https://www.instagram.com/p/Dbdrmh9yy7Y/",
       "likes": 3,
       "comments": 461,
-      "added_at": "2026-10-26T03:31:55.376Z"
-    },
-    {
-      "id": "3935383354421622553_48619065725",
-      "text": "Start a one person company using Claude today.  One Claude project, four simple files, one weekly brief, and that's basically the entire setup.  Claude keeps your voice, your offers, and your current priorities in one place, so you are not explaining yourself from scratch every single day.",
-      "source": "transcript",
-      "type": "story",
-      "format": "Reel",
-      "account": "@aryamanupmanyu",
-      "postUrl": "https://www.instagram.com/p/DadSk9vSTcZ/",
-      "likes": 3,
-      "comments": 1019,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "4014367386028655597_59161778770",
@@ -791,9 +779,9 @@
       "format": "Reel",
       "account": "@nivedan.ai",
       "postUrl": "https://www.instagram.com/p/De15d5aJsPt/",
-      "likes": 72,
+      "likes": 73,
       "comments": 1,
-      "added_at": "2026-10-26T03:31:55.376Z"
+      "added_at": "2026-10-27T03:31:45.478Z"
     },
     {
       "id": "4013383246583973820_59161778770",
@@ -803,9 +791,9 @@
       "format": "Reel",
       "account": "@nivedan.ai",
       "postUrl": "https://www.instagram.com/p/DeyZsyIJEe8/",
-      "likes": 661,
+      "likes": 679,
       "comments": 9,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4011454531977389231_59161778770",
@@ -815,9 +803,9 @@
       "format": "Reel",
       "account": "@nivedan.ai",
       "postUrl": "https://www.instagram.com/p/DerjKSrJKSv/",
-      "likes": 235,
+      "likes": 242,
       "comments": 6,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4009961397550775903_59161778770",
@@ -827,9 +815,9 @@
       "format": "Reel",
       "account": "@nivedan.ai",
       "postUrl": "https://www.instagram.com/p/DemPqU4Cv5f/",
-      "likes": 261,
+      "likes": 266,
       "comments": 28,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4009130441623071292_59161778770",
@@ -841,7 +829,7 @@
       "postUrl": "https://www.instagram.com/p/DejSuU3Jeo8/",
       "likes": 312,
       "comments": 5,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4006949226709356520_59161778770",
@@ -851,9 +839,9 @@
       "format": "Reel",
       "account": "@nivedan.ai",
       "postUrl": "https://www.instagram.com/p/DebixeLCY_o/",
-      "likes": 99,
-      "comments": 66,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "likes": 100,
+      "comments": 68,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4006214307081008458_59161778770",
@@ -863,9 +851,9 @@
       "format": "Reel",
       "account": "@nivedan.ai",
       "postUrl": "https://www.instagram.com/p/DeY7q-7prVK/",
-      "likes": 312,
-      "comments": 264,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "likes": 313,
+      "comments": 266,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4007064004326392196_1411361583",
@@ -875,9 +863,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/Deb83tKIQGE/",
-      "likes": 7443,
-      "comments": 627,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "likes": 7516,
+      "comments": 638,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4002011074533237165_1411361583",
@@ -887,9 +875,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DeJ_95ku6Gt/",
-      "likes": 4960,
-      "comments": 384,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "likes": 4993,
+      "comments": 386,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3992602519147788085_1411361583",
@@ -899,9 +887,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DdoktZjIjc1/",
-      "likes": 3329,
+      "likes": 3348,
       "comments": 162,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3970814642533503560_1411361583",
@@ -911,9 +899,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-      "likes": 47042,
-      "comments": 8510,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "likes": 47293,
+      "comments": 8553,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3967910289556586246_1411361583",
@@ -923,9 +911,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DcQ2WKtoz8G/",
-      "likes": 5822,
-      "comments": 1089,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "likes": 5844,
+      "comments": 1092,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3953432369198939354_1411361583",
@@ -935,9 +923,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/Dbdacspojza/",
-      "likes": 78541,
-      "comments": 5697,
-      "added_at": "2026-10-26T03:31:55.377Z"
+      "likes": 78966,
+      "comments": 5736,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3933851278842666794_1411361583",
@@ -947,9 +935,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DaX2OVKoh8q/",
-      "likes": 9087,
+      "likes": 9111,
       "comments": 1315,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3928039273951069576_1411361583",
@@ -961,7 +949,7 @@
       "postUrl": "https://www.instagram.com/p/DaDMuhzowWI/",
       "likes": 1881,
       "comments": 515,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3925171614062253980_1411361583",
@@ -971,9 +959,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DZ5AslaoJec/",
-      "likes": 9209,
-      "comments": 5628,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "likes": 9242,
+      "comments": 5641,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3916455154859376104_1411361583",
@@ -983,9 +971,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DZaCzaMI_3o/",
-      "likes": 12932,
+      "likes": 12941,
       "comments": 2574,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3901189222851344478_1411361583",
@@ -995,9 +983,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DYjzu3Fovhe/",
-      "likes": 28101,
+      "likes": 28103,
       "comments": 9043,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3891815806451123714_1411361583",
@@ -1008,8 +996,8 @@
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DYCgdsyxQYC/",
       "likes": 16728,
-      "comments": 28594,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "comments": 28593,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "3889610066938066259_1411361583",
@@ -1019,9 +1007,9 @@
       "format": "Reel",
       "account": "@dhavalkataria_",
       "postUrl": "https://www.instagram.com/p/DX6q79yoHVT/",
-      "likes": 4123,
+      "likes": 4122,
       "comments": 4921,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4013601471143737391_104890898",
@@ -1031,9 +1019,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DezLUXlgfgv/",
-      "likes": 3604,
-      "comments": 43,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "likes": 3677,
+      "comments": 44,
+      "added_at": "2026-10-27T03:31:45.479Z"
     },
     {
       "id": "4012816534884869213_104890898",
@@ -1043,9 +1031,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DewY2CuoGRd/",
-      "likes": 8679,
-      "comments": 115,
-      "added_at": "2026-10-26T03:31:55.378Z"
+      "likes": 8917,
+      "comments": 118,
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4011450758010927477_104890898",
@@ -1055,9 +1043,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DeriTX5Nnl1/",
-      "likes": 1955,
+      "likes": 1997,
       "comments": 22,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4009964356304529815_104890898",
@@ -1067,9 +1055,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DemQVYbgmmX/",
-      "likes": 3468,
-      "comments": 1381,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "likes": 3509,
+      "comments": 1393,
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4009722458780459357_104890898",
@@ -1079,9 +1067,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DelZVTzg-Fd/",
-      "likes": 450,
+      "likes": 456,
       "comments": 7,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4009589547351646891_104890898",
@@ -1091,9 +1079,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/Dek7HMZA6Kr/",
-      "likes": 8323,
+      "likes": 8346,
       "comments": 65,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4009097868932802330_104890898",
@@ -1103,9 +1091,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DejLUVLg-ca/",
-      "likes": 604,
+      "likes": 615,
       "comments": 10,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4008535598892836523_104890898",
@@ -1115,9 +1103,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DehLeOZg-ar/",
-      "likes": 5265,
-      "comments": 361,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "likes": 5321,
+      "comments": 364,
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4007781592528433584_104890898",
@@ -1127,9 +1115,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DeegB_QAbGw/",
-      "likes": 2314,
+      "likes": 2331,
       "comments": 40,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4006437885132700996_104890898",
@@ -1139,9 +1127,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DeZugeOAH1E/",
-      "likes": 2399,
-      "comments": 32,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "likes": 2411,
+      "comments": 33,
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4004990572833216642_104890898",
@@ -1151,9 +1139,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DeUlbTmgxiC/",
-      "likes": 3998,
+      "likes": 4001,
       "comments": 25,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4003534529418608911_104890898",
@@ -1163,9 +1151,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DePaXFgAcEP/",
-      "likes": 5398,
+      "likes": 5406,
       "comments": 79,
-      "added_at": "2026-10-26T03:31:55.381Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4002768225422078226_104890898",
@@ -1175,9 +1163,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DeMsH5SgPES/",
-      "likes": 3610,
+      "likes": 3609,
       "comments": 23,
-      "added_at": "2026-10-26T03:31:55.382Z"
+      "added_at": "2026-10-27T03:31:45.480Z"
     },
     {
       "id": "4002055818274056274_104890898",
@@ -1187,21 +1175,9 @@
       "format": "Reel",
       "account": "@vaibhavsisinty",
       "postUrl": "https://www.instagram.com/p/DeKKJAbgqhS/",
-      "likes": 11199,
+      "likes": 11212,
       "comments": 118,
-      "added_at": "2026-10-26T03:31:55.382Z"
-    },
-    {
-      "id": "4000533099929847127_104890898",
-      "text": "Trump literally said this This guy is a monster, and nobody knows Trump just called Sundar Pichai a monster.  Then Pichai went and proved him right.  Google just dropped Gemini 4 Argon, and this time, they didn't just make Gemini smarter, they built a powerhouse for heavy-duty work.",
-      "source": "transcript",
-      "type": "story",
-      "format": "Reel",
-      "account": "@vaibhavsisinty",
-      "postUrl": "https://www.instagram.com/p/DeEv6idgsVX/",
-      "likes": 18494,
-      "comments": 77,
-      "added_at": "2026-10-26T03:31:55.382Z"
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "4014217430553093872_27437145281",
@@ -1212,8 +1188,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/De1XXwfTGbw/",
       "likes": 3,
-      "comments": 2910,
-      "added_at": "2026-10-26T03:31:55.382Z"
+      "comments": 3011,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "4011380472936235771_27437145281",
@@ -1224,8 +1200,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/DerSUl0TYL7/",
       "likes": 3,
-      "comments": 60,
-      "added_at": "2026-10-26T03:31:55.382Z"
+      "comments": 61,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "4007659692805150687_27437145281",
@@ -1236,8 +1212,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/DeeEUHSTVff/",
       "likes": 3,
-      "comments": 920,
-      "added_at": "2026-10-26T03:31:55.382Z"
+      "comments": 940,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "4006188931645084835_27437145281",
@@ -1248,8 +1224,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/DeY15uNzpSj/",
       "likes": 3,
-      "comments": 1573,
-      "added_at": "2026-10-26T03:31:55.382Z"
+      "comments": 1583,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "4004144787510647001_27437145281",
@@ -1260,8 +1236,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/DeRlHgozdjZ/",
       "likes": 3,
-      "comments": 2063,
-      "added_at": "2026-10-26T03:31:55.383Z"
+      "comments": 2065,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "3999754337504830619_27437145281",
@@ -1272,8 +1248,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/DeB-2DbzaSb/",
       "likes": 3,
-      "comments": 2277,
-      "added_at": "2026-10-26T03:31:55.383Z"
+      "comments": 2281,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "3997622050780140275_27437145281",
@@ -1284,8 +1260,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/Dd6aBMrBNLz/",
       "likes": 3,
-      "comments": 1046,
-      "added_at": "2026-10-26T03:31:55.383Z"
+      "comments": 1048,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "3996933249917950266_27437145281",
@@ -1296,8 +1272,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/Dd39Z04Tpk6/",
       "likes": 3,
-      "comments": 281,
-      "added_at": "2026-10-26T03:31:55.383Z"
+      "comments": 283,
+      "added_at": "2026-10-27T03:31:45.481Z"
     },
     {
       "id": "3996163467249585896_27437145281",
@@ -1308,8 +1284,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/Dd1OYA5zg7o/",
       "likes": 3,
-      "comments": 1047,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "comments": 1049,
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "3994670937475457794_27437145281",
@@ -1320,8 +1296,8 @@
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/Ddv7A2OzSMC/",
       "likes": 3,
-      "comments": 2187,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "comments": 2206,
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "3993238389092375619_27437145281",
@@ -1331,9 +1307,9 @@
       "format": "Reel",
       "account": "@favourite.engineer",
       "postUrl": "https://www.instagram.com/p/Ddq1ShlTdxD/",
-      "likes": 1565,
+      "likes": 1567,
       "comments": 287,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "3989490782511780250_27437145281",
@@ -1345,7 +1321,7 @@
       "postUrl": "https://www.instagram.com/p/DddhLq-T1Ga/",
       "likes": 3,
       "comments": 562,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "3987498850172438419_27437145281",
@@ -1357,7 +1333,7 @@
       "postUrl": "https://www.instagram.com/p/DdWcRPazoeT/",
       "likes": 3,
       "comments": 3644,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "3980950420902061028_27437145281",
@@ -1369,19 +1345,31 @@
       "postUrl": "https://www.instagram.com/p/Dc_LVDaTyPk/",
       "likes": 3,
       "comments": 116,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
-      "id": "3977382380486565190_27437145281",
-      "text": "Aaj main tumhe dikhata hoon power of prompt.  Jitni chaho utni faceless videos banwa sakte ho free mein is Google ke tool ke saath.  Karna kya hai wo sun lo.",
+      "id": "4014197862195613872_7695520761",
+      "text": "This might go down as the scariest day in internet history.  The NSA, the FBI, the EU, and even Japan's Prime Minister are telling governments to take their sites offline.  Here's exactly what's going on.",
+      "source": "transcript",
+      "type": "curiosity_gap",
+      "format": "Reel",
+      "account": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/De1S7ACTVCw/",
+      "likes": 17630,
+      "comments": 63,
+      "added_at": "2026-10-27T03:31:45.482Z"
+    },
+    {
+      "id": "4013034674087408751_7695520761",
+      "text": "This is one of the biggest security failures in India.  A company that secures websites just got its private keys cracked, and one of them is literally the number four.  So, eMudhra is an Indian company that works as a certificate authority.",
       "source": "transcript",
       "type": "story",
       "format": "Reel",
-      "account": "@favourite.engineer",
-      "postUrl": "https://www.instagram.com/p/DcygDO0zJ1G/",
-      "likes": 31538,
-      "comments": 88406,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "account": "@thevarunmayya",
+      "postUrl": "https://www.instagram.com/p/DexKcYsTjRv/",
+      "likes": 40159,
+      "comments": 337,
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "4009066483536740662_7695520761",
@@ -1391,9 +1379,9 @@
       "format": "Reel",
       "account": "@thevarunmayya",
       "postUrl": "https://www.instagram.com/p/DejELnQIcE2/",
-      "likes": 15198,
+      "likes": 15206,
       "comments": 183,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "4007662449145951235_7695520761",
@@ -1403,9 +1391,9 @@
       "format": "Reel",
       "account": "@thevarunmayya",
       "postUrl": "https://www.instagram.com/p/DeeE8OVBDQD/",
-      "likes": 8078,
+      "likes": 8158,
       "comments": 53,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "4007102053696146851_7695520761",
@@ -1415,9 +1403,9 @@
       "format": "Reel",
       "account": "@thevarunmayya",
       "postUrl": "https://www.instagram.com/p/DecFhZZTA2j/",
-      "likes": 12467,
-      "comments": 197,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "likes": 12609,
+      "comments": 198,
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "4005464408016723901_7695520761",
@@ -1427,9 +1415,9 @@
       "format": "Reel",
       "account": "@thevarunmayya",
       "postUrl": "https://www.instagram.com/p/DeWRKhATp-9/",
-      "likes": 15306,
-      "comments": 154,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "likes": 15370,
+      "comments": 156,
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "4003934243259755565_7695520761",
@@ -1439,9 +1427,9 @@
       "format": "Reel",
       "account": "@thevarunmayya",
       "postUrl": "https://www.instagram.com/p/DeQ1PsBhSwt/",
-      "likes": 3441,
+      "likes": 3445,
       "comments": 29,
-      "added_at": "2026-10-26T03:31:55.387Z"
+      "added_at": "2026-10-27T03:31:45.482Z"
     },
     {
       "id": "4002733572431314485_7695520761",
@@ -1451,9 +1439,9 @@
       "format": "Reel",
       "account": "@thevarunmayya",
       "postUrl": "https://www.instagram.com/p/DeMkPoLTH41/",
-      "likes": 32312,
-      "comments": 162,
-      "added_at": "2026-10-26T03:31:55.388Z"
+      "likes": 32386,
+      "comments": 163,
+      "added_at": "2026-10-27T03:31:45.483Z"
     },
     {
       "hook": "Now you don't need to use 11labs to build your voice calling AI agents, or even clone your voice.",
@@ -1461,10 +1449,10 @@
       "handle": "@garvit.irl",
       "postId": "4013482945964187000_65880404765",
       "likes": 87,
-      "comments": 28,
+      "comments": 29,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeywXmaSJ14/",
-      "addedAt": "2026-10-26T04:03:27.957Z"
+      "addedAt": "2026-10-27T04:03:59.684Z"
     },
     {
       "hook": "ChatGPT's Dots, Muse, and Grokbot, they all look the same. But let me tell you which one you should actually use for your business.",
@@ -1475,7 +1463,7 @@
       "comments": 2,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DemXegKyZsT/",
-      "addedAt": "2026-10-26T04:03:27.957Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "If you are a founder, you need these Claude skills right now.",
@@ -1486,7 +1474,7 @@
       "comments": 5,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DecEqixzsDS/",
-      "addedAt": "2026-10-26T04:03:27.958Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "This is the single best possible way you can cold dm to your potential clients",
@@ -1497,7 +1485,7 @@
       "comments": 1,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeUTTstEs_6/",
-      "addedAt": "2026-10-26T04:03:27.958Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "toh bahut log mujhse poochte hain ki claude code ko free mein kaise use kiya jaye because subscription ke paise nahi hai ya fir limits bahut jaldi hit",
@@ -1505,10 +1493,10 @@
       "handle": "@garvit.irl",
       "postId": "3999852864943509969_65880404765",
       "likes": 96,
-      "comments": 399,
+      "comments": 400,
       "type": "value",
       "postUrl": "https://www.instagram.com/p/DeCVP0QyVHR/",
-      "addedAt": "2026-10-26T04:03:27.958Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "Aao tumhe aisi website dikhata hu jahan tumhe Claude Fable 5.1 aur GPT-6 Astra ka complete access free me milega.",
@@ -1519,7 +1507,7 @@
       "comments": 297,
       "type": "value",
       "postUrl": "https://www.instagram.com/p/Dd37L-bhAGZ/",
-      "addedAt": "2026-10-26T04:03:27.958Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "If you want an IIT Bombay certificate without doing JEE, this is your only chance. Dekho, you have watched 100 hours of tutorials, but tumhara resume abhi bhi blank hai.",
@@ -1530,7 +1518,7 @@
       "comments": 19,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdyhPKVyoEm/",
-      "addedAt": "2026-10-26T04:03:27.958Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "to bhai tumhe mei aaj sare free AI tools ke ground reality batata Hoo.",
@@ -1541,18 +1529,18 @@
       "comments": 6,
       "type": "value",
       "postUrl": "https://www.instagram.com/p/DdrDPZzpx45/",
-      "addedAt": "2026-10-26T04:03:27.958Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "तो भाई अगर तुम्हें भी ऐसा लगता है ना कि लोग जब अपनी स्क्रीन रिकॉर्डिंग शेयर करते हैं और कहीं भी क्लिक करते हैं तो उनका ज़ूम इन और ज़ूम आउट बहुत ईज़िली",
       "source": "transcript",
       "handle": "@garvit.irl",
       "postId": "3990292809965383264_65880404765",
-      "likes": 2300,
-      "comments": 1347,
+      "likes": 2302,
+      "comments": 1348,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdgXitPyC5g/",
-      "addedAt": "2026-10-26T04:03:27.958Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "agar tum content create karte ho to ninety-nine percent of the time tum yahi mistakes kar rahe ho and it's costing you your virality.",
@@ -1563,7 +1551,7 @@
       "comments": 18,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdZN4bsSXjC/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.685Z"
     },
     {
       "hook": "se 50000 Rupaye par month spend karne padte hain to actually even build it.",
@@ -1574,7 +1562,7 @@
       "comments": 136,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdZNBptyRzm/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "I made an entire content system that made me this much followers and this much engagement with just a single video.",
@@ -1585,7 +1573,7 @@
       "comments": 13,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdMPB5VSxuX/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Most of the creators have their own skill, their own audience, and their own content, but unhe use monetize karna nahi aata.",
@@ -1596,7 +1584,7 @@
       "comments": 9,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdHDgUzp9ea/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Tumhe pta hai, what is the most frustrating part of using an AI, ek acha prompt likhna. Agar tum AI use karte ho, to tumhe pta hi hoga that how important it is to write a good prompt.",
@@ -1607,7 +1595,7 @@
       "comments": 72,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DdB-So2SsTg/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Comment “Astra” if you want the complete guide ✌🏻",
@@ -1618,7 +1606,7 @@
       "comments": 3,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dc87K0QEnWh/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "AI just went from “answer my question” to “build the damn thing.”",
@@ -1629,7 +1617,7 @@
       "comments": 1,
       "type": "story",
       "postUrl": "https://www.instagram.com/p/Dc6UDIgkvgE/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "OpenAI just launched Astra and it's better than Claude in every way except one that actually matters.",
@@ -1640,7 +1628,7 @@
       "comments": 9,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dc3r2c0yGd4/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Nobody told you these Al tools have FREE twins",
@@ -1651,7 +1639,7 @@
       "comments": 18,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DcyPQmlkkwg/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "can now run Claude Code completely free with almost unlimited usage. So somebody on GitHub just built a free tool called OmniRoute.",
@@ -1662,7 +1650,7 @@
       "comments": 97,
       "type": "value",
       "postUrl": "https://www.instagram.com/p/DcvqOzPywMV/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Claude skills got me 250,000 views this week, and you know what is the best part? I didn't create it any of the skills.",
@@ -1673,84 +1661,84 @@
       "comments": 79,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/Dcp0KPdSs7K/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
+    },
+    {
+      "hook": "Comment \"CLONE\" to get this Free AI Tool that rebuilds any app you pay for with Claude Code.",
+      "source": "caption",
+      "handle": "@nick_saraev",
+      "postId": "4016322778524260912_72269881052",
+      "likes": 1967,
+      "comments": 2330,
+      "type": "value",
+      "postUrl": "https://www.instagram.com/p/De82EmlP5ow/",
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Comment \"STARTUP\" to get Mirofish and test your Business Idea.",
       "source": "caption",
       "handle": "@nick_saraev",
       "postId": "4015828914310907900_72269881052",
-      "likes": 853,
-      "comments": 772,
+      "likes": 1253,
+      "comments": 1188,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De7Fx7sPof8/",
-      "addedAt": "2026-10-26T04:03:27.959Z"
-    },
-    {
-      "hook": "You can now run a whole agency inside Claude Code for exactly $0, and it is everything a real agency does from finding clients to building the final product with Claude Code handling all of it.",
-      "source": "transcript",
-      "handle": "@nick_saraev",
-      "postId": "4015606814757316416_72269881052",
-      "likes": 1341,
-      "comments": 2382,
-      "type": "pattern_interrupt",
-      "postUrl": "https://www.instagram.com/p/De6TR9XP2dA/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Comment \"BOOK\" to get Replit and start building your own booking system with AI.",
       "source": "caption",
       "handle": "@nick_saraev",
       "postId": "4002741467352029580_72269881052",
-      "likes": 799,
-      "comments": 651,
+      "likes": 802,
+      "comments": 653,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeMmCg5PlmM/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Comment \"PLUGIN\" to get these 11 free Claude plugins for your job role.",
       "source": "caption",
       "handle": "@nick_saraev",
       "postId": "4001256544401118421_72269881052",
-      "likes": 2302,
-      "comments": 3615,
+      "likes": 2308,
+      "comments": 3632,
       "type": "value",
       "postUrl": "https://www.instagram.com/p/DeHUaCoPFTV/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "ASMR unboxing the iPhone Duo. Seeing my name on the hello screen at the end was such a nice touch… t",
       "source": "caption",
       "handle": "@arshman",
       "postId": "4015451716415685775_24040950",
-      "likes": 257,
-      "comments": 9,
+      "likes": 275,
+      "comments": 10,
       "type": "story",
       "postUrl": "https://www.instagram.com/p/De5wA-xsISP/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Content creation is the best way to attract leads and clients… but doing everything yourself gets ex",
       "source": "caption",
       "handle": "@arshman",
       "postId": "4009724185444859398_24040950",
-      "likes": 583,
-      "comments": 752,
+      "likes": 638,
+      "comments": 859,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DelZub4u74G/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "You are using 10% of Claude. Here’s the other 90%.",
       "source": "caption",
       "handle": "@arshman",
       "postId": "4000237967530710397_24040950",
-      "likes": 417,
-      "comments": 583,
+      "likes": 423,
+      "comments": 587,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeDszy_stV9/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Wan 3.0 locks motion + camera while you swap the subject, the scene or a single object.",
@@ -1758,10 +1746,10 @@
       "handle": "@arshman",
       "postId": "3985077646721905304_24040950",
       "likes": 259,
-      "comments": 380,
+      "comments": 382,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdN1wF_NXKY/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Toothbrush with a camera to livestream your mouth???",
@@ -1772,183 +1760,194 @@
       "comments": 5,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/Dcz7JbftCDQ/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "New York always makes me feel poor!",
       "source": "caption",
       "handle": "@ishansharma7390",
       "postId": "4015730978149370044_26526554234",
-      "likes": 5448,
-      "comments": 16,
+      "likes": 8896,
+      "comments": 28,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De6vgxiIAi8/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Comment \"INFINITY\" to know more!🔥",
       "source": "caption",
       "handle": "@ishansharma7390",
       "postId": "4014978448473713578_26526554234",
-      "likes": 10402,
-      "comments": 2853,
+      "likes": 10935,
+      "comments": 3034,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De4EaBqH-uq/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "This iPhone Duo app is insane!🤯",
       "source": "caption",
       "handle": "@ishansharma7390",
       "postId": "4014434158039454265_26526554234",
-      "likes": 38377,
-      "comments": 183,
+      "likes": 38786,
+      "comments": 185,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De2IpjsItI5/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "still can't get over this feeling🥹✨",
       "source": "caption",
       "handle": "@ishansharma7390",
       "postId": "4012676725872750700_26526554234",
-      "likes": 72103,
-      "comments": 606,
+      "likes": 72883,
+      "comments": 610,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dev5DjcH3Bs/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "Flew to New York as the only creator representing India at LinkedIn’s Connection by Design, hosted a",
       "source": "caption",
       "handle": "@ishansharma7390",
       "postId": "4008521877211771263_26526554234",
-      "likes": 8106,
-      "comments": 46,
+      "likes": 8213,
+      "comments": 47,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DehIWjFlvF_/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
       "hook": "24 hrs SOLO in New York🥹🗽",
       "source": "caption",
       "handle": "@ishansharma7390",
       "postId": "4007867055014408759_26526554234",
-      "likes": 14197,
-      "comments": 34,
+      "likes": 14379,
+      "comments": 35,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeezdoZH_I3/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.686Z"
     },
     {
-      "hook": "What if you could access Microsoft Office-style tools without paying ₹7,000 every year? 👀🔥",
-      "source": "caption",
+      "hook": "Video editors and motion designers are probably going to hate me for this because I am going to tell you how you can make a fully animated video with Claude without using any video model.",
+      "source": "transcript",
+      "handle": "@aryamanupmanyu",
+      "postId": "4016570589598440083_48619065725",
+      "likes": 3,
+      "comments": 262,
+      "type": "question",
+      "postUrl": "https://www.instagram.com/p/De9uauoS9qT/",
+      "addedAt": "2026-10-27T04:03:59.686Z"
+    },
+    {
+      "hook": "You can now get Microsoft 365 worth ₹7,000 a year completely free. One developer used AI to make a free version that anyone can use without paying.",
+      "source": "transcript",
       "handle": "@nivedan.ai",
       "postId": "4015095695031347896_59161778770",
-      "likes": 538,
-      "comments": 960,
-      "type": "question",
+      "likes": 576,
+      "comments": 1022,
+      "type": "value",
       "postUrl": "https://www.instagram.com/p/De4fEMBiyq4/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "The past 48 hours have been a serious wake-up call for cybersecurity. 🚨",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4014834270681504097_59161778770",
-      "likes": 159,
+      "likes": 163,
       "comments": 1,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De3jn9oCRlh/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Someone used Claude to give their TV a complete makeover. 🤯📺",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4014178070562465588_59161778770",
-      "likes": 182,
-      "comments": 62,
+      "likes": 197,
+      "comments": 70,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De1Oa_pCec0/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Google’s Gemini 4 Argon is making waves in the AI race. 👀🤖",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4013403672296975936_59161778770",
-      "likes": 2391,
-      "comments": 44,
+      "likes": 2516,
+      "comments": 16,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeyeWBDgm5A/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "A little late to the trend, but we had to do it anyway 💃🏻",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4012817894133346224_59161778770",
-      "likes": 397,
-      "comments": 128,
+      "likes": 408,
+      "comments": 132,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DewZJ0oJi-w/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "What if you could turn an ordinary photograph into a hand-drawn masterpiece? ✍🏻🎨✨",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4012726024344790542_59161778770",
-      "likes": 179,
+      "likes": 184,
       "comments": 50,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DewEQ8OCWYO/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Tesla’s Roadster reveal had the internet going WILD, and the memes are proof. 😂🚗",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4011214779879893531_59161778770",
-      "likes": 114,
+      "likes": 117,
       "comments": 0,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeqspcIiaob/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "While web crawlers typically operate entirely out of sight behind the scenes, one creative developer",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4009060122269137340_59161778770",
-      "likes": 1540,
-      "comments": 20,
+      "likes": 1566,
+      "comments": 22,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DejCvC3CTm8/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Transform your standard photos into stunning editorial poster art using this must-try grain art prom",
       "source": "caption",
       "handle": "@nivedan.ai",
       "postId": "4007657743153978699_59161778770",
-      "likes": 366,
-      "comments": 286,
+      "likes": 368,
+      "comments": 290,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeeD3viCV1L/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
-      "hook": "One developer just used AI to rebuild seven core Adobe applications which is completely free and ope",
+      "hook": "hey siri set an alarm for those sleeping on me",
       "source": "caption",
-      "handle": "@nivedan.ai",
-      "postId": "4006880625847534184_59161778770",
-      "likes": 1159,
-      "comments": 15,
-      "type": "value",
-      "postUrl": "https://www.instagram.com/p/DebTLMpCYJo/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "handle": "@dhavalkataria_",
+      "postId": "4016448045758081772_1411361583",
+      "likes": 415,
+      "comments": 20,
+      "type": "pattern_interrupt",
+      "postUrl": "https://www.instagram.com/p/De9SjeyOOrs/",
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "and suddenly the dreams started chasing me",
@@ -1959,7 +1958,7 @@
       "comments": 44,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DavIngNEj-9/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "sometimes when i sit back and really let it register",
@@ -1970,7 +1969,7 @@
       "comments": 147,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DVdxpJcCNde/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "i need a room full of mirrors so i can be surrounded by winners",
@@ -1981,7 +1980,7 @@
       "comments": 15,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DVVWABJCDSN/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "new year same me bc i wasn’t the problem 😏",
@@ -1992,7 +1991,7 @@
       "comments": 12,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DS96WBdiLDC/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "can’t believe i’m funny AND good looking? like where does it end",
@@ -2003,7 +2002,7 @@
       "comments": 18,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DRY5Ry-Em2i/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "“I learned this, at least, by my experiment: that if one advances confidently in the direction of hi",
@@ -2014,62 +2013,73 @@
       "comments": 53,
       "type": "story",
       "postUrl": "https://www.instagram.com/p/DNNvdFXIwyj/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
-      "hook": "Before uploading my first video, I told myself, I am going to hit 10K in 3 months.",
+      "hook": "Officially collaborated, I mean engaged ❤️💍",
       "source": "caption",
-      "handle": "@dhavalkataria_",
-      "postId": "3509940464254103639_1411361583",
-      "likes": 230,
-      "comments": 36,
-      "type": "story",
-      "postUrl": "https://www.instagram.com/p/DC10EF6orBX/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "handle": "@vaibhavsisinty",
+      "postId": "4016900052022980600_104890898",
+      "likes": 120,
+      "comments": 3,
+      "type": "pattern_interrupt",
+      "postUrl": "https://www.instagram.com/p/De-5VCbE-_4/",
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "A startup just turned mercury into gold",
       "source": "caption",
       "handle": "@vaibhavsisinty",
       "postId": "4015465956401807419_104890898",
-      "likes": 2585,
-      "comments": 26,
+      "likes": 3169,
+      "comments": 36,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De5zQMzAQA7/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "A 10-year bug could hijack any website",
       "source": "caption",
       "handle": "@vaibhavsisinty",
       "postId": "4015008166206078950_104890898",
-      "likes": 3190,
-      "comments": 19,
+      "likes": 3432,
+      "comments": 20,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De4LKedAX_m/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "ChatGPT Has Cheat Codes For Images",
       "source": "caption",
       "handle": "@vaibhavsisinty",
       "postId": "4006082375239129197_104890898",
-      "likes": 5754,
-      "comments": 1447,
+      "likes": 5784,
+      "comments": 1451,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeYdrH1FNht/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Things got kinda meta at Meta 👓",
       "source": "caption",
       "handle": "@vaibhavsisinty",
       "postId": "4001241003386532456_104890898",
-      "likes": 7037,
+      "likes": 7044,
       "comments": 35,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeHQ347lPJo/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
+    },
+    {
+      "hook": "Power of AI 😮‍💨",
+      "source": "caption",
+      "handle": "@favourite.engineer",
+      "postId": "4016490144567416225_27437145281",
+      "likes": 1877,
+      "comments": 749,
+      "type": "pattern_interrupt",
+      "postUrl": "https://www.instagram.com/p/De9cIGWzFWh/",
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Save this so you don’t regret later. And Share with your friends.",
@@ -2077,10 +2087,10 @@
       "handle": "@favourite.engineer",
       "postId": "4014771988954324489_27437145281",
       "likes": 3,
-      "comments": 817,
+      "comments": 910,
       "type": "value",
       "postUrl": "https://www.instagram.com/p/De3VdpPz54J/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Make good looking linkedin headshot in under 30 seconds 💥",
@@ -2088,10 +2098,10 @@
       "handle": "@favourite.engineer",
       "postId": "4011997033804025910_27437145281",
       "likes": 3,
-      "comments": 1356,
+      "comments": 1370,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Detegu3z1A2/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Build your First AI Agent Today 🚀..",
@@ -2099,10 +2109,10 @@
       "handle": "@favourite.engineer",
       "postId": "3998255463422744393_27437145281",
       "likes": 3,
-      "comments": 34,
+      "comments": 35,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dd8qCkKk9dJ/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Comment “🙌🏻” for the 35+ connectors list 🤯..",
@@ -2113,172 +2123,150 @@
       "comments": 38,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdyH5JTE2rA/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "the month that was....",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4015854351461633066_7695520761",
-      "likes": 20894,
-      "comments": 57,
+      "likes": 27963,
+      "comments": 78,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/De7LkF4k8wq/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
-    },
-    {
-      "hook": "This might go down as the scariest day in internet history.",
-      "source": "transcript",
-      "handle": "@thevarunmayya",
-      "postId": "4014197862195613872_7695520761",
-      "likes": 17312,
-      "comments": 62,
-      "type": "pattern_interrupt",
-      "postUrl": "https://www.instagram.com/p/De1S7ACTVCw/",
-      "addedAt": "2026-10-26T04:03:27.960Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "This is your friendly reminder that the internet is going through a series of cybersecurity crises t",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4013522385939939915_7695520761",
-      "likes": 2988,
-      "comments": 24,
+      "likes": 3038,
+      "comments": 25,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dey5VhwB0JL/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
-    },
-    {
-      "hook": "This is one of the biggest security failures in India.",
-      "source": "transcript",
-      "handle": "@thevarunmayya",
-      "postId": "4013034674087408751_7695520761",
-      "likes": 39858,
-      "comments": 335,
-      "type": "pattern_interrupt",
-      "postUrl": "https://www.instagram.com/p/DexKcYsTjRv/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Here's how you can hack your TV to show zero ads, look like an Apple TV, and run on nearly 70% less",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4012938025960341545_7695520761",
-      "likes": 7133,
-      "comments": 88,
+      "likes": 7321,
+      "comments": 95,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/Dew0d-HBgAp/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
-      "hook": "Elon Musk just promised to give SpaceX shares to every kid in America",
-      "source": "caption",
+      "hook": "Elon Musk just promised to give SpaceX shares to every kid in America. So let's do the math.",
+      "source": "transcript",
       "handle": "@thevarunmayya",
       "postId": "4012702373880610546_7695520761",
-      "likes": 8539,
-      "comments": 94,
+      "likes": 8647,
+      "comments": 95,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dev-4yAhT7y/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
-      "hook": "This GitHub repo is quietly blowing up because it lets your AI agent reverse engineer any app, witho",
-      "source": "caption",
+      "hook": "This GitHub repo is quietly blowing up because it lets your AI agent reverse-engineer any app without the source code.",
+      "source": "transcript",
       "handle": "@thevarunmayya",
       "postId": "4006445155225462285_7695520761",
-      "likes": 35577,
-      "comments": 457,
+      "likes": 35830,
+      "comments": 459,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeZwKRBTGYN/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, understands convolutional",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4003530249245477409_7695520761",
-      "likes": 185469,
-      "comments": 795,
+      "likes": 185687,
+      "comments": 796,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DePZYzRzsoh/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Share this with a friend without work life balance and ask them what their screen time is?",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4003432081401000695_7695520761",
-      "likes": 6663,
+      "likes": 6670,
       "comments": 113,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DePDERWTzL3/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "are you ready to see how India really uses technology?",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4002163567734159877_7695520761",
-      "likes": 5232,
+      "likes": 5233,
       "comments": 94,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DeKio97zfoF/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Red Dead Redemption 2 is running at 30+ FPS on an iPhone 18 Pro",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4001150842375058201_7695520761",
-      "likes": 9587,
+      "likes": 9595,
       "comments": 81,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeG8X38hTMZ/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Why costly signalling theory in evolution psychology explains an annoyance with AI slop.",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "4001146495663206989_7695520761",
-      "likes": 4785,
+      "likes": 4786,
       "comments": 64,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DeG7YnwTfJN/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "There's a weird prompting trick called ASD-STE100 that's borrowed from aerospace manuals, and once y",
       "source": "caption",
       "handle": "@thevarunmayya",
       "postId": "3999886104693919552_7695520761",
-      "likes": 43980,
+      "likes": 44128,
       "comments": 175,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeCczhMTU9A/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "IN CHESS, EVEN THE PAWN CAN BECOME ANYTHING IF IT ONLY KEEPS MOVING FORWARD ♟️",
       "source": "caption",
       "handle": "@devbuildsai",
       "postId": "4006863173903532737_73261450811",
-      "likes": 143,
+      "likes": 144,
       "comments": 3,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DebPNPQHULB/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "🥂",
       "source": "caption",
       "handle": "@devbuildsai",
       "postId": "3961146746529988948_73261450811",
-      "likes": 50,
+      "likes": 51,
       "comments": 1,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Db40fqaHUFU/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Rock bottom is a trampoline!",
@@ -2289,7 +2277,7 @@
       "comments": 0,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DbfF2KUnQXB/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Agencies bring leads. Clients ignore them. Then the agency gets blamed.",
@@ -2300,7 +2288,7 @@
       "comments": 1,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DbFZOI-HW7_/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "This AI books appointments without human staff.",
@@ -2311,7 +2299,7 @@
       "comments": 2,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DbAIC37nYJx/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Your sales team should not talk to every lead.",
@@ -2322,7 +2310,7 @@
       "comments": 1,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Da9pFApnXMe/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "The first business to call the lead usually wins the deal.",
@@ -2333,7 +2321,7 @@
       "comments": 7,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Da6_dnJnbWW/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "I replaced the front desk with an AI receptionist.",
@@ -2344,7 +2332,7 @@
       "comments": 2,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Da4bT0VHfXW/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.687Z"
     },
     {
       "hook": "Your ads aren’t the problem. Your unanswered phone is.",
@@ -2355,7 +2343,7 @@
       "comments": 34,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Da1xTWznchJ/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "DM “Agent”",
@@ -2366,7 +2354,7 @@
       "comments": 11,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DamXd-YnaKI/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Life recently.",
@@ -2377,7 +2365,7 @@
       "comments": 2,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DZlzXovnfyB/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "☀️ 🏖️",
@@ -2388,7 +2376,7 @@
       "comments": 6,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DWWmag8k4Ci/",
-      "addedAt": "2026-10-26T04:03:27.961Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "🚀",
@@ -2399,7 +2387,7 @@
       "comments": 3,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DWGYkiXk2OL/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Life guard 🏊",
@@ -2410,7 +2398,7 @@
       "comments": 2,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DV3Jrs6Eytp/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Elegance is in the details. 🥂✨",
@@ -2421,7 +2409,7 @@
       "comments": 1,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DVsv9hjk6k7/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "While they scroll, I automate.",
@@ -2432,205 +2420,205 @@
       "comments": 0,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DVoyvphk1mN/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
+    },
+    {
+      "hook": "Comment \"BUILD\" and I'll send you a guide to getting started with AI app building.",
+      "source": "caption",
+      "handle": "@zeeeljain",
+      "postId": "4016415311426881294_53307132248",
+      "likes": 314,
+      "comments": 222,
+      "type": "pattern_interrupt",
+      "postUrl": "https://www.instagram.com/p/De9LHIkCgcO/",
+      "addedAt": "2026-10-27T04:03:59.688Z"
+    },
+    {
+      "hook": "Same brief. Same AI tools. Same references. Same amount of time. Two very different posts.",
+      "source": "caption",
+      "handle": "@zeeeljain",
+      "postId": "4016260725221162215_53307132248",
+      "likes": 308,
+      "comments": 15,
+      "type": "pattern_interrupt",
+      "postUrl": "https://www.instagram.com/p/De8n9m8KPzn/",
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "DM me \"STACK\" and I'll send you what a custom AI workflow could look like for your business.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4014224697736156883_53307132248",
-      "likes": 530,
+      "likes": 544,
       "comments": 71,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/De1ZBglKdbT/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Comment PAPERS and I'll send you the reading list with links.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4013507840337122184_53307132248",
-      "likes": 313,
-      "comments": 90,
+      "likes": 316,
+      "comments": 92,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dey2B3GihOI/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "September gave us three AI agents within weeks of each other: Astra, Muse and Dots.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4012667230724183887_53307132248",
-      "likes": 354,
+      "likes": 357,
       "comments": 9,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dev25YZKldP/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Reading more startup books won't make you a better founder. Reading the right one at the right time",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4012070002315913091_53307132248",
-      "likes": 320,
+      "likes": 339,
       "comments": 3,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DetvGkGCmeD/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Comment DEMO and I’ll send you a demo of Amazon’s new AI tools for sellers",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4011932348800686540_53307132248",
-      "likes": 292,
+      "likes": 294,
       "comments": 33,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DetPzcRKdnM/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "What if the true potential of AI lies not just in what it can do, but in the lives it can transform?",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4009837311409463464_53307132248",
-      "likes": 305,
+      "likes": 315,
       "comments": 5,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DelzcopqyCo/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Most of what actually builds a business looks a little dumb from the outside.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4009144444749803753_53307132248",
-      "likes": 1518,
-      "comments": 16,
+      "likes": 1592,
+      "comments": 17,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DejV6GSivDp/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "We’re hiring! Comment \"HIRE\" and we’ll send the application form straight to your DMs.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4008452102329888996_53307132248",
-      "likes": 9496,
-      "comments": 8262,
+      "likes": 9812,
+      "comments": 8522,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Deg4fMKinDk/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Comment FOUNDER and I'll send you all five.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4007710989558137257_53307132248",
-      "likes": 196,
+      "likes": 199,
       "comments": 63,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DeeP-lHCsGp/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Comment \"SYSTEMS\" and I'll send you the full breakdown of all four.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4006952785737934588_53307132248",
-      "likes": 919,
-      "comments": 287,
+      "likes": 933,
+      "comments": 289,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DebjlQxq-b8/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Nobody hands you a manual when you become a founder. Most of it you learn by getting it wrong first,",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4003958143428327547_53307132248",
-      "likes": 418,
+      "likes": 429,
       "comments": 10,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DeQ6reyk_h7/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "The real feedback rarely shows up in the comments. It shows up in how people actually use what you b",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "4001083994104097682_53307132248",
-      "likes": 297,
+      "likes": 298,
       "comments": 7,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DeGtLGpE2uS/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
-    },
-    {
-      "hook": "Everyone's asking what to automate. Almost nobody's asking what shouldn't exist at all.",
-      "source": "caption",
-      "handle": "@zeeeljain",
-      "postId": "3996746829894702356_53307132248",
-      "likes": 333,
-      "comments": 8,
-      "type": "question",
-      "postUrl": "https://www.instagram.com/p/Dd3TBDtCtUU/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
-    },
-    {
-      "hook": "Most sales training is a script. Memorise the lines, say them in order, hope it lands.",
-      "source": "caption",
-      "handle": "@zeeeljain",
-      "postId": "3993834450681277220_53307132248",
-      "likes": 486,
-      "comments": 15,
-      "type": "pattern_interrupt",
-      "postUrl": "https://www.instagram.com/p/Dds80XMkysk/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Comment \"tribe\" and I'll send you the setup guide for running this with Claude.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "3993075174871774425_53307132248",
-      "likes": 6019,
-      "comments": 8935,
+      "likes": 6082,
+      "comments": 9002,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DdqQLcfqbTZ/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Everyone is asking what AI will replace. The more useful question is what it makes rarer.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "3991631446460252708_53307132248",
-      "likes": 3122,
+      "likes": 3125,
       "comments": 20,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/DdlH6boisIk/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Every one of these felt less like a bold move and more like the only choice I could actually live wi",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "3966263927801299220_53307132248",
-      "likes": 1290,
+      "likes": 1292,
       "comments": 25,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DcLAAc2CsEU/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Comment CONTENT and I'll send you the exact Claude workflow and prompt I use.",
       "source": "caption",
       "handle": "@zeeeljain",
       "postId": "3955248714888809211_53307132248",
-      "likes": 2228,
+      "likes": 2230,
       "comments": 1112,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/Dbj3cAZRIr7/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "July dump!",
@@ -2641,7 +2629,7 @@
       "comments": 15,
       "type": "pattern_interrupt",
       "postUrl": "https://www.instagram.com/p/DbdG_ROk828/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     },
     {
       "hook": "Everyone's learning how to build with AI.",
@@ -2652,7 +2640,7 @@
       "comments": 70,
       "type": "question",
       "postUrl": "https://www.instagram.com/p/Da_0Wu4BMiI/",
-      "addedAt": "2026-10-26T04:03:27.962Z"
+      "addedAt": "2026-10-27T04:03:59.688Z"
     }
   ]
 }

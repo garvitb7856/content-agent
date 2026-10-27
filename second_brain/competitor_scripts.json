@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T03:31:55.386Z",
+  "updated_at": "2026-10-27T03:31:45.479Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2463,8 +2463,44 @@
       "verdict": "viral",
       "transcribed_at": "2026-10-25T03:33:48.528Z",
       "scraped_at": "2026-10-26T03:31:55.372Z"
+    },
+    {
+      "id": "4014197862195613872_7695520761",
+      "account": "@thevarunmayya",
+      "url": "https://www.instagram.com/p/De1S7ACTVCw/",
+      "topic": "General Tech",
+      "format": "Video",
+      "spoken_hook": "This might go down as the scariest day in internet history.  The NSA, the FBI, the EU, and even Japan's Prime Minister are telling governments to take their sites offline.  Here's exactly what's going on.",
+      "full_script": "This might go down as the scariest day in internet history. The NSA, the FBI, the EU, and even Japan's Prime Minister are telling governments to take their sites offline. Here's exactly what's going on. Back in August, a security firm called Calif was using GPT-5.6 Sol to dig through PHP. If you don't know, PHP is the language behind 70% of websites. And they found a bug so bad that anyone could run their own code on your server without even logging in. The worst part, it had been sitting there for 14 years! Weeks later, OpenAI and Wiz, another firm, found the same bugs and once they all saw how bad it was, they got to work. PHP started building a fix and the plan was simple, everyone keeps quiet until the patch was ready. Then out of nowhere, someone posted about it. There was even a video of it hijacking WordPress and Magento servers and the second the news was out, everyone jumped together. On one end, hackers started hammering websites. On the other, the NSA, the FBI, the UK, the EU, and even Japan's PM are all telling everyone patch it right now, or take their sites offline ASAP! So, now it's a race. Major sites are all going offline for emergency updates including a bunch of government websites. Meanwhile, hackers are trying their best to exploit and get in first. What's worrying is that even though the patch is out, it only covers newer versions of PHP. Overall, this might go down in history as the moment that tells us that AI breaking the internet era has finally arrived and there's no hiding it.",
+      "full_caption": "This might be one of the worst security bugs in internet history!",
+      "script_source": "transcript",
+      "script_pattern": "transformation",
+      "likes": 17630,
+      "comments": 63,
+      "engagement_rate": 1.38,
+      "verdict": "medium",
+      "transcribed_at": "2026-10-26T03:54:49.397Z",
+      "scraped_at": "2026-10-27T03:31:45.478Z"
+    },
+    {
+      "id": "4013034674087408751_7695520761",
+      "account": "@thevarunmayya",
+      "url": "https://www.instagram.com/p/DexKcYsTjRv/",
+      "topic": "Career",
+      "format": "Video",
+      "spoken_hook": "This is one of the biggest security failures in India.  A company that secures websites just got its private keys cracked, and one of them is literally the number four.  So, eMudhra is an Indian company that works as a certificate authority.",
+      "full_script": "This is one of the biggest security failures in India. A company that secures websites just got its private keys cracked, and one of them is literally the number four. So, eMudhra is an Indian company that works as a certificate authority. When you open a site, your browser checks its TLS certificate to verify if it's authentic or not, and companies like eMudhra sign those certificates using a private key. But here's the thing, a secret key is supposed to be around 115 digits long so that computers aren't able to crack it easily. But all eight of eMudhra's secret keys were at most just three-digit numbers, meaning cracking a key took at most 255 guesses, and a security researcher, Scott Helme, even cracked all eight in under a second. What this means is that with these keys, anyone could make a fake certificate for any website, and your connection would still show up as secure HTTPS. So if an attacker got on the same network as you, like public Wi-Fi, they could just sit between you and the website, reading and changing everything you sent. What's worse is that eMudhra says it was because of a bug in the script from April 2023, which just means that the keys were exposed for about 17 months. Anyway, India's IT Ministry has already come out and said that they're setting up a special team to investigate the matter. But still, a certificate authority has just one core job: keeping its private keys impossible to guess. And if some aren't able to do that, I'm concerned how companies are gonna navigate when AI gets involved.",
+      "full_caption": "This is one of the biggest security failures in India. The keys that make websites trustworthy could be guessed in 255 tries, and one of them was just the number 4.",
+      "script_source": "transcript",
+      "script_pattern": "unknown",
+      "likes": 40159,
+      "comments": 337,
+      "engagement_rate": 3.15,
+      "verdict": "high",
+      "transcribed_at": "2026-10-26T03:59:09.463Z",
+      "scraped_at": "2026-10-27T03:31:45.478Z"
     }
   ],
-  "total": 148,
-  "transcript_based": 81
+  "total": 150,
+  "transcript_based": 83
 }

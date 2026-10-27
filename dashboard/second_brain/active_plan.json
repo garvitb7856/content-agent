@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-26",
-  "end_date": "2026-11-02",
+  "generated_on": "2026-10-27",
+  "end_date": "2026-11-03",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-26",
-      "topic": "Tier list of AI Agency Models in India (S-Tier vs. B-Tier services founders actually pay for)",
+      "date": "2026-10-27",
+      "topic": "How to Reverse Engineer Any App Without Source Code (REA GitHub Breakdown)",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "\"Voice bots are mid. Here is the top AI service.\"",
+      "post_time": "7:00 PM IST",
+      "hook": "This free AI agent reverse-engineers any app instantly.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-27",
-      "topic": "Step-by-step Image-to-JSON Prompting Trick for instant design styling in ChatGPT",
+      "date": "2026-10-28",
+      "topic": "5 Free AI Tools That Replace ₹7,000/yr Microsoft 365 Suite",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "\"Steal this secret prompt to turn photos into custom JSON.\"",
+      "post_time": "6:30 PM IST",
+      "hook": "Stop paying ₹7,000 for Microsoft 365. Use these instead.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-28",
-      "topic": "Google Artemis breakdown: Open-source AI tool controlling real smartphones hands-free",
+      "date": "2026-10-29",
+      "topic": "Running an Entire AI Agency for $0 with Open-Source Agents",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "\"Google just built an AI that controls your phone hands-free.\"",
+      "post_time": "7:30 PM IST",
+      "hook": "Run an entire agency for free with 200 AI specialists.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-29",
-      "topic": "Agency Agents: How to deploy 200+ open-source AI specialists inside Claude Code for $0",
+      "date": "2026-10-30",
+      "topic": "Testing Raj Shamani’s Business Idea: Monetizing Local Google Maps Gaps with ChatGPT",
       "format": "Carousel",
-      "post_time": "7:45 PM IST",
-      "hook": "\"Run an entire agency inside Claude Code for zero dollars.\"",
+      "post_time": "8:00 PM IST",
+      "hook": "How to turn local Google Maps gaps into ₹50,000.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-30",
-      "topic": "Local business AI hustle: Generating and pitching websites to cafes via Google Maps",
+      "date": "2026-10-31",
+      "topic": "Google Artemis: Letting Claude Control a Real Smartphone App",
       "format": "Reel",
       "post_time": "6:45 PM IST",
-      "hook": "\"How to pitch local cafes using Google Maps and ChatGPT.\"",
+      "hook": "Google built an AI that controls your phone like a human.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-10-31",
-      "topic": "Higgsfield Katana integration: Auto-generating cinematic typography and motion graphics inside Claude",
+      "date": "2026-11-01",
+      "topic": "The Financial & Career Cost of Staying in Your Comfort Zone as a Young Founder",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "\"Turn plain videos into cinematic graphics with this AI plugin.\"",
+      "post_time": "7:15 PM IST",
+      "hook": "Why staying in your comfort zone costs more than rent.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-01",
-      "topic": "Case study on D2C brand Comet using custom AI agents to auto-resolve negative Instagram comments",
+      "date": "2026-11-02",
+      "topic": "How to Build Animated Videos in Seconds Using Pure Claude Code",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "\"How Indian brands save thousands of negative Instagram complaints.\"",
+      "post_time": "7:00 PM IST",
+      "hook": "Create full motion graphics videos using pure Claude code.",
       "status": "pending"
     }
   ]

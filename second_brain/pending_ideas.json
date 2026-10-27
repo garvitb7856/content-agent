@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Un-Broke-ing India: Selling AI Maps Websites",
-    "hook": "Can I make 15,000 Rupees in 1 hour selling AI-generated websites to local cafes on Google Maps? Episode 2 of Un-Broke-ing India.",
+    "title": "How to Reverse Engineer Any App Without Source Code",
+    "hook": "This open-source GitHub repository lets your AI agent reverse engineer any compiled app without ever seeing the original source code.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "The original creator @dhavalkataria_ has 57k followers and averages 11.6k likes, far exceeding the 3,000-like threshold for medium accounts. This local hustle format is extremely relatable and actionable for Garvit's solopreneur audience.",
+    "reasoning": "Pivots directly off @thevarunmayya's mega-viral REA repository breakdown which far exceeded engagement baselines for developer tools. The technical execution format provides high utility while creating intense curiosity for software engineers and AI builders.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DeZwKRBTGYN/"
+  },
+  {
+    "rank": 2,
+    "title": "Why Living with Parents Might Be Costing You More",
+    "hook": "You want to save rent by living with your parents, but middle-class mindset and daily friction can cost your career way more in the long run.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Adapted from @dhavalkataria_'s massive viral reel that shattered engagement records for medium-sized Indian entrepreneurship accounts. This controversial lifestyle take drives extreme comment section velocity and high share rates among young professionals.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
+  },
+  {
+    "rank": 3,
+    "title": "Running an Entire Agency for $0 with Open-Source Agents",
+    "hook": "You can now run an entire virtual agency using an open-source library of over 200 AI specialists with their own unique personalities.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Modeled after @nick_saraev's top-performing Agency Agents showcase which generated viral reach across mega-creator thresholds. Demonstrating full operational agency workflows using open-source code directly fits Garvit's high-converting technical audience.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/De6TR9XP2dA/"
+  },
+  {
+    "rank": 4,
+    "title": "Testing Raj Shamani's Business Ideas with ChatGPT",
+    "hook": "Can I make 50,000 rupees using Raj Shamani's viral business idea? Let's find out on Episode 2 of our local business automation series.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Leverages the proven 'Un-broke-ing India' series framework from @dhavalkataria_ which consistently delivers 20%+ engagement rates. Combining recognizable Indian business influencers with step-by-step local execution builds instant trust and high retention.",
     "niche": "Entrepreneurship",
     "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
   },
   {
-    "rank": 2,
-    "title": "How D2C Sneaker Brand Comet Automates Comments",
-    "hook": "We analyzed how Indian sneaker brand Comet uses custom AI agents to save thousands of negative order complaints on Instagram.",
+    "rank": 5,
+    "title": "Letting Claude Control a Real Phone Like a Human",
+    "hook": "Google just open-sourced a tool that lets Claude use a real smartphone app interface like a human with a 99% success rate.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Originating from @aryamanupmanyu (81k followers), this real-world case study provides tangible proof of AI agency utility in India. B2B automation breakdowns drive massive saves and shares among founders.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/Dew0EKPSnwJ/"
-  },
-  {
-    "rank": 3,
-    "title": "Tier List of AI Agency Models in India",
-    "hook": "Selling voice calling bots is B-tier, but here is the S-tier AI agency service Indian founders are paying 1 Lakh/month for.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Tier lists perform consistently well on tech Instagram by sparking active debate in comments. Backed by @aryamanupmanyu's proven framework, it aligns seamlessly with Garvit's AI agency monetization focus.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dec1KWkyF_U/"
-  },
-  {
-    "rank": 4,
-    "title": "Google Artemis: AI Controlling Real Phones",
-    "hook": "Google just released an open-source AI tool called Artemis that lets your computer control a real smartphone like a human.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Pioneered by Nick Saraev around a 13k star GitHub launch, mobile-controlling AI agents represent a top viral tech hook. It captures high curiosity from developers and automation enthusiasts.",
+    "reasoning": "Sourced from @nick_saraev's breakdown of Google's Artemis project which comfortably surpassed mega-account viral benchmarks. On-device agentic control is a primary emerging AI hook that triggers high save rates and curiosity.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/De15bfEPMcP/"
-  },
-  {
-    "rank": 5,
-    "title": "Image-to-JSON Prompting Trick for Carousels",
-    "hook": "Aaj main tumhe dikhata hoon ChatGPT ka ek secret prompt style. Kisi bhi aesthetic photo ko convert karo JSON styling data mein.",
-    "format": "Carousel",
-    "score": "HIGH",
-    "reasoning": "Adapted from @favourite.engineer (183k followers), this prompt technique acts as a reliable lead magnet. The visual before-and-after aesthetic drives high comment triggers for prompt sends.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/De1XXwfTGbw/"
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "postId": "4006445155225462285_7695520761",
+  "handle": "thevarunmayya",
+  "postUrl": "https://www.instagram.com/p/DeZwKRBTGYN/",
+  "transcript": "This GitHub repo is quietly blowing up because it lets your AI agent reverse-engineer any app without the source code. It's called REA. It's free, it runs on your own laptop, and it has already crossed 130,000 stars. Here's how it works. When a company ships software, you only get the compiled file, which is raw machine instructions that humans can't really read. REA connects Claude Code, Codex, or Cursor to professional reverse-engineering tools like Ghidra. You point your agent at an app and ask something like, \"How does this feature work?\" It digs through the file, explains the logic, shows you the evidence, and can build the same feature into your own project. That's why people are excited about it. On Reddit, someone asked what people would reverse engineer. Some want custom TV firmware because a lot of TVs can reportedly handle higher refresh rates, but the company hides it, so you'll buy the expensive model. Gamers want old classics back like Red Alert 2 and Homeworld Cataclysm, where the original source code is reportedly lost. And people are already doing it. One creator on X pointed REA at a Steam game he had bought. He says it decompiled the entire game back into C# and got it running in Unity within 30 minutes using Claude Opus 5.5. But the bigger shift is this. Until now, you used software exactly the way a company built it. Now you can pull apart the features you love from different apps, combine them into one tool, and make it your own. We're heading towards a world where everyone has personal software built just for them. Which app feature would you reverse engineer first? Comment below.",
+  "caption": "This GitHub repo is quietly blowing up because it lets your AI agent reverse engineer any app, without the source code. It’s called REA, it’s free, it runs on your own laptop, and it has already crossed 130,000 stars.",
+  "timestamp": "2026-10-12T17:26:06.000Z",
+  "transcribedAt": "2026-10-27T04:01:28.084Z",
+  "likes": 0,
+  "comments": 0
+}
