@@ -1,66 +1,51 @@
 {
-  "fetched_at": "2026-10-27T03:31:45.435Z",
+  "fetched_at": "2026-10-28T03:31:42.966Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-      "score": 92,
-      "comments": 28,
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
-    },
-    {
-      "source": "hackernews",
-      "title": "GPT-6.1 Terra",
-      "score": 535,
-      "comments": 336,
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Blaise Pascal invented fixed route public transport (2024)",
-      "score": 270,
+      "title": "Early progress on accelerating drug development with Claude",
+      "score": 157,
       "comments": 143,
-      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html"
+      "url": "https://www.anthropic.com/research/early-progress-drug-development"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
-      "score": 125,
-      "comments": 31,
-      "url": "https://github.com/FrigadeHQ/hob"
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "score": 219,
+      "comments": 115,
+      "url": "https://tailscale.com/ssh-investigation-update"
     },
     {
       "source": "hackernews",
-      "title": "Fixing Tool-Call Accuracy in vLLM",
-      "score": 152,
-      "comments": 65,
-      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "score": 217,
+      "comments": 112,
+      "url": "https://www.brangus.io/survival-llm"
+    },
+    {
+      "source": "hackernews",
+      "title": "Hex Raises $100M",
+      "score": 60,
+      "comments": 37,
+      "url": "https://hex.tech/blog/hex-new-era/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "score": 30,
+      "comments": 19,
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone Duo Review: First Generation Fun!",
-      "channel": "Marques Brownlee",
-      "views": 12382303,
-      "likes": 198476,
-      "publishedAt": "2026-10-21T12:00:52Z",
-      "url": "https://www.youtube.com/watch?v=ESABTN4VtrA",
-      "tags": [
-        "iPhone Duo",
-        "iPhone duo review"
-      ],
-      "description": "What it's actually like to use the first folding iPhone - Duo\n\nDon’t miss Ridge’s friends and family sale at https://ridge.com/MKBHD\nProtect your iPho"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "iPhone Duo Durability: Destroyed",
       "channel": "JerryRigEverything",
-      "views": 12177970,
-      "likes": 299343,
+      "views": 13154927,
+      "likes": 313453,
       "publishedAt": "2026-10-24T03:58:15Z",
       "url": "https://www.youtube.com/watch?v=5laDGy4INB0",
       "tags": [
@@ -75,22 +60,25 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "He peeled the nano-texture off his iPhone duo??",
-      "channel": "CarterPCs",
-      "views": 11535572,
-      "likes": 219830,
-      "publishedAt": "2026-10-23T03:40:07Z",
-      "url": "https://www.youtube.com/watch?v=tW39aTQ-LEI",
-      "tags": [],
-      "description": "He peeled the nano-texture off his iPhone duo??\n\n#carterpcs #tech #gaming"
+      "title": "iPhone Duo Review: First Generation Fun!",
+      "channel": "Marques Brownlee",
+      "views": 12733087,
+      "likes": 200932,
+      "publishedAt": "2026-10-21T12:00:52Z",
+      "url": "https://www.youtube.com/watch?v=ESABTN4VtrA",
+      "tags": [
+        "iPhone Duo",
+        "iPhone duo review"
+      ],
+      "description": "What it's actually like to use the first folding iPhone - Duo\n\nDon’t miss Ridge’s friends and family sale at https://ridge.com/MKBHD\nProtect your iPho"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "6 ways iPhone Duo beats Samsung",
       "channel": "Mrwhosetheboss",
-      "views": 10760421,
-      "likes": 337223,
+      "views": 11087036,
+      "likes": 345910,
       "publishedAt": "2026-10-21T12:02:02Z",
       "url": "https://www.youtube.com/watch?v=i3ZlSlnGWng",
       "tags": [
@@ -105,10 +93,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "How to fix the IPhone Duo crease…",
+      "channel": "CarterPCs",
+      "views": 8276580,
+      "likes": 166529,
+      "publishedAt": "2026-10-25T00:37:54Z",
+      "url": "https://www.youtube.com/watch?v=0X8yOZNUM1s",
+      "tags": [],
+      "description": "How to fix the IPhone Duo crease…\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "iPhone Duo Is Flopping",
       "channel": "Austin Sweatt",
-      "views": 7851892,
-      "likes": 227711,
+      "views": 8084845,
+      "likes": 230407,
       "publishedAt": "2026-10-22T19:22:54Z",
       "url": "https://www.youtube.com/watch?v=pPNWH_1x1NU",
       "tags": [],
@@ -119,8 +119,8 @@
       "category": "Science & Tech",
       "title": "iPhone Duo Upgrade 🤩",
       "channel": "OkCron",
-      "views": 3961899,
-      "likes": 73305,
+      "views": 4275807,
+      "likes": 76872,
       "publishedAt": "2026-10-24T03:32:32Z",
       "url": "https://www.youtube.com/watch?v=mNinG0XdJ7k",
       "tags": [],
@@ -131,8 +131,8 @@
       "category": "Science & Tech",
       "title": "She Has the Best iPad Setup For Kids 😭",
       "channel": "For The Girlies",
-      "views": 3694012,
-      "likes": 31064,
+      "views": 4167432,
+      "likes": 35569,
       "publishedAt": "2026-10-22T01:30:04Z",
       "url": "https://www.youtube.com/watch?v=oFxviwwPwxw",
       "tags": [],
@@ -143,8 +143,8 @@
       "category": "Science & Tech",
       "title": "JerryRigEverything DESTROYED the iPhone duo 😭😭",
       "channel": "John Casterline",
-      "views": 2859093,
-      "likes": 166393,
+      "views": 3538965,
+      "likes": 202123,
       "publishedAt": "2026-10-25T17:29:36Z",
       "url": "https://www.youtube.com/watch?v=5G6tyYQfeQs",
       "tags": [],
@@ -155,8 +155,8 @@
       "category": "Science & Tech",
       "title": "Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot",
       "channel": "Oba News",
-      "views": 2667686,
-      "likes": 34433,
+      "views": 3019183,
+      "likes": 38487,
       "publishedAt": "2026-10-20T07:30:24Z",
       "url": "https://www.youtube.com/watch?v=Y8PABtC1yhQ",
       "tags": [],
@@ -167,8 +167,8 @@
       "category": "Science & Tech",
       "title": "iPhones are completely ruined 😔",
       "channel": "Danny Rayes",
-      "views": 2458644,
-      "likes": 88078,
+      "views": 2580046,
+      "likes": 91247,
       "publishedAt": "2026-10-24T22:00:13Z",
       "url": "https://www.youtube.com/watch?v=IGZgK9i7gfc",
       "tags": [],
@@ -178,43 +178,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "productivity tools",
+        "keyword": "ChatGPT",
         "trend_score": 89
       },
       {
         "keyword": "AI workflow",
-        "trend_score": 88
+        "trend_score": 87
       },
       {
-        "keyword": "AI tools",
-        "trend_score": 86
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 85
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 85
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 83
+        "keyword": "entrepreneur",
+        "trend_score": 87
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 77
+        "trend_score": 84
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 82
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 81
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 78
       },
       {
         "keyword": "automation tools",
         "trend_score": 77
       },
       {
-        "keyword": "entrepreneur",
-        "trend_score": 75
+        "keyword": "productivity tools",
+        "trend_score": 67
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-27T03:31:45.435Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)\" — 92 pts\n• [HackerNews] \"GPT-6.1 Terra\" — 535 pts\n• [HackerNews] \"Blaise Pascal invented fixed route public transport (2024)\" — 270 pts\n• [HackerNews] \"Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT\" — 125 pts\n• [HackerNews] \"Fixing Tool-Call Accuracy in vLLM\" — 152 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"iPhone Duo Review: First Generation Fun!\" by Marques Brownlee — 12382k views\n• [YouTube Global] \"iPhone Duo Durability: Destroyed\" by JerryRigEverything — 12178k views\n• [YouTube Global] \"He peeled the nano-texture off his iPhone duo??\" by CarterPCs — 11536k views\n• [YouTube Global] \"6 ways iPhone Duo beats Samsung\" by Mrwhosetheboss — 10760k views\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 7852k views\n• [YouTube Global] \"iPhone Duo Upgrade 🤩\" by OkCron — 3962k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nproductivity tools (score: 89), AI workflow (score: 88), AI tools (score: 86), ChatGPT (score: 85), self improvement (score: 85), AI for business (score: 83), solopreneur (score: 77), automation tools (score: 77), entrepreneur (score: 75)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-28T03:31:42.966Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Early progress on accelerating drug development with Claude\" — 157 pts\n• [HackerNews] \"Tailscale SSH: Investigation and remediation update\" — 219 pts\n• [HackerNews] \"Survival LLM: AI assistant and emergency library that runs on your own computer\" — 217 pts\n• [HackerNews] \"Hex Raises $100M\" — 60 pts\n• [HackerNews] \"Expanding our partnership with GSA to bring Claude to all levels of government\" — 30 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"iPhone Duo Durability: Destroyed\" by JerryRigEverything — 13155k views\n• [YouTube Global] \"iPhone Duo Review: First Generation Fun!\" by Marques Brownlee — 12733k views\n• [YouTube Global] \"6 ways iPhone Duo beats Samsung\" by Mrwhosetheboss — 11087k views\n• [YouTube Global] \"How to fix the IPhone Duo crease…\" by CarterPCs — 8277k views\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 8085k views\n• [YouTube Global] \"iPhone Duo Upgrade 🤩\" by OkCron — 4276k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 89), AI workflow (score: 87), entrepreneur (score: 87), solopreneur (score: 84), AI tools (score: 82), AI for business (score: 81), self improvement (score: 78), automation tools (score: 77), productivity tools (score: 67)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

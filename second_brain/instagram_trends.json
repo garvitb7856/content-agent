@@ -1,78 +1,78 @@
 {
-  "generated_at": "2026-10-27T03:31:41.459Z",
+  "generated_at": "2026-10-28T03:31:40.969Z",
   "hotRightNow": [
     {
+      "username": "vaibhavsisinty",
+      "caption": "Companies now pay people to leave\n\nMicrosoft just offered 60,000 employees, 27% of the company, mone",
+      "likes": 6044,
+      "comments": 55,
+      "engagement": 6099,
+      "engRate": "0.28",
+      "timestamp": "2026-10-27T12:40:49.000Z",
+      "url": "https://www.instagram.com/p/De_4Ceygj8D/",
+      "type": "Video"
+    },
+    {
+      "username": "thevarunmayya",
+      "caption": "OpenAI just revealed it found its agents sharing confidential info using CPU cache timing difference",
+      "likes": 3182,
+      "comments": 21,
+      "engagement": 3203,
+      "engRate": "0.25",
+      "timestamp": "2026-10-27T12:45:14.000Z",
+      "url": "https://www.instagram.com/p/De_4u1gTdzf/",
+      "type": "Video"
+    },
+    {
       "username": "nick_saraev",
-      "caption": "Comment \"CLONE\" to get this Free AI Tool that rebuilds any app you pay for with Claude Code.\n\nYou ca",
-      "likes": 1967,
-      "comments": 2330,
-      "engagement": 4297,
-      "engRate": "0.59",
-      "timestamp": "2026-10-26T08:24:37.000Z",
-      "url": "https://www.instagram.com/p/De82EmlP5ow/",
+      "caption": "Comment \"AGENCY\" to get these 4 free plugins that can fully run your agency or business inside Claud",
+      "likes": 934,
+      "comments": 1462,
+      "engagement": 2396,
+      "engRate": "0.33",
+      "timestamp": "2026-10-27T07:25:30.000Z",
+      "url": "https://www.instagram.com/p/De_UEiIP34p/",
       "type": "Video"
     },
     {
-      "username": "favourite.engineer",
-      "caption": "Power of AI 😮‍💨\n.\n#makemoneyfast #ai",
-      "likes": 1877,
-      "comments": 749,
-      "engagement": 2626,
-      "engRate": "1.43",
-      "timestamp": "2026-10-26T13:57:54.000Z",
-      "url": "https://www.instagram.com/p/De9cIGWzFWh/",
-      "type": "Video"
-    },
-    {
-      "username": "zeeeljain",
-      "caption": "Comment \"BUILD\" and I'll send you a guide to getting started with AI app building.\n \nYou can now bui",
-      "likes": 314,
-      "comments": 222,
-      "engagement": 536,
-      "engRate": "0.32",
-      "timestamp": "2026-10-26T11:27:17.000Z",
-      "url": "https://www.instagram.com/p/De9LHIkCgcO/",
-      "type": "Post"
-    },
-    {
-      "username": "dhavalkataria_",
-      "caption": "hey siri set an alarm for those sleeping on me",
-      "likes": 415,
-      "comments": 20,
-      "engagement": 435,
-      "engRate": "0.76",
-      "timestamp": "2026-10-26T12:34:17.000Z",
-      "url": "https://www.instagram.com/p/De9SjeyOOrs/",
-      "type": "Post"
-    },
-    {
-      "username": "zeeeljain",
-      "caption": "Same brief. Same AI tools. Same references. Same amount of time. Two very different posts.\n\nAdobe's ",
-      "likes": 308,
+      "username": "ishansharma7390",
+      "caption": "",
+      "likes": 2035,
       "comments": 15,
-      "engagement": 323,
-      "engRate": "0.19",
-      "timestamp": "2026-10-26T06:21:19.000Z",
-      "url": "https://www.instagram.com/p/De8n9m8KPzn/",
+      "engagement": 2050,
+      "engRate": "0.16",
+      "timestamp": "2026-10-27T14:57:21.000Z",
+      "url": "https://www.instagram.com/p/DfAH17GpHZp/",
       "type": "Video"
+    },
+    {
+      "username": "zeeeljain",
+      "caption": "The scariest AI mistakes don't look like mistakes. They look like a confident answer.\n\nA model can l",
+      "likes": 275,
+      "comments": 3,
+      "engagement": 278,
+      "engRate": "0.16",
+      "timestamp": "2026-10-27T11:10:45.000Z",
+      "url": "https://www.instagram.com/p/De_uA34im0x/",
+      "type": "Post"
     }
   ],
   "risingFormat": [
     {
-      "format": "video",
-      "avgEng": 13474,
-      "count": 39
+      "format": "post",
+      "avgEng": 15174,
+      "count": 14
     },
     {
-      "format": "post",
-      "avgEng": 9282,
-      "count": 13
+      "format": "video",
+      "avgEng": 9039,
+      "count": 40
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "6 top posts"
+      "appearsIn": "5 top posts"
     },
     {
       "topic": "chatgpt",
@@ -83,12 +83,12 @@
       "appearsIn": "2 top posts"
     },
     {
-      "topic": "never",
-      "appearsIn": "2 top posts"
+      "topic": "claude",
+      "appearsIn": "1 top posts"
     },
     {
-      "topic": "prompt",
-      "appearsIn": "2 top posts"
+      "topic": "hack",
+      "appearsIn": "1 top posts"
     }
   ],
   "bestPostingWindow": [
@@ -100,32 +100,32 @@
     {
       "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, unders",
       "username": "thevarunmayya",
-      "likes": 185687,
+      "likes": 185890,
       "url": "https://www.instagram.com/p/DePZYzRzsoh/"
     },
     {
       "hook": "Comment \"TV\" to get Clean your TV of Ads and Bloatware with Claude Code.\n\nPeople",
       "username": "nick_saraev",
-      "likes": 109950,
+      "likes": 113356,
       "url": "https://www.instagram.com/p/De3s5v3vIzE/"
     },
     {
       "hook": "FINALLY we GOT IT!🤯🥹✨\n\nHad the best day ever, going with my parents to four se",
       "username": "ishansharma7390",
-      "likes": 116535,
+      "likes": 117879,
       "url": "https://www.instagram.com/p/DeuC_xfoPur/"
+    },
+    {
+      "hook": "Officially collaborated, I mean engaged ❤️💍\n\n12.10.2026\n\n📸 @rompalliharish",
+      "username": "vaibhavsisinty",
+      "likes": 87656,
+      "url": "https://www.instagram.com/p/De-5VCbE-_4/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 78966,
+      "likes": 79252,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
-    },
-    {
-      "hook": "still can't get over this feeling🥹✨\n\nyou get one chance to raise your entire bl",
-      "username": "ishansharma7390",
-      "likes": 72883,
-      "url": "https://www.instagram.com/p/Dev5DjcH3Bs/"
     }
   ]
 }

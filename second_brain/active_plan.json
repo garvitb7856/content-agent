@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-27",
-  "end_date": "2026-11-03",
+  "generated_on": "2026-10-28",
+  "end_date": "2026-11-04",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-27",
-      "topic": "How to Reverse Engineer Any App Without Source Code (REA GitHub Breakdown)",
+      "date": "2026-10-28",
+      "topic": "How Indian D2C Brand Comet Built an AI Agent to Auto-Fix Negative Comment Scams",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "This free AI agent reverse-engineers any app instantly.",
+      "post_time": "6:30 PM IST",
+      "hook": "How India's biggest sneaker brand stops comment scams with AI. *(9 words)*",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-28",
-      "topic": "5 Free AI Tools That Replace ₹7,000/yr Microsoft 365 Suite",
+      "date": "2026-10-29",
+      "topic": "5 Free Open-Source GitHub Repos That Replace Expensive AI SaaS Subscriptions",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Stop paying ₹7,000 for Microsoft 365. Use these instead.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop paying for AI SaaS: 5 free GitHub repos today. *(10 words)*",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-29",
-      "topic": "Running an Entire AI Agency for $0 with Open-Source Agents",
+      "date": "2026-10-30",
+      "topic": "I Tested Raj Shamani’s Viral B2B Web Design Strategy on Local Indian Businesses",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Run an entire agency for free with 200 AI specialists.",
+      "post_time": "6:45 PM IST",
+      "hook": "I tested Raj Shamani's business idea on local clinics. *(9 words)*",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-30",
-      "topic": "Testing Raj Shamani’s Business Idea: Monetizing Local Google Maps Gaps with ChatGPT",
+      "date": "2026-10-31",
+      "topic": "The Hidden Wealth Breakdown: Who Really Spends ₹1,500/Dish at Gurgaon Lounges?",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "How to turn local Google Maps gaps into ₹50,000.",
+      "post_time": "7:30 PM IST",
+      "hook": "Who is actually paying 1500 rupees for one dish? *(9 words)*",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-10-31",
-      "topic": "Google Artemis: Letting Claude Control a Real Smartphone App",
+      "date": "2026-11-01",
+      "topic": "Google Artemis Breakdown: Free Tool That Lets AI Run Actions on Your Real Phone",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "Google built an AI that controls your phone like a human.",
+      "post_time": "6:00 PM IST",
+      "hook": "Google released an AI tool that actually uses your phone. *(10 words)*",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-01",
-      "topic": "The Financial & Career Cost of Staying in Your Comfort Zone as a Young Founder",
+      "date": "2026-11-02",
+      "topic": "Why Saving Rent by Living with Parents Is a Bootstrap Founder's Cheat Code",
       "format": "Carousel",
       "post_time": "7:15 PM IST",
-      "hook": "Why staying in your comfort zone costs more than rent.",
+      "hook": "Why living with your parents is a secret financial cheat-code. *(10 words)*",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-02",
-      "topic": "How to Build Animated Videos in Seconds Using Pure Claude Code",
+      "date": "2026-11-03",
+      "topic": "Agency Agents: How to Run a Full $0 AI Agency inside Claude Code",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Create full motion graphics videos using pure Claude code.",
+      "post_time": "6:30 PM IST",
+      "hook": "Run a full agency inside Claude for zero dollars. *(9 words)*",
       "status": "pending"
     }
   ]
