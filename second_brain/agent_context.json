@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T03:31:43.101Z",
+  "updated_at": "2026-10-29T03:31:45.313Z",
   "your_performance": {
     "posts_analyzed": 50,
     "best_hook_type": "contrarian",
@@ -197,35 +197,35 @@
     "insights": "43 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 13.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here."
   },
   "niche_performance": {
-    "total_hooks": 120,
-    "total_scripts": 152,
+    "total_hooks": 117,
+    "total_scripts": 153,
     "viral_scripts": 59,
     "best_hook_type": "story",
     "hook_length_insight": "Not enough hook length data yet.",
     "by_hook_type": [
       {
         "type": "story",
-        "avg": 8033.5,
-        "count": 82
+        "avg": 8363.9,
+        "count": 79
       },
       {
         "type": "question",
-        "avg": 7536.67,
+        "avg": 7561.94,
         "count": 18
       },
       {
         "type": "curiosity_gap",
-        "avg": 5992.91,
+        "avg": 6017.55,
         "count": 11
       },
       {
         "type": "relatability",
-        "avg": 4357.75,
+        "avg": 4372.5,
         "count": 4
       },
       {
         "type": "bold_claim",
-        "avg": 123.8,
+        "avg": 129.2,
         "count": 5
       }
     ],
@@ -238,9 +238,9 @@
         "format": "Reel",
         "account": "@ishansharma7390",
         "postUrl": "https://www.instagram.com/p/DeuC_xfoPur/",
-        "likes": 117879,
-        "comments": 1653,
-        "added_at": "2026-10-28T03:31:43.021Z"
+        "likes": 119359,
+        "comments": 1668,
+        "added_at": "2026-10-29T03:31:45.245Z"
       },
       {
         "id": "4014875075281718468_72269881052",
@@ -250,9 +250,9 @@
         "format": "Reel",
         "account": "@nick_saraev",
         "postUrl": "https://www.instagram.com/p/De3s5v3vIzE/",
-        "likes": 113356,
-        "comments": 31403,
-        "added_at": "2026-10-28T03:31:43.013Z"
+        "likes": 115448,
+        "comments": 32409,
+        "added_at": "2026-10-29T03:31:45.237Z"
       },
       {
         "id": "3953432369198939354_1411361583",
@@ -262,9 +262,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/Dbdacspojza/",
-        "likes": 79252,
-        "comments": 5755,
-        "added_at": "2026-10-28T03:31:43.030Z"
+        "likes": 79567,
+        "comments": 5772,
+        "added_at": "2026-10-29T03:31:45.252Z"
       },
       {
         "id": "4011906669410447017_24040950",
@@ -274,9 +274,9 @@
         "format": "Reel",
         "account": "@arshman",
         "postUrl": "https://www.instagram.com/p/DetJ9weOu6p/",
-        "likes": 69640,
-        "comments": 252,
-        "added_at": "2026-10-28T03:31:43.018Z"
+        "likes": 69823,
+        "comments": 254,
+        "added_at": "2026-10-29T03:31:45.238Z"
       },
       {
         "id": "3970814642533503560_1411361583",
@@ -286,9 +286,9 @@
         "format": "Reel",
         "account": "@dhavalkataria_",
         "postUrl": "https://www.instagram.com/p/DcbKuENIRJI/",
-        "likes": 47533,
-        "comments": 8605,
-        "added_at": "2026-10-28T03:31:43.030Z"
+        "likes": 47916,
+        "comments": 8663,
+        "added_at": "2026-10-29T03:31:45.252Z"
       }
     ]
   },
@@ -345,5 +345,5 @@
       "scraped_at": "2026-10-20T03:33:43.799Z"
     }
   ],
-  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (50 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n43 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 13.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (120 hooks, 152 scripts):\nBest hook type in niche: story\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Guys, money will come and go, but you will never be 25 unboxing your very first Mercedes for your parents.  Let's make it happen.  Mercedes ke is sitare ki tarah mera beta bhi aise hi chamakta rahe.\" (117879 likes) | \"People are now hacking their TVs with Claude Code to remove all the bloatware and the ads, and it's blowing up on the internet right now.  It started when someone on Twitter gave Claude Code their TV's model number.  It found the TV on Wi-Fi, removed all 25 of the bloatware apps and sponsored ads and all the tracking codes, and even built a new home screen entirely from scratch.\" (113356 likes) | \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (79252 likes) | \"The car behind me is the flying car, and it's the all-new Tesla Roadster.  You might have already seen the demo where this car is literally flying, and you can see it doing some cool stunts.  But I'm gonna show you how this car actually works.\" (69640 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (47533 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@ishansharma7390 | Topic: General Tech | Pattern: narrative + transformation | Eng: 124.18%\nHook: \"\"\nOpening: \"Stuff of dreams🥹🥹...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
+  "instruction_for_agents": "WHAT WORKS FOR @garvit.irl — YOUR OWN DATA (50 posts analyzed):\nBest hook type: contrarian\nBest format: Reel\nYour top hooks by performance: \"Nobody should buy Claude subscriptions, because I have found a way to use it for\" | \"Comment anything to get this !\" | \"I wish i knew this earlier because you can Google’s AI subscriptions for compele\" | \"Comment anything for the link !\" | \"You can use Claude, even after you hit your credit limits. Have installed an app\"\n\nSCRIPT DIFF LEARNING — WHAT YOUR EDITS REVEAL:\n43 posts analyzed — all are original content (predate the agent script system).\nBaseline avg engagement: 13.72%. Top original posts: 4007 likes, 1734 likes, 154 likes.\nINSIGHT: Tracking begins now. As you post using agent-generated scripts, the system will automatically compare performance vs. your originals and feed that learning back here.\n\nWHAT WORKS IN YOUR NICHE — COMPETITOR DATA (117 hooks, 153 scripts):\nBest hook type in niche: story\nHook length insight: Not enough hook length data yet.\nTop niche hooks: \"Guys, money will come and go, but you will never be 25 unboxing your very first Mercedes for your parents.  Let's make it happen.  Mercedes ke is sitare ki tarah mera beta bhi aise hi chamakta rahe.\" (119359 likes) | \"People are now hacking their TVs with Claude Code to remove all the bloatware and the ads, and it's blowing up on the internet right now.  It started when someone on Twitter gave Claude Code their TV's model number.  It found the TV on Wi-Fi, removed all 25 of the bloatware apps and sponsored ads and all the tracking codes, and even built a new home screen entirely from scratch.\" (115448 likes) | \"Can I make 50,000 Rupees using Raj Shamani's business idea?  Let's find out on Episode 1 of UN-BROKE-ING INDIA.  Step 1.\" (79567 likes) | \"The car behind me is the flying car, and it's the all-new Tesla Roadster.  You might have already seen the demo where this car is literally flying, and you can see it doing some cool stunts.  But I'm gonna show you how this car actually works.\" (69823 likes) | \"If you don't have 5 Lacs in your bank account, you should not be allowed to do these 5 things.  Number 1, Talk to Girls.  Ek ladki patane mein tumhe minimum 2 hours per day invest karna padta hai.\" (47916 likes)\n\nCOMBINED RECOMMENDATION (Use your own data as primary, niche as validation.):\nPrioritise \"contrarian\" style hooks. Not enough hook length data yet.\n\nTOP VIRAL SCRIPT BLUEPRINTS FROM YOUR NICHE:\n@dhavalkataria_ | Topic: Monetization | Pattern: numbered_steps + comment_CTA + narrative + transformation | Eng: 143.22%\nHook: \"\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@dhavalkataria_ | Topic: Monetization | Pattern: transformation | Eng: 135.03%\nHook: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\"\nOpening: \"I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing India. The strategy was simple:\n\n1️⃣ Find local businesses without a website.\n\n2️⃣ Use ChatGPT + Emergent to build one i...\"\n\n@ishansharma7390 | Topic: General Tech | Pattern: narrative + transformation | Eng: 124.18%\nHook: \"\"\nOpening: \"Stuff of dreams🥹🥹...\"\n\nWhen writing scripts: match the pattern and energy of the blueprints above. Make content original. Never copy — remix."
 }

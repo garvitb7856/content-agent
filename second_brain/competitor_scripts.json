@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T03:31:43.033Z",
+  "updated_at": "2026-10-29T03:31:45.272Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2535,8 +2535,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-10-27T04:01:28.084Z",
       "scraped_at": "2026-10-28T03:31:43.032Z"
+    },
+    {
+      "id": "4016490144567416225_27437145281",
+      "account": "@favourite.engineer",
+      "url": "https://www.instagram.com/p/De9cIGWzFWh/",
+      "topic": "Productivity",
+      "format": "Video",
+      "spoken_hook": "Aaj tumhe dikhata hu Power of AI.  Ab aise channels poore automated hain aur 17-18 saal ke bacche inko bana rahe hain.  Aur aise channels tum bhi bana sakte ho.",
+      "full_script": "Aaj tumhe dikhata hu Power of AI. Ab aise channels poore automated hain aur 17-18 saal ke bacche inko bana rahe hain. Aur aise channels tum bhi bana sakte ho. Setup karna sirf 30 se 35 minutes lega. Sabse pehle to n8n pe chale jao. n8n.com Google pe likho tumhe mil jayega. Uske baad usko kholo, free sign up karo aur andar aa jao. Pehla node banao jisme tum research ka node banaoge aur research karoge jo bhi viral topic chal raha ho uske upar. Uske baad apni voice ka clone banao, ElevenLabs ki API key use karke. Uske baad apna digital twin banao jisme tum HeyGen use karoge. Aur uske baad isko automatically YouTube pe post bhi karo. Iska poora process aur iska guide chahiye ho to share kar do ye video apne do dosto ke sath aur link tumhe bio ya description me mil jayega. Milta hu next video me, tab tak ke liye Jai Mata Di.",
+      "full_caption": "Power of AI 😮‍💨\n.\n#makemoneyfast #ai",
+      "script_source": "transcript",
+      "script_pattern": "unknown",
+      "likes": 6435,
+      "comments": 2402,
+      "engagement_rate": 4.79,
+      "verdict": "high",
+      "transcribed_at": "2026-10-28T03:59:08.635Z",
+      "scraped_at": "2026-10-29T03:31:45.271Z"
     }
   ],
-  "total": 152,
-  "transcript_based": 85
+  "total": 153,
+  "transcript_based": 86
 }

@@ -1,206 +1,6 @@
 {
   "generated_topics": [
     {
-      "date": "2026-10-19",
-      "title": "VoiceStudio: The Free 3-Second Open-Source Voice Cloner"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The $150,000 Dubai Zero-Code AI Agent Bounty"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Sahil Lavingia's Free 10-Skill Business Pack for Claude"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why Bengaluru Traffic AI Fined a Guitar ₹500"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Hairline Skill: Generate Clean Cursor Animations in Claude"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The Tier List of AI Services to Sell in India"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why You Must Run an LLM Proxy on Your Laptop"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Virtual Studio Setup on Replit for Creators"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Gemini 4 Argon: 1 Million Output Tokens in One Shot"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 3-Model Claude Cost Optimization Rule"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Hybrid Reasoning Agents: Latent Space Thinking"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why Namecheap Seized Domains: The Solopreneur Risk"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Context7: Never Let Claude Code Use Deprecated Libraries"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Build a Custom AI WhatsApp Receptionist in 30 Mins"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The Anti-AI Programming Language: Why It Matters"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "5 High-Income Claude Plugins for Junior Developers"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 'No Phone in the Morning' Rule for Indian Founders"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Building a Real-Time Price Drop Alert Bot with Webhooks"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why Indian Techies Are Buying NPU-Equipped AI PCs"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 6-Figure Notion Template System That Actually Works"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Voice Calling Bots for Indian Real Estate: The Harsh Reality"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Turn Boring CSVs into Executive Presentations Using AI"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The Single Mistake Killing Your Cold DMs on LinkedIn"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Run Offline Vision Models on a Raspberry Pi"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 'Skill Compounding' Rule for 22-Year-Olds"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Automating Indian GST Invoicing with Make.com"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why Most Indian Startups Fail at AI Marketing"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The Zero-Code Internal Dashboard Builder: ToolJet vs Appsmith"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 2-Minute Resume Audit Using DeepSeek R1"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Self-Hosting Your Personal Cloud on an Old Laptop"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 4-Hour Focus Routine of High-Performance Builders"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Auto-Transcribe Vernacular Customer Calls with AI"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why You Shouldn't Rely on Just One AI Gateway"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 5 Questions to Ask Before Quitting Your 9-5 for Freelancing"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Building a Legal Contract Analyzer for Indian Freelancers"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Extract Leads from Google Maps Legally"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 'No-Meeting Wednesday' Policy That Doubled Output"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Clean Audio Like a Studio Inside Your Browser"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 3 AI Tools Every CA and Finance Professional Needs in 2026"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why Buying Twitter Followers or Views Destroys Your Reach"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Build a Custom Customer Feedback Classifier"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 10-Minute Sunday Routine for a Calm Work Week"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Open Source Whisper vs Paid Transcription APIs"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Price Your Freelance Projects Without Leaving Money on the Table"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The Danger of 'Vibe Coding' Without Version Control"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "How to Automate PDF Ingestion Without Hallucinations"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The '50/30/20' Budget Rule Adapted for Early Freelancers"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Turn Your Notion Notes into a Published Micro-SaaS"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Why Hustle Porn on Instagram Is Poisoning Your Growth"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "The 3 Free Developer APIs Every Indian Builder Must Bookmark"
-    },
-    {
       "date": "2026-10-20",
       "title": "Hairline Skill: Generate Clean Cursor Animations in Claude"
     },
@@ -1999,6 +1799,206 @@
     {
       "date": "2026-10-28",
       "title": "The Solopreneur Mindset Shift: From Worker to Systems Architect"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Gemini 4 Carbon Breakdown: Why Google's Newest Model Changes Everything"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Apple's 3.5 Lakh Touchscreen MacBook: Worth It For Creators?"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Run a Whole Agency for $0 with Agency Agents inside Claude Code"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "We Tested AI Agents on 50 Indian Tax Assignments"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "India's Security Flaw: How a Key Named '4' Crumbled Web Trust"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "iPhone Duo Dual Screen Setup: Productivity Beast or Overpriced Flop?"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How 17-Year-Olds in India Build Automated YouTube Channels with n8n"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Meet Claude Duet: The AI Agent That Messages You First"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Higgsfield Katana: Turn Plain Videos into Cinematic Motion Graphics in Claude"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Agibot A3 Humanoid Unboxing: Will Indian Factories Go Fully Autonomous?"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why Ben Affleck Writes Python and What Indian Founders Can Learn"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Wispr Flow Live Test: Can a Non-Coder Build Apps Just by Talking?"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How to Get Microsoft 365 Worth ₹7,000 for Completely Free"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How We Built an AI Comment Agent for India's Top Sneaker Brand Comet"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Reverse Engineer Any App Without Source Code Using REA"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Google Artemis: AI That Controls Your Phone Like a Human"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How Tesla's Compressed Air Flying Roadster Works Mechanics"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Virtual Studio Lighting Simulator Built on Replit for Free"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "5 Habits Keeping You Below ₹1 Crore Net Worth in India"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Unbrokeing India Ep 1: ₹50,000 Selling AI Websites to Local Doctors"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "The Math Behind Elon Musk Giving SpaceX Shares to Every Kid"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why 87% of Indian Businesses Are Upgrading to AI PCs with NPUs"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Claude Motion: Generate Animated Code Videos Without Heavy AI Renderers"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "The Secret Pinterest + ChatGPT Prompting Formula for 3D Visuals"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why DLF Camellias Diners Spend ₹1,500 Per Dish: Career Realities"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Hacking Smart TVs to Delete All Ads and Bloatware with Claude Code"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why You Shouldn't Focus on Dating Until You Have 5 Lacs Saved"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Building a Custom Multi-Step Agent with the New Agent SDK"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why Indian B2B Agencies Are Ditching 11Labs for Open Source Voice Tools"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How to Automate Competitor Price Tracking in 20 Minutes with AI"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "The Death of Desktop Web Browsing: How AI Native Apps Win"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "The $0 Stack for Indian Freelancers to Close $1,000 International Clients"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why Tier-2 City Indian Founders Have an Unfair Advantage in AI"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Automating Kirana Store Inventory with a 10-Minute WhatsApp Bot"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why 90% of Indian Engineering Graduates Are Unprepared for Vibe Coding"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Automating B2B Lead Gen using LinkedIn + Claude Skills"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "AI Voice Agents for Automated Real Estate Lead Qualification in India"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How to Automate Instagram DM Sales Funnels with n8n and ChatGPT"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why Buying a MacBook Pro Pays for Itself in 60 Days for Freelancers"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Building an AI Agent for Shopify Order Returns in India"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Vibe Coding vs Deep Engineering: What Actually Gets You Hired?"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How to Turn Google Maps Scraper Data into a ₹50,000/Month Agency"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why Salary Alone Will Never Build Generational Wealth in India"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Single API for All Top Video Models: Higgsfield Multi-Model Integration"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "How to Audit and Cancel Unused AI Subscriptions Automatically"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Create 3D Kinetic Typography Reels Using Claude and Katana"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Shift from 9-to-5 Employee to AI Solopreneur: The 90-Day Roadmap"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Why Japan's PM Demanded PHP Security Updates & What It Means For Your Site"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "The Ultimate AI Tool Tier List for 2026: What to Use and What to Trash"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Unboxing Your First Luxury Car for Parents at 25: Financial Reality"
     }
   ],
   "posted_topics": []

@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-28",
-  "end_date": "2026-11-04",
+  "generated_on": "2026-10-29",
+  "end_date": "2026-11-05",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-28",
-      "topic": "How Indian D2C Brand Comet Built an AI Agent to Auto-Fix Negative Comment Scams",
+      "date": "2026-10-29",
+      "topic": "Monetizing local AI websites for neighborhood clinics (₹50k sprint)",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "How India's biggest sneaker brand stops comment scams with AI. *(9 words)*",
+      "post_time": "7:15 PM IST",
+      "hook": "Can ChatGPT make you ₹50,000 selling local websites?",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-29",
-      "topic": "5 Free Open-Source GitHub Repos That Replace Expensive AI SaaS Subscriptions",
+      "date": "2026-10-30",
+      "topic": "Visual breakdown of India's eMudhra security leak (The \"Key 4\" flaw)",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Stop paying for AI SaaS: 5 free GitHub repos today. *(10 words)*",
+      "post_time": "6:45 PM IST",
+      "hook": "India’s biggest security key was literally just number four.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-30",
-      "topic": "I Tested Raj Shamani’s Viral B2B Web Design Strategy on Local Indian Businesses",
+      "date": "2026-10-31",
+      "topic": "Automated YouTube workflow built entirely on free n8n nodes",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "I tested Raj Shamani's business idea on local clinics. *(9 words)*",
+      "post_time": "7:30 PM IST",
+      "hook": "Run a completely automated YouTube channel using this setup.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-10-31",
-      "topic": "The Hidden Wealth Breakdown: Who Really Spends ₹1,500/Dish at Gurgaon Lounges?",
+      "date": "2026-11-01",
+      "topic": "5 open-source AI tools replacing the ₹7,000/yr Microsoft 365 suite",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Who is actually paying 1500 rupees for one dish? *(9 words)*",
+      "post_time": "6:30 PM IST",
+      "hook": "Stop paying ₹7,000 yearly for Microsoft 365 right now.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-01",
-      "topic": "Google Artemis Breakdown: Free Tool That Lets AI Run Actions on Your Real Phone",
+      "date": "2026-11-02",
+      "topic": "Reverse-engineering any closed app with the open-source REA agent",
       "format": "Reel",
-      "post_time": "6:00 PM IST",
-      "hook": "Google released an AI tool that actually uses your phone. *(10 words)*",
+      "post_time": "7:00 PM IST",
+      "hook": "This free AI repo reverse-engineers any app without code.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-02",
-      "topic": "Why Saving Rent by Living with Parents Is a Bootstrap Founder's Cheat Code",
+      "date": "2026-11-03",
+      "topic": "The 2026 AI Tier List: Best vs worst tools for coding, writing, and design",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Why living with your parents is a secret financial cheat-code. *(10 words)*",
+      "post_time": "8:00 PM IST",
+      "hook": "Stop using ChatGPT for everything; use this exact stack.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-03",
-      "topic": "Agency Agents: How to Run a Full $0 AI Agency inside Claude Code",
+      "date": "2026-11-04",
+      "topic": "Google Artemis breakdown: How AI can now tap and navigate real phone screens",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Run a full agency inside Claude for zero dollars. *(9 words)*",
+      "post_time": "7:45 PM IST",
+      "hook": "Google built an AI that operates your phone autonomously.",
       "status": "pending"
     }
   ]
