@@ -1,78 +1,82 @@
 {
-  "generated_at": "2026-10-29T03:31:41.232Z",
+  "generated_at": "2026-10-30T03:31:58.396Z",
   "hotRightNow": [
     {
       "username": "ishansharma7390",
-      "caption": "Apple’s 3.5Lakh Touchscreen Mac!\n\nHere’s your first look at the new macbook pro with OLED screen, a ",
-      "likes": 9351,
-      "comments": 75,
-      "engagement": 9426,
-      "engRate": "0.74",
-      "timestamp": "2026-10-28T17:33:21.000Z",
-      "url": "https://www.instagram.com/p/DfC-XtsoeZC/",
+      "caption": "The glowing 🍎is BACK!🥹✨\n\nHad an epic day with apple in los Angeles trying out the new touchscreen ",
+      "likes": 6003,
+      "comments": 20,
+      "engagement": 6023,
+      "engRate": "0.48",
+      "timestamp": "2026-10-29T11:04:59.000Z",
+      "url": "https://www.instagram.com/p/DfE28YZm2X3/",
+      "type": "Post"
+    },
+    {
+      "username": "vaibhavsisinty",
+      "caption": "Apple’s First Touchscreen MacBook Is Here\n\nFor years, Apple said touchscreens on laptops just didn’t",
+      "likes": 5600,
+      "comments": 66,
+      "engagement": 5666,
+      "engRate": "0.26",
+      "timestamp": "2026-10-29T07:20:28.000Z",
+      "url": "https://www.instagram.com/p/DfEcw5KgEJM/",
       "type": "Video"
     },
     {
       "username": "vaibhavsisinty",
-      "caption": "Make Your Slow TV Fast Again\n\nClaude Code switches off the ads, tracking and junk apps slowing down ",
-      "likes": 8272,
-      "comments": 593,
-      "engagement": 8865,
-      "engRate": "0.41",
-      "timestamp": "2026-10-28T07:39:56.000Z",
-      "url": "https://www.instagram.com/p/DfB6bWeA0s_/",
+      "caption": "Google Built An AI Hacker\n\nIt’s called Gemini 4 Carbon, and it breaks into apps on purpose to find t",
+      "likes": 2868,
+      "comments": 20,
+      "engagement": 2888,
+      "engRate": "0.13",
+      "timestamp": "2026-10-29T12:49:57.000Z",
+      "url": "https://www.instagram.com/p/DfFCz06IoFM/",
+      "type": "Video"
+    },
+    {
+      "username": "nivedan.ai",
+      "caption": "Buying a flat is one of the biggest financial decisions your family can make. What if you could chec",
+      "likes": 1950,
+      "comments": 766,
+      "engagement": 2716,
+      "engRate": "0.49",
+      "timestamp": "2026-10-29T12:41:51.000Z",
+      "url": "https://www.instagram.com/p/DfFB64YJbzu/",
       "type": "Video"
     },
     {
       "username": "thevarunmayya",
-      "caption": "Apple just launched a touchscreen MacBook Pro! The logo on the back glows again too!",
-      "likes": 5416,
-      "comments": 39,
-      "engagement": 5455,
-      "engRate": "0.42",
-      "timestamp": "2026-10-28T18:33:41.000Z",
-      "url": "https://www.instagram.com/p/DfDFYoEz1ws/",
-      "type": "Video"
-    },
-    {
-      "username": "ishansharma7390",
-      "caption": "What do you think?",
-      "likes": 1727,
-      "comments": 24,
-      "engagement": 1751,
-      "engRate": "0.14",
-      "timestamp": "2026-10-28T17:57:03.000Z",
-      "url": "https://www.instagram.com/p/DfDBPbcJhYb/",
-      "type": "Video"
-    },
-    {
-      "username": "favourite.engineer",
-      "caption": "Resume Unrejectable 😮‍💨\n.\n#claude #ai",
-      "likes": 3,
-      "comments": 551,
-      "engagement": 554,
-      "engRate": "0.30",
-      "timestamp": "2026-10-28T13:02:08.000Z",
-      "url": "https://www.instagram.com/p/DfCfb0Uz_77/",
+      "caption": "You can now make digital characters interact with the physical world right on your phone!",
+      "likes": 1670,
+      "comments": 17,
+      "engagement": 1687,
+      "engRate": "0.13",
+      "timestamp": "2026-10-29T17:05:07.000Z",
+      "url": "https://www.instagram.com/p/DfFgEU6TWdH/",
       "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "post",
-      "avgEng": 10439,
+      "avgEng": 10918,
       "count": 14
     },
     {
       "format": "video",
-      "avgEng": 8182,
-      "count": 40
+      "avgEng": 8389,
+      "count": 41
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "5 top posts"
+      "appearsIn": "6 top posts"
+    },
+    {
+      "topic": "claude",
+      "appearsIn": "2 top posts"
     },
     {
       "topic": "chatgpt",
@@ -83,48 +87,44 @@
       "appearsIn": "2 top posts"
     },
     {
-      "topic": "claude",
-      "appearsIn": "1 top posts"
-    },
-    {
       "topic": "hack",
       "appearsIn": "1 top posts"
     }
   ],
   "bestPostingWindow": [
-    "13:00 IST (3 top posts)",
     "18:00 IST (3 top posts)",
-    "19:00 IST (3 top posts)"
+    "19:00 IST (3 top posts)",
+    "11:00 IST (2 top posts)"
   ],
   "topHookPatterns": [
     {
       "hook": "Ben Affleck, the director and actor, just revealed that he writes Python, unders",
       "username": "thevarunmayya",
-      "likes": 186070,
+      "likes": 186221,
       "url": "https://www.instagram.com/p/DePZYzRzsoh/"
     },
     {
       "hook": "Comment \"TV\" to get Clean your TV of Ads and Bloatware with Claude Code.\n\nPeople",
       "username": "nick_saraev",
-      "likes": 115448,
+      "likes": 116526,
       "url": "https://www.instagram.com/p/De3s5v3vIzE/"
     },
     {
       "hook": "FINALLY we GOT IT!🤯🥹✨\n\nHad the best day ever, going with my parents to four se",
       "username": "ishansharma7390",
-      "likes": 119359,
+      "likes": 120253,
       "url": "https://www.instagram.com/p/DeuC_xfoPur/"
     },
     {
       "hook": "Officially collaborated, I mean engaged ❤️💍\n\n12.10.2026\n\n📸 @rompalliharish",
       "username": "vaibhavsisinty",
-      "likes": 93514,
+      "likes": 96274,
       "url": "https://www.instagram.com/p/De-5VCbE-_4/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 79567,
+      "likes": 79785,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     }
   ]

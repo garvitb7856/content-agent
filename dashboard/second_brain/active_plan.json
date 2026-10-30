@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-10-29",
-  "end_date": "2026-11-05",
+  "generated_on": "2026-10-30",
+  "end_date": "2026-11-06",
   "days": [
     {
       "day": 1,
-      "date": "2026-10-29",
-      "topic": "Monetizing local AI websites for neighborhood clinics (₹50k sprint)",
+      "date": "2026-10-30",
+      "topic": "Testing Raj Shamani’s ₹50,000 local clinic AI website blueprint step-by-step",
       "format": "Reel",
       "post_time": "7:15 PM IST",
-      "hook": "Can ChatGPT make you ₹50,000 selling local websites?",
+      "hook": "Making ₹50,000 selling 5-minute AI websites to local clinics.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-10-30",
-      "topic": "Visual breakdown of India's eMudhra security leak (The \"Key 4\" flaw)",
+      "date": "2026-10-31",
+      "topic": "Step-by-step breakdown of REA: The free GitHub repo reverse-engineering any app",
       "format": "Carousel",
       "post_time": "6:45 PM IST",
-      "hook": "India’s biggest security key was literally just number four.",
+      "hook": "This free GitHub repo reverse-engineers any app without source code.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-10-31",
-      "topic": "Automated YouTube workflow built entirely on free n8n nodes",
+      "date": "2026-11-01",
+      "topic": "Deploying Agency Agents to run an automated 200-agent agency locally",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Run a completely automated YouTube channel using this setup.",
+      "post_time": "7:45 PM IST",
+      "hook": "Run an entire 200-person digital agency for completely zero dollars.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-01",
-      "topic": "5 open-source AI tools replacing the ₹7,000/yr Microsoft 365 suite",
+      "date": "2026-11-02",
+      "topic": "Wholesale product arbitrage: Finding ₹399 products on IndiaMART and building instant AI landing pages",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Stop paying ₹7,000 yearly for Microsoft 365 right now.",
+      "post_time": "7:00 PM IST",
+      "hook": "How to flip ₹399 wholesale products for ₹1,199 using AI.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-02",
-      "topic": "Reverse-engineering any closed app with the open-source REA agent",
+      "date": "2026-11-03",
+      "topic": "Hands-on setup of Google Artemis for end-to-end mobile device automation",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "This free AI repo reverse-engineers any app without code.",
+      "post_time": "6:30 PM IST",
+      "hook": "Google just open-sourced an AI that controls your real phone.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-03",
-      "topic": "The 2026 AI Tier List: Best vs worst tools for coding, writing, and design",
+      "date": "2026-11-04",
+      "topic": "The Best vs Worst AI tool tier list for founders across video, coding, research, and copy",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "Stop using ChatGPT for everything; use this exact stack.",
+      "post_time": "7:30 PM IST",
+      "hook": "The ultimate AI tool tier list for 2025 builders.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-04",
-      "topic": "Google Artemis breakdown: How AI can now tap and navigate real phone screens",
+      "date": "2026-11-05",
+      "topic": "How to build an automated AI customer recovery agent for Indian D2C brands",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "Google built an AI that operates your phone autonomously.",
+      "post_time": "7:15 PM IST",
+      "hook": "We built an AI agent for India’s fastest-growing sneaker brand.",
       "status": "pending"
     }
   ]

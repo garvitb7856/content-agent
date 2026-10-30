@@ -1,77 +1,58 @@
 {
-  "fetched_at": "2026-10-29T03:31:45.189Z",
+  "fetched_at": "2026-10-30T03:32:01.056Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Gemini 4 Carbon",
-      "score": 836,
-      "comments": 695,
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "score": 207,
+      "comments": 68,
+      "url": "https://labs.ycombinator.com/projects/games/index.html"
     },
     {
       "source": "hackernews",
-      "title": "Nixpkgs for the Front End Impaired",
-      "score": 18,
-      "comments": 3,
-      "url": "https://fzakaria.com/2026/10/12/nixpkgs-for-the-frontend-impaired"
+      "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+      "score": 68,
+      "comments": 10,
+      "url": "https://journal.animationstudies.org/article/id/66/"
     },
     {
       "source": "hackernews",
-      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "score": 213,
-      "comments": 137,
-      "url": "https://surgehq.ai/blog/dayjob-tax"
+      "title": "Pico CSS is no longer maintained",
+      "score": 49,
+      "comments": 16,
+      "url": "https://github.com/picocss/pico/discussions/754"
     },
     {
       "source": "hackernews",
-      "title": "The Agent SDK",
-      "score": 104,
-      "comments": 115,
-      "url": "https://cursor.com/blog/agent-sdk"
+      "title": "LLM Voice",
+      "score": 370,
+      "comments": 199,
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "score": 55,
+      "comments": 16,
+      "url": "https://news.ycombinator.com/item?id=50291116"
+    },
+    {
+      "source": "hackernews",
+      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+      "score": 299,
+      "comments": 150,
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone Duo Durability: Destroyed",
-      "channel": "JerryRigEverything",
-      "views": 13753147,
-      "likes": 321799,
-      "publishedAt": "2026-10-24T03:58:15Z",
-      "url": "https://www.youtube.com/watch?v=5laDGy4INB0",
-      "tags": [
-        "iphone duo",
-        "Folding iPhone",
-        "apple iphone duo",
-        "iphone duo review",
-        "iphone"
-      ],
-      "description": "The new Apple iPhone Duo is here - and its time for an iPhone Duo Durability Test. Will the new Folding iPhone Duo survive the stress of every day lif"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "iPhone Duo Review: First Generation Fun!",
-      "channel": "Marques Brownlee",
-      "views": 12957630,
-      "likes": 202509,
-      "publishedAt": "2026-10-21T12:00:52Z",
-      "url": "https://www.youtube.com/watch?v=ESABTN4VtrA",
-      "tags": [
-        "iPhone Duo",
-        "iPhone duo review"
-      ],
-      "description": "What it's actually like to use the first folding iPhone - Duo\n\nDon’t miss Ridge’s friends and family sale at https://ridge.com/MKBHD\nProtect your iPho"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "iPhone Duo Is Flopping",
       "channel": "Austin Sweatt",
-      "views": 8196701,
-      "likes": 232066,
+      "views": 8254841,
+      "likes": 233415,
       "publishedAt": "2026-10-22T19:22:54Z",
       "url": "https://www.youtube.com/watch?v=pPNWH_1x1NU",
       "tags": [],
@@ -80,34 +61,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Drone Uses A Moth Antenna To Track Scents 😮",
-      "channel": "Zack D. Films",
-      "views": 4726544,
-      "likes": 193931,
-      "publishedAt": "2026-10-27T14:30:10Z",
-      "url": "https://www.youtube.com/watch?v=7Rlh_uwt624",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "She Has the Best iPad Setup For Kids 😭",
-      "channel": "For The Girlies",
-      "views": 4642868,
-      "likes": 39037,
-      "publishedAt": "2026-10-22T01:30:04Z",
-      "url": "https://www.youtube.com/watch?v=oFxviwwPwxw",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "I tried Apple’s new touchscreen MacBook Pro..",
       "channel": "CarterPCs",
-      "views": 4333588,
-      "likes": 170201,
+      "views": 7583707,
+      "likes": 257554,
       "publishedAt": "2026-10-28T18:35:57Z",
       "url": "https://www.youtube.com/watch?v=27aKOHCdpt0",
       "tags": [],
@@ -116,10 +73,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Drone Uses A Moth Antenna To Track Scents 😮",
+      "channel": "Zack D. Films",
+      "views": 5536518,
+      "likes": 225378,
+      "publishedAt": "2026-10-27T14:30:10Z",
+      "url": "https://www.youtube.com/watch?v=7Rlh_uwt624",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot",
       "channel": "Oba News",
-      "views": 3220567,
-      "likes": 40885,
+      "views": 3736154,
+      "likes": 48898,
       "publishedAt": "2026-10-20T07:30:24Z",
       "url": "https://www.youtube.com/watch?v=Y8PABtC1yhQ",
       "tags": [],
@@ -130,8 +99,8 @@
       "category": "Science & Tech",
       "title": "how many folds does the iPhone Duo last?",
       "channel": "John Casterline",
-      "views": 2986528,
-      "likes": 145584,
+      "views": 3282760,
+      "likes": 159094,
       "publishedAt": "2026-10-27T02:07:38Z",
       "url": "https://www.youtube.com/watch?v=XwnQ0pMANVo",
       "tags": [],
@@ -142,8 +111,8 @@
       "category": "Science & Tech",
       "title": "iPhone Duo vs. Xiaomi Fold 💀 ft. @H1T1",
       "channel": "OkCron",
-      "views": 2609146,
-      "likes": 71352,
+      "views": 3037155,
+      "likes": 80805,
       "publishedAt": "2026-10-27T03:22:17Z",
       "url": "https://www.youtube.com/watch?v=m1AQjoM9884",
       "tags": [],
@@ -152,12 +121,60 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhones are completely ruined 😔",
-      "channel": "Danny Rayes",
-      "views": 2606087,
-      "likes": 91916,
-      "publishedAt": "2026-10-24T22:00:13Z",
-      "url": "https://www.youtube.com/watch?v=IGZgK9i7gfc",
+      "title": "Zelda 40th Switch 2 vs Switch2 start up.",
+      "channel": "Peanut jelly butter",
+      "views": 2474472,
+      "likes": 29706,
+      "publishedAt": "2026-10-29T10:13:37Z",
+      "url": "https://www.youtube.com/watch?v=_Ik14cBS7aY",
+      "tags": [
+        "zelda 40th anniversary switch 2",
+        "zelda switch 2 boot screen",
+        "zelda switch 2",
+        "switch 2 boot screen",
+        "nintendo switch 2 zelda edition"
+      ],
+      "description": "Zelda 40th anniversary switch2 first time start up/boot screen vs. Nintendo Switch2. Nintendo should have made this!\n\n#nintendo \n#NintendoSwitch2 \n#ze"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "The iPhone Duo Keeps BREAKING 😭",
+      "channel": "Austin Long",
+      "views": 1496998,
+      "likes": 24088,
+      "publishedAt": "2026-10-27T01:25:48Z",
+      "url": "https://www.youtube.com/watch?v=9FfUzq5Kv0c",
+      "tags": [
+        "video",
+        "sharing",
+        "camera phone",
+        "video phone",
+        "free"
+      ],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "This tech YouTuber got a little bit too excited opening the iPhone duo",
+      "channel": "Angelixpearl",
+      "views": 1283897,
+      "likes": 0,
+      "publishedAt": "2026-10-28T12:30:34Z",
+      "url": "https://www.youtube.com/watch?v=G-WeJTO9vZo",
+      "tags": [],
+      "description": "This is Youtuber Jeremy Fragrance of Tech. Credits to him.\n\nA chaotic, high-energy, personality-driven figures or viral reaction moments in the tech a"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "iphone duo unboxing 🩷🩷🩷 #lisishops #lisi #duo #iphoneduo #iphoneduos #newiphone #iphones",
+      "channel": "Lisi Shops",
+      "views": 1229387,
+      "likes": 48683,
+      "publishedAt": "2026-10-27T18:19:00Z",
+      "url": "https://www.youtube.com/watch?v=3Mc0okAqdFU",
       "tags": [],
       "description": ""
     }
@@ -165,43 +182,35 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "ChatGPT",
-        "trend_score": 92
+        "keyword": "productivity tools",
+        "trend_score": 93
       },
       {
         "keyword": "self improvement",
-        "trend_score": 89
+        "trend_score": 92
       },
       {
-        "keyword": "AI workflow",
-        "trend_score": 86
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 86
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 85
+        "keyword": "ChatGPT",
+        "trend_score": 91
       },
       {
         "keyword": "AI tools",
-        "trend_score": 84
+        "trend_score": 85
       },
       {
-        "keyword": "AI for business",
-        "trend_score": 73
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 72
+        "keyword": "entrepreneur",
+        "trend_score": 81
       },
       {
         "keyword": "automation tools",
-        "trend_score": 68
+        "trend_score": 71
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 70
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-29T03:31:45.189Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Gemini 4 Carbon\" — 836 pts\n• [HackerNews] \"Nixpkgs for the Front End Impaired\" — 18 pts\n• [HackerNews] \"Dayjob: Tax – evaluating AI agents on 50 professional tax assignments\" — 213 pts\n• [HackerNews] \"The Agent SDK\" — 104 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"iPhone Duo Durability: Destroyed\" by JerryRigEverything — 13753k views\n• [YouTube Global] \"iPhone Duo Review: First Generation Fun!\" by Marques Brownlee — 12958k views\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 8197k views\n• [YouTube Global] \"Drone Uses A Moth Antenna To Track Scents 😮\" by Zack D. Films — 4727k views\n• [YouTube Global] \"She Has the Best iPad Setup For Kids 😭\" by For The Girlies — 4643k views\n• [YouTube Global] \"I tried Apple’s new touchscreen MacBook Pro..\" by CarterPCs — 4334k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 92), self improvement (score: 89), AI workflow (score: 86), entrepreneur (score: 86), solopreneur (score: 85), AI tools (score: 84), AI for business (score: 73), productivity tools (score: 72), automation tools (score: 68)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-30T03:32:01.056Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"We ran AI agent swarms in Minecraft and Mindustry\" — 207 pts\n• [HackerNews] \"A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)\" — 68 pts\n• [HackerNews] \"Pico CSS is no longer maintained\" — 49 pts\n• [HackerNews] \"LLM Voice\" — 370 pts\n• [HackerNews] \"Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents\" — 55 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 8255k views\n• [YouTube Global] \"I tried Apple’s new touchscreen MacBook Pro..\" by CarterPCs — 7584k views\n• [YouTube Global] \"Drone Uses A Moth Antenna To Track Scents 😮\" by Zack D. Films — 5537k views\n• [YouTube Global] \"Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot\" by Oba News — 3736k views\n• [YouTube Global] \"how many folds does the iPhone Duo last?\" by John Casterline — 3283k views\n• [YouTube Global] \"iPhone Duo vs. Xiaomi Fold 💀 ft. @H1T1\" by OkCron — 3037k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nproductivity tools (score: 93), self improvement (score: 92), ChatGPT (score: 91), AI tools (score: 85), entrepreneur (score: 81), automation tools (score: 71), AI for business (score: 70)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
