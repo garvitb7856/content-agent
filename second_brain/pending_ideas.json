@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Testing Raj Shamani's ₹50,000 Clinic Website Blueprint",
-    "hook": "Can I make 50,000 Rupees selling 5-minute websites to local clinics? Let's test Raj Shamani's exact strategy.",
+    "title": "Control Your Entire Phone with Google Artemis and Claude Code",
+    "hook": "Google just open-sourced a free AI tool that lets Claude Code use your actual phone like a human.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Originating from Dhaval Kataria (58k followers, 11.8k avg likes), this concept easily clears the 3,000-like medium-account threshold with massive engagement. It bridges celebrity business podcast advice with hands-on AI execution that matches @garvit.irl's core tech builder audience.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
+    "score": "LOW",
+    "reasoning": "While no public like data is available so it defaults to LOW under our framework, the Artemis repo has already gained 13,000+ stars on GitHub indicating strong developer interest. Controlling physical mobile screens via terminal agents is an untapped, high-curiosity demonstration for Garvit's audience.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/De15bfEPMcP/"
   },
   {
     "rank": 2,
-    "title": "Reverse Engineer Any Mobile App Without Code using REA",
-    "hook": "This free GitHub repo lets your AI agent decompile and reverse-engineer any app on your laptop in 60 seconds.",
+    "title": "Reverse-Engineer Any Software Without Source Code Using AI",
+    "hook": "This open-source GitHub repo is quietly blowing up because it lets your AI agent reverse-engineer any app.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Proven by Varun Mayya (1.28M followers, 23.3k avg likes) where REA coverage breached the 25,000 mega-viral threshold. It packages an open-source technical superpower into an accessible workflow that directly serves software builders.",
+    "score": "LOW",
+    "reasoning": "No like data is available from the competitor post resulting in a LOW score, but the underlying tool REA has surpassed 130,000 stars showing massive demand. Reverse-engineering closed binaries via Claude Code offers a distinct technical hook that differentiates from standard wrapper tutorials.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DeZwKRBTGYN/"
   },
   {
     "rank": 3,
-    "title": "Indiamart Flip: Finding ₹399 Products to Sell for ₹1,199 with AI",
-    "hook": "Can you make 1 Lakh rupees flipping wholesale Indian household utility items using AI landing pages?",
+    "title": "Run a 200-Agent Full Agency Inside Claude Code for $0",
+    "hook": "You can now run an entire agency inside Claude Code for literally zero dollars.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Adapted from Dhaval Kataria's Unbrokeing India series, which consistently outpaces the 3,000-like threshold on a 58k profile with exceptional 20%+ engagement. The hyper-specific rupee breakdown and clear e-commerce arbitrage blueprint trigger strong saves and shares.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DeJ_95ku6Gt/"
+    "score": "LOW",
+    "reasoning": "Rated LOW strictly due to missing like metrics on the competitor reel, yet the open-source Agency Agents repository boasts over 160k GitHub stars. Multi-agent business automation represents a proven high-retention angle perfectly suited for solopreneurs and builders.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/De6TR9XP2dA/"
   },
   {
     "rank": 4,
-    "title": "Why Moving Out at 23 Multiplies Your Income",
-    "hook": "Living with your parents saves you 30,000 a month on rent, but it's costing you 10 lakhs in hidden growth.",
+    "title": "Supercharge Any Budget Android TV with Claude Code",
+    "hook": "My 15,000 rupee TV now runs like a 1 lakh TV in 15 minutes, completely for free.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Another top performer from Dhaval Kataria that crushed the medium account viral mark by attacking traditional middle-class comfort zones. The counterintuitive financial premise provokes intense polarization in the comments, driving rapid algorithmic distribution.",
-    "niche": "Self-growth",
-    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
+    "score": "LOW",
+    "reasoning": "Scores LOW because competitor engagement numbers are unavailable, but the hook leverages an irresistible consumer optimization angle from Vaibhav Sisinty. Demonstrating developer mode and Claude Code to solve an everyday hardware frustration has exceptional viral potential.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DfB6bWeA0s_/"
   },
   {
     "rank": 5,
-    "title": "How Ultra-Wealthy People at DLF Camellias Actually Make Money",
-    "hook": "I went to a restaurant where noodles cost 1,500 rupees, and asked what these people actually do for a living.",
+    "title": "Generate Complete Animated Motion Graphics via Claude Code",
+    "hook": "Motion designers are going to hate this new workflow to build fully animated videos using pure code.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Sourced from Ishan Sharma (1.26M followers, 16.7k avg likes) whose Gurgaon luxury district breakdown blew past the 25k mega-tier virality line. It taps into unvarnished curiosity around Indian high-net-worth career mechanics with strong narrative retention.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DezPYXcoCWi/"
+    "score": "LOW",
+    "reasoning": "Scored LOW as like counts are unavailable from the source post, but Aryaman's programmatic video generation showcases an emerging non-diffusion approach. This solves visual asset generation without expensive video models, giving creators a tangible zero-cost utility.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/De9uauoS9qT/"
   }
 ]

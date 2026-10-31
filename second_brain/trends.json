@@ -1,70 +1,72 @@
 {
-  "fetched_at": "2026-10-30T03:32:01.056Z",
+  "fetched_at": "2026-10-31T03:31:42.508Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "We ran AI agent swarms in Minecraft and Mindustry",
-      "score": 207,
-      "comments": 68,
-      "url": "https://labs.ycombinator.com/projects/games/index.html"
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "score": 806,
+      "comments": 502,
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
     },
     {
       "source": "hackernews",
-      "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
-      "score": 68,
-      "comments": 10,
-      "url": "https://journal.animationstudies.org/article/id/66/"
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "score": 243,
+      "comments": 137,
+      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/"
     },
     {
       "source": "hackernews",
-      "title": "Pico CSS is no longer maintained",
-      "score": 49,
-      "comments": 16,
-      "url": "https://github.com/picocss/pico/discussions/754"
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "score": 125,
+      "comments": 151,
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"
     },
     {
       "source": "hackernews",
-      "title": "LLM Voice",
-      "score": 370,
-      "comments": 199,
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+      "title": "Building an AI-native engineering org",
+      "score": 118,
+      "comments": 155,
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875"
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
-      "score": 55,
-      "comments": 16,
-      "url": "https://news.ycombinator.com/item?id=50291116"
+      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "score": 182,
+      "comments": 19,
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
     },
     {
       "source": "hackernews",
-      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
-      "score": 299,
-      "comments": 150,
-      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers"
+      "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain",
+      "score": 13,
+      "comments": 0,
+      "url": "https://publicdomainreview.org/essay/wonderful-weather/"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "score": 527,
+      "comments": 397,
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+    },
+    {
+      "source": "hackernews",
+      "title": "AO3 Down for Maintenance",
+      "score": 106,
+      "comments": 30,
+      "url": "https://www.otwstatus.org"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "iPhone Duo Is Flopping",
-      "channel": "Austin Sweatt",
-      "views": 8254841,
-      "likes": 233415,
-      "publishedAt": "2026-10-22T19:22:54Z",
-      "url": "https://www.youtube.com/watch?v=pPNWH_1x1NU",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "I tried Apple’s new touchscreen MacBook Pro..",
       "channel": "CarterPCs",
-      "views": 7583707,
-      "likes": 257554,
+      "views": 8460516,
+      "likes": 278386,
       "publishedAt": "2026-10-28T18:35:57Z",
       "url": "https://www.youtube.com/watch?v=27aKOHCdpt0",
       "tags": [],
@@ -73,10 +75,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "iPhone Duo Is Flopping",
+      "channel": "Austin Sweatt",
+      "views": 8270615,
+      "likes": 233650,
+      "publishedAt": "2026-10-22T19:22:54Z",
+      "url": "https://www.youtube.com/watch?v=pPNWH_1x1NU",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Drone Uses A Moth Antenna To Track Scents 😮",
       "channel": "Zack D. Films",
-      "views": 5536518,
-      "likes": 225378,
+      "views": 6624956,
+      "likes": 266017,
       "publishedAt": "2026-10-27T14:30:10Z",
       "url": "https://www.youtube.com/watch?v=7Rlh_uwt624",
       "tags": [],
@@ -87,8 +101,8 @@
       "category": "Science & Tech",
       "title": "Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot",
       "channel": "Oba News",
-      "views": 3736154,
-      "likes": 48898,
+      "views": 4644075,
+      "likes": 61693,
       "publishedAt": "2026-10-20T07:30:24Z",
       "url": "https://www.youtube.com/watch?v=Y8PABtC1yhQ",
       "tags": [],
@@ -99,8 +113,8 @@
       "category": "Science & Tech",
       "title": "how many folds does the iPhone Duo last?",
       "channel": "John Casterline",
-      "views": 3282760,
-      "likes": 159094,
+      "views": 3398386,
+      "likes": 164996,
       "publishedAt": "2026-10-27T02:07:38Z",
       "url": "https://www.youtube.com/watch?v=XwnQ0pMANVo",
       "tags": [],
@@ -111,8 +125,8 @@
       "category": "Science & Tech",
       "title": "iPhone Duo vs. Xiaomi Fold 💀 ft. @H1T1",
       "channel": "OkCron",
-      "views": 3037155,
-      "likes": 80805,
+      "views": 3360450,
+      "likes": 87589,
       "publishedAt": "2026-10-27T03:22:17Z",
       "url": "https://www.youtube.com/watch?v=m1AQjoM9884",
       "tags": [],
@@ -121,28 +135,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Zelda 40th Switch 2 vs Switch2 start up.",
-      "channel": "Peanut jelly butter",
-      "views": 2474472,
-      "likes": 29706,
-      "publishedAt": "2026-10-29T10:13:37Z",
-      "url": "https://www.youtube.com/watch?v=_Ik14cBS7aY",
-      "tags": [
-        "zelda 40th anniversary switch 2",
-        "zelda switch 2 boot screen",
-        "zelda switch 2",
-        "switch 2 boot screen",
-        "nintendo switch 2 zelda edition"
-      ],
-      "description": "Zelda 40th anniversary switch2 first time start up/boot screen vs. Nintendo Switch2. Nintendo should have made this!\n\n#nintendo \n#NintendoSwitch2 \n#ze"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "The iPhone Duo Keeps BREAKING 😭",
       "channel": "Austin Long",
-      "views": 1496998,
-      "likes": 24088,
+      "views": 1889775,
+      "likes": 26721,
       "publishedAt": "2026-10-27T01:25:48Z",
       "url": "https://www.youtube.com/watch?v=9FfUzq5Kv0c",
       "tags": [
@@ -159,7 +155,7 @@
       "category": "Science & Tech",
       "title": "This tech YouTuber got a little bit too excited opening the iPhone duo",
       "channel": "Angelixpearl",
-      "views": 1283897,
+      "views": 1642962,
       "likes": 0,
       "publishedAt": "2026-10-28T12:30:34Z",
       "url": "https://www.youtube.com/watch?v=G-WeJTO9vZo",
@@ -171,10 +167,22 @@
       "category": "Science & Tech",
       "title": "iphone duo unboxing 🩷🩷🩷 #lisishops #lisi #duo #iphoneduo #iphoneduos #newiphone #iphones",
       "channel": "Lisi Shops",
-      "views": 1229387,
-      "likes": 48683,
+      "views": 1453667,
+      "likes": 55476,
       "publishedAt": "2026-10-27T18:19:00Z",
       "url": "https://www.youtube.com/watch?v=3Mc0okAqdFU",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "A phone that fixes brainrot?",
+      "channel": "ForgeCore",
+      "views": 638548,
+      "likes": 8160,
+      "publishedAt": "2026-10-30T18:44:51Z",
+      "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
       "tags": [],
       "description": ""
     }
@@ -182,35 +190,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "productivity tools",
-        "trend_score": 93
+        "keyword": "AI workflow",
+        "trend_score": 99
       },
       {
         "keyword": "self improvement",
-        "trend_score": 92
-      },
-      {
-        "keyword": "ChatGPT",
         "trend_score": 91
       },
       {
         "keyword": "AI tools",
-        "trend_score": 85
+        "trend_score": 90
       },
       {
         "keyword": "entrepreneur",
+        "trend_score": 89
+      },
+      {
+        "keyword": "productivity tools",
         "trend_score": 81
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 80
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 79
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 75
       },
       {
         "keyword": "automation tools",
         "trend_score": 71
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 70
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-30T03:32:01.056Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"We ran AI agent swarms in Minecraft and Mindustry\" — 207 pts\n• [HackerNews] \"A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)\" — 68 pts\n• [HackerNews] \"Pico CSS is no longer maintained\" — 49 pts\n• [HackerNews] \"LLM Voice\" — 370 pts\n• [HackerNews] \"Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents\" — 55 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 8255k views\n• [YouTube Global] \"I tried Apple’s new touchscreen MacBook Pro..\" by CarterPCs — 7584k views\n• [YouTube Global] \"Drone Uses A Moth Antenna To Track Scents 😮\" by Zack D. Films — 5537k views\n• [YouTube Global] \"Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot\" by Oba News — 3736k views\n• [YouTube Global] \"how many folds does the iPhone Duo last?\" by John Casterline — 3283k views\n• [YouTube Global] \"iPhone Duo vs. Xiaomi Fold 💀 ft. @H1T1\" by OkCron — 3037k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nproductivity tools (score: 93), self improvement (score: 92), ChatGPT (score: 91), AI tools (score: 85), entrepreneur (score: 81), automation tools (score: 71), AI for business (score: 70)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-31T03:31:42.508Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Backdoor in Claude Code for VS Code extension on the Cursor Marketplace\" — 806 pts\n• [HackerNews] \"Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man\" — 243 pts\n• [HackerNews] \"Cisco gives engineer unlimited AI tokens to rewrite legacy code\" — 125 pts\n• [HackerNews] \"Building an AI-native engineering org\" — 118 pts\n• [HackerNews] \"Sleep framework: A new way for LLMs to retain knowledge in continual learning\" — 182 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"I tried Apple’s new touchscreen MacBook Pro..\" by CarterPCs — 8461k views\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 8271k views\n• [YouTube Global] \"Drone Uses A Moth Antenna To Track Scents 😮\" by Zack D. Films — 6625k views\n• [YouTube Global] \"Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot\" by Oba News — 4644k views\n• [YouTube Global] \"how many folds does the iPhone Duo last?\" by John Casterline — 3398k views\n• [YouTube Global] \"iPhone Duo vs. Xiaomi Fold 💀 ft. @H1T1\" by OkCron — 3360k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 99), self improvement (score: 91), AI tools (score: 90), entrepreneur (score: 89), productivity tools (score: 81), solopreneur (score: 80), ChatGPT (score: 79), AI for business (score: 75), automation tools (score: 71)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
