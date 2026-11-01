@@ -1,232 +1,132 @@
 {
-  "fetched_at": "2026-10-31T03:31:42.508Z",
+  "fetched_at": "2026-11-01T03:31:53.708Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "score": 806,
-      "comments": 502,
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "score": 308,
+      "comments": 152,
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
     },
     {
       "source": "hackernews",
-      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-      "score": 243,
-      "comments": 137,
-      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/"
+      "title": "AI text watermarking and quality loss",
+      "score": 27,
+      "comments": 5,
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality"
     },
     {
       "source": "hackernews",
-      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-      "score": 125,
-      "comments": 151,
-      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "score": 233,
+      "comments": 127,
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088"
     },
     {
       "source": "hackernews",
-      "title": "Building an AI-native engineering org",
-      "score": 118,
-      "comments": 155,
-      "url": "https://twitter.com/sgondala2/status/2115832070274723875"
+      "title": "Serbia just elected the world's brainiest parliament",
+      "score": 828,
+      "comments": 471,
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament"
     },
     {
       "source": "hackernews",
-      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "score": 182,
-      "comments": 19,
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain",
-      "score": 13,
-      "comments": 0,
-      "url": "https://publicdomainreview.org/essay/wonderful-weather/"
-    },
-    {
-      "source": "hackernews",
-      "title": "AI isn't replacing SREs, it's deskilling them",
-      "score": 527,
-      "comments": 397,
-      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
-    },
-    {
-      "source": "hackernews",
-      "title": "AO3 Down for Maintenance",
-      "score": 106,
-      "comments": 30,
-      "url": "https://www.otwstatus.org"
+      "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
+      "score": 193,
+      "comments": 45,
+      "url": "https://thedataexchange.media/leo-de-moura-lean-aws/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "I tried Apple’s new touchscreen MacBook Pro..",
-      "channel": "CarterPCs",
-      "views": 8460516,
-      "likes": 278386,
-      "publishedAt": "2026-10-28T18:35:57Z",
-      "url": "https://www.youtube.com/watch?v=27aKOHCdpt0",
-      "tags": [],
-      "description": "I tried Apple’s new touchscreen MacBook Pro..\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "iPhone Duo Is Flopping",
-      "channel": "Austin Sweatt",
-      "views": 8270615,
-      "likes": 233650,
-      "publishedAt": "2026-10-22T19:22:54Z",
-      "url": "https://www.youtube.com/watch?v=pPNWH_1x1NU",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Drone Uses A Moth Antenna To Track Scents 😮",
-      "channel": "Zack D. Films",
-      "views": 6624956,
-      "likes": 266017,
-      "publishedAt": "2026-10-27T14:30:10Z",
-      "url": "https://www.youtube.com/watch?v=7Rlh_uwt624",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot",
-      "channel": "Oba News",
-      "views": 4644075,
-      "likes": 61693,
-      "publishedAt": "2026-10-20T07:30:24Z",
-      "url": "https://www.youtube.com/watch?v=Y8PABtC1yhQ",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "how many folds does the iPhone Duo last?",
-      "channel": "John Casterline",
-      "views": 3398386,
-      "likes": 164996,
-      "publishedAt": "2026-10-27T02:07:38Z",
-      "url": "https://www.youtube.com/watch?v=XwnQ0pMANVo",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "iPhone Duo vs. Xiaomi Fold 💀 ft. @H1T1",
-      "channel": "OkCron",
-      "views": 3360450,
-      "likes": 87589,
-      "publishedAt": "2026-10-27T03:22:17Z",
-      "url": "https://www.youtube.com/watch?v=m1AQjoM9884",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "The iPhone Duo Keeps BREAKING 😭",
-      "channel": "Austin Long",
-      "views": 1889775,
-      "likes": 26721,
-      "publishedAt": "2026-10-27T01:25:48Z",
-      "url": "https://www.youtube.com/watch?v=9FfUzq5Kv0c",
-      "tags": [
-        "video",
-        "sharing",
-        "camera phone",
-        "video phone",
-        "free"
-      ],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "This tech YouTuber got a little bit too excited opening the iPhone duo",
-      "channel": "Angelixpearl",
-      "views": 1642962,
-      "likes": 0,
-      "publishedAt": "2026-10-28T12:30:34Z",
-      "url": "https://www.youtube.com/watch?v=G-WeJTO9vZo",
-      "tags": [],
-      "description": "This is Youtuber Jeremy Fragrance of Tech. Credits to him.\n\nA chaotic, high-energy, personality-driven figures or viral reaction moments in the tech a"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "iphone duo unboxing 🩷🩷🩷 #lisishops #lisi #duo #iphoneduo #iphoneduos #newiphone #iphones",
-      "channel": "Lisi Shops",
-      "views": 1453667,
-      "likes": 55476,
-      "publishedAt": "2026-10-27T18:19:00Z",
-      "url": "https://www.youtube.com/watch?v=3Mc0okAqdFU",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "A phone that fixes brainrot?",
       "channel": "ForgeCore",
-      "views": 638548,
-      "likes": 8160,
+      "views": 2264410,
+      "likes": 21416,
       "publishedAt": "2026-10-30T18:44:51Z",
       "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
       "tags": [],
       "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "How McAfee Was Founded 🛡️ #shorts #business",
+      "channel": "PureBusiness",
+      "views": 1933359,
+      "likes": 69196,
+      "publishedAt": "2026-10-30T00:56:31Z",
+      "url": "https://www.youtube.com/watch?v=d8VBr1QgJ-E",
+      "tags": [
+        "#shorts",
+        "#facts",
+        "#business",
+        "#money"
+      ],
+      "description": "Discover how John McAfee founded McAfee Associates in 1987 and how his pioneering antivirus software helped transform computer security, turning a sma"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Light-Gun Aiming for Modern PC Games",
+      "channel": "Wonderism HQ",
+      "views": 1177674,
+      "likes": 18669,
+      "publishedAt": "2026-10-30T19:00:06Z",
+      "url": "https://www.youtube.com/watch?v=m2qAjFyN1VM",
+      "tags": [
+        "#shorts",
+        "#science",
+        "#education",
+        "#learn",
+        "#invention"
+      ],
+      "description": "The XGUN controller has two grips that rotate, so it can switch from a normal gamepad into a shooting position. In gun mode, you aim by physically poi"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "AI workflow",
-        "trend_score": 99
+        "trend_score": 94
       },
       {
         "keyword": "self improvement",
-        "trend_score": 91
+        "trend_score": 85
       },
       {
         "keyword": "AI tools",
-        "trend_score": 90
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 89
+        "trend_score": 84
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 81
+        "trend_score": 78
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 76
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 80
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 79
-      },
-      {
-        "keyword": "AI for business",
         "trend_score": 75
       },
       {
+        "keyword": "AI for business",
+        "trend_score": 68
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 67
+      },
+      {
         "keyword": "automation tools",
-        "trend_score": 71
+        "trend_score": 63
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-10-31T03:31:42.508Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Backdoor in Claude Code for VS Code extension on the Cursor Marketplace\" — 806 pts\n• [HackerNews] \"Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man\" — 243 pts\n• [HackerNews] \"Cisco gives engineer unlimited AI tokens to rewrite legacy code\" — 125 pts\n• [HackerNews] \"Building an AI-native engineering org\" — 118 pts\n• [HackerNews] \"Sleep framework: A new way for LLMs to retain knowledge in continual learning\" — 182 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"I tried Apple’s new touchscreen MacBook Pro..\" by CarterPCs — 8461k views\n• [YouTube Global] \"iPhone Duo Is Flopping\" by Austin Sweatt — 8271k views\n• [YouTube Global] \"Drone Uses A Moth Antenna To Track Scents 😮\" by Zack D. Films — 6625k views\n• [YouTube Global] \"Unboxing NEW AGIBOT A3! 📦✨ Meet the next generation of human #technology  #humanoidrobot\" by Oba News — 4644k views\n• [YouTube Global] \"how many folds does the iPhone Duo last?\" by John Casterline — 3398k views\n• [YouTube Global] \"iPhone Duo vs. Xiaomi Fold 💀 ft. @H1T1\" by OkCron — 3360k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 99), self improvement (score: 91), AI tools (score: 90), entrepreneur (score: 89), productivity tools (score: 81), solopreneur (score: 80), ChatGPT (score: 79), AI for business (score: 75), automation tools (score: 71)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-01T03:31:53.708Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Do the math: How we took over ChatGPT accounts\" — 308 pts\n• [HackerNews] \"AI text watermarking and quality loss\" — 27 pts\n• [HackerNews] \"Anthropic blocks users for anything touching training larger models\" — 233 pts\n• [HackerNews] \"Serbia just elected the world's brainiest parliament\" — 828 pts\n• [HackerNews] \"AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura\" — 193 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 2264k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 1933k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 1178k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 94), self improvement (score: 85), AI tools (score: 84), productivity tools (score: 78), entrepreneur (score: 76), solopreneur (score: 75), AI for business (score: 68), ChatGPT (score: 67), automation tools (score: 63)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

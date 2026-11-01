@@ -1,206 +1,6 @@
 {
   "generated_topics": [
     {
-      "date": "2026-10-21",
-      "title": "Why Indian CAPTCHAs are Dead in 2026"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The ASD-STE100 Aerospace Prompt Formula"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Build a Local Web Scraper with REA Without Source Code"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Running 7B Parameter Models on a 4GB RAM Indian Laptop"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Death of Generic AI Wrappers in 2026"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "How to Run Claude Code with 9 Billion Free Tokens"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 3-Second Open Source Voice Cloner: VoiceStudio"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 'Sahil Lavingia 10-Skill Pack' for Chatbots"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Bengaluru AI Traffic Fine Reality Check"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "OpenAI 'Dots' vs Meta 'Muse': Indian Agency Setup"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Context7 Plugin: Claude's Secret Weapon for Senior Devs"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Real Estate Voice Bot Trap in India"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Gemini 4 Argon's 1 Million Token Output Explained"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Hairline Prompt for React UI Animations"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Why NotebookLM YouTube Channels Are Getting Demonetized"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 24-Skill Pack by Ex-Google Director for AI Coding"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Virtual Studio Lighting on Replit Before Buying Gear"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The ₹15,000 Local Doctor Website Myth"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "5 Markdown Files Every Indian Founder Needs in Claude"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Browser-Based WASM: How Full Games Run in Chrome"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 100-Hour Rule vs The 10,000-Hour Rule in AI Era"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "World Monitor: The Free Spy Dashboard Anyone Can Use"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 'Living with Parents' Growth Paradox for Indian Founders"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Why You Must Split Claude into 3 Roles: Haiku, Sonnet, Opus"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Reverse-Engineering Local D2C Competitors Using AI"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Digital Nomad Tax Trap for Indian Freelancers"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "NPU vs GPU: Should You Buy an 'AI PC' in India?"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 'Second Brain' Mistake That Ruined My Productivity"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Connecting Higgsfield + Claude Opus for Cinematic Edits"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 5-Figure Cold Email Audit for Indian Agencies"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Smart Glasses Without Cameras: Why Meta Stripped Hardware"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Why Indian Mid-Sized IT Companies Fear Claude Code"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Solo Founder 'Kill-Switch' Protocol"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "How to Build a Custom GPT That Knows Indian Labor Laws"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Toxic 'Hustle Porn' Epidemic in Indian Tech Hubs"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "500+ Motion Design Prompts Inside Claude"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Secret USB Hardware Attack at OpenAI's Headquarters"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Asynchronous Founder: How to Manage Teams Without Slack"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Turning Free Google Maps Data into Local B2B Leads"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 'Vibe Coder' vs 10-Year Senior Dev Challenge"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The One Prompt That Audits Your Personal Burn Rate"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Starlink vs Reliance Jio: The High-Speed Satellite War"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "How to Automate Multi-Slide Instagram Carousels in Canva"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Psychological Question That Breaks ChatGPT"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Why Buying a MacBook is Actually an Investment, Not an Expense"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The AI Video Upscaler You Can Run Directly in Terminal"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The Truth Behind Tesla's Flying Roadster Stunt"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Why Ben Affleck Writes Python and Neural Networks"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Why Reading 50 Business Books a Year is Counterproductive"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The 15-Minute Weekly Clean Slate Routine"
-    },
-    {
       "date": "2026-10-22",
       "title": "Turn Any Website into a Free API with Claude Code"
     },
@@ -1999,6 +1799,206 @@
     {
       "date": "2026-10-30",
       "title": "From Tier-3 College to Remote US AI Automation Contractor"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Replacing Agency Staff with Open-Source AI Specialists"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Hacking Browser Games vs Cloud Streaming Realities"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Real Cost of Living with Parents in Your Twenties"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Turning UI References into JSON Code Instantly"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Claude Motion for Zero-Video Model Animations"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The $0 Microsoft 365 Open Source Alternative"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "AI Model Hierarchy for Writing, Coding, and Research"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Building Custom AI Agents for Indian D2C Brands"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Gemini 4 Carbon and Long Horizon Autonomous Tasks"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Building Local Business Websites Using Google Maps Data"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Why Ben Affleck Writes Python and Understands CNNs"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Danger of AI Training Restrictions on Anthropic Users"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Automating YouTube Cash Cow Channels with n8n"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Brain-Rot Phone Trend and Digital Minimalism"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Reverse Engineering Mobile Apps Without Source Code"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Indian Certificate Authority Security Flaw"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "SpaceX Share Distribution Math for American Kids"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Cleaning Android TVs of Ads and Bloatware via Claude Code"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Apple's Touchscreen MacBook Pro Reality Check"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Building Automated Sales Rep Agents inside Claude Code"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Testing Raj Shamani's Business Idea for Local Lead Gen"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Folding iPhone and Apple's Device Consolidation"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Higgsfield API for Unified AI Video Generation"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Psychology of Wealth Generation in Your Early Twenties"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Unlocking Developer Mode on Android TVs for Speed"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "AI Text Watermarking and Quality Loss in LLMs"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Serbia's Brainiest Parliament and the Future of Tech Governance"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "AI Lean Creator Leo de Moura on Formal Verification"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Light-Gun Aiming Nostalgia Rebuilt for Modern PCs"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The McAfee Business Origin Story in 60 Seconds"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "ChatGPT Account Takeovers and Two-Factor Flaws"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "X Platform as the Ultimate AI Skill Engineering School"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Evaluating AI Agent Workflows for Daily Productivity"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Solopreneur Playbook: From Zero to First Client"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Comparing OpenAI Dots and Meta Muse for Task Automation"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Writing Custom Markdown Skills for Claude Agents"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Open Source Voice Cloning Alternatives to ElevenLabs"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Virtual Studio Lighting and Camera Setup for Creators"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Why Windows Laptops Might Be Limiting Your Side Hustles"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Economics of Selling Viral Physical Products Online"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Mass Audio Transcription and HTML Cheat Sheet Generation"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Scaling Solopreneur Operations with Custom Connectors"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Reality of Billionaire Row Apartments in New York"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Navigating Creator Burnout in the Age of Daily AI Launches"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Building Your First AI Prompt Portfolio for Zero Rupee Cost"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Why Senior Indian Developers Are Adopting AI Assistants"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The $10 Micro-Tool Arbitrage Model for Solopreneurs"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Turning Pinterest Moodboards into Functional Web Apps"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Using Perplexity to Audit Real Estate and Startup Wealth"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "The Sunday System: Planning Your Entire Week with AI"
     }
   ],
   "posted_topics": []
