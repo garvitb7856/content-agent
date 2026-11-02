@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T03:35:41.529Z",
+  "updated_at": "2026-11-02T03:34:00.525Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -72,7 +72,7 @@
   ],
   "your_top_captions": [
     {
-      "likes": 2307,
+      "likes": 2309,
       "caption": "Comment anything to get this !",
       "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
@@ -171,5 +171,113 @@
       "transcriptFull": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-to-end marketing. So let me show you how you can create AI employees for your business or a client completely free. So go to Claude and then click on customize. Navigate to Skills section and create a skill with Claude. Create a skill of a senior creative director for video ads. And then next employee. Create a skill for an expert Seedance 2.0 prompt engineer who will take directions from a creative director skill and provide JSON prompt for Seedance 2.0. So basically Claude will take 5 to 10 minutes and create a detailed set of instructions for each employee and will provide you with the skill.md file which you can add by clicking here. Now to run both employees to work as a team, you have to upload your product image and then prompt. Use a creative director skill to create a cinematic ad for this product and use this link to gather information and pass requirements to Seedance 2.0 prompt engineer. Now these two employees will figure out themselves that whose task is to perform what. The creative director is performing its job to produce end-to-end ad direction, and then he gave it to Seedance 2.0 prompt engineer to create a prompt. Now it is generating a detailed prompt that you can copy and paste it into Seedance 2.0. And here's the final ad."
     }
   ],
-  "gemini_analysis": {}
+  "gemini_analysis": {
+    "garvit_speaking_style": {
+      "summary": "Garvit speaks with high urgency and an unfiltered, peer-to-peer conversational rhythm, alternating between an insider tech-hacker revealing money-saving shortcuts and an ambitious builder documenting his hustle. He addresses the viewer directly with relatable familiarity, leaning into pattern interrupts that immediately cut through feed noise.",
+      "sentence_structure": "short/punchy",
+      "language_mix": "Hinglish blend (approx. 60% English / 40% colloquial Hindi) for hacks and creator updates; switches to crisp, fast English for mindset and global software walkthroughs.",
+      "tone": "casual/conversational",
+      "pacing": "fast, dense info",
+      "signature_phrases": [
+        "stop taking AI subscriptions right now",
+        "completely free",
+        "you know what I don't care",
+        "need money to make money"
+      ],
+      "what_makes_it_work": "Immediate pocketbook relief framing—promising to save 5,000–6,000 rupees monthly on expensive software—delivered like an insider tip from a tech-savvy friend."
+    },
+    "garvit_writing_style": {
+      "summary": "Garvit utilizes an automated DM-first distribution funnel, keeping written captions completely clean or omitted so the viewer's entire attention stays locked on the spoken and on-screen CTA. The reel itself carries 100% of the narrative, using the caption solely as a landing zone for comment triggers.",
+      "caption_structure": "Minimalist or left empty; spoken reel instructs viewer to trigger automation, keeping engagement hyper-focused on the comment box.",
+      "cta_patterns": [
+        "comment below [KEYWORD] to get the link",
+        "just follow me and comment [KEYWORD]"
+      ],
+      "tone_vs_speaking": "Utilitarian and invisible compared to his energetic, expressive, and slightly defiant spoken voice."
+    },
+    "competitor_speaking_patterns": {
+      "summary": "Top viral competitors anchor their scripts around applied execution, multi-agent frameworks, and real enterprise or D2C brand case studies (e.g., Comet, Snitch) rather than consumer tool piracy or basic freemium workarounds.",
+      "viral_hook_patterns": [
+        "We built this [AI Agent/Tool] for [High-Profile Brand], and it's going to set a new benchmark...",
+        "Stop pretending you know how to use [Tool] — give me 60 seconds...",
+        "I made an AI [Agent/Workflow] in just [X] minutes and the first result blew my mind."
+      ],
+      "viral_body_structure": "Step-by-step modular breakdown (e.g., Layer 1 to 5 progression, multi-agent persona division like Gatekeeper/Judge/Closer, or concrete screen-recorded workflow demonstrations).",
+      "viral_cta_patterns": [
+        "comment the word [KEYWORD] below and I'll send you a proper instructions doc right away",
+        "Just comment [KEYWORD] and I'll send this entire workflow and its guide straight to your DMs"
+      ],
+      "key_difference_from_garvit": "Competitors position themselves as system architects solving high-ticket business problems, whereas Garvit primarily positions himself as a clever consumer bypassing subscription paywalls."
+    },
+    "viral_own_script_analysis": [
+      {
+        "rank": 1,
+        "likes": 167,
+        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch se chhah hazar rupee monthly pay kiya karte the",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 28,
+        "body_structure": "reveal",
+        "cta": "comment below free to get the link",
+        "script_type": "C",
+        "what_made_it_viral": "Urgent negative command hook combined with massive local monetary relief (saving ₹5k-₹6k/mo) and patriotic social proof ('Indian developer')."
+      },
+      {
+        "rank": 2,
+        "likes": 167,
+        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top models",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 23,
+        "body_structure": "demo",
+        "cta": "Just comment \"Claude\" and I'll send you the complete guide to do",
+        "script_type": "C",
+        "what_made_it_viral": "High pain-point target (Claude subscription costs) matched with instant visual proof of 250,000 tokens for free."
+      },
+      {
+        "rank": 3,
+        "likes": 167,
+        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free. Look here, you can get",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 20,
+        "body_structure": "list",
+        "cta": "just follow me and comment",
+        "script_type": "C",
+        "what_made_it_viral": "FOMO-inducing opening line coupled with an irresistible stack of high-value tools (Gemini Pro, Veo 3.1, 5TB Cloud storage)."
+      },
+      {
+        "rank": 4,
+        "likes": 167,
+        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan. I am the best.",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 27,
+        "body_structure": "story",
+        "cta": "Implied retention/mindset hook with no friction CTA",
+        "script_type": "C",
+        "what_made_it_viral": "Authority stacking using India's biggest icons (Kohli, SRK, Ronaldo) in the first 3 seconds to reframe self-belief."
+      },
+      {
+        "rank": 5,
+        "likes": 167,
+        "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10. Khair us waqt to ho nahi paya but I'm starting it out now.",
+        "hook_type": "story",
+        "hook_length_words": 27,
+        "body_structure": "story",
+        "cta": "Cheers. This is Garvit, and you'll be seeing me again.",
+        "script_type": "C",
+        "what_made_it_viral": "Raw, unfiltered vulnerability and anti-hater defiance that establishes strong personal brand equity."
+      }
+    ],
+    "verdict": {
+      "whose_style_goes_viral": "Hybrid",
+      "reasoning": "Garvit's aggressive, wallet-saving Hinglish hooks generate immediate stop-scroll and comments among young Indian creators/developers, but to build sustained authority and scale reach, he must adopt competitor structural depth (showing multi-agent workflows, named client use cases, and modular layer breakdowns) rather than purely relying on subscription bypasses.",
+      "recommended_hook_structure": "[Negative Command / Urgent Warning] + [High-Cost Paid Tool / Bottleneck] + [Immediate Free/Faster Replacement]: 'Stop paying for [Tool] — ek simple setup se you can run this entire workflow for 0 rupees.'",
+      "recommended_body_structure": "[Instant Proof on Screen (0-3s)] -> [Problem/Expense Breakdown (3-10s)] -> [3-Step Modular Solution or Architecture (10-35s)] -> [High-Value Outcome Achieved (35-45s)]",
+      "recommended_cta_structure": "Single-word keyword automation CTA targeting a concrete asset: 'Comment [KEYWORD] and I'll send you the exact prompt workflow and setup guide directly in your DMs.'",
+      "avoid_these": [
+        "Vague, diary-style rambling without an immediate hook or visual payoff within the first 2 seconds.",
+        "Promoting fragile or dubious workarounds that break quickly, damaging technical credibility.",
+        "Multi-action call-to-actions (e.g., asking to like, follow, share, and comment in the same video).",
+        "Leaving out visual UI proof or screen recordings when claiming high token limits or model access."
+      ]
+    }
+  }
 }

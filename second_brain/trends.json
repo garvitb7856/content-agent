@@ -1,41 +1,34 @@
 {
-  "fetched_at": "2026-11-01T03:31:53.708Z",
+  "fetched_at": "2026-11-02T03:31:33.384Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Do the math: How we took over ChatGPT accounts",
-      "score": 308,
-      "comments": 152,
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+      "title": "OccupySaaS",
+      "score": 99,
+      "comments": 64,
+      "url": "https://occupysaas.com/"
     },
     {
       "source": "hackernews",
-      "title": "AI text watermarking and quality loss",
-      "score": 27,
-      "comments": 5,
-      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality"
+      "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+      "score": 23,
+      "comments": 9,
+      "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture"
     },
     {
       "source": "hackernews",
-      "title": "Anthropic blocks users for anything touching training larger models",
-      "score": 233,
-      "comments": 127,
-      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088"
+      "title": "The AI cost of JavaScript frameworks",
+      "score": 316,
+      "comments": 233,
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
     },
     {
       "source": "hackernews",
-      "title": "Serbia just elected the world's brainiest parliament",
-      "score": 828,
-      "comments": 471,
-      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament"
-    },
-    {
-      "source": "hackernews",
-      "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
-      "score": 193,
-      "comments": 45,
-      "url": "https://thedataexchange.media/leo-de-moura-lean-aws/"
+      "title": "Domain hacks with unusual Unicode characters (2018)",
+      "score": 61,
+      "comments": 48,
+      "url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/"
     }
   ],
   "youtube": [
@@ -44,8 +37,8 @@
       "category": "Science & Tech",
       "title": "A phone that fixes brainrot?",
       "channel": "ForgeCore",
-      "views": 2264410,
-      "likes": 21416,
+      "views": 3530140,
+      "likes": 32209,
       "publishedAt": "2026-10-30T18:44:51Z",
       "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
       "tags": [],
@@ -56,8 +49,8 @@
       "category": "Science & Tech",
       "title": "How McAfee Was Founded 🛡️ #shorts #business",
       "channel": "PureBusiness",
-      "views": 1933359,
-      "likes": 69196,
+      "views": 2391931,
+      "likes": 90145,
       "publishedAt": "2026-10-30T00:56:31Z",
       "url": "https://www.youtube.com/watch?v=d8VBr1QgJ-E",
       "tags": [
@@ -73,8 +66,8 @@
       "category": "Science & Tech",
       "title": "Light-Gun Aiming for Modern PC Games",
       "channel": "Wonderism HQ",
-      "views": 1177674,
-      "likes": 18669,
+      "views": 2366436,
+      "likes": 35238,
       "publishedAt": "2026-10-30T19:00:06Z",
       "url": "https://www.youtube.com/watch?v=m2qAjFyN1VM",
       "tags": [
@@ -91,42 +84,42 @@
     "keyword_trends": [
       {
         "keyword": "AI workflow",
-        "trend_score": 94
+        "trend_score": 90
       },
       {
         "keyword": "self improvement",
-        "trend_score": 85
+        "trend_score": 89
       },
       {
         "keyword": "AI tools",
-        "trend_score": 84
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 78
+        "trend_score": 88
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 76
+        "trend_score": 82
       },
       {
         "keyword": "solopreneur",
-        "trend_score": 75
+        "trend_score": 79
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 78
       },
       {
         "keyword": "AI for business",
-        "trend_score": 68
+        "trend_score": 76
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 74
       },
       {
         "keyword": "ChatGPT",
         "trend_score": 67
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 63
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-01T03:31:53.708Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Do the math: How we took over ChatGPT accounts\" — 308 pts\n• [HackerNews] \"AI text watermarking and quality loss\" — 27 pts\n• [HackerNews] \"Anthropic blocks users for anything touching training larger models\" — 233 pts\n• [HackerNews] \"Serbia just elected the world's brainiest parliament\" — 828 pts\n• [HackerNews] \"AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura\" — 193 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 2264k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 1933k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 1178k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 94), self improvement (score: 85), AI tools (score: 84), productivity tools (score: 78), entrepreneur (score: 76), solopreneur (score: 75), AI for business (score: 68), ChatGPT (score: 67), automation tools (score: 63)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-02T03:31:33.384Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"OccupySaaS\" — 99 pts\n• [HackerNews] \"AI fan wikis riddled with errors are muddying the waters of games culture\" — 23 pts\n• [HackerNews] \"The AI cost of JavaScript frameworks\" — 316 pts\n• [HackerNews] \"Domain hacks with unusual Unicode characters (2018)\" — 61 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 3530k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 2392k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 2366k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 90), self improvement (score: 89), AI tools (score: 88), entrepreneur (score: 82), solopreneur (score: 79), automation tools (score: 78), AI for business (score: 76), productivity tools (score: 74), ChatGPT (score: 67)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

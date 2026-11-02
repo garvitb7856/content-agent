@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-11-01",
-  "end_date": "2026-11-08",
+  "generated_on": "2026-11-02",
+  "end_date": "2026-11-09",
   "days": [
     {
       "day": 1,
-      "date": "2026-11-01",
-      "topic": "Running a zero-dollar automated agency using open-source AI specialists in Claude Code",
+      "date": "2026-11-02",
+      "topic": "How to speed up cheap Android TV & remove bloatware using Claude Code",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "You can now run a whole agency inside your laptop for $0.",
+      "post_time": "6:45 PM IST",
+      "hook": "Turn your laggy 15k Android TV into Apple TV.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-11-02",
-      "topic": "Step-by-step framework to turn your best ChatGPT prompts into reusable Claude skills",
+      "date": "2026-11-03",
+      "topic": "Reverse-engineer any competitor app using REA and Claude",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Stop writing the same prompts. Turn them into permanent skills.",
+      "post_time": "7:15 PM IST",
+      "hook": "Reverse-engineer any app in 5 minutes without source code.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-11-03",
-      "topic": "Transforming a cheap budget Android TV into a high-end smart display using Claude Code USB debugging",
+      "date": "2026-11-04",
+      "topic": "The eMudhra security fail: How Indian websites were exposed",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "My 15,000 rupee TV now runs like a 1 lakh TV.",
+      "post_time": "8:00 PM IST",
+      "hook": "India’s biggest security platform used four as their password.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-04",
-      "topic": "The 5 hidden lifestyle and mindset habits costing young Indian entrepreneurs their first crore",
+      "date": "2026-11-05",
+      "topic": "Generate motion graphics animations using Claude Motion code",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "Why living with your parents might be secretly destroying your startup dreams.",
+      "post_time": "6:30 PM IST",
+      "hook": "Create pro motion graphics with Claude without After Effects.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-05",
-      "topic": "Setting up an autonomous sales rep agent inside Claude Code to find high-ticket clients for free",
+      "date": "2026-11-06",
+      "topic": "Test your startup idea on thousands of fake AI customers with MiroFish",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "This free AI tool turns Claude Code into an aggressive sales rep.",
+      "post_time": "7:45 PM IST",
+      "hook": "Test your startup on 1,000 AI buyers before launching.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-06",
-      "topic": "Comprehensive cheat sheet comparing the best AI models for coding, writing, research, and viral content creation",
+      "date": "2026-11-07",
+      "topic": "The Local Business Website Arbitrage: Make ₹50k/mo closing non-tech clinics",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "The ultimate cheat sheet to pick the exact right AI for every task.",
+      "post_time": "7:00 PM IST",
+      "hook": "Make 50,000 rupees building websites for local clinics.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-07",
-      "topic": "Getting a fully functional Microsoft 365 suite worth 7,000 rupees a year completely free via open-source developer tools",
+      "date": "2026-11-08",
+      "topic": "Build an automated faceless video channel using n8n in 30 minutes",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "You can get Microsoft 365 worth 7,000 rupees completely free.",
+      "post_time": "8:15 PM IST",
+      "hook": "Build a fully automated YouTube channel in thirty minutes.",
       "status": "pending"
     }
   ]
