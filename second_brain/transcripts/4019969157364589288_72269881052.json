@@ -1,0 +1,11 @@
+{
+  "postId": "4019969157364589288_72269881052",
+  "handle": "nick_saraev",
+  "postUrl": "https://www.instagram.com/p/DfJzKZgviLo/",
+  "transcript": "Google just open-sourced an AI model that can predict literally anything in the future. It's called TimesFM, and it's trained on over 100 billion data points from Google search trends to Wikipedia traffic and much more. Normally, predicting something like this meant training your own model for weeks and months on a specific feature. But TimesFM skips all of that. You just give it your data, and it'll forecast what's going to happen next with zero special training required, all based on patterns that it's learned from billions of real data points. Plus, it'll also give you a full range from best-case to worst-case scenario, so you know how confident you should be. And it takes into account external factors like holidays, weather, and prices at the same time. Now to use it, you can either install it yourself using a coding agent or access it right inside of Google Sheets and BigQuery. Want to try it for yourselves? Just comment \"Google\" down below, and I'll send you the link to",
+  "caption": "Comment \"GOOGLE\" to this Free AI model from Google that forecasts your data.\n\nGoogle just open sourced an AI model that can predict anything in the future.\n\nIt's called TimesFM, and it's trained on over 100 billion data points.\n\nThat includes Google search trends, Wikipedia traffic and much more.\n\nN",
+  "timestamp": "2026-10-31T09:09:18.000Z",
+  "transcribedAt": "2026-11-03T03:38:13.194Z",
+  "likes": 0,
+  "comments": 0
+}

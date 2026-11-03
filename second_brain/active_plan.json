@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-11-02",
-  "end_date": "2026-11-09",
+  "generated_on": "2026-11-03",
+  "end_date": "2026-11-10",
   "days": [
     {
       "day": 1,
-      "date": "2026-11-02",
-      "topic": "How to speed up cheap Android TV & remove bloatware using Claude Code",
+      "date": "2026-11-03",
+      "topic": "MiroFish — Simulating 1,000 fake AI customers to test startup ideas before launch",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "Turn your laggy 15k Android TV into Apple TV.",
+      "post_time": "7:15 PM IST",
+      "hook": "Test your startup on 1,000 fake AI customers today.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-11-03",
-      "topic": "Reverse-engineer any competitor app using REA and Claude",
+      "date": "2026-11-04",
+      "topic": "Step-by-step setup to strip bloatware and speed up laggy Android TVs / FireSticks",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Reverse-engineer any app in 5 minutes without source code.",
+      "post_time": "6:45 PM IST",
+      "hook": "Make your cheap Android TV run five times faster.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-11-04",
-      "topic": "The eMudhra security fail: How Indian websites were exposed",
+      "date": "2026-11-05",
+      "topic": "Using REA (open-source tool) to reverse-engineer software without source code",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "India’s biggest security platform used four as their password.",
+      "post_time": "7:30 PM IST",
+      "hook": "Reverse engineer any app without touching the source code.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-05",
-      "topic": "Generate motion graphics animations using Claude Motion code",
+      "date": "2026-11-06",
+      "topic": "Tier-list matrix of the best AI tools for coding, video, scraping, and research",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Create pro motion graphics with Claude without After Effects.",
+      "post_time": "7:00 PM IST",
+      "hook": "Stop using ChatGPT for everything. Use these tools instead.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-06",
-      "topic": "Test your startup idea on thousands of fake AI customers with MiroFish",
+      "date": "2026-11-07",
+      "topic": "Monetization playbook: Building and selling WhatsApp booking agents to local Indian clinics",
       "format": "Reel",
-      "post_time": "7:45 PM IST",
-      "hook": "Test your startup on 1,000 AI buyers before launching.",
+      "post_time": "6:30 PM IST",
+      "hook": "Can you make ₹30,000 selling AI agents locally?",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-07",
-      "topic": "The Local Business Website Arbitrage: Make ₹50k/mo closing non-tech clinics",
+      "date": "2026-11-08",
+      "topic": "Deep-dive into Google’s TimesFM model for predicting real-world business and search trends",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Make 50,000 rupees building websites for local clinics.",
+      "post_time": "8:00 PM IST",
+      "hook": "Google released an AI that can predict the future.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-08",
-      "topic": "Build an automated faceless video channel using n8n in 30 minutes",
+      "date": "2026-11-09",
+      "topic": "Generating fully editable code-based MP4 animations directly in Claude Motion",
       "format": "Reel",
-      "post_time": "8:15 PM IST",
-      "hook": "Build a fully automated YouTube channel in thirty minutes.",
+      "post_time": "7:15 PM IST",
+      "hook": "Animate professional MP4 videos using Claude, zero editing required.",
       "status": "pending"
     }
   ]

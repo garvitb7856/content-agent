@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T03:31:33.451Z",
+  "updated_at": "2026-11-03T03:31:41.066Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2553,8 +2553,26 @@
       "verdict": "high",
       "transcribed_at": "2026-10-28T03:59:08.635Z",
       "scraped_at": "2026-10-29T03:31:45.271Z"
+    },
+    {
+      "id": "4020654953046086736_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DfMPGCguhRQ/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Here's how you can make these viral animated explainer videos in under 10 minutes with Claude Code completely free.  First, install this skill, which teaches your Claude to animate in 66 different art styles, like whiteboard explainer, cartoon animations, watercolor, documentary, and much more.  Just pick a style you like, and describe your idea in plain English.",
+      "full_script": "Here's how you can make these viral animated explainer videos in under 10 minutes with Claude Code completely free. First, install this skill, which teaches your Claude to animate in 66 different art styles, like whiteboard explainer, cartoon animations, watercolor, documentary, and much more. Just pick a style you like, and describe your idea in plain English. It'll write the story, generate the voiceover and storyboards, add the music and sound effects, and finally render the whole thing frame-by-frame in code. Plus, you can also make a style that's all your own. By giving it a few reference images or videos you like and adding your own brand colors and logo, it can build a whole new style around that. So, if you want to try it for yourselves, just comment video down below, and I'll DM you the link directly.",
+      "full_caption": "Comment \"VIDEO\" to  Create Viral Animated Explainer videos with Claude Code.\n\nHere's how you can make viral animated explainer videos in under 10 minutes.\n\nYou do it with Claude Code, and it's completely free.\n\nFirst, you install this skill called Lemo Opuscar.\n\nIt teaches your Claude to animate in ",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3109,
+      "comments": 4785,
+      "engagement_rate": 1.08,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-02T03:38:44.244Z",
+      "scraped_at": "2026-11-03T03:31:41.051Z"
     }
   ],
-  "total": 153,
-  "transcript_based": 86
+  "total": 154,
+  "transcript_based": 87
 }
