@@ -1,41 +1,69 @@
 {
-  "fetched_at": "2026-11-03T03:31:41.000Z",
+  "fetched_at": "2026-11-04T03:32:02.590Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-      "score": 131,
-      "comments": 86,
-      "url": "https://momentic.ai/"
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "score": 648,
+      "comments": 272,
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/"
     },
     {
       "source": "hackernews",
-      "title": "Scaling Git at OpenAI",
-      "score": 56,
-      "comments": 13,
-      "url": "https://openai.com/index/scaling-git-at-openai/"
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "score": 402,
+      "comments": 174,
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
     },
     {
       "source": "hackernews",
-      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
-      "score": 123,
-      "comments": 39,
-      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you"
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "score": 260,
+      "comments": 46,
+      "url": "https://arxiv.org/abs/2605.29713"
     },
     {
       "source": "hackernews",
-      "title": "Egoless Mathematics in the AI Era",
-      "score": 126,
-      "comments": 86,
-      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "score": 1084,
+      "comments": 359,
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
     },
     {
       "source": "hackernews",
-      "title": "C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)",
+      "title": "We're training a Figma-fluent editing model",
+      "score": 83,
+      "comments": 40,
+      "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
       "score": 70,
-      "comments": 11,
-      "url": "https://retrogamecoders.com/c64-basic-dungeon-part11/"
+      "comments": 8,
+      "url": "https://github.com/finic-ai/kairos"
+    },
+    {
+      "source": "hackernews",
+      "title": "There is no posttraining data commons",
+      "score": 37,
+      "comments": 10,
+      "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/"
+    },
+    {
+      "source": "hackernews",
+      "title": "How I use AI (Oct 2026)",
+      "score": 101,
+      "comments": 89,
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+      "score": 5,
+      "comments": 1,
+      "url": "https://uncracked.city"
     }
   ],
   "youtube": [
@@ -44,8 +72,8 @@
       "category": "Science & Tech",
       "title": "A phone that fixes brainrot?",
       "channel": "ForgeCore",
-      "views": 4220408,
-      "likes": 38978,
+      "views": 4904514,
+      "likes": 44842,
       "publishedAt": "2026-10-30T18:44:51Z",
       "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
       "tags": [],
@@ -56,8 +84,8 @@
       "category": "Science & Tech",
       "title": "Light-Gun Aiming for Modern PC Games",
       "channel": "Wonderism HQ",
-      "views": 2997117,
-      "likes": 43563,
+      "views": 3211312,
+      "likes": 45516,
       "publishedAt": "2026-10-30T19:00:06Z",
       "url": "https://www.youtube.com/watch?v=m2qAjFyN1VM",
       "tags": [
@@ -74,8 +102,8 @@
       "category": "Science & Tech",
       "title": "How McAfee Was Founded 🛡️ #shorts #business",
       "channel": "PureBusiness",
-      "views": 2785335,
-      "likes": 108074,
+      "views": 2970876,
+      "likes": 116585,
       "publishedAt": "2026-10-30T00:56:31Z",
       "url": "https://www.youtube.com/watch?v=d8VBr1QgJ-E",
       "tags": [
@@ -90,43 +118,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "AI tools",
-        "trend_score": 85
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 85
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 82
-      },
-      {
         "keyword": "self improvement",
-        "trend_score": 82
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 81
+        "trend_score": 96
       },
       {
         "keyword": "ChatGPT",
-        "trend_score": 80
+        "trend_score": 93
       },
       {
-        "keyword": "automation tools",
-        "trend_score": 80
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 78
+        "keyword": "AI tools",
+        "trend_score": 91
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 77
+        "trend_score": 91
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 91
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 90
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 82
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 80
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 79
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-03T03:31:41.000Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app\" — 131 pts\n• [HackerNews] \"Scaling Git at OpenAI\" — 56 pts\n• [HackerNews] \"Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You\" — 123 pts\n• [HackerNews] \"Egoless Mathematics in the AI Era\" — 126 pts\n• [HackerNews] \"C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)\" — 70 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 4220k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 2997k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 2785k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI tools (score: 85), entrepreneur (score: 85), AI for business (score: 82), self improvement (score: 82), AI workflow (score: 81), ChatGPT (score: 80), automation tools (score: 80), solopreneur (score: 78), productivity tools (score: 77)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-04T03:32:02.590Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Jailbreaking my car's navigation system just so I can change the time\" — 648 pts\n• [HackerNews] \"Fujifilm to boost tape production 5x as AI fuels archiving demand\" — 402 pts\n• [HackerNews] \"The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer\" — 260 pts\n• [HackerNews] \"Postman silently auto-installs AI plugins and attempts to share all API data\" — 1084 pts\n• [HackerNews] \"We're training a Figma-fluent editing model\" — 83 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 4905k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3211k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 2971k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nself improvement (score: 96), ChatGPT (score: 93), AI tools (score: 91), productivity tools (score: 91), entrepreneur (score: 91), AI workflow (score: 90), automation tools (score: 82), solopreneur (score: 80), AI for business (score: 79)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

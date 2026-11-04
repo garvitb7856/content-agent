@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-11-03",
-  "end_date": "2026-11-10",
+  "generated_on": "2026-11-04",
+  "end_date": "2026-11-11",
   "days": [
     {
       "day": 1,
-      "date": "2026-11-03",
-      "topic": "MiroFish — Simulating 1,000 fake AI customers to test startup ideas before launch",
+      "date": "2026-11-04",
+      "topic": "Turn Android TV into a ₹1 Lakh Smart Display using Claude Code",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Test your startup on 1,000 fake AI customers today.",
+      "post_time": "6:30 PM IST",
+      "hook": "My ₹15,000 TV was filled with slow ads until I ran this 5-minute Claude Code terminal clean-up script.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-11-04",
-      "topic": "Step-by-step setup to strip bloatware and speed up laggy Android TVs / FireSticks",
+      "date": "2026-11-05",
+      "topic": "Build Animated Videos and UI Components with Claude Code without Video Models",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Make your cheap Android TV run five times faster.",
+      "post_time": "7:00 PM IST",
+      "hook": "Video editors hate this trick because you can build full animations using just Claude Code text prompts.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-11-05",
-      "topic": "Using REA (open-source tool) to reverse-engineer software without source code",
+      "date": "2026-11-06",
+      "topic": "MiroFish AI: Test Your Startup Idea on 1,000 Fake Customers Before Building",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Reverse engineer any app without touching the source code.",
+      "post_time": "6:45 PM IST",
+      "hook": "Do not launch your startup in India before testing it on 1,000 AI fake customers first.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-06",
-      "topic": "Tier-list matrix of the best AI tools for coding, video, scraping, and research",
+      "date": "2026-11-07",
+      "topic": "E-commerce Margin Breakdown: Selling Viral Home Gadgets for ₹1 Lakh Profit",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Stop using ChatGPT for everything. Use these tools instead.",
+      "post_time": "8:00 PM IST",
+      "hook": "Can you actually make ₹1 Lakh online by selling viral home gadgets? Let's break down the exact margins.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-07",
-      "topic": "Monetization playbook: Building and selling WhatsApp booking agents to local Indian clinics",
+      "date": "2026-11-08",
+      "topic": "The True Cost of Living with Parental Pressure vs. Solo Living for Young Indian Founders",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "Can you make ₹30,000 selling AI agents locally?",
+      "hook": "Saving ₹50,000 on rent by living at home might be costing you ₹10 Lakhs in lost mindset.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-08",
-      "topic": "Deep-dive into Google’s TimesFM model for predicting real-world business and search trends",
+      "date": "2026-11-09",
+      "topic": "How Google's TimesFM Predicts Future Trends Using 100 Billion Search and Traffic Data Points",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "Google released an AI that can predict the future.",
+      "post_time": "7:15 PM IST",
+      "hook": "Google just open-sourced an AI model that can literally predict future market trends.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-09",
-      "topic": "Generating fully editable code-based MP4 animations directly in Claude Motion",
+      "date": "2026-11-10",
+      "topic": "Reverse-Engineering Any Competitor App Without Source Code Using Free GitHub Repos",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "Animate professional MP4 videos using Claude, zero editing required.",
+      "post_time": "6:30 PM IST",
+      "hook": "This secret GitHub repo lets your AI agent reverse-engineer any app without the source code.",
       "status": "pending"
     }
   ]

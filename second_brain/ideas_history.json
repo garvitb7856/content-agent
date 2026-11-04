@@ -1,206 +1,6 @@
 {
   "generated_topics": [
     {
-      "date": "2026-10-24",
-      "title": "Google's New Data Grab: Is Your Gmail Fueling Ads?"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Air Purifiers as White Noise Machines: Tech Hack"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Alzheimer's and Deep Sleep Breakthrough"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Why Cats Rub Against Your Laptop: The Real Reason"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Mail-In Tech Repair Scams vs DIY Fixes"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "How NOT to Jailbreak Your PS5"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Corgi Terminal Multiplexer for Solo Devs"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Collagen-Eating Microbes and Fossil Gaps"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "AI Productivity Tools Stack for 2026"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "The Solopreneur Stack That Replaces a 5-Person Agency"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Turning Google Maps Data into Local Business Leads"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Higgsfield Katana Motion Graphics Plugin for Claude"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Claude Duet: The Proactive AI Agent"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Prompt Motion Library for Instant Video Prompts"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Reverse API Engineer for Gated Websites"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Hairline Cursor-Reactive Animations with Claude"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Evaluating AI Automation Tiers in India"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Why Working Hard Early in Your Career is Overrated"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "The Hidden Cost of Living with Parents vs Renting"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Building Custom AI Skills in Claude for Business"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Voice Cloning Alternatives to ElevenLabs for Free"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Dots vs Muse vs Grok Bot: Which AI Agent to Use"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "How to Cold DM Potential Clients Using AI Systems"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Claude Code for Free: Complete Setup Guide"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Python for Non-Tech Creators: Ben Affleck's Secret"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "NotebookLM Content Monetization Warning"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "AI PC Mainstream Adoption Stats for 2026"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Automating D2C Customer Complaint Replies with AI Agents"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Virtual Studio Setup Using Replit for Content Creators"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "The Physics and Reality Behind Elon's Tesla Roadster"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Running AAA Games in Web Browsers via WASM"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Arrest at OpenAI: The Inside Security Breach Story"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Figma's Annual Config Event Moves to India"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Whisper Flow Mass Transcription Cheat Sheet"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Writing vs Building vs Coding: AI Tool Tier List"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Unboxing Milestones: Why Working for Parents Matters"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Building a Career Ecosystem Like ServiceNow"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "iPhone Duo Cupertino Launch Leak Breakdown"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "JSON Prompt Engineering for Pinterest Aesthetics"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Viral Instagram Carousels Using ChatGPT Prompts"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "The 5 Things You Should Never Do If You Have Zero Savings"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Testing Raj Shamani's Business Idea in 24 Hours"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Selling Viral Wholesale Products Online for Profit"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "The Worst Security Bug in Internet History Explained"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "How to Build Automated Lead Scoring Pipelines"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "The 1% Rule of Personal Brand Leverage for Solopreneurs"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Why Pure Software Is Dying: The Rise of AI Hardware"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Extracting Structured JSON Data from Messy Invoices"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "The Silent Threat of Compromised Python Pip Packages"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Why Overworking Without Leverage is Pure Financial Illiteracy"
-    },
-    {
       "date": "2026-10-25",
       "title": "Google Artemis: AI That Controls Real Phones"
     },
@@ -1999,6 +1799,206 @@
     {
       "date": "2026-11-03",
       "title": "Higgsfield AI Video Swap Workflow"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "MiroFish AI: Test Your Startup on 1,000 Fake Customers"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Postman Data Leak: Is Your API Data Safe?"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Google TimesFM: Predict Business Trends for Free"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Build Animated Videos with Claude Code"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Avoid Indian Real Estate Scams with RERA Inspector"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Get ₹12,000 Worth of Premium AI Models Free"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Gemini 4 Carbon: Google's Autonomous Hacker"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Automate YouTube Shorts with n8n in 30 Mins"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Free Microsoft 365 Open-Source Alternative"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Reverse Engineer Any App with REA GitHub Repo"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Voice-Activated Live Expense Tracking via ChatGPT"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Build a Virtual Studio in Replit for Free"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "eMudhra Breach: India's Big Internet Security Flaw"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Sell Local Business Websites via Google Maps"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Selling E-commerce Gadgets: Profit Breakdown"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Turn Android TV into a ₹1 Lakh Smart Display"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Central Park vs South Mumbai Real Estate Math"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Elon Musk's SpaceX Stock Giveaway Breakdown"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Fix Brainrot Phone Mods: Hardware vs Apps"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Turn Prompts into Native Claude Skills"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Figma-to-Code Generative Model Breakdown"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Automated Competitor Ad Creative Scraper"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Automated WhatsApp Invoice Chaser for Freelancers"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "AI Presentation Generator via Marp + Claude Code"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Free Local Transcription Stack with Whisper C++"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Synthetic User Feedback for Indian D2C Brands"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "WhatsApp Lead Qualification Bot with n8n"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "DeepSeek V3 Code Refactoring Stack"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Micro-SaaS Opportunities in Tier-2 Indian SMBs"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "The Math Behind Selling ₹1L Digital Prompt Kits"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Automating Client Onboarding for 18-Year-Old Founders"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Pitching AI Automation to Traditional Manufacturers"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Why Tech Agencies Fail at Recurring Revenue"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "1-Person Software Business on GitHub Open Source"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "The 'No-Code MVP' Trap in Indian Hubs"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Pricing AI Projects Without Getting Lowballed"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Hidden Costs of Closed-Source AI APIs"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Convert Cold DMs to ₹50k Retainer Clients"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "The True Cost of Living with Parental Pressure"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Raising Your Bloodline vs Buying Luxury Assets"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Stop Taking Advice from 0-Revenue Creators"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "1-Hour Digital Isolation Routine for Solopreneurs"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Buying Your First Asset for Your Parents"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Why 99% of Indian Engineers Study Wrong Skills"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Lifestyle Upgrades vs Cash Flow Traps in Your 20s"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Build Focus Systems in Noisy Indian Households"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Tech Consumer to Asset Owner Transition at 23"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Stop Reading AI News: Build 1 Tool a Week"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "How to Network with High Net-Worth Founders on X"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Speed of Execution Beats Deep Mastery in 2026"
     }
   ],
   "posted_topics": []
