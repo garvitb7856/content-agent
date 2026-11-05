@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-11-04",
-  "end_date": "2026-11-11",
+  "generated_on": "2026-11-05",
+  "end_date": "2026-11-12",
   "days": [
     {
       "day": 1,
-      "date": "2026-11-04",
-      "topic": "Turn Android TV into a ₹1 Lakh Smart Display using Claude Code",
+      "date": "2026-11-05",
+      "topic": "Testing Raj Shamani's viral business idea by building websites for local doctors using AI",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "My ₹15,000 TV was filled with slow ads until I ran this 5-minute Claude Code terminal clean-up script.",
+      "post_time": "7:00 PM IST",
+      "hook": "Can I make 50,000 rupees selling AI websites to local doctors?",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-11-05",
-      "topic": "Build Animated Videos and UI Components with Claude Code without Video Models",
+      "date": "2026-11-06",
+      "topic": "Step-by-step framework to turn your best ChatGPT prompts into reusable agent skills",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Video editors hate this trick because you can build full animations using just Claude Code text prompts.",
+      "post_time": "6:30 PM IST",
+      "hook": "Stop rewriting the same ChatGPT prompts. Do this instead.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-11-06",
-      "topic": "MiroFish AI: Test Your Startup Idea on 1,000 Fake Customers Before Building",
+      "date": "2026-11-07",
+      "topic": "How 18-year-olds in Tier 2 cities build fully automated YouTube channels with n8n in 35 minutes",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "Do not launch your startup in India before testing it on 1,000 AI fake customers first.",
+      "post_time": "8:00 PM IST",
+      "hook": "This free n8n workflow builds a complete YouTube channel automatically.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-07",
-      "topic": "E-commerce Margin Breakdown: Selling Viral Home Gadgets for ₹1 Lakh Profit",
+      "date": "2026-11-08",
+      "topic": "5 high-income AI client acquisition systems that don't require cold emailing",
       "format": "Carousel",
-      "post_time": "8:00 PM IST",
-      "hook": "Can you actually make ₹1 Lakh online by selling viral home gadgets? Let's break down the exact margins.",
+      "post_time": "7:30 PM IST",
+      "hook": "How to get high-paying AI clients without sending a single cold DM.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-08",
-      "topic": "The True Cost of Living with Parental Pressure vs. Solo Living for Young Indian Founders",
+      "date": "2026-11-09",
+      "topic": "Hacking a budget Android TV using Claude Code to remove all sponsored bloatware and ads",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Saving ₹50,000 on rent by living at home might be costing you ₹10 Lakhs in lost mindset.",
+      "post_time": "6:45 PM IST",
+      "hook": "Turn your budget TV into a high-end display using Claude Code.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-09",
-      "topic": "How Google's TimesFM Predicts Future Trends Using 100 Billion Search and Traffic Data Points",
+      "date": "2026-11-10",
+      "topic": "The exact breakdown of open-source AI models you can run locally on your laptop for free",
       "format": "Carousel",
       "post_time": "7:15 PM IST",
-      "hook": "Google just open-sourced an AI model that can literally predict future market trends.",
+      "hook": "Stop paying for cloud AI when these open models run locally.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-10",
-      "topic": "Reverse-Engineering Any Competitor App Without Source Code Using Free GitHub Repos",
+      "date": "2026-11-11",
+      "topic": "How to use Google's TimesFM open-source model to predict future trends before your competitors",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "This secret GitHub repo lets your AI agent reverse-engineer any app without the source code.",
+      "hook": "Google just open-sourced an AI model that predicts the future.",
       "status": "pending"
     }
   ]

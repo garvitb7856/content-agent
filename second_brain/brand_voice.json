@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T03:37:56.902Z",
+  "updated_at": "2026-11-05T03:34:50.554Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -72,7 +72,7 @@
   ],
   "your_top_captions": [
     {
-      "likes": 2313,
+      "likes": 2314,
       "caption": "Comment anything to get this !",
       "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
@@ -171,110 +171,5 @@
       "transcriptFull": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-to-end marketing. So let me show you how you can create AI employees for your business or a client completely free. So go to Claude and then click on customize. Navigate to Skills section and create a skill with Claude. Create a skill of a senior creative director for video ads. And then next employee. Create a skill for an expert Seedance 2.0 prompt engineer who will take directions from a creative director skill and provide JSON prompt for Seedance 2.0. So basically Claude will take 5 to 10 minutes and create a detailed set of instructions for each employee and will provide you with the skill.md file which you can add by clicking here. Now to run both employees to work as a team, you have to upload your product image and then prompt. Use a creative director skill to create a cinematic ad for this product and use this link to gather information and pass requirements to Seedance 2.0 prompt engineer. Now these two employees will figure out themselves that whose task is to perform what. The creative director is performing its job to produce end-to-end ad direction, and then he gave it to Seedance 2.0 prompt engineer to create a prompt. Now it is generating a detailed prompt that you can copy and paste it into Seedance 2.0. And here's the final ad."
     }
   ],
-  "gemini_analysis": {
-    "garvit_speaking_style": {
-      "summary": "Garvit uses an urgent, direct-to-camera style that blends high-utility AI tool hacks with personal entrepreneurship reflections. He alternates between conversational Hinglish for tool breakdowns and punchy English for motivational topics.",
-      "sentence_structure": "short/punchy",
-      "language_mix": "Hinglish hybrid — English technical terms and punchlines mixed with conversational Hindi connectors ('Ek Indian developer ne', 'tumhe pata hai').",
-      "tone": "conversational",
-      "pacing": "fast, dense info",
-      "signature_phrases": [
-        "stop taking AI subscriptions right now",
-        "This is Garvit, and you'll be seeing me again",
-        "need money to make money"
-      ],
-      "what_makes_it_work": "He immediately tackles a financial pain point (saving subscription money) using urgent pattern-interrupt hooks targeted directly at young Indian developers and creators."
-    },
-    "garvit_writing_style": {
-      "summary": "Garvit keeps written captions extremely concise, using the caption primarily as a conversion bridge for automated DM comment triggers rather than long-form text.",
-      "caption_structure": "Direct call-to-action focused on word triggers matching the video's takeaway.",
-      "cta_patterns": [
-        "comment below 'free' to get the link",
-        "just comment 'Claude' and I'll send you the complete guide"
-      ],
-      "tone_vs_speaking": "Written tone is purely transactional and utility-focused compared to his more expressive and emotional spoken delivery."
-    },
-    "competitor_speaking_patterns": {
-      "summary": "Viral competitors focus on specific real-world proof (building AI agents for famous D2C brands like Comet/Snitch) or deeply structured multi-layer breakdowns rather than generic tool lists.",
-      "viral_hook_patterns": [
-        "We built this AI agent for [Brand Name], the hottest [niche] brand in India...",
-        "Stop pretending you know how to use [Tool]...",
-        "I made an [AI Tool] in just [Time] and the first call it made..."
-      ],
-      "viral_body_structure": "Scenario-driven storytelling (Picture this -> what happened -> step-by-step stack breakdown -> ROI/metrics achieved).",
-      "viral_cta_patterns": [
-        "comment the word AI below and I'll send you a proper instructions doc right away",
-        "comment AI and I'll send this entire workflow and its guide"
-      ],
-      "key_difference_from_garvit": "Competitors frame AI as enterprise/workflow builders using real business metrics, whereas Garvit focuses more on free personal hacks and subscription savings."
-    },
-    "viral_own_script_analysis": [
-      {
-        "rank": 1,
-        "likes": 0,
-        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 18,
-        "body_structure": "Immediate pain point reveal -> software replacement callout -> proof of GitHub traction -> DM automation CTA.",
-        "cta": "comment below free to get the link",
-        "script_type": "C",
-        "what_made_it_viral": "Direct financial saving incentive combined with local Indian developer pride appeal."
-      },
-      {
-        "rank": 2,
-        "likes": 0,
-        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free.",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 14,
-        "body_structure": "Contrarian hook -> showcase of features (250k tokens, models) -> method reveal (Google antigravity) -> comment trigger CTA.",
-        "cta": "Just comment 'Claude' and I'll send you the complete guide to do",
-        "script_type": "C",
-        "what_made_it_viral": "Contrarian warning against spending money coupled with high-token usage proof."
-      },
-      {
-        "rank": 3,
-        "likes": 0,
-        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free.",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 15,
-        "body_structure": "Regret hook -> speed-run listing of premium tools (Veo 3.1, Gemini Pro, 5TB cloud) -> follow + comment CTA.",
-        "cta": "just follow me and comment",
-        "script_type": "C",
-        "what_made_it_viral": "FOMO framing ('I wish I knew this earlier') combined with a stack of high-value tools."
-      },
-      {
-        "rank": 4,
-        "likes": 0,
-        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan.",
-        "hook_type": "pattern_interrupt",
-        "hook_length_words": 23,
-        "body_structure": "Celebrity quote compilation -> mindset connection -> subconscious mind science -> 5 Bruce Lee affirmations.",
-        "cta": "Implicit self-talk shift",
-        "script_type": "C",
-        "what_made_it_viral": "High cultural leverage by referencing Ronaldo, Kohli, and SRK back-to-back."
-      },
-      {
-        "rank": 5,
-        "likes": 0,
-        "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10.",
-        "hook_type": "story",
-        "hook_length_words": 16,
-        "body_structure": "Personal dream story -> addressing hater doubts -> posting consistency gap -> Jack of all trades philosophy -> signature sign-off.",
-        "cta": "Implicit creator journey follow",
-        "script_type": "C",
-        "what_made_it_viral": "Raw vulnerability, authenticity, and strong personal branding sign-off."
-      }
-    ],
-    "verdict": {
-      "whose_style_goes_viral": "Hybrid",
-      "reasoning": "Garvit's original Type C scripts excel in high energy, urgency, and Hinglish utility. However, adopting competitors' practical case-study structures (e.g., building specific systems for recognizable brands or step-by-step layer breakdowns) will significantly boost authority and retention.",
-      "recommended_hook_structure": "[Stop doing X / Don't pay for Y] + [Indian/Free context] + [Extreme claim or tool reveal]",
-      "recommended_body_structure": "1. Reveal the pain point/free alternative -> 2. Walk through 3 concrete features or steps visually ('Layer 1 to Layer 3' or 'Picture this...') -> 3. Show the actual result/output.",
-      "recommended_cta_structure": "Comment '[TRIGGER_WORD]' below and I'll send the full workflow/guide straight to your DMs.",
-      "avoid_these": [
-        "Vague motivation videos without actionable tech takeaways",
-        "Listing tool names without showing real-world implementation case studies"
-      ]
-    }
-  }
+  "gemini_analysis": {}
 }

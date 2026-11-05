@@ -1,0 +1,11 @@
+{
+  "postId": "4020591673824850643_24040950",
+  "handle": "arshman",
+  "postUrl": "https://www.instagram.com/p/DfMAtNJOTLT/",
+  "transcript": "If you delete a photo from your iPhone and even delete it from Recently Deleted, then how forensic agencies are able to recover them? So for this experiment, I'm using iPhone 13 Pro. Now connect it to your laptop and tap Trust This Device. Now open Claude Desktop and select Claude Code from here and then paste this prompt. Now Claude will check the entire phone for suspicious folders and it found two in my phone: Photos.sqlite and a folder called PhotoData/Thumbnails. It compares these photos with the photos still in your camera roll. Then it checks the deletion history. Now this is the most important part. It checks whether this photo has the same ID as a deleted photo. And Claude found exactly 100 images with their deletion dates, including my passport, passwords, and screenshots of banking apps. So follow for more experiments with AI.",
+  "caption": "Recover your deleted photos with this Claude setup! Takes about 15 mins in total, thank me later! :)  Comment “iPhone” for the prompt I used.",
+  "timestamp": "2026-11-01T05:46:39.000Z",
+  "transcribedAt": "2026-11-05T03:50:28.391Z",
+  "likes": 0,
+  "comments": 0
+}

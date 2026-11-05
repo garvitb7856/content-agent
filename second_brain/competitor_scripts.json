@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T03:32:02.654Z",
+  "updated_at": "2026-11-05T03:31:48.178Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2571,8 +2571,44 @@
       "verdict": "medium",
       "transcribed_at": "2026-11-02T03:38:44.244Z",
       "scraped_at": "2026-11-03T03:31:41.051Z"
+    },
+    {
+      "id": "4015730978149370044_26526554234",
+      "account": "@ishansharma7390",
+      "url": "https://www.instagram.com/p/De6vgxiIAi8/",
+      "topic": "Monetization",
+      "format": "Video",
+      "spoken_hook": "Yeh hai America ki sabse mehengi building.  Main hoon New York mein and this right here is Central Park Tower.  Yeh 131st floor tak jaati hai and this is honestly insane.",
+      "full_script": "Yeh hai America ki sabse mehengi building. Main hoon New York mein and this right here is Central Park Tower. Yeh 131st floor tak jaati hai and this is honestly insane. Iske top ke jo teen floor hain na, woh apartment is on sale for 2500 crore rupaye and no one has bought it. But who has bought the most expensive apartment? Right here jo dusri building hai, Central Park South, iske top ke char floor wala apartment is bought for 2300 crore rupees. But yeh khareeda kisne? Ken Griffin. Kya karte hain Ken Griffin? He runs a hedge fund called Citadel. Logon ke paise manage karte hain. Sabse bada insight jo maine liya hai bhai ki aap apni job mein har mahine salary kamate reh jaaoge, but the real people who are unlocking true wealth are either starting their own business, raising money for it, or they're managing other people's wealth. And that is why they're able to afford such buildings.",
+      "full_caption": "New York always makes me feel poor!\n\nThe last morning i had in new york, i took a walk in central park to see the tallest skyscrapers of the city in the billionaire’s row. These buildings have 3-4 floor duplexes worth 2300-2500 Crore Rupees!\n\nI immediately asked perplexity who owns these apartments ",
+      "script_source": "transcript",
+      "script_pattern": "unknown",
+      "likes": 12702,
+      "comments": 42,
+      "engagement_rate": 1.01,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-01T03:52:08.267Z",
+      "scraped_at": "2026-11-05T03:31:48.173Z"
+    },
+    {
+      "id": "4018626686808866030_59161778770",
+      "account": "@nivedan.ai",
+      "url": "https://www.instagram.com/p/DfFB64YJbzu/",
+      "topic": "Monetization",
+      "format": "Video",
+      "spoken_hook": "India's largest finance creator just exposed over 32,000 builders in India and it can save your family from being scammed by them.  I just found a crazy AI website for India's real estate.  Let me show you.",
+      "full_script": "India's largest finance creator just exposed over 32,000 builders in India and it can save your family from being scammed by them. I just found a crazy AI website for India's real estate. Let me show you. It's called RERA Inspector. You just pick your state, type in any project name and right at the top it shows you the project status and its health score. So I checked Jewel of India in Jaipur, which is a 530 crore project, and it has a health score of 80 out of 100 and rated it strong. Its RERA deadline was March 2027, but the status already says delivered, which means they finished it ahead of time. It also shows that 23% of the project is still unsold, meaning 62 flats are still waiting for buyers. Now you might be thinking, why should I care about unsold flats? Well, because every broker will tell you only two left, book today, and this tool shows you the real number. And it even goes flat by flat, so the 3BHK is almost sold out, but the 4BHK still has 31 flats left out of 164. Then if you tap promoter names, you can see every project this builder has on RERA and whether each one was delivered on time or late. And for this builder, almost every single one was on time. The first 2,000 people who comment home will get an extra search credit for free. I will share the link in your DM. Send this to someone who's looking for a flat right now because this one AI tool could save them a lot of money and maybe even their entire life savings.",
+      "full_caption": "Buying a flat is one of the biggest financial decisions your family can make. What if you could check a builder’s track record before investing? 👀\n\nRERA Inspector is an AI-powered real estate tool that lets you search projects by state and name to check their status, health score, unsold flats, and",
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA",
+      "likes": 4608,
+      "comments": 1372,
+      "engagement_rate": 1.08,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-04T04:02:00.153Z",
+      "scraped_at": "2026-11-05T03:31:48.174Z"
     }
   ],
-  "total": 154,
-  "transcript_based": 87
+  "total": 156,
+  "transcript_based": 89
 }

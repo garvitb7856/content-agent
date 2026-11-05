@@ -1,0 +1,11 @@
+{
+  "postId": "3880706073702135949_24040950",
+  "handle": "arshman",
+  "postUrl": "https://www.instagram.com/p/DXbCZz4t3iN/",
+  "transcript": "I applied to 518 jobs and got 28 interviews including Google. And this is how you can get a job with 100% guarantee. So I've been on both sides, hiring and getting hired at a Fortune 500 company and a Big Four. Trust me when I say, it actually works. There's a free Claude plugin on GitHub called Career-Ops that turns your entire job search into an automated system using connectors. So it evaluates each job against your actual experience, and scores each job through A and F. For every job worth your time and salary, it writes fully customized ATS friendly resume and a cover letter like for each job. Then it finds gaps between your resume and the job description and tells you exactly how to fix them before the interview. Also builds STAR stories mapped to that specific role for the interview. And on top of everything, it also writes outreach message to the hiring manager. And once you land the job offer, it gives you negotiation scripts with salary framework. So to set it up, go to this GitHub repo, download the zip file, link is in the comments. Then open Claude Cowork and upload the file in new plugins. To automate the job search, go to Apify and create a free account. Enable the LinkedIn Jobs Scraper actor, and then copy your API token. Then go back to Claude Cowork and install the Apify connector. Now simply drop your existing resume or tell Claude about your dream job, and it will do the rest for you. Because companies use AI to reject your resume in 6 seconds, it's about time you use AI to reject their job in 3 seconds. Share this with your friends who are looking for",
+  "caption": "Landing a job is easier than ever with AI. \nFull tutorial at the end to set up this Claude plugin.\n\nIt runs your entire job hunt end-to-end:\n\n→ Pulls LinkedIn jobs automatically\n→ Scores each one A through F against YOUR experience\n→ Writes a custom ATS-friendly resume + cover letter for every A-tie",
+  "timestamp": "2026-04-22T05:44:20.000Z",
+  "transcribedAt": "2026-11-05T03:53:40.970Z",
+  "likes": 0,
+  "comments": 0
+}
