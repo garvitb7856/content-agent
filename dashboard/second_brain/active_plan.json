@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-11-05",
-  "end_date": "2026-11-12",
+  "generated_on": "2026-11-06",
+  "end_date": "2026-11-13",
   "days": [
     {
       "day": 1,
-      "date": "2026-11-05",
-      "topic": "Testing Raj Shamani's viral business idea by building websites for local doctors using AI",
+      "date": "2026-11-06",
+      "topic": "How to debloat cheap Android TVs and remove lag using Claude Code via USB Debugging.",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Can I make 50,000 rupees selling AI websites to local doctors?",
+      "post_time": "7:15 PM IST",
+      "hook": "My 15k Android TV runs like a 1 lakh TV now.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-11-06",
-      "topic": "Step-by-step framework to turn your best ChatGPT prompts into reusable agent skills",
+      "date": "2026-11-07",
+      "topic": "Step-by-step pipeline to automate your job application process using GitHub Career-Ops and Claude.",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Stop rewriting the same ChatGPT prompts. Do this instead.",
+      "post_time": "6:45 PM IST",
+      "hook": "Stop manually applying on LinkedIn. Automate the entire process.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-11-07",
-      "topic": "How 18-year-olds in Tier 2 cities build fully automated YouTube channels with n8n in 35 minutes",
+      "date": "2026-11-08",
+      "topic": "Testing local B2B sales: Generating ₹50,000 by pitching AI-built landing pages to doctors without websites.",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "This free n8n workflow builds a complete YouTube channel automatically.",
+      "post_time": "7:30 PM IST",
+      "hook": "Can you make 50,000 rupees selling AI websites to doctors?",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-08",
-      "topic": "5 high-income AI client acquisition systems that don't require cold emailing",
+      "date": "2026-11-09",
+      "topic": "Visual breakdown on building a fully automated content research and generation agent using n8n in under 30 minutes.",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "How to get high-paying AI clients without sending a single cold DM.",
+      "post_time": "7:00 PM IST",
+      "hook": "Build a fully automated content channel in under 30 minutes.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-09",
-      "topic": "Hacking a budget Android TV using Claude Code to remove all sponsored bloatware and ads",
+      "date": "2026-11-10",
+      "topic": "Using Claude Motion to generate fully editable code-based video animation graphics.",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "Turn your budget TV into a high-end display using Claude Code.",
+      "post_time": "7:45 PM IST",
+      "hook": "Motion designers will hate this free Claude animation feature.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-10",
-      "topic": "The exact breakdown of open-source AI models you can run locally on your laptop for free",
+      "date": "2026-11-11",
+      "topic": "Financial Breakdown: Living with parents in your 20s — saving ₹40k rent vs. sacrificing career leverage.",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop paying for cloud AI when these open models run locally.",
+      "post_time": "6:30 PM IST",
+      "hook": "Is living with parents saving money or killing your growth?",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-11",
-      "topic": "How to use Google's TimesFM open-source model to predict future trends before your competitors",
+      "date": "2026-11-12",
+      "topic": "Reverse-engineering paid SaaS subscriptions and cloning them locally for free using Replica and Claude Code.",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "Google just open-sourced an AI model that predicts the future.",
+      "post_time": "7:15 PM IST",
+      "hook": "Stop paying subscriptions. Clone any app for free with Claude.",
       "status": "pending"
     }
   ]

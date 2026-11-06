@@ -1,62 +1,76 @@
 {
-  "fetched_at": "2026-11-05T03:31:48.118Z",
+  "fetched_at": "2026-11-06T03:32:02.742Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "score": 1111,
-      "comments": 644,
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+      "title": "Claude Code sends your email address to websites",
+      "score": 643,
+      "comments": 220,
+      "url": "https://github.com/anthropics/claude-code/issues/107757"
     },
     {
       "source": "hackernews",
-      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "score": 241,
-      "comments": 82,
-      "url": "https://www.ricursive.com/ripple"
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "score": 363,
+      "comments": 135,
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844"
     },
     {
       "source": "hackernews",
-      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-      "score": 113,
-      "comments": 46,
-      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra"
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "score": 79,
+      "comments": 43,
+      "url": "https://github.com/rivet-dev/rivet"
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
-      "score": 74,
-      "comments": 29,
-      "url": "https://news.ycombinator.com/item?id=50368804"
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "score": 158,
+      "comments": 69,
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
     },
     {
       "source": "hackernews",
-      "title": "OpenAI to acquire Pierre Computer Company",
-      "score": 207,
-      "comments": 62,
-      "url": "https://openai.com/index/openai-to-acquire-pierre/"
+      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "score": 169,
+      "comments": 16,
+      "url": "https://www.linum.ai/field-notes/pjit-21k"
     },
     {
       "source": "hackernews",
-      "title": "Basically no one is using AI agents for their DoorDash orders",
-      "score": 84,
-      "comments": 154,
-      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/"
+      "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+      "score": 1,
+      "comments": 0,
+      "url": "https://www.ycombinator.com/companies/bild-ai/jobs"
     },
     {
       "source": "hackernews",
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "score": 154,
-      "comments": 182,
-      "url": "https://news.ycombinator.com/item?id=50366117"
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "score": 312,
+      "comments": 159,
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/"
     },
     {
       "source": "hackernews",
-      "title": "'It's just vape, nail, charity shops': Can anything save UK high street?",
-      "score": 75,
-      "comments": 173,
-      "url": "https://www.theguardian.com/business/2026/nov/04/what-can-save-the-british-high-street-rotherham"
+      "title": "MCP Explained",
+      "score": 259,
+      "comments": 116,
+      "url": "https://mcp-explained.com/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Baidu released ERNIE 5.5 Flash Base",
+      "score": 168,
+      "comments": 93,
+      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/"
+    },
+    {
+      "source": "hackernews",
+      "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
+      "score": 177,
+      "comments": 39,
+      "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed"
     }
   ],
   "youtube": [
@@ -65,8 +79,8 @@
       "category": "Science & Tech",
       "title": "A phone that fixes brainrot?",
       "channel": "ForgeCore",
-      "views": 5303046,
-      "likes": 49986,
+      "views": 5728994,
+      "likes": 54052,
       "publishedAt": "2026-10-30T18:44:51Z",
       "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
       "tags": [],
@@ -75,10 +89,27 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "How McAfee Was Founded 🛡️ #shorts #business",
+      "channel": "PureBusiness",
+      "views": 3338735,
+      "likes": 133959,
+      "publishedAt": "2026-10-30T00:56:31Z",
+      "url": "https://www.youtube.com/watch?v=d8VBr1QgJ-E",
+      "tags": [
+        "#shorts",
+        "#facts",
+        "#business",
+        "#money"
+      ],
+      "description": "Discover how John McAfee founded McAfee Associates in 1987 and how his pioneering antivirus software helped transform computer security, turning a sma"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Light-Gun Aiming for Modern PC Games",
       "channel": "Wonderism HQ",
-      "views": 3226494,
-      "likes": 45778,
+      "views": 3235724,
+      "likes": 45909,
       "publishedAt": "2026-10-30T19:00:06Z",
       "url": "https://www.youtube.com/watch?v=m2qAjFyN1VM",
       "tags": [
@@ -93,27 +124,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "How McAfee Was Founded 🛡️ #shorts #business",
-      "channel": "PureBusiness",
-      "views": 3110975,
-      "likes": 123469,
-      "publishedAt": "2026-10-30T00:56:31Z",
-      "url": "https://www.youtube.com/watch?v=d8VBr1QgJ-E",
-      "tags": [
-        "#shorts",
-        "#facts",
-        "#business",
-        "#money"
-      ],
-      "description": "Discover how John McAfee founded McAfee Associates in 1987 and how his pioneering antivirus software helped transform computer security, turning a sma"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a",
       "channel": "Digital Doctor ",
-      "views": 1104597,
-      "likes": 44323,
+      "views": 1640287,
+      "likes": 61160,
       "publishedAt": "2026-11-04T01:28:07Z",
       "url": "https://www.youtube.com/watch?v=_uagLKJBn1g",
       "tags": [],
@@ -123,43 +137,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "ChatGPT",
-        "trend_score": 94
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 83
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 82
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 80
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 79
-      },
-      {
         "keyword": "solopreneur",
-        "trend_score": 76
+        "trend_score": 95
       },
       {
-        "keyword": "AI for business",
-        "trend_score": 72
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 71
+        "keyword": "ChatGPT",
+        "trend_score": 92
       },
       {
         "keyword": "automation tools",
-        "trend_score": 67
+        "trend_score": 91
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 90
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 88
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 85
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 83
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 79
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 69
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-05T03:31:48.117Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"AI is forcing us to pay off 40 years of technical debt\" — 1111 pts\n• [HackerNews] \"Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding\" — 241 pts\n• [HackerNews] \"Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s\" — 113 pts\n• [HackerNews] \"Launch HN: Kino AI (YC S23) – AI media manager and video editor\" — 74 pts\n• [HackerNews] \"OpenAI to acquire Pierre Computer Company\" — 207 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 5303k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3226k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 3111k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 1105k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 94), self improvement (score: 83), entrepreneur (score: 82), AI workflow (score: 80), AI tools (score: 79), solopreneur (score: 76), AI for business (score: 72), productivity tools (score: 71), automation tools (score: 67)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-06T03:32:02.742Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Claude Code sends your email address to websites\" — 643 pts\n• [HackerNews] \"MS Paint Remote Code Execution Vulnerability\" — 363 pts\n• [HackerNews] \"Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3\" — 79 pts\n• [HackerNews] \"Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue\" — 158 pts\n• [HackerNews] \"Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)\" — 169 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 5729k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 3339k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3236k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 1640k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nsolopreneur (score: 95), ChatGPT (score: 92), automation tools (score: 91), AI workflow (score: 90), AI tools (score: 88), self improvement (score: 85), AI for business (score: 83), productivity tools (score: 79), entrepreneur (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

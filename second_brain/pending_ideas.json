@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Testing Raj Shamani's Viral Business Idea for ₹50,000",
-    "hook": "Can I make ₹50,000 selling AI websites to local Indian doctors using Emergent?",
+    "title": "Testing Local B2B Sales: Doctor Websites in Tier-2 Cities",
+    "hook": "Can you actually make ₹50,000 selling simple AI websites to doctors without a digital footprint? Let's test it.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "This concept is backed by @dhavalkataria_'s top-performing proof-of-concept series which generated over 80k likes. It combines localized Indian business context with actionable AI execution, making it perfect for @garvit.irl's reel audience.",
+    "reasoning": "This concept comes from @dhavalkataria_ whose account averages over 12,000 likes at 58k followers, far surpassing the 3,000 viral threshold for medium accounts. The practical Indian B2B monetization challenge format drives extreme viewer engagement and high saves.",
     "niche": "Entrepreneurship",
     "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
   },
   {
     "rank": 2,
-    "title": "Clean Bloatware and Ads Off Your Smart TV in 15 Minutes",
-    "hook": "People are hacking their 15,000 Rupee Android TVs with Claude Code to remove all sponsored ads.",
+    "title": "Living with Parents in Your 20s: Financial Superpower or Trap?",
+    "hook": "Living with your parents can save you ₹40,000 monthly rent, but only if you use that capital to build leverage.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Driven by @vaibhavsisinty's massive viral post, this utility hack cross-performed with over 100k combined engagement. It solves a universal consumer annoyance using accessible developer AI tools.",
+    "reasoning": "Originating from @dhavalkataria_'s viral mindset content, this post tapped into massive cultural engagement exceeding his account's 12k average likes. It hits a major relatable nerve for young Indian developers and entrepreneurs balancing cost savings with career growth.",
+    "niche": "Self-growth",
+    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
+  },
+  {
+    "rank": 3,
+    "title": "Automated Job Applications with Career-Ops",
+    "hook": "Stop manually applying on LinkedIn. This free GitHub repo turns your entire job search into a 100% automated AI pipeline.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Derived from @arshman's top-performing tech reel targeting job seekers, capitalizing on high-utility automated job search tools. The hook delivers immediate problem-solving value tailored perfectly to junior engineers and students in India.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DXbCZz4t3iN/"
+  },
+  {
+    "rank": 4,
+    "title": "TV Bloatware Removal via Claude Code",
+    "hook": "My 15,000 Rupee Android TV was filled with lag and annoying ads, until I let Claude Code hack into it.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "This post from @vaibhavsisinty combines everyday hardware friction with practical AI execution, a format proven to generate high shareability. It bridges complex coding with a relatable budget electronics issue for Indian households.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DfB6bWeA0s_/"
   },
   {
-    "rank": 3,
-    "title": "Why Buying Assets for Parents Beats Luxury Flexes at 25",
-    "hook": "Money will come and go, but buying your family's first asset before 25 changes your entire bloodline.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Leverages @ishansharma7390's high-performing emotional narrative strategy which logged over 120k likes. The strong contrast between asset creation and luxury flexes resonates powerfully with young Indian builders.",
-    "niche": "Self-growth",
-    "sourceUrl": "https://www.instagram.com/p/DfPlnCnoVry/"
-  },
-  {
-    "rank": 4,
-    "title": "Build a Fully Automated YouTube Channel in 35 Minutes with n8n",
-    "hook": "18-year-olds in Tier 2 Indian cities are making 50k a month with completely automated n8n workflows.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Replicates @favourite.engineer's highest performing workflow reel. Combining automated income mechanisms with n8n creates maximum comment and save velocity.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/De9cIGWzFWh/"
-  },
-  {
     "rank": 5,
-    "title": "HackerTube: The Hidden YouTube for High-IQ Tech Builders",
-    "hook": "There is a secret version of YouTube called HackerTube that only shows videos tech nerds watch.",
+    "title": "Claude Motion: Code-Based Video Animation",
+    "hook": "Motion designers are going to hate this: you can now generate fully editable motion graphics using code prompts.",
     "format": "Reel",
     "score": "HIGH",
-    "reasoning": "Capitalizes on @thevarunmayya's viral curiosity breakdown format. Revealing hidden tech ecosystem tools triggers extremely high intrigue, driving rapid shares across tech circles.",
+    "reasoning": "Originally shared by @aryamanupmanyu, this concept highlights Claude's new dynamic video/animation capabilities using code. It offers huge visual proof and utility for video editors and solo creators wanting fast design assets.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DfUfLpqhRtj/"
+    "sourceUrl": "https://www.instagram.com/p/De9uauoS9qT/"
   }
 ]

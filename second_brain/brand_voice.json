@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T03:34:50.554Z",
+  "updated_at": "2026-11-06T03:38:01.715Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -72,7 +72,7 @@
   ],
   "your_top_captions": [
     {
-      "likes": 2314,
+      "likes": 2315,
       "caption": "Comment anything to get this !",
       "url": "https://www.instagram.com/p/DdgXitPyC5g/"
     },
@@ -163,13 +163,118 @@
     },
     {
       "handle": "arshman",
-      "postUrl": "https://www.instagram.com/p/3882134268666144341_24040950/",
+      "postUrl": "https://www.instagram.com/p/DXbCZz4t3iN/",
       "likes": 0,
       "comments": 0,
-      "hook": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-",
-      "transcript": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-to-end marketing. So let me show you how you can create AI employees for your business or a client completely free. So go to Claude and then click on customize. Navigate to Skills section and create a skill with Claude. Create a skill of a senior creative director for video ads. And then next employee. Create a skill for an expert Seedance 2.0 prompt engineer who will take directions from a creative director skill and provide JSON prompt for Seedance 2.0. So basically Claude will take 5 to 10 minutes and create a detailed set of instructions for each employee and will provide you with the skill.md file which you can add by clicking here. Now to run both employees to work as a team, you have to upload your product image and then prompt. Use a creative director skill to create a cinematic ad for this product and use this link to gather information and pass requirements ",
-      "transcriptFull": "These are my AI employees and as a team they run my business. They can make video ads, do sales, branding, and even end-to-end marketing. So let me show you how you can create AI employees for your business or a client completely free. So go to Claude and then click on customize. Navigate to Skills section and create a skill with Claude. Create a skill of a senior creative director for video ads. And then next employee. Create a skill for an expert Seedance 2.0 prompt engineer who will take directions from a creative director skill and provide JSON prompt for Seedance 2.0. So basically Claude will take 5 to 10 minutes and create a detailed set of instructions for each employee and will provide you with the skill.md file which you can add by clicking here. Now to run both employees to work as a team, you have to upload your product image and then prompt. Use a creative director skill to create a cinematic ad for this product and use this link to gather information and pass requirements to Seedance 2.0 prompt engineer. Now these two employees will figure out themselves that whose task is to perform what. The creative director is performing its job to produce end-to-end ad direction, and then he gave it to Seedance 2.0 prompt engineer to create a prompt. Now it is generating a detailed prompt that you can copy and paste it into Seedance 2.0. And here's the final ad."
+      "hook": "I applied to 518 jobs and got 28 interviews including Google. And this is how you can get a job with 100% guarantee. So ",
+      "transcript": "I applied to 518 jobs and got 28 interviews including Google. And this is how you can get a job with 100% guarantee. So I've been on both sides, hiring and getting hired at a Fortune 500 company and a Big Four. Trust me when I say, it actually works. There's a free Claude plugin on GitHub called Career-Ops that turns your entire job search into an automated system using connectors. So it evaluates each job against your actual experience, and scores each job through A and F. For every job worth your time and salary, it writes fully customized ATS friendly resume and a cover letter like for each job. Then it finds gaps between your resume and the job description and tells you exactly how to fix them before the interview. Also builds STAR stories mapped to that specific role for the interview. And on top of everything, it also writes outreach message to the hiring manager. And once you land the job offer, it gives you negotiation scripts with salary framework. So to set it up, go to this ",
+      "transcriptFull": "I applied to 518 jobs and got 28 interviews including Google. And this is how you can get a job with 100% guarantee. So I've been on both sides, hiring and getting hired at a Fortune 500 company and a Big Four. Trust me when I say, it actually works. There's a free Claude plugin on GitHub called Career-Ops that turns your entire job search into an automated system using connectors. So it evaluates each job against your actual experience, and scores each job through A and F. For every job worth your time and salary, it writes fully customized ATS friendly resume and a cover letter like for each job. Then it finds gaps between your resume and the job description and tells you exactly how to fix them before the interview. Also builds STAR stories mapped to that specific role for the interview. And on top of everything, it also writes outreach message to the hiring manager. And once you land the job offer, it gives you negotiation scripts with salary framework. So to set it up, go to this GitHub repo, download the zip file, link is in the comments. Then open Claude Cowork and upload the file in new plugins. To automate the job search, go to Apify and create a free account. Enable the LinkedIn Jobs Scraper actor, and then copy your API token. Then go back to Claude Cowork and install the Apify connector. Now simply drop your existing resume or tell Claude about your dream job, and it will do the rest for you. Because companies use AI to reject your resume in 6 seconds, it's about time you use AI to reject their job in 3 seconds. Share this with your friends who are looking for"
     }
   ],
-  "gemini_analysis": {}
+  "gemini_analysis": {
+    "garvit_speaking_style": {
+      "summary": "Garvit speaks with high energy, urgent directness, and an accessible Indian tech-creator persona. He seamlessly blends quick utility hack announcements with candid personal narratives, using intense hooks to immediately grab attention before delivering dense, fast-paced value drops.",
+      "sentence_structure": "short/punchy",
+      "language_mix": "Dynamic Hinglish for tool hacks and free-value drops (mixing English tech terms with conversational Hindi fillers), shifting to clean English for structured mindset and aspirational narratives.",
+      "tone": "conversational",
+      "pacing": "fast, dense info",
+      "signature_phrases": [
+        "stop taking AI subscriptions right now",
+        "I wish I knew this earlier",
+        "you'll be seeing me again"
+      ],
+      "what_makes_it_work": "His ability to framed high-value tech tools around immediate money-saving utility ('get paid subscriptions for free') creates instant perceived value for budget-conscious Indian developers and creators."
+    },
+    "garvit_writing_style": {
+      "summary": "Garvit uses concise, action-oriented captions designed almost entirely to fuel Instagram DM automation engines. He skips verbose body text in captions, letting the video carry the narrative while the caption acts as a streamlined conversion trigger.",
+      "caption_structure": "Direct value takeaway followed immediately by a keyword trigger CTA.",
+      "cta_patterns": [
+        "comment below [KEYWORD] to get the link",
+        "just follow me and comment [KEYWORD] and I'll send you the complete guide"
+      ],
+      "tone_vs_speaking": "Yes; his spoken tone is passionate, energetic, and expressive, whereas his written caption tone is minimalist, direct, and functional."
+    },
+    "competitor_speaking_patterns": {
+      "summary": "Viral competitors leverage real-world authority proof (naming big brands like Snitch/Comet or tech icons like Sam Altman), quantitative ROI metrics, and structured step-by-step systems ('8 layers', '4 AI agents') rather than just presenting standalone hacks.",
+      "viral_hook_patterns": [
+        "We built this AI agent for [Viral Brand], and it's setting a new benchmark...",
+        "Give me 60 seconds and I guarantee you'll know more than 99.9% of people...",
+        "I applied to X jobs and got Y interviews using this automated system..."
+      ],
+      "viral_body_structure": "Competitors use scenario painting ('Picture this...'), structured breakdown models ('Layer 1 to Layer 8'), multi-agent breakdown, and concrete business outcomes (e.g., 'cart recovery jumped from 30% to 80%').",
+      "viral_cta_patterns": [
+        "comment the word AI below and I'll send you a proper instructions doc right away",
+        "Just comment AI and I'll send this entire workflow and its guide straight to your DMs"
+      ],
+      "key_difference_from_garvit": "Competitors focus on enterprise/client case studies, multi-step systems, and industry authority, whereas Garvit relies primarily on direct consumer utility, free subscription hacks, and personal storytelling."
+    },
+    "viral_own_script_analysis": [
+      {
+        "rank": 1,
+        "likes": 0,
+        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 16,
+        "body_structure": "Cost comparison (5-6k monthly vs completely free open source), social proof (10k GitHub stars in 3 days), and technical setup details (no subscription, just API key).",
+        "cta": "comment below free to get the link",
+        "script_type": "C",
+        "what_made_it_viral": "High financial relief value, urgency, and Indian developer pride angle combined with strong DM automation CTA."
+      },
+      {
+        "rank": 2,
+        "likes": 0,
+        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free.",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 15,
+        "body_structure": "Feature stack (Claude Fable 5, Claude Code, 250k token usage demo) followed by the secret tool source (Google Antigravity prompt).",
+        "cta": "comment 'Claude' and I'll send you the complete guide to do",
+        "script_type": "C",
+        "what_made_it_viral": "Extreme loss-aversion hook targeting a very popular paid AI tool paired with high token-usage proof."
+      },
+      {
+        "rank": 3,
+        "likes": 0,
+        "hook": "I wish I knew this earlier, because you can get Google's AI subscriptions for completely free.",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 14,
+        "body_structure": "Rapid feature stack drop (Gemini Pro, Nano Banana Pro, Veo 3.1 video gen, Gemini Notebook, 5TB storage).",
+        "cta": "just follow me and comment",
+        "script_type": "C",
+        "what_made_it_viral": "FOMO hook combined with high-value brand affinity (Google) and massive free storage offer."
+      },
+      {
+        "rank": 4,
+        "likes": 0,
+        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan. I am the best.",
+        "hook_type": "story",
+        "hook_length_words": 29,
+        "body_structure": "Authority synthesis (3 icons across fields), psychological breakdown of self-talk, Bruce Lee quote integration, and 5 daily affirmations.",
+        "cta": "implicit mindset takeaway",
+        "script_type": "C",
+        "what_made_it_viral": "Strong celebrity name drops linked directly to self-mastery and subconscious mind science."
+      },
+      {
+        "rank": 5,
+        "likes": 0,
+        "hook": "Tumhe pata hai I have always wanted to be a content creator since I was 10.",
+        "hook_type": "story",
+        "hook_length_words": 15,
+        "body_structure": "Personal confession, addressing haters directly, revealing 12-day posting hiatus, embracing 'Jack of all trades' philosophy.",
+        "cta": "relatable sign-off ('you'll be seeing me again')",
+        "script_type": "C",
+        "what_made_it_viral": "Authentic, raw vulnerability that builds personal brand intimacy and creator-audience trust."
+      }
+    ],
+    "verdict": {
+      "whose_style_goes_viral": "Hybrid",
+      "reasoning": "Garvit's original high-urgency financial/utility hacks (Type C scripts, avg 167 likes) establish high initial retention, but integrating competitor elements—such as multi-layered structural steps (Arshman style) and brand case-study proof (Aryaman style)—will maximize long-term authority, shareability, and conversion.",
+      "recommended_hook_structure": "[Stop Action / Regret Trigger] + [High-Value Paid Feature Available for Free/System Hack] + [Specific Quantifiable Metric]",
+      "recommended_body_structure": "[Pain Point / Financial Friction] -> [3-Step System / Multi-Layer Feature Breakdown] -> [Real Visual Proof or Workflow Breakdown]",
+      "recommended_cta_structure": "Comment '[TRIGGER WORD]' below and I'll DM you the complete step-by-step workflow and prompt setup right away.",
+      "avoid_these": [
+        "Defensive or overly meta content without a direct viewer takeaway",
+        "Listing feature names without showing real-world workflow or problem-solving application"
+      ]
+    }
+  }
 }
