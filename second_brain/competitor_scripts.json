@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:32:02.806Z",
+  "updated_at": "2026-11-07T03:31:52.441Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2643,8 +2643,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-11-05T03:53:40.970Z",
       "scraped_at": "2026-11-06T03:32:02.800Z"
+    },
+    {
+      "id": "4016322778524260912_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/De82EmlP5ow/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "You can now clone any app with Claude Code, so you never have to pay for a subscription again.  It's called Replica, and it's not just another reverse engineering repo, but a collection of 11 skills that help you build a better version of any app you're paying for, completely free.  You just install it in your Claude Code and point it at any app.",
+      "full_script": "You can now clone any app with Claude Code, so you never have to pay for a subscription again. It's called Replica, and it's not just another reverse engineering repo, but a collection of 11 skills that help you build a better version of any app you're paying for, completely free. You just install it in your Claude Code and point it at any app. And first, it'll map out every screen and feature, then it'll read through the reviews on the App Store, G2, and even Reddit to find out what users hate, so it knows what to fix. Then it'll start rebuilding it one screen at a time, solving those problems as it goes. Plus, it adds the backend and tests every flow and screen for bugs. Finally, it'll even give it its own branding and package it up for you, so you end up with a better app that looks completely yours. So if you want to try it, just comment \"Clone\" down below, and I'll send you the link right away.",
+      "full_caption": "Comment \"CLONE\" to get this Free AI Tool that rebuilds any app you pay for with Claude Code.\n\nYou can now clone any app with Claude Code.\n\nSo you never have to pay for a subscription again.\n\nIt's called Replica, and it's not another reverse engineering repo.\n\nIt's a collection of 11 skills that buil",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3721,
+      "comments": 5615,
+      "engagement_rate": 1.27,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-06T03:52:57.679Z",
+      "scraped_at": "2026-11-07T03:31:52.428Z"
     }
   ],
-  "total": 158,
-  "transcript_based": 91
+  "total": 159,
+  "transcript_based": 92
 }

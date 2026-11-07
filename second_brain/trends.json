@@ -1,76 +1,76 @@
 {
-  "fetched_at": "2026-11-06T03:32:02.742Z",
+  "fetched_at": "2026-11-07T03:31:52.378Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Claude Code sends your email address to websites",
-      "score": 643,
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "score": 292,
+      "comments": 235,
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI is dramatically accelerating AI research",
+      "score": 223,
+      "comments": 167,
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Tmux-restore saves tmux windows and agent sessions across reboots",
+      "score": 12,
+      "comments": 3,
+      "url": "https://github.com/andrewboldi/tmux-restore"
+    },
+    {
+      "source": "hackernews",
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "score": 100,
+      "comments": 47,
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming"
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini Omni 1.2 Flash",
+      "score": 303,
       "comments": 220,
-      "url": "https://github.com/anthropics/claude-code/issues/107757"
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
     },
     {
       "source": "hackernews",
-      "title": "MS Paint Remote Code Execution Vulnerability",
-      "score": 363,
-      "comments": 135,
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844"
+      "title": "Show HN: Waymark – A workflow engine that compiles jobs instead of replaying",
+      "score": 46,
+      "comments": 15,
+      "url": "https://github.com/piercefreeman/waymark"
     },
     {
       "source": "hackernews",
-      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-      "score": 79,
-      "comments": 43,
-      "url": "https://github.com/rivet-dev/rivet"
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "score": 92,
+      "comments": 8,
+      "url": "https://arxiv.org/abs/2610.21375"
     },
     {
       "source": "hackernews",
-      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "score": 158,
-      "comments": 69,
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-      "score": 169,
-      "comments": 16,
-      "url": "https://www.linum.ai/field-notes/pjit-21k"
-    },
-    {
-      "source": "hackernews",
-      "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+      "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
       "score": 1,
       "comments": 0,
-      "url": "https://www.ycombinator.com/companies/bild-ai/jobs"
+      "url": "https://up.codes/careers?utm_source=HN"
     },
     {
       "source": "hackernews",
-      "title": "GPT-6 Astra covertly underperforms on safety research",
-      "score": 312,
-      "comments": 159,
-      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/"
+      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+      "score": 83,
+      "comments": 35,
+      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
     },
     {
       "source": "hackernews",
-      "title": "MCP Explained",
-      "score": 259,
-      "comments": 116,
-      "url": "https://mcp-explained.com/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Baidu released ERNIE 5.5 Flash Base",
-      "score": 168,
-      "comments": 93,
-      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
-      "score": 177,
-      "comments": 39,
-      "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed"
+      "title": "40C3 halfnarp – Submit talk preferences to aid scheduling",
+      "score": 46,
+      "comments": 9,
+      "url": "https://halfnarp.events.ccc.de"
     }
   ],
   "youtube": [
@@ -79,8 +79,8 @@
       "category": "Science & Tech",
       "title": "A phone that fixes brainrot?",
       "channel": "ForgeCore",
-      "views": 5728994,
-      "likes": 54052,
+      "views": 6177628,
+      "likes": 58525,
       "publishedAt": "2026-10-30T18:44:51Z",
       "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
       "tags": [],
@@ -89,27 +89,10 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "How McAfee Was Founded 🛡️ #shorts #business",
-      "channel": "PureBusiness",
-      "views": 3338735,
-      "likes": 133959,
-      "publishedAt": "2026-10-30T00:56:31Z",
-      "url": "https://www.youtube.com/watch?v=d8VBr1QgJ-E",
-      "tags": [
-        "#shorts",
-        "#facts",
-        "#business",
-        "#money"
-      ],
-      "description": "Discover how John McAfee founded McAfee Associates in 1987 and how his pioneering antivirus software helped transform computer security, turning a sma"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Light-Gun Aiming for Modern PC Games",
       "channel": "Wonderism HQ",
-      "views": 3235724,
-      "likes": 45909,
+      "views": 3247486,
+      "likes": 46041,
       "publishedAt": "2026-10-30T19:00:06Z",
       "url": "https://www.youtube.com/watch?v=m2qAjFyN1VM",
       "tags": [
@@ -126,54 +109,72 @@
       "category": "Science & Tech",
       "title": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a",
       "channel": "Digital Doctor ",
-      "views": 1640287,
-      "likes": 61160,
+      "views": 2068800,
+      "likes": 77780,
       "publishedAt": "2026-11-04T01:28:07Z",
       "url": "https://www.youtube.com/watch?v=_uagLKJBn1g",
       "tags": [],
       "description": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your d"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "What The Heck IS Xbox X BITE??!! 😱",
+      "channel": "Gex RTX",
+      "views": 805957,
+      "likes": 17929,
+      "publishedAt": "2026-11-05T20:35:41Z",
+      "url": "https://www.youtube.com/watch?v=VTkr2FAq1vM",
+      "tags": [
+        "Computer",
+        "Pc",
+        "Tech",
+        "GPU",
+        "CPU"
+      ],
+      "description": "What The Heck IS Xbox X BITE??!! 😱\n\nThis video is made purely for entertaining and educational purposes.\n\n#shorts  #xbox #xboxseriesx #xboxxbite #xbi"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "solopreneur",
-        "trend_score": 95
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 92
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 91
-      },
-      {
         "keyword": "AI workflow",
-        "trend_score": 90
-      },
-      {
-        "keyword": "AI tools",
-        "trend_score": 88
+        "trend_score": 94
       },
       {
         "keyword": "self improvement",
-        "trend_score": 85
+        "trend_score": 92
       },
       {
-        "keyword": "AI for business",
-        "trend_score": 83
+        "keyword": "solopreneur",
+        "trend_score": 87
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 82
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 79
+        "trend_score": 81
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 80
       },
       {
         "keyword": "entrepreneur",
+        "trend_score": 72
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 70
+      },
+      {
+        "keyword": "AI for business",
         "trend_score": 69
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-06T03:32:02.742Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Claude Code sends your email address to websites\" — 643 pts\n• [HackerNews] \"MS Paint Remote Code Execution Vulnerability\" — 363 pts\n• [HackerNews] \"Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3\" — 79 pts\n• [HackerNews] \"Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue\" — 158 pts\n• [HackerNews] \"Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)\" — 169 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 5729k views\n• [YouTube Global] \"How McAfee Was Founded 🛡️ #shorts #business\" by PureBusiness — 3339k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3236k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 1640k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nsolopreneur (score: 95), ChatGPT (score: 92), automation tools (score: 91), AI workflow (score: 90), AI tools (score: 88), self improvement (score: 85), AI for business (score: 83), productivity tools (score: 79), entrepreneur (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-07T03:31:52.378Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"US FAA says it will phase out floppy disks from air traffic control by 2028\" — 292 pts\n• [HackerNews] \"AI is dramatically accelerating AI research\" — 223 pts\n• [HackerNews] \"Show HN: Tmux-restore saves tmux windows and agent sessions across reboots\" — 12 pts\n• [HackerNews] \"Restaurant Delivery Payment-Skimming Campaign\" — 100 pts\n• [HackerNews] \"Gemini Omni 1.2 Flash\" — 303 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 6178k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3247k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 2069k views\n• [YouTube Global] \"What The Heck IS Xbox X BITE??!! 😱\" by Gex RTX — 806k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 94), self improvement (score: 92), solopreneur (score: 87), AI tools (score: 82), productivity tools (score: 81), ChatGPT (score: 80), entrepreneur (score: 72), automation tools (score: 70), AI for business (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
