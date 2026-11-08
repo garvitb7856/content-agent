@@ -1,0 +1,11 @@
+{
+  "postId": "4025024422019583987_72269881052",
+  "handle": "nick_saraev",
+  "postUrl": "https://www.instagram.com/p/DfbwmLmv8_z/",
+  "transcript": "Google just open-sourced a free plugin that stops your AI from writing buggy, sloppy code, and thousands of people at Google, and Google's own engineers already use it every day. It's called the Elephant-Goldfish Model, and it works with a two-agent setup. You just give it a task, and an elephant agent, who knows everything about your project, and it'll write a full plan for it. Then a bunch of goldfish agents with zero context of that chat stress test your plan, tear it apart, and find every gap and blind spot that it missed. And that's the whole point, because it's almost impossible to spot your own mistakes, but a fresh pair of eyes like the goldfish will catch it right away. Only then, once you approve the final plan, does Claude actually start building, and it'll save you hours of wasted time and tokens every day. So if you want a step-by-step guide on how to get up and running with this, just comment \"Google\" down below, and I'll DM you the link directly.",
+  "caption": "Comment \"GOOGLE\" to get this Free Google AI Plugins that fixes your Code. \n\nGoogle just open sourced a free plugin that stops your AI from writing buggy, sloppy code.\n\nAnd thousands of Google engineers are already using it every day.\n\nIt's called the Elephant Goldfish Model, and it works on a simple",
+  "timestamp": "2026-11-07T08:33:09.000Z",
+  "transcribedAt": "2026-11-08T03:37:14.075Z",
+  "likes": 0,
+  "comments": 0
+}

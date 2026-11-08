@@ -1,82 +1,78 @@
 {
-  "generated_at": "2026-11-07T03:31:48.827Z",
+  "generated_at": "2026-11-08T03:31:34.994Z",
   "hotRightNow": [
     {
+      "username": "arshman",
+      "caption": "Claude can sort and organize photos from your phone or a laptop.\n\nComment “SORT” and ill DM you the ",
+      "likes": 1190,
+      "comments": 4049,
+      "engagement": 5239,
+      "engRate": "1.40",
+      "timestamp": "2026-11-07T06:58:10.000Z",
+      "url": "https://www.instagram.com/p/Dfbl2lUkRJJ/",
+      "type": "Post"
+    },
+    {
       "username": "nick_saraev",
-      "caption": "Comment \"GAME\" to get these Free AI Skills for Building Full Games with Claude Code.\n\nYour Claude Co",
-      "likes": 2122,
-      "comments": 2314,
-      "engagement": 4436,
-      "engRate": "0.60",
-      "timestamp": "2026-11-06T07:44:32.000Z",
-      "url": "https://www.instagram.com/p/DfZGREyvPUX/",
+      "caption": "Comment \"GOOGLE\" to get this Free Google AI Plugins that fixes your Code. \n\nGoogle just open sourced",
+      "likes": 2944,
+      "comments": 1513,
+      "engagement": 4457,
+      "engRate": "0.61",
+      "timestamp": "2026-11-07T08:33:09.000Z",
+      "url": "https://www.instagram.com/p/DfbwmLmv8_z/",
+      "type": "Video"
+    },
+    {
+      "username": "vaibhavsisinty",
+      "caption": "Isha Ambani’s tech-led AZORTE.\n\nMukesh Ambani’s daughter, Isha Ambani, is taking fashion retail beyo",
+      "likes": 3571,
+      "comments": 17,
+      "engagement": 3588,
+      "engRate": "0.17",
+      "timestamp": "2026-11-07T14:17:59.000Z",
+      "url": "https://www.instagram.com/p/DfcX4-TAHQR/",
+      "type": "Video"
+    },
+    {
+      "username": "nick_saraev",
+      "caption": "Comment \"SEO\" to get this Free Repo to turn your Claude Code into an SEO expert.\n\nYou don't need to ",
+      "likes": 785,
+      "comments": 1145,
+      "engagement": 1930,
+      "engRate": "0.26",
+      "timestamp": "2026-11-07T16:16:30.000Z",
+      "url": "https://www.instagram.com/p/Dfclm93PYNI/",
       "type": "Video"
     },
     {
       "username": "thevarunmayya",
-      "caption": "",
-      "likes": 2448,
-      "comments": 10,
-      "engagement": 2458,
-      "engRate": "0.19",
-      "timestamp": "2026-11-06T13:10:07.000Z",
-      "url": "https://www.instagram.com/p/DfZrpmOhLd7/",
-      "type": "Video"
-    },
-    {
-      "username": "nick_saraev",
-      "caption": "Comment \"CLAUDE\" to get the full Video on how to become an AI consultant.\n\nAI is automating jobs fas",
-      "likes": 1363,
-      "comments": 974,
-      "engagement": 2337,
-      "engRate": "0.32",
-      "timestamp": "2026-11-06T16:48:47.000Z",
-      "url": "https://www.instagram.com/p/DfaEpdfD6EY/",
-      "type": "Post"
-    },
-    {
-      "username": "zeeeljain",
-      "caption": "Pehli Diwali at KnowAI 🥹❤️\n\nPrettiest Outfit from my fav @ekatva.byanerishah ❤️\n\nMissed a few here ",
-      "likes": 1906,
-      "comments": 12,
-      "engagement": 1918,
-      "engRate": "1.12",
-      "timestamp": "2026-11-06T06:15:00.000Z",
-      "url": "https://www.instagram.com/p/DfY8HegCpEo/",
-      "type": "Post"
-    },
-    {
-      "username": "favourite.engineer",
-      "caption": "Haircut 🤯…\n.\n#chatgptprompts #ai",
-      "likes": 3,
-      "comments": 809,
-      "engagement": 812,
-      "engRate": "0.44",
-      "timestamp": "2026-11-06T10:39:09.000Z",
-      "url": "https://www.instagram.com/p/DfZaPTQzhpB/",
+      "caption": "What goes into building a tower with Shah Rukh Khan’s name on it?\n\nSat down with @adelsajan , MD of ",
+      "likes": 1151,
+      "comments": 14,
+      "engagement": 1165,
+      "engRate": "0.09",
+      "timestamp": "2026-11-07T08:44:09.000Z",
+      "url": "https://www.instagram.com/p/DfbwHxHhQVi/",
       "type": "Video"
     }
   ],
   "risingFormat": [
     {
       "format": "video",
-      "avgEng": 4949,
+      "avgEng": 4723,
       "count": 37
     },
     {
       "format": "post",
-      "avgEng": 865,
+      "avgEng": 1917,
       "count": 6
     }
   ],
   "trendingTopics": [
     {
       "topic": "ai",
-      "appearsIn": "7 top posts"
-    },
-    {
-      "topic": "claude",
-      "appearsIn": "3 top posts"
+      "appearsIn": "8 top posts"
     },
     {
       "topic": "tool",
@@ -89,6 +85,10 @@
     {
       "topic": "gpt",
       "appearsIn": "2 top posts"
+    },
+    {
+      "topic": "never",
+      "appearsIn": "2 top posts"
     }
   ],
   "bestPostingWindow": [
@@ -98,34 +98,34 @@
   ],
   "topHookPatterns": [
     {
-      "hook": "Comment \"TV\" to get Clean your TV of Ads and Bloatware with Claude Code.\n\nPeople",
-      "username": "nick_saraev",
-      "likes": 120547,
-      "url": "https://www.instagram.com/p/De3s5v3vIzE/"
-    },
-    {
       "hook": "FINALLY we GOT IT!🤯🥹✨\n\nHad the best day ever, going with my parents to four se",
       "username": "ishansharma7390",
-      "likes": 129119,
+      "likes": 130094,
       "url": "https://www.instagram.com/p/DeuC_xfoPur/"
     },
     {
       "hook": "Officially collaborated, I mean engaged ❤️💍\n\n12.10.2026\n\n📸 @rompalliharish",
       "username": "vaibhavsisinty",
-      "likes": 103448,
+      "likes": 103940,
       "url": "https://www.instagram.com/p/De-5VCbE-_4/"
     },
     {
       "hook": "I tested Raj Shamani’s business idea to make ₹50,000 on Episode 1 of Unbrokeing ",
       "username": "dhavalkataria_",
-      "likes": 80345,
+      "likes": 80432,
       "url": "https://www.instagram.com/p/Dbdacspojza/"
     },
     {
       "hook": "still can't get over this feeling🥹✨\n\nyou get one chance to raise your entire bl",
       "username": "ishansharma7390",
-      "likes": 78418,
+      "likes": 78568,
       "url": "https://www.instagram.com/p/Dev5DjcH3Bs/"
+    },
+    {
+      "hook": "I must say, the drive is super smooth like a flying car. Oh wait.. it actually f",
+      "username": "arshman",
+      "likes": 70557,
+      "url": "https://www.instagram.com/p/DetJ9weOu6p/"
     }
   ]
 }

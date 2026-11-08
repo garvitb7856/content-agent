@@ -1,76 +1,41 @@
 {
-  "fetched_at": "2026-11-07T03:31:52.378Z",
+  "fetched_at": "2026-11-08T03:31:38.400Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "score": 292,
-      "comments": 235,
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "score": 219,
+      "comments": 146,
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
     },
     {
       "source": "hackernews",
-      "title": "AI is dramatically accelerating AI research",
-      "score": 223,
-      "comments": 167,
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "score": 80,
+      "comments": 45,
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/"
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Tmux-restore saves tmux windows and agent sessions across reboots",
-      "score": 12,
-      "comments": 3,
-      "url": "https://github.com/andrewboldi/tmux-restore"
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "score": 417,
+      "comments": 244,
+      "url": "https://hunch.net/?p=13764006"
     },
     {
       "source": "hackernews",
-      "title": "Restaurant Delivery Payment-Skimming Campaign",
-      "score": 100,
-      "comments": 47,
-      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming"
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "score": 28,
+      "comments": 13,
+      "url": "https://eyesrhythm.com/"
     },
     {
       "source": "hackernews",
-      "title": "Gemini Omni 1.2 Flash",
-      "score": 303,
-      "comments": 220,
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Waymark – A workflow engine that compiles jobs instead of replaying",
-      "score": 46,
-      "comments": 15,
-      "url": "https://github.com/piercefreeman/waymark"
-    },
-    {
-      "source": "hackernews",
-      "title": "Memorilla: Latent Semantic Memory for LLMs",
-      "score": 92,
-      "comments": 8,
-      "url": "https://arxiv.org/abs/2610.21375"
-    },
-    {
-      "source": "hackernews",
-      "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
-      "score": 1,
-      "comments": 0,
-      "url": "https://up.codes/careers?utm_source=HN"
-    },
-    {
-      "source": "hackernews",
-      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-      "score": 83,
-      "comments": 35,
-      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
-    },
-    {
-      "source": "hackernews",
-      "title": "40C3 halfnarp – Submit talk preferences to aid scheduling",
-      "score": 46,
-      "comments": 9,
-      "url": "https://halfnarp.events.ccc.de"
+      "title": "Running a law firm on Free software",
+      "score": 243,
+      "comments": 120,
+      "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/"
     }
   ],
   "youtube": [
@@ -79,8 +44,8 @@
       "category": "Science & Tech",
       "title": "A phone that fixes brainrot?",
       "channel": "ForgeCore",
-      "views": 6177628,
-      "likes": 58525,
+      "views": 6515372,
+      "likes": 61003,
       "publishedAt": "2026-10-30T18:44:51Z",
       "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
       "tags": [],
@@ -91,8 +56,8 @@
       "category": "Science & Tech",
       "title": "Light-Gun Aiming for Modern PC Games",
       "channel": "Wonderism HQ",
-      "views": 3247486,
-      "likes": 46041,
+      "views": 3255079,
+      "likes": 46106,
       "publishedAt": "2026-10-30T19:00:06Z",
       "url": "https://www.youtube.com/watch?v=m2qAjFyN1VM",
       "tags": [
@@ -109,8 +74,8 @@
       "category": "Science & Tech",
       "title": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a",
       "channel": "Digital Doctor ",
-      "views": 2068800,
-      "likes": 77780,
+      "views": 2855661,
+      "likes": 102953,
       "publishedAt": "2026-11-04T01:28:07Z",
       "url": "https://www.youtube.com/watch?v=_uagLKJBn1g",
       "tags": [],
@@ -121,8 +86,8 @@
       "category": "Science & Tech",
       "title": "What The Heck IS Xbox X BITE??!! 😱",
       "channel": "Gex RTX",
-      "views": 805957,
-      "likes": 17929,
+      "views": 1053989,
+      "likes": 22185,
       "publishedAt": "2026-11-05T20:35:41Z",
       "url": "https://www.youtube.com/watch?v=VTkr2FAq1vM",
       "tags": [
@@ -139,42 +104,42 @@
     "keyword_trends": [
       {
         "keyword": "AI workflow",
-        "trend_score": 94
+        "trend_score": 95
       },
       {
         "keyword": "self improvement",
-        "trend_score": 92
-      },
-      {
-        "keyword": "solopreneur",
         "trend_score": 87
       },
       {
         "keyword": "AI tools",
+        "trend_score": 83
+      },
+      {
+        "keyword": "solopreneur",
         "trend_score": 82
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 81
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 80
-      },
-      {
-        "keyword": "entrepreneur",
-        "trend_score": 72
+        "trend_score": 77
       },
       {
         "keyword": "automation tools",
-        "trend_score": 70
+        "trend_score": 74
       },
       {
         "keyword": "AI for business",
+        "trend_score": 72
+      },
+      {
+        "keyword": "ChatGPT",
         "trend_score": 69
+      },
+      {
+        "keyword": "entrepreneur",
+        "trend_score": 63
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-07T03:31:52.378Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"US FAA says it will phase out floppy disks from air traffic control by 2028\" — 292 pts\n• [HackerNews] \"AI is dramatically accelerating AI research\" — 223 pts\n• [HackerNews] \"Show HN: Tmux-restore saves tmux windows and agent sessions across reboots\" — 12 pts\n• [HackerNews] \"Restaurant Delivery Payment-Skimming Campaign\" — 100 pts\n• [HackerNews] \"Gemini Omni 1.2 Flash\" — 303 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 6178k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3247k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 2069k views\n• [YouTube Global] \"What The Heck IS Xbox X BITE??!! 😱\" by Gex RTX — 806k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 94), self improvement (score: 92), solopreneur (score: 87), AI tools (score: 82), productivity tools (score: 81), ChatGPT (score: 80), entrepreneur (score: 72), automation tools (score: 70), AI for business (score: 69)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-08T03:31:38.400Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files\" — 219 pts\n• [HackerNews] \"Uranium cubes reveal why the German nuclear project failed\" — 80 pts\n• [HackerNews] \"The end of Microsoft Research's AI Frontiers group\" — 417 pts\n• [HackerNews] \"Show HN: An offline desktop companion to help maintain a healthy blink rhythm\" — 28 pts\n• [HackerNews] \"Running a law firm on Free software\" — 243 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 6515k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3255k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 2856k views\n• [YouTube Global] \"What The Heck IS Xbox X BITE??!! 😱\" by Gex RTX — 1054k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 95), self improvement (score: 87), AI tools (score: 83), solopreneur (score: 82), productivity tools (score: 77), automation tools (score: 74), AI for business (score: 72), ChatGPT (score: 69), entrepreneur (score: 63)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

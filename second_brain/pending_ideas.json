@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Testing Raj Shamani's Business Idea in Tier-2 India",
-    "hook": "Can I make ₹50,000 using Raj Shamani's business idea in a Tier-2 city? Let's find out on Episode 1.",
+    "title": "Turn a ₹15,000 TV into a ₹1 Lakh Smart TV with Claude Code",
+    "hook": "I turned a ₹15,000 TV into a ₹1 Lakh smart TV in 15 minutes for free using Claude Code.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Originating from @dhavalkataria_'s series which averages 12k likes on a 58k account, easily crushing the 3k viral threshold for medium creators. It combines high-profile entrepreneur name-dropping with an actionable challenge format perfect for young Indian builders.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
+    "score": "LOW",
+    "reasoning": "High-utility hardware hack demonstrating practical AI execution on everyday consumer tech. Adapted from @vaibhavsisinty's practical demo format, this delivers instant visual contrast and broad retention appeal.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DfB6bWeA0s_/"
   },
   {
     "rank": 2,
-    "title": "Why Living with Parents in Your 20s is an Unfair Financial Advantage",
-    "hook": "People say living with parents ruins your mindset, but saving ₹40,000 rent monthly is how I funded my startup.",
+    "title": "Reverse-Engineer Any App Binary using REA & Claude Code",
+    "hook": "This free open-source repo lets your AI agent reverse-engineer any app without source code.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Driven by @dhavalkataria_'s controversial debate reel that massively overperformed benchmarks on medium account scale. The counter-intuitive financial hook sparks strong emotional resonance and comment section debate among young creators.",
-    "niche": "Self-growth",
-    "sourceUrl": "https://www.instagram.com/p/Deb83tKIQGE/"
-  },
-  {
-    "rank": 3,
-    "title": "Reverse Engineer Any Paid App with REA & Claude Code",
-    "hook": "This free GitHub repo called REA lets your AI agent reverse engineer any app without touching the source code.",
-    "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Pioneered by @thevarunmayya featuring an open-source tool with 130k+ GitHub stars, indicating undeniable broad developer interest. It delivers massive practical utility for vibe-coders wanting to analyze production software.",
+    "score": "LOW",
+    "reasoning": "Taps into the high-curiosity tech breakdown trend established by top tech creators like @thevarunmayya. Proven concept format showcasing breakthrough open-source AI capabilities for builders and developers.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DeZwKRBTGYN/"
   },
   {
-    "rank": 4,
-    "title": "Automated E-Commerce arbitrage with Low Code AI",
-    "hook": "Can you make ₹1,00,000 selling trending physical products online using zero-code tools?",
+    "rank": 3,
+    "title": "Recover Permanently Deleted iPhone Photos with Claude Code",
+    "hook": "Deleted photos on your iPhone aren't actually gone—here is how to recover them using Claude Code.",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Proven by @dhavalkataria_'s high-performing e-commerce breakdown which vastly outpaces medium account viral baselines. It targets high consumer intent around no-code business execution and side-hustle monetization.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/DeJ_95ku6Gt/"
+    "score": "LOW",
+    "reasoning": "Combines consumer digital privacy curiosity with developer-grade terminal utilities. Source concept from @arshman creates strong hook tension while introducing Claude Code to a broader audience.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DfMAtNJOTLT/"
+  },
+  {
+    "rank": 4,
+    "title": "Stop Making Ugly AI Websites with Together AI's Hallmark Skill",
+    "hook": "Stop building websites that look AI-coded—this open-source skill fixes your design automatically.",
+    "format": "Reel",
+    "score": "LOW",
+    "reasoning": "Directly addresses the rising backlash against generic vibe-coded AI web design templates. Originally demonstrated by @nick_saraev, this gives @garvit.irl a fresh, actionable workflow angle.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DfUtovOvQ8U/"
   },
   {
     "rank": 5,
-    "title": "Indian Real Estate Scam Check: RERA Inspector AI",
-    "hook": "Before your parents invest in any property, run it through this AI tool to check builder health scores.",
+    "title": "Make ₹50,000 Pitching AI Websites to Local Doctors",
+    "hook": "Can you make ₹50,000 by finding local businesses on Google Maps and building AI websites for them?",
     "format": "Reel",
-    "score": "HIGH",
-    "reasoning": "Adapted from @nivedan.ai's high-retention post focused on Indian consumer fraud prevention. Positioning AI as a high-stakes family asset protection tool creates immediate shareability and save rate.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DfFB64YJbzu/"
+    "score": "LOW",
+    "reasoning": "Actionable local business monetization case study tailored for aspiring solopreneurs. Adapted from @dhavalkataria_'s proven business breakdown format, offering clear step-by-step ROI proof.",
+    "niche": "Entrepreneurship",
+    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T03:31:52.441Z",
+  "updated_at": "2026-11-08T03:31:38.480Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2661,8 +2661,26 @@
       "verdict": "medium",
       "transcribed_at": "2026-11-06T03:52:57.679Z",
       "scraped_at": "2026-11-07T03:31:52.428Z"
+    },
+    {
+      "id": "4022846197252052583_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DfUBU1tPVZn/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Claude Code can now run Blender for you so you can build full 3D models, textures, and animations just by describing them, and it's completely free.  It's called Blender Skills, and it's a free and open source pack of 94 skills that teaches your agent how to work like a professional 3D artist.  And all you need is Blender open with an add-on that connects it.",
+      "full_script": "Claude Code can now run Blender for you so you can build full 3D models, textures, and animations just by describing them, and it's completely free. It's called Blender Skills, and it's a free and open source pack of 94 skills that teaches your agent how to work like a professional 3D artist. And all you need is Blender open with an add-on that connects it. Just describe what you want, like a cyberpunk world for Unreal Engine, and then the Blender Director skill will take over, plan the whole job, and even build the characters, props, and the environment for you. Then it'll add lighting and textures, optimize it for your game, and even export it, while coordinating every step along the way. Want to try this for yourselves? Just comment \"Blender\" down below, and I'll send it to you directly.",
+      "full_caption": "Comment \"BLENDER\" to get these 94 AI Skills to turn Claude Code into a Blender Expert.\n\nClaude Code can now run Blender for you.\n\nSo you can build full 3D models, textures and animations just by describing them.\n\nIt's a different way to make 3D art.\n\nAnd it's completely free.\n\nIt's called Blender Sk",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 4403,
+      "comments": 4330,
+      "engagement_rate": 1.19,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-07T03:46:27.955Z",
+      "scraped_at": "2026-11-08T03:31:38.472Z"
     }
   ],
-  "total": 159,
-  "transcript_based": 92
+  "total": 160,
+  "transcript_based": 93
 }
