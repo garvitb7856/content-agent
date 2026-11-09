@@ -1,52 +1,52 @@
 [
   {
     "rank": 1,
-    "title": "Turn a ₹15,000 TV into a ₹1 Lakh Smart TV with Claude Code",
-    "hook": "I turned a ₹15,000 TV into a ₹1 Lakh smart TV in 15 minutes for free using Claude Code.",
+    "title": "Testing an AI WhatsApp Lead Gen Machine for Local Gyms",
+    "hook": "Can an automated AI WhatsApp agent book 20 personal training demos for a local gym in Delhi in 24 hours? Let's find out.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "High-utility hardware hack demonstrating practical AI execution on everyday consumer tech. Adapted from @vaibhavsisinty's practical demo format, this delivers instant visual contrast and broad retention appeal.",
+    "score": "HIGH",
+    "reasoning": "Adapts @dhavalkataria_'s proven challenge format which generates over 12k average likes against a 3k viral threshold. Delivers practical AI lead generation value to local Indian businesses, driving high retention and shares.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DfB6bWeA0s_/"
+    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
   },
   {
     "rank": 2,
-    "title": "Reverse-Engineer Any App Binary using REA & Claude Code",
-    "hook": "This free open-source repo lets your AI agent reverse-engineer any app without source code.",
+    "title": "How Indian Hackers Cracked eMudhra TLS Security Keys",
+    "hook": "This might go down as the most embarrassing security disaster in Indian internet history: how private keys guarding millions were cracked in 255 tries.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "Taps into the high-curiosity tech breakdown trend established by top tech creators like @thevarunmayya. Proven concept format showcasing breakthrough open-source AI capabilities for builders and developers.",
+    "score": "HIGH",
+    "reasoning": "Directly modeled on @thevarunmayya's viral cybersecurity breakdown covering the eMudhra TLS vulnerability. Combines national interest with technical intrigue to trigger massive top-of-funnel reach.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DexKcYsTjRv/"
+  },
+  {
+    "rank": 3,
+    "title": "Reverse-Engineering Competitor Mobile Apps Using REA",
+    "hook": "There is a GitHub tool with 130,000 stars that lets Claude read compiled binary APKs and rebuild the frontend logic in minutes.",
+    "format": "Reel",
+    "score": "HIGH",
+    "reasoning": "Leverages @thevarunmayya's high-performing breakdown of the REA GitHub repository. High technical curiosity hook that appeals directly to developers and tech founders.",
     "niche": "AI",
     "sourceUrl": "https://www.instagram.com/p/DeZwKRBTGYN/"
   },
   {
-    "rank": 3,
-    "title": "Recover Permanently Deleted iPhone Photos with Claude Code",
-    "hook": "Deleted photos on your iPhone aren't actually gone—here is how to recover them using Claude Code.",
-    "format": "Reel",
-    "score": "LOW",
-    "reasoning": "Combines consumer digital privacy curiosity with developer-grade terminal utilities. Source concept from @arshman creates strong hook tension while introducing Claude Code to a broader audience.",
-    "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DfMAtNJOTLT/"
-  },
-  {
     "rank": 4,
-    "title": "Stop Making Ugly AI Websites with Together AI's Hallmark Skill",
-    "hook": "Stop building websites that look AI-coded—this open-source skill fixes your design automatically.",
+    "title": "Turn Your Slow ₹15,000 Smart TV into an Apple TV Speed Monster",
+    "hook": "My cheap Android TV used to stutter every 5 seconds. In 10 minutes using ADB debugging, I wiped all the telemetry bloatware for good.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "Directly addresses the rising backlash against generic vibe-coded AI web design templates. Originally demonstrated by @nick_saraev, this gives @garvit.irl a fresh, actionable workflow angle.",
+    "score": "HIGH",
+    "reasoning": "Replicates @vaibhavsisinty's viral smart TV optimization reel with step-by-step tech execution. Provides high utility and high save rates for cost-conscious Indian consumers.",
     "niche": "AI",
-    "sourceUrl": "https://www.instagram.com/p/DfUtovOvQ8U/"
+    "sourceUrl": "https://www.instagram.com/p/DfB6bWeA0s_/"
   },
   {
     "rank": 5,
-    "title": "Make ₹50,000 Pitching AI Websites to Local Doctors",
-    "hook": "Can you make ₹50,000 by finding local businesses on Google Maps and building AI websites for them?",
+    "title": "How to Scrape 1,000 High-Intent B2B Leads From Google Maps in 10 Mins",
+    "hook": "Forget expensive ZoomInfo databases. Here's how to extract every verified phone number and email for dentists in Bangalore using an n8n webhook.",
     "format": "Reel",
-    "score": "LOW",
-    "reasoning": "Actionable local business monetization case study tailored for aspiring solopreneurs. Adapted from @dhavalkataria_'s proven business breakdown format, offering clear step-by-step ROI proof.",
-    "niche": "Entrepreneurship",
-    "sourceUrl": "https://www.instagram.com/p/Dbdacspojza/"
+    "score": "HIGH",
+    "reasoning": "Translates @favourite.engineer's Google Maps scraping workflow into a concrete B2B outreach pipeline. High save-to-share ratio among Indian freelancers and agency builders.",
+    "niche": "AI",
+    "sourceUrl": "https://www.instagram.com/p/DcvozN3zpw6/"
   }
 ]

@@ -1,81 +1,116 @@
 {
-  "fetched_at": "2026-11-08T03:31:38.400Z",
+  "fetched_at": "2026-11-09T03:31:58.809Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "score": 280,
+      "comments": 202,
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+    },
+    {
+      "source": "hackernews",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "score": 646,
+      "comments": 367,
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: How do you manage your AI agents' context across clients and projects?",
+      "score": 10,
+      "comments": 8,
+      "url": "https://news.ycombinator.com/item?id=50403153"
+    },
+    {
+      "source": "hackernews",
+      "title": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics",
+      "score": 33,
+      "comments": 3,
+      "url": "https://phys.org/news/2026-11-air-holes-silicon-wafers-flat.html"
+    },
+    {
+      "source": "hackernews",
+      "title": "How I Fight AI Brain Fry",
+      "score": 173,
+      "comments": 137,
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
+    },
+    {
+      "source": "hackernews",
+      "title": "Goodbye Claude, hello Pi",
+      "score": 711,
+      "comments": 441,
+      "url": "https://caleb.software/posts/claude-to-pi.html"
+    },
+    {
+      "source": "hackernews",
+      "title": "Edward Hopper's Iconic Painting, \"Nighthawks",
+      "score": 81,
+      "comments": 28,
+      "url": "https://lithub.com/the-story-behind-edward-hoppers-iconic-painting-nighthawks/"
+    },
+    {
+      "source": "hackernews",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "score": 219,
-      "comments": 146,
+      "score": 595,
+      "comments": 404,
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
-    },
-    {
-      "source": "hackernews",
-      "title": "Uranium cubes reveal why the German nuclear project failed",
-      "score": 80,
-      "comments": 45,
-      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/"
-    },
-    {
-      "source": "hackernews",
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "score": 417,
-      "comments": 244,
-      "url": "https://hunch.net/?p=13764006"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
-      "score": 28,
-      "comments": 13,
-      "url": "https://eyesrhythm.com/"
-    },
-    {
-      "source": "hackernews",
-      "title": "Running a law firm on Free software",
-      "score": 243,
-      "comments": 120,
-      "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "A phone that fixes brainrot?",
-      "channel": "ForgeCore",
-      "views": 6515372,
-      "likes": 61003,
-      "publishedAt": "2026-10-30T18:44:51Z",
-      "url": "https://www.youtube.com/watch?v=MOBZ8LqHMQE",
+      "title": "NVIDIA's 50-Pound GPU Monster Is Mind-Blowing 🤯 #nvidia #shorts",
+      "channel": "VisionX Lab",
+      "views": 5467657,
+      "likes": 143977,
+      "publishedAt": "2026-10-31T19:15:12Z",
+      "url": "https://www.youtube.com/watch?v=xTZolWPAXcE",
+      "tags": [
+        "nvidia",
+        "nvidia a100",
+        "a100 gpu",
+        "nvidia gpu",
+        "gpu board"
+      ],
+      "description": "Jensen Huang, NVIDIA's CEO, showcases one of the most incredible pieces of computer engineering ever built — the NVIDIA A100 system board! 🤯\n\nWeighin"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Phones Now VS Phones In 2050.",
+      "channel": "Ryan HD",
+      "views": 4672156,
+      "likes": 138415,
+      "publishedAt": "2026-11-04T18:08:41Z",
+      "url": "https://www.youtube.com/watch?v=1Hs03mhfZGE",
       "tags": [],
       "description": ""
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Light-Gun Aiming for Modern PC Games",
-      "channel": "Wonderism HQ",
-      "views": 3255079,
-      "likes": 46106,
-      "publishedAt": "2026-10-30T19:00:06Z",
-      "url": "https://www.youtube.com/watch?v=m2qAjFyN1VM",
+      "title": "Flexible Lenses You Can Use Whenever You Need",
+      "channel": "Neo Shorts",
+      "views": 4583681,
+      "likes": 116192,
+      "publishedAt": "2026-11-03T01:02:25Z",
+      "url": "https://www.youtube.com/watch?v=DlZ-5A-wlMA",
       "tags": [
-        "#shorts",
-        "#science",
-        "#education",
-        "#learn",
-        "#invention"
+        "shorts"
       ],
-      "description": "The XGUN controller has two grips that rotate, so it can switch from a normal gamepad into a shooting position. In gun mode, you aim by physically poi"
+      "description": "This flexible silicone lens is designed to turn ordinary eyewear into a prescription-friendly option without permanently modifying the original lenses"
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a",
       "channel": "Digital Doctor ",
-      "views": 2855661,
-      "likes": 102953,
+      "views": 3206758,
+      "likes": 115347,
       "publishedAt": "2026-11-04T01:28:07Z",
       "url": "https://www.youtube.com/watch?v=_uagLKJBn1g",
       "tags": [],
@@ -84,10 +119,46 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "How many folds can the iPhone Duo survive??",
+      "channel": "CarterPCs",
+      "views": 3153629,
+      "likes": 86166,
+      "publishedAt": "2026-11-08T05:36:52Z",
+      "url": "https://www.youtube.com/watch?v=UcoCbRRrBPM",
+      "tags": [],
+      "description": "How many folds can the iPhone Duo survive??\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Stop doing this to your PS5 #usa",
+      "channel": "TechLine",
+      "views": 2439279,
+      "likes": 46063,
+      "publishedAt": "2026-11-05T08:21:29Z",
+      "url": "https://www.youtube.com/watch?v=zaJOVcKWp2g",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Non Encrypted USB",
+      "channel": "UFD Tech",
+      "views": 1293908,
+      "likes": 48351,
+      "publishedAt": "2026-11-06T12:02:07Z",
+      "url": "https://www.youtube.com/watch?v=UMZuqtzBog4",
+      "tags": [],
+      "description": "Writer: Brett Stelmaszek\nEditor: Dawid Wilsnach\nMusic by: @UFD-Music\n\nThis is how people get hacked. When companies do diabolically crappy things like"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "What The Heck IS Xbox X BITE??!! 😱",
       "channel": "Gex RTX",
-      "views": 1053989,
-      "likes": 22185,
+      "views": 1209224,
+      "likes": 24876,
       "publishedAt": "2026-11-05T20:35:41Z",
       "url": "https://www.youtube.com/watch?v=VTkr2FAq1vM",
       "tags": [
@@ -98,48 +169,76 @@
         "CPU"
       ],
       "description": "What The Heck IS Xbox X BITE??!! 😱\n\nThis video is made purely for entertaining and educational purposes.\n\n#shorts  #xbox #xboxseriesx #xboxxbite #xbi"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Your Power Button Never Actually Turns Off #shorts",
+      "channel": "Perkyy",
+      "views": 1026731,
+      "likes": 48902,
+      "publishedAt": "2026-11-06T02:02:37Z",
+      "url": "https://www.youtube.com/watch?v=4YOsSWohtl0",
+      "tags": [
+        "perky",
+        "perkyy",
+        "Your Power Button Never Actually Turns Off"
+      ],
+      "description": "Your Power Button Never Actually Turns Off #shorts"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "GTA 6 ON PS5 PRO VS PS5 #shorts",
+      "channel": "jacobweeby",
+      "views": 437005,
+      "likes": 34443,
+      "publishedAt": "2026-11-08T23:59:48Z",
+      "url": "https://www.youtube.com/watch?v=51c4ujbbGxU",
+      "tags": [],
+      "description": "GTA 6 on PS5 Pro is NOT worth it 😂 \n\n#gta6 #ps5 #playstation #xboxseriesx #xbox #gaming #skit #fyp #funny #shorts"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
         "keyword": "AI workflow",
-        "trend_score": 95
-      },
-      {
-        "keyword": "self improvement",
         "trend_score": 87
       },
       {
-        "keyword": "AI tools",
+        "keyword": "self improvement",
         "trend_score": 83
       },
       {
-        "keyword": "solopreneur",
-        "trend_score": 82
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 77
-      },
-      {
         "keyword": "automation tools",
-        "trend_score": 74
+        "trend_score": 81
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 78
       },
       {
         "keyword": "AI for business",
-        "trend_score": 72
+        "trend_score": 76
+      },
+      {
+        "keyword": "solopreneur",
+        "trend_score": 76
       },
       {
         "keyword": "ChatGPT",
-        "trend_score": 69
+        "trend_score": 70
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 65
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 63
+        "trend_score": 55
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-08T03:31:38.400Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files\" — 219 pts\n• [HackerNews] \"Uranium cubes reveal why the German nuclear project failed\" — 80 pts\n• [HackerNews] \"The end of Microsoft Research's AI Frontiers group\" — 417 pts\n• [HackerNews] \"Show HN: An offline desktop companion to help maintain a healthy blink rhythm\" — 28 pts\n• [HackerNews] \"Running a law firm on Free software\" — 243 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"A phone that fixes brainrot?\" by ForgeCore — 6515k views\n• [YouTube Global] \"Light-Gun Aiming for Modern PC Games\" by Wonderism HQ — 3255k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 2856k views\n• [YouTube Global] \"What The Heck IS Xbox X BITE??!! 😱\" by Gex RTX — 1054k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 95), self improvement (score: 87), AI tools (score: 83), solopreneur (score: 82), productivity tools (score: 77), automation tools (score: 74), AI for business (score: 72), ChatGPT (score: 69), entrepreneur (score: 63)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-09T03:31:58.809Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Outlook.com Is Quietly Rejecting Email from Domains Without DMARC\" — 280 pts\n• [HackerNews] \"Goldman Sachs is pulling Claude Code from its bankers and traders\" — 646 pts\n• [HackerNews] \"Ask HN: How do you manage your AI agents' context across clients and projects?\" — 10 pts\n• [HackerNews] \"Air holes turn silicon wafers into flat UV focusing mirrors for compact optics\" — 33 pts\n• [HackerNews] \"How I Fight AI Brain Fry\" — 173 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"NVIDIA's 50-Pound GPU Monster Is Mind-Blowing 🤯 #nvidia #shorts\" by VisionX Lab — 5468k views\n• [YouTube Global] \"Phones Now VS Phones In 2050.\" by Ryan HD — 4672k views\n• [YouTube Global] \"Flexible Lenses You Can Use Whenever You Need\" by Neo Shorts — 4584k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 3207k views\n• [YouTube Global] \"How many folds can the iPhone Duo survive??\" by CarterPCs — 3154k views\n• [YouTube Global] \"Stop doing this to your PS5 #usa\" by TechLine — 2439k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 87), self improvement (score: 83), automation tools (score: 81), AI tools (score: 78), AI for business (score: 76), solopreneur (score: 76), ChatGPT (score: 70), productivity tools (score: 65), entrepreneur (score: 55)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

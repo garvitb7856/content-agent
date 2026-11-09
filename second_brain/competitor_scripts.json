@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T03:31:38.480Z",
+  "updated_at": "2026-11-09T03:31:58.870Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2679,8 +2679,44 @@
       "verdict": "medium",
       "transcribed_at": "2026-11-07T03:46:27.955Z",
       "scraped_at": "2026-11-08T03:31:38.472Z"
+    },
+    {
+      "id": "4021637665479688690_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DfPuiYyP4Hy/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "These are the top five AI plugins that you need to install on Claude Code right now.  The first is FreeLLMAPI, which gives your Claude Code over 7 billion free AI tokens from 600 AI models and automatically switches you to the next best model anytime your usage limit runs out.  The second is Lemo-Opuscar, which teaches your Claude Code to animate in over 60 different styles, so you can create these animated explainer videos that are going viral all over the internet right now.",
+      "full_script": "These are the top five AI plugins that you need to install on Claude Code right now. The first is FreeLLMAPI, which gives your Claude Code over 7 billion free AI tokens from 600 AI models and automatically switches you to the next best model anytime your usage limit runs out. The second is Lemo-Opuscar, which teaches your Claude Code to animate in over 60 different styles, so you can create these animated explainer videos that are going viral all over the internet right now. The third is Ponytail, which optimizes Claude Code's output, cutting down your usage by over 50% without losing any accuracy at all. The fourth is Agent Reach, which lets you scrape anything off the internet, even on gated platforms like LinkedIn, Instagram, X, and Reddit, without having to pay for anything. And the last is NVIDIA's SkillSpector. It's a free AI scanner that acts like an antivirus for your Claude skills and catches hidden malware before you install it. So if you want to try all these for yourselves, just comment \"Claude\" below and I'll send you the link directly.",
+      "full_caption": "Comment \"CLAUDE\" to get these 5 Free AI plugins and set up your Claude the right way.\n\nThese are the top 5 AI plugins you need to install in Claude right now.\n\nEach of them fixes a different problem.\n\nFirst is FreeLLMAPI, which gives your Claude Code over 7 billion free AI tokens from over 600 AI mo",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA + transformation",
+      "likes": 5007,
+      "comments": 6651,
+      "engagement_rate": 1.58,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-08T03:46:02.789Z",
+      "scraped_at": "2026-11-09T03:31:58.859Z"
+    },
+    {
+      "id": "4021530839734544670_59161778770",
+      "account": "@nivedan.ai",
+      "url": "https://www.instagram.com/p/DfPWP3jp-ke/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "A Chinese lab just destroyed Anthropic's entire business model and got over 90 million users overnight.  Even Elon Musk called their work impressive, and what they just dropped next is something nobody saw coming.  It's called Kimi K3.",
+      "full_script": "A Chinese lab just destroyed Anthropic's entire business model and got over 90 million users overnight. Even Elon Musk called their work impressive, and what they just dropped next is something nobody saw coming. It's called Kimi K3.1 Pro, the biggest open-source model with 3 trillion parameters and a 1 million token context window. It beats Fable 5.1 and GPT-6 Astra on major benchmarks, and even beats Claude Opus 5.5 at finance and Excel work. And in one update, it jumped from number 16 to number 4 on Code Arena, ahead of most top AI models. And while you're paying full price for Claude and ChatGPT, Kimi K3.1 Pro is completely open source, free for anyone to download and run. Someone used it to build a full AAA open-world game. Where game agencies spent years with thousands of developers, Kimi built it in 10 hours with just $38. Next, I built the same landing page on K3.1 Pro and Fable 5.1 side-by-side, and the website from Kimi still looked better and way cheaper. Now, open-source AI models aren't the cheap alternative anymore. Comment Kimi, and I'll DM you the link.",
+      "full_caption": "An open-source AI model that could challenge the biggest names in AI? 👀🔥\n\nMeet Kimi K3.1 Pro, a powerful model that claims a 3 trillion parameter architecture and a 1 million token context window. It reportedly performs strongly in coding, finance, and spreadsheet tasks, putting top AI models to t",
+      "script_source": "transcript",
+      "script_pattern": "numbered_steps + comment_CTA",
+      "likes": 4672,
+      "comments": 2342,
+      "engagement_rate": 1.26,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-08T03:52:32.022Z",
+      "scraped_at": "2026-11-09T03:31:58.865Z"
     }
   ],
-  "total": 160,
-  "transcript_based": 93
+  "total": 162,
+  "transcript_based": 95
 }
