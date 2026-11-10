@@ -1,102 +1,79 @@
 {
-  "fetched_at": "2026-11-09T03:31:58.809Z",
+  "fetched_at": "2026-11-10T03:31:39.098Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
-      "score": 280,
-      "comments": 202,
-      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "score": 251,
+      "comments": 626,
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
     },
     {
       "source": "hackernews",
-      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-      "score": 646,
-      "comments": 367,
-      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "score": 482,
+      "comments": 266,
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"
     },
     {
       "source": "hackernews",
-      "title": "Ask HN: How do you manage your AI agents' context across clients and projects?",
-      "score": 10,
-      "comments": 8,
-      "url": "https://news.ycombinator.com/item?id=50403153"
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "score": 877,
+      "comments": 141,
+      "url": "https://www.foldableflight.com"
     },
     {
       "source": "hackernews",
-      "title": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics",
-      "score": 33,
-      "comments": 3,
-      "url": "https://phys.org/news/2026-11-air-holes-silicon-wafers-flat.html"
+      "title": "The Race to Build a \"Find My\" for AI Chips",
+      "score": 9,
+      "comments": 1,
+      "url": "https://spectrum.ieee.org/find-my-ai-chip"
     },
     {
       "source": "hackernews",
-      "title": "How I Fight AI Brain Fry",
-      "score": 173,
-      "comments": 137,
-      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
+      "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+      "score": 286,
+      "comments": 185,
+      "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/"
     },
     {
       "source": "hackernews",
-      "title": "Goodbye Claude, hello Pi",
-      "score": 711,
-      "comments": 441,
-      "url": "https://caleb.software/posts/claude-to-pi.html"
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "score": 461,
+      "comments": 111,
+      "url": "https://github.com/thisisme6598/gemini_files/"
     },
     {
       "source": "hackernews",
-      "title": "Edward Hopper's Iconic Painting, \"Nighthawks",
-      "score": 81,
-      "comments": 28,
-      "url": "https://lithub.com/the-story-behind-edward-hoppers-iconic-painting-nighthawks/"
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "score": 301,
+      "comments": 226,
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
     },
     {
       "source": "hackernews",
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "score": 595,
-      "comments": 404,
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+      "title": "Y/N (YC S23) is hiring a growth lead to distribute superhuman A.I. storytelling",
+      "score": 1,
+      "comments": 0,
+      "url": "https://www.ycombinator.com/companies/yn/jobs/TjDn3YZ-founding-growth-marketer"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+      "score": 65,
+      "comments": 20,
+      "url": "https://github.com/Dodaios/ste80-humanizer"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "NVIDIA's 50-Pound GPU Monster Is Mind-Blowing 🤯 #nvidia #shorts",
-      "channel": "VisionX Lab",
-      "views": 5467657,
-      "likes": 143977,
-      "publishedAt": "2026-10-31T19:15:12Z",
-      "url": "https://www.youtube.com/watch?v=xTZolWPAXcE",
-      "tags": [
-        "nvidia",
-        "nvidia a100",
-        "a100 gpu",
-        "nvidia gpu",
-        "gpu board"
-      ],
-      "description": "Jensen Huang, NVIDIA's CEO, showcases one of the most incredible pieces of computer engineering ever built — the NVIDIA A100 system board! 🤯\n\nWeighin"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Phones Now VS Phones In 2050.",
-      "channel": "Ryan HD",
-      "views": 4672156,
-      "likes": 138415,
-      "publishedAt": "2026-11-04T18:08:41Z",
-      "url": "https://www.youtube.com/watch?v=1Hs03mhfZGE",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "Flexible Lenses You Can Use Whenever You Need",
       "channel": "Neo Shorts",
-      "views": 4583681,
-      "likes": 116192,
+      "views": 5384851,
+      "likes": 134836,
       "publishedAt": "2026-11-03T01:02:25Z",
       "url": "https://www.youtube.com/watch?v=DlZ-5A-wlMA",
       "tags": [
@@ -107,22 +84,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a",
-      "channel": "Digital Doctor ",
-      "views": 3206758,
-      "likes": 115347,
-      "publishedAt": "2026-11-04T01:28:07Z",
-      "url": "https://www.youtube.com/watch?v=_uagLKJBn1g",
+      "title": "Phones Now VS Phones In 2050.",
+      "channel": "Ryan HD",
+      "views": 5191252,
+      "likes": 151321,
+      "publishedAt": "2026-11-04T18:08:41Z",
+      "url": "https://www.youtube.com/watch?v=1Hs03mhfZGE",
       "tags": [],
-      "description": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your d"
+      "description": ""
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "How many folds can the iPhone Duo survive??",
       "channel": "CarterPCs",
-      "views": 3153629,
-      "likes": 86166,
+      "views": 4277570,
+      "likes": 108736,
       "publishedAt": "2026-11-08T05:36:52Z",
       "url": "https://www.youtube.com/watch?v=UcoCbRRrBPM",
       "tags": [],
@@ -131,10 +108,52 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a",
+      "channel": "Digital Doctor ",
+      "views": 3581369,
+      "likes": 126969,
+      "publishedAt": "2026-11-04T01:28:07Z",
+      "url": "https://www.youtube.com/watch?v=_uagLKJBn1g",
+      "tags": [],
+      "description": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your d"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "The Rarest GPU Ever Made 🤯 #nvidia #shorts",
+      "channel": "VisionX Lab",
+      "views": 3294847,
+      "likes": 87670,
+      "publishedAt": "2026-11-06T18:15:12Z",
+      "url": "https://www.youtube.com/watch?v=v3yS_mLzkVk",
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "Faker",
+        "RTX 5090",
+        "GeForce RTX 5090"
+      ],
+      "description": "NVIDIA CEO Jensen Huang just gifted esports legend Faker an incredibly rare GeForce RTX 5090! 🤯\n\nBut this isn't an ordinary graphics card. It's the o"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "GTA 6 ON PS5 PRO VS PS5 #shorts",
+      "channel": "jacobweeby",
+      "views": 3151433,
+      "likes": 143659,
+      "publishedAt": "2026-11-08T23:59:48Z",
+      "url": "https://www.youtube.com/watch?v=51c4ujbbGxU",
+      "tags": [],
+      "description": "GTA 6 on PS5 Pro is NOT worth it 😂 \n\n#gta6 #ps5 #playstation #xboxseriesx #xbox #gaming #skit #fyp #funny #shorts"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Stop doing this to your PS5 #usa",
       "channel": "TechLine",
-      "views": 2439279,
-      "likes": 46063,
+      "views": 2999083,
+      "likes": 55074,
       "publishedAt": "2026-11-05T08:21:29Z",
       "url": "https://www.youtube.com/watch?v=zaJOVcKWp2g",
       "tags": [],
@@ -143,40 +162,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Non Encrypted USB",
-      "channel": "UFD Tech",
-      "views": 1293908,
-      "likes": 48351,
-      "publishedAt": "2026-11-06T12:02:07Z",
-      "url": "https://www.youtube.com/watch?v=UMZuqtzBog4",
+      "title": "Easily the best GPU I’ve seen at the Thrift 😳🤯👀🥵🥶😏🔥 #thrift #computer #tech #gpu",
+      "channel": "computercloset",
+      "views": 1802163,
+      "likes": 68043,
+      "publishedAt": "2026-11-07T02:25:37Z",
+      "url": "https://www.youtube.com/watch?v=0SswhTvtQ0c",
       "tags": [],
-      "description": "Writer: Brett Stelmaszek\nEditor: Dawid Wilsnach\nMusic by: @UFD-Music\n\nThis is how people get hacked. When companies do diabolically crappy things like"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "What The Heck IS Xbox X BITE??!! 😱",
-      "channel": "Gex RTX",
-      "views": 1209224,
-      "likes": 24876,
-      "publishedAt": "2026-11-05T20:35:41Z",
-      "url": "https://www.youtube.com/watch?v=VTkr2FAq1vM",
-      "tags": [
-        "Computer",
-        "Pc",
-        "Tech",
-        "GPU",
-        "CPU"
-      ],
-      "description": "What The Heck IS Xbox X BITE??!! 😱\n\nThis video is made purely for entertaining and educational purposes.\n\n#shorts  #xbox #xboxseriesx #xboxxbite #xbi"
+      "description": ""
     },
     {
       "source": "youtube",
       "category": "Science & Tech",
       "title": "Your Power Button Never Actually Turns Off #shorts",
       "channel": "Perkyy",
-      "views": 1026731,
-      "likes": 48902,
+      "views": 1554454,
+      "likes": 72476,
       "publishedAt": "2026-11-06T02:02:37Z",
       "url": "https://www.youtube.com/watch?v=4YOsSWohtl0",
       "tags": [
@@ -189,56 +190,62 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "GTA 6 ON PS5 PRO VS PS5 #shorts",
-      "channel": "jacobweeby",
-      "views": 437005,
-      "likes": 34443,
-      "publishedAt": "2026-11-08T23:59:48Z",
-      "url": "https://www.youtube.com/watch?v=51c4ujbbGxU",
-      "tags": [],
-      "description": "GTA 6 on PS5 Pro is NOT worth it 😂 \n\n#gta6 #ps5 #playstation #xboxseriesx #xbox #gaming #skit #fyp #funny #shorts"
+      "title": "What The Heck IS Xbox X BITE??!! 😱",
+      "channel": "Gex RTX",
+      "views": 1266134,
+      "likes": 25855,
+      "publishedAt": "2026-11-05T20:35:41Z",
+      "url": "https://www.youtube.com/watch?v=VTkr2FAq1vM",
+      "tags": [
+        "Computer",
+        "Pc",
+        "Tech",
+        "GPU",
+        "CPU"
+      ],
+      "description": "What The Heck IS Xbox X BITE??!! 😱\n\nThis video is made purely for entertaining and educational purposes.\n\n#shorts  #xbox #xboxseriesx #xboxxbite #xbi"
     }
   ],
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "AI workflow",
-        "trend_score": 87
-      },
-      {
-        "keyword": "self improvement",
-        "trend_score": 83
+        "keyword": "solopreneur",
+        "trend_score": 89
       },
       {
         "keyword": "automation tools",
-        "trend_score": 81
+        "trend_score": 88
+      },
+      {
+        "keyword": "self improvement",
+        "trend_score": 87
       },
       {
         "keyword": "AI tools",
-        "trend_score": 78
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 76
-      },
-      {
-        "keyword": "solopreneur",
-        "trend_score": 76
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 70
+        "trend_score": 86
       },
       {
         "keyword": "productivity tools",
-        "trend_score": 65
+        "trend_score": 85
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 82
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 81
+      },
+      {
+        "keyword": "ChatGPT",
+        "trend_score": 80
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 55
+        "trend_score": 61
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-09T03:31:58.809Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Outlook.com Is Quietly Rejecting Email from Domains Without DMARC\" — 280 pts\n• [HackerNews] \"Goldman Sachs is pulling Claude Code from its bankers and traders\" — 646 pts\n• [HackerNews] \"Ask HN: How do you manage your AI agents' context across clients and projects?\" — 10 pts\n• [HackerNews] \"Air holes turn silicon wafers into flat UV focusing mirrors for compact optics\" — 33 pts\n• [HackerNews] \"How I Fight AI Brain Fry\" — 173 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"NVIDIA's 50-Pound GPU Monster Is Mind-Blowing 🤯 #nvidia #shorts\" by VisionX Lab — 5468k views\n• [YouTube Global] \"Phones Now VS Phones In 2050.\" by Ryan HD — 4672k views\n• [YouTube Global] \"Flexible Lenses You Can Use Whenever You Need\" by Neo Shorts — 4584k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 3207k views\n• [YouTube Global] \"How many folds can the iPhone Duo survive??\" by CarterPCs — 3154k views\n• [YouTube Global] \"Stop doing this to your PS5 #usa\" by TechLine — 2439k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nAI workflow (score: 87), self improvement (score: 83), automation tools (score: 81), AI tools (score: 78), AI for business (score: 76), solopreneur (score: 76), ChatGPT (score: 70), productivity tools (score: 65), entrepreneur (score: 55)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-10T03:31:39.098Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Claude Fable 5.2 and Mythos 5.2\" — 251 pts\n• [HackerNews] \"Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system\" — 482 pts\n• [HackerNews] \"Foldable Flight: The Best Paper Airplanes\" — 877 pts\n• [HackerNews] \"The Race to Build a \"Find My\" for AI Chips\" — 9 pts\n• [HackerNews] \"Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics\" — 286 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Flexible Lenses You Can Use Whenever You Need\" by Neo Shorts — 5385k views\n• [YouTube Global] \"Phones Now VS Phones In 2050.\" by Ryan HD — 5191k views\n• [YouTube Global] \"How many folds can the iPhone Duo survive??\" by CarterPCs — 4278k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 3581k views\n• [YouTube Global] \"The Rarest GPU Ever Made 🤯 #nvidia #shorts\" by VisionX Lab — 3295k views\n• [YouTube Global] \"GTA 6 ON PS5 PRO VS PS5 #shorts\" by jacobweeby — 3151k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nsolopreneur (score: 89), automation tools (score: 88), self improvement (score: 87), AI tools (score: 86), productivity tools (score: 85), AI workflow (score: 82), AI for business (score: 81), ChatGPT (score: 80), entrepreneur (score: 61)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }

@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-11-09",
-  "end_date": "2026-11-16",
+  "generated_on": "2026-11-10",
+  "end_date": "2026-11-17",
   "days": [
     {
       "day": 1,
-      "date": "2026-11-09",
-      "topic": "India’s eMudhra TLS Security Key Disaster Breakdown",
+      "date": "2026-11-10",
+      "topic": "How Indian local clinics lose ₹1 lakh monthly due to missing websites and how to pitch them using ChatGPT",
       "format": "Reel",
-      "post_time": "7:15 PM IST",
-      "hook": "India just suffered its worst cyber disaster over one key.",
+      "post_time": "7:00 PM IST",
+      "hook": "Can I fix local clinics using just Google Maps and ChatGPT?",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-11-10",
-      "topic": "5 Free GitHub Repos That Replace $1,000/Month AI Subscriptions",
+      "date": "2026-11-11",
+      "topic": "Step-by-step blueprint to build a fully automated n8n research agent for content creators in 35 minutes",
       "format": "Carousel",
-      "post_time": "6:45 PM IST",
-      "hook": "Stop paying for AI. These 5 free tools replace everything.",
+      "post_time": "6:30 PM IST",
+      "hook": "Stop spending hours researching. Let this free n8n agent do it.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-11-11",
-      "topic": "Building an Automated AI WhatsApp Lead Machine for Local Businesses",
+      "date": "2026-11-12",
+      "topic": "How digital forensics recover permanently deleted iPhone photos and how to check your device using Claude Code",
       "format": "Reel",
-      "post_time": "7:30 PM IST",
-      "hook": "Can AI book 20 gym clients in 24 hours automatically?",
+      "post_time": "8:00 PM IST",
+      "hook": "Deleted photos are never actually gone. Here is why.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-12",
-      "topic": "How to Scrape 1,000 Verified B2B Leads From Google Maps Using n8n",
+      "date": "2026-11-13",
+      "topic": "The top 5 GitHub repositories every Indian solopreneur needs to save over ₹80,000 in monthly SaaS fees",
       "format": "Carousel",
-      "post_time": "7:00 PM IST",
-      "hook": "Never buy B2B lead lists again. Do this on n8n.",
+      "post_time": "7:15 PM IST",
+      "hook": "Stop paying for these 5 AI tools. Use these free GitHub repos instead.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-13",
-      "topic": "How to Reverse-Engineer Competitor Apps Without Source Code Using REA",
+      "date": "2026-11-14",
+      "topic": "How to turn ChatGPT voice into a zero-cost conversational expense tracker for local shopkeepers and drivers",
       "format": "Reel",
-      "post_time": "6:30 PM IST",
-      "hook": "This free GitHub tool reverse-engineers any app in seconds.",
+      "post_time": "6:45 PM IST",
+      "hook": "I turned ChatGPT into a zero-cost business accountant.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-14",
-      "topic": "Kimi K3.1 Pro: The 3-Trillion Parameter Open-Source AI Model",
+      "date": "2026-11-15",
+      "topic": "The complete prompt engineering framework to turn your favorite Claude workflows into reusable custom skills",
       "format": "Carousel",
-      "post_time": "7:45 PM IST",
-      "hook": "China’s new open-source AI just destroyed Anthropic and OpenAI.",
+      "post_time": "7:30 PM IST",
+      "hook": "Stop typing the same prompts. Turn them into reusable Claude skills.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-15",
-      "topic": "Debloating & Speeding Up a ₹15,000 Android TV via ADB Tools",
+      "date": "2026-11-16",
+      "topic": "How open-source AI tools like REA let you reverse-engineer any popular SaaS app without knowing how to code",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Make your cheap ₹15,000 TV run like an Apple TV.",
+      "post_time": "6:30 PM IST",
+      "hook": "This free tool can reverse-engineer any app without code.",
       "status": "pending"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T03:33:30.545Z",
+  "updated_at": "2026-11-10T03:36:06.673Z",
   "script_type_performance": {
     "A": {
       "count": 0,
@@ -13,11 +13,11 @@
     },
     "C": {
       "count": 20,
-      "avgLikes": 167,
+      "avgLikes": 165,
       "label": "Completely original content"
     }
   },
-  "script_type_verdict": "Script type C (Completely original content) performs best with avg 167 likes. Type C: 20 posts, avg 167 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
+  "script_type_verdict": "Script type C (Completely original content) performs best with avg 165 likes. Type C: 20 posts, avg 165 likes | Type A: 0 posts, avg 0 likes | Type B: 0 posts, avg 0 likes",
   "your_viral_scripts": [
     {
       "postUrl": "https://www.instagram.com/p/3887473602081805309_65880404765/",
@@ -171,5 +171,90 @@
       "transcriptFull": "I applied to 518 jobs and got 28 interviews including Google. And this is how you can get a job with 100% guarantee. So I've been on both sides, hiring and getting hired at a Fortune 500 company and a Big Four. Trust me when I say, it actually works. There's a free Claude plugin on GitHub called Career-Ops that turns your entire job search into an automated system using connectors. So it evaluates each job against your actual experience, and scores each job through A and F. For every job worth your time and salary, it writes fully customized ATS friendly resume and a cover letter like for each job. Then it finds gaps between your resume and the job description and tells you exactly how to fix them before the interview. Also builds STAR stories mapped to that specific role for the interview. And on top of everything, it also writes outreach message to the hiring manager. And once you land the job offer, it gives you negotiation scripts with salary framework. So to set it up, go to this GitHub repo, download the zip file, link is in the comments. Then open Claude Cowork and upload the file in new plugins. To automate the job search, go to Apify and create a free account. Enable the LinkedIn Jobs Scraper actor, and then copy your API token. Then go back to Claude Cowork and install the Apify connector. Now simply drop your existing resume or tell Claude about your dream job, and it will do the rest for you. Because companies use AI to reject your resume in 6 seconds, it's about time you use AI to reject their job in 3 seconds. Share this with your friends who are looking for"
     }
   ],
-  "gemini_analysis": {}
+  "gemini_analysis": {
+    "garvit_speaking_style": {
+      "summary": "Garvit speaks with a fast-paced, high-energy, conversational 'insider friend' persona who cuts through corporate fluff. He switches fluidly between urgent English commands and relatable colloquial Hindi to deliver quick tech hacks and personal reflections.",
+      "sentence_structure": "Short, punchy hooks followed by fast, run-on explanatory sentences that pack high information density without unnecessary pauses.",
+      "language_mix": "Hinglish (approx. 60% conversational Hindi / 40% English tech terminology), naturally shifting into full English for technical terms and punchlines.",
+      "tone": "Casual, direct, rebel/underdog, and intensely practical.",
+      "pacing": "Fast pacing with dense information delivery and immediate on-screen proof points.",
+      "signature_phrases": [
+        "stop taking AI subscriptions right now",
+        "Look, here I can use",
+        "you need money to make money",
+        "This is Garvit, and you'll be seeing me again"
+      ],
+      "what_makes_it_work": "He frames advanced AI tech around Indian middle-class economic pain points (saving ₹5,000-₹6,000/month) rather than abstract enterprise jargon."
+    },
+    "garvit_writing_style": {
+      "summary": "Garvit operates almost entirely without long-form written captions, focusing his resources entirely on the spoken script and on-screen visuals. Captions are kept bare or omitted in favor of automated comment-to-DM funnels.",
+      "caption_structure": "Minimalist or empty; relies entirely on the reel audio and visual text-overlays to trigger comment engagement.",
+      "cta_patterns": [
+        "comment below free to get the link",
+        "Just comment '[KEYWORD]' and I'll send you the complete guide"
+      ],
+      "tone_vs_speaking": "While his spoken tone is raw, energetic, and expressive, his written presence on feeds is practically nonexistent, leaving a major missed opportunity for search SEO."
+    },
+    "competitor_speaking_patterns": {
+      "summary": "Top viral competitors (Varun Mayya, Aryaman Upmanyu, Arshman) use high-status social proof, tangible client case studies (e.g., Comet, Snitch, Google), and structured multi-step frameworks (e.g., 8 layers, 4-agent systems).",
+      "viral_hook_patterns": [
+        "High-Profile Client/Result Drop: 'We built this AI agent for [Viral Brand] and it sets a new benchmark...'",
+        "Outrageous Volume/Metric Claim: 'I applied to 518 jobs and got 28 interviews including Google...'",
+        "Ego Challenge / Pattern Interrupt: 'Stop pretending you know how to use Claude. Give me 60 seconds...'"
+      ],
+      "viral_body_structure": "Micro-modular walk-throughs using numbered layers, visual 'Picture this' storytelling scenarios, and explicit before-and-after business metrics (e.g., 30% to 80% cart recovery).",
+      "viral_cta_patterns": [
+        "comment [KEYWORD] below and I'll send you a proper instructions doc right away",
+        "comment [KEYWORD] and I'll send this entire workflow and its guide straight to your DM"
+      ],
+      "key_difference_from_garvit": "Competitors sell systems, commercial business ROI, and structured masterclasses, whereas Garvit primarily sells single-point hacks, free subscription workarounds, and personal underdog motivation."
+    },
+    "viral_own_script_analysis": [
+      {
+        "rank": 1,
+        "likes": 165,
+        "hook": "stop taking AI subscriptions right now ek Indian developer ne speed AI ko completely free kar diya hai jahan tum paanch ",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 20,
+        "body_structure": "Negative command -> Nationalist/relatable hero angle (Indian developer) -> Concrete financial pain point (saving ₹5,000-₹6,000) -> Technical validation (GitHub star counts, API explanation) -> DM lead magnet CTA.",
+        "cta": "comment below free to get the link",
+        "script_type": "C",
+        "what_made_it_viral": "Immediate monetary value proposition (saving real money) paired with the 'Indian developer open-sources it' pride trigger."
+      },
+      {
+        "rank": 2,
+        "likes": 165,
+        "hook": "Nobody should buy Claude subscriptions because I have found a way to use it for free. Look, here I can use all the top m",
+        "hook_type": "pattern_interrupt",
+        "hook_length_words": 22,
+        "body_structure": "Contrarian warning -> Immediate visual proof ('Look, here I can use...') -> High token utility flex (250k tokens free) -> Relatable creator bottleneck ('need money to make money') -> DM automation CTA.",
+        "cta": "Just comment \"Claude\" and I'll send you the complete guide to do",
+        "script_type": "C",
+        "what_made_it_viral": "Contrarian hook targeting a trending tool (Claude) combined with immediate on-screen proof within the first 4 seconds."
+      },
+      {
+        "rank": 3,
+        "likes": 165,
+        "hook": "Cristiano Ronaldo. In my mind, I'm always the best. King Kohli. I have to believe that I'm the best. Shah Rukh Khan. I a",
+        "hook_type": "story",
+        "hook_length_words": 24,
+        "body_structure": "Rapid multi-celebrity quote juxtaposition -> Contrasting viewer self-doubt -> Core psychological breakdown (subconscious programming) -> Historical authority proof (Bruce Lee) -> Affirmation takeaway.",
+        "cta": "None (narrative retention-based drop)",
+        "script_type": "C",
+        "what_made_it_viral": "Aggressive name-stacking of household icons (Ronaldo, Kohli, SRK) inside the first 3 seconds, instantly hijacking broad audience attention."
+      }
+    ],
+    "verdict": {
+      "whose_style_goes_viral": "Hybrid",
+      "reasoning": "Garvit's raw Hinglish delivery, high energy, and hyper-relatable money-saving framing resonate strongly with Indian students and budding builders. However, to scale past tool-hacks into high-authority viral tech content, he needs the competitors' structured architecture (numbered layers, client case studies, and systemic breakdowns) while keeping his relatable peer voice.",
+      "recommended_hook_structure": "[Negative Command / Stop Doing X in Hinglish] + [Massive Money/Time Saved] + ['Look here' instant screen proof within 3 seconds]",
+      "recommended_body_structure": "Show proof on screen immediately -> Break down the setup into exactly 3 rapid steps -> State the exact bottleneck it solves -> Pitch the automated DM guide.",
+      "recommended_cta_structure": "Comment '[SHORT_KEYWORD]' below aur main direct GitHub repo aur workflow guide tumhare DM mein bhej dunga.",
+      "avoid_these": [
+        "Vague self-reflective diary entries without clear tactical utility or entertainment value for tech audiences",
+        "Leaving caption areas completely empty instead of using 2-3 lines of keyword-rich context for Instagram SEO search",
+        "Getting bogged down in API disclaimers before showing the tangible 'free' outcome"
+      ]
+    }
+  }
 }
