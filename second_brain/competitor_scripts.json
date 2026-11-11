@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:31:39.163Z",
+  "updated_at": "2026-11-11T03:31:57.409Z",
   "scripts": [
     {
       "id": "3970889328451453070",
@@ -2715,8 +2715,44 @@
       "verdict": "medium",
       "transcribed_at": "2026-11-08T03:52:32.022Z",
       "scraped_at": "2026-11-09T03:31:58.865Z"
+    },
+    {
+      "id": "4024275303688631575_72269881052",
+      "account": "@nick_saraev",
+      "url": "https://www.instagram.com/p/DfZGREyvPUX/",
+      "topic": "Claude/AI Tools",
+      "format": "Video",
+      "spoken_hook": "Your Claude Code can now build full video games just like a real developer with one plug-in.  So someone on GitHub just created a repo that gives your coding agent 77 game dev skills for building full games in Unreal Engine, Unity, Godot, and even web games.  And you never even have to pick the skills yourself.",
+      "full_script": "Your Claude Code can now build full video games just like a real developer with one plug-in. So someone on GitHub just created a repo that gives your coding agent 77 game dev skills for building full games in Unreal Engine, Unity, Godot, and even web games. And you never even have to pick the skills yourself. You just describe what you're building and it'll pick the right skill for your own engine and task entirely on its own. It has skills for everything from player movement to platformer mechanics to dedicated art directions, so every game asset looks the exact same as it would in a real AAA studio developed game. And with all that you can build a full game from start to finish, then publish and even monetize it on the App Store or Steam. So if you want to try this for yourselves, just comment \"game\" down below, and I'll send you the link.",
+      "full_caption": "Comment \"GAME\" to get these Free AI Skills for Building Full Games with Claude Code.\n\nYour Claude Code can now build full video games like a real developer.\n\nAnd it only takes this one plugin.\n\nSomeone on GitHub created a repo that gives your coding agent 77 game dev skills.\n\nThat's a lot of experti",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3422,
+      "comments": 4071,
+      "engagement_rate": 1.02,
+      "verdict": "medium",
+      "transcribed_at": "2026-11-08T03:39:13.808Z",
+      "scraped_at": "2026-11-11T03:31:57.391Z"
+    },
+    {
+      "id": "4025823773596132063_1411361583",
+      "account": "@dhavalkataria_",
+      "url": "https://www.instagram.com/p/DfemWRxhSLf/",
+      "topic": "Monetization",
+      "format": "Video",
+      "spoken_hook": "If you are not making 2 lacs a month you should not be allowed to celebrate Diwali.  Reason one, fake dopamine.  Why are you bursting crackers or eating mithai, huh?",
+      "full_script": "If you are not making 2 lacs a month you should not be allowed to celebrate Diwali. Reason one, fake dopamine. Why are you bursting crackers or eating mithai, huh? Festivals give us a lot of dopamine which is not backed by any real achievement. Tumne poore saal kuch bhi nahi ukhada hai phir bhi tum maze kar rahe ho. Instead, make money, achieve your goals and then celebrate. Comment \"Diwali\" and I'll teach you how. Reason two, escapism. Poor people celebrate every festival the hardest. Why? Because their normal life is so bad ki har 15 din pe they have to celebrate the smallest festival just to feel a little bit happy. Instead, apna normal life hi itna better karo that you don't need to escape it. Reason three, compensation. You might be poor in real life, but Diwali ke 7 dino mein you feel like the king of the world. You spend a lot of money buying gold, gifts, phones, etc. This is called compensatory spending. And because of this fake rich feeling you don't feel bad about the fact that you haven't achieved your goals. It takes away all the motivation to work hard the next year. So have fun, but don't forget that you need to make more money. Comment \"Diwali\" if you wanna learn, and Happy Diwali.",
+      "full_caption": "Commeny “Diwali” to Make More Money \nHappy Diwali 🪔♥️",
+      "script_source": "transcript",
+      "script_pattern": "comment_CTA",
+      "likes": 3573,
+      "comments": 995,
+      "engagement_rate": 7.74,
+      "verdict": "viral",
+      "transcribed_at": "2026-11-10T04:45:01.884Z",
+      "scraped_at": "2026-11-11T03:31:57.406Z"
     }
   ],
-  "total": 162,
-  "transcript_based": 95
+  "total": 164,
+  "transcript_based": 97
 }

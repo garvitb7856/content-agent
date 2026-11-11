@@ -1,68 +1,68 @@
 {
-  "generated_on": "2026-11-10",
-  "end_date": "2026-11-17",
+  "generated_on": "2026-11-11",
+  "end_date": "2026-11-18",
   "days": [
     {
       "day": 1,
-      "date": "2026-11-10",
-      "topic": "How Indian local clinics lose ₹1 lakh monthly due to missing websites and how to pitch them using ChatGPT",
+      "date": "2026-11-11",
+      "topic": "Testing Raj Shamani’s ₹50,000/month local SEO & website building business idea",
       "format": "Reel",
-      "post_time": "7:00 PM IST",
-      "hook": "Can I fix local clinics using just Google Maps and ChatGPT?",
+      "post_time": "6:30 PM IST",
+      "hook": "I tested Raj Shamani's 50k business idea in India.",
       "status": "pending"
     },
     {
       "day": 2,
-      "date": "2026-11-11",
-      "topic": "Step-by-step blueprint to build a fully automated n8n research agent for content creators in 35 minutes",
+      "date": "2026-11-12",
+      "topic": "5 Free GitHub AI Repos that replace over $1,000/month in paid tools (REA, OpenCode, VoiceStudio, etc.)",
       "format": "Carousel",
-      "post_time": "6:30 PM IST",
-      "hook": "Stop spending hours researching. Let this free n8n agent do it.",
+      "post_time": "7:00 PM IST",
+      "hook": "5 free GitHub tools that replace expensive AI software.",
       "status": "pending"
     },
     {
       "day": 3,
-      "date": "2026-11-12",
-      "topic": "How digital forensics recover permanently deleted iPhone photos and how to check your device using Claude Code",
+      "date": "2026-11-13",
+      "topic": "The eMudhra security breakdown: How an Indian SSL certificate authority leaked private keys",
       "format": "Reel",
-      "post_time": "8:00 PM IST",
-      "hook": "Deleted photos are never actually gone. Here is why.",
+      "post_time": "7:30 PM IST",
+      "hook": "This is the scariest tech security failure in India.",
       "status": "pending"
     },
     {
       "day": 4,
-      "date": "2026-11-13",
-      "topic": "The top 5 GitHub repositories every Indian solopreneur needs to save over ₹80,000 in monthly SaaS fees",
+      "date": "2026-11-14",
+      "topic": "Step-by-step visual guide: Turn ChatGPT voice into an automated Hindi expense tracker",
       "format": "Carousel",
-      "post_time": "7:15 PM IST",
-      "hook": "Stop paying for these 5 AI tools. Use these free GitHub repos instead.",
+      "post_time": "6:45 PM IST",
+      "hook": "Turn your phone into an automatic expense tracker today.",
       "status": "pending"
     },
     {
       "day": 5,
-      "date": "2026-11-14",
-      "topic": "How to turn ChatGPT voice into a zero-cost conversational expense tracker for local shopkeepers and drivers",
+      "date": "2026-11-15",
+      "topic": "Claiming up to $500 in free monthly ChatGPT API credits for developers and agency owners",
       "format": "Reel",
-      "post_time": "6:45 PM IST",
-      "hook": "I turned ChatGPT into a zero-cost business accountant.",
+      "post_time": "8:00 PM IST",
+      "hook": "Stop paying for ChatGPT API credits. Claim this now.",
       "status": "pending"
     },
     {
       "day": 6,
-      "date": "2026-11-15",
-      "topic": "The complete prompt engineering framework to turn your favorite Claude workflows into reusable custom skills",
+      "date": "2026-11-16",
+      "topic": "Multi-AI Agent Orchestration Agencies: How to package and sell AI workforces to businesses",
       "format": "Carousel",
-      "post_time": "7:30 PM IST",
-      "hook": "Stop typing the same prompts. Turn them into reusable Claude skills.",
+      "post_time": "7:15 PM IST",
+      "hook": "The 20 billion dollar AI agency business model explained.",
       "status": "pending"
     },
     {
       "day": 7,
-      "date": "2026-11-16",
-      "topic": "How open-source AI tools like REA let you reverse-engineer any popular SaaS app without knowing how to code",
+      "date": "2026-11-17",
+      "topic": "How local Indian brands can turn a single product photo into a cinematic video ad using Runway",
       "format": "Reel",
       "post_time": "6:30 PM IST",
-      "hook": "This free tool can reverse-engineer any app without code.",
+      "hook": "How I created a luxury ad using one photo.",
       "status": "pending"
     }
   ]

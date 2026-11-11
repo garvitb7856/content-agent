@@ -1,129 +1,72 @@
 {
-  "fetched_at": "2026-11-10T03:31:39.098Z",
+  "fetched_at": "2026-11-11T03:31:57.339Z",
   "reddit": [],
   "hackernews": [
     {
       "source": "hackernews",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "score": 251,
-      "comments": 626,
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+      "score": 309,
+      "comments": 139,
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
     },
     {
       "source": "hackernews",
-      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-      "score": 482,
-      "comments": 266,
-      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "score": 322,
+      "comments": 182,
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
     },
     {
       "source": "hackernews",
-      "title": "Foldable Flight: The Best Paper Airplanes",
-      "score": 877,
-      "comments": 141,
-      "url": "https://www.foldableflight.com"
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "score": 284,
+      "comments": 87,
+      "url": "https://github.com/GoogleChrome/modern-web-guidance"
     },
     {
       "source": "hackernews",
-      "title": "The Race to Build a \"Find My\" for AI Chips",
-      "score": 9,
+      "title": "LLMs Play Zachtronics' TIS-100",
+      "score": 16,
       "comments": 1,
-      "url": "https://spectrum.ieee.org/find-my-ai-chip"
+      "url": "https://tis-100.wincon.dev/"
     },
     {
       "source": "hackernews",
-      "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
-      "score": 286,
-      "comments": 185,
-      "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/"
+      "title": "$30M Raised to Redo the CPU",
+      "score": 40,
+      "comments": 31,
+      "url": "https://tendrils.co/blog/2026-11-10/30m-raised"
     },
     {
       "source": "hackernews",
-      "title": "Google Gemini routes personal Drive files and emails to human annotators",
-      "score": 461,
-      "comments": 111,
-      "url": "https://github.com/thisisme6598/gemini_files/"
+      "title": "AI is an information gateway. Audiences still don't want it making their news",
+      "score": 17,
+      "comments": 9,
+      "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/"
     },
     {
       "source": "hackernews",
-      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
-      "score": 301,
-      "comments": 226,
-      "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+      "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+      "score": 208,
+      "comments": 52,
+      "url": "https://tinyvalencia.com/"
     },
     {
       "source": "hackernews",
-      "title": "Y/N (YC S23) is hiring a growth lead to distribute superhuman A.I. storytelling",
-      "score": 1,
-      "comments": 0,
-      "url": "https://www.ycombinator.com/companies/yn/jobs/TjDn3YZ-founding-growth-marketer"
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
-      "score": 65,
-      "comments": 20,
-      "url": "https://github.com/Dodaios/ste80-humanizer"
+      "title": "AI usage generates a fragile codebase",
+      "score": 408,
+      "comments": 425,
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
     }
   ],
   "youtube": [
     {
       "source": "youtube",
       "category": "Science & Tech",
-      "title": "Flexible Lenses You Can Use Whenever You Need",
-      "channel": "Neo Shorts",
-      "views": 5384851,
-      "likes": 134836,
-      "publishedAt": "2026-11-03T01:02:25Z",
-      "url": "https://www.youtube.com/watch?v=DlZ-5A-wlMA",
-      "tags": [
-        "shorts"
-      ],
-      "description": "This flexible silicone lens is designed to turn ordinary eyewear into a prescription-friendly option without permanently modifying the original lenses"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "Phones Now VS Phones In 2050.",
-      "channel": "Ryan HD",
-      "views": 5191252,
-      "likes": 151321,
-      "publishedAt": "2026-11-04T18:08:41Z",
-      "url": "https://www.youtube.com/watch?v=1Hs03mhfZGE",
-      "tags": [],
-      "description": ""
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "How many folds can the iPhone Duo survive??",
-      "channel": "CarterPCs",
-      "views": 4277570,
-      "likes": 108736,
-      "publishedAt": "2026-11-08T05:36:52Z",
-      "url": "https://www.youtube.com/watch?v=UcoCbRRrBPM",
-      "tags": [],
-      "description": "How many folds can the iPhone Duo survive??\n\n#carterpcs #tech #gaming"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
-      "title": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a",
-      "channel": "Digital Doctor ",
-      "views": 3581369,
-      "likes": 126969,
-      "publishedAt": "2026-11-04T01:28:07Z",
-      "url": "https://www.youtube.com/watch?v=_uagLKJBn1g",
-      "tags": [],
-      "description": "🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring your d"
-    },
-    {
-      "source": "youtube",
-      "category": "Science & Tech",
       "title": "The Rarest GPU Ever Made 🤯 #nvidia #shorts",
       "channel": "VisionX Lab",
-      "views": 3294847,
-      "likes": 87670,
+      "views": 6089593,
+      "likes": 162788,
       "publishedAt": "2026-11-06T18:15:12Z",
       "url": "https://www.youtube.com/watch?v=v3yS_mLzkVk",
       "tags": [
@@ -138,10 +81,36 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "Phones Now VS Phones In 2050.",
+      "channel": "Ryan HD",
+      "views": 5792445,
+      "likes": 165105,
+      "publishedAt": "2026-11-04T18:08:41Z",
+      "url": "https://www.youtube.com/watch?v=1Hs03mhfZGE",
+      "tags": [],
+      "description": ""
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
+      "title": "Flexible Lenses You Can Use Whenever You Need",
+      "channel": "Neo Shorts",
+      "views": 5594996,
+      "likes": 139969,
+      "publishedAt": "2026-11-03T01:02:25Z",
+      "url": "https://www.youtube.com/watch?v=DlZ-5A-wlMA",
+      "tags": [
+        "shorts"
+      ],
+      "description": "This flexible silicone lens is designed to turn ordinary eyewear into a prescription-friendly option without permanently modifying the original lenses"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "GTA 6 ON PS5 PRO VS PS5 #shorts",
       "channel": "jacobweeby",
-      "views": 3151433,
-      "likes": 143659,
+      "views": 4331754,
+      "likes": 182016,
       "publishedAt": "2026-11-08T23:59:48Z",
       "url": "https://www.youtube.com/watch?v=51c4ujbbGxU",
       "tags": [],
@@ -150,10 +119,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "My RAM stick microphone..",
+      "channel": "CarterPCs",
+      "views": 3876637,
+      "likes": 157996,
+      "publishedAt": "2026-11-10T05:37:00Z",
+      "url": "https://www.youtube.com/watch?v=vHORf5coOQs",
+      "tags": [],
+      "description": "My RAM stick microphone..\n\n#carterpcs #tech #gaming"
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "Stop doing this to your PS5 #usa",
       "channel": "TechLine",
-      "views": 2999083,
-      "likes": 55074,
+      "views": 3383362,
+      "likes": 60395,
       "publishedAt": "2026-11-05T08:21:29Z",
       "url": "https://www.youtube.com/watch?v=zaJOVcKWp2g",
       "tags": [],
@@ -164,8 +145,8 @@
       "category": "Science & Tech",
       "title": "Easily the best GPU I’ve seen at the Thrift 😳🤯👀🥵🥶😏🔥 #thrift #computer #tech #gpu",
       "channel": "computercloset",
-      "views": 1802163,
-      "likes": 68043,
+      "views": 2087149,
+      "likes": 76550,
       "publishedAt": "2026-11-07T02:25:37Z",
       "url": "https://www.youtube.com/watch?v=0SswhTvtQ0c",
       "tags": [],
@@ -176,8 +157,8 @@
       "category": "Science & Tech",
       "title": "Your Power Button Never Actually Turns Off #shorts",
       "channel": "Perkyy",
-      "views": 1554454,
-      "likes": 72476,
+      "views": 1897978,
+      "likes": 88720,
       "publishedAt": "2026-11-06T02:02:37Z",
       "url": "https://www.youtube.com/watch?v=4YOsSWohtl0",
       "tags": [
@@ -190,10 +171,22 @@
     {
       "source": "youtube",
       "category": "Science & Tech",
+      "title": "🚨 INSANE LINE 15 MINUTES BEFORE CLOSE!!! Are you having a tech problem? We accept mail ins! We have",
+      "channel": "Digital Doctor ",
+      "views": 1484960,
+      "likes": 77095,
+      "publishedAt": "2026-11-09T02:19:04Z",
+      "url": "https://www.youtube.com/watch?v=T0AZDS7J7pM",
+      "tags": [],
+      "description": "🚨 INSANE LINE 15 MINUTES BEFORE CLOSE!!! Are you having a tech problem? We accept mail ins! We have a Mail-In Link that’s in our bio and we’ll bring "
+    },
+    {
+      "source": "youtube",
+      "category": "Science & Tech",
       "title": "What The Heck IS Xbox X BITE??!! 😱",
       "channel": "Gex RTX",
-      "views": 1266134,
-      "likes": 25855,
+      "views": 1278725,
+      "likes": 26121,
       "publishedAt": "2026-11-05T20:35:41Z",
       "url": "https://www.youtube.com/watch?v=VTkr2FAq1vM",
       "tags": [
@@ -209,43 +202,43 @@
   "google_trends": {
     "keyword_trends": [
       {
-        "keyword": "solopreneur",
-        "trend_score": 89
-      },
-      {
-        "keyword": "automation tools",
-        "trend_score": 88
+        "keyword": "ChatGPT",
+        "trend_score": 96
       },
       {
         "keyword": "self improvement",
-        "trend_score": 87
+        "trend_score": 92
       },
       {
-        "keyword": "AI tools",
-        "trend_score": 86
-      },
-      {
-        "keyword": "productivity tools",
-        "trend_score": 85
-      },
-      {
-        "keyword": "AI workflow",
-        "trend_score": 82
-      },
-      {
-        "keyword": "AI for business",
-        "trend_score": 81
-      },
-      {
-        "keyword": "ChatGPT",
-        "trend_score": 80
+        "keyword": "solopreneur",
+        "trend_score": 90
       },
       {
         "keyword": "entrepreneur",
-        "trend_score": 61
+        "trend_score": 88
+      },
+      {
+        "keyword": "AI tools",
+        "trend_score": 87
+      },
+      {
+        "keyword": "productivity tools",
+        "trend_score": 82
+      },
+      {
+        "keyword": "automation tools",
+        "trend_score": 80
+      },
+      {
+        "keyword": "AI workflow",
+        "trend_score": 76
+      },
+      {
+        "keyword": "AI for business",
+        "trend_score": 73
       }
     ],
     "daily_trending": []
   },
-  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-10T03:31:39.098Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"Claude Fable 5.2 and Mythos 5.2\" — 251 pts\n• [HackerNews] \"Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system\" — 482 pts\n• [HackerNews] \"Foldable Flight: The Best Paper Airplanes\" — 877 pts\n• [HackerNews] \"The Race to Build a \"Find My\" for AI Chips\" — 9 pts\n• [HackerNews] \"Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics\" — 286 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"Flexible Lenses You Can Use Whenever You Need\" by Neo Shorts — 5385k views\n• [YouTube Global] \"Phones Now VS Phones In 2050.\" by Ryan HD — 5191k views\n• [YouTube Global] \"How many folds can the iPhone Duo survive??\" by CarterPCs — 4278k views\n• [YouTube Global] \"🚨EMERGENCY REPAIR ON MY DAY OFFF!! Are you having a tech problem? We accept mail ins! We have a\" by Digital Doctor  — 3581k views\n• [YouTube Global] \"The Rarest GPU Ever Made 🤯 #nvidia #shorts\" by VisionX Lab — 3295k views\n• [YouTube Global] \"GTA 6 ON PS5 PRO VS PS5 #shorts\" by jacobweeby — 3151k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nsolopreneur (score: 89), automation tools (score: 88), self improvement (score: 87), AI tools (score: 86), productivity tools (score: 85), AI workflow (score: 82), AI for business (score: 81), ChatGPT (score: 80), entrepreneur (score: 61)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
+  "ideator_context": "REAL-TIME GLOBAL TREND INTELLIGENCE (fetched 2026-11-11T03:31:57.339Z):\nNiche: AI + Automation + Tech + Entrepreneurship + Self-Growth + AI for Professionals & Businesses\n\nREDDIT TRENDING (global communities):\nNo data\n\nHACKER NEWS TOP (niche-filtered):\n• [HackerNews] \"After 7 months, Glasswing overwelms maintainers with underwhelming findings\" — 309 pts\n• [HackerNews] \"Synaptics patent claims stop work on DisplayLink drivers\" — 322 pts\n• [HackerNews] \"Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives\" — 284 pts\n• [HackerNews] \"LLMs Play Zachtronics' TIS-100\" — 16 pts\n• [HackerNews] \"$30M Raised to Redo the CPU\" — 40 pts\n\nYOUTUBE GLOBAL TRENDING (Science & Tech + Education & Self-Growth):\n• [YouTube Global] \"The Rarest GPU Ever Made 🤯 #nvidia #shorts\" by VisionX Lab — 6090k views\n• [YouTube Global] \"Phones Now VS Phones In 2050.\" by Ryan HD — 5792k views\n• [YouTube Global] \"Flexible Lenses You Can Use Whenever You Need\" by Neo Shorts — 5595k views\n• [YouTube Global] \"GTA 6 ON PS5 PRO VS PS5 #shorts\" by jacobweeby — 4332k views\n• [YouTube Global] \"My RAM stick microphone..\" by CarterPCs — 3877k views\n• [YouTube Global] \"Stop doing this to your PS5 #usa\" by TechLine — 3383k views\n\nGOOGLE TRENDS GLOBAL — KEYWORD INTEREST (7 days):\nChatGPT (score: 96), self improvement (score: 92), solopreneur (score: 90), entrepreneur (score: 88), AI tools (score: 87), productivity tools (score: 82), automation tools (score: 80), AI workflow (score: 76), AI for business (score: 73)\n\nGOOGLE DAILY TRENDING (US — niche-filtered):\nNo data\n\nUse these trends to generate timely, globally-aware ideas that you can present to your Indian audience first. You are the bridge between global AI/tech/entrepreneurship trends and Indian creators."
 }
