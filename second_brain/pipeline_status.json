@@ -1,13 +1,13 @@
 {
-  "run_started": "2026-11-13T03:31:10.754Z",
-  "run_finished": "2026-11-13T03:31:11.020Z",
+  "run_started": "2026-11-14T03:31:13.163Z",
+  "run_finished": "2026-11-14T03:31:13.652Z",
   "overall": "failed",
   "steps": {
     "1__fetch_apify_data": {
       "status": "failed",
-      "startedAt": "2026-11-13T03:31:10.768Z",
+      "startedAt": "2026-11-14T03:31:13.182Z",
       "error": "Command failed: node scripts/fetch_data.js",
-      "finishedAt": "2026-11-13T03:31:11.019Z"
+      "finishedAt": "2026-11-14T03:31:13.652Z"
     }
   }
 }
